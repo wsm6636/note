@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-17T18:24
+updated: 2024-02-17T18:43
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -250,6 +250,7 @@ T 确定链的周期，
 ![image-20230715202159906](https://gcore.jsdelivr.net/gh/wsm6636/pic/202307211406834.png)
 
 这意味着 Prev(jl')和之前的所有作业都不属于 Jl(ji')。这意味着 <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307152044895.png" alt="image-20230715204416812" style="zoom:67%;" />, <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307211406459.png" alt="image-20230715204441620" style="zoom:67%;" /> 双重证明：<img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307152045482.png" alt="image-20230715204538410" style="zoom:67%;" /> <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307152048387.png" alt="image-20230715204830767" style="zoom:67%;" /> 可以以类似的方式进行，为简洁起见在此省略。
+> 证明作业对可以在另一个集合中找到
 
 **定义 6**.我们通过(14)的 $\mathbb{J'} _{i \blacktriangleright \ell}$ 或等价地通过(15)的 $\mathbb{J''} _{i \blacktriangleright \ell}$ 定义链 $\tau_{i \blacktriangleright \ell}$ 的作业的集合 $\mathbb{J} _{i \blacktriangleright \ell}$。
 
