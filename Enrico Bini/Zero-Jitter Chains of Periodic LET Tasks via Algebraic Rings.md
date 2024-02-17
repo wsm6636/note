@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-17T21:05
+updated: 2024-02-17T22:53
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -367,7 +367,7 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 
 这两个结果都是由下一个定理实现的，该定理处理等式(20)的每个工作变化部分![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171928896.png)
 
-**定理1**.设G=“=gcd(T1，T2).如果G>0，则
+**定理1**.设G=gcd(T1，T2).如果G>0，则
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171929221.png)
 有p1，p2，使得T1=p1G，T2=p2G，和φ1下式除以G的整商
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171930495.png)
@@ -378,13 +378,21 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 通过应用方程式(10)的性质。然后从(23)的φ1的定义
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171933816.png)
 下一步和最后一步是进一步简化上述方程的右侧。毫无疑问，![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171933583.png)
-因为$$0 <= \left \lfloor  -j1p1\right \rfloor_{p2} <= p2-1$$它也是0<=φ1<=p2-1从它的定义(23)和T2=p2G。我们考虑两个案例。![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171949708.png)然后，我们可以通过应用等式（六）的性质来去除$$\left \lfloor  \right \rfloor_{T2} $$算子。
+因为$0 <= \left \lfloor  -j1p1\right \rfloor_{p2} <= p2-1$ 它也是0<=φ1<=p2-1从它的定义(23)和T2=p2G。我们考虑两个案例。![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171949708.png)然后，我们可以通过应用等式（六）的性质来去除$$\left \lfloor  \right \rfloor_{T2} $$算子。
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171951036.png)
 
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171951150.png)
 然后，通过首先应用属性(5)来减去-T2，然后应用属性(6)来移除外部T2取模，我们发现
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171956624.png)
 最后一个等式成立，因为在第二种分析情况下，![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171957667.png)这两种情况的表达式与待证明的等式（22）的表达式一致。证明到此结束。
+总之，通过将(20)中的(22)替换为θw12(j1,\*)，即，其中我们强调：![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172224423.png)![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172225446.png)方程的这种新的表达方式。(24)使我们能够收紧(21)的界限。.
+**推论1**.设G=gcd(T1，T2).如果G>0，则![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172226397.png)证据。根据(11)的界限，表达式 $\left \lfloor  -j1p1\right \rfloor_{p2}$ 的界限为$0 <= \left \lfloor  -j1p1\right \rfloor_{p2} <= p2-1$。这意味着，通过定理1，![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172244185.png)现在将上面的界限代入(24)的θw12(j1,\*)的表达式，我们顺利地找到了(25)，然后得出了证明。
+推论1给出了θw12(j1,\*)的界。因此，自然的问题是这些上界和下界是否紧。下一个定理给出了一个肯定的答案，并且还给出了所有J1的写阶段的显式表达式。
+**定理2**.设G=gcd(T1，T2).如果G>0，则对任意k=0，.。。，p2-1![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172252278.png)其中φ1如(23)所示，$p^{-1}_1$表示p1在Z/p2Z上的乘法逆。
+
+
+
+
 
 
 
