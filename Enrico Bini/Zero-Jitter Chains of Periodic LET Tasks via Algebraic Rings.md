@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-17T19:35
+updated: 2024-02-17T19:57
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -378,7 +378,14 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 通过应用方程式(10)的性质。然后从(23)的φ1的定义
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171933816.png)
 下一步和最后一步是进一步简化上述方程的右侧。毫无疑问，![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171933583.png)
-因为
+因为$$0 <= \left \lfloor  -j1p1\right \rfloor_{p2} <= p2-1$$它也是0<=φ1<=p2-1从它的定义(23)和T2=p2G。我们考虑两个案例。![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171949708.png)然后，我们可以通过应用等式（六）的性质来去除$$\left \lfloor  \right \rfloor_{T2} $$算子。
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171951036.png)
+
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171951150.png)
+然后，通过首先应用属性(5)来减去-T2，然后应用属性(6)来移除外部T2取模，我们发现
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171956624.png)
+最后一个等式成立，因为在第二种分析情况下，![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171957667.png)这两种情况的表达式与待证明的等式（22）的表达式一致。证明到此结束。
+
 
 
 
