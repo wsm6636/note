@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-17T19:57
+updated: 2024-02-17T21:05
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -369,7 +369,7 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 
 **定理1**.设G=“=gcd(T1，T2).如果G>0，则
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171929221.png)
-有p1，p2，使得T1=p1G，T2=p2G，和φ1整数商的下列除以G
+有p1，p2，使得T1=p1G，T2=p2G，和φ1下式除以G的整商
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171930495.png)
 
 证据。当j1跨过Z时，(22)的量![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171928896.png)沿图2所示的“环”跳跃，其中表示T2-模代数环。
