@@ -1,0 +1,17 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "文本": "text",
+    "列表": "number",
+    "数字": "number",
+    "复选框": "checkbox",
+    "日期": "date",
+    "时间": "datetime",
+    "updated": "datetime",
+    "created": "datetime",
+    "看论文": "datetime",
+    "学英语": "datetime"
+  }
+}

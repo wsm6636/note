@@ -1,0 +1,23 @@
+{
+  "pluginList": [
+    "vran-dev/obsidian-emojio",
+    "vran-dev/obsidian-contribution-graph",
+    "Benature/obsidian-share-my-plugin-list",
+    "Benature/obsidian-metadata-icon"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "vran-dev/obsidian-contribution-graph",
+      "version": "0.8.0"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true
+}

@@ -1,0 +1,115 @@
+{
+  "widgets": [
+    {
+      "id": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab",
+      "name": "",
+      "createAt": "2024-02-17T04:55:00.936Z",
+      "updateAt": "2024-02-17T05:49:40.159Z",
+      "widget": {
+        "id": "b176ab66-74b6-441e-afa1-6d33e81ce204",
+        "type": "checkIn",
+        "titleAlign": "center",
+        "cellShape": "round",
+        "backgroundStyle": "card",
+        "maxWidthRatio": 100,
+        "tasks": [
+          {
+            "id": "0492119f-1964-4a64-a3b6-f5080ef80cbd",
+            "checkInRecordType": "task",
+            "tag": "#看论文",
+            "name": ""
+          },
+          {
+            "id": "c7afd94c-a866-485b-b24f-fe5928dde4c6",
+            "checkInRecordType": "task",
+            "tag": "#学英语",
+            "name": ""
+          }
+        ],
+        "backgroundColor": "#ffffff00"
+      },
+      "layout": {
+        "lg": {
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 0,
+          "i": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab",
+          "moved": false,
+          "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 1,
+          "w": 1,
+          "h": 6,
+          "i": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab"
+        }
+      }
+    },
+    {
+      "id": "d4ba3600-9567-4359-9cac-4b1121a0ccab",
+      "name": "",
+      "createAt": "2024-02-17T09:07:47.953Z",
+      "updateAt": "2024-02-17T09:07:47.953Z",
+      "widget": {
+        "id": "a7636b2f-2a66-489b-a620-072ff9cee650",
+        "type": "multi",
+        "titleAlign": "center",
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "3f4b9934-95f4-44a3-bf1c-681a202e054c",
+            "type": "countdown",
+            "titleAlign": "center",
+            "backgroundStyle": "card",
+            "maxWidthRatio": 100,
+            "repeatType": "none",
+            "showEndDateTime": true,
+            "endHour": 19,
+            "endMinute": 0,
+            "endSecond": 0,
+            "title": "开会",
+            "endYear": 2024,
+            "endMonth": 1,
+            "endDayOfMonth": 19,
+            "backgroundColor": "#ffffff00",
+            "fontColor": "#ddae8eff"
+          },
+          {
+            "id": "c69f54da-38d0-4199-8e01-70c85bec6724",
+            "type": "timing",
+            "titleAlign": "center",
+            "backgroundStyle": "card",
+            "maxWidthRatio": 100,
+            "showStartDateTime": true,
+            "timeTextPattern": "yMdHms",
+            "title": "💗",
+            "startDateTime": "2022-12-16 22:00:59",
+            "backgroundColor": "#ffffff00",
+            "fontColor": "#db92bcff"
+          }
+        ],
+        "layoutType": "flat"
+      },
+      "layout": {
+        "lg": {
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 6,
+          "i": "d4ba3600-9567-4359-9cac-4b1121a0ccab",
+          "moved": false,
+          "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 7,
+          "w": 1,
+          "h": 6,
+          "i": "d4ba3600-9567-4359-9cac-4b1121a0ccab"
+        }
+      }
+    }
+  ]
+}

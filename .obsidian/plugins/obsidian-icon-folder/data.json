@@ -1,0 +1,299 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiNewspaper",
+      "RiArticleFill",
+      "FarFileLines",
+      "TiNote",
+      "LiHome"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "icon": "FarFileLines",
+        "rule": "科技论文写作.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "TSN/ATS\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/cache\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/memory\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/bus\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/中断\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 5,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/锁\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 6,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "端到端\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 7,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/定时器\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 8,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "iousing\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 9,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "RTSS\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 10,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "RTCSA\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 11,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "RTC\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 12,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "rtbubbles\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 13,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "PREEMPT_RT\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 14,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "perf\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 15,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "litmus\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 16,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "LET\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 17,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "fastdds\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 18,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "因果链\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 19,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "山水清\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 20,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "塞尔达\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 21,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "教程\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 22,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 23,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "快速笔记OneNote": "TiNotebook",
+  "图": "TiPhoto",
+  "英语": "RiEnglishInput",
+  "Enrico Bini": "TiSchool",
+  "TSN": "RaWirelessSignal",
+  "wsm": "RiAdminLine",
+  "ppt": "FarFilePowerpoint",
+  "调度/定时器/多优先级硬件定时器专利.md": "FarFileLines",
+  "Mind": "RiMindMap",
+  "模板": "TiTemplate",
+  "调度": "LiTable",
+  "教程": "LiSettings",
+  "塞尔达": "RiSwitchFill",
+  "山水清": "FasWater",
+  "因果链": "RaChain",
+  "fastdds": "TiSend",
+  "LET": "FasTimeline",
+  "litmus": "LiLayoutTemplate",
+  "perf": "TiTools",
+  "PREEMPT_RT": "FabLinux",
+  "rtbubbles": "SiOpenproject",
+  "RTC": "TiReportAnalytics",
+  "RTCSA": "LiNewspaper",
+  "RTSS": "LiNewspaper",
+  "iousing": "TiReportAnalytics",
+  "调度/定时器": "LiTimer",
+  "端到端": "TiTimeline",
+  "调度/锁": "LiLock",
+  "调度/中断": "TiPageBreak",
+  "调度/bus": "LiBus",
+  "调度/memory": "BoBxMemoryCard",
+  "调度/cache": "LiComputer",
+  "TSN/ATS": "BoBxSync",
+  "调度/cache/cache 1.md": "FarFileLines",
+  "wsm/其他/科技论文写作.md": "FarFileLines",
+  "wsm/其他/十问.md": "FarFileLines",
+  "调度/定时器/减少定时器中断延时.md": "FarFileLines",
+  "调度/定时器/硬件化.md": "FarFileLines",
+  "调度/cache/Cache-aware response time analysis for real-time tasks with fixed preemption points.md": "FarFileLines",
+  "调度/基础知识.md": "TiNote",
+  "调度/实时调度理论.md": "FarFileLines",
+  "调度/linux内核中的调度.md": "FarFileLines",
+  "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md": "FarFileLines",
+  "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md": "FarFileLines",
+  "端到端/端到端.md": "TiNote",
+  "教程/配置zotero7.md": "TiNote",
+  "教程/远程开机_校园网环境_实验室主机配置.md": "TiNote",
+  "教程/远程控制_客户端配置.md": "TiNote",
+  "教程/ubuntu系统迁移.md": "TiNote",
+  "教程/Vmware Ubuntu虚拟机磁盘扩容方法.md": "TiNote",
+  "因果链/note.md": "TiNote",
+  "因果链/其他人的工作.md": "TiNote",
+  "山水清/原代码注释.md": "TiNote",
+  "因果链/基础知识.md": "TiNote",
+  "因果链/cause-effect chain.md": "TiNote",
+  "因果链/End-To-End Timing Analysis in ROS2.md": "FarFileLines",
+  "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md": "FarFileLines",
+  "因果链/Fixed-priority scheduling and controller co-design for time-sensitive networks.md": "FarFileLines",
+  "因果链/Hybrid Scheduling of Tasks and Messages for TSN-Based Avionics Systems.md": "FarFileLines",
+  "因果链/Injection Time Planning- Making CQF Practical in Time-Sensitive Networking.md": "FarFileLines",
+  "因果链/ITANS- Incremental Task and Network Scheduling for Time-Sensitive Networks.md": "FarFileLines",
+  "因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md": "FarFileLines",
+  "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md": "FarFileLines",
+  "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md": "FarFileLines",
+  "因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md": "FarFileLines",
+  "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md": "FarFileLines",
+  "Enrico Bini/Feedback-based resource management for multi-threaded applications.md": "FarFileLines",
+  "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md": "FarFileLines",
+  "fastdds/fastdds 笔记.md": "TiNote",
+  "fastdds/latency测试过程.md": "TiNote",
+  "fastdds/uprobe测试过程.md": "TiNote",
+  "iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md": "FarFileLines",
+  "LET/读写通信.md": "TiNote",
+  "LET/Efficient Run-Time Environments for System-Level LET Programming.md": "FarFileLines",
+  "LET/LET.md": "TiNote",
+  "litmus/imx6q移植——linux4.1.15.+litmus2016.1.md": "TiNote",
+  "litmus/litmus虚拟机qcow扩容.md": "TiNote",
+  "litmus/imx6q移植litmus用户库+trace工具.md": "TiNote",
+  "perf/perf.md": "TiNote",
+  "PREEMPT_RT/PREEMPT_RT.md": "TiNote",
+  "PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md": "FarFileLines",
+  "rtbubbles/jitter计算.md": "TiNote",
+  "rtbubbles/多任务实现思路.md": "TiNote",
+  "rtbubbles/cpuset.md": "TiNote",
+  "rtbubbles/cyclictes.md": "TiNote",
+  "RTC/RTC.md": "TiNote",
+  "RTC/Finitary Real-Time Calculus- Efficient Performance Analysis of Distributed Embedded Systems.md": "FarFileLines",
+  "RTCSA/LAG.md": "TiNote",
+  "RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md": "FarFileLines",
+  "RTSS/workshop.md": "RiArticleFill",
+  "DAC/ATS-workspace.md": "RiArticleFill",
+  "DAC": "LiNewspaper",
+  "DAC/方法-模型整理.md": "TiNote",
+  "RTCSA/QCH-workspace.md": "RiArticleFill",
+  "RTSS/评审意见精简.md": "TiNote",
+  "TSN/ATS/ATS.md": "TiNote",
+  "TSN/ATS/基础知识.md": "TiNote",
+  "TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md": "FarFileLines",
+  "模板/启动页.canvas": "LiHome",
+  "HOMEPAGE.canvas": "LiHome"
+}

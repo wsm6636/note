@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"2fd9f8eb88840410","type":"text","text":"# **HOMEPAGE**","x":-775,"y":-580,"width":1550,"height":80},
+		{"id":"5d483976aab9e536","type":"file","file":"模板/倒计时.md","subpath":"#^b6e6e7","x":-235,"y":-460,"width":400,"height":179},
+		{"id":"191a7870af7a2df5","type":"file","file":"模板/contributionGraph.md","subpath":"#^bd5a35","x":-775,"y":-240,"width":940,"height":820},
+		{"id":"1feb2bcbb98b2bb0","type":"text","text":"最近笔记\n\n```dataviewjs\nconst durNum = 3;\n\nconst dayMin = dv.date(\"now\").plus({days: -durNum});\n\nvar pages = dv.pages(`-\"笔记\\wsm\\日记\"`)\n\t.filter(p => p.file.mday > dayMin)\n\t.sort(p => -p.file.mtime);\n\nfunction processTitle(p) {\n\tlet mc_tag = \"💙 \" // created or modified\n\tif (p.file.mday.ts == p.file.cday.ts) {\n\t\tmc_tag = \"💜 \"\n\t}\n\tlet alias = p.file.name;\n\tif (p.aliases) {\n\t\talias = p.aliases[0];\n\t}else if (p.alias) {\n\t\talias = p.alias;\n\t}\n\tlet paths = p.file.path.split(\"/\");\n\tlet path = paths.length >= 2 ? paths[0] + \"/\" : \"\";\n\n\tlet tags = [];\n\tp.file.tags.forEach(t => {\n\t\t// let flag = true;\n\t\t// for (let i in tags) {\n\t\t// \tif (tags[i].startsWith(t)) {\n\t\t// \t\tflag = false;\n\t\t// \t\tbreak;\n\t\t// \t}\n\t\t// }\n\t\tif (tags.length == 0 || !tags[tags.length-1].startsWith(t+\"/\")) {\n\t\t\ttags.push(t);\n\t\t}\n\t});\n\n\tlet ret = `<span style=\"color:gray\">${mc_tag}</span>${path}[[${p.file.name}]]`;\n\tif (tags.length > 0) {\n\t\tret += `${tags.join(\", \")}`\n\t}\n\treturn ret;\n}\n\n// dv.el(\"h3\", `recent PAPERs (${durNum})`)\n// dv.el(\"div\", `in ${durNum} days:`)\ndv.table([\"Files\",\"创建时间\",\"修改时间\"],\n\tpages.map(p => [\n\t\tprocessTitle(p),p.file.cday,p.file.mday,\n\t\t// p.tags\n\t\t]\n\t)\n)\n```","x":205,"y":40,"width":570,"height":540},
+		{"id":"da09940623ecfea5","type":"file","file":"模板/进度条.md","subpath":"#^4f6078","x":-775,"y":-460,"width":515,"height":179},
+		{"id":"233ae255a19440be","type":"file","file":"模板/组合.md","subpath":"#^f47a38","x":205,"y":-460,"width":570,"height":179},
+		{"id":"a9fabb8921dd4f8d","type":"file","file":"模板/打卡.md","subpath":"#^379650","x":205,"y":-240,"width":570,"height":251}
+	],
+	"edges":[]
+}

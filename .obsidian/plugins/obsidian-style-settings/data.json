@@ -1,0 +1,13 @@
+{
+  "catppuccin-icon-styles@@ctp-icon-hide": true,
+  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": false,
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark": false,
+  "anuppuccin-theme-settings@@anp-collapse-folders": false,
+  "anuppuccin-theme-settings@@anp-file-icons": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-icon-folder-toggle": true,
+  "anuppuccin-theme-settings@@anp-file-icon-align": "0",
+  "anuppuccin-theme-settings@@anp-kanban-hide-card-menus": false,
+  "anuppuccin-theme-settings@@anp-highlight-custom": "anp-highlight-pink",
+  "catppuccin-interface-styles@@ctp-bold-folder-title": false
+}
