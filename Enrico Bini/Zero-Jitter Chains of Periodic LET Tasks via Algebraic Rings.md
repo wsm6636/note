@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-18T14:30
+updated: 2024-02-18T14:50
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -365,7 +365,7 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 θw12(j1，\*)的上界和下界可以是紧的，并且
 写入相移值θw12(j1，\*)的表达式可以反转，也就是说，对于任何可能的相移值θ，我们可以准确地确定所有j1，使得θw12(j1，\*)=θ，如果它们存在的话。
 
-这两个结果都是由下一个定理实现的，该定理处理等式(20)的每个工作变化部分![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171928896.png)
+这两个结果都是由下一个定理实现的，该定理处理等式(20)的每个工作变化部分![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171928896.png)![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181449216.png)
 
 **定理1**.设G=gcd(T1，T2).如果G>0，则
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402171929221.png)
@@ -391,7 +391,10 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 **定理2**.设G=gcd(T1，T2).如果G>0，则对任意k=0，.。。，p2-1![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172252278.png)其中φ1如(23)所示，$p^{-1}_1$表示p1在Z/p2Z上的乘法逆。
 证据。我们首先观察到，从G=gcd(T1，T2)的定义，我们有gcd(p1，p2)=1与T1=p1G和T2=p2G。因此，p1在环Z/p2Z上有乘法逆。现在，从j1=(φ1-k)p1-1我们发现
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181430401.png)
-
+并应用等式。(22)和θw12(j1,\*)的表达式(20)，我们立即发现(26)结束了证明。
+证明的定理提供了写入阶段化θw12(j1,\*)的显式表达式，并且更重要的是，它告诉写入阶段化采用任何给定值的索J1 ∈ J1=Z是什么。例如，在以下情况下分别采用最小和最大相位![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181444254.png)此外，它们分别等于(25)的下界和上界，因此(25)的界是紧的。
+在图2的示例中，我们有p2=5和p1=8，然后是p-11=2因为[8x2]5=[16]5=1。由于φ1=1，因此当![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181446854.png)而最大值出现在![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181446268.png)虽然τ12的两个连续作业的读取时刻之间的间隔始终等于T1，但写入时刻之间的间隔具有更复杂的表达式。![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181448295.png)**引理2**
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181450493.png)
 
 
 
