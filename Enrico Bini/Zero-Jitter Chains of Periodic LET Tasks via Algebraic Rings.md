@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-18T14:50
+updated: 2024-02-18T15:29
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -395,6 +395,24 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 证明的定理提供了写入阶段化θw12(j1,\*)的显式表达式，并且更重要的是，它告诉写入阶段化采用任何给定值的索J1 ∈ J1=Z是什么。例如，在以下情况下分别采用最小和最大相位![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181444254.png)此外，它们分别等于(25)的下界和上界，因此(25)的界是紧的。
 在图2的示例中，我们有p2=5和p1=8，然后是p-11=2因为[8x2]5=[16]5=1。由于φ1=1，因此当![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181446854.png)而最大值出现在![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181446268.png)虽然τ12的两个连续作业的读取时刻之间的间隔始终等于T1，但写入时刻之间的间隔具有更复杂的表达式。![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181448295.png)**引理2**
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181450493.png)
+证据。首先，从(24)的θw12(j1,\*)的表达式中，我们发现![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181503505.png)∆Wr12(j1,\*)中唯一依赖于J1的术语可以重写为![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181503882.png)现在我们更深入地研究量(\*)，也如图3所示。如果k≥t[p 1]p 2那么![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181510238.png)其中我们应用了第一个等式的性质(8)和(9)，以及性质(6)，因为k-t[p 1]p 2≥0对于第二个等式是适用的。如果改为k≤t[p 1]p 2-1，则![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181511602.png)通过替换这两个表达式，我们精确地找到了公式。(27)，这就结束了证明。
+从(27)的∆Wr12(j1,\*)，的表达式中不能立即看出，对于所有j1，∆Wr12(j1,\*)是T2的倍数，正如人们所预期的那样。下一个推论证实了这种直觉是正确的。
+**引理2**
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181512620.png)
+证据。通过利用公式(27)中的[]m的定义，可以很容易地证明这一推论，公式可以改写如下：![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181514615.png)对T1≥T2情况的分析表明，在调和情况下，所有这些结果都符合通常的直觉。如果T1是T2的整数倍，则G=gcd(T1，T2)=T2。依次为p2=1，意味着写入阶段化恒定等于θw12(j1，\*)=θ2w - Θ+[Θ]T2，并且两个连续写入之间的间隔也是恒定的并且等于T1。
+#### 5.1.1示例
+现在让我们通过一个例子来说明所得到的结果。我们考虑一对带参数的任务τ1和τ2
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181516535.png)
+这两个周期之间的最大公约数是G=gcd (16，10)=2，因此p1=8和p2=5分别为T1=p1G和T2=p2G。根据公式(17)和(23)，我们获得Θ=θ2r-θ1w=-17，φ1=1。图4中绘制了读取和写入时刻。这些相同的参数值可以在我们位于https://github.com/ebni/periodic-LET.的存储库中找到
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181518649.png)
+从T1≥T2开始，链T12的周期等于T1。此外，表1针对τ1的每个作业J1报告，
+- $\left \lfloor \phi_1 - j_1p_1  \right \rfloor _{p2} \in  Z/p2Z$的值，它是确定写入阶段化的每个作业的可变性的表达式，如(24)所示。我们提醒，这样的表达式可以被可视化为图2中所示的环上的位置，
+- 写入阶段化θw12(j1，\*)的作业(j1，\*)链τ12起源于τ1的作业J1，从其表达式(24)中找到，
+- 绝对写入时刻wr12(j1，\*)=j1T12+θw12(j1，\*)和
+- 分离∆wr12(j1，\*)到下一个写入时刻。
+如定理2中所述，当$\left \lfloor \phi_1 - j_1p_1  \right \rfloor _{p2} =0$时写入阶段化是最小的，当且仅当![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181525754.png)由于p-11在Z/p2Z=Z/5Z上的逆p-11是2。因此，具有最小θw12(j1，\*)的作业指标是J1=。，-8，-3,2,7，12，17，.。。在相同的变元下，当$\left \lfloor \phi_1 - j_1p_1  \right \rfloor _{p2} =p2-1$时，j1=-6,-1,4,9，写入相位́θw12(j1，\*)是最大的。
+
+
 
 
 

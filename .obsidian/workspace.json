@@ -36,9 +36,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ca6426d6f41d885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/周记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "模板/周记模板.md"
               }
             }
           },
@@ -134,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "模板/周记模板.md"
               }
             }
           },
@@ -146,8 +159,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "dbe74c464049a0d9",
@@ -178,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "模板/周记模板.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "模板/周记模板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -222,15 +234,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "0f2bb84f34dfcaa4",
+  "active": "5ca6426d6f41d885",
   "lastOpenFiles": [
+    "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "HOMEPAGE.canvas",
     "模板/计数.md",
     "模板/计数.md.baiduyun.uploading.cfg",
     "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
-    "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "desktop.ini",
-    "HOMEPAGE.canvas",
     "英语/雅思/剑雅真题5-17/完整版-2023年9-12月雅思口语新题库0925.pdf",
     "wsm/日记/2024-02-17-星期六.md",
     "wsm/日记/2024-02-16-星期五.md",
