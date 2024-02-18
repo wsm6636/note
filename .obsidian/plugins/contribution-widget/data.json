@@ -39,11 +39,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 1,
           "w": 1,
           "h": 6,
-          "i": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab"
+          "x": 0,
+          "y": 0,
+          "i": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab",
+          "moved": false,
+          "static": false
         }
       }
     },
@@ -103,11 +105,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 7,
           "w": 1,
           "h": 6,
-          "i": "d4ba3600-9567-4359-9cac-4b1121a0ccab"
+          "x": 0,
+          "y": 6,
+          "i": "d4ba3600-9567-4359-9cac-4b1121a0ccab",
+          "moved": false,
+          "static": false
         }
       }
     }

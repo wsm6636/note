@@ -15,6 +15,7 @@ dataSource:
   value: ""
   dateField:
     type: FILE_MTIME
+    value: updated
 fillTheScreen: true
 enableMainContainerShadow: false
 mainContainerStyle:
@@ -25,6 +26,7 @@ cellStyleRules:
     color: "#fedcdc"
     min: 1
     max: 2
+    text: ""
   - id: Lovely_b
     color: "#fdb8bf"
     min: 2
@@ -47,11 +49,11 @@ cellStyle:
 ^bd5a35
 ```contributionGraph
 title: ""
-graphType: month-track
-dateRangeValue: 6
-dateRangeType: LATEST_MONTH
+graphType: default
+dateRangeValue: 1
+dateRangeType: LATEST_YEAR
 startOfWeek: "0"
-showCellRuleIndicators: false
+showCellRuleIndicators: true
 titleStyle:
   textAlign: left
   fontSize: 16px
@@ -87,8 +89,8 @@ cellStyleRules:
     min: 5
     max: 9999
 cellStyle:
-  minWidth: 12px
-  minHeight: 12px
+  minWidth: 4px
+  minHeight: 4px
   borderRadius: ""
 
 ```

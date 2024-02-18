@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-18T15:29
+updated: 2024-02-18T18:12
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -411,8 +411,13 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 - 绝对写入时刻wr12(j1，\*)=j1T12+θw12(j1，\*)和
 - 分离∆wr12(j1，\*)到下一个写入时刻。
 如定理2中所述，当$\left \lfloor \phi_1 - j_1p_1  \right \rfloor _{p2} =0$时写入阶段化是最小的，当且仅当![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181525754.png)由于p-11在Z/p2Z=Z/5Z上的逆p-11是2。因此，具有最小θw12(j1，\*)的作业指标是J1=。，-8，-3,2,7，12，17，.。。在相同的变元下，当$\left \lfloor \phi_1 - j_1p_1  \right \rfloor _{p2} =p2-1$时，j1=-6,-1,4,9，写入相位́θw12(j1，\*)是最大的。
+最后，引理2允许我们解析地确定任意给定作业的两个连续写入的间隔∆wr12(j1，\*)。当$\left \lfloor \phi_1 - j_1p_1  \right \rfloor _{p2} \in \left \{ \left \lfloor p_1  \right \rfloor _{p2},...,p2-1 \right \}$ 等于{3，4}在我们的例子中，则̊∆wr12(j1，\*)等于它的较小值$\left \lfloor T1/T2  \right \rfloor T2$否则等于$\left \lceil T1/T2 \right \rceil T2$。在我们的示例中
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181752824.png)
 
-
+### 5.2 T2 ≥ T1
+我们现在假设T2 ≥ T1。本节模仿5.1中的相同步骤。因此，当一些细节不能增加讨论的价值时，我们可以省略它们。
+当T2 ≥ T1时，在τ2的任何一对连续读取时刻之间总是存在写入时刻wr1(j)。借用第4节的定义，这一事实正式地表示为![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181754962.png)它允许我们将J12通过等式(14)定义为![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181756424.png)其中Θ如前面（17）中所定义。此外，为了记住作业(j1，j2) ∈J12仅由j2标识，我们将它们写为(\*,j2)。
+现在旨在将链τ12描述为周期链，任意作业(\*,j2)∈J2的写入时刻的表达式![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181812621.png)
 
 
 
