@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-17T22:53
+updated: 2024-02-18T14:30
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -389,7 +389,8 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 **推论1**.设G=gcd(T1，T2).如果G>0，则![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172226397.png)证据。根据(11)的界限，表达式 $\left \lfloor  -j1p1\right \rfloor_{p2}$ 的界限为$0 <= \left \lfloor  -j1p1\right \rfloor_{p2} <= p2-1$。这意味着，通过定理1，![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172244185.png)现在将上面的界限代入(24)的θw12(j1,\*)的表达式，我们顺利地找到了(25)，然后得出了证明。
 推论1给出了θw12(j1,\*)的界。因此，自然的问题是这些上界和下界是否紧。下一个定理给出了一个肯定的答案，并且还给出了所有J1的写阶段的显式表达式。
 **定理2**.设G=gcd(T1，T2).如果G>0，则对任意k=0，.。。，p2-1![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402172252278.png)其中φ1如(23)所示，$p^{-1}_1$表示p1在Z/p2Z上的乘法逆。
-
+证据。我们首先观察到，从G=gcd(T1，T2)的定义，我们有gcd(p1，p2)=1与T1=p1G和T2=p2G。因此，p1在环Z/p2Z上有乘法逆。现在，从j1=(φ1-k)p1-1我们发现
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181430401.png)
 
 
 
