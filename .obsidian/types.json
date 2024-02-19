@@ -7,11 +7,12 @@
     "列表": "number",
     "数字": "text",
     "复选框": "checkbox",
-    "日期": "datetime",
+    "日期": "date",
     "时间": "date",
     "updated": "datetime",
     "created": "date",
     "看论文": "datetime",
-    "学英语": "datetime"
+    "学英语": "datetime",
+    "周记": "date"
   }
 }
