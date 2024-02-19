@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T14:06
-updated: 2024-02-18T18:12
+updated: 2024-02-18T19:50
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -417,7 +417,19 @@ Eq(4).的标准性质的模T2产生以下θw12（j 1，\*）的上下界
 ### 5.2 T2 ≥ T1
 我们现在假设T2 ≥ T1。本节模仿5.1中的相同步骤。因此，当一些细节不能增加讨论的价值时，我们可以省略它们。
 当T2 ≥ T1时，在τ2的任何一对连续读取时刻之间总是存在写入时刻wr1(j)。借用第4节的定义，这一事实正式地表示为![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181754962.png)它允许我们将J12通过等式(14)定义为![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181756424.png)其中Θ如前面（17）中所定义。此外，为了记住作业(j1，j2) ∈J12仅由j2标识，我们将它们写为(\*,j2)。
-现在旨在将链τ12描述为周期链，任意作业(\*,j2)∈J2的写入时刻的表达式![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181812621.png)
+现在旨在将链τ12描述为周期链，任意作业(\*,j2)∈J2的写入时刻的表达式![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181812621.png)作业(\*,j2)读取时刻被更多地涉及![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181936691.png)与作业相关的读取阶段化等于![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181936343.png)与第5.1节类似，如果gcd(T1，T2)>0，则下一个定理使我们能够找到θr12(\*,j2)的更紧密值。
+**定理3**.设G=gcd(T1，T2).如果G>0，则![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181939707.png)其中p1，p2使得T1=p1G，T2=p2G，和φ2被G整除![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181940208.png)证据通过进行以下替换![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181944251.png)(31)的表述与定理1的(22)表述相同。因此，该定理也成立。
+刚刚证明的定理允许我们为读取阶段化编写以下更紧凑的表达式![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181945490.png)并确定更严格的下界和上界。
+**推论3**.设G=gcd(T1，T2).如果G>0，则![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181946311.png)证明素描。结果是从公式到$\left \lfloor  j_2p_2+\phi_2 -  \right \rfloor _{p1}$的下界。(11)和θr12(\*,j2)的表达。(33)。
+按照5.1节的相同步骤，我们现在将Eq(33)的表达式“倒置”。明确地找出作业指数(33)，θr12(\*,j2)取任何给定值。
+**推论4**.设G=gcd(T1，T2).如果G>0，则对任意k=0，.。。，p1-1![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202402181950075.png)
+
+
+
+
+
+
+
 
 
 

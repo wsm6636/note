@@ -1,6 +1,6 @@
 ---
 created: 2023-11-17T21:02
-updated: 2024-02-13T22:40
+updated: 2024-02-18T23:13
 tags:
   - 笔记
   - 笔记/paper
@@ -278,11 +278,13 @@ We consider a task chain C consisting of a series of events $C=\{z, c_0, c_1, c_
 **定义1（任务链）：任务链C={z, c0，c1，c2，...，cn}满足：
 - 任务链C中的事件c0和cn只能是调度任务 $\tau_0$ and $\tau_n$,，即c0和cn只能存在于ECU上。
 - c0是一个ECU上的周期性调度任务$\tau_0$，且周期为T，用来定期捕捉外部事件z
+- 对于外部事件z，当且仅当其发生在CPU空闲时才有效。
 - 对于任意事件ci （1<i<n-1），可以是调度任务也可以是网络任务。
 - 不存在两个连续的事件ci和ci-1（1<i<n-1）为分别在不同ECU上执行的调度任务情况。在任务链上，不同ECU上执行的两个调度任务中间至少有一个网络任务作为连接。例如，ci-1和 ci+1为不同ECU上的调度任务，则ci为一个网络任务。**
 Definition 1 (Task Chain): a task chain C = {z, c0, c1, c2, ... , cn} are satisfied:
 - The events c0 and cn in the task chain C can only be scheduling tasks $\tau_0$ and $\tau_n$, i.e., c0 and cn can only exist on the ECU.
--  c0 is a periodic scheduling task $\tau_0$ on an ECU with period T that is used to periodically capture external events z
+-  c0 is a periodic scheduling task $\tau_0$ on an ECU with period T that is used to periodically capture external events z.
+- For external event z, it is valid when and only when it occurs when the CPU is idle.
 - For any event ci (1<i<n-1), it can be either a scheduling task or a network task.
 - There is no case where two consecutive events ci and ci-1 (1<i<n-1) are scheduling tasks executed on separate ECUs. In the task chain, there is at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci-1 and ci+1 are scheduling tasks on different ECUs, then ci is a network task.
 > 应在这里补一句假设，外部事件z在采样任务，释放的作业结束后，触发才有效
@@ -300,8 +302,8 @@ Definition 3 (Maximum reaction time): the maximum reaction time RT(c) of a task 
 **在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=3$。任务$\tau_0$的周期$T=6$。根据任务释放作业的情况我们可以进一步将任务链C表示为$C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。**
 In the figure, the task chain consists of external event z, three scheduling tasks, and two network tasks, denoted as $C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$. The scheduling tasks $\tau_0, \tau_1$, and $\tau_2$ are statically allocated to two different ECUs, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the task chain C can be further represented as $C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
 
-**在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到任务$J_0^2$的输入缓冲区$B_0$。在$t=10$时刻ECU1上的调度任务$J_0^2$结束并将更新后的数据写入任务$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2，并在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，处理外部事件z的任务链的反应时间为$R(C)=36-4=32$**
-At time $t=4$, an external event occurs and relevant initial data is written into the input buffer $B_0$ of task $J_0^2$. At time $t=10$, scheduling task $J_0^2$ on ECU1 finishes and updates the data, which is then written into the input buffer $B_1$ of task $J_1^1$. After task $J_1^1$ completes, the generated output starts to be transmitted through the network to ECU2. At time $t=17$, the output is enqueued and goes through the ATS shaping algorithm, and the entire data frame is finished at switch 1 at $t=21$. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding external event z is produced. As shown in the figure, the reaction time of the task chain handling external event z is $R(C) = 36-4 = 32$.
+**在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到任务$J_0^2$的输入缓冲区$B_0$。此时CPU空闲，外部事件z有效。在$t=10$时刻ECU1上的调度任务$J_0^2$结束并将更新后的数据写入任务$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2，并在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，处理外部事件z的任务链的反应时间为$R(C)=36-4=32$**
+At time $t=4$, an external event occurs and relevant initial data is written into the input buffer $B_0$ of task $J_0^2$. At this time the CPU is idle and the external event z is valid. At time $t=10$, scheduling task $J_0^2$ on ECU1 finishes and updates the data, which is then written into the input buffer $B_1$ of task $J_1^1$. After task $J_1^1$ completes, the generated output starts to be transmitted through the network to ECU2. At time $t=17$, the output is enqueued and goes through the ATS shaping algorithm, and the entire data frame is finished at switch 1 at $t=21$. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding external event z is produced. As shown in the figure, the reaction time of the task chain handling external event z is $R(C) = 36-4 = 32$.
 
 # maximum reaction time analysis
 > 资源服务曲线

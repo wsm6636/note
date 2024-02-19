@@ -8,7 +8,7 @@
     "数字": "number",
     "复选框": "checkbox",
     "日期": "date",
-    "时间": "datetime",
+    "时间": "date",
     "updated": "datetime",
     "created": "datetime",
     "看论文": "datetime",
