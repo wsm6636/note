@@ -6,5 +6,6 @@
   "newFileFolderPath": "/",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "promptDelete": false
 }
