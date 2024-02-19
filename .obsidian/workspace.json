@@ -30,15 +30,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
+                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -77,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Supporting end-to-end data propagation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -134,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -146,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "dbe74c464049a0d9",
@@ -177,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -222,8 +223,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3701c4dd2aef3791",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "因果链/cause-effect chain.md",
+    "TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
+    "TSN/ATS/ATS.md",
+    "TSN/ATS/基础知识.md",
+    "TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md",
+    "TSN/ATS/IEEE 802.1Qcr Asynchronous Traffic Shaping with Linux Traffic Control.md",
+    "因果链/note.md",
+    "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "RTSS/workshop.md",
     "DAC/ATS-workspace.md",
@@ -246,14 +255,6 @@
     "wsm/日记/2024-02-12.md",
     "模板/2022-0101.md",
     "wsm/日记/2024-02-18.md",
-    "wsm/周记/2024-02-26-W09.md",
-    "wsm/周记/2024-02-18-W08.md",
-    "wsm/日记/2024-02-16.md",
-    "wsm/日记/2024-02-17.md",
-    "wsm/日记/2024-02-15.md",
-    "wsm/日记/2024-02-13.md",
-    "LET/读写通信.md",
-    "rtbubbles/多任务实现思路.md",
     "wsm/日记/2024-02-15.md.nssyncsc",
     "ppt/pptC206.tmp",
     "ppt/ppt66DB.tmp",
