@@ -1,6 +1,6 @@
 ---
 created: 2023-12-28T22:10
-updated: 2024-02-13T22:38
+updated: 2024-02-27T15:17
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -16,7 +16,7 @@ tags:
 | Authors               | Ran Bi; Xinbin Liu; Jiankang Ren; Pengfei Wang; Huawei Lv; Guozhen Tan            |
 | Pub. date             | 2022-07-10                                                                        |
 | DOI                   | [10/gsfbs4](https://doi.org/10/gsfbs4)                                            |
-| Level                 | CCF A                                                                                  |
+| Level                 | CCF A                                                                             |
 # 摘要
 汽车系统经常受到对某些因果链的最大数据年龄的严格要求。本文提出了一种形式化分析因果链最大值数据年龄的有效方法。特别地，我们将链的最大数据年龄的边界问题解耦为链中连续的倒数数据传播实例的释放间隔的边界问题。由于问题的解耦，可以在多项式时间内有效地获得相对较紧的数据年龄上界。实验表明，该方法能够以较低的计算代价实现较高的分析精度。
 
