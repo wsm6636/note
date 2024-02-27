@@ -155,6 +155,43 @@
           "i": "97d8322c-752f-491d-bc01-834b526b8be3"
         }
       }
+    },
+    {
+      "id": "8a244b35-a748-4dee-9290-020e2a0ff483",
+      "name": "",
+      "createAt": "2024-02-27T14:29:52.341Z",
+      "updateAt": "2024-02-27T14:29:52.341Z",
+      "widget": {
+        "id": "3a588a3a-95de-410f-88af-2ec1ca751d59",
+        "type": "dateProgress",
+        "titleAlign": "center",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "card",
+        "showDateIndicator": true,
+        "showProgressIndicator": true,
+        "uiType": "bar",
+        "startDateTime": "2024-02-26 00:00:00",
+        "endDateTime": "2024-03-03 23:58:59",
+        "title": "本周剩余"
+      },
+      "layout": {
+        "lg": {
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 18,
+          "i": "8a244b35-a748-4dee-9290-020e2a0ff483",
+          "moved": false,
+          "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 19,
+          "w": 1,
+          "h": 6,
+          "i": "8a244b35-a748-4dee-9290-020e2a0ff483"
+        }
+      }
     }
   ]
 }
