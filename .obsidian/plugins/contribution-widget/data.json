@@ -114,6 +114,47 @@
           "static": false
         }
       }
+    },
+    {
+      "id": "97d8322c-752f-491d-bc01-834b526b8be3",
+      "name": "",
+      "createAt": "2024-02-27T12:48:26.888Z",
+      "updateAt": "2024-02-27T12:48:26.888Z",
+      "widget": {
+        "id": "e1b34665-e928-4c1d-ab68-8691f9ba9e4e",
+        "type": "clock",
+        "titleAlign": "center",
+        "maxWidthRatio": -1,
+        "maxHeight": 300,
+        "backgroundStyle": "none",
+        "clockOptions": {
+          "showTimeLabel": true,
+          "dialType": "none",
+          "showDateLabel": true,
+          "minuteHandColor": "#164ee6ff",
+          "hourHandColor": "#1e52b7ff"
+        },
+        "backgroundColor": "#82393900",
+        "fontColor": "#ffffffff"
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 13,
+          "w": 6,
+          "h": 6,
+          "i": "97d8322c-752f-491d-bc01-834b526b8be3"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 12,
+          "i": "97d8322c-752f-491d-bc01-834b526b8be3",
+          "moved": false,
+          "static": false
+        }
+      }
     }
   ]
 }

@@ -16,41 +16,52 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1927.5,
-                  "y": -1372.4583333333333,
-                  "zoom": -0.07086633071964465
+                  "x": -1930,
+                  "y": -620,
+                  "zoom": 0
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "0ba2dc0d08579178",
+            "id": "740831c95720e08a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAC/ATS-workspace.md",
+                "file": "模板/挂件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "86d50ea21f96794b",
+            "id": "47885af2075d369e",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-repository-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "20fa99c2746d9409",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAC/ATS-workspace.md",
+                "file": "wsm/日记/2024-02-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-02-27.md"
               }
             }
           },
@@ -146,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-02-27.md"
               }
             }
           },
@@ -158,8 +169,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "dbe74c464049a0d9",
@@ -190,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-02-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-02-27.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -234,17 +244,27 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "20fa99c2746d9409",
   "lastOpenFiles": [
-    "DAC/方法-模型整理.md",
     "HOMEPAGE.canvas",
-    "DAC/ATS-workspace.md",
+    "wsm/日记/2024-02-27.md",
+    "模板/挂件.md",
+    "模板/组合2.md",
+    "模板/组合3.md",
+    "模板/组合.md",
+    "模板/计数.md",
     "模板/倒计时.md",
+    "模板/进度条.md",
+    "模板/启动页模板.canvas",
     "模板/启动页.canvas",
+    "模板/启动页模板++.canvas",
+    "模板/自定义.md",
+    "模板/摘录.md",
+    "模板/contributionGraph.md",
+    "DAC/方法-模型整理.md",
+    "DAC/ATS-workspace.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
-    "模板/启动页模板++.canvas",
-    "模板/启动页模板.canvas",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md.baiduyun.uploading.cfg",
     "调度/定时器/多优先级硬件定时器专利.md.baiduyun.uploading.cfg",
     "调度/linux内核中的调度.md.baiduyun.uploading.cfg",
@@ -266,16 +286,6 @@
     "RTSS/workshop.md",
     "因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md",
     "wsm/未命名.canvas",
-    "wsm/未命名.md",
-    "模板/月复盘模板.md",
-    "模板/年复盘模板.md",
-    "模板/周记模板.md",
-    "wsm/周记/2024-02-19-W08.md",
-    "wsm/周记/2024-02-12-W07.md",
-    "wsm/周记/2024-02-12-07.md",
-    "wsm/日记/2024-02-19.md",
-    "wsm/日记/2024-02-20.md",
-    "wsm/日记/2024-02-12.md",
     "图/1.png",
     "未命名.canvas",
     "图/222 1.png",
