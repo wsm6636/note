@@ -16,24 +16,37 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1905,
-                  "y": -496.00000000000006,
-                  "zoom": -0.1294469688788765
+                  "x": -1871.741248550902,
+                  "y": -501.3053892122812,
+                  "zoom": -0.14523302912272143
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "3701c4dd2aef3791",
+            "id": "f4e12952f8048405",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
-                "mode": "preview",
+                "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+                "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ba2dc0d08579178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DAC/ATS-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -76,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Supporting end-to-end data propagation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319,
-    "collapsed": true
+    "width": 319
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,6 +237,21 @@
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "ppt/ppt4EED.tmp",
+    "ppt/pptC58D.tmp",
+    "ppt/ppt9B01.tmp",
+    "ppt/pptAA9A.tmp",
+    "ppt/ppt1C9E.tmp",
+    "ppt/pptA5CC.tmp",
+    "ppt/pptEF1F.tmp",
+    "ppt/ppt743B.tmp",
+    "HOMEPAGE.canvas",
+    "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "DAC/ATS-workspace.md",
+    "ppt/ppt6608.tmp",
+    "ppt/ppt2554.tmp",
+    "ppt/pptE11C.tmp",
+    "模板/日记模板.md",
     "因果链/cause-effect chain.md",
     "TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
     "TSN/ATS/ATS.md",
@@ -233,20 +260,14 @@
     "TSN/ATS/IEEE 802.1Qcr Asynchronous Traffic Shaping with Linux Traffic Control.md",
     "因果链/note.md",
     "端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
-    "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "RTSS/workshop.md",
-    "DAC/ATS-workspace.md",
     "DAC/方法-模型整理.md",
     "因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md",
-    "HOMEPAGE.canvas",
-    "wsm/年复盘",
     "wsm/未命名.canvas",
     "wsm/未命名.md",
-    "wsm/月复盘",
     "模板/月复盘模板.md",
     "模板/年复盘模板.md",
     "模板/周记模板.md",
-    "模板/日记模板.md",
     "wsm/周记/2024-02-19-W08.md",
     "wsm/周记/2024-02-12-W07.md",
     "wsm/周记/2024-02-12-07.md",
@@ -254,15 +275,6 @@
     "wsm/日记/2024-02-20.md",
     "wsm/日记/2024-02-12.md",
     "模板/2022-0101.md",
-    "wsm/日记/2024-02-18.md",
-    "wsm/日记/2024-02-15.md.nssyncsc",
-    "ppt/pptC206.tmp",
-    "ppt/ppt66DB.tmp",
-    "ppt/pptBB3B.tmp",
-    "ppt/ppt6DA9.tmp",
-    "ppt/~$20240218.pptx",
-    "ppt/20240218.pptx",
-    "ppt/1211 - 副本.pptx",
     "模板/启动页模板++.canvas",
     "模板/启动页模板.canvas",
     "模板/启动页.canvas",

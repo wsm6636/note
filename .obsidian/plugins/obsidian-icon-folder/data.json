@@ -285,7 +285,6 @@
   "RTC/Finitary Real-Time Calculus- Efficient Performance Analysis of Distributed Embedded Systems.md": "FarFileLines",
   "RTCSA/LAG.md": "TiNote",
   "RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md": "FarFileLines",
-  "RTSS/workshop.md": "RiArticleFill",
   "DAC/ATS-workspace.md": "RiArticleFill",
   "DAC": "LiNewspaper",
   "DAC/方法-模型整理.md": "TiNote",
@@ -294,5 +293,6 @@
   "TSN/ATS/ATS.md": "TiNote",
   "TSN/ATS/基础知识.md": "TiNote",
   "TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md": "FarFileLines",
-  "HOMEPAGE.canvas": "LiHome"
+  "HOMEPAGE.canvas": "LiHome",
+  "RTSS/workshop.md": "RiArticleFill"
 }
