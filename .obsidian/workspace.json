@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md"
               }
             }
           },
@@ -106,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md"
               }
             }
           },
@@ -159,8 +159,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "dbe74c464049a0d9",
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -235,22 +234,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "f4e12952f8048405",
   "lastOpenFiles": [
-    "ppt/ppt4EED.tmp",
-    "ppt/pptC58D.tmp",
-    "ppt/ppt9B01.tmp",
-    "ppt/pptAA9A.tmp",
-    "ppt/ppt1C9E.tmp",
-    "ppt/pptA5CC.tmp",
-    "ppt/pptEF1F.tmp",
-    "ppt/ppt743B.tmp",
+    "调度/定时器/多优先级硬件定时器专利.md.baiduyun.uploading.cfg",
+    "调度/linux内核中的调度.md.baiduyun.uploading.cfg",
+    "模板/月复盘模板.md.baiduyun.uploading.cfg",
+    "模板/日记模板.md.baiduyun.uploading.cfg",
+    "模板/打卡.md.baiduyun.uploading.cfg",
+    "模板/年复盘模板.md.baiduyun.uploading.cfg",
+    "模板/周记模板.md.baiduyun.uploading.cfg",
+    "模板/contributionGraph.md.baiduyun.uploading.cfg",
+    "wsm/周记/2024-02-12-07.md.baiduyun.uploading.cfg",
+    "ppt/0227.pptx.baiduyun.uploading.cfg",
+    "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "DAC/ATS-workspace.md",
-    "ppt/ppt6608.tmp",
-    "ppt/ppt2554.tmp",
-    "ppt/pptE11C.tmp",
     "模板/日记模板.md",
     "因果链/cause-effect chain.md",
     "TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
