@@ -23,22 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "9bd8a429ef1d4bd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -134,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -146,7 +132,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "dbe74c464049a0d9",
@@ -177,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -221,11 +208,20 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9bd8a429ef1d4bd9",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
+    "模板/日记模板.md.baiduyun.uploading.cfg",
+    "模板/挂件.md.baiduyun.uploading.cfg",
+    "模板/周记模板.md.baiduyun.uploading.cfg",
+    "模板/启动页模板++.canvas.baiduyun.uploading.cfg",
+    "模板/contributionGraph.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-02-27.md.baiduyun.uploading.cfg",
+    "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
+    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
+    "desktop.ini",
     "wsm/日记/2024-02-27.md",
     "wsm/周记/2024-02-26-W09.md",
+    "HOMEPAGE.canvas",
     "模板/周记模板.md",
     "模板/年复盘模板.md",
     "模板/月复盘模板.md",
@@ -246,16 +242,8 @@
     "DAC/方法-模型整理.md",
     "DAC/ATS-workspace.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md.baiduyun.uploading.cfg",
     "调度/定时器/多优先级硬件定时器专利.md.baiduyun.uploading.cfg",
-    "调度/linux内核中的调度.md.baiduyun.uploading.cfg",
-    "模板/月复盘模板.md.baiduyun.uploading.cfg",
-    "模板/日记模板.md.baiduyun.uploading.cfg",
-    "模板/打卡.md.baiduyun.uploading.cfg",
-    "模板/年复盘模板.md.baiduyun.uploading.cfg",
-    "模板/周记模板.md.baiduyun.uploading.cfg",
-    "模板/contributionGraph.md.baiduyun.uploading.cfg",
     "因果链/cause-effect chain.md",
     "TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
     "TSN/ATS/ATS.md",
