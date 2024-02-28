@@ -56,7 +56,7 @@ title: ""
 graphType: month-track
 dateRangeValue: 3
 dateRangeType: LATEST_MONTH
-startOfWeek: "0"
+startOfWeek: "1"
 showCellRuleIndicators: true
 titleStyle:
   textAlign: left
@@ -93,7 +93,7 @@ cellStyleRules:
     min: 5
     max: 9999
 cellStyle:
-  minWidth: 18px
+  minWidth: 15px
   minHeight: 14px
   borderRadius: ""
 

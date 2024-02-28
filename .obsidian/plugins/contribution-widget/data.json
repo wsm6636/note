@@ -1,55 +1,6 @@
 {
   "widgets": [
     {
-      "id": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab",
-      "name": "",
-      "createAt": "2024-02-17T04:55:00.936Z",
-      "updateAt": "2024-02-17T05:49:40.159Z",
-      "widget": {
-        "id": "b176ab66-74b6-441e-afa1-6d33e81ce204",
-        "type": "checkIn",
-        "titleAlign": "center",
-        "cellShape": "round",
-        "backgroundStyle": "card",
-        "maxWidthRatio": 100,
-        "tasks": [
-          {
-            "id": "0492119f-1964-4a64-a3b6-f5080ef80cbd",
-            "checkInRecordType": "task",
-            "tag": "#看论文",
-            "name": ""
-          },
-          {
-            "id": "c7afd94c-a866-485b-b24f-fe5928dde4c6",
-            "checkInRecordType": "task",
-            "tag": "#学英语",
-            "name": ""
-          }
-        ],
-        "backgroundColor": "#ffffff00"
-      },
-      "layout": {
-        "lg": {
-          "w": 6,
-          "h": 6,
-          "x": 0,
-          "y": 0,
-          "i": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab",
-          "moved": false,
-          "static": false
-        },
-        "xs": {
-          "w": 1,
-          "h": 6,
-          "x": 0,
-          "y": 0,
-          "i": "af65cd3e-54fc-4890-b21d-4cd11e6a62ab",
-          "moved": false,
-          "static": false
-        }
-      }
-    },
-    {
       "id": "d4ba3600-9567-4359-9cac-4b1121a0ccab",
       "name": "",
       "createAt": "2024-02-17T09:07:47.953Z",
@@ -99,7 +50,7 @@
           "w": 6,
           "h": 6,
           "x": 0,
-          "y": 6,
+          "y": 0,
           "i": "d4ba3600-9567-4359-9cac-4b1121a0ccab",
           "moved": false,
           "static": false
@@ -108,7 +59,7 @@
           "w": 1,
           "h": 6,
           "x": 0,
-          "y": 6,
+          "y": 0,
           "i": "d4ba3600-9567-4359-9cac-4b1121a0ccab",
           "moved": false,
           "static": false
@@ -142,7 +93,7 @@
           "w": 6,
           "h": 6,
           "x": 0,
-          "y": 12,
+          "y": 6,
           "i": "97d8322c-752f-491d-bc01-834b526b8be3",
           "moved": false,
           "static": false
@@ -151,7 +102,7 @@
           "w": 1,
           "h": 6,
           "x": 0,
-          "y": 12,
+          "y": 6,
           "i": "97d8322c-752f-491d-bc01-834b526b8be3",
           "moved": false,
           "static": false
@@ -181,7 +132,7 @@
           "w": 6,
           "h": 6,
           "x": 0,
-          "y": 18,
+          "y": 12,
           "i": "8a244b35-a748-4dee-9290-020e2a0ff483",
           "moved": false,
           "static": false
@@ -190,7 +141,7 @@
           "w": 1,
           "h": 6,
           "x": 0,
-          "y": 18,
+          "y": 12,
           "i": "8a244b35-a748-4dee-9290-020e2a0ff483",
           "moved": false,
           "static": false
@@ -201,26 +152,17 @@
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
       "name": "",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-02-28T07:57:32.820Z",
+      "updateAt": "2024-02-28T08:52:55.803Z",
       "widget": {
         "id": "0beb4e2e-f32e-4d3b-a560-2f4eac94f5a7",
         "type": "dataview",
         "titleAlign": "center",
-        "maxWidthRatio": -1,
-        "query": "// 日期格式化\nconst dateFormat = \"YYYY-MM-DD\"\n// 当前页码\nconst pageNum = {{pageNum}};\n// 单页数量\nconst pageSize = {{pageSize}};\n// 文件名称\nconst pageTitleLike = \"{{pageTitle}}\"\n// 标签\nconst tagLike = \"{{tag}}\"\nconst tagMatch = (page, tag) => {\n\tif (tag) {\n\t\treturn page.file.tags && page.file.tags.some(t => t.includes(tagLike))\n\t}\n\treturn true;\n}\n\nconst data = dv.pages(\"\")\n  .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n  .where(p => tagMatch(p, tagLike))\n  .sort(p => p.file.mtime, \"{{sort}}\")\n  .map(p => {\n\t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n  })\n\n  \nconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n  .limit(pageSize)\n\ndv.table([\"name\", \"mtime\"], pageData)",
+        "maxWidthRatio": 100,
+        "query": "// 日期格式化\nconst dateFormat = \"YYYY-MM-DD\"\n// 当前页码\nconst pageNum = 1;\n// 单页数量\nconst pageSize = {{pageSize}};\n// 标签\nconst tagLike = \"{{tag}}\"\nconst tagMatch = (page, tag) => {\n\tif (tag) {\n\t\treturn page.file.tags && page.file.tags.some(t => t.includes(tagLike))\n\t}\n\treturn true;\n}\n\nconst data = dv.pages(\"\")\n  .where(p => tagMatch(p, tagLike))\n  .map(p => {\n\t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n  })\n\n  \nconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n  .limit(pageSize)\n\ndv.table([\"name\", \"mtime\"], pageData)",
         "queryType": "dataviewjs",
         "backgroundStyle": "card",
-        "maxHeight": -1,
+        "maxHeight": 1200,
         "dynamicParamComponents": [
-          {
-            "id": "93051e03-f464-4c32-8108-d76e88d2c228",
-            "type": "text",
-            "name": "pageTitle",
-            "defaultValue": "",
-            "placeholder": "",
-            "fromProperty": "",
-            "label": "标题"
-          },
           {
             "id": "9c15e095-f9ee-4e10-ace0-033576c7c678",
             "type": "tagSuggestions",
@@ -231,15 +173,6 @@
             "label": "标签"
           },
           {
-            "id": "0b0999b1-2abe-4cba-90f3-407bff00e53e",
-            "type": "number",
-            "name": "pageNum",
-            "defaultValue": "1",
-            "placeholder": "",
-            "fromProperty": "",
-            "label": "页码"
-          },
-          {
             "id": "07739f36-696d-4d8e-ba6b-52449507de5a",
             "type": "number",
             "name": "pageSize",
@@ -247,44 +180,26 @@
             "placeholder": "",
             "fromProperty": "",
             "label": "数量"
-          },
-          {
-            "id": "0e5f37e4-162f-4698-9442-07b81017f62b",
-            "type": "select",
-            "name": "sort",
-            "defaultValue": "desc",
-            "placeholder": "",
-            "fromProperty": "",
-            "options": [
-              {
-                "id": "a0c29755-1fbf-4750-b5bd-79c99982dc3d",
-                "label": "降序",
-                "value": "desc"
-              },
-              {
-                "id": "bac80e8a-3260-4502-858e-f7b004e3b8d6",
-                "label": "升序",
-                "value": "asc"
-              }
-            ],
-            "label": "文件修改时间排序"
           }
         ],
-        "title": ""
+        "title": "",
+        "backgroundColor": "#ffffff00"
       },
       "layout": {
         "lg": {
-          "x": 0,
-          "y": 25,
           "w": 6,
           "h": 6,
-          "i": "2de8d3dc-058a-48f3-ba08-0696416b8136"
+          "x": 0,
+          "y": 18,
+          "i": "2de8d3dc-058a-48f3-ba08-0696416b8136",
+          "moved": false,
+          "static": false
         },
         "xs": {
           "w": 1,
           "h": 6,
           "x": 0,
-          "y": 24,
+          "y": 18,
           "i": "2de8d3dc-058a-48f3-ba08-0696416b8136",
           "moved": false,
           "static": false
@@ -313,20 +228,107 @@
       },
       "layout": {
         "lg": {
-          "x": 0,
-          "y": 32,
           "w": 6,
           "h": 6,
-          "i": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c"
+          "x": 0,
+          "y": 24,
+          "i": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
+          "moved": false,
+          "static": false
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 24,
+          "i": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
+      "name": "",
+      "createAt": "2024-02-28T08:37:59.147Z",
+      "updateAt": "2024-02-28T08:37:59.147Z",
+      "widget": {
+        "id": "5cec35a2-1ff0-41b0-851a-cda51991cb70",
+        "type": "checkIn",
+        "titleAlign": "left",
+        "cellShape": "round",
+        "maxWidthRatio": 100,
+        "tasks": [
+          {
+            "id": "e507dce4-f389-4496-b67c-ee75c2038189",
+            "checkInRecordType": "task",
+            "tag": "#看论文",
+            "name": ""
+          },
+          {
+            "id": "ea7d6105-8e0a-4ae6-98cf-a46a8824b778",
+            "checkInRecordType": "task",
+            "tag": "#学英语",
+            "name": ""
+          }
+        ],
+        "backgroundColor": "#ffffff00",
+        "title": "",
+        "fontColor": "#b6bbdbff"
+      },
+      "layout": {
+        "lg": {
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 30,
+          "i": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
+          "moved": false,
+          "static": false
         },
         "xs": {
           "w": 1,
           "h": 6,
           "x": 0,
           "y": 30,
-          "i": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
+          "i": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
           "moved": false,
           "static": false
+        }
+      }
+    },
+    {
+      "id": "3bf7b5c2-a91d-4065-8c00-fa622997d6a9",
+      "name": "",
+      "createAt": "2024-02-28T08:57:14.387Z",
+      "updateAt": "2024-02-28T08:57:14.387Z",
+      "widget": {
+        "id": "d4225699-865a-4933-8531-84876d8ce5bc",
+        "type": "markdown",
+        "titleAlign": "center",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "card",
+        "maxHeight": 300,
+        "contentAlign": "left",
+        "markdownsSource": "content",
+        "markdownValue": "-  <font color=\"#d99694\">今日剩余：</font>**`= round((date(tomorrow)-date(now)).seconds/dur(24 hours).seconds*100,2)+\"%\"`**\n- <font color=\"#fac08f\">本周剩余：</font>**`= round((date(eow)-date(now)).second/dur(7 d).seconds*100,2)+\"%\"`**\n- <font color=\"#92cddc\">本月剩余：</font>**`= round((date(eom)-date(now)).second/(date(eom)-date(som)).seconds*100,2)+\"%\"`**\n- <font color=\"#b2a2c7\">今年剩余：</font>**`= round((date(eoy)-date(now)).second/dur(365 d).seconds*100,2)+\"%\"`**"
+      },
+      "layout": {
+        "lg": {
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 36,
+          "i": "3bf7b5c2-a91d-4065-8c00-fa622997d6a9",
+          "moved": false,
+          "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 46,
+          "w": 1,
+          "h": 6,
+          "i": "3bf7b5c2-a91d-4065-8c00-fa622997d6a9"
         }
       }
     }
