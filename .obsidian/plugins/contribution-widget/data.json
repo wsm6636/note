@@ -148,11 +148,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 13,
           "w": 1,
           "h": 6,
-          "i": "97d8322c-752f-491d-bc01-834b526b8be3"
+          "x": 0,
+          "y": 12,
+          "i": "97d8322c-752f-491d-bc01-834b526b8be3",
+          "moved": false,
+          "static": false
         }
       }
     },
@@ -185,11 +187,146 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 19,
           "w": 1,
           "h": 6,
-          "i": "8a244b35-a748-4dee-9290-020e2a0ff483"
+          "x": 0,
+          "y": 18,
+          "i": "8a244b35-a748-4dee-9290-020e2a0ff483",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
+      "name": "",
+      "createAt": "2024-02-28T07:37:22.229Z",
+      "updateAt": "2024-02-28T07:57:32.820Z",
+      "widget": {
+        "id": "0beb4e2e-f32e-4d3b-a560-2f4eac94f5a7",
+        "type": "dataview",
+        "titleAlign": "center",
+        "maxWidthRatio": -1,
+        "query": "// 日期格式化\nconst dateFormat = \"YYYY-MM-DD\"\n// 当前页码\nconst pageNum = {{pageNum}};\n// 单页数量\nconst pageSize = {{pageSize}};\n// 文件名称\nconst pageTitleLike = \"{{pageTitle}}\"\n// 标签\nconst tagLike = \"{{tag}}\"\nconst tagMatch = (page, tag) => {\n\tif (tag) {\n\t\treturn page.file.tags && page.file.tags.some(t => t.includes(tagLike))\n\t}\n\treturn true;\n}\n\nconst data = dv.pages(\"\")\n  .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n  .where(p => tagMatch(p, tagLike))\n  .sort(p => p.file.mtime, \"{{sort}}\")\n  .map(p => {\n\t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n  })\n\n  \nconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n  .limit(pageSize)\n\ndv.table([\"name\", \"mtime\"], pageData)",
+        "queryType": "dataviewjs",
+        "backgroundStyle": "card",
+        "maxHeight": -1,
+        "dynamicParamComponents": [
+          {
+            "id": "93051e03-f464-4c32-8108-d76e88d2c228",
+            "type": "text",
+            "name": "pageTitle",
+            "defaultValue": "",
+            "placeholder": "",
+            "fromProperty": "",
+            "label": "标题"
+          },
+          {
+            "id": "9c15e095-f9ee-4e10-ace0-033576c7c678",
+            "type": "tagSuggestions",
+            "name": "tag",
+            "defaultValue": "",
+            "placeholder": "",
+            "fromProperty": "",
+            "label": "标签"
+          },
+          {
+            "id": "0b0999b1-2abe-4cba-90f3-407bff00e53e",
+            "type": "number",
+            "name": "pageNum",
+            "defaultValue": "1",
+            "placeholder": "",
+            "fromProperty": "",
+            "label": "页码"
+          },
+          {
+            "id": "07739f36-696d-4d8e-ba6b-52449507de5a",
+            "type": "number",
+            "name": "pageSize",
+            "defaultValue": "20",
+            "placeholder": "",
+            "fromProperty": "",
+            "label": "数量"
+          },
+          {
+            "id": "0e5f37e4-162f-4698-9442-07b81017f62b",
+            "type": "select",
+            "name": "sort",
+            "defaultValue": "desc",
+            "placeholder": "",
+            "fromProperty": "",
+            "options": [
+              {
+                "id": "a0c29755-1fbf-4750-b5bd-79c99982dc3d",
+                "label": "降序",
+                "value": "desc"
+              },
+              {
+                "id": "bac80e8a-3260-4502-858e-f7b004e3b8d6",
+                "label": "升序",
+                "value": "asc"
+              }
+            ],
+            "label": "文件修改时间排序"
+          }
+        ],
+        "title": ""
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 25,
+          "w": 6,
+          "h": 6,
+          "i": "2de8d3dc-058a-48f3-ba08-0696416b8136"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 24,
+          "i": "2de8d3dc-058a-48f3-ba08-0696416b8136",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
+      "name": "",
+      "createAt": "2024-02-28T08:07:19.825Z",
+      "updateAt": "2024-02-28T08:07:19.825Z",
+      "widget": {
+        "id": "0c268da3-3041-450d-93ee-00b9365c47d7",
+        "type": "dateProgress",
+        "titleAlign": "center",
+        "backgroundStyle": "card",
+        "showDateIndicator": true,
+        "showProgressIndicator": true,
+        "maxWidthRatio": 100,
+        "uiType": "ring",
+        "title": "PhD",
+        "startDateTime": "2022-09-01 00:00:00",
+        "endDateTime": "2026-08-01 00:00:00",
+        "backgroundColor": "#ffffff00",
+        "fontColor": "#e37d7dff"
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 32,
+          "w": 6,
+          "h": 6,
+          "i": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 30,
+          "i": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
+          "moved": false,
+          "static": false
         }
       }
     }

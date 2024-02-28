@@ -16,8 +16,8 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1930,
-                  "y": 589,
+                  "x": -1940,
+                  "y": -630,
                   "zoom": 0
                 }
               },
@@ -25,7 +25,15 @@
             }
           },
           {
-            "id": "4f07b9636624db6c",
+            "id": "d535265059cc37cd",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-repository-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "aaed37fa47c1342f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,6 +42,34 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "9b86ca5e7498eacc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/挂件.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f8eabc477a906f3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "模板/启动页模板++.canvas",
+                "viewState": {
+                  "x": -1557.6197170658238,
+                  "y": 102.91304631551098,
+                  "zoom": -0.05716141543233139
+                }
               }
             }
           }
@@ -223,35 +259,34 @@
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "模板/contributionGraph.md",
+    "模板/启动页模板++.canvas",
+    "模板/启动页模板++.canvas.baiduyun.uploading.cfg",
+    "模板/挂件.md",
+    "模板/挂件.md.baiduyun.uploading.cfg",
     "模板/contributionGraph.md.baiduyun.uploading.cfg",
+    "模板/启动页模板.canvas",
+    "模板/启动页模板.canvas.baiduyun.uploading.cfg",
+    "HOMEPAGE.canvas",
+    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "wsm/002gb-t-7714-2015-numeric-bilingual-no-uppercase-no-url-doi.csl.baiduyun.uploading.cfg",
     "desktop.ini",
-    "HOMEPAGE.canvas",
-    "模板/contributionGraph.md",
     "wsm/002gb-t-7714-2015-numeric-bilingual-no-uppercase-no-url-doi.csl",
     "002gb-t-7714-2015-numeric-bilingual-no-uppercase-no-url-doi.csl",
     "模板/日记模板.md.baiduyun.uploading.cfg",
-    "模板/挂件.md.baiduyun.uploading.cfg",
-    "模板/周记模板.md.baiduyun.uploading.cfg",
-    "模板/启动页模板++.canvas.baiduyun.uploading.cfg",
-    "wsm/日记/2024-02-27.md.baiduyun.uploading.cfg",
-    "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-27.md",
     "wsm/周记/2024-02-26-W09.md",
     "模板/周记模板.md",
     "模板/年复盘模板.md",
     "模板/月复盘模板.md",
     "模板/日记模板.md",
-    "模板/挂件.md",
     "模板/组合2.md",
     "模板/组合3.md",
     "模板/组合.md",
     "模板/计数.md",
     "模板/倒计时.md",
     "模板/进度条.md",
-    "模板/启动页模板.canvas",
     "模板/启动页.canvas",
-    "模板/启动页模板++.canvas",
     "模板/自定义.md",
     "模板/摘录.md",
     "DAC/方法-模型整理.md",
