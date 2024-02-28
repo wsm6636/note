@@ -99,3 +99,15 @@ cellStyle:
 
 ```
 
+```contributionWidget
+id: cec6ca5f-ae39-49ca-8526-4cb23b9f72bf
+type: markdown
+titleAlign: center
+maxWidthRatio: -1
+backgroundStyle: card
+maxHeight: 300
+contentAlign: left
+markdownsSource: content
+markdownValue: "# 每天都很哇塞"
+
+```
