@@ -23,22 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "9ff10607710eeb0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -134,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -177,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -221,37 +207,38 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9ff10607710eeb0c",
+  "active": "0f89c5f6c096cc04",
   "lastOpenFiles": [
+    "模板/周记模板.md.baiduyun.uploading.cfg",
+    "模板/周记模板.md",
+    "模板/月复盘模板.md.baiduyun.uploading.cfg",
+    "模板/年复盘模板.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-02-28.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-02-27.md.baiduyun.uploading.cfg",
+    "模板/日记模板.md.baiduyun.uploading.cfg",
+    "模板/月复盘模板.md",
+    "模板/日记模板.md",
+    "模板/年复盘模板.md",
     "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas",
+    "wsm/日记/2024-02-28.md",
+    "wsm/日记/2024-02-27.md",
+    "wsm/周记/2024-02-26-W09.md",
+    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
+    "模板/contributionGraph.md",
     "wsm/月复盘/2024-02.md",
     "wsm/月复盘/2024-02.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-02-12-07.md",
-    "wsm/日记/2024-02-28.md.baiduyun.uploading.cfg",
-    "wsm/日记/2024-02-28.md",
-    "wsm/周记/2024-02-26-W09.md",
-    "wsm/日记/2024-02-27.md",
-    "wsm/日记/2024-02-27.md.baiduyun.uploading.cfg",
-    "模板/周记模板.md",
     "模板/未命名.canvas",
-    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "模板/启动页模板1.canvas",
     "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
     "DAC/ATS-workspace.md",
     "DAC/方法-模型整理.md",
     "DAC/方法-模型整理.md.baiduyun.uploading.cfg",
-    "模板/挂件.md.baiduyun.uploading.cfg",
     "模板/挂件.md",
-    "模板/启动页模板3.canvas.baiduyun.uploading.cfg",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
-    "模板/启动页模板2.canvas.baiduyun.uploading.cfg",
     "模板/未命名.md",
-    "模板/contributionGraph.md",
-    "模板/年复盘模板.md",
-    "模板/月复盘模板.md",
-    "模板/日记模板.md",
     "模板/组合2.md",
     "模板/组合3.md",
     "模板/组合.md",
