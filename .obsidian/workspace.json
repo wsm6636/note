@@ -23,8 +23,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "540a7233aa2ab2ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c16158ff99733518",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/周记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/周记模板.md"
               }
             }
           },
@@ -120,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/周记模板.md"
               }
             }
           },
@@ -132,8 +159,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "dbe74c464049a0d9",
@@ -164,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/周记模板.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/周记模板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -208,8 +234,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "c16158ff99733518",
   "lastOpenFiles": [
+    "wsm/周记/2024-02-19-W08.md",
+    "HOMEPAGE.canvas",
+    "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "desktop.ini",
     "模板/周记模板.md.baiduyun.uploading.cfg",
     "模板/周记模板.md",
@@ -222,7 +251,6 @@
     "模板/日记模板.md",
     "模板/年复盘模板.md",
     "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
-    "HOMEPAGE.canvas",
     "wsm/日记/2024-02-28.md",
     "wsm/日记/2024-02-27.md",
     "wsm/周记/2024-02-26-W09.md",
@@ -233,7 +261,6 @@
     "wsm/周记/2024-02-12-07.md",
     "模板/未命名.canvas",
     "模板/启动页模板1.canvas",
-    "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
     "DAC/ATS-workspace.md",
     "DAC/方法-模型整理.md",
     "模板/挂件.md",
@@ -250,8 +277,6 @@
     "模板/自定义.md",
     "模板/摘录.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-    "因果链/cause-effect chain.md",
-    "TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
     "wsm/未命名.canvas",
     "图/1.png",
     "未命名.canvas",
