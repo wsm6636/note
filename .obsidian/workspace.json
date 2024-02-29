@@ -30,15 +30,35 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "wsm/日记/2024-02-29.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d233faeab1c04f1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "57a88b578cdd14ba",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-repository-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -134,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -177,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -221,13 +241,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "540a7233aa2ab2ec",
+  "active": "0f89c5f6c096cc04",
   "lastOpenFiles": [
-    "wsm/周记/2024-02-19-W08.md",
+    "wsm/日记/2024-02-29.md",
+    "HOMEPAGE.canvas",
     "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "wsm/周记/2024-02-19-W08.md",
     "wsm/周记/2024-02-26-W09.md",
     "模板/周记模板.md",
-    "HOMEPAGE.canvas",
     "desktop.ini",
     "模板/周记模板.md.baiduyun.uploading.cfg",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
@@ -263,7 +284,6 @@
     "模板/启动页.canvas",
     "模板/自定义.md",
     "模板/摘录.md",
-    "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "wsm/未命名.canvas",
     "图/1.png",
     "未命名.canvas",

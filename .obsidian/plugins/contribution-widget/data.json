@@ -51,7 +51,7 @@
           "w": 1,
           "h": 6,
           "x": 0,
-          "y": 18,
+          "y": 0,
           "i": "2de8d3dc-058a-48f3-ba08-0696416b8136",
           "moved": false,
           "static": false
@@ -92,7 +92,7 @@
           "w": 1,
           "h": 6,
           "x": 0,
-          "y": 24,
+          "y": 6,
           "i": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
           "moved": false,
           "static": false
@@ -142,7 +142,7 @@
           "w": 1,
           "h": 6,
           "x": 0,
-          "y": 30,
+          "y": 12,
           "i": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
           "moved": false,
           "static": false
@@ -205,11 +205,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 43,
           "w": 1,
           "h": 6,
-          "i": "4bc8ad91-691f-4473-b9bb-6ae22dcb130d"
+          "x": 0,
+          "y": 18,
+          "i": "4bc8ad91-691f-4473-b9bb-6ae22dcb130d",
+          "moved": false,
+          "static": false
         }
       }
     },
@@ -333,11 +335,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 50,
           "w": 1,
           "h": 6,
-          "i": "f15eae02-7e19-4d82-b903-4256f8b318c5"
+          "x": 0,
+          "y": 24,
+          "i": "f15eae02-7e19-4d82-b903-4256f8b318c5",
+          "moved": false,
+          "static": false
         }
       }
     }
