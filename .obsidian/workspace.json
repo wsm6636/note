@@ -36,22 +36,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c16158ff99733518",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "模板/周记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模板/周记模板.md"
+                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
               }
             }
           },
@@ -147,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "模板/周记模板.md"
+                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
               }
             }
           },
@@ -190,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/周记模板.md",
+                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/周记模板.md",
+                "file": "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -234,14 +221,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c16158ff99733518",
+  "active": "540a7233aa2ab2ec",
   "lastOpenFiles": [
     "wsm/周记/2024-02-19-W08.md",
-    "HOMEPAGE.canvas",
+    "wsm/周记/2024-02-26-W09.md",
+    "模板/周记模板.md",
     "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "HOMEPAGE.canvas",
     "desktop.ini",
     "模板/周记模板.md.baiduyun.uploading.cfg",
-    "模板/周记模板.md",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
     "模板/年复盘模板.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-28.md.baiduyun.uploading.cfg",
@@ -253,7 +241,6 @@
     "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-28.md",
     "wsm/日记/2024-02-27.md",
-    "wsm/周记/2024-02-26-W09.md",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "模板/contributionGraph.md",
     "wsm/月复盘/2024-02.md",
