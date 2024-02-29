@@ -132,7 +132,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "dbe74c464049a0d9",
@@ -207,8 +208,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "0f89c5f6c096cc04",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "desktop.ini",
     "模板/周记模板.md.baiduyun.uploading.cfg",
     "模板/周记模板.md",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
@@ -234,7 +236,6 @@
     "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
     "DAC/ATS-workspace.md",
     "DAC/方法-模型整理.md",
-    "DAC/方法-模型整理.md.baiduyun.uploading.cfg",
     "模板/挂件.md",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
