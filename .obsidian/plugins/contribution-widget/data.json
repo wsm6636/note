@@ -62,13 +62,13 @@
       "id": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
       "name": "",
       "createAt": "2024-02-28T08:07:19.825Z",
-      "updateAt": "2024-02-28T12:02:06.518Z",
+      "updateAt": "2024-03-05T02:47:37.885Z",
       "widget": {
         "id": "0c268da3-3041-450d-93ee-00b9365c47d7",
         "type": "dateProgress",
         "titleAlign": "center",
         "backgroundStyle": "card",
-        "showDateIndicator": true,
+        "showDateIndicator": false,
         "showProgressIndicator": true,
         "maxWidthRatio": 100,
         "uiType": "bar",
@@ -76,7 +76,8 @@
         "startDateTime": "2022-09-01 00:00:00",
         "endDateTime": "2026-08-01 00:00:00",
         "backgroundColor": "#ffffff00",
-        "fontColor": "#e37d7dff"
+        "fontColor": "#e37d7dff",
+        "picture": ""
       },
       "layout": {
         "lg": {

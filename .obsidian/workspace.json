@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1940,
-                  "y": -537,
+                  "y": -630,
                   "zoom": 0
                 }
               },
@@ -33,20 +33,19 @@
             }
           },
           {
-            "id": "ebc458daa295f8f1",
+            "id": "dff2db23a13dfc15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/周记/2024-02-19-W08.md",
+                "file": "wsm/周记/2024-03-04-W10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +74,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/周记/2024-02-19-W08.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -142,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/周记/2024-02-19-W08.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -185,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/周记/2024-02-19-W08.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/周记/2024-02-19-W08.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -229,17 +228,17 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "57a88b578cdd14ba",
+  "active": "0f89c5f6c096cc04",
   "lastOpenFiles": [
-    "wsm/日记/2024-03-01.md",
-    "wsm/周记/2024-02-19-W08.md",
-    "wsm/周记/2024-02-26-W09.md",
     "wsm/周记/2024-03-04-W10.md",
+    "HOMEPAGE.canvas",
+    "wsm/周记/2024-02-26-W09.md",
+    "wsm/周记/2024-02-19-W08.md",
+    "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-02-29.md",
     "wsm/日记/2024-02-28.md",
     "wsm/日记/2024-02-27.md",
-    "HOMEPAGE.canvas",
     "模板/周记模板.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-29.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
@@ -271,7 +270,6 @@
     "模板/组合.md",
     "模板/计数.md",
     "模板/倒计时.md",
-    "模板/进度条.md",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",
     "图/1.png",
