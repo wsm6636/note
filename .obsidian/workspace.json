@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1940,
-                  "y": -630,
+                  "y": -723,
                   "zoom": 0
                 }
               },
@@ -31,22 +31,8 @@
               "type": "contribution-widget-repository-view",
               "state": {}
             }
-          },
-          {
-            "id": "dff2db23a13dfc15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/周记/2024-03-04-W10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/周记/2024-03-04-W10.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -142,7 +128,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/周记/2024-03-04-W10.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -185,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/周记/2024-03-04-W10.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/周记/2024-03-04-W10.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -229,40 +215,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dff2db23a13dfc15",
+  "active": "0f89c5f6c096cc04",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
+    "模板/read note template.md",
+    "模板/contributionGraph.md",
+    "模板/周记模板.md",
+    "模板/日记模板.md",
+    "模板/月复盘模板.md",
+    "模板/年复盘模板.md",
+    "模板/挂件.md",
+    "wsm/月复盘/2024-02.md",
     "wsm/周记/2024-03-04-W10.md",
     "wsm/周记/2024-02-26-W09.md",
     "wsm/周记/2024-02-19-W08.md",
-    "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-03-04.md",
+    "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-02-29.md",
     "wsm/日记/2024-02-28.md",
     "wsm/日记/2024-02-27.md",
+    "HOMEPAGE.canvas",
     "模板/周记模板.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-29.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-02-19-W08.md.baiduyun.uploading.cfg",
     "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "模板/周记模板.md",
     "desktop.ini",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
     "模板/年复盘模板.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-28.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-27.md.baiduyun.uploading.cfg",
     "模板/日记模板.md.baiduyun.uploading.cfg",
-    "模板/月复盘模板.md",
-    "模板/日记模板.md",
-    "模板/年复盘模板.md",
-    "模板/contributionGraph.md",
-    "wsm/月复盘/2024-02.md",
     "wsm/周记/2024-02-12-07.md",
     "模板/未命名.canvas",
     "模板/启动页模板1.canvas",
     "DAC/ATS-workspace.md",
     "DAC/方法-模型整理.md",
-    "模板/挂件.md",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
     "模板/未命名.md",
