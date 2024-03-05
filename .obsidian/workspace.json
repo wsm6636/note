@@ -45,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/周记/2024-03-04-W10.md"
               }
             }
           },
@@ -141,7 +142,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/周记/2024-03-04-W10.md"
               }
             }
           },
@@ -184,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/周记/2024-03-04-W10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/周记/2024-03-04-W10.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +216,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
@@ -224,14 +224,15 @@
       "command-palette:打开命令面板": true,
       "obsidian-advanced-slides:Show Slide Preview": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "0f89c5f6c096cc04",
+  "active": "dff2db23a13dfc15",
   "lastOpenFiles": [
-    "wsm/周记/2024-03-04-W10.md",
     "HOMEPAGE.canvas",
+    "wsm/周记/2024-03-04-W10.md",
     "wsm/周记/2024-02-26-W09.md",
     "wsm/周记/2024-02-19-W08.md",
     "wsm/日记/2024-03-01.md",
