@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/日记/2024-03-06.md"
+                "file": "wsm/周记/2024-03-04-W10.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/日记/2024-03-06.md"
+                "file": "wsm/周记/2024-03-04-W10.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/日记/2024-03-06.md",
+                "file": "wsm/周记/2024-03-04-W10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/日记/2024-03-06.md",
+                "file": "wsm/周记/2024-03-04-W10.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -234,10 +234,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0634136865397dc6",
+  "active": "b5608c81495f662b",
   "lastOpenFiles": [
-    "wsm/周记/2024-03-04-W10.md",
     "wsm/日记/2024-03-06.md",
+    "wsm/周记/2024-03-04-W10.md",
     "wsm/日记/2024-03-05.md",
     "HOMEPAGE.canvas",
     "模板/read note template.md",
