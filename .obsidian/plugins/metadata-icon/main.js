@@ -79,7 +79,8 @@ var Locals = class {
 
 // main.ts
 var DEFAULT_SETTINGS = {
-  IconAttrList: []
+  IconAttrList: [],
+  cssAfterConfig: { top: "6px", left: "3px", opacity: 0.5 }
 };
 var MetadataIcon = class extends import_obsidian.Plugin {
   async onload() {
@@ -96,7 +97,7 @@ var MetadataIcon = class extends import_obsidian.Plugin {
     await this.saveData(this.settings);
   }
 };
-function genEntryCSS(s) {
+function genEntryCSS(s, c) {
   const selector = `data-property-key="${s.entry}"`;
   let body = [
     `.metadata-property[${selector}] .metadata-property-key::after {`,
@@ -106,10 +107,10 @@ function genEntryCSS(s) {
     `	width: 20px;`,
     `	height: 20px;`,
     `	position: absolute;`,
-    `	left: 3px;`,
-    `	top: 6px;`,
+    `	left: ${c.left};`,
+    `	top: ${c.top};`,
     `	z-index: -100;`,
-    `	opacity: 0.5;`,
+    `	opacity: ${c.opacity};`,
     `	background-repeat: no-repeat;`,
     `}`,
     `.metadata-property[${selector}] svg {`,
@@ -134,7 +135,7 @@ async function genSnippetCSS(plugin) {
     ""
   ];
   plugin.settings.IconAttrList.forEach((iconSetting, index) => {
-    content.push(genEntryCSS(iconSetting));
+    content.push(genEntryCSS(iconSetting, plugin.settings.cssAfterConfig));
   });
   const vault = plugin.app.vault;
   const ob_config_path = vault.configDir;
@@ -183,14 +184,14 @@ var MetadataHiderSettingTab = class extends import_obsidian.PluginSettingTab {
       img.setAttribute("src", iconSetting.image);
       img.setAttribute("width", `20px`);
       img.setAttribute("style", `background-color: transparent;`);
-      s.addSearch((cb) => {
+      s.addText((cb) => {
         cb.setPlaceholder(t.settingAddIconPlaceholderEntry).setValue(iconSetting.entry).onChange(async (newValue) => {
           this.plugin.settings.IconAttrList[index].entry = newValue;
           await this.plugin.saveSettings();
           this.debouncedGenerate();
         });
       });
-      s.addSearch((cb) => {
+      s.addText((cb) => {
         cb.setPlaceholder(t.settingAddIconPlaceholderImage).setValue(iconSetting.image).onChange(async (newValue) => {
           img.setAttribute("src", newValue);
           this.plugin.settings.IconAttrList[index].image = newValue;
@@ -205,6 +206,36 @@ var MetadataHiderSettingTab = class extends import_obsidian.PluginSettingTab {
           this.display();
           this.debouncedGenerate();
         });
+      });
+    });
+    containerEl.createEl("h3", { text: "Advanced" });
+    new import_obsidian.Setting(containerEl).setName("top offset").setDesc("").addText((cb) => {
+      cb.setPlaceholder(t.settingAddIconPlaceholderImage).setValue(this.plugin.settings.cssAfterConfig.top).onChange(async (newValue) => {
+        this.plugin.settings.cssAfterConfig.top = newValue;
+        await this.plugin.saveSettings();
+        this.debouncedGenerate();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("left offset").setDesc("").addText((cb) => {
+      cb.setPlaceholder(t.settingAddIconPlaceholderImage).setValue(this.plugin.settings.cssAfterConfig.left).onChange(async (newValue) => {
+        this.plugin.settings.cssAfterConfig.left = newValue;
+        await this.plugin.saveSettings();
+        this.debouncedGenerate();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("opacity").setDesc("").addText((cb) => {
+      cb.setPlaceholder(t.settingAddIconPlaceholderImage).setValue(this.plugin.settings.cssAfterConfig.opacity.toString()).onChange(async (newValue) => {
+        try {
+          let v = parseFloat(newValue);
+          if (v < 0 || v > 1) {
+            throw new Error();
+          }
+          this.plugin.settings.cssAfterConfig.opacity = v;
+          await this.plugin.saveSettings();
+          this.debouncedGenerate();
+        } catch (e) {
+          new import_obsidian.Notice("Invalid opacity value, please enter a number between 0 and 1");
+        }
       });
     });
   }

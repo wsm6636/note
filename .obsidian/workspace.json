@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1940,
-                  "y": -723,
+                  "y": -630,
                   "zoom": 0
                 }
               },
@@ -25,14 +25,33 @@
             }
           },
           {
-            "id": "57a88b578cdd14ba",
+            "id": "0634136865397dc6",
             "type": "leaf",
             "state": {
-              "type": "contribution-widget-repository-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "wsm/日记/2024-03-06.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5608c81495f662b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/周记/2024-03-04-W10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-03-06.md"
               }
             }
           },
@@ -128,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-03-06.md"
               }
             }
           },
@@ -171,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-03-06.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-03-06.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -215,8 +234,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f89c5f6c096cc04",
+  "active": "0634136865397dc6",
   "lastOpenFiles": [
+    "wsm/周记/2024-03-04-W10.md",
+    "wsm/日记/2024-03-06.md",
+    "wsm/日记/2024-03-05.md",
+    "HOMEPAGE.canvas",
     "模板/read note template.md",
     "模板/contributionGraph.md",
     "模板/周记模板.md",
@@ -225,7 +248,6 @@
     "模板/年复盘模板.md",
     "模板/挂件.md",
     "wsm/月复盘/2024-02.md",
-    "wsm/周记/2024-03-04-W10.md",
     "wsm/周记/2024-02-26-W09.md",
     "wsm/周记/2024-02-19-W08.md",
     "wsm/日记/2024-03-04.md",
@@ -233,7 +255,6 @@
     "wsm/日记/2024-02-29.md",
     "wsm/日记/2024-02-28.md",
     "wsm/日记/2024-02-27.md",
-    "HOMEPAGE.canvas",
     "模板/周记模板.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-02-29.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
@@ -255,9 +276,6 @@
     "模板/未命名.md",
     "模板/组合2.md",
     "模板/组合3.md",
-    "模板/组合.md",
-    "模板/计数.md",
-    "模板/倒计时.md",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",
     "图/1.png",
