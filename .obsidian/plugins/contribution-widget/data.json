@@ -350,7 +350,7 @@
       "id": "13c5cb33-ab95-4541-b0ee-cf8fa8704833",
       "name": "",
       "createAt": "2024-03-07T13:15:46.494Z",
-      "updateAt": "2024-03-07T13:24:12.156Z",
+      "updateAt": "2024-03-07T14:56:33.122Z",
       "widget": {
         "id": "6a8750a2-e5ce-49d6-af68-80518f332c46",
         "type": "multi",
@@ -371,7 +371,7 @@
             "startDateTimeType": "$startOfToday",
             "endDateTimeType": "$endOfToday",
             "uiType": "ring",
-            "title": "今日进度",
+            "title": "日进度",
             "backgroundColor": "#ffffff00",
             "fontColor": "#d99694ff"
           },
@@ -389,7 +389,7 @@
             "uiType": "ring",
             "backgroundColor": "#ffffff00",
             "fontColor": "#fac08fff",
-            "title": "本周进度"
+            "title": "周进度"
           },
           {
             "id": "5db990c9-306a-4c0c-b5ed-289bcf7cdbd0",
@@ -405,7 +405,7 @@
             "uiType": "ring",
             "backgroundColor": "#ffffff00",
             "fontColor": "#92cddcff",
-            "title": "本月进度"
+            "title": "月进度"
           },
           {
             "id": "0640d98c-8c7f-42e8-92a3-c94ddafba8ea",
@@ -421,7 +421,7 @@
             "uiType": "ring",
             "backgroundColor": "#ffffff00",
             "fontColor": "#b2a2c7ff",
-            "title": "今年进度"
+            "title": "年进度"
           }
         ],
         "layoutType": "column"
@@ -437,11 +437,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 31,
           "w": 1,
           "h": 6,
-          "i": "13c5cb33-ab95-4541-b0ee-cf8fa8704833"
+          "x": 0,
+          "y": 30,
+          "i": "13c5cb33-ab95-4541-b0ee-cf8fa8704833",
+          "moved": false,
+          "static": false
         }
       }
     }
