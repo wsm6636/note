@@ -20,6 +20,12 @@
       "icon": "github",
       "name": "Git: Push",
       "mode": "any"
+    },
+    {
+      "id": "insert-template",
+      "icon": "lucide-copy",
+      "name": "模板: 插入模板",
+      "mode": "any"
     }
   ],
   "fileMenu": [
