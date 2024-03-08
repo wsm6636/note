@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f89c5f6c096cc04",
+            "id": "e89c4e65fff19bc4",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -17,28 +17,14 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1949,
-                  "y": -688.5,
-                  "zoom": 0
+                  "y": -590.3204166666667,
+                  "zoom": -0.07819232780851874
                 }
               },
               "pinned": true
             }
-          },
-          {
-            "id": "8e562929f21336ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -134,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -169,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/周记/2024-02-26-W09.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -222,38 +208,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8e562929f21336ae",
+  "active": "e89c4e65fff19bc4",
   "lastOpenFiles": [
-    "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
-    "wsm/周记/2024-02-19-W08.md.baiduyun.uploading.cfg",
-    "wsm/周记/2024-02-19-W08.md",
-    "HOMEPAGE.canvas",
     "wsm/周记/2024-03-04-W10.md",
+    "HOMEPAGE.canvas",
+    "模板/年复盘模板.md.baiduyun.uploading.cfg",
+    "模板/年复盘模板.md",
+    "模板/月复盘模板.md.baiduyun.uploading.cfg",
+    "wsm/周记/2024-03-04-W10.md.baiduyun.uploading.cfg",
+    "模板/月复盘模板.md",
+    "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
+    "模板/周记模板.md",
+    "wsm/周记/2024-02-26-W09.md",
+    "wsm/周记/2024-02-19-W08.md",
+    "wsm/周记/2024-02-19-W08.md.baiduyun.uploading.cfg",
+    "模板/周记模板.md.baiduyun.uploading.cfg",
+    "模板/日记模板.md",
+    "wsm/日记/2024-03-07.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-06.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-07.md",
+    "wsm/日记/2024-03-06.md",
     "模板/挂件.md",
     "模板/挂件.md.baiduyun.uploading.cfg",
-    "wsm/日记/2024-03-06.md",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
-    "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
     "模板/启动页模板1.canvas",
-    "模板/启动页模板2.canvas.baiduyun.uploading.cfg",
     "模板/启动页模板2.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
-    "模板/日记模板.md",
-    "wsm/日记/2024-03-07.md.baiduyun.uploading.cfg",
-    "wsm/日记/2024-03-07.md",
-    "模板/月复盘模板.md.baiduyun.uploading.cfg",
-    "模板/日记模板.md.baiduyun.uploading.cfg",
-    "模板/年复盘模板.md.baiduyun.uploading.cfg",
-    "模板/周记模板.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-05.md",
     "模板/read note template.md",
     "模板/contributionGraph.md",
-    "模板/周记模板.md",
-    "模板/月复盘模板.md",
-    "模板/年复盘模板.md",
     "wsm/月复盘/2024-02.md",
-    "wsm/周记/2024-02-26-W09.md",
     "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-02-29.md",
