@@ -17,14 +17,41 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1949,
-                  "y": -590.3204166666667,
+                  "y": -688.5,
                   "zoom": -0.07819232780851874
                 }
               },
               "pinned": true
             }
+          },
+          {
+            "id": "ca846fb17a1b1855",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/周记/2024-03-04-W10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1713bb9608039af6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/挂件.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/挂件.md"
               }
             }
           },
@@ -120,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/挂件.md"
               }
             }
           }
@@ -155,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/挂件.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/挂件.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -208,10 +235,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e89c4e65fff19bc4",
+  "active": "1713bb9608039af6",
   "lastOpenFiles": [
-    "wsm/周记/2024-03-04-W10.md",
+    "模板/挂件.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas",
+    "wsm/周记/2024-03-04-W10.md",
     "模板/年复盘模板.md.baiduyun.uploading.cfg",
     "模板/年复盘模板.md",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
@@ -229,7 +257,6 @@
     "wsm/日记/2024-03-07.md",
     "wsm/日记/2024-03-06.md",
     "模板/挂件.md",
-    "模板/挂件.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
