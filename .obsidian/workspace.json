@@ -23,35 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "dbc625e334be0577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/周记/2024-03-04-W10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69a4c15c1fdf6aa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/test.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/test.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -147,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/test.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -182,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/test.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/test.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -235,14 +208,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "69a4c15c1fdf6aa1",
+  "active": "e89c4e65fff19bc4",
   "lastOpenFiles": [
+    "wsm/test.md",
+    "wsm/周记/2024-03-04-W10.md",
     "HOMEPAGE.canvas",
     "wsm/test.md.baiduyun.uploading.cfg",
-    "wsm/test.md",
     "wsm/test.md.nssyncsc.baiduyun.uploading.cfg",
     "wsm/test.md.nssyncsc",
-    "wsm/周记/2024-03-04-W10.md",
     "wsm/日记/2024-03-08.md",
     "wsm/日记/2024-03-08.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-08 1.md",
