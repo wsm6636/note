@@ -62,7 +62,7 @@
       "id": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
       "name": "",
       "createAt": "2024-02-28T08:07:19.825Z",
-      "updateAt": "2024-03-05T02:47:37.885Z",
+      "updateAt": "2024-03-09T15:29:19.591Z",
       "widget": {
         "id": "0c268da3-3041-450d-93ee-00b9365c47d7",
         "type": "dateProgress",
@@ -536,11 +536,13 @@
       },
       "layout": {
         "lg": {
-          "x": 0,
-          "y": 37,
           "w": 6,
           "h": 6,
-          "i": "b798fa95-c92d-44a5-92ce-b2a5ace0fca3"
+          "x": 0,
+          "y": 36,
+          "i": "b798fa95-c92d-44a5-92ce-b2a5ace0fca3",
+          "moved": false,
+          "static": false
         },
         "xs": {
           "w": 1,
@@ -548,6 +550,136 @@
           "x": 0,
           "y": 36,
           "i": "b798fa95-c92d-44a5-92ce-b2a5ace0fca3",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
+      "name": "",
+      "createAt": "2024-03-09T15:32:14.015Z",
+      "updateAt": "2024-03-09T15:32:14.015Z",
+      "widget": {
+        "id": "aebd52d9-9b81-4c99-8026-ccdf6eda080e",
+        "type": "quote",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "card",
+        "contentType": "block",
+        "coverType": "pageProperty",
+        "filter": {
+          "conditions": [
+            {
+              "type": "file_path",
+              "value": "调度",
+              "operator": "equals",
+              "property": "",
+              "id": "02fa38b0-9652-4106-a0f6-857f70309ba2"
+            }
+          ]
+        },
+        "maxHeight": 300,
+        "coverValue": "评分"
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 43,
+          "w": 6,
+          "h": 6,
+          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 42,
+          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",
+      "name": "",
+      "createAt": "2024-03-09T15:33:56.563Z",
+      "updateAt": "2024-03-09T15:33:56.563Z",
+      "widget": {
+        "id": "a1fe90c3-4b47-475c-9182-04a113900188",
+        "type": "chart",
+        "titleAlign": "center",
+        "chartType": "line",
+        "backgroundStyle": "card",
+        "maxWidthRatio": 100,
+        "maxHeight": 1200,
+        "labelProperty": "updated",
+        "labelFormat": "$toDate",
+        "valueProperty": "$file_count",
+        "filter": {
+          "conditions": []
+        },
+        "chartColorSet": [
+          "#9376f3ff"
+        ],
+        "title": "",
+        "backgroundColor": "#ffffff00",
+        "fontColor": "#ffffffff",
+        "valueFormat": "$sum",
+        "chartLabelPosition": "hidden"
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 50,
+          "w": 6,
+          "h": 6,
+          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 48,
+          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
+      "name": "",
+      "createAt": "2024-03-09T15:42:30.209Z",
+      "updateAt": "2024-03-09T15:47:42.093Z",
+      "widget": {
+        "id": "df925a56-b897-43fc-be9e-a1eaed3a7afb",
+        "type": "dataview",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path)\nlet sentenceList = fileContent.split(\"\\n\")\nsentenceList = sentenceList.filter(x => x.startsWith(\"-\"))\nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0]\noneSentence = '每日一句：' + oneSentence.substring(2)\ndv.paragraph(`<div>${oneSentence}</div>`) ",
+        "queryType": "dataviewjs",
+        "backgroundStyle": "card",
+        "maxHeight": 300,
+        "dynamicParamComponents": []
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 57,
+          "w": 6,
+          "h": 6,
+          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 54,
+          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
           "moved": false,
           "static": false
         }

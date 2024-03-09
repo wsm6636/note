@@ -16,8 +16,8 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1917.8159920850426,
-                  "y": -667.6198759757149,
+                  "x": -1949,
+                  "y": -644,
                   "zoom": 0
                 }
               },
@@ -25,12 +25,20 @@
             }
           },
           {
-            "id": "b37a617e88e09c1a",
+            "id": "993dbf78e263831f",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-repository-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c3491a9d12f52feb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/日记/2024-03-09.md",
+                "file": "模板/一言.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -38,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/日记/2024-03-09.md"
+                "file": "模板/一言.md"
               }
             }
           },
@@ -134,12 +142,11 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/日记/2024-03-09.md"
+                "file": "模板/一言.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "dbe74c464049a0d9",
@@ -170,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/日记/2024-03-09.md",
+                "file": "模板/一言.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/日记/2024-03-09.md",
+                "file": "模板/一言.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -219,17 +226,20 @@
       "command-palette:打开命令面板": true,
       "obsidian-advanced-slides:Show Slide Preview": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b37a617e88e09c1a",
+  "active": "c3491a9d12f52feb",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
+    "模板/一言.md",
+    "模板/挂件.md",
+    "模板/启动页模板2.canvas",
+    "模板/启动页模板3.canvas",
+    "wsm/周记/2024-03-04-W10.md",
     "wsm/日记/2024-03-09.md",
     "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-03-05.md",
-    "wsm/周记/2024-03-04-W10.md",
     "wsm/月复盘/2024-03.md",
     "模板/年复盘模板.md",
     "模板/周记模板.md",
@@ -248,7 +258,6 @@
     "_remotely-save-metadata-on-remote.json",
     "_remotely-save-metadata-on-remote.json.nssyncsc",
     "desktop.ini",
-    "模板/挂件.md",
     "模板/启动页模板1.canvas",
     "wsm/周记/2024-02-26-W09.md",
     "wsm/日记/2024-02-27.md",
@@ -257,14 +266,10 @@
     "20240308211303  new.md",
     "wsm/日记/2024-03-07.md",
     "wsm/日记/2024-03-06.md",
-    "模板/启动页模板2.canvas",
-    "模板/启动页模板2.canvas",
-    "模板/启动页模板3.canvas",
     "模板/read note template.md",
     "模板/contributionGraph.md",
     "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-02-29.md",
-    "wsm/日记/2024-02-28.md",
     "模板/未命名.canvas",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",

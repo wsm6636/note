@@ -11,6 +11,7 @@
   "enabledCssSnippets": [
     "metadata-icon-auto-gen",
     "remove-task-line",
-    "supercharged-links-gen"
+    "supercharged-links-gen",
+    "coffeebean-去除删除线-任务回顾专用"
   ]
 }
