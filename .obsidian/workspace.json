@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模板/一言.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "模板/一言.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/一言.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/一言.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -229,10 +229,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c3491a9d12f52feb",
+  "active": "993dbf78e263831f",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
     "模板/一言.md",
+    "HOMEPAGE.canvas",
     "模板/挂件.md",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",

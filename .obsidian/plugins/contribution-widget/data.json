@@ -585,20 +585,20 @@
       },
       "layout": {
         "lg": {
-          "x": 0,
-          "y": 43,
           "w": 6,
-          "h": 6,
-          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b"
-        },
-        "xs": {
-          "w": 1,
           "h": 6,
           "x": 0,
           "y": 42,
           "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
           "moved": false,
           "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 43,
+          "w": 1,
+          "h": 6,
+          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b"
         }
       }
     },
@@ -632,20 +632,20 @@
       },
       "layout": {
         "lg": {
-          "x": 0,
-          "y": 50,
           "w": 6,
-          "h": 6,
-          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb"
-        },
-        "xs": {
-          "w": 1,
           "h": 6,
           "x": 0,
           "y": 48,
           "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",
           "moved": false,
           "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 50,
+          "w": 1,
+          "h": 6,
+          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb"
         }
       }
     },
@@ -653,14 +653,14 @@
       "id": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
       "name": "",
       "createAt": "2024-03-09T15:42:30.209Z",
-      "updateAt": "2024-03-09T15:47:42.093Z",
+      "updateAt": "2024-03-09T15:58:47.735Z",
       "widget": {
         "id": "df925a56-b897-43fc-be9e-a1eaed3a7afb",
         "type": "dataview",
         "titleAlign": "center",
         "tabTitle": "",
         "maxWidthRatio": -1,
-        "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path)\nlet sentenceList = fileContent.split(\"\\n\")\nsentenceList = sentenceList.filter(x => x.startsWith(\"-\"))\nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0]\noneSentence = '每日一句：' + oneSentence.substring(2)\ndv.paragraph(`<div>${oneSentence}</div>`) ",
+        "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path)\nlet sentenceList = fileContent.split(\"\\n\")\nsentenceList = sentenceList.filter(x => x.startsWith(\"-\"))\nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0]\noneSentence = '每日一句：' + oneSentence.substring(2)\ndv.paragraph(`<div style=\"font-size: 24px;\">${oneSentence}</div>`) ",
         "queryType": "dataviewjs",
         "backgroundStyle": "card",
         "maxHeight": 300,
@@ -668,20 +668,20 @@
       },
       "layout": {
         "lg": {
-          "x": 0,
-          "y": 57,
           "w": 6,
-          "h": 6,
-          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86"
-        },
-        "xs": {
-          "w": 1,
           "h": 6,
           "x": 0,
           "y": 54,
           "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
           "moved": false,
           "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 57,
+          "w": 1,
+          "h": 6,
+          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86"
         }
       }
     }
