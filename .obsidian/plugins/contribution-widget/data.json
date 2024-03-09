@@ -154,7 +154,7 @@
       "id": "4bc8ad91-691f-4473-b9bb-6ae22dcb130d",
       "name": "",
       "createAt": "2024-02-28T11:59:16.219Z",
-      "updateAt": "2024-02-28T12:00:38.724Z",
+      "updateAt": "2024-03-09T01:54:56.175Z",
       "widget": {
         "id": "a7636b2f-2a66-489b-a620-072ff9cee650",
         "type": "multi",
@@ -169,7 +169,7 @@
             "maxWidthRatio": 100,
             "repeatType": "none",
             "showEndDateTime": true,
-            "endHour": 18,
+            "endHour": 8,
             "endMinute": 0,
             "endSecond": 0,
             "title": "意大利",
