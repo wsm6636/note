@@ -57,6 +57,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "03ee1c2edebbaba3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "viewState": {
+                  "x": -1949,
+                  "y": -688.5,
+                  "zoom": -0.07819232780851874
+                }
+              }
+            }
           }
         ]
       }
@@ -229,6 +244,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
@@ -238,17 +254,16 @@
       "obsidian-advanced-slides:Show Slide Preview": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
-      "homepage:Open homepage": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e89c4e65fff19bc4",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "wsm/周记/2024-03-04-W10.md",
+    "HOMEPAGE.canvas",
     "wsm/日记/2024-03-09.md",
     "模板/挂件.md",
-    "HOMEPAGE.canvas",
     "模板/启动页模板1.canvas",
-    "wsm/周记/2024-03-04-W10.md",
     "wsm/周记/2024-02-26-W09.md",
     "模板/日记模板.md",
     "wsm/日记/2024-02-27.md",
@@ -298,6 +313,4 @@
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.png",
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/rollup-logo.svg",
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/repo-hero-logo-light.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/monitor.svg"
-  ]
-}
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/moni
