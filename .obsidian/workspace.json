@@ -213,11 +213,14 @@
       "obsidian-advanced-slides:Show Slide Preview": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "_remotely-save-metadata-on-remote.json",
+    "_remotely-save-metadata-on-remote.json.nssyncsc",
     "desktop.ini",
     "模板/挂件.md",
     "HOMEPAGE.canvas",
@@ -242,9 +245,7 @@
     "模板/月复盘模板.md",
     "模板/年复盘模板.md.baiduyun.uploading.cfg",
     "模板/年复盘模板.md",
-    "模板/挂件.md.baiduyun.uploading.cfg",
     "20240308211303  new.md",
-    "wsm/日记/2024-03-07.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-07.md",
     "wsm/日记/2024-03-06.md",
     "模板/启动页模板2.canvas",
