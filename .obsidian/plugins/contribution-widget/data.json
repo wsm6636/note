@@ -104,7 +104,7 @@
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
       "name": "",
       "createAt": "2024-02-28T08:37:59.147Z",
-      "updateAt": "2024-02-28T08:37:59.147Z",
+      "updateAt": "2024-03-09T14:54:42.868Z",
       "widget": {
         "id": "5cec35a2-1ff0-41b0-851a-cda51991cb70",
         "type": "checkIn",
@@ -123,11 +123,18 @@
             "checkInRecordType": "task",
             "tag": "#学英语",
             "name": ""
+          },
+          {
+            "id": "deb71792-6476-4866-a708-7fe1624c93a8",
+            "checkInRecordType": "task",
+            "tag": "#运动",
+            "name": ""
           }
         ],
         "backgroundColor": "#ffffff00",
         "title": "",
-        "fontColor": "#b6bbdbff"
+        "fontColor": "#b6bbdbff",
+        "backgroundStyle": "card"
       },
       "layout": {
         "lg": {

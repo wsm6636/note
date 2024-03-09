@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1917.8159920850426,
-                  "y": -667.6198759757149,
+                  "y": -574.6198759757149,
                   "zoom": 0
                 }
               },
@@ -124,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "dbe74c464049a0d9",
@@ -210,9 +211,17 @@
   },
   "active": "e89c4e65fff19bc4",
   "lastOpenFiles": [
-    "wsm/test.md",
-    "wsm/周记/2024-03-04-W10.md",
+    "wsm/日记/2024-03-04.md",
     "HOMEPAGE.canvas",
+    "wsm/日记/2024-03-05.md",
+    "wsm/周记/2024-03-04-W10.md",
+    "wsm/月复盘/2024-03.md",
+    "wsm/日记/2024-03-09.md",
+    "模板/年复盘模板.md",
+    "模板/周记模板.md",
+    "模板/月复盘模板.md",
+    "模板/日记模板.md",
+    "wsm/test.md",
     "wsm/test.md.baiduyun.uploading.cfg",
     "wsm/test.md.nssyncsc.baiduyun.uploading.cfg",
     "wsm/test.md.nssyncsc",
@@ -221,7 +230,6 @@
     "wsm/日记/2024-03-08 1.md",
     "wsm/日记/2024-03-08 1.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-09.md.baiduyun.uploading.cfg",
-    "wsm/日记/2024-03-09.md",
     "_remotely-save-metadata-on-remote.json.baiduyun.uploading.cfg",
     "_remotely-save-metadata-on-remote.json",
     "_remotely-save-metadata-on-remote.json.nssyncsc",
@@ -229,24 +237,17 @@
     "模板/挂件.md",
     "模板/启动页模板1.canvas",
     "wsm/周记/2024-02-26-W09.md",
-    "模板/日记模板.md",
     "wsm/日记/2024-02-27.md",
     "wsm/周记/2024-02-19-W08.md",
     "wsm/月复盘/2024-02.md",
-    "wsm/月复盘/2024-03.md",
-    "模板/周记模板.md",
-    "模板/月复盘模板.md",
-    "模板/年复盘模板.md",
     "20240308211303  new.md",
     "wsm/日记/2024-03-07.md",
     "wsm/日记/2024-03-06.md",
     "模板/启动页模板2.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
-    "wsm/日记/2024-03-05.md",
     "模板/read note template.md",
     "模板/contributionGraph.md",
-    "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-02-29.md",
     "wsm/日记/2024-02-28.md",

@@ -1,0 +1,17 @@
+/* 
+@Author   : 咖啡豆
+@contact  : https://obsidian.vip/
+@File     : coffeebean-去除删除线-任务回顾专用.css
+@Software : vscode
+@Date     : 2022-10-17
+@upDate   : 2022-10-17
+@Desc     : CSS提供给系统yaml调用，调用格式如下
+            ---
+            cssclass: coffeebean-del-checklist-done-decoration
+            ---
+*/
+
+/* 去除删除线效果 */
+.coffeebean-del-checklist-done-decoration ul > li.task-list-item[data-task="x"], ul > li.task-list-item[data-task="X"]{
+    text-decoration: none !important;
+}

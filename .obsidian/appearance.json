@@ -7,5 +7,10 @@
   "interfaceFontFamily": "",
   "textFontFamily": "思源宋体,Adobe 宋体 Std",
   "baseFontSize": 24,
-  "monospaceFontFamily": "MesloLGS NF"
+  "monospaceFontFamily": "MesloLGS NF",
+  "enabledCssSnippets": [
+    "metadata-icon-auto-gen",
+    "remove-task-line",
+    "supercharged-links-gen"
+  ]
 }
