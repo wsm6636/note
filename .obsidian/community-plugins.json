@@ -27,5 +27,6 @@
   "update-time-on-edit",
   "templater-obsidian",
   "share-my-plugin-list",
-  "homepage"
+  "homepage",
+  "remotely-save"
 ]
