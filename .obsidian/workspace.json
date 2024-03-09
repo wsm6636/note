@@ -25,11 +25,16 @@
             }
           },
           {
-            "id": "3bce127ab1cdc5e6",
+            "id": "dbc625e334be0577",
             "type": "leaf",
             "state": {
-              "type": "contribution-widget-repository-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "wsm/周记/2024-03-04-W10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -213,19 +218,26 @@
       "obsidian-advanced-slides:Show Slide Preview": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "wsm/test.md",
+    "wsm/周记/2024-03-04-W10.md",
+    "wsm/test.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-08.md",
+    "wsm/日记/2024-03-08.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-08 1.md",
+    "wsm/日记/2024-03-08 1.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-09.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-09.md",
+    "HOMEPAGE.canvas",
+    "_remotely-save-metadata-on-remote.json.baiduyun.uploading.cfg",
     "_remotely-save-metadata-on-remote.json",
     "_remotely-save-metadata-on-remote.json.nssyncsc",
     "desktop.ini",
     "模板/挂件.md",
-    "HOMEPAGE.canvas",
-    "wsm/周记/2024-03-04-W10.md",
-    "wsm/日记/2024-03-09.md",
     "模板/启动页模板1.canvas",
     "wsm/周记/2024-02-26-W09.md",
     "模板/日记模板.md",
@@ -233,17 +245,10 @@
     "wsm/周记/2024-02-19-W08.md",
     "wsm/月复盘/2024-02.md",
     "wsm/月复盘/2024-03.md",
-    "wsm/日记/2024-03-08.md",
     "wsm/月复盘/2024-02.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
-    "wsm/周记/2024-02-19-W08.md.baiduyun.uploading.cfg",
-    "wsm/月复盘/2024-03.md.baiduyun.uploading.cfg",
-    "模板/周记模板.md.baiduyun.uploading.cfg",
-    "模板/月复盘模板.md.baiduyun.uploading.cfg",
     "模板/周记模板.md",
-    "wsm/周记/2024-03-04-W10.md.baiduyun.uploading.cfg",
     "模板/月复盘模板.md",
-    "模板/年复盘模板.md.baiduyun.uploading.cfg",
     "模板/年复盘模板.md",
     "20240308211303  new.md",
     "wsm/日记/2024-03-07.md",
@@ -258,8 +263,6 @@
     "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-02-29.md",
     "wsm/日记/2024-02-28.md",
-    "Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "wsm/周记/2024-02-12-07.md",
     "模板/未命名.canvas",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",
