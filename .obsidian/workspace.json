@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1963.5,
-                  "y": -139.5,
+                  "y": -604.5,
                   "zoom": 0
                 }
               },
@@ -186,8 +186,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,8 +206,14 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e89c4e65fff19bc4",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-10.md.baiduyun.uploading.cfg",
+    "wsm/日记/2024-03-09.md.baiduyun.uploading.cfg",
+    "wsm/周记/2024-03-04-W10.md.baiduyun.uploading.cfg",
+    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
+    "desktop.ini",
     "wsm/月复盘/2024-03.md",
     "wsm/周记/2024-03-04-W10.md",
     "wsm/周记/2024-02-26-W09.md",
@@ -221,11 +226,6 @@
     "因果链/基础知识.md.baiduyun.uploading.cfg",
     "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md.baiduyun.uploading.cfg",
     "因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md.baiduyun.uploading.cfg",
-    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md.baiduyun.uploading.cfg",
-    "因果链/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md.baiduyun.uploading.cfg",
-    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md.baiduyun.uploading.cfg",
-    "因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md.baiduyun.uploading.cfg",
-    "因果链/note.md.baiduyun.uploading.cfg",
     "模板/一言.md",
     "模板/一言模板.md",
     "wsm/test.md",
