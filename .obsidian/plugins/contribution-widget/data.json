@@ -654,7 +654,7 @@
       "id": "aadc8501-b6e3-458c-8749-7987f95f117f",
       "name": "",
       "createAt": "2024-03-10T08:16:27.940Z",
-      "updateAt": "2024-03-10T08:16:27.940Z",
+      "updateAt": "2024-03-10T10:46:40.444Z",
       "widget": {
         "id": "2721561f-ce9e-4aab-9c3a-707a1c745c60",
         "type": "multi",
@@ -669,7 +669,7 @@
             "titleAlign": "center",
             "tabTitle": "",
             "maxWidthRatio": -1,
-            "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path) \nlet sentenceList = fileContent.split(\"\\n\") \nsentenceList = sentenceList.filter(x => x.startsWith(\"-\")) \nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0] \noneSentence = '每日一句：' + oneSentence.substring(2) \ndv.paragraph(`<div style=\"font-size: 24px; font-family: kaiti;\">${oneSentence}</div>`)",
+            "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path) \nlet sentenceList = fileContent.split(\"\\n\") \nsentenceList = sentenceList.filter(x => x.startsWith(\"-\")) \nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0] \noneSentence =oneSentence.substring(2) \ndv.paragraph(`<div style=\"font-size: 24px; font-family: kaiti;\">${oneSentence}</div>`)",
             "queryType": "dataviewjs",
             "backgroundStyle": "card",
             "maxHeight": 300,
@@ -692,6 +692,42 @@
           "x": 0,
           "y": 54,
           "i": "aadc8501-b6e3-458c-8749-7987f95f117f",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "550b2721-fa5c-4a50-b6a1-48274d3ea8e5",
+      "name": "",
+      "createAt": "2024-03-10T10:22:33.817Z",
+      "updateAt": "2024-03-10T10:45:09.179Z",
+      "widget": {
+        "id": "650effd8-5408-45bb-b984-c3d5a1c4c6d2",
+        "type": "markdown",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "card",
+        "maxHeight": 300,
+        "contentAlign": "left",
+        "markdownsSource": "content",
+        "markdownValue": "<%* \nlet 一言 = \"\" \nlet 来源 = \"\" \nlet 作者 = \"\" \n\nawait fetch('https://v1.hitokoto.cn/?c=d&c=h&c=i&c=j') \n.then(response => response.json()) \n.then(data => { \n\t一言 = data.hitokoto \n\t来源 = data.from \n\t作者 = data.from_who === null ? '佚名' : data.from_who \n}) \n-%>\n\n- <% 一言 %> —— 《<% 来源 %>》 · <% 作者 %>"
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 71,
+          "w": 6,
+          "h": 6,
+          "i": "550b2721-fa5c-4a50-b6a1-48274d3ea8e5"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 60,
+          "i": "550b2721-fa5c-4a50-b6a1-48274d3ea8e5",
           "moved": false,
           "static": false
         }

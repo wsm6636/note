@@ -26,6 +26,12 @@
       "icon": "lucide-copy",
       "name": "模板: 插入模板",
       "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:insert-templater",
+      "icon": "templater-icon",
+      "name": "Templater: Open Insert Template modal",
+      "mode": "any"
     }
   ],
   "fileMenu": [
