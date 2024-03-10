@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1948.5,
-                  "y": -646.8707533182006,
+                  "y": -739.8707533182006,
                   "zoom": 0
                 }
               },
@@ -215,8 +215,9 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e89c4e65fff19bc4",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "调度/中断.baiduyun.uploading.cfg",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
     "模板/日记模板.md.baiduyun.uploading.cfg",
     "模板/挂件.md.baiduyun.uploading.cfg",
@@ -227,7 +228,6 @@
     "wsm/月复盘/2024-03.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-09.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-03-04-W10.md.baiduyun.uploading.cfg",
-    "wsm/test.md.baiduyun.uploading.cfg",
     "模板/一言.md",
     "模板/一言模板.md",
     "HOMEPAGE.canvas",
