@@ -4,7 +4,7 @@
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
       "name": "",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-02-28T11:29:04.765Z",
+      "updateAt": "2024-03-10T08:08:53.425Z",
       "widget": {
         "id": "0beb4e2e-f32e-4d3b-a560-2f4eac94f5a7",
         "type": "dataview",
@@ -35,7 +35,8 @@
           }
         ],
         "title": "",
-        "backgroundColor": "#ffffff00"
+        "backgroundColor": "#00000000",
+        "fontColor": "#f1e7e7ff"
       },
       "layout": {
         "lg": {
@@ -104,7 +105,7 @@
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
       "name": "",
       "createAt": "2024-02-28T08:37:59.147Z",
-      "updateAt": "2024-03-09T14:54:42.868Z",
+      "updateAt": "2024-03-10T08:08:37.576Z",
       "widget": {
         "id": "5cec35a2-1ff0-41b0-851a-cda51991cb70",
         "type": "checkIn",
@@ -131,9 +132,9 @@
             "name": ""
           }
         ],
-        "backgroundColor": "#ffffff00",
+        "backgroundColor": "#00000000",
         "title": "",
-        "fontColor": "#b6bbdbff",
+        "fontColor": "#eae2e2ff",
         "backgroundStyle": "card"
       },
       "layout": {
@@ -585,13 +586,11 @@
       },
       "layout": {
         "lg": {
+          "x": 0,
+          "y": 43,
           "w": 6,
           "h": 6,
-          "x": 0,
-          "y": 42,
-          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
-          "moved": false,
-          "static": false
+          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b"
         },
         "xs": {
           "w": 1,
@@ -634,13 +633,11 @@
       },
       "layout": {
         "lg": {
+          "x": 0,
+          "y": 50,
           "w": 6,
           "h": 6,
-          "x": 0,
-          "y": 48,
-          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",
-          "moved": false,
-          "static": false
+          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb"
         },
         "xs": {
           "w": 1,
@@ -654,38 +651,47 @@
       }
     },
     {
-      "id": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
+      "id": "aadc8501-b6e3-458c-8749-7987f95f117f",
       "name": "",
-      "createAt": "2024-03-09T15:42:30.209Z",
-      "updateAt": "2024-03-09T15:58:47.735Z",
+      "createAt": "2024-03-10T08:16:27.940Z",
+      "updateAt": "2024-03-10T08:16:27.940Z",
       "widget": {
-        "id": "df925a56-b897-43fc-be9e-a1eaed3a7afb",
-        "type": "dataview",
+        "id": "2721561f-ce9e-4aab-9c3a-707a1c745c60",
+        "type": "multi",
         "titleAlign": "center",
         "tabTitle": "",
         "maxWidthRatio": -1,
-        "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path)\nlet sentenceList = fileContent.split(\"\\n\")\nsentenceList = sentenceList.filter(x => x.startsWith(\"-\"))\nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0]\noneSentence = '每日一句：' + oneSentence.substring(2)\ndv.paragraph(`<div style=\"font-size: 24px;\">${oneSentence}</div>`) ",
-        "queryType": "dataviewjs",
-        "backgroundStyle": "card",
-        "maxHeight": 300,
-        "dynamicParamComponents": []
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "822313f5-8084-4aa0-8265-13231199f5e2",
+            "type": "dataview",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path) \nlet sentenceList = fileContent.split(\"\\n\") \nsentenceList = sentenceList.filter(x => x.startsWith(\"-\")) \nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0] \noneSentence = '每日一句：' + oneSentence.substring(2) \ndv.paragraph(`<div style=\"font-size: 24px; font-family: kaiti;\">${oneSentence}</div>`)",
+            "queryType": "dataviewjs",
+            "backgroundStyle": "card",
+            "maxHeight": 300,
+            "dynamicParamComponents": []
+          }
+        ],
+        "layoutType": "column"
       },
       "layout": {
         "lg": {
+          "x": 0,
+          "y": 64,
           "w": 6,
           "h": 6,
-          "x": 0,
-          "y": 54,
-          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
-          "moved": false,
-          "static": false
+          "i": "aadc8501-b6e3-458c-8749-7987f95f117f"
         },
         "xs": {
           "w": 1,
           "h": 6,
           "x": 0,
           "y": 54,
-          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
+          "i": "aadc8501-b6e3-458c-8749-7987f95f117f",
           "moved": false,
           "static": false
         }

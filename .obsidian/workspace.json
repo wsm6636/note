@@ -16,20 +16,12 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1923.5442962646484,
-                  "y": -673.1332092285156,
-                  "zoom": 0
+                  "x": -1941.7053930563761,
+                  "y": -657.0496358160777,
+                  "zoom": -0.07819232780851874
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "993dbf78e263831f",
-            "type": "leaf",
-            "state": {
-              "type": "contribution-widget-repository-view",
-              "state": {}
             }
           },
           {
@@ -38,14 +30,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模板/一言.md",
+                "file": "模板/未命名.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "39716aefdb451cee",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-repository-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/未命名.md"
               }
             }
           },
@@ -141,7 +142,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/未命名.md"
               }
             }
           }
@@ -176,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/未命名.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -221,18 +222,21 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
+      "templates:插入模板": false,
       "command-palette:打开命令面板": true,
-      "obsidian-advanced-slides:Show Slide Preview": true,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "c3491a9d12f52feb",
   "lastOpenFiles": [
     "模板/一言.md",
+    "模板/未命名.md",
     "HOMEPAGE.canvas",
+    "模板/启动页模板1.canvas",
     "模板/挂件.md",
+    "模板/contributionGraph.md",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
     "wsm/周记/2024-03-04-W10.md",
@@ -257,7 +261,6 @@
     "_remotely-save-metadata-on-remote.json",
     "_remotely-save-metadata-on-remote.json.nssyncsc",
     "desktop.ini",
-    "模板/启动页模板1.canvas",
     "wsm/周记/2024-02-26-W09.md",
     "wsm/日记/2024-02-27.md",
     "wsm/周记/2024-02-19-W08.md",
@@ -266,7 +269,6 @@
     "wsm/日记/2024-03-07.md",
     "wsm/日记/2024-03-06.md",
     "模板/read note template.md",
-    "模板/contributionGraph.md",
     "wsm/日记/2024-03-01.md",
     "wsm/日记/2024-02-29.md",
     "模板/未命名.canvas",

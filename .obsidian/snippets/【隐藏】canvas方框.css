@@ -1,0 +1,32 @@
+.canvas-node-container .markdown-embed-content h1 {
+	text-align: center;
+}
+.canvas-node-container .markdown-embed-content h2 {
+	text-align: center;
+}
+.canvas-node-container .markdown-embed-content h3 {
+	text-align: center;
+}
+.canvas-node-container .markdown-embed-content h4 {
+	text-align: center;
+}
+.canvas-node-container .markdown-embed-content h5 {
+	text-align: center;
+}
+.canvas-node-container .markdown-embed-content h6 {
+	text-align: center;
+}
+
+
+/*.canvas-node-content-blocker {display: none;}*/
+
+
+.canvas-node-label {
+    color: white;
+}
+
+
+.canvas-node-container {
+    background: none;box-shadow: none; border: none;
+}
+
