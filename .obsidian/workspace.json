@@ -16,8 +16,8 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1949,
-                  "y": -644,
+                  "x": -1923.5442962646484,
+                  "y": -673.1332092285156,
                   "zoom": 0
                 }
               },
@@ -45,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,7 +228,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "993dbf78e263831f",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "模板/一言.md",
     "HOMEPAGE.canvas",

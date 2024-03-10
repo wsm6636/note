@@ -594,11 +594,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 43,
           "w": 1,
           "h": 6,
-          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b"
+          "x": 0,
+          "y": 42,
+          "i": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
+          "moved": false,
+          "static": false
         }
       }
     },
@@ -641,11 +643,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 50,
           "w": 1,
           "h": 6,
-          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb"
+          "x": 0,
+          "y": 48,
+          "i": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",
+          "moved": false,
+          "static": false
         }
       }
     },
@@ -677,11 +681,13 @@
           "static": false
         },
         "xs": {
-          "x": 0,
-          "y": 57,
           "w": 1,
           "h": 6,
-          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86"
+          "x": 0,
+          "y": 54,
+          "i": "ed0cdadc-1ac5-419c-b1f1-67ef3492ce86",
+          "moved": false,
+          "static": false
         }
       }
     }
