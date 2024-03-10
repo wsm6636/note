@@ -696,42 +696,6 @@
           "static": false
         }
       }
-    },
-    {
-      "id": "550b2721-fa5c-4a50-b6a1-48274d3ea8e5",
-      "name": "",
-      "createAt": "2024-03-10T10:22:33.817Z",
-      "updateAt": "2024-03-10T10:45:09.179Z",
-      "widget": {
-        "id": "650effd8-5408-45bb-b984-c3d5a1c4c6d2",
-        "type": "markdown",
-        "titleAlign": "center",
-        "tabTitle": "",
-        "maxWidthRatio": -1,
-        "backgroundStyle": "card",
-        "maxHeight": 300,
-        "contentAlign": "left",
-        "markdownsSource": "content",
-        "markdownValue": "<%* \nlet 一言 = \"\" \nlet 来源 = \"\" \nlet 作者 = \"\" \n\nawait fetch('https://v1.hitokoto.cn/?c=d&c=h&c=i&c=j') \n.then(response => response.json()) \n.then(data => { \n\t一言 = data.hitokoto \n\t来源 = data.from \n\t作者 = data.from_who === null ? '佚名' : data.from_who \n}) \n-%>\n\n- <% 一言 %> —— 《<% 来源 %>》 · <% 作者 %>"
-      },
-      "layout": {
-        "lg": {
-          "x": 0,
-          "y": 71,
-          "w": 6,
-          "h": 6,
-          "i": "550b2721-fa5c-4a50-b6a1-48274d3ea8e5"
-        },
-        "xs": {
-          "w": 1,
-          "h": 6,
-          "x": 0,
-          "y": 60,
-          "i": "550b2721-fa5c-4a50-b6a1-48274d3ea8e5",
-          "moved": false,
-          "static": false
-        }
-      }
     }
   ]
 }

@@ -18,7 +18,7 @@
                 "viewState": {
                   "x": -1948.5,
                   "y": -646.8707533182006,
-                  "zoom": -0.09376673282972342
+                  "zoom": 0
                 }
               },
               "pinned": true
@@ -30,32 +30,6 @@
             "state": {
               "type": "contribution-widget-repository-view",
               "state": {}
-            }
-          },
-          {
-            "id": "e564478e9aee1019",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "模板/一言.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2179b345aec39606",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "模板/一言模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           }
         ]
@@ -243,10 +217,10 @@
   },
   "active": "e89c4e65fff19bc4",
   "lastOpenFiles": [
+    "模板/一言.md",
     "模板/一言模板.md",
     "HOMEPAGE.canvas",
     "wsm/test.md",
-    "模板/一言.md",
     "模板/一言模板 1.md",
     "模板/Untitled.md",
     "模板/未命名.md",
