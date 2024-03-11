@@ -17,14 +17,49 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1963.5,
-                  "y": -604,
+                  "y": -697,
                   "zoom": 0
                 }
               },
               "pinned": true
             }
+          },
+          {
+            "id": "07d87bac03e1ef0c",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-repository-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "510ebbb990020824",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/日记/2024-03-11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd0aabd6a38f2e37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/周记/2024-03-11-W11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-03-11.md"
               }
             }
           },
@@ -120,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-03-11.md"
               }
             }
           }
@@ -155,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-03-11.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-03-11.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -207,33 +242,36 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e89c4e65fff19bc4",
+  "active": "510ebbb990020824",
   "lastOpenFiles": [
+    "wsm/日记/2024-03-11.md.baiduyun.uploading.cfg",
+    "wsm/周记/2024-03-11-W11.md.baiduyun.uploading.cfg",
+    "wsm/周记/2024-03-11-W11.md",
+    "wsm/月复盘/2024-03.md",
+    "wsm/日记/2024-03-11.md",
+    "HOMEPAGE.canvas",
+    "模板/日记模板.md",
+    "模板/挂件.md",
     "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-10.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-09.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-03-04-W10.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "desktop.ini",
-    "wsm/月复盘/2024-03.md",
     "wsm/周记/2024-03-04-W10.md",
     "wsm/周记/2024-02-26-W09.md",
     "wsm/日记/2024-03-10.md",
     "wsm/日记/2024-03-09.md",
     "模板/启动页模板1.canvas",
-    "HOMEPAGE.canvas",
     "因果链/cause-effect chain.md.baiduyun.uploading.cfg",
     "因果链/其他人的工作.md.baiduyun.uploading.cfg",
     "因果链/基础知识.md.baiduyun.uploading.cfg",
-    "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md.baiduyun.uploading.cfg",
-    "因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md.baiduyun.uploading.cfg",
     "模板/一言.md",
     "模板/一言模板.md",
     "wsm/test.md",
     "模板/一言模板 1.md",
     "模板/Untitled.md",
     "模板/未命名.md",
-    "模板/挂件.md",
     "模板/contributionGraph.md",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
@@ -242,13 +280,10 @@
     "模板/年复盘模板.md",
     "模板/周记模板.md",
     "模板/月复盘模板.md",
-    "模板/日记模板.md",
     "wsm/日记/2024-03-08.md",
     "wsm/日记/2024-03-08 1.md",
     "wsm/日记/2024-02-27.md",
     "wsm/周记/2024-02-19-W08.md",
-    "wsm/月复盘/2024-02.md",
-    "20240308211303  new.md",
     "模板/未命名.canvas",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",

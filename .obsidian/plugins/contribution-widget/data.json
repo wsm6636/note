@@ -696,6 +696,53 @@
           "static": false
         }
       }
+    },
+    {
+      "id": "5728d82c-ebb3-4bf1-b691-9e17a00d5b78",
+      "name": "",
+      "createAt": "2024-03-11T06:50:02.390Z",
+      "updateAt": "2024-03-11T06:50:45.033Z",
+      "widget": {
+        "id": "507d229f-98c6-4ee4-9fb4-7722df7372ce",
+        "type": "multi",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "b2482ec7-91ae-409d-b8ef-b99d0e28d7e2",
+            "type": "markdown",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": 41,
+            "backgroundStyle": "card",
+            "maxHeight": 300,
+            "contentAlign": "left",
+            "markdownsSource": "content",
+            "markdownValue": "![1|160](图/1.png)"
+          }
+        ],
+        "layoutType": "column"
+      },
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 71,
+          "w": 6,
+          "h": 6,
+          "i": "5728d82c-ebb3-4bf1-b691-9e17a00d5b78"
+        },
+        "xs": {
+          "w": 1,
+          "h": 6,
+          "x": 0,
+          "y": 60,
+          "i": "5728d82c-ebb3-4bf1-b691-9e17a00d5b78",
+          "moved": false,
+          "static": false
+        }
+      }
     }
   ]
 }
