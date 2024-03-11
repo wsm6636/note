@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1963.5,
-                  "y": -604.5,
+                  "y": -604,
                   "zoom": 0
                 }
               },
@@ -186,7 +186,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -206,7 +207,7 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "7fc5fa2c3f576f36",
+  "active": "e89c4e65fff19bc4",
   "lastOpenFiles": [
     "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-10.md.baiduyun.uploading.cfg",
