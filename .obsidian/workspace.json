@@ -33,19 +33,6 @@
             }
           },
           {
-            "id": "510ebbb990020824",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/日记/2024-03-11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bd0aabd6a38f2e37",
             "type": "leaf",
             "state": {
@@ -57,9 +44,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9f7400f77032fce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/日记/2024-03-11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -239,17 +239,21 @@
       "command-palette:打开命令面板": true,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "510ebbb990020824",
+  "active": "c9f7400f77032fce",
   "lastOpenFiles": [
+    "wsm/周记/2024-03-11-W11.md",
+    "wsm/日记/2024-03-11.md",
+    "模板/一言.md",
+    "模板/一言模板.md",
+    "wsm/周记/2024-02-26-W09.md",
+    "HOMEPAGE.canvas",
     "wsm/日记/2024-03-11.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-03-11-W11.md.baiduyun.uploading.cfg",
-    "wsm/周记/2024-03-11-W11.md",
     "wsm/月复盘/2024-03.md",
-    "wsm/日记/2024-03-11.md",
-    "HOMEPAGE.canvas",
     "模板/日记模板.md",
     "模板/挂件.md",
     "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
@@ -259,15 +263,11 @@
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "desktop.ini",
     "wsm/周记/2024-03-04-W10.md",
-    "wsm/周记/2024-02-26-W09.md",
     "wsm/日记/2024-03-10.md",
     "wsm/日记/2024-03-09.md",
     "模板/启动页模板1.canvas",
     "因果链/cause-effect chain.md.baiduyun.uploading.cfg",
     "因果链/其他人的工作.md.baiduyun.uploading.cfg",
-    "因果链/基础知识.md.baiduyun.uploading.cfg",
-    "模板/一言.md",
-    "模板/一言模板.md",
     "wsm/test.md",
     "模板/一言模板 1.md",
     "模板/Untitled.md",

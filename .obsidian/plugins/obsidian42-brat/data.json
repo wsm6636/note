@@ -1,16 +1,9 @@
 {
   "pluginList": [
-    "vran-dev/obsidian-emojio",
-    "vran-dev/obsidian-contribution-graph",
-    "Benature/obsidian-share-my-plugin-list",
-    "Benature/obsidian-metadata-icon"
+    "aidan-gibson/obsidian-opener",
+    "vran-dev/obsidian-emojio"
   ],
-  "pluginSubListFrozenVersion": [
-    {
-      "repo": "vran-dev/obsidian-contribution-graph",
-      "version": "0.8.0"
-    }
-  ],
+  "pluginSubListFrozenVersion": [],
   "themesList": [],
   "updateAtStartup": true,
   "updateThemesAtStartup": true,
