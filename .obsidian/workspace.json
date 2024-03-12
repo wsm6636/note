@@ -57,9 +57,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "de14043aa717a54b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/日记/2024-03-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/日记/2024-03-11.md"
+                "file": "wsm/周记/2024-03-11-W11.md"
               }
             }
           },
@@ -155,7 +168,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/日记/2024-03-11.md"
+                "file": "wsm/周记/2024-03-11-W11.md"
               }
             }
           }
@@ -190,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/日记/2024-03-11.md",
+                "file": "wsm/周记/2024-03-11-W11.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/日记/2024-03-11.md",
+                "file": "wsm/周记/2024-03-11-W11.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -243,14 +256,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c9f7400f77032fce",
+  "active": "bd0aabd6a38f2e37",
   "lastOpenFiles": [
+    "wsm/日记/2024-03-12.md",
     "wsm/周记/2024-03-11-W11.md",
     "wsm/日记/2024-03-11.md",
+    "HOMEPAGE.canvas",
     "模板/一言.md",
     "模板/一言模板.md",
     "wsm/周记/2024-02-26-W09.md",
-    "HOMEPAGE.canvas",
     "wsm/日记/2024-03-11.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-03-11-W11.md.baiduyun.uploading.cfg",
     "wsm/月复盘/2024-03.md",
@@ -283,7 +297,6 @@
     "wsm/日记/2024-03-08.md",
     "wsm/日记/2024-03-08 1.md",
     "wsm/日记/2024-02-27.md",
-    "wsm/周记/2024-02-19-W08.md",
     "模板/未命名.canvas",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",
