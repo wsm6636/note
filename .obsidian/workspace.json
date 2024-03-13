@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1963.5,
-                  "y": -697,
+                  "y": -604,
                   "zoom": 0
                 }
               },
@@ -25,15 +25,7 @@
             }
           },
           {
-            "id": "07d87bac03e1ef0c",
-            "type": "leaf",
-            "state": {
-              "type": "contribution-widget-repository-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "bd0aabd6a38f2e37",
+            "id": "527e2bb7e692e684",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,25 +38,12 @@
             }
           },
           {
-            "id": "c9f7400f77032fce",
+            "id": "ea044ad272c6b28f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/日记/2024-03-11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de14043aa717a54b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/日记/2024-03-12.md",
+                "file": "wsm/日记/2024-03-13.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,15 +232,16 @@
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": true,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "bd0aabd6a38f2e37",
+  "active": "527e2bb7e692e684",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "wsm/日记/2024-03-12.md",
+    "wsm/日记/2024-03-13.md",
     "wsm/周记/2024-03-11-W11.md",
     "wsm/日记/2024-03-11.md",
-    "HOMEPAGE.canvas",
     "模板/一言.md",
     "模板/一言模板.md",
     "wsm/周记/2024-02-26-W09.md",
@@ -296,7 +276,6 @@
     "模板/月复盘模板.md",
     "wsm/日记/2024-03-08.md",
     "wsm/日记/2024-03-08 1.md",
-    "wsm/日记/2024-02-27.md",
     "模板/未命名.canvas",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",
