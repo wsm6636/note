@@ -29,9 +29,10 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
-  hideEmptyEntryInSiderbar: false,
+  hideEmptyEntryInSideDock: false,
   propertiesVisible: "",
   propertiesInvisible: "",
+  propertiesInvisibleAlways: "",
   propertyHideAll: "hide"
 };
 var MetadataHider = class extends import_obsidian.Plugin {
@@ -43,22 +44,61 @@ var MetadataHider = class extends import_obsidian.Plugin {
     await this.loadSettings();
     this.addSettingTab(new MetadataHiderSettingTab(this.app, this));
     this.updateCSS();
+    this.registerDomEvent(document, "focusin", (evt) => {
+      var _a;
+      const target = evt.target;
+      const metadataElement = document.querySelector(".workspace-leaf.mod-active .metadata-container");
+      if (metadataElement === null) {
+        return;
+      }
+      if (metadataElement == null ? void 0 : metadataElement.contains(target)) {
+        metadataElement.classList.add("is-active");
+        this.isMetadataFocused = true;
+        if ((_a = target == null ? void 0 : target.classList) == null ? void 0 : _a.contains("metadata-add-button")) {
+          const clickEvent = new MouseEvent("click", {
+            bubbles: true,
+            cancelable: true,
+            view: window
+          });
+          target.dispatchEvent(clickEvent);
+        }
+      } else if (this.isMetadataFocused) {
+        this.isMetadataFocused = false;
+        metadataElement.classList.remove("is-active");
+      }
+    });
+    this.registerDomEvent(document, "focusout", (evt) => {
+      const target = evt.target;
+      const metadataElement = document.querySelector(".workspace-leaf.mod-active .metadata-container");
+      if (metadataElement == null ? void 0 : metadataElement.contains(target)) {
+        this.isMetadataFocused = false;
+        setTimeout(() => {
+          if (!this.isMetadataFocused) {
+            metadataElement.classList.remove("is-active");
+          }
+        }, 100);
+      }
+    });
   }
   onunload() {
-    this.styleTag.remove();
+    const parentElement = this.styleTag.parentElement;
+    if (parentElement) {
+      parentElement.removeChild(this.styleTag);
+    } else {
+      console.error("Parent element not found.");
+    }
   }
   updateCSS() {
     var _a;
     this.styleTag = document.createElement("style");
     this.styleTag.id = "css-metadata-hider";
-    console.log(document.getElementsByTagName("head"));
     let headElement = document.getElementsByTagName("head")[0];
     const existingStyleTag = headElement.querySelector("#" + this.styleTag.id);
     if (existingStyleTag) {
       (_a = existingStyleTag.parentNode) == null ? void 0 : _a.removeChild(existingStyleTag);
     }
     headElement.appendChild(this.styleTag);
-    this.styleTag.innerText = genSnippetCSS(this);
+    this.styleTag.innerText = genAllCSS(this);
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
@@ -73,61 +113,52 @@ function genCSS(properties, cssPrefix, cssSuffix, parentSelector = "") {
   }
   let body = [];
   parentSelector = parentSelector ? parentSelector + " " : "";
+  properties = properties.replace(/\n|^\s*,|,\s*$/g, "").replace(/,,+/g, ",");
   for (let property of properties.split(",")) {
-    body.push(`${parentSelector} .metadata-container > .metadata-content > .metadata-properties > .metadata-property[data-property-key="${property.trim()}"]`);
+    body.push(`${parentSelector}.metadata-container > .metadata-content > .metadata-properties > .metadata-property[data-property-key="${property.trim()}"]`);
   }
   const sep = " ";
   return cssPrefix + sep + body.join("," + sep) + sep + cssSuffix + sep + sep;
 }
-function genSnippetCSS(plugin) {
+function genAllCSS(plugin) {
   const s = plugin.settings;
-  const mod_root = s.hideEmptyEntryInSiderbar ? "" : ".mod-root ";
   const content = [
+    // Show all metadata when it is focused
+    `.metadata-container.is-active .metadata-property { display: flex !important; }`,
     /* * Hide the metadata that is empty */
-    `${mod_root}.metadata-property:has(.metadata-property-value .mod-truncate:empty),`,
-    `${mod_root}.metadata-property:has(`,
-    `		.metadata-property-value`,
-    `			input.metadata-input[type="number"]:placeholder-shown`,
-    `	),`,
-    `${mod_root}.metadata-property[data-property-type="text"]:has(input[type="date"]),`,
-    `${mod_root}.metadata-property:has(`,
-    `		.metadata-property-value`,
-    `			.multi-select-container`,
-    `			> .multi-select-input:first-child`,
-    `	) {`,
+    `.metadata-property:has(.metadata-property-value .mod-truncate:empty),`,
+    `.metadata-property:has(.metadata-property-value input.metadata-input[type="number"]:placeholder-shown),`,
+    `.metadata-property[data-property-type="text"]:has(input[type="date"]),`,
+    `.metadata-property:has(.metadata-property-value .multi-select-container > .multi-select-input:first-child) {`,
     `	display: none;`,
-    `}`,
-    /* * visualize the last metadata property.`
-     * Make sure to enable Button: add document attribution */
-    `${mod_root}div.view-content`,
-    `	div.metadata-content`,
-    `	> div.metadata-properties`,
-    `	> div.metadata-property:last-child {`,
-    `	display: flex;`,
-    `}`,
-    ``
+    `}`
   ];
+  if (!s.hideEmptyEntryInSideDock) {
+    content.push(`.mod-sidedock .metadata-property { display: flex !important; }`);
+  }
   if (s.propertyHideAll.trim()) {
     content.push([
-      `${mod_root}.metadata-container:has(`,
-      `	.metadata-property[data-property-key="${s.propertyHideAll.trim()}"] input[type="checkbox"]:checked`,
-      `  ) {`,
+      `.metadata-container:has(.metadata-property[data-property-key="${s.propertyHideAll.trim()}"] input[type="checkbox"]:checked) {`,
       `  display: none;`,
       `}`,
       ``
     ].join("\n"));
   }
   content.push(genCSS(
-    plugin.settings.propertiesInvisible,
-    "/* * Custom: Force invisible */",
-    " { display: none; }",
-    mod_root
+    plugin.settings.propertiesInvisible + "," + plugin.settings.propertiesInvisibleAlways,
+    "/* * Custom: invisible */",
+    " { display: none; }"
+  ));
+  content.push(genCSS(
+    plugin.settings.propertiesInvisibleAlways,
+    "/* * Custom: always invisible */",
+    " { display: none !important; }",
+    ".workspace-split:not(.mod-sidedock) "
   ));
   content.push(genCSS(
     plugin.settings.propertiesVisible,
     "/* * Custom: Force visible */",
-    " { display: flex; }",
-    mod_root
+    " { display: flex; }"
   ));
   return content.join(" ");
 }
@@ -147,14 +178,14 @@ var MetadataHiderSettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     const lang = this.getLang();
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName({ en: "Hide empty metadata properties also in sidebar", zh: "\u4FA7\u8FB9\u680F\u4E5F\u9690\u85CF\u503C\u4E3A\u7A7A\u7684\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09", "zh-TW": "\u5074\u908A\u6B04\u4E5F\u96B1\u85CF\u7A7A\u767D\u6587\u4EF6\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09" }[lang]).setDesc("").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.hideEmptyEntryInSiderbar).onChange(async (value) => {
-        this.plugin.settings.hideEmptyEntryInSiderbar = value;
+    new import_obsidian.Setting(containerEl).setName({ en: "Hide empty metadata properties also in side dock", zh: "\u4FA7\u8FB9\u680F\u4E5F\u9690\u85CF\u503C\u4E3A\u7A7A\u7684\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09", "zh-TW": "\u5074\u908A\u6B04\u4E5F\u96B1\u85CF\u7A7A\u767D\u6587\u4EF6\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09" }[lang]).setDesc("").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.hideEmptyEntryInSideDock).onChange(async (value) => {
+        this.plugin.settings.hideEmptyEntryInSideDock = value;
         await this.plugin.saveSettings();
         this.plugin.debounceUpdateCSS();
       });
     });
-    new import_obsidian.Setting(containerEl).setName({ en: "Always display metadata properties", zh: "\u6C38\u8FDC\u663E\u793A\u7684\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09", "zh-TW": "\u6C38\u9060\u986F\u793A\u7684\u6587\u4EF6\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09" }[lang]).setDesc({ en: "separated by comma (`,`)", zh: "\u82F1\u6587\u9017\u53F7\u5206\u9694\uFF08`,`\uFF09\u3002\u5982\uFF1A\u201Ctags, aliases\u201D", "zh-TW": "\u4EE5\u9017\u865F\u5206\u9694\uFF08`,`\uFF09" }[lang]).addTextArea(
+    new import_obsidian.Setting(containerEl).setName({ en: "Metadata properties that keep displaying", zh: "\u6C38\u8FDC\u663E\u793A\u7684\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09", "zh-TW": "\u6C38\u9060\u986F\u793A\u7684\u6587\u4EF6\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09" }[lang]).setDesc({ en: "Metadata properties will always display even if their value are empty. Metadata property keys are separated by comma (`,`)", zh: "\u82F1\u6587\u9017\u53F7\u5206\u9694\uFF08`,`\uFF09\u3002\u5982\uFF1A\u201Ctags, aliases\u201D", "zh-TW": "\u4EE5\u9017\u865F\u5206\u9694\uFF08`,`\uFF09" }[lang]).addTextArea(
       (text) => text.setValue(this.plugin.settings.propertiesVisible).onChange(async (value) => {
         this.plugin.settings.propertiesVisible = value;
         await this.plugin.saveSettings();
@@ -162,14 +193,21 @@ var MetadataHiderSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.debounceUpdateCSS();
       })
     );
-    new import_obsidian.Setting(containerEl).setName({ en: "Always hide metadata properties", zh: "\u6C38\u8FDC\u9690\u85CF\u7684\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09", "zh-TW": "\u6C38\u9060\u96B1\u85CF\u7684\u6587\u4EF6\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09" }[lang]).setDesc({ en: "separated by comma (`,`)", zh: "\u82F1\u6587\u9017\u53F7\u5206\u9694\uFF08`,`\uFF09\u3002\u5982\uFF1A\u201Ctags, aliases\u201D", "zh-TW": "\u4EE5\u9017\u865F\u5206\u9694\uFF08`,`\uFF09" }[lang]).addTextArea(
+    new import_obsidian.Setting(containerEl).setName({ en: "Metadata properties to hide", zh: "\u9690\u85CF\u7684\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09", "zh-TW": "\u6C38\u9060\u96B1\u85CF\u7684\u6587\u4EF6\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09" }[lang]).setDesc({ en: "Metadata properties will always hide even if their value are not empty, but will display when the metadata properties table is focused. Metadata property keys are separated by comma (`,`)", zh: "\u82F1\u6587\u9017\u53F7\u5206\u9694\uFF08`,`\uFF09\u3002\u5982\uFF1A\u201Ctags, aliases\u201D", "zh-TW": "\u4EE5\u9017\u865F\u5206\u9694\uFF08`,`\uFF09" }[lang]).addTextArea(
       (text) => text.setValue(this.plugin.settings.propertiesInvisible).onChange(async (value) => {
         this.plugin.settings.propertiesInvisible = value;
         await this.plugin.saveSettings();
         this.plugin.debounceUpdateCSS();
       })
     );
-    new import_obsidian.Setting(containerEl).setName({ en: "Hide the whole metadata properties table", zh: "\u9690\u85CF\u6574\u4E2A\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09\u8868\u683C", "zh-TW": "\u96B1\u85CF\u6574\u500B\u6587\u6A94\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09\u8868\u683C" }[lang]).setDesc({ en: `when its value is true`, zh: `\u5F53\u8BE5\u5C5E\u6027\u503C\u4E3A\u771F\u65F6`, "zh-TW": `\u7576\u8A72\u5C6C\u6027\u503C\u70BA\u771F\u6642` }[lang]).addSearch((cb) => {
+    new import_obsidian.Setting(containerEl).setName({ en: "Metadata properties always to hide", zh: "\u6C38\u8FDC\u9690\u85CF\u7684\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09", "zh-TW": "\u6C38\u9060\u96B1\u85CF\u7684\u6587\u4EF6\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09" }[lang]).setDesc({ en: "Metadata properties will always hide even if their value are not empty or the metadata properties table is focused. Metadata property keys are separated by comma (`,`)", zh: "\u82F1\u6587\u9017\u53F7\u5206\u9694\uFF08`,`\uFF09\u3002\u5982\uFF1A\u201Ctags, aliases\u201D", "zh-TW": "\u4EE5\u9017\u865F\u5206\u9694\uFF08`,`\uFF09" }[lang]).addTextArea(
+      (text) => text.setValue(this.plugin.settings.propertiesInvisibleAlways).onChange(async (value) => {
+        this.plugin.settings.propertiesInvisibleAlways = value;
+        await this.plugin.saveSettings();
+        this.plugin.debounceUpdateCSS();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName({ en: "Key to hide the whole metadata properties table", zh: "\u9690\u85CF\u6574\u4E2A\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09\u8868\u683C", "zh-TW": "\u96B1\u85CF\u6574\u500B\u6587\u6A94\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09\u8868\u683C" }[lang]).setDesc({ en: `when its value is true, the whole metadata properties table will be hidden`, zh: `\u5F53\u8BE5\u5C5E\u6027\u503C\u4E3A\u771F\u65F6`, "zh-TW": `\u7576\u8A72\u5C6C\u6027\u503C\u70BA\u771F\u6642` }[lang]).addSearch((cb) => {
       cb.setPlaceholder({ en: "entry name", zh: "\u6587\u6863\u5C5E\u6027\u540D\u79F0", "zh-TW": "\u6587\u4EF6\u5C6C\u6027\u540D\u7A31" }[lang]).setValue(this.plugin.settings.propertyHideAll).onChange(async (newValue) => {
         this.plugin.settings.propertyHideAll = newValue;
         await this.plugin.saveSettings();
@@ -178,9 +216,9 @@ var MetadataHiderSettingTab = class extends import_obsidian.PluginSettingTab {
     });
     let noteEl = containerEl.createEl("p", {
       text: {
-        en: `Note: the last metadata property will always be visible, in order to ensure the normal usage of "Add property".`,
-        zh: `\u6CE8\u610F\uFF1A\u6700\u540E\u4E00\u4E2A\u6587\u6863\u5C5E\u6027\u5C06\u59CB\u7EC8\u53EF\u89C1\uFF0C\u4EE5\u786E\u4FDD\u6B63\u5E38\u4F7F\u7528\u201C\u6DFB\u52A0\u6587\u6863\u5C5E\u6027\u201D\u3002`,
-        "zh-TW": `\u6CE8\u610F\uFF1A\u6700\u5F8C\u4E00\u500B\u6587\u6863\u5C6C\u6027\u5C07\u59CB\u7D42\u53EF\u898B\uFF0C\u4EE5\u78BA\u4FDD\u6B63\u5E38\u4F7F\u7528\u300C\u6DFB\u52A0\u6587\u6863\u5C6C\u6027\u300D\u3002`
+        en: `When the metadata properties table is focused, (i.e. inputting metadata properties), all metadata properties will be displayed, except "Metadata properties always to hide".`,
+        zh: `\u5F53\u6587\u6863\u5C5E\u6027\uFF08\u5143\u6570\u636E\uFF09\u8868\u683C\u83B7\u5F97\u7126\u70B9\u65F6\uFF08\u5373\u8F93\u5165\u5143\u6570\u636E\uFF09\uFF0C\u9664\u201C\u6C38\u8FDC\u9690\u85CF\u7684\u6587\u6863\u5C5E\u6027\u201D\u5916\u7684\u6240\u6709\u6587\u6863\u5C5E\u6027\u90FD\u5C06\u663E\u793A\u3002`,
+        "zh-TW": `\u7576\u6587\u6A94\u5C6C\u6027\uFF08\u5143\u6578\u64DA\uFF09\u8868\u683C\u7372\u5F97\u7126\u9EDE\u6642\uFF08\u5373\u8F38\u5165\u5143\u6578\u64DA\uFF09\uFF0C\u9664\u300C\u6C38\u9060\u96B1\u85CF\u7684\u6587\u4EF6\u5C6C\u6027\u300D\u5916\u7684\u6240\u6709\u6587\u6A94\u5C6C\u6027\u90FD\u5C07\u986F\u793A\u3002`
       }[lang]
     });
     noteEl.setAttribute("style", "color: gray; font-style: italic; margin-top: 30px;");

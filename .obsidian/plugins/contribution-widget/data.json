@@ -2,9 +2,9 @@
   "widgets": [
     {
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
-      "name": "",
+      "name": "查询",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-03-10T08:08:53.425Z",
+      "updateAt": "2024-03-13T15:03:26.785Z",
       "widget": {
         "id": "0beb4e2e-f32e-4d3b-a560-2f4eac94f5a7",
         "type": "dataview",
@@ -61,24 +61,35 @@
     },
     {
       "id": "8e37fe0d-62b2-4a77-bfeb-666fcca32a6c",
-      "name": "",
+      "name": "日期进度",
       "createAt": "2024-02-28T08:07:19.825Z",
-      "updateAt": "2024-03-09T15:29:19.591Z",
+      "updateAt": "2024-03-13T15:03:44.744Z",
       "widget": {
-        "id": "0c268da3-3041-450d-93ee-00b9365c47d7",
-        "type": "dateProgress",
+        "id": "88e8ae3d-65f5-42f8-bf6a-f578930903b3",
+        "type": "multi",
         "titleAlign": "center",
-        "backgroundStyle": "card",
-        "showDateIndicator": false,
-        "showProgressIndicator": true,
-        "maxWidthRatio": 100,
-        "uiType": "bar",
-        "title": "PhD",
-        "startDateTime": "2022-09-01 00:00:00",
-        "endDateTime": "2026-08-01 00:00:00",
-        "backgroundColor": "#ffffff00",
-        "fontColor": "#e37d7dff",
-        "picture": ""
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "0c268da3-3041-450d-93ee-00b9365c47d7",
+            "type": "dateProgress",
+            "titleAlign": "center",
+            "backgroundStyle": "card",
+            "showDateIndicator": false,
+            "showProgressIndicator": true,
+            "maxWidthRatio": 100,
+            "uiType": "bar",
+            "title": "PhD",
+            "startDateTime": "2022-09-01 00:00:00",
+            "endDateTime": "2026-08-01 00:00:00",
+            "backgroundColor": "#ffffff00",
+            "fontColor": "#e37d7dff",
+            "picture": ""
+          }
+        ],
+        "layoutType": "column"
       },
       "layout": {
         "lg": {
@@ -103,9 +114,9 @@
     },
     {
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
-      "name": "",
+      "name": "打卡",
       "createAt": "2024-02-28T08:37:59.147Z",
-      "updateAt": "2024-03-10T08:08:37.576Z",
+      "updateAt": "2024-03-13T15:03:50.140Z",
       "widget": {
         "id": "5cec35a2-1ff0-41b0-851a-cda51991cb70",
         "type": "checkIn",
@@ -160,9 +171,9 @@
     },
     {
       "id": "4bc8ad91-691f-4473-b9bb-6ae22dcb130d",
-      "name": "",
+      "name": "倒计时正计时",
       "createAt": "2024-02-28T11:59:16.219Z",
-      "updateAt": "2024-03-09T01:54:56.175Z",
+      "updateAt": "2024-03-13T15:03:57.597Z",
       "widget": {
         "id": "a7636b2f-2a66-489b-a620-072ff9cee650",
         "type": "multi",
@@ -226,9 +237,9 @@
     },
     {
       "id": "f15eae02-7e19-4d82-b903-4256f8b318c5",
-      "name": "",
+      "name": "计数",
       "createAt": "2024-02-28T12:02:57.754Z",
-      "updateAt": "2024-02-28T12:06:34.916Z",
+      "updateAt": "2024-03-13T15:04:03.536Z",
       "widget": {
         "id": "f8f20cd1-e6c0-42f5-94aa-f432c5b4c6d9",
         "type": "multi",
@@ -356,9 +367,9 @@
     },
     {
       "id": "13c5cb33-ab95-4541-b0ee-cf8fa8704833",
-      "name": "",
+      "name": "进度组合条",
       "createAt": "2024-03-07T13:15:46.494Z",
-      "updateAt": "2024-03-12T14:26:06.660Z",
+      "updateAt": "2024-03-13T15:04:21.626Z",
       "widget": {
         "id": "6a8750a2-e5ce-49d6-af68-80518f332c46",
         "type": "multi",
@@ -457,9 +468,9 @@
     },
     {
       "id": "b798fa95-c92d-44a5-92ce-b2a5ace0fca3",
-      "name": "",
+      "name": "进度组合圆",
       "createAt": "2024-03-09T02:39:45.183Z",
-      "updateAt": "2024-03-09T02:39:45.183Z",
+      "updateAt": "2024-03-13T15:04:18.303Z",
       "widget": {
         "id": "52776ba7-9254-4192-9705-fe85e5b5136a",
         "type": "multi",
@@ -558,9 +569,9 @@
     },
     {
       "id": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
-      "name": "",
+      "name": "摘录",
       "createAt": "2024-03-09T15:32:14.015Z",
-      "updateAt": "2024-03-09T15:32:14.015Z",
+      "updateAt": "2024-03-13T15:04:25.388Z",
       "widget": {
         "id": "aebd52d9-9b81-4c99-8026-ccdf6eda080e",
         "type": "quote",
@@ -607,9 +618,9 @@
     },
     {
       "id": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",
-      "name": "",
+      "name": "折线图",
       "createAt": "2024-03-09T15:33:56.563Z",
-      "updateAt": "2024-03-09T15:33:56.563Z",
+      "updateAt": "2024-03-13T15:04:29.473Z",
       "widget": {
         "id": "a1fe90c3-4b47-475c-9182-04a113900188",
         "type": "chart",
@@ -656,9 +667,9 @@
     },
     {
       "id": "aadc8501-b6e3-458c-8749-7987f95f117f",
-      "name": "",
+      "name": "每日一句",
       "createAt": "2024-03-10T08:16:27.940Z",
-      "updateAt": "2024-03-10T10:46:40.444Z",
+      "updateAt": "2024-03-13T15:04:35.599Z",
       "widget": {
         "id": "2721561f-ce9e-4aab-9c3a-707a1c745c60",
         "type": "multi",
