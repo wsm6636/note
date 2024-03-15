@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T15:53
-updated: 2024-03-15T21:42
+updated: 2024-03-15T23:02
 tags:
   - 笔记
   - 笔记/idea
@@ -31,6 +31,15 @@ z'是驱动事件时刻
 
 > 数据年龄最后一个任务的时间一样：因为对于事件触发的任务链，最后一个任务处理完数据后，下一个任务才会激励
 > 激励事件（最后一个任务的下一个任务），的释放时间（被触发的时间），和最后一个任务的结束时间相等
+
+$$\begin{equation}
+\begin{aligned}
+R(C) & = t'-t\\
+     & = f(c_n) - r(c_1)\\
+     & = t(c_n) - t(c_0)\\
+     & = \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
+\end{aligned}
+\end{equation}$$
 
 
 # bug
@@ -81,7 +90,7 @@ $$\begin{equation}
 \begin{aligned}
 R(C) & = t'-t\\
      & = t(c_n) - t(z)\\
-     & = t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
+     & = t(c_1) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
      & = t(c_1) - r(c_1) + r(c_1) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
      & = t(c_1) - t(c_0) + t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
      & = t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
