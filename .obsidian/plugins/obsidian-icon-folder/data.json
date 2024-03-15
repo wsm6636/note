@@ -295,5 +295,6 @@
   "TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md": "FarFileLines",
   "HOMEPAGE.canvas": "LiHome",
   "RTSS/workshop.md": "RiArticleFill",
-  "ESWEEK": "LiNewspaper"
+  "ESWEEK": "LiNewspaper",
+  "ESWEEK/note.md": "TiNote"
 }
