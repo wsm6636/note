@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-16T22:11
+updated: 2024-03-16T23:01
 tags:
   - 笔记
   - 笔记/paper
@@ -26,6 +26,30 @@ End-to-End Timing Analysis, Distributed Real-time Systems, TSN
 
 端到端时序约束根据端到端时序语义，包括反应时间约束和数据年龄约束，并且由AUTOSAR[AUTOSAR]定义。如图所示，其中反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，还有另一种表达“按键到动作的延迟”；数据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度，也称作最坏情况下的数据新鲜度。对于图中表示数据处理部分的任务，有的系统会采用第一个任务作为采样任务收集数据，也许不会并直接处理外部事件。在每两个相邻的数据处理任务之间多是通过缓冲区读写数据来进行通信的，一个任务从前面的缓冲区读取输入数据，自身运算产生结果后写入后面的缓冲区，在数据被读取或者新的数据写入前都会被一直保存着，如此一个或几个关键人物可以在多条任务链中起到承上启下的作用。
 
-对于端到端时序的分析，单个ECU上已有多种结论，【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析，在[durr2019end]中提出可以通过即时向前（向后）作业链长度计算最大响应时间与最大数据年龄上界。[gunzel2021timing]中对即时向前（向后）作业链长度从采样到数据处理扩展到外部活动触发到驱动事件。这种分析方法也同样被应用于其他领域例如ros2[teper2022end]。
+> Hybrid Scheduling of Tasks and Messages for TSN-Based Avionics Systems
+> Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors
+> 111End-to-end Timing Modeling and Analysis of TSN in Component-Based Vehicular Software
+> Efficient maximum data age analysis for cause-effect chains in automotive systems
+
+对于端到端时序的分析，在单个ECU上多年来已有多种方法，并且运用于多个领域，例如第二代机器人操作系统ros2[teper2022end]【ROS2】、航电系统【Hybrid】、车载系统【111】【Efficient】等。复杂的数据依赖关系使得端到端延迟分析变得难以处理，而且不仅仅针对单个ECU内部之间因果链的时延，多个ECU之间由于网络通信的存在也使得分布式因果链的端到端分析变得更加复杂[arestova2022itans]。
+
+> [13] Robert Davis, Alan Burns, Reinder Bril, Johan Lukkien, Controller area network (CAN) schedulability analysis: Refuted, revisited and revised, Real-Time Syst. (2007). [14] S. Mubeen, J. Mäki-Turja, M. Sjödin, MPS-CAN analyzer: Integrated implementation of response-time analyses for controller area network, J. Syst. Archit. (2014).
+
+以前关于多ECU联合的端到端时序分析通常考虑CAN总线为通信方式，例如【13-14】但目前嵌入式实时系统被接入更多的传感器已采集大量信息，同时也造成数据传输量激增，CAN总线不能更好的满足嵌入式实时系统某些高带宽低时延的要求。时间敏感网络被考虑为嵌入式实时系统以及控制领域的通信方式之一。
+
+时间敏感网络是IEEE802.1Q协议的增强，旨在通过提供时间敏感性和低延迟的通信以支持实时控制与数据传输。
+其中IEEE 802.1Qcr[IEEEStandardLocal2020]异步流量整形 (ATS) 标准旨在通过撤销同步并允许每个网络节点按自己的时间发送流量来绕过同步的复杂性。
+
+在成为IEEE标准前，Specht等人提出了Urgency-Based Scheduler（UBS），并使用了Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE)两种算法。最后在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，在TSN交换机中数据流将通过令牌桶的方式整形队列分配给数据帧资格时间，到达队列头的数据帧通过判断资格时间以及经过优先级选择，最终和其他未整形数据流一起输出。
+
+
+
+
+
 
 # related work
+单个ECU上已有多种结论，【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析，在[durr2019end]中提出可以通过即时向前（向后）作业链长度计算最大响应时间与最大数据年龄上界。[gunzel2021timing]中对即时向前（向后）作业链长度从采样到数据处理扩展到外部活动触发到驱动事件。
+
+数据年龄【10.1145/3534879.3534893】
+
+现有的端到端数据传输延迟分析及其数据路径计算算法也支持TSN的前身，称为以太网音视桥接(AVB)，它包括了TSN的一些类别。这是因为AVB还支持事件触发流量，并且不考虑ECU的同步。在这种情况下，AVB[15]的响应时间分析被合并到端到端数据传播延迟分析[16]中。
