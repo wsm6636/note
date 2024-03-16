@@ -73,8 +73,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -106,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -209,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +299,7 @@
       }
     ]
   },
-  "active": "91c8b3dd65f8c8dc",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "DAC/ATS-workspace.md",
     "ESWEEK/ESWEEK-workspace.md",
