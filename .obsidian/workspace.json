@@ -25,19 +25,6 @@
             }
           },
           {
-            "id": "91c8b3dd65f8c8dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3ff317d1c0cf7776",
             "type": "leaf",
             "state": {
@@ -49,47 +36,14 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "848adc48dbb89f88",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c21df8c39a5d4cea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAC/ATS-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           },
           {
-            "id": "3d09b35c207bd19a",
+            "id": "c30a76a30d3fb9f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAC/方法-模型整理.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c062045333a90c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/note.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,6 +52,91 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "b1bb47d1816d6990",
+        "type": "split",
+        "children": [
+          {
+            "id": "848adc48dbb89f88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "91c8b3dd65f8c8dc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ESWEEK/ESWEEK-workspace.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3d09b35c207bd19a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "DAC/方法-模型整理.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c21df8c39a5d4cea",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "DAC/ATS-workspace.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "7c062045333a90c1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ESWEEK/note.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "6b0f13b50c2e3946",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "44f2c9e5c08e609d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -283,13 +322,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "91c8b3dd65f8c8dc",
+  "active": "c30a76a30d3fb9f8",
   "lastOpenFiles": [
+    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "ESWEEK/ESWEEK-workspace.md",
+    "DAC/ATS-workspace.md",
     "ESWEEK/note.md",
     "DAC/方法-模型整理.md",
-    "DAC/ATS-workspace.md",
     "wsm/周记/2024-03-11-W11.md",
-    "ESWEEK/ESWEEK-workspace.md",
     "HOMEPAGE.canvas",
     "wsm/test.md",
     "ESWEEK",
@@ -324,7 +364,6 @@
     "模板/启动页模板3.canvas",
     "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-03-05.md",
-    "模板/年复盘模板.md",
     "模板/未命名.canvas",
     "模板/启动页.canvas",
     "wsm/未命名.canvas",
