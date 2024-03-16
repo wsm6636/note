@@ -49,7 +49,14 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "848adc48dbb89f88",
+        "type": "tabs",
+        "children": [
           {
             "id": "c21df8c39a5d4cea",
             "type": "leaf",
@@ -75,9 +82,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7c062045333a90c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESWEEK/note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAC/方法-模型整理.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           },
@@ -133,12 +153,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -174,7 +194,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DAC/方法-模型整理.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           }
@@ -209,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAC/方法-模型整理.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DAC/方法-模型整理.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +265,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 319,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,12 +283,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d09b35c207bd19a",
+  "active": "91c8b3dd65f8c8dc",
   "lastOpenFiles": [
-    "ESWEEK/ESWEEK-workspace.md",
+    "ESWEEK/note.md",
     "DAC/方法-模型整理.md",
     "DAC/ATS-workspace.md",
     "wsm/周记/2024-03-11-W11.md",
+    "ESWEEK/ESWEEK-workspace.md",
     "HOMEPAGE.canvas",
     "wsm/test.md",
     "ESWEEK",
