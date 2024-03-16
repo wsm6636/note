@@ -114,7 +114,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "6b0f13b50c2e3946",
@@ -172,8 +172,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal"
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESWEEK/note.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           },
@@ -273,7 +272,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ESWEEK/note.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           }
@@ -308,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESWEEK/note.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESWEEK/note.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -362,17 +361,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7c062045333a90c1",
+  "active": "c30a76a30d3fb9f8",
   "lastOpenFiles": [
-    "ESWEEK/ESWEEK-workspace.md",
-    "图/ESWEEK/ESWEEK.drawio",
-    "DAC/方法-模型整理.md",
     "DAC/ATS-workspace.md",
+    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "ESWEEK/ESWEEK-workspace.md",
+    "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+    "图/ESWEEK/RTDA.pdf",
+    "图/ESWEEK/反应时间数据年龄.pdf",
+    "DAC/方法-模型整理.md",
     "ESWEEK/note.md",
+    "图/ESWEEK/ESWEEK.drawio",
     "因果链/note.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-    "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
-    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "wsm/周记/2024-03-11-W11.md",
     "因果链/End-To-End Timing Analysis in ROS2.md",
     "HOMEPAGE.canvas",
@@ -389,7 +390,6 @@
     "wsm/日记/2024-03-12.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-11.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-03-11-W11.md.baiduyun.uploading.cfg",
-    "desktop.ini",
     "wsm/日记/2024-03-12.md",
     "wsm/日记/2024-03-11.md",
     "模板/一言模板.md",
@@ -397,7 +397,6 @@
     "wsm/月复盘/2024-03.md",
     "模板/日记模板.md",
     "模板/挂件.md",
-    "模板/启动页模板1.canvas.baiduyun.uploading.cfg",
     "wsm/周记/2024-03-04-W10.md",
     "wsm/日记/2024-03-10.md",
     "模板/启动页模板1.canvas",
