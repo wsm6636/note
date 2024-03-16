@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-16T14:50
+updated: 2024-03-16T19:39
 tags:
   - 笔记
   - 笔记/paper
@@ -22,4 +22,4 @@ The existing end-to-end timing analysis of task chains in distributed real-time 
 End-to-End Timing Analysis, Distributed Real-time Systems, TSN
 
 # introduction
-分布式实时系统对于具有复杂性应用和分散性物理部署的领域友好，所以分布式实时系统应用广泛，尤其是自动驾驶领域。
+分布式实时系统对于具有复杂性应用和分散性物理部署的领域友好，所以分布式实时系统应用广泛，尤其是自动驾驶领域。通常会将分布式实时系统部署在多个电子控制单元上，通过一些列任务完成一些功能或者对外部事件做出反应。这些完成功能或处理外部事件的任务多具有因果关系，即一个任务的输入由另一个任务的输出决定。所以在这样的分布式实时系统
