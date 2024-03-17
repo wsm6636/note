@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-17T21:47
+updated: 2024-03-17T22:15
 tags:
   - 笔记
   - 笔记/paper
@@ -34,13 +34,14 @@ End-to-end timing constraints, as defined by AUTOSAR【】, are based on end-to-
 > Efficient maximum data age analysis for cause-effect chains in automotive systems
 
 对于端到端时序的分析，在单个ECU上多年来已有多种方法，并且运用于多个领域，例如第二代机器人操作系统ros2[teper2022end]【ROS2】、航电系统【Hybrid】、车载系统【111】【Efficient】等。复杂的数据依赖关系使得端到端延迟分析变得难以处理，而且不仅仅针对单个ECU内部之间因果链的时延，多个ECU之间由于网络通信的存在也使得分布式因果链的端到端分析变得更加复杂[arestova2022itans]。
-Analysis of end-to-end timing has been carried out for many years on individual ECUs, and it has been applied across various domains, such as the second-generation Robot Operating System (ROS 2) [teper2022end], avionics systems [Hybrid], and vehicular systems 【111] 【Efficient]. The complex data dependencies make the analysis of end-to-end latency challenging, not only for the latency within the cause-effect chains of a single ECU but also for multiple ECUs due to the presence of network communication, which complicates the end-to-end analysis of distributed causal chains [arestova2022itans].
+Analysis of end-to-end timing has been carried out for many years on individual ECUs, and it has been applied across various domains, such as the second-generation Robot Operating System (ROS 2) [teper2022end], avionics systems [Hybrid], and vehicular systems 【10196870] 【bi2022efficient]. The complex data dependencies make the analysis of end-to-end latency challenging, not only for the latency within the cause-effect chains of a single ECU but also for multiple ECUs due to the presence of network communication, which complicates the end-to-end analysis of distributed causal chains [arestova2022itans].
 
-> [13] Robert Davis, Alan Burns, Reinder Bril, Johan Lukkien, Controller area network (CAN) schedulability analysis: Refuted, revisited and revised, Real-Time Syst. (2007). 
-> [14] S. Mubeen, J. Mäki-Turja, M. Sjödin, MPS-CAN analyzer: Integrated implementation of response-time analyses for controller area network, J. Syst. Archit. (2014).
+> [13] Davis R I, Burns A, Bril R J, et al. Controller Area Network (CAN) schedulability analysis: Refuted, revisited and revised[J]. Real-Time Systems, 2007, 35: 239-272.
+> [14] 
+> Mubeen S, Mäki-Turja J, Sjödin M. MPS-CAN analyzer: Integrated implementation of response-time analyses for Controller Area Network[J]. Journal of Systems architecture, 2014, 60(10): 828-841.
 
 以前关于多ECU联合的端到端时序分析通常考虑CAN总线为通信方式，例如【13-14】但目前嵌入式实时系统被接入更多的传感器已采集大量信息，同时也造成数据传输量激增，CAN总线不能更好的满足嵌入式实时系统某些高带宽低时延的要求。时间敏感网络被考虑为嵌入式实时系统以及控制领域的通信方式之一。
-Previously, end-to-end timing analysis for multiple ECUs typically considered the Controller Area Network (CAN) bus as the communication method, as seen in references [13-14]. However, with the increasing integration of numerous sensors in embedded real-time systems to collect vast amounts of information, there has been a surge in data transmission volume. The CAN bus is no longer adequately meeting the high bandwidth and low latency requirements of certain embedded real-time systems. Time-Sensitive Networking (TSN) is being considered as one of the communication methods for embedded real-time systems and the control domain.
+Previously, end-to-end timing analysis for multiple ECUs typically considered the Controller Area Network (CAN) bus as the communication method, as seen in references [Controller-MPS]. However, with the increasing integration of numerous sensors in embedded real-time systems to collect vast amounts of information, there has been a surge in data transmission volume. The CAN bus is no longer adequately meeting the high bandwidth and low latency requirements of certain embedded real-time systems. Time-Sensitive Networking (TSN) is being considered as one of the communication methods for embedded real-time systems and the control domain.
 
 时间敏感网络是IEEE802.1Q协议的增强，旨在通过提供时间敏感性和低延迟的通信以支持实时控制与数据传输。
 其中IEEE 802.1Qcr[IEEEStandardLocal2020]异步流量整形 (ATS) 标准旨在通过撤销同步并允许每个网络节点按自己的时间发送流量来绕过同步的复杂性。
