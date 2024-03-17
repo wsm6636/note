@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-16T23:41
+updated: 2024-03-17T00:14
 tags:
   - 笔记
   - 笔记/paper
@@ -40,12 +40,9 @@ End-to-End Timing Analysis, Distributed Real-time Systems, TSN
 时间敏感网络是IEEE802.1Q协议的增强，旨在通过提供时间敏感性和低延迟的通信以支持实时控制与数据传输。
 其中IEEE 802.1Qcr[IEEEStandardLocal2020]异步流量整形 (ATS) 标准旨在通过撤销同步并允许每个网络节点按自己的时间发送流量来绕过同步的复杂性。
 
-在成为IEEE标准前，Specht等人提出了Urgency-Based Scheduler（UBS），并使用了Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE)两种算法。最后在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，
+在成为IEEE标准前，Specht等人提出了Urgency-Based Scheduler（UBS），并使用了Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE)两种算法。LRQ和TBE虽然都是适用于TSN的异步整形算法，但LRQ主要是通过传输/泄露速率整形，可以将突然流量整形为稳定的输出；TBE则通过平均速率控制数据流，桶中令牌数量满足即可传输。最后在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，数据流通过TSN交换机整形时，数据流中的每一个数据帧会经由本地时钟确定一个资格时间，用来数据帧排队和确定数据帧传输的时间。在数据帧到达所在队列的头部时，判断其分配的资格时间经过优先级选择，最后和其他未经由ATS整形的数据流一起输出。
 
-在TSN交换机中数据流将通过令牌桶的方式整形队列分配给数据帧资格时间，到达队列头的数据帧通过判断资格时间以及经过优先级选择，最终和其他未整形数据流一起输出。
-
-
-目前已有研究将TSN与任务链相结合，【houtanSupportingEndtoendData2023】通过实际汽车案例建模任务链并通过IEEE 802.1 Qbv协议作为网络传输的桥梁。虽然TAS在施加业务确定性方面表现良好，但严格的同步要求，则增加了复杂性并威胁到TSN网络域的可靠性。针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性例如使用CAN总线作为网络传输。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络任务标准，ATS算法作为队列整形算法。
+目前已有研究将TSN与任务链相结合，【houtanSupportingEndtoendData2023】通过实际汽车案例建模任务链并通过IEEE 802.1 Qbv协议作为网络传输的桥梁。虽然TAS在施加业务确定性方面表现良好，但严格的同步要求，则增加了复杂性并威胁到TSN网络域的可靠性。针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性例如使用CAN总线作为网络传输。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络传输标准，ATS算法作为队列整形算法。
 
 
 贡献： 
