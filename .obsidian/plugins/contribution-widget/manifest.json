@@ -1,7 +1,7 @@
 {
 	"id": "contribution-widget",
 	"name": "Contribution Widget",
-	"version": "9999.0.313",
+	"version": "9999.0.316",
 	"minAppVersion": "0.14.0",
 	"description": "create widgts for your obsidian",
 	"author": "vran",
