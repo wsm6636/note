@@ -23,134 +23,119 @@
         ]
       },
       {
-        "id": "8f97e03b9ffbbc7a",
-        "type": "split",
+        "id": "f7481fba8d3a0a5f",
+        "type": "tabs",
         "children": [
           {
-            "id": "4ec13b9ba7f29dc0",
-            "type": "tabs",
-            "dimension": 52.347826086956516,
-            "children": [
-              {
-                "id": "7a4347a50a304e92",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "ESWEEK/note.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
+            "id": "18bcd3fd843407f7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "viewState": {
+                  "x": -1984.6453857421875,
+                  "y": -632.6030616348608,
+                  "zoom": 0
                 }
-              }
-            ]
+              },
+              "pinned": true
+            }
           },
           {
-            "id": "f7481fba8d3a0a5f",
-            "type": "tabs",
-            "dimension": 47.65217391304348,
-            "children": [
-              {
-                "id": "18bcd3fd843407f7",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "HOMEPAGE.canvas",
-                    "viewState": {
-                      "x": -1984.6453857421875,
-                      "y": -632.6030616348608,
-                      "zoom": 0
-                    }
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "180d153cc91c8608",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "DAC/方法-模型整理.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "bea45c694caf4789",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "DAC/ATS-workspace.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6bd9f60ad7187dec",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "bcc32dcd5558736b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "24c9e9c811331319",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e90d134fc7c1e3e4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
+            "id": "180d153cc91c8608",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DAC/方法-模型整理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ],
-            "currentTab": 4
+            }
+          },
+          {
+            "id": "7a4347a50a304e92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESWEEK/note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bea45c694caf4789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DAC/ATS-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bd9f60ad7187dec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcc32dcd5558736b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24c9e9c811331319",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e90d134fc7c1e3e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -338,11 +323,11 @@
   },
   "active": "2992d900951dd972",
   "lastOpenFiles": [
-    "ESWEEK/note.md",
-    "ESWEEK/ESWEEK-workspace.md",
-    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-    "DAC/ATS-workspace.md",
     "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "ESWEEK/ESWEEK-workspace.md",
+    "ESWEEK/note.md",
+    "DAC/ATS-workspace.md",
+    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
     "DAC/方法-模型整理.md",
