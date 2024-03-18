@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESWEEK/note.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           },
@@ -247,7 +247,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ESWEEK/note.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           }
@@ -282,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESWEEK/note.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +299,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESWEEK/note.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -336,11 +336,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7a4347a50a304e92",
+  "active": "2992d900951dd972",
   "lastOpenFiles": [
+    "ESWEEK/note.md",
     "ESWEEK/ESWEEK-workspace.md",
     "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-    "ESWEEK/note.md",
     "DAC/ATS-workspace.md",
     "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
