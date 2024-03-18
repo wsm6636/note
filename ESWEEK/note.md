@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T15:53
-updated: 2024-03-18T16:23
+updated: 2024-03-18T18:05
 tags:
   - 笔记
   - 笔记/idea
@@ -168,6 +168,16 @@ Data-Age Analysis and Optimisation for Cause-Effect Chains in Automotive Control
 
 On the Equivalence of Maximum Reaction Time and Maximum Data Age for Cause-Effect Chains
 实时系统需要对时间约束的正式保证，不仅对于单个任务，对于数据传播也是如此。给定系统中数据传播路径的定时行为通常由其最大反应时间和最大数据寿命来描述。本文证明了它们是等价的。为了得到这一结论，引入了划分的作业链，它由一个直接向前和一个立即向后的作业链组成。这种划分的作业链被证明能够以通用的方式描述最大反应时间和最大数据年龄。这种通用的描述不仅显示了最大反应时间和最大数据年龄的等价性，而且还可以被利用来显著地加速这种计算。特别是，基于汽车基准的合成任务集的加速可达1600。由于只做了很少的非限制性假设，最大数据年龄和最大反应时间的等价性对于几乎任何调度机制都成立，甚至对于不符合典型的周期性或零星任务模型的任务也是如此。这一观察结果得到了ROS2导航系统模拟的支持。
+
+
+> 7461359
+> 18
+
+> recursiveapproach
+> 19
+
+
+
 ### 多ECU
 
 > feiertagCompositionalFrameworkEndtoend
