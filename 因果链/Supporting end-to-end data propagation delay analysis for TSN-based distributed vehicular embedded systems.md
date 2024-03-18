@@ -1,9 +1,10 @@
 ---
 created: 2023-11-17T19:14
-updated: 2024-02-13T22:40
+updated: 2024-03-17T22:51
 tags:
   - 笔记
   - 笔记/文献笔记
+  - 论文参考
 ---
 
 # Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems

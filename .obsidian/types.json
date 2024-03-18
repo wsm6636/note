@@ -11,9 +11,9 @@
     "时间": "date",
     "updated": "datetime",
     "created": "date",
-    "看论文": "datetime",
-    "学英语": "datetime",
     "日记": "date",
-    "月复盘": "date"
+    "月复盘": "date",
+    "英语": "datetime",
+    "论文": "datetime"
   }
 }

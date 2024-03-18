@@ -116,7 +116,7 @@
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
       "name": "打卡",
       "createAt": "2024-02-28T08:37:59.147Z",
-      "updateAt": "2024-03-17T07:04:32.698Z",
+      "updateAt": "2024-03-17T14:53:28.635Z",
       "widget": {
         "id": "8d6cf5ca-585b-45a1-8cd4-ad9d66cc61dc",
         "type": "multi",
@@ -135,13 +135,13 @@
               {
                 "id": "e507dce4-f389-4496-b67c-ee75c2038189",
                 "checkInRecordType": "task",
-                "tag": "#看论文",
+                "tag": "#论文",
                 "name": ""
               },
               {
                 "id": "ea7d6105-8e0a-4ae6-98cf-a46a8824b778",
                 "checkInRecordType": "task",
-                "tag": "#学英语",
+                "tag": "#英语",
                 "name": ""
               },
               {
@@ -184,7 +184,7 @@
       "id": "4bc8ad91-691f-4473-b9bb-6ae22dcb130d",
       "name": "倒计时正计时",
       "createAt": "2024-02-28T11:59:16.219Z",
-      "updateAt": "2024-03-15T02:55:11.983Z",
+      "updateAt": "2024-03-17T15:02:34.303Z",
       "widget": {
         "id": "a7636b2f-2a66-489b-a620-072ff9cee650",
         "type": "multi",
@@ -731,6 +731,224 @@
           "x": 0,
           "y": 54,
           "i": "aadc8501-b6e3-458c-8749-7987f95f117f",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "db083c95-f246-4219-92ea-ac9446538436",
+      "name": "",
+      "widget": {
+        "id": "2fcd1b4b-cda0-4add-9ae9-c2654b1f1b0e",
+        "type": "multi",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "5c2b9c4c-48c7-4918-8866-9629c2797678",
+            "type": "dynamicDataView",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "backgroundStyle": "none",
+            "viewType": "gallary",
+            "datasource": {
+              "filter": {
+                "conditions": [
+                  {
+                    "type": "tag",
+                    "value": "#个人/周记",
+                    "operator": "contains",
+                    "property": "",
+                    "id": "85259f70-366e-4faf-a424-a9637a3a0136"
+                  },
+                  {
+                    "type": "file_path",
+                    "value": "模板",
+                    "operator": "not_equals",
+                    "property": "",
+                    "id": "e35a91a4-c18a-402f-b740-c9c068b1a6d0"
+                  },
+                  {
+                    "type": "property",
+                    "value": "2024-03-01T21:41",
+                    "operator": "time_after_or_equal",
+                    "property": "周记",
+                    "id": "78833fa4-2e8f-42fa-80ca-a028f2e15ece"
+                  },
+                  {
+                    "type": "property",
+                    "value": "2024-03-31T21:41",
+                    "operator": "time_before_or_equal",
+                    "property": "周记",
+                    "id": "0d78a12b-5dd6-49b7-9527-9b105219faea"
+                  }
+                ]
+              },
+              "dataLimit": 12,
+              "storage": {
+                "location": ""
+              },
+              "sort": {
+                "orders": [
+                  {
+                    "id": "62ffd5c0-d082-4b8f-815a-790dd10ed0c3",
+                    "property": "周记",
+                    "direction": "asc"
+                  }
+                ]
+              }
+            },
+            "properties": [
+              {
+                "id": "42f0300e-010c-479e-8752-619e6550459d",
+                "name": "${file.basename}",
+                "isShow": true,
+                "defaultValue": "",
+                "type": "text"
+              }
+            ],
+            "viewOptions": {
+              "cover": {
+                "type": "pageFirstImage",
+                "value": "",
+                "fit": "contains"
+              }
+            }
+          }
+        ],
+        "layoutType": "column"
+      },
+      "createAt": "2024-03-17T15:10:44.097Z",
+      "updateAt": "2024-03-17T15:10:44.097Z",
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 0,
+          "w": 6,
+          "h": 6,
+          "i": "db083c95-f246-4219-92ea-ac9446538436",
+          "moved": false,
+          "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 0,
+          "w": 6,
+          "h": 6,
+          "i": "db083c95-f246-4219-92ea-ac9446538436",
+          "moved": false,
+          "static": false
+        }
+      }
+    },
+    {
+      "id": "0d39491f-e90a-4df1-a2d1-0b1eb6f4fa68",
+      "name": "",
+      "widget": {
+        "id": "2fcd1b4b-cda0-4add-9ae9-c2654b1f1b0e",
+        "type": "multi",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "5c2b9c4c-48c7-4918-8866-9629c2797678",
+            "type": "dynamicDataView",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "backgroundStyle": "none",
+            "viewType": "gallary",
+            "datasource": {
+              "filter": {
+                "conditions": [
+                  {
+                    "type": "tag",
+                    "value": "#个人/周记",
+                    "operator": "contains",
+                    "property": "",
+                    "id": "85259f70-366e-4faf-a424-a9637a3a0136"
+                  },
+                  {
+                    "type": "file_path",
+                    "value": "模板",
+                    "operator": "not_equals",
+                    "property": "",
+                    "id": "e35a91a4-c18a-402f-b740-c9c068b1a6d0"
+                  },
+                  {
+                    "type": "property",
+                    "value": "2024-03-01T21:41",
+                    "operator": "time_after_or_equal",
+                    "property": "周记",
+                    "id": "78833fa4-2e8f-42fa-80ca-a028f2e15ece"
+                  },
+                  {
+                    "type": "property",
+                    "value": "2024-03-31T21:41",
+                    "operator": "time_before_or_equal",
+                    "property": "周记",
+                    "id": "0d78a12b-5dd6-49b7-9527-9b105219faea"
+                  }
+                ]
+              },
+              "dataLimit": 12,
+              "storage": {
+                "location": ""
+              },
+              "sort": {
+                "orders": [
+                  {
+                    "id": "62ffd5c0-d082-4b8f-815a-790dd10ed0c3",
+                    "property": "周记",
+                    "direction": "asc"
+                  }
+                ]
+              }
+            },
+            "properties": [
+              {
+                "id": "42f0300e-010c-479e-8752-619e6550459d",
+                "name": "${file.basename}",
+                "isShow": true,
+                "defaultValue": "",
+                "type": "text"
+              }
+            ],
+            "viewOptions": {
+              "cover": {
+                "type": "pageFirstImage",
+                "value": "",
+                "fit": "contains"
+              }
+            }
+          }
+        ],
+        "layoutType": "column"
+      },
+      "createAt": "2024-03-17T15:10:44.122Z",
+      "updateAt": "2024-03-17T15:10:44.122Z",
+      "layout": {
+        "lg": {
+          "x": 0,
+          "y": 0,
+          "w": 6,
+          "h": 6,
+          "i": "0d39491f-e90a-4df1-a2d1-0b1eb6f4fa68",
+          "moved": false,
+          "static": false
+        },
+        "xs": {
+          "x": 0,
+          "y": 0,
+          "w": 6,
+          "h": 6,
+          "i": "0d39491f-e90a-4df1-a2d1-0b1eb6f4fa68",
           "moved": false,
           "static": false
         }
