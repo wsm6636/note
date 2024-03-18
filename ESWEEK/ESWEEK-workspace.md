@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-18T15:24
+updated: 2024-03-18T16:44
 tags:
   - 笔记
   - 笔记/paper
@@ -74,4 +74,4 @@ In Section 4,  we evaluate and demonstrate that the proposed method improves the
 
 现有的端到端数据传输延迟分析及其数据路径计算算法也支持TSN的前身，称为以太网音视桥接(AVB)，它包括了TSN的一些类别。这是因为AVB还支持事件触发流量，并且不考虑ECU的同步。在这种情况下，AVB[15]的响应时间分析被合并到端到端数据传播延迟分析[16]中。
 
-关于单个ECU上的端到端时间分析已经有很多研究，【tangReactionTimeAnalysis2023】
+对于因果链的端到端分析有很多工作考虑时间触发的方式，
