@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-20T00:30
+updated: 2024-03-20T00:47
 tags:
   - 笔记
   - 笔记/paper
@@ -67,6 +67,8 @@ In Section 3, we analyze the maximum reaction time and maximum data age in a mul
 In Section 4,  we evaluate and demonstrate that the proposed method improves the performance.
 
 # related work
+
+> 画个图，表示TT和ET任务链
 
 对于因果链的端到端分析有很多工作考虑时间触发的方式，即任务链上的每个任务都有自己的周期并按照固定的间隔触发执行。针对这种时间触发的任务链已有多种方法处理，例如D{\"u}rr等人在【durr2019end】中设定即时向前和向后作业链，通过计算作业链的长度求得偶发性任务链的最大反应时间与最大数据年龄的上界。Günzel等人在[gunzel2021timing]中针对即时向前（向后）作业链设定长度从原来的数据处理任务（包括采样任务）向前扩展到外部活动触发以及向后扩展到驱动事件。随后他们在【gunzel_et_al】中引入划分的作业链并证明最大反应时间和最大数据年龄的等价性。
 For end-to-end timing analysis of cause-effect chains, much work has considered time-triggered approaches, where each task in the chain is periodically triggered to execute at fixed intervals. There are various methods to handle such time-triggered task chains. For instance, Dürr et al. in 【durr2019end】defined immediate forward and backward job chains, and by calculating the length of the job chain, they derived the upper bounds for the maximum reaction time and maximum data age of sporadic job chains. Günzel et al. in [gunzel2021timing] study extended the definition of immediate forward (backward) job chains in length, from the original data processing tasks (including sampling tasks) forward to external activity triggers and backward to driving events. Subsequently, they introduced partitioned job chains in their follow-up work and proved the equivalence of maximum reaction time and maximum data age.
@@ -162,13 +164,19 @@ Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisf
 - For any event ci (1<i<n-1), it can be either a scheduling task or a network task.
 - There is no case where two consecutive events ci and ci-1 (1<i<n-1) are scheduling tasks executed on separate ECUs. In the task chain, there is at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci-1 and ci+1 are scheduling tasks on different ECUs, then ci is a network task.
 
+> 这里加一句通过反应时间和数据年龄原理，所以...
+
 **定义（反应时间）：任务链的反应时间表示为R(c)**
 R（c）= t'-t =  f(cn) - t(z)
 Definition  (reaction time): the reaction time of a task chain is expressed as R(c)
 
+> 这里也加一句
+
 定义（数据年龄）：任务链的数据年龄表示为D(c)
 D（c）= t'-t =  f(cn) - r(c1)
 Definition  (data age): the data age of a task chain is expressed as D(c)
+
+> 这里加根据端到端延迟上界，所以...
 
 **定义 （最大反应时间）：任务链的最大反应时间RT(c)是任务链c所有可能路径的最大值**
 RT(c) = max{R(c)}
