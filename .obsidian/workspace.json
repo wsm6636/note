@@ -38,6 +38,19 @@
             }
           },
           {
+            "id": "9d3a27998953caf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/日记/2024-03-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bea45c694caf4789",
             "type": "leaf",
             "state": {
@@ -103,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/日记/2024-03-18.md"
+                "file": "wsm/日记/2024-03-19.md"
               }
             }
           },
@@ -199,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/日记/2024-03-18.md"
+                "file": "wsm/日记/2024-03-19.md"
               }
             }
           }
@@ -234,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/日记/2024-03-18.md",
+                "file": "wsm/日记/2024-03-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/日记/2024-03-18.md",
+                "file": "wsm/日记/2024-03-19.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -287,13 +300,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0a98969b723783c8",
+  "active": "9d3a27998953caf8",
   "lastOpenFiles": [
+    "ESWEEK/ESWEEK-workspace.md",
+    "wsm/日记/2024-03-19.md",
+    "HOMEPAGE.canvas",
     "wsm/周记/2024-03-18-W12.md",
     "wsm/日记/2024-03-18.md",
-    "HOMEPAGE.canvas",
     "DAC/ATS-workspace.md",
-    "ESWEEK/ESWEEK-workspace.md",
     "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "ESWEEK/note.md",
     "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
