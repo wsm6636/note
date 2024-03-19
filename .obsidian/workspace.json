@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESWEEK/note.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           },
@@ -233,7 +233,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ESWEEK/note.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           }
@@ -268,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESWEEK/note.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESWEEK/note.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -322,12 +322,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7a4347a50a304e92",
+  "active": "2992d900951dd972",
   "lastOpenFiles": [
+    "ESWEEK/note.md",
     "ESWEEK/ESWEEK-workspace.md",
     "DAC/ATS-workspace.md",
     "RTCSA/QCH-workspace.md",
-    "ESWEEK/note.md",
     "DAC/方法-模型整理.md",
     "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "wsm/日记/2024-03-19.md",
