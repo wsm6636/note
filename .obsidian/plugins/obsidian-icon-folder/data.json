@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 4,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "native",
@@ -13,7 +13,176 @@
       "LiComputer"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "icon": "FarFileLines",
+        "rule": "科技论文写作.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "TSN/ATS\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/cache\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/memory\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/bus\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/中断\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 5,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/锁\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 6,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "端到端\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 7,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度/定时器\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 8,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "iousing\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 9,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "RTSS\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 10,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "RTCSA\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 11,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "RTC\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 12,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "rtbubbles\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 13,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "PREEMPT_RT\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 14,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "perf\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 15,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "litmus\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 16,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "LET\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 17,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "fastdds\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 18,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "因果链\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 19,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "山水清\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 20,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "塞尔达\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 21,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "教程\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 22,
+        "useFilePath": true
+      },
+      {
+        "icon": "FarFileLines",
+        "rule": "调度\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 23,
+        "useFilePath": true
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
@@ -22,111 +191,41 @@
     },
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
   },
   "快速笔记OneNote": "TiNotebook",
-  "调度": {
-    "iconName": "LiTable",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "教程": {
-    "iconName": "LiSettings",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "塞尔达": {
-    "iconName": "RiSwitchFill",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "山水清": {
-    "iconName": "FasWater",
-    "inheritanceIcon": "FarFileLines"
-  },
   "图": "TiPhoto",
-  "因果链": {
-    "iconName": "RaChain",
-    "inheritanceIcon": "FarFileLines"
-  },
   "英语": "RiEnglishInput",
   "Enrico Bini": "TiSchool",
-  "fastdds": {
-    "iconName": "TiSend",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "LET": {
-    "iconName": "FasTimeline",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "litmus": {
-    "iconName": "LiLayoutTemplate",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "perf": {
-    "iconName": "TiTools",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "PREEMPT_RT": {
-    "iconName": "FabLinux",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "rtbubbles": {
-    "iconName": "SiOpenproject",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "RTC": {
-    "iconName": "TiReportAnalytics",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "RTCSA": {
-    "iconName": "LiNewspaper",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "RTSS": {
-    "iconName": "LiNewspaper",
-    "inheritanceIcon": "FarFileLines"
-  },
   "TSN": "RaWirelessSignal",
   "wsm": "RiAdminLine",
-  "iousing": {
-    "iconName": "TiReportAnalytics",
-    "inheritanceIcon": "FarFileLines"
-  },
   "ppt": "FarFilePowerpoint",
-  "调度/定时器": {
-    "iconName": "LiTimer",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "端到端": {
-    "iconName": "TiTimeline",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "调度/锁": {
-    "iconName": "LiLock",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "调度/中断": {
-    "iconName": "TiPageBreak",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "调度/bus": {
-    "iconName": "LiBus",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "调度/memory": {
-    "iconName": "BoBxMemoryCard",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "调度/cache": {
-    "iconName": "LiComputer",
-    "inheritanceIcon": "FarFileLines"
-  },
   "调度/定时器/多优先级硬件定时器专利.md": "FarFileLines",
-  "TSN/ATS": {
-    "iconName": "BoBxSync",
-    "inheritanceIcon": "FarFileLines"
-  },
-  "科技论文写作.md": {
-    "iconName": null,
-    "inheritanceIcon": "FarFileLines"
-  },
-  "Mind": "RiMindMap"
+  "Mind": "RiMindMap",
+  "调度": "LiTable",
+  "教程": "LiSettings",
+  "塞尔达": "RiSwitchFill",
+  "山水清": "FasWater",
+  "因果链": "RaChain",
+  "fastdds": "TiSend",
+  "LET": "FasTimeline",
+  "litmus": "LiLayoutTemplate",
+  "perf": "TiTools",
+  "PREEMPT_RT": "FabLinux",
+  "rtbubbles": "SiOpenproject",
+  "RTC": "TiReportAnalytics",
+  "RTCSA": "LiNewspaper",
+  "RTSS": "LiNewspaper",
+  "iousing": "TiReportAnalytics",
+  "调度/定时器": "LiTimer",
+  "端到端": "TiTimeline",
+  "调度/锁": "LiLock",
+  "调度/中断": "TiPageBreak",
+  "调度/bus": "LiBus",
+  "调度/memory": "BoBxMemoryCard",
+  "调度/cache": "LiComputer",
+  "TSN/ATS": "BoBxSync"
 }
