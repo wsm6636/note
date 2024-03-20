@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-20T09:08
+updated: 2024-03-20T22:58
 tags:
   - 笔记
   - 笔记/paper
@@ -25,7 +25,6 @@ End-to-End Timing Analysis, Distributed Real-time Systems, TSN
 分布式实时系统对于具有复杂性应用和分散性物理部署的领域友好，所以分布式实时系统应用广泛，尤其是自动驾驶领域。通常会将分布式实时系统部署在多个电子控制单元上，通过一些列任务完成一些功能或者对外部事件做出反应。这些完成功能或处理外部事件的任务经常需要按序执行，所以他们通常存在因果关系，即一个任务的输入由另一个任务的输出决定。所以在这样的分布式实时系统中不仅需要满足截止时间的约束，还需要考虑端到端时序的约束以满足功能的正确性和系统的安全性。例如在车辆自动巡航时，控制单元反应时间超过50ms，虽然仍然可能满足在截止期前完成减速控制，但可能会由于控制信号的延迟导致车辆急剧减速失去稳定。另外数据的新鲜度能保证数据的时效性，对于自动驾驶系统来说更新鲜的数据会帮助系统做出更准确的决策。
 Distributed real-time systems are particularly adept at handling applications with complexity and physical dispersion, making them extensively utilized across various domains, notably in the realm of autonomous driving. These systems are commonly deployed across a multitude of electronic control units (ECUs), executing a sequence of tasks to perform specific functions or react to external events. The tasks involved in executing these functions or processing events often need to be executed in an ordered manner, typically exhibiting causal relationships where the input of one task is derived from the output of another. In such distributed real-time systems, it is crucial not only to adhere to deadline constraints but also to consider end-to-end timing constraints to ensure the functionality's correctness and the system's safety. For instance, during automatic vehicle cruising, if the reaction time of the control unit exceeds 50 milliseconds, although it may still complete the deceleration control within the deadline, the delay in the control signal could result in a sudden deceleration and loss of vehicle stability. Moreover, the recency of data is essential for its timeliness, and in the context of autonomous driving systems, more up-to-date data can facilitate more precise decision-making.
 
-> 改一下图，把读写缓冲区加进去，变成ab两个图
 
 端到端时序约束根据端到端时序语义，包括反应时间约束和数据年龄约束，并且由AUTOSAR[AUTOSAR]定义。如图所示，其中反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，还有另一种表达按键到动作的延迟；数据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度，也称作最坏情况下的数据新鲜度。对于图中表示数据处理部分的任务，有的系统会采用第一个任务作为采样任务收集数据，也许不会并直接处理外部事件。在每两个相邻的数据处理任务之间多是通过缓冲区读写数据来进行通信的。如图所示，虚线的部分表示读写操作，而非任务链顺序。在任务链中一个任务从前面的缓冲区读取输入数据，自身运算产生结果后写入后面的缓冲区，在数据被读取或者新的数据写入前都会被一直保存着，如此一个或几个关键人物可以在多条任务链中起到承上启下的作用。包括图中所示的外部事件和激励事件同样如此，外部事件的数据会存在下一个处理它的任务的读数据缓冲区，而激励事件也可看做是处理数据的任务同样具有缓冲区，所以它会从自己的读数据缓冲区获得任务链的最总处理结果。
 End-to-end timing constraints, as defined by AUTOSAR【】, are based on end-to-end timing semantics and include reaction time constraints and data age constraints. As shown in the figure, reaction time refers to the earliest time interval from an external event to the point when each relevant task within the system begins processing this update, also known as delay from button press to action. Data age, on the other hand, indicates the time interval from the start of processing an external event until the generation of an incentivized output based on sampled data, also referred to as the worst-case data freshness. For tasks represented in the figure that pertain to the data processing section, some systems may adopt the first task as a sampling task to collect data, which may not be processed directly in response to the external event. Communication between two adjacent data processing tasks is often facilitated through buffer read and write operations. As shown in the figure, the dashed parts represent read and write operations, not the order of the task chain. So in a task chain where a task reads input data from the preceding buffer, processes it to produce results, and then writes into the subsequent buffer. The data is preserved until it is read or new data is written, allowing one or several key tasks to act as intermediaries across multiple task chains. As depicted in the figure, the external events and incentive events are treated similarly; the data from external events will reside in the read data buffer of the next task that processes it. The incentive event can also be viewed as a data processing task that possesses its own buffer, hence it obtains the ultimate processing result of the task chain from its own read data buffer.
@@ -70,13 +69,12 @@ In Section 4,  we evaluate and demonstrate that the proposed method improves the
 
 # related work
 
-> 画个图，表示TT和ET任务链
 
-对于因果链的端到端分析有很多工作考虑时间触发的方式，即任务链上的每个任务都有自己的周期并按照固定的间隔触发执行。针对这种时间触发的任务链已有多种方法处理，例如D{\"u}rr等人在【durr2019end】中设定即时向前和向后作业链，通过计算作业链的长度求得偶发性任务链的最大反应时间与最大数据年龄的上界。Günzel等人在[gunzel2021timing]中针对即时向前（向后）作业链设定长度从原来的数据处理任务（包括采样任务）向前扩展到外部活动触发以及向后扩展到驱动事件。随后他们在【gunzel_et_al】中引入划分的作业链并证明最大反应时间和最大数据年龄的等价性。
-For end-to-end timing analysis of cause-effect chains, much work has considered time-triggered approaches, where each task in the chain is periodically triggered to execute at fixed intervals. There are various methods to handle such time-triggered task chains. For instance, Dürr et al. in 【durr2019end】defined immediate forward and backward job chains, and by calculating the length of the job chain, they derived the upper bounds for the maximum reaction time and maximum data age of sporadic job chains. Günzel et al. in [gunzel2021timing] study extended the definition of immediate forward (backward) job chains in length, from the original data processing tasks (including sampling tasks) forward to external activity triggers and backward to driving events. Subsequently, they introduced partitioned job chains in their follow-up work and proved the equivalence of maximum reaction time and maximum data age.
+对于因果链的端到端分析有很多工作考虑时间触发的方式，如图，即任务链上的每个任务都有自己的周期并按照固定的间隔触发执行。针对这种时间触发的任务链已有多种方法处理，例如D{\"u}rr等人在【durr2019end】中设定即时向前和向后作业链，通过计算作业链的长度求得偶发性任务链的最大反应时间与最大数据年龄的上界。Günzel等人在[gunzel2021timing]中针对即时向前（向后）作业链设定长度从原来的数据处理任务（包括采样任务）向前扩展到外部活动触发以及向后扩展到驱动事件。随后他们在【gunzel_et_al】中引入划分的作业链并证明最大反应时间和最大数据年龄的等价性。
+For end-to-end timing analysis of cause-effect chains, much work has considered time-triggered approaches, as shown in the figure where each task in the chain is periodically triggered to execute at fixed intervals. There are various methods to handle such time-triggered task chains. For instance, Dürr et al. in 【durr2019end】defined immediate forward and backward job chains, and by calculating the length of the job chain, they derived the upper bounds for the maximum reaction time and maximum data age of sporadic job chains. Günzel et al. in [gunzel2021timing] study extended the definition of immediate forward (backward) job chains in length, from the original data processing tasks (including sampling tasks) forward to external activity triggers and backward to driving events. Subsequently, they introduced partitioned job chains in their follow-up work 【gunzel_et_al】and proved the equivalence of maximum reaction time and maximum data age.
 
-另一种则是事件触 发的方式，即任务链上的每个任务需要其前一个任务执行结束生成数据，随后触发该任务读取数据进行下一步处理。【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析。【7461359】提出了静态优先抢占任务链的忙窗口分析。【recursiveapproach】提出用于推导应用程序的端到端延迟的方法并支持任意事件模式的时间触发和事件触发任务激活方案。本文的研究以事件触发的方式为基础。
-The event-triggered mechanism for task chains, where each task requires the completion of its preceding task to generate data, which then triggers the task to read the data for further processing. In the paper [tangReactionTimeAnalysis2023], a resource service curve model is utilized to analyze the maximum reaction time under event-triggered and data refresh modes. The paper [7461359] proposes a busy window analysis for static priority preemptive task chains. The [recursiveapproach] presents a method for deriving the end-to-end delay of an application, supporting both time-triggered and event-triggered task activation schemes for arbitrary event patterns. This research is based on the time-triggered mechanism.
+另一种则是事件触 发的方式，如图，即任务链上的每个任务需要其前一个任务执行结束生成数据，随后触发该任务读取数据进行下一步处理。【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析。【7461359】提出了静态优先抢占任务链的忙窗口分析。【recursiveapproach】提出用于推导应用程序的端到端延迟的方法并支持任意事件模式的时间触发和事件触发任务激活方案。本文的研究以事件触发的方式为基础。
+The event-triggered mechanism for task chains, as shown in the figure where each task requires the completion of its preceding task to generate data, which then triggers the task to read the data for further processing. In the paper [tangReactionTimeAnalysis2023], a resource service curve model is utilized to analyze the maximum reaction time under event-triggered and data refresh modes. The paper [7461359] proposes a busy window analysis for static priority preemptive task chains. The [recursiveapproach] presents a method for deriving the end-to-end delay of an application, supporting both time-triggered and event-triggered task activation schemes for arbitrary event patterns. This research is based on the time-triggered mechanism.
 
 除此之外还有一些研究仅专注于一种端到端时序语义。Günzel等人在【Probabilistic】中进一步提出基于概率的反应时间分析方法，考虑反应时间的随机性与故障概率并对偶发性任务链分析。【 10.1145/3534879.3534893】考虑混合线性规划的优化以最小化数据年龄分析。【bi2022efficient】中则是提出以较低的计算代价实现较高的数据年龄分析精度的方法。
 In addition to the aforementioned studies, some research focuses solely on one aspect of end-to-end timing semantics. Günzel et al. in their work 【Probabilistic】further propose a probability-based reaction time analysis method, considering the randomness of reaction times and failure probabilities for sporadic task chain analysis. The paper with the identifier 【 10.1145/3534879.3534893】 explores the optimization of data age analysis using mixed-integer linear programming to minimize data age. In the work 【bi2022efficient】a method is proposed that achieves high precision in data age analysis with lower computational overhead.
@@ -90,7 +88,7 @@ For the end-to-end latency analysis of TSN networks, there has been significant 
 
 # system model
 
-我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接，这样组成了一条简单的基于TSN网络的分布式实时系统任务链。
+我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接（每个ECU上可存在本地任务链），这样组成了一条简单的基于TSN网络的分布式实时系统任务链。
 We assume a group of ECUs connected through the TSN network using the IEEE 802.1 Qcr standard. Each task is statically assigned to one ECU, and all the jobs released by this task are executed on the same ECU in a fixed priority non-preemptive mode. There are no other parallel executing tasks on the same ECU. Each pair of ECUs is connected through the network, forming a simple distributed real-time system task chain based on the TSN network.
 ## Task Module
 
@@ -112,7 +110,7 @@ Figure 1 demonstrates the impact of communication semantics on end-to-end timing
 We consider the scheduling task τ on a single ECU. Ei describes the worst-case execution time (WCET) of the scheduling task τi. Ri describes the worst-case reaction time of the scheduling task τi, i.e., the maximum time interval from arrival to completion of all scheduling task instances. $J^{j}_i$ is the jth job released by τi. All jobs released by τi have the same attributes as the task τi.  $r(J^{j}_i)$  represents the release time and $f(J^{j}_i)$  represents the finish time.
 
 Bi表示调度任务τi的固定大小（为|Bi|）的输入缓冲区。每个调度任务τi从它的输入缓冲区Bi中读取由前驱作业τi-1产生的数据，并将自己产生的数据写入其后继任务τi+1的输入缓冲区Bi+1。
-单个ECU上的调度任务采用事件触发（ET）的方式，即当前一个作业$J^{j-1}_i$执行完成（$f(J^{j-1}_i)$时刻）写入缓冲区后，后一个任务$J^{j}_i$在$r(J^{j}_i)$ 时刻触发。后一个作业的读取操作时刻不会早于前一个作业的写入操作时刻。
+单个ECU上的调度任务采用事件触发（ET）的方式，即当前一个作业$J^{j-1}_i$执行完成（$f(J^{j-1}_i)$时刻）写入缓冲区后，后一个任务$J^{j}_i$在$r(J^{j}_i)$ 时刻触发。后一个作业的读取操作时刻不会早于前一个作业的写入操作时刻。即$r(J^{j}_i) ≥ f(J^{j-1}_i)$
 $B_i$ represents the fixed size (is $|B_i|$) input buffer of scheduling task $\tau_i$. Each scheduling task $\tau_i$ reads data generated by the predecessor job $\tau_{i-1}$ from its input buffer $B_i$, and writes its own generated data into the input buffer $B_{i+1}$ of the successor task $\tau_{i+1}$. On a single ECU, scheduling tasks are triggered by events (ET), which means that when the previous job $J^{j-1}_i$ completes execution (at time $f(J^{j-1}_i)$), the next job $J^{j}_i$ is triggered at time $r(J^{j}_i)$. The read operation of a subsequent task will not occur earlier than the write operation of the previous task.
 
 ## Network Module
@@ -166,30 +164,33 @@ Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisf
 - For any event ci (1<i<n-1), it can be either a scheduling task or a network task.
 - There is no case where two consecutive events ci and ci-1 (1<i<n-1) are scheduling tasks executed on separate ECUs. In the task chain, there is at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci-1 and ci+1 are scheduling tasks on different ECUs, then ci is a network task.
 
-> 这里加一句通过反应时间和数据年龄原理，所以...
+
+就如前文中提到过得一样，反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，以及据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度。所以，我们根据反应时间和数据年龄的特性得到如下定义。
+As mentioned earlier, response time refers to the earliest time interval from an external event to the point when each relevant task within the system begins processing this update, and data age indicates the time interval from the start of processing an external event until the generation of an incentivized output based on sampled data. Therefore, based on the characteristics of response time and data age, we arrive at the following definitions.
 
 **定义（反应时间）：任务链的反应时间表示为R(c)**
 R（c）= t'-t =  f(cn) - t(z)
 Definition  (reaction time): the reaction time of a task chain is expressed as R(c)
 
-> 这里也加一句
-
 定义（数据年龄）：任务链的数据年龄表示为D(c)
 D（c）= t'-t =  f(cn) - r(c1)
 Definition  (data age): the data age of a task chain is expressed as D(c)
 
-> 这里加根据端到端延迟上界，所以...
 
-**定义 （最大反应时间）：任务链的最大反应时间RT(c)是任务链c所有可能路径的最大值**
+根据定义。。。我们可以得到最大反应时间和最大数据年龄的定义如下。
+According to the definition...
+We can derive the definitions for maximum response time and maximum data age as follows.
+
+定义 （最大反应时间）：任务链的最大反应时间RT(c)是任务链c所有可能路径的反应时间最大值
 RT(c) = max{R(c)}
-Definition  (Maximum reaction time): the maximum reaction time RT(c) of a task chain is the maximum of all possible paths of the task chain c
+Definition  (Maximum reaction time): the maximum reaction time RT(c) of a task chain is the maximum value of reaction time across all possible paths of the task chain c
 
-定义 （最大数据年龄）：任务链的最大数据年龄DA(c)是任务链c所有可能路径的最大值
+定义 （最大数据年龄）：任务链的最大数据年龄DA(c)是任务链c所有可能路径的数据年龄最大值
 DA(c) = max{D(c)}
-Definition  (Maximum data age): the maximum data age DA(c) of a task chain is the maximum of all possible paths of the task chain c
+Definition  (Maximum data age): the maximum data age DA(c) of a task chain is the maximum value of data age across all possible paths of the task chain c
 
 > Problem: The main objective of this work is to design an efﬁcient worst-case end-to-end latency analysis strategy for data chains of periodic real-time tasks with implicit deadlines executed by a partitioned ﬁxed-priority preemptive scheduler upon a multiprocessor platform, such that a tight upper bound for the data chain latency can be obtained with lower computational cost. In this paper, we reduce the problem of bounding the worst-case latency of data chains to a problem of bounding the releasing interval of data propagation instances for each pair of consecutive tasks in the chain. Based on such problem reduction, we also present a polynomial time algorithm to calculate the latency upper bounds with low precision loss.
+> 本工作的主要目标是为多处理器平台上执行具有隐式截止期限的周期性实时任务的数据链设计一种高效的最坏情况端到端时延分析策略，以便能够以较低的计算成本获得数据链时延的紧密上限。在本文中，我们将数据链最坏情况时延的界限问题简化为界定链中每对连续任务的数据传播实例的发布间隔问题。基于这一问题简化，我们还提出了一种多项式时间算法来计算时延上限，且精度损失较低。
 
+问题定义：本文研究的主要工作是针对需要大量数据传输的分布式实时系统仍旧采用低带宽网络进行端到端时间分析现状，设计一种基于TSN网络的任务链模型，以提分布式实时系统高端到端分析能力。在本文研究中，我们将采用
 
-
-> 举例子的图改，加上数据年龄
