@@ -4,138 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2146a4e61a98d761",
+        "id": "3cd3620237b016e8",
         "type": "tabs",
         "children": [
           {
-            "id": "2992d900951dd972",
+            "id": "2a2429e258ba5e23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8dc9515f6f6f026",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RTCSA/QCH-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
-      },
-      {
-        "id": "17ac7897a54599c2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "18bcd3fd843407f7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "HOMEPAGE.canvas",
-                "viewState": {
-                  "x": -1984.6453857421875,
-                  "y": -632.6030616348608,
-                  "zoom": 0
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9d3a27998953caf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/日记/2024-03-19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bea45c694caf4789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAC/ATS-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a4347a50a304e92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/note.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "180d153cc91c8608",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAC/方法-模型整理.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e10c58df377c21dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50639b0e46712d78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/周记/2024-03-18-W12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,9 +43,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md"
-              }
+              "state": {}
             }
           },
           {
@@ -174,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,84 +69,26 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 269
   },
   "right": {
     "id": "72a98f63b87fd861",
     "type": "split",
     "children": [
       {
-        "id": "3c272ce0b3fbb768",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4fe5a22a763255f3",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "3489e9e69e67f977",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "4ada7681c10794a6",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "dbe74c464049a0d9",
         "type": "tabs",
         "children": [
-          {
-            "id": "ef7b58c1de8e9019",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "fbd984f9597fd947",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
           {
             "id": "e8da10234d4adde3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,99 +105,97 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "832e1994679bf635",
+            "id": "fbd984f9597fd947",
             "type": "leaf",
             "state": {
-              "type": "emoji-view",
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "ef7b58c1de8e9019",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 319,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": true,
-      "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": true,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": true,
-      "templater-obsidian:Templater": false
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2992d900951dd972",
+  "active": "2a2429e258ba5e23",
   "lastOpenFiles": [
-    "ESWEEK/note.md",
-    "ESWEEK/ESWEEK-workspace.md",
-    "DAC/ATS-workspace.md",
-    "RTCSA/QCH-workspace.md",
-    "DAC/方法-模型整理.md",
-    "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-    "wsm/日记/2024-03-19.md",
-    "wsm/日记/2024-03-18.md",
-    "HOMEPAGE.canvas",
-    "wsm/周记/2024-03-18-W12.md",
-    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "笔记/wsm/周记/2024-03-18-W12.md",
+    "笔记/wsm/日记/2024-03-11.md",
     "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-    "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "端到端/ATS-workspace.md",
+    "TSN/Routing/基础知识.md",
+    "RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
+    "TSN/ATS/IEEE 802.1Qcr Asynchronous Traffic Shaping with Linux Traffic Control.md",
+    "TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md",
     "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
-    "wsm/周记/2024-03-11-W11.md",
-    "wsm/日记/2024-03-16.md",
-    "wsm/日记/2024-03-17.md",
-    "wsm/月复盘/2024-03.md",
-    "wsm/周记/2024-03-04-W10.md",
-    "wsm/周记/2024-02-26-W09.md",
-    "wsm/周记/2024-02-19-W08.md",
-    "模板/周记模板.md",
-    "模板/年复盘模板.md",
-    "模板/月复盘模板.md",
-    "wsm/日记/2024-03-11.md",
-    "wsm/日记/2024-02-28.md",
-    "wsm/日记/2024-03-12.md",
-    "图/ESWEEK/implicit.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/ex4.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/ex3.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/ex2.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/ex1.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/direct.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/chain.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/RTDA.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/LET.pdf.baiduyun.uploading.cfg",
-    "图/ESWEEK/ESWEEK.drawio.baiduyun.uploading.cfg",
-    "模板/启动页模板1.canvas",
-    "模板/启动页模板2.canvas",
-    "模板/启动页模板3.canvas",
-    "模板/未命名.canvas",
-    "模板/启动页.canvas",
-    "wsm/未命名.canvas",
-    "图/1.png",
-    "未命名.canvas",
-    "图/222 1.png",
-    "图/111).png",
-    "图/111.png",
-    "图/2a64fd65617e9cd277a6f0137ee8d43.jpg",
-    "obsidian-example-LifeOS-chinese-version/主页.canvas",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.png",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/rollup-logo.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/repo-hero-logo-light.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/monitor.svg"
+    "TSN/Routing",
+    "因果链/QCH-workspace.md",
+    "TSN/ATS/基础知识.md",
+    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "端到端/方法-模型整理.md",
+    "图/DAC/ex4-N=40-H=0.9to0.1-100-1.png",
+    "图/DAC/ex2-N=40-H=0.9to0.1-100-1.png",
+    "图/DAC/ex1-N=40-H=0.4-100-1.png",
+    "图/DAC/ex3-N=40-J=0.9to0.1-100-1.png",
+    "图/DAC/change-li.png",
+    "图/DAC/f61366c3e4aed1a2a537a89774fce2c.png",
+    "端到端/ATS-workspace.md.baiduyun.uploading.cfg",
+    "ppt/~$1017.pptx",
+    "端到端/方法-模型整理.md.baiduyun.uploading.cfg",
+    "教程/配置zotero7.md.baiduyun.uploading.cfg",
+    "图/DAC/implicit.pdf.baiduyun.uploading.cfg",
+    "图/DAC/direct.pdf.baiduyun.uploading.cfg",
+    "图/DAC/chain.pdf.baiduyun.uploading.cfg",
+    "图/DAC/LET.pdf.baiduyun.uploading.cfg",
+    "图/DAC/DAC.drawio.baiduyun.uploading.cfg",
+    "教程/配置zotero7.md",
+    "教程/未命名.md",
+    "因果链/其他人的工作.md",
+    "因果链/End-To-End Timing Analysis in ROS2.md",
+    "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
+    "因果链/note.md",
+    "TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
+    "端到端/未命名.md",
+    "TSN/ATS/ATS.md",
+    "因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md",
+    "因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md",
+    "Mind/Timing analysis.md",
+    "Mind/Timing analysis.canvas",
+    "端到端/未命名.canvas",
+    "PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md",
+    "图/未命名.canvas",
+    "未命名.canvas"
   ]
 }
