@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-20T22:58
+updated: 2024-03-20T23:24
 tags:
   - 笔记
   - 笔记/paper
@@ -189,8 +189,8 @@ Definition  (Maximum reaction time): the maximum reaction time RT(c) of a task c
 DA(c) = max{D(c)}
 Definition  (Maximum data age): the maximum data age DA(c) of a task chain is the maximum value of data age across all possible paths of the task chain c
 
-> Problem: The main objective of this work is to design an efﬁcient worst-case end-to-end latency analysis strategy for data chains of periodic real-time tasks with implicit deadlines executed by a partitioned ﬁxed-priority preemptive scheduler upon a multiprocessor platform, such that a tight upper bound for the data chain latency can be obtained with lower computational cost. In this paper, we reduce the problem of bounding the worst-case latency of data chains to a problem of bounding the releasing interval of data propagation instances for each pair of consecutive tasks in the chain. Based on such problem reduction, we also present a polynomial time algorithm to calculate the latency upper bounds with low precision loss.
-> 本工作的主要目标是为多处理器平台上执行具有隐式截止期限的周期性实时任务的数据链设计一种高效的最坏情况端到端时延分析策略，以便能够以较低的计算成本获得数据链时延的紧密上限。在本文中，我们将数据链最坏情况时延的界限问题简化为界定链中每对连续任务的数据传播实例的发布间隔问题。基于这一问题简化，我们还提出了一种多项式时间算法来计算时延上限，且精度损失较低。
 
-问题定义：本文研究的主要工作是针对需要大量数据传输的分布式实时系统仍旧采用低带宽网络进行端到端时间分析现状，设计一种基于TSN网络的任务链模型，以提分布式实时系统高端到端分析能力。在本文研究中，我们将采用
+问题定义：本文研究的主要工作是针对需要大量数据传输的分布式实时系统仍旧采用低带宽网络（CAN总线）进行端到端时间分析现状，设计了一种基于TSN网络的任务链模型，以提高分布式实时系统高端到端分析能力。在本文研究中，我们将采用802作为TSN网络任务的协议，并将网络传输简单化为网络任务，将其与传统ECU任务链相结合为基于TSN的联合任务链。基于这样的任务链，我们通过将端到端时间分解为任务结束时间间隔分析，获得最大反应时间与最大数据年龄界限。
+Problem Definition: The main focus of this paper is to address the current situation where distributed real-time systems requiring substantial data transmission still rely on low-bandwidth networks (such as CAN bus) for end-to-end timing analysis. To this end, a task chain model based on TSN network has been designed to enhance the end-to-end analysis capabilities of distributed real-time systems. In this paper, we adopt the IEEE 802.1 protocol as the standard for TSN network tasks and simplify network transmission into network tasks. These are then integrated with traditional ECU task chains to form a combined task chain based on TSN. With such a task chain, we decompose the end-to-end time into task completion time intervals for analysis, thereby obtaining the bounds for maximum reaction time and maximum data age.
 
+## An Illustrative Example

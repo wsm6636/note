@@ -122,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -291,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 319,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -310,12 +312,12 @@
   },
   "active": "2992d900951dd972",
   "lastOpenFiles": [
-    "ESWEEK/note.md",
-    "HOMEPAGE.canvas",
-    "wsm/日记/2024-03-20.md",
+    "DAC/ATS-workspace.md",
     "ESWEEK/ESWEEK-workspace.md",
     "RTCSA/QCH-workspace.md",
-    "DAC/ATS-workspace.md",
+    "HOMEPAGE.canvas",
+    "ESWEEK/note.md",
+    "wsm/日记/2024-03-20.md",
     "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "wsm/周记/2024-03-18-W12.md",
     "wsm/日记/2024-03-19.md",
