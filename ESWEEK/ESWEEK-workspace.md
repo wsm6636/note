@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-20T23:24
+updated: 2024-03-21T21:20
 tags:
   - 笔记
   - 笔记/paper
@@ -194,3 +194,17 @@ Definition  (Maximum data age): the maximum data age DA(c) of a task chain is th
 Problem Definition: The main focus of this paper is to address the current situation where distributed real-time systems requiring substantial data transmission still rely on low-bandwidth networks (such as CAN bus) for end-to-end timing analysis. To this end, a task chain model based on TSN network has been designed to enhance the end-to-end analysis capabilities of distributed real-time systems. In this paper, we adopt the IEEE 802.1 protocol as the standard for TSN network tasks and simplify network transmission into network tasks. These are then integrated with traditional ECU task chains to form a combined task chain based on TSN. With such a task chain, we decompose the end-to-end time into task completion time intervals for analysis, thereby obtaining the bounds for maximum reaction time and maximum data age.
 
 ## An Illustrative Example
+在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，其中$\tau_0, \tau_1$和被分配给了ECU1而$\tau_2$分配给了ECU2，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=3$。任务$\tau_0$的周期$T=6$。根据任务释放作业的情况我们可以进一步将任务链C表示为$C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。
+In the figure, the task chain consists of external event z, three scheduling tasks, and two network tasks, denoted as $C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$. The scheduling tasks $\tau_0, \tau_1$, and $\tau_2$ are statically allocated to two different ECUs,   where 
+$\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the task chain C can be further represented as $C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
+
+
+在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到任务$J_0^2$的输入缓冲区$B_0$。在t=6时刻采样任务释放的作业$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上的调度任务$J_0^2$处理数据结束并将更新后的数据写入任务$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，根据定义处理外部事件z的任务链的反应时间为$R(C)=36-4=32$。根据外部事件z而产生的激励动作发生在任务链最终结果产生之后的下一个数据处理任务，根据本文任务模型，激励动作发生时间即为任务链最后一个任务之后下一个任务的释放时刻，也为任务链最后一个任务的结束时刻，因为我们采用的是事件触发方法。所以根据定义，任务链的数据年龄为$D(C)=36-6=30$
+At the system time $t=4$, an external event occurs and the relevant initial data is written into the input buffer $B_0$ of task $J_0^2$. At time $t=6$, the sampling task $J_0^2$ that was released captures the external event data updated in its input buffer $B_0$. At $t=10$, the scheduling task $J_0^2$ on ECU1 finishes processing the data and writes the updated data into the input buffer $B_1$ of task $J_1^1$. When task $J_1^1$ ends, the resulting output begins to be transmitted over the network to ECU2. The data frame is enqueued at time $t=17$, shaped by the ATS algorithm, and by time $t=21$, the entire data frame has finished processing at switch 1. As required by network topology or routing selection algorithms, the data frame is directed to switch 2, where it continues to undergo ATS-related processing. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding the external event z is produced. As shown in the figure, according to the definition, the reaction time of the task chain processing external event z is $R(C) = 36 - 4 = 32$. The incentivized action resulting from external event z occurs after the final result of the task chain is produced, at the release time of the next data processing task following the last task in the chain. According to the task model of this paper, the time of the incentivized action is the release time of the next task after the last task in the task chain, which is also the end time of the last task in the chain, because we are using an event-triggered method. Therefore, by definition, the data age of the task chain is $D(C) = 36 - 6 = 30$.
+
+# End-to-eng Timing Analysis
+
+本节中我们进行了基于TSN网络多ECU场景下端到端时延分析，分别给出了最大反应时间和最大数据年龄的结果。
+
+
+## Maximum Reaction Time Analysis

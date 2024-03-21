@@ -38,12 +38,32 @@
             }
           },
           {
-            "id": "7a4347a50a304e92",
+            "id": "a9b417a3d4a75614",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESWEEK/note.md",
+                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "e524bb73871cade8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59c0c4debfa1394e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,39 +77,6 @@
               "type": "markdown",
               "state": {
                 "file": "DAC/方法-模型整理.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e10c58df377c21dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "e524bb73871cade8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "59c0c4debfa1394e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,9 +108,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7a4347a50a304e92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESWEEK/note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md"
+                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md"
               }
             }
           },
@@ -179,13 +179,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -221,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md"
+                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md"
               }
             }
           }
@@ -256,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
+                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
+                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -310,19 +308,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2992d900951dd972",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
-    "DAC/ATS-workspace.md",
     "ESWEEK/ESWEEK-workspace.md",
     "RTCSA/QCH-workspace.md",
+    "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
+    "DAC/ATS-workspace.md",
+    "DAC/方法-模型整理.md",
+    "wsm/日记/2024-03-21.md",
+    "wsm/周记/2024-03-18-W12.md",
     "HOMEPAGE.canvas",
     "ESWEEK/note.md",
     "wsm/日记/2024-03-20.md",
-    "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-    "wsm/周记/2024-03-18-W12.md",
     "wsm/日记/2024-03-19.md",
     "图/ESWEEK/buffer.pdf",
-    "DAC/方法-模型整理.md",
     "wsm/日记/2024-03-18.md",
     "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
