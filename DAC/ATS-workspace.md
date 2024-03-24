@@ -1,6 +1,6 @@
 ---
 created: 2023-11-17-21:00:00
-updated: 2024-03-15T22:52
+updated: 2024-03-21T22:07
 tags:
   - 笔记
   - 笔记/paper
@@ -357,8 +357,7 @@ Lemma 1, $f(c_0)-t(z) \le T$.
 
 
 **证明，根据定义（1），我们可以获得事件$c_0$的定义，即事件$c_0$必然是一个调度任务为$\tau_0$，所以根据定义（4）调度任务$\tau_0$的结束时间为$f(\tau_0)=f(c_0)$。继续使用定义（1），事件$c_0$（调度任务$\tau_0$）以T为周期捕捉外部事件z，所以当外部事件在t(z)开始触发之后最晚在一个周期T之内，它将被调度任务$\tau_0$捕捉。所以我们可以得到$f(c_0)-t(z)$的上界为T。**
-Proof: According to definition (1), we can obtain the definition of event $c_0$, which states that event $c_0$ must necessarily be scheduled as task $\tau_0$. Thus, based on definition (4), the completion time of task $\tau_0$ is $f(\tau_0)=f(c_0)$.
-Continuing with definition (1), event $c_0$ (task $\tau_0$) captures external event $z$ with a period of $T$. Therefore, when the external event is triggered at $t(z)$ or later, it will be captured by task $\tau_0$ within a maximum period of $T$. Hence, we can conclude that the upper bound of $f(c_0)-t(z)$ is $T$.
+Proof: According to definition (1), we can obtain the definition of event $c_0$, which states that event $c_0$ must necessarily be scheduled as task $\tau_0$. Thus, based on definition (4), the completion time of task $\tau_0$ is $f(\tau_0)=f(c_0)$.Continuing with definition (1), event $c_0$ (task $\tau_0$) captures external event $z$ with a period of $T$. Therefore, when the external event is triggered at $t(z)$ or later, it will be captured by task $\tau_0$ within a maximum period of $T$. Hence, we can conclude that the upper bound of $f(c_0)-t(z)$ is $T$.
 
 > 假设外部事件z，只在采样任务τ0释放的作业，完成之后才能有效触发
 > 也就是说 f(J01) < t(z) < r(J02)

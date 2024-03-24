@@ -25,6 +25,16 @@
             }
           },
           {
+            "id": "69548bde15a291a9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
             "id": "2992d900951dd972",
             "type": "leaf",
             "state": {
@@ -36,22 +46,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a9b417a3d4a75614",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "e524bb73871cade8",
@@ -64,6 +61,19 @@
               "type": "markdown",
               "state": {
                 "file": "ESWEEK/ESWEEK-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7b72219e12ae46b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -152,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           },
@@ -183,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -219,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md"
+                "file": "ESWEEK/ESWEEK-workspace.md"
               }
             }
           }
@@ -254,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+                "file": "ESWEEK/ESWEEK-workspace.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -308,24 +319,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7fc5fa2c3f576f36",
+  "active": "69548bde15a291a9",
   "lastOpenFiles": [
+    "DAC/ATS-workspace.md",
     "ESWEEK/ESWEEK-workspace.md",
+    "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "ESWEEK/note.md",
+    "DAC/方法-模型整理.md",
     "RTCSA/QCH-workspace.md",
     "因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-    "DAC/ATS-workspace.md",
-    "DAC/方法-模型整理.md",
     "wsm/日记/2024-03-21.md",
     "wsm/周记/2024-03-18-W12.md",
     "HOMEPAGE.canvas",
-    "ESWEEK/note.md",
     "wsm/日记/2024-03-20.md",
     "wsm/日记/2024-03-19.md",
     "图/ESWEEK/buffer.pdf",
     "wsm/日记/2024-03-18.md",
-    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-    "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
     "wsm/周记/2024-03-11-W11.md",
     "wsm/日记/2024-03-16.md",
