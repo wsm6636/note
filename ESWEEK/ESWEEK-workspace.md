@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-24T20:16
+updated: 2024-03-24T22:11
 tags:
   - 笔记
   - 笔记/paper
@@ -86,6 +86,8 @@ The majority of the aforementioned research focuses on the end-to-end latency an
 For the end-to-end latency analysis of TSN networks, there has been significant focus on Time-Aware Shaper (TAS). Bahar et al., referencing the framework proposed in [feiertagCompositionalFrameworkEndtoend], analyzed the end-to-end latency between ECUs under synchronous and asynchronous conditions, as well as in offline network scenarios, based on the IEEE 802.1Qbv standard [HOUTAN2023102911]. In avionics systems, a hybrid scheduling framework has been proposed based on TSN networks to ensure both end-to-end timing semantics [Hybrid]. Arestova et al. in [arestova2022itans] used incremental heuristic methods to calculate the scheduling of cause-effect chains composed of multi-rate tasks and network flows. Additionally, in [co-design], frame-level response times were analyzed for control tasks with varying requirements.
 
 > 加一个章节，关于ATS算法的介绍
+> 伪代码
+> #修改 
 # system model
 
 我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接（每个ECU上可存在本地任务链），这样组成了一条简单的基于TSN网络的分布式实时系统任务链。
@@ -117,6 +119,7 @@ $B_i$ represents the fixed size (is $|B_i|$) input buffer of scheduling task $\t
 **为了区别ECU上执行的任务，我们将TSN网络中的任务称为网络任务并用m={l，d}表示，而ECU上的任务我们仍然成为任务。我们使用数据帧作为端到端分析的一个基本单元。所以网络任务$m^{i}_j$代表携带任务链信息的数据帧，i代表了数据帧所在的流，并且它是数据流i中的第j个数据帧，在本文后续的内容中。$l(m^{i}_j)$代表了数据帧的长度。$d(m^{i}_j$)代表整个数据帧结束的时间，即数据帧通过ATS算法获得资格时间$et(m^{i}_j)$之后，通过传输算法根据优先级等选择，最后离开的时刻。在数据帧连续的传输过程中，能够确保从一个交换机流出之后才会经过网络传输并流入到下一个交换机中，这类似于ECU上任务对于读写顺序的约束。**
 In order to distinguish the scheduling tasks performed on the ECU, we refer to the tasks in the TSN network as network tasks and represent them as m={l, d}, and the tasks on the ECU, we still refer to them as scheduling tasks. We use data frames as the basic unit for end-to-end analysis. Therefore, the network task $m^{i}_j$ represents a data frame carrying task chain information, where i indicates the stream the data frame belongs to, and it is the jth data frame in data stream i in the following content. $l(m^{i}_j)$ represents the length of the data frame. $d(m^{i}_j)$ represents the end time of the entire data frame, which is the moment the data frame leaves after obtaining eligibility time $et(m^{i}_j)$ through the ATS algorithm and selecting the transmission algorithm based on priority, among other things. During the continuous transmission process of data frames, it ensures that they will only be transmitted through the network and enter the next switch after flowing out from one switch. This is similar to the constraint on the read-write order of tasks on an ECU.
 > 这里改一下，把分配规则放前面，然后这里写参考第三节...
+> #修改
 
 **ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）以及承诺的突发大小（committed burst size）确定数据帧的资格时间。
 其中，整形队列需要遵循队列分配的规则，以下情况的数据帧不能被分配到同一个整形队列：
@@ -169,15 +172,22 @@ Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisf
 就如前文中提到过得一样，反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，以及据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度。所以，我们根据反应时间和数据年龄的特性得到如下定义。
 As mentioned earlier, response time refers to the earliest time interval from an external event to the point when each relevant task within the system begins processing this update, and data age indicates the time interval from the start of processing an external event until the generation of an incentivized output based on sampled data. Therefore, based on the characteristics of response time and data age, we arrive at the following definitions.
 
-> 这里每个定义补充两句话
 
-**定义（反应时间）：任务链的反应时间表示为R(c)**
+定义（反应时间）：对于任务链C的反应时间表示为R(c)
+- 任务链C的头部事件（外部事件z）发生的时刻t(z)
+- 任务链C的最后一个事件(cn)完成数据处理的时刻f(cn) 
 R（c）= t'-t =  f(cn) - t(z)
-Definition  (reaction time): the reaction time of a task chain is expressed as R(c)
+Definition  (reaction time): the reaction time of a task chain C is expressed as R(c), which includes:
+- The moment when the head event of task chain C (external event z) occurs, denoted as t(z).
+- The moment when the last event of task chain C (cn) completes data processing, denoted as f(cn).
 
-定义（数据年龄）：任务链的数据年龄表示为D(c)
-D（c）= t'-t =  f(cn) - r(c1)
-Definition  (data age): the data age of a task chain is expressed as D(c)
+定义（数据年龄）：对于任务链C的数据年龄表示为D(c)
+- 任务链C的头部事件（采样任务τ0）读取数据（隐式通信，即任务释放时刻）的时刻r(c1)
+- 任务链C的最终数据处理完的激励时刻r(cn+1) 
+D（c）= t'-t =  r(cn+1) - r(c1)
+Definition  (data age): the data age of a task chain C is expressed as D(c)
+- The head event of task chain C (sampling task τ0​) reads data (implicit communication, i.e., the moment of task release) at time r(c1​).
+- The final data processing completion and incentive moment of task chain C is at time r(cn+1​).
 
 
 根据定义。。。我们可以得到最大反应时间和最大数据年龄的定义如下。
@@ -301,6 +311,7 @@ For the P2 part, we divide it into three cases to discuss their upper bounds.
 Case 1: $s(c_i) = \tau, s(c_{i-1}) = \tau$. In other words, in the adjacent events, the previous event $c_{i-1}$ is a scheduling task $\tau_{i-1}$, and the subsequent task $c_i$ is also a scheduling task $\tau_i$.
 
 > 这里多写一点唐月论文里的公式，主要是DLY
+> #修改
 
 **这种情况下，我们参考【】中对于固定大小缓冲区事件触发链的时间上限。
 令$\alpha=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$**
@@ -318,7 +329,6 @@ Case 2: $s(c_i)=m$. In other words, in the two consecutive events, the subseque
 **如图1所示，我们考虑数据（1）在一个ECU上传入网络；(2)网络中不同交换机之间传输；(3)网络中最后一跳传输到另一个ECU。这三种情况下，根据网络带宽以及数据大小，在一条任务链的分析中，数据传输具有相同的延迟为t（数据大小/带宽）。**
 As shown in Figure 1, we consider the following scenarios in the analysis of a task chain: (1) Data input from an ECU into the network, (2) Transmission between different switches in the network, and (3) Final hop transmission to another ECU in the network. In these three scenarios, based on the network bandwidth and data size, data transmission has the same delay of t (data size/bandwidth) in the analysis of a task chain.
 
-> 这里变成无序列表
 
 **对于网络任务，根据令牌桶算法我们知道数据帧的延迟会受到(1)高优先级队列的流；(2)低优先级队列的流；(3)同等优先级竞争的流；(4)数据流本身的性质；(5)当前令牌桶性质的影响。所以根据Specht等人在【】所求的上界，以及【TimeSensitiveNetworking2021】可得到
 $(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})$，其中$H$，$L$，$j$分别表示了高优先级、低优先级与竞争流的索引。并且取得高优先级流 committed burst size的集合$b_H$，竞争的合集$b_j$，以及低优先级中最大帧长度$l_L$，** 其中 $r>\sum_{k\in H\cup j\cup i }r_k$
@@ -363,9 +373,12 @@ In this section, we will discuss the upper bound of the maximum data age. For th
 根据前一节最大反应时间分析中提到的结束时间的定义，以及公式，对于数据年龄我们可以将其表达为
 Based on the definition of "end time" mentioned in the previous section's maximum reaction time analysis, as well as the formula provided, we can express data age as follows:
 
+
 $$\begin{equation}
 \begin{aligned}
 D(C) & = t'-t\\
+	 & = r(c_{n+1}) - r(c_1)\\
+	 & = f(c_n) - r(c_1)\\
      & = t(c_n) - r(c_1)\\
      & = t(c_n) - t(c_0)\\
      & = \sum_{i=0}^{n}(t(c_i) - t(c_{i-1}))\\
@@ -379,6 +392,8 @@ The maximum data age is determined according to formula () is $\max\{\sum_{i=0}^
 
 Unlike the segmented analysis method for maximum reaction time, according to the formula, we can decompose the maximum data age of task chain c into the problem of "end time" interval boundaries between each pair of adjacent tasks. This is primarily because data age, unlike reaction time, does not focus on the external events that trigger data transmission in the task chain. It does not consider how external events are generated or transmitted. The starting point of data age is the moment when data processing begins, which in the task chain model of this paper is the release time of the first sampling task that successfully captures the data generated by the external event. Conversely, in the analysis of reaction time, we do not need to consider which task the system ultimately hands over the final updated data to for the incentivized action after it has passed through the entire task chain. However, data age must take this process into account.
 > 这画个示意图，可以用前面的改
+> 说明为什么最后一个任务截止
+> #修改
 
 在其他的数据年龄分析工作中【bi2022efficient】或【 10.1145/3534879.3534893】等，对于数据年龄分析通常考虑“last-to-last”路径，确定数据最后激励所在的位置。而在本文的任务链模型中，由于采用了事件触发方式并考虑固定大小的缓冲区以及数据帧溢出情况，所以激励动作的时间是任务链最终数据传输的下一个任务的释放时刻，也就是任务链最后一个任务的结束时刻，同理数据年龄公式中用$t(c_n)$表达激励动作时刻。
 In other works on data age analysis such as [bi2022efficient] or [10.1145/3534879.3534893], the "last-to-last" path is typically considered for data age analysis to determine the location of the data's final incentivization. However, in the task chain model of this paper, since an event-triggered approach is used with consideration for fixed-size buffers and the possibility of data frame overflow, the time of the incentivized action is the release time of the next task in the data transmission of the task chain, which is also the end time of the last task in the task chain. Similarly, the moment of the incentivized action is expressed with $t(c_n​)$ in the data age formula.
@@ -444,7 +459,6 @@ As the data frame length increases, the maximum reaction time also increases, un
 接着我们观察了高优先级网络任务和同等优先级任务对于最大反应时间的影响。如图1.2和1.3所示，我们限定N=40, T=50, E=0.5，并将高优先级与同等优先级任务的占比以10%的步长冲10%增加到90%。在图1.2中，我们可以得到当高优先级任务占比增加最大反应时间也随之增加，而在图1.3中同等优先级任务占比增加则最大反应时间随之减小。这是由于在公式【】中，高优先级任务与同等优先级任务对分子分母的影响不同。
 Next, we observed the impact of high-priority network tasks and tasks with equal priority on the maximum reaction time. As shown in Figures 1.2 and 1.3, we set N=40, T=50, E=0.5 and increased the proportion of high-priority and equal-priority tasks in increments of 10% from 10% to 90%. In Figure 1.2, we can see that as the proportion of high-priority tasks increases, the maximum reaction time also increases. On the other hand, in Figure 1.3, as the proportion of equal-priority tasks increases, the maximum reaction time decreases. This is because the influence of high-priority tasks and equal-priority tasks on the numerator and denominator is different in the formula [].
 
-> data age 实验图
 
 通过同样的实验配置以及参数选择，我们继而得到了最大数据年龄的结果。如图a所示，我们可以看到和最大反应时间分析类似的结果，当增加数据帧长度时，最大数据年龄同样随之增加。同样的还有图b和图c，以10%的步长分别将高优先级任务和同等优先级任务占比从10%增加到90%，我们可以分别得到最大数据年龄随高优先级任务占比增加而增加，随同等优先级任务占比增加而减小的结果。这是由于定理1与定理2对于相邻任务的结束时间间隔上界相同，而定理1则更多受到关于采样任务周期T的影响。在图的任务中，我们同样使用了归一化的处理方法，所以这使得最大数据年龄的结果看起来和最大反应时间类似，但实际上他们具有差别较大的结果，但归一化使得他们在具有类似的趋势下获得类似的线条。
 Using the same experimental setup and parameter selection, we then obtained the results for the maximum data age. As shown in Figure a, we can observe results similar to the maximum reaction time analysis; when the data frame length is increased, the maximum data age also increases accordingly. Similarly, in Figures b and c, by incrementing the proportion of high-priority tasks and equal-priority tasks by 10% steps from 10% to 90%, we can respectively obtain results showing that the maximum data age increases with the increase in the proportion of high-priority tasks and decreases with the increase in the proportion of equal-priority tasks. This is because Theorems 1 and 2 have the same upper bound for the end time interval between adjacent tasks, while Theorem 1 is more affected by the sampling task period T. In the tasks depicted in the figures, we also used a normalization process, which makes the results of the maximum data age appear similar to those of the maximum reaction time. However, in reality, they have quite different results, but normalization makes them follow similar trends and thus obtain similar curves.
