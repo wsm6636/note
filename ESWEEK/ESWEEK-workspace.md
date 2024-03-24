@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-24T22:41
+updated: 2024-03-24T23:15
 tags:
   - 笔记
   - 笔记/paper
@@ -335,6 +335,8 @@ As shown in Figure 1, we consider the following scenarios in the analysis of a t
 **对于网络任务，根据令牌桶算法我们知道数据帧的延迟会受到(1)高优先级队列的流；(2)低优先级队列的流；(3)同等优先级竞争的流；(4)数据流本身的性质；(5)当前令牌桶性质的影响。所以根据Specht等人在【】所求的上界，以及【TimeSensitiveNetworking2021】可得到
 $(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})$，其中$H$，$L$，$j$分别表示了高优先级、低优先级与竞争流的索引。并且取得高优先级流 committed burst size的集合$b_H$，竞争的合集$b_j$，以及低优先级中最大帧长度$l_L$，** 其中 $r>\sum_{k\in H\cup j\cup i }r_k$
 > $(\frac{b_H+b_j+b_i-l_i+l_L}{r-r_H} + \frac{l_i}{r})$
+#修改 
+Asynchronous Trafﬁc Shaping with Jitter Control
 
 For network tasks, according to the token bucket algorithm, we know that the delay of data frames is influenced by (1) flows in the high priority queue, (2) flows in the low priority queue, (3) flows competing with equal priority, (4) the nature of the data flow itself, and (5) the current nature of the token bucket.
 Therefore, based on the upper bound obtained by Specht et al. in 【】and 【TimeSensitiveNetworking2021】, we can obtain $(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})$, where $H$, $L$, and $j$ respectively represent the indices of the high-priority, low-priority, and competing flows.  And obtain a collection of high priority flows with committed burst size $b_H$, a set of competing burst sizes $b_j$, and the maximum frame length $l_L$ in low priority.
