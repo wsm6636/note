@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-22T00:29
+updated: 2024-03-24T19:46
 tags:
   - 笔记
   - 笔记/paper
@@ -19,7 +19,7 @@ The existing end-to-end timing analysis of task chains in distributed real-time 
 
 ## 关键词
 
-End-to-End Timing Analysis, Distributed Real-time Systems, TSN
+End-to-End Timing Analysis, Distributed Real-time Systems, TSN, ATS
 
 # introduction
 分布式实时系统对于具有复杂性应用和分散性物理部署的领域友好，所以分布式实时系统应用广泛，尤其是自动驾驶领域。通常会将分布式实时系统部署在多个电子控制单元上，通过一些列任务完成一些功能或者对外部事件做出反应。这些完成功能或处理外部事件的任务经常需要按序执行，所以他们通常存在因果关系，即一个任务的输入由另一个任务的输出决定。所以在这样的分布式实时系统中不仅需要满足截止时间的约束，还需要考虑端到端时序的约束以满足功能的正确性和系统的安全性。例如在车辆自动巡航时，控制单元反应时间超过50ms，虽然仍然可能满足在截止期前完成减速控制，但可能会由于控制信号的延迟导致车辆急剧减速失去稳定。另外数据的新鲜度能保证数据的时效性，对于自动驾驶系统来说更新鲜的数据会帮助系统做出更准确的决策。
@@ -168,6 +168,8 @@ Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisf
 就如前文中提到过得一样，反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，以及据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度。所以，我们根据反应时间和数据年龄的特性得到如下定义。
 As mentioned earlier, response time refers to the earliest time interval from an external event to the point when each relevant task within the system begins processing this update, and data age indicates the time interval from the start of processing an external event until the generation of an incentivized output based on sampled data. Therefore, based on the characteristics of response time and data age, we arrive at the following definitions.
 
+> 这里每个定义补充两句话
+
 **定义（反应时间）：任务链的反应时间表示为R(c)**
 R（c）= t'-t =  f(cn) - t(z)
 Definition  (reaction time): the reaction time of a task chain is expressed as R(c)
@@ -297,6 +299,8 @@ For the P2 part, we divide it into three cases to discuss their upper bounds.
 **case1：$s(c_i)=\tau, s(c_{i-1})=\tau$。即前后相邻的两个事件中，前一个事件$c_{i-1}$为调度任务$\tau_{i-1}$ ，后一个任务$c_i$也是调度任务$\tau_i$ 。**
 Case 1: $s(c_i) = \tau, s(c_{i-1}) = \tau$. In other words, in the adjacent events, the previous event $c_{i-1}$ is a scheduling task $\tau_{i-1}$, and the subsequent task $c_i$ is also a scheduling task $\tau_i$.
 
+> 这里多写一点唐月论文里的公式，主要是DLY
+
 **这种情况下，我们参考【】中对于固定大小缓冲区事件触发链的时间上限。
 令$\alpha=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$**
 In this case, we refer to the time upper bound for fixed-size buffer event-triggered chains discussed in [reference]. Let $\alpha=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$
@@ -313,6 +317,7 @@ Case 2: $s(c_i)=m$. In other words, in the two consecutive events, the subseque
 **如图1所示，我们考虑数据（1）在一个ECU上传入网络；(2)网络中不同交换机之间传输；(3)网络中最后一跳传输到另一个ECU。这三种情况下，根据网络带宽以及数据大小，在一条任务链的分析中，数据传输具有相同的延迟为t（数据大小/带宽）。**
 As shown in Figure 1, we consider the following scenarios in the analysis of a task chain: (1) Data input from an ECU into the network, (2) Transmission between different switches in the network, and (3) Final hop transmission to another ECU in the network. In these three scenarios, based on the network bandwidth and data size, data transmission has the same delay of t (data size/bandwidth) in the analysis of a task chain.
 
+> 这里变成无序列表
 
 **对于网络任务，根据令牌桶算法我们知道数据帧的延迟会受到(1)高优先级队列的流；(2)低优先级队列的流；(3)同等优先级竞争的流；(4)数据流本身的性质；(5)当前令牌桶性质的影响。所以根据Specht等人在【】所求的上界，以及【TimeSensitiveNetworking2021】可得到
 $(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})$，其中$H$，$L$，$j$分别表示了高优先级、低优先级与竞争流的索引。并且取得高优先级流 committed burst size的集合$b_H$，竞争的合集$b_j$，以及低优先级中最大帧长度$l_L$，** 其中 $r>\sum_{k\in H\cup j\cup i }r_k$
@@ -349,7 +354,7 @@ RT(C)
 \end{equation}$$
 Where $D$ is given by Lemma 2.
 
-## Data Age Analysis
+## Maximum Data Age Analysis
 
 在本节中我们将讨论最大数据年龄的上界，对于任务链的缓冲区要求我们需要与最大反应时间分析一致，所以在本节中我们将使用相同的术语描述最大数据年龄的分析问题。我们将任务链最大数据年龄分析的问题分解为每两个相邻任务之间“结束时间”间隔界限的问题。同样，TSN网络对于任务链的最大数据年龄分析的影响仅仅是考虑其作为一个网络任务对于整个联合任务链的影响，而不会详细讨论TSN网络本身的端到端延迟问题如何获得更精确上界。
 In this section, we will discuss the upper bound of the maximum data age. For the buffer requirements of the task chain, we need to be consistent with the maximum reaction time analysis. Therefore, in this section, we will use the same terminology to describe the analysis problem of the maximum data age. We decompose the problem of the maximum data age analysis for the task chain into the problem of the "end time" interval boundaries between each pair of adjacent tasks. Similarly, the impact of the TSN network on the maximum data age analysis of the task chain is simply to consider its effect as a network task on the entire combined task chain, without detailed discussion on how to obtain a more precise upper bound for the end-to-end delay issue within the TSN network itself.
@@ -372,6 +377,7 @@ The maximum data age is determined according to formula () is $\max\{\sum_{i=0}^
 与最大反应时间的分段分析方式不同，根据公式，我们可以对任务链c的最大数据年龄分解为每两个相邻任务之间“结束时间”间隔界限的问题。首先这是由于数据年龄与反应时间的定义不同，数据年龄将不会关注引起任务链数据传输的外部事件，不需要考虑外部事件如何产生以及传输。数据年龄的开始点是数据开始处理的时刻，在本文的任务链模型中也就是能够第一个成功捕捉到外部事件产生的数据的采样任务的释放时间。而相对的，反应时间的分析中我们同样不需要考虑数据经过整条任务链之后，系统将最终更新的数据交给哪一个任务用于激励动作，但数据年龄需要考虑这个过程。
 
 Unlike the segmented analysis method for maximum reaction time, according to the formula, we can decompose the maximum data age of task chain c into the problem of "end time" interval boundaries between each pair of adjacent tasks. This is primarily because data age, unlike reaction time, does not focus on the external events that trigger data transmission in the task chain. It does not consider how external events are generated or transmitted. The starting point of data age is the moment when data processing begins, which in the task chain model of this paper is the release time of the first sampling task that successfully captures the data generated by the external event. Conversely, in the analysis of reaction time, we do not need to consider which task the system ultimately hands over the final updated data to for the incentivized action after it has passed through the entire task chain. However, data age must take this process into account.
+> 这画个示意图，可以用前面的改
 
 在其他的数据年龄分析工作中【bi2022efficient】或【 10.1145/3534879.3534893】等，对于数据年龄分析通常考虑“last-to-last”路径，确定数据最后激励所在的位置。而在本文的任务链模型中，由于采用了事件触发方式并考虑固定大小的缓冲区以及数据帧溢出情况，所以激励动作的时间是任务链最终数据传输的下一个任务的释放时刻，也就是任务链最后一个任务的结束时刻，同理数据年龄公式中用$t(c_n)$表达激励动作时刻。
 In other works on data age analysis such as [bi2022efficient] or [10.1145/3534879.3534893], the "last-to-last" path is typically considered for data age analysis to determine the location of the data's final incentivization. However, in the task chain model of this paper, since an event-triggered approach is used with consideration for fixed-size buffers and the possibility of data frame overflow, the time of the incentivized action is the release time of the next task in the data transmission of the task chain, which is also the end time of the last task in the task chain. Similarly, the moment of the incentivized action is expressed with $t(c_n​)$ in the data age formula.
