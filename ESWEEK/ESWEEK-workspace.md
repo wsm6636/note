@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-24T23:15
+updated: 2024-03-24T23:42
 tags:
   - 笔记
   - 笔记/paper
@@ -332,18 +332,17 @@ Case 2: $s(c_i)=m$. In other words, in the two consecutive events, the subseque
 As shown in Figure 1, we consider the following scenarios in the analysis of a task chain: (1) Data input from an ECU into the network, (2) Transmission between different switches in the network, and (3) Final hop transmission to another ECU in the network. In these three scenarios, based on the network bandwidth and data size, data transmission has the same delay of t (data size/bandwidth) in the analysis of a task chain.
 
 
-**对于网络任务，根据令牌桶算法我们知道数据帧的延迟会受到(1)高优先级队列的流；(2)低优先级队列的流；(3)同等优先级竞争的流；(4)数据流本身的性质；(5)当前令牌桶性质的影响。所以根据Specht等人在【】所求的上界，以及【TimeSensitiveNetworking2021】可得到
-$(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})$，其中$H$，$L$，$j$分别表示了高优先级、低优先级与竞争流的索引。并且取得高优先级流 committed burst size的集合$b_H$，竞争的合集$b_j$，以及低优先级中最大帧长度$l_L$，** 其中 $r>\sum_{k\in H\cup j\cup i }r_k$
+**对于网络任务，根据令牌桶算法我们知道数据帧的延迟会受到(1)高优先级队列的流；(2)低优先级队列的流；(3)同等优先级竞争的流；(4)数据流本身的性质；(5)当前令牌桶性质的影响。所以根据Specht等人在【】所求的上界，以及【GrigorjewMetzgerHossfeldetal】可得到
+$(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})$，其中$H$，$L$，$j$分别表示了高优先级、低优先级与竞争流的索引。并且取得高优先级流 committed burst size的集合$b_H$，竞争的合集$b_j$，以及低优先级中最大帧长度$l_L$，** 其中 $r>\sum_{k\in H\cup j\cup i }r_k$
 > $(\frac{b_H+b_j+b_i-l_i+l_L}{r-r_H} + \frac{l_i}{r})$
-#修改 
-Asynchronous Trafﬁc Shaping with Jitter Control
+
 
 For network tasks, according to the token bucket algorithm, we know that the delay of data frames is influenced by (1) flows in the high priority queue, (2) flows in the low priority queue, (3) flows competing with equal priority, (4) the nature of the data flow itself, and (5) the current nature of the token bucket.
-Therefore, based on the upper bound obtained by Specht et al. in 【】and 【TimeSensitiveNetworking2021】, we can obtain $(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})$, where $H$, $L$, and $j$ respectively represent the indices of the high-priority, low-priority, and competing flows.  And obtain a collection of high priority flows with committed burst size $b_H$, a set of competing burst sizes $b_j$, and the maximum frame length $l_L$ in low priority.
+Therefore, based on the upper bound obtained by Specht et al. in 【】and 【TimeSensitiveNetworking2021】, we can obtain $(\frac{b_H+b_j-l_i+l_L}{r-r_H}+ \frac{l_i}{r})$, where $H$, $L$, and $j$ respectively represent the indices of the high-priority, low-priority, and competing flows.  And obtain a collection of high priority flows with committed burst size $b_H$, a set of competing burst sizes $b_j$, and the maximum frame length $l_L$ in low priority.
 Where $r>\sum_{k\in H\cup j\cup i }r_k$
 
-**所以对于$r_H + r_j + r_i \le r$我们可以得到当$s(c_i)=m$时，$D=\theta+t=(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})+t$**
-So we can obtain , for $r_H + r_j + r_i \le r$, that when $s(c_i)=m$,$D=\theta+t=(\frac{b_H+b_j+l_L}{r-r_H} + \frac{l_i}{r})+t$.
+所以我们可以得到当$s(c_i)=m$时，$D=\theta+t=(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})+t$**
+So we can obtain that when $s(c_i)=m$,$D=\theta+t=(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})+t$.
 
 **case3：$s(c_i)=\tau, s(c_{i-1})=m$。即前后相邻的两个事件中，前一个事件$c_{i-1}$为网络任务$m_{i-1}$ ，后一个任务$c_i$是调度任务$\tau_i$ 。**
 Case 3: $s(c_i)=\tau, s(c_{i-1})=m$. That is, in the sequence of two consecutive events, the first event $c_{i-1}$ is a network task $m_{i-1}$, and the second task $c_i$ is a scheduling task $\tau_i$.
