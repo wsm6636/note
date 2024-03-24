@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-24T23:42
+updated: 2024-03-25T00:04
 tags:
   - 笔记
   - 笔记/paper
@@ -88,6 +88,8 @@ For the end-to-end latency analysis of TSN networks, there has been significant 
 > 加一个章节，关于ATS算法的介绍
 > 伪代码
 > #修改 
+
+
 # system model
 
 我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接（每个ECU上可存在本地任务链），这样组成了一条简单的基于TSN网络的分布式实时系统任务链。
