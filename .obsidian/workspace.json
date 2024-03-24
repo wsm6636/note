@@ -196,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -321,8 +322,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "14e19d6c3c25ebf5",
+  "active": "59c0c4debfa1394e",
   "lastOpenFiles": [
+    "图/ESWEEK/cn+1.pdf",
     "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "ESWEEK/ESWEEK-workspace.md",
     "DAC/方法-模型整理.md",
@@ -350,7 +352,6 @@
     "wsm/周记/2024-03-04-W10.md",
     "wsm/周记/2024-02-26-W09.md",
     "wsm/周记/2024-02-19-W08.md",
-    "模板/周记模板.md",
     "图/ESWEEK/implicit.pdf.baiduyun.uploading.cfg",
     "图/ESWEEK/ex4.pdf.baiduyun.uploading.cfg",
     "图/ESWEEK/ex3.pdf.baiduyun.uploading.cfg",
