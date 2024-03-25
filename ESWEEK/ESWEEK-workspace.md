@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-25T20:30
+updated: 2024-03-25T20:59
 tags:
   - 笔记
   - 笔记/paper
@@ -336,6 +336,8 @@ $DLY_i(\left | B_i \right | ) = \min \left \{ H(\alpha_{i}^{l}, \left | B_i \rig
 
 其中$\left \langle \alpha^l_i ,  \alpha^u_i  \right \rangle$ 是到达曲线，表示在任意$∆$时间段内数据到达最小和最大的数量。
 相关参数计算如下[phan2010modeling]：
+Where $\left \langle \alpha^l_i ,  \alpha^u_i  \right \rangle$ is the arrival curve, indicating the minimum and maximum amount of data arriving in any time interval $∆$.
+The calculation of the relevant parameters is as follows [phan2010modeling ]:
 $\hat{\alpha _{i}^{u}} = \min \left \{ \alpha _{i}^{u}, \beta _{i}^{'l}+\left | B_i \right | +1 \right \}$
 $H(f,g)=\sup_{\lambda \ge 0}\left \{ \inf \left \{ \varepsilon \ge 0 : f(\lambda) \le g(\lambda + \varepsilon ) \right \}  \right \}$
 $\beta_{i}^{'l} = \left \lfloor \beta_{i}^{l} / E_i \right \rfloor$, $\beta_{i}^{'u} = \left \lceil \beta_{i}^{u} / E_i \right \rceil$
