@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-25T00:04
+updated: 2024-03-25T16:31
 tags:
   - 笔记
   - 笔记/paper
@@ -315,12 +315,22 @@ Case 1: $s(c_i) = \tau, s(c_{i-1}) = \tau$. In other words, in the adjacent eve
 > 这里多写一点唐月论文里的公式，主要是DLY
 > #修改
 
-**这种情况下，我们参考【】中对于固定大小缓冲区事件触发链的时间上限。
+**这种情况下，我们参考【tangReactionTimeAnalysis2023】中对于固定大小缓冲区事件触发链的时间上限。
 令$\alpha=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$**
 In this case, we refer to the time upper bound for fixed-size buffer event-triggered chains discussed in [reference]. Let $\alpha=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$
 
-**其中$\overline{\beta(\cdot)}$为资源曲线函数$\beta(\Delta )$的伪逆函数，表示系统处理一定工作负载所需要的时间。而$DLY_i(|B_i|)$是作业的最大延迟。**
-In this equation, $\overline{\beta(\cdot)}$ represents the pseudo-inverse function of the resource curve function $\beta(\Delta)$, which indicates the time required for the system to process a certain workload. $DLY_i(|B_i|)$ represents the maximum delay of the job
+其中$\overline{\beta(\cdot)}$为资源曲线函数$\beta(\Delta )$的伪逆函数，表示系统处理一定工作负载所需要的时间。
+In this equation, $\overline{\beta(\cdot)}$ represents the pseudo-inverse function of the resource curve function $\beta(\Delta)$, which indicates the time required for the system to process a certain workload.
+
+资源服务曲线定义自[6]，用$⟨β^l_i(∆), β^u_i(∆)⟩$来表示在任意$∆$时间段内任务可用的最小和最大负载。通过【tangReactionTimeAnalysis2023】证明在$[t(c_i)，t(c_{i-1}))$期间内，系统能提供的最大处理时间（工作负载）为$\beta^l_i([t(c_i)，t(c_{i-1})))=(|Bi|+1)\cdot E_i$，且在此期间内所有的资源都被用于处理任务。所以根据伪逆函数的定义[le2001network]，$f^{-1} \left ( x \right ) = inf \left \{ \text{ t such that }  f(t)\ge x  \right \}$,可以进一步得到，系统如果需要处理$(|Bi|+1)\cdot E_i$的工作负载则需要的时间就是$\bar{\beta^l_i}(|Bi|+1)·e(τi))$。
+
+而$DLY_i(|B_i|)$是作业的最大延迟。
+ $DLY_i(|B_i|)$ represents the maximum delay of the job
+
+$DLY_i(\left | B_i \right | ) = \min \left \{ H(\alpha_{i}^{l}, \left | B_i \right | +1),H(\hat{\alpha_{i}^{u}} ,\beta_{i}^{*l} )\right \}$
+$\hat{\alpha _{i}^{u}} = \min \left \{ \alpha _{i}^{u}, \beta _{i}^{*l}+\left | B_i \right | +1 \right \}$
+
+
 
 
 
