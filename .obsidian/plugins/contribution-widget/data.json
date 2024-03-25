@@ -184,7 +184,7 @@
       "id": "4bc8ad91-691f-4473-b9bb-6ae22dcb130d",
       "name": "倒计时正计时",
       "createAt": "2024-02-28T11:59:16.219Z",
-      "updateAt": "2024-03-17T15:02:34.303Z",
+      "updateAt": "2024-03-24T16:10:18.186Z",
       "widget": {
         "id": "a7636b2f-2a66-489b-a620-072ff9cee650",
         "type": "multi",
@@ -202,10 +202,10 @@
             "endHour": 20,
             "endMinute": 0,
             "endSecond": 0,
-            "title": "摘要",
+            "title": "全文",
             "endYear": 2024,
             "endMonth": 2,
-            "endDayOfMonth": 24,
+            "endDayOfMonth": 31,
             "backgroundColor": "#ffffff00",
             "fontColor": "#ddae8eff"
           },
@@ -250,7 +250,7 @@
       "id": "f15eae02-7e19-4d82-b903-4256f8b318c5",
       "name": "计数",
       "createAt": "2024-02-28T12:02:57.754Z",
-      "updateAt": "2024-03-13T15:04:03.536Z",
+      "updateAt": "2024-03-24T16:34:35.243Z",
       "widget": {
         "id": "f8f20cd1-e6c0-42f5-94aa-f432c5b4c6d9",
         "type": "multi",
@@ -266,11 +266,26 @@
             "query": {
               "type": "page",
               "filter": {
-                "conditions": []
+                "conditions": [
+                  {
+                    "type": "tag",
+                    "value": "#个人",
+                    "operator": "contains",
+                    "property": "",
+                    "id": "e99c9e6c-0b1d-4216-9b42-749d0c562ee4"
+                  },
+                  {
+                    "type": "file_path",
+                    "value": "模板",
+                    "operator": "not_contains",
+                    "property": "",
+                    "id": "eb79080d-1e3d-4dea-8e35-fb32124dca2b"
+                  }
+                ]
               }
             },
             "backgroundColor": "#ffffff00",
-            "title": "文档",
+            "title": "个人",
             "picture": "",
             "fontColor": "#ce9effff"
           },
@@ -812,6 +827,8 @@
               }
             ],
             "viewOptions": {
+              "openPageIn": "split",
+              "itemSize": "gallary-small",
               "cover": {
                 "type": "pageFirstImage",
                 "value": "",
@@ -823,7 +840,7 @@
         "layoutType": "column"
       },
       "createAt": "2024-03-17T15:10:44.097Z",
-      "updateAt": "2024-03-17T15:10:44.097Z",
+      "updateAt": "2024-03-24T16:14:28.159Z",
       "layout": {
         "lg": {
           "x": 0,
