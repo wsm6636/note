@@ -154,7 +154,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -183,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "DAC/方法-模型整理.md"
               }
             }
           },
@@ -210,7 +211,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -251,7 +253,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "DAC/方法-模型整理.md"
               }
             }
           }
@@ -286,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "DAC/方法-模型整理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "DAC/方法-模型整理.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -340,14 +342,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "298480bd46575a83",
+  "active": "180d153cc91c8608",
   "lastOpenFiles": [
-    "wsm/日记/2024-03-25.md.baiduyun.uploading.cfg",
+    "ESWEEK/ESWEEK-workspace.md",
+    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "wsm/日记/2024-03-25.md",
     "wsm/周记/2024-03-25-W13.md",
     "HOMEPAGE.canvas",
+    "wsm/日记/2024-03-25.md.baiduyun.uploading.cfg",
     "wsm/月复盘/2024-02.md.baiduyun.uploading.cfg",
-    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "wsm/月复盘/2024-03.md",
     "wsm/月复盘/2024-02.md",
     "wsm/周记/2024-02-19-W08.md",
@@ -361,7 +364,6 @@
     "ESWEEK/ESWEEK-workspace.md.baiduyun.uploading.cfg",
     "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md.baiduyun.uploading.cfg",
     "wsm/周记/2024-03-25-W13.md.baiduyun.uploading.cfg",
-    "ESWEEK/ESWEEK-workspace.md",
     "desktop.ini",
     "DAC/方法-模型整理.md",
     "ESWEEK/note.md",
