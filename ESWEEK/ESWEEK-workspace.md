@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-25T20:59
+updated: 2024-03-25T21:14
 tags:
   - 笔记
   - 笔记/paper
@@ -325,8 +325,8 @@ In this equation, $\overline{\beta(\cdot)}$ represents the pseudo-inverse func
 > #修改 
 
 
-资源服务曲线定义自[thiele2000real]，用$⟨β^l_i(∆), β^u_i(∆)⟩$来表示在任意$∆$时间段内任务可用的最小和最大负载。通过【tangReactionTimeAnalysis2023】证明在$[t(c_i)，t(c_{i-1}))$期间内，系统能提供的最大处理时间（工作负载）为$\beta^l_i([t(c_i)，t(c_{i-1})))=(|Bi|+1)\cdot E_i$，且在此期间内所有的资源都被用于处理任务。所以根据伪逆函数的定义[le2001network]，$f^{-1} \left ( x \right ) = \inf \left \{ \text{ t such that }  f(t)\ge x  \right \}$,可以进一步得到，系统如果需要处理$(|Bi|+1)\cdot E_i$的工作负载则需要的时间就是$\bar{\beta^l_i}(|Bi|+1)·e(τi))$。
-The definition of the resource service curve is from [thiele2000real], represented by $⟨β^l_i(∆), β^u_i(∆)⟩$ to indicate the minimum and maximum load available for a task in any time interval $∆$. According to [tangReactionTimeAnalysis2023], it is proven that during the period $[t(c_i), t(c_{i-1}))$, the maximum processing time (workload) that the system can provide is $\beta^l_i([t(c_i), t(c_{i-1})]) = (|Bi|+1) \cdot E_i$, and all resources are used for processing tasks during this period. Therefore, based on the definition of the pseudo-inverse function [le2001network], $f^{-1}(x) = \inf \{t \text{ such that } f(t) \ge x\}$, it can be further derived that the time needed by the system to process a workload of $(|Bi|+1) \cdot E_i$ is $\bar{\beta^l_i}(|Bi|+1) \cdot e(τi)$.
+资源服务曲线定义自[thiele2000real]，用$⟨β^l_i(∆), β^u_i(∆)⟩$来表示在任意$∆$时间段内任务可用的最小和最大负载。通过【tangReactionTimeAnalysis2023】证明在$[t(c_i)，t(c_{i-1}))$期间内，系统能提供的最大处理时间（工作负载）为$\beta^l_i([t(c_i)，t(c_{i-1})))=(|Bi|+1)\cdot E_i$，且在此期间内所有的资源都被用于处理任务。所以根据伪逆函数的定义[le2001network]，$f^{-1} \left ( x \right ) = \inf \left \{ \text{ t such that }  f(t)\ge x  \right \}$,可以进一步得到，系统如果需要处理$(|Bi|+1)\cdot E_i$的工作负载则需要的时间就是$\bar{\beta^l_i}(|Bi|+1)·E_i)$。
+The definition of the resource service curve is from [thiele2000real], represented by $⟨β^l_i(∆), β^u_i(∆)⟩$ to indicate the minimum and maximum load available for a task in any time interval $∆$. According to [tangReactionTimeAnalysis2023], it is proven that during the period $[t(c_i), t(c_{i-1}))$, the maximum processing time (workload) that the system can provide is $\beta^l_i([t(c_i), t(c_{i-1})]) = (|Bi|+1) \cdot E_i$, and all resources are used for processing tasks during this period. Therefore, based on the definition of the pseudo-inverse function [le2001network], $f^{-1}(x) = \inf \{t \text{ such that } f(t) \ge x\}$, it can be further derived that the time needed by the system to process a workload of $(|Bi|+1) \cdot E_i$ is $\bar{\beta^l_i}((|Bi|+1) \cdot E_i)$.
 
 
 **而$DLY_i(|B_i|)$是作业的最大延迟。**
