@@ -4,39 +4,50 @@
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
       "name": "查询",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-03-13T15:03:26.785Z",
+      "updateAt": "2024-03-25T14:02:05.036Z",
       "widget": {
-        "id": "0beb4e2e-f32e-4d3b-a560-2f4eac94f5a7",
-        "type": "dataview",
+        "id": "bbcd3eff-71d4-40bc-ba1e-3c6c32c31be3",
+        "type": "multi",
         "titleAlign": "center",
-        "maxWidthRatio": 100,
-        "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
-        "queryType": "dataviewjs",
-        "backgroundStyle": "card",
-        "maxHeight": 1200,
-        "dynamicParamComponents": [
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "none",
+        "widgets": [
           {
-            "id": "9c15e095-f9ee-4e10-ace0-033576c7c678",
-            "type": "tagSuggestions",
-            "name": "tag",
-            "defaultValue": "",
-            "placeholder": "",
-            "fromProperty": "",
-            "label": "标签"
-          },
-          {
-            "id": "07739f36-696d-4d8e-ba6b-52449507de5a",
-            "type": "number",
-            "name": "pageSize",
-            "defaultValue": "20",
-            "placeholder": "",
-            "fromProperty": "",
-            "label": "数量"
+            "id": "0beb4e2e-f32e-4d3b-a560-2f4eac94f5a7",
+            "type": "dataview",
+            "titleAlign": "center",
+            "maxWidthRatio": 100,
+            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
+            "queryType": "dataviewjs",
+            "backgroundStyle": "card",
+            "maxHeight": 1200,
+            "dynamicParamComponents": [
+              {
+                "id": "9c15e095-f9ee-4e10-ace0-033576c7c678",
+                "type": "tagSuggestions",
+                "name": "tag",
+                "defaultValue": "",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "标签"
+              },
+              {
+                "id": "07739f36-696d-4d8e-ba6b-52449507de5a",
+                "type": "number",
+                "name": "pageSize",
+                "defaultValue": "20",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "数量"
+              }
+            ],
+            "title": "",
+            "backgroundColor": "#00000000",
+            "fontColor": "#f1e7e7ff"
           }
         ],
-        "title": "",
-        "backgroundColor": "#00000000",
-        "fontColor": "#f1e7e7ff"
+        "layoutType": "column"
       },
       "layout": {
         "lg": {
@@ -116,7 +127,7 @@
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
       "name": "打卡",
       "createAt": "2024-02-28T08:37:59.147Z",
-      "updateAt": "2024-03-17T14:53:28.635Z",
+      "updateAt": "2024-03-25T14:02:38.625Z",
       "widget": {
         "id": "8d6cf5ca-585b-45a1-8cd4-ad9d66cc61dc",
         "type": "multi",
@@ -250,7 +261,7 @@
       "id": "f15eae02-7e19-4d82-b903-4256f8b318c5",
       "name": "计数",
       "createAt": "2024-02-28T12:02:57.754Z",
-      "updateAt": "2024-03-24T16:34:35.243Z",
+      "updateAt": "2024-03-25T14:05:56.952Z",
       "widget": {
         "id": "f8f20cd1-e6c0-42f5-94aa-f432c5b4c6d9",
         "type": "multi",
@@ -271,14 +282,14 @@
                     "type": "tag",
                     "value": "#个人",
                     "operator": "contains",
-                    "property": "",
+                    "property": "${file.tags}",
                     "id": "e99c9e6c-0b1d-4216-9b42-749d0c562ee4"
                   },
                   {
                     "type": "file_path",
                     "value": "模板",
                     "operator": "not_contains",
-                    "property": "",
+                    "property": "${file.path}",
                     "id": "eb79080d-1e3d-4dea-8e35-fb32124dca2b"
                   }
                 ]
@@ -301,11 +312,9 @@
                 "conditions": [
                   {
                     "type": "property",
-                    "value": [
-                      "笔记/文献笔记"
-                    ],
+                    "value": "#笔记/文献笔记",
                     "operator": "contains",
-                    "property": "tags",
+                    "property": "${file.tags}",
                     "id": "2d9358e3-5740-49e0-b1cb-069dc6366a49"
                   }
                 ]
@@ -327,11 +336,9 @@
                 "conditions": [
                   {
                     "type": "property",
-                    "value": [
-                      "笔记/学习笔记"
-                    ],
+                    "value": "#笔记/学习笔记",
                     "operator": "contains",
-                    "property": "tags",
+                    "property": "${file.tags}",
                     "id": "dfdcf3da-aa29-4048-bd27-55c11a1a47d3"
                   }
                 ]
@@ -353,11 +360,9 @@
                 "conditions": [
                   {
                     "type": "property",
-                    "value": [
-                      "笔记/paper"
-                    ],
+                    "value": "#笔记/paper",
                     "operator": "contains",
-                    "property": "tags",
+                    "property": "${file.tags}",
                     "id": "b7238169-4380-4a41-a2e8-d6795a0a157c"
                   }
                 ]
@@ -753,7 +758,7 @@
     },
     {
       "id": "db083c95-f246-4219-92ea-ac9446538436",
-      "name": "",
+      "name": "每月复盘",
       "widget": {
         "id": "2fcd1b4b-cda0-4add-9ae9-c2654b1f1b0e",
         "type": "multi",
@@ -777,14 +782,14 @@
                     "type": "tag",
                     "value": "#个人/周记",
                     "operator": "contains",
-                    "property": "",
+                    "property": "${file.tags}",
                     "id": "85259f70-366e-4faf-a424-a9637a3a0136"
                   },
                   {
                     "type": "file_path",
                     "value": "模板",
                     "operator": "not_equals",
-                    "property": "",
+                    "property": "${file.path}",
                     "id": "e35a91a4-c18a-402f-b740-c9c068b1a6d0"
                   },
                   {
@@ -840,7 +845,7 @@
         "layoutType": "column"
       },
       "createAt": "2024-03-17T15:10:44.097Z",
-      "updateAt": "2024-03-24T16:14:28.159Z",
+      "updateAt": "2024-03-25T14:08:12.954Z",
       "layout": {
         "lg": {
           "x": 0,
@@ -863,7 +868,7 @@
       }
     },
     {
-      "id": "0d39491f-e90a-4df1-a2d1-0b1eb6f4fa68",
+      "id": "c13f257a-72f9-4c37-9313-64687fd4513a",
       "name": "",
       "widget": {
         "id": "2fcd1b4b-cda0-4add-9ae9-c2654b1f1b0e",
@@ -888,26 +893,26 @@
                     "type": "tag",
                     "value": "#个人/周记",
                     "operator": "contains",
-                    "property": "",
+                    "property": "${file.tags}",
                     "id": "85259f70-366e-4faf-a424-a9637a3a0136"
                   },
                   {
                     "type": "file_path",
                     "value": "模板",
-                    "operator": "not_equals",
-                    "property": "",
+                    "operator": "not_contains",
+                    "property": "${file.path}",
                     "id": "e35a91a4-c18a-402f-b740-c9c068b1a6d0"
                   },
                   {
                     "type": "property",
-                    "value": "2024-03-01T21:41",
+                    "value": "2024-02-01T21:41",
                     "operator": "time_after_or_equal",
                     "property": "周记",
                     "id": "78833fa4-2e8f-42fa-80ca-a028f2e15ece"
                   },
                   {
                     "type": "property",
-                    "value": "2024-03-31T21:41",
+                    "value": "2024-02-29T21:41",
                     "operator": "time_before_or_equal",
                     "property": "周记",
                     "id": "0d78a12b-5dd6-49b7-9527-9b105219faea"
@@ -948,28 +953,88 @@
         ],
         "layoutType": "column"
       },
-      "createAt": "2024-03-17T15:10:44.122Z",
-      "updateAt": "2024-03-17T15:10:44.122Z",
-      "layout": {
-        "lg": {
-          "x": 0,
-          "y": 0,
-          "w": 6,
-          "h": 6,
-          "i": "0d39491f-e90a-4df1-a2d1-0b1eb6f4fa68",
-          "moved": false,
-          "static": false
-        },
-        "xs": {
-          "x": 0,
-          "y": 0,
-          "w": 6,
-          "h": 6,
-          "i": "0d39491f-e90a-4df1-a2d1-0b1eb6f4fa68",
-          "moved": false,
-          "static": false
-        }
-      }
+      "createAt": "2024-03-25T14:11:23.171Z",
+      "updateAt": "2024-03-25T14:12:18.757Z"
+    },
+    {
+      "id": "61bce30b-9de5-4e79-a4d1-f4e456c0eac9",
+      "name": "",
+      "widget": {
+        "id": "55471240-d925-441b-b631-541fe3ae930d",
+        "type": "multi",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "edafeb33-6f83-42c3-861b-c32e24906926",
+            "type": "dynamicDataView",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "backgroundStyle": "none",
+            "viewType": "gallary",
+            "datasource": {
+              "filter": {
+                "conditions": [
+                  {
+                    "value": "#个人/月复盘",
+                    "operator": "contains",
+                    "property": "${file.tags}",
+                    "id": "31ad9bfd-5d0f-496b-ac79-fb81c016818d"
+                  },
+                  {
+                    "value": "模板",
+                    "operator": "not_contains",
+                    "property": "${file.path}",
+                    "id": "7d9b42f5-8d68-4e2d-90bf-e4ed4ba26a91"
+                  },
+                  {
+                    "value": "2024-01-01T22:14",
+                    "operator": "time_after_or_equal",
+                    "property": "月复盘",
+                    "id": "86e64ab6-3a32-4655-9869-5fe3d0b62f6a"
+                  },
+                  {
+                    "value": "2024-12-31T22:14",
+                    "operator": "time_before_or_equal",
+                    "property": "月复盘",
+                    "id": "424e7c06-c9ea-4788-88d8-91d6f3dbd08d"
+                  }
+                ]
+              },
+              "dataLimit": 50,
+              "storage": {
+                "location": ""
+              },
+              "sort": {
+                "orders": [
+                  {
+                    "id": "4f0da817-1843-4d9e-9424-b1ac742aa660",
+                    "property": "月复盘",
+                    "direction": "asc"
+                  }
+                ]
+              }
+            },
+            "properties": [],
+            "templates": [],
+            "viewOptions": {
+              "openPageIn": "split",
+              "itemSize": "gallary-small",
+              "cover": {
+                "type": "pageFirstImage",
+                "value": "",
+                "fit": "contains"
+              }
+            }
+          }
+        ],
+        "layoutType": "column"
+      },
+      "createAt": "2024-03-25T14:12:53.555Z",
+      "updateAt": "2024-03-25T14:14:20.435Z"
     }
   ]
 }

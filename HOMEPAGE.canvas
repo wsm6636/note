@@ -3,7 +3,7 @@
 		{"id":"02085c6c7c617200","type":"text","text":"","x":-2088,"y":355,"width":250,"height":60},
 		{"id":"6337b67602c01e79","type":"text","text":"![1|160](图/1.png)\n\n","x":-2681,"y":-1120,"width":198,"height":223,"color":"#1e1e2e"},
 		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2571,"y":-1110,"width":523,"height":102},
-		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\nid: ce6d9939-d698-40c9-a19a-d17357eabdef\ntype: 'ref'\nrefId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n","x":-2483,"y":-1038,"width":480,"height":198},
+		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2483,"y":-1038,"width":480,"height":198},
 		{"id":"d5128eeb3a24cf14","type":"text","text":"```contributionWidget\nid: 9d1154cd-4fa5-4645-ba8c-8e12aa27c071\ntype: 'ref'\nrefId: '4bc8ad91-691f-4473-b9bb-6ae22dcb130d'\n```\n\n","x":-2048,"y":-1110,"width":802,"height":257},
 		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1899,"y":-948,"width":653,"height":266},
 		{"id":"12706d4a9a6cf3f7","type":"text","text":"```contributionWidget\nid: 2a54841f-b1cf-4f4d-80ad-74332518ebfb\ntype: 'ref'\nrefId: '2de8d3dc-058a-48f3-ba08-0696416b8136'\n```\n\n","x":-1889,"y":-555,"width":643,"height":343},
