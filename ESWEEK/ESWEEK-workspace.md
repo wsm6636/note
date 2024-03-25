@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-25T21:14
+updated: 2024-03-25T21:58
 tags:
   - 笔记
   - 笔记/paper
@@ -88,6 +88,7 @@ For the end-to-end latency analysis of TSN networks, there has been significant 
 > 加一个章节，关于ATS算法的介绍
 > 伪代码
 > #修改 
+
 
 
 # system model
@@ -321,8 +322,6 @@ In this case, we refer to the time upper bound for fixed-size buffer event-trigg
 **其中$\overline{\beta(\cdot)}$为资源曲线函数$\beta(\Delta )$的伪逆函数，表示系统处理一定工作负载所需要的时间。**
 In this equation, $\overline{\beta(\cdot)}$ represents the pseudo-inverse function of the resource curve function $\beta(\Delta)$, which indicates the time required for the system to process a certain workload.
 
-> 这里多写一点唐月论文里的公式，主要是DLY
-> #修改 
 
 
 资源服务曲线定义自[thiele2000real]，用$⟨β^l_i(∆), β^u_i(∆)⟩$来表示在任意$∆$时间段内任务可用的最小和最大负载。通过【tangReactionTimeAnalysis2023】证明在$[t(c_i)，t(c_{i-1}))$期间内，系统能提供的最大处理时间（工作负载）为$\beta^l_i([t(c_i)，t(c_{i-1})))=(|Bi|+1)\cdot E_i$，且在此期间内所有的资源都被用于处理任务。所以根据伪逆函数的定义[le2001network]，$f^{-1} \left ( x \right ) = \inf \left \{ \text{ t such that }  f(t)\ge x  \right \}$,可以进一步得到，系统如果需要处理$(|Bi|+1)\cdot E_i$的工作负载则需要的时间就是$\bar{\beta^l_i}(|Bi|+1)·E_i)$。
@@ -340,6 +339,9 @@ Where $\left \langle \alpha^l_i ,  \alpha^u_i  \right \rangle$ is the arrival cu
 The calculation of the relevant parameters is as follows [phan2010modeling ]:
 $\hat{\alpha _{i}^{u}} = \min \left \{ \alpha _{i}^{u}, \beta _{i}^{'l}+\left | B_i \right | +1 \right \}$
 $H(f,g)=\sup_{\lambda \ge 0}\left \{ \inf \left \{ \varepsilon \ge 0 : f(\lambda) \le g(\lambda + \varepsilon ) \right \}  \right \}$
+
+对于每个调度任务有以下递归计算获得$\alpha$和$\beta$  
+For each scheduled task, the following recursive computation is used to obtain $\alpha$ and $\beta$.
 $\beta_{i}^{'l} = \left \lfloor \beta_{i}^{l} / E_i \right \rfloor$, $\beta_{i}^{'u} = \left \lceil \beta_{i}^{u} / E_i \right \rceil$
 $\beta_{i}^{''l}=\beta_{i}^{'l}\otimes \alpha_{i}^{l}\otimes(\alpha_{i}^{l}\otimes\beta_{i}^{'l}+(B_i+1))^o$
 $\alpha_{i+1}^{l}=\min ((\alpha_{i}^{l}\oslash\beta_{i}^{'u} ) \otimes\beta_{i}^{l},\beta_{i}^{'l})$
@@ -348,6 +350,9 @@ $\alpha_{i+1}^{u}=\min ((\alpha_{i}^{u}\otimes\beta_{i}^{'u} ) \oslash\beta_{i}^
 $f\otimes g(\bigtriangleup  )=\inf \{f(s)+g(\bigtriangleup-s)|0\le s \le \bigtriangleup\}$
 $f\oslash g(\bigtriangleup )=\sup \{f(\bigtriangleup+u)-g(u)|u\ge0\}$
 
+注意对于递归计算的起点（采样任务$\tau_0$,周期为T）有以下定义：
+Please note that for the starting point of recursive computation (sampling task $\tau_0$ with a period of T), the following definition applies:
+$\alpha_{0}^{l} = \left \lfloor \Delta / T \right \rfloor$, $\alpha_{0}^{u} = \left \lceil \Delta / T \right \rceil$
 
 
 **所以我们可以得到当$s(c_i)=\tau, s(c_{i-1})=\tau$时，$D=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$**
