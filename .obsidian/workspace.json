@@ -38,6 +38,19 @@
             }
           },
           {
+            "id": "180d153cc91c8608",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DAC/方法-模型整理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7a4347a50a304e92",
             "type": "leaf",
             "state": {
@@ -70,52 +83,6 @@
               "type": "markdown",
               "state": {
                 "file": "wsm/周记/2024-03-25-W13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "329b41767811b5f7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b313f3929ab98394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "180d153cc91c8608",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAC/方法-模型整理.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bea45c694caf4789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAC/ATS-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -311,10 +277,10 @@
   },
   "active": "59c0c4debfa1394e",
   "lastOpenFiles": [
-    "DAC/ATS-workspace.md",
-    "ESWEEK/ESWEEK-workspace.md",
-    "RTCSA/QCH-workspace.md",
     "DAC/方法-模型整理.md",
+    "ESWEEK/ESWEEK-workspace.md",
+    "DAC/ATS-workspace.md",
+    "RTCSA/QCH-workspace.md",
     "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "HOMEPAGE.canvas",

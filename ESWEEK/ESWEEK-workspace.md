@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-26T16:08
+updated: 2024-03-26T16:59
 tags:
   - 笔记
   - 笔记/paper
@@ -101,6 +101,12 @@ To meet the requirements for low latency and high bandwidth, Time-Sensitive Netw
 虽然TSN在确定性传输上非常有效，但例如Qbv标准由于TAS存在所以对定时同步要求严格，若同步出错则增加了TSN网络的确定性以及分析的复杂性。而异步流量整形（ATS）（IEEE 802.1Qcr），旨在允许取消同步并允许每个节点按照本地始终定时发送流，以此降低同步的复杂性，这样的异步操作依旧可以满足低延迟高带宽和确定性需求，也同样适合应用在分布式系统中。
 Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
 
+在LRQ算法中，通过帧长度/传输速率的商来确定下一个数据帧的可以被传输的时间。
+在TBE算法中，数据帧的资格时间需要满足令牌桶中有足够数据帧长度数量的令牌。当令牌数量足够时，可以满足一定情况下的突发情况。
+In the LRQ algorithm, the time at which the next data frame can be transmitted is determined by dividing the frame length by the transmission rate.
+In the TBE algorithm, the eligibility time for a data frame requires that there are enough tokens in the token bucket equivalent to the length of the data frame. When there are sufficient tokens, it can accommodate bursts under certain conditions.
+
+
 ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）（向令牌桶中加入令牌的速度，限制流量传出速率）以及承诺的突发大小（committed burst size）（令牌桶的最大容量，允许速率超过限制）确定数据帧的资格时间。
 如算法1的伪代码显示了计算合格时间，将合格时间分配给帧，并更新ATS调度器状态机变量的过程。
 The ATS algorithm determines the flow of data frames based on queue allocation rules and establishes the eligibility time for data frames through the committed information rate —the rate at which tokens are added to the token bucket, which limits the flow transmission rate—and the committed burst size —the maximum capacity of the token bucket, allowing the rate to exceed the limit.
@@ -147,8 +153,11 @@ $T_{GroupEligibility} = 0$\\
 
 ```
 
-算法1本质上描述的还是令牌桶机制，但区别在于数据帧被分配了一个资格时间$T_{Eligibility}$，降低了重复计算令牌桶的复杂性。除此之外还有$T_{BucketEmpty}$和$T_{BucketFull}$分别表示令牌桶空闲和桶满时间，其中桶满时间是令牌桶中令牌数量达到$Size_{CommittedBurst}$时刻。$D_{EmptyToFull}$表示以$Rate_{CommittedInformation}$将令牌桶从空闲填充到满所需的时长。$D_{LengthRecovery}$表示向桶中填充帧长度数量的令牌所需要的时长。当令牌桶令牌数量最少达到帧长度是即满足了调度资格时间$T_{SchedulerEligibility}$。$T_{MaxResidence}$表示帧能够在节点中停留最长的时间。$T_{GroupEligibility}$考虑到了一组同类整形器中最近的资格时间。
+算法1本质上描述的还是令牌桶机制，但区别在于ATS算法不会每次都计算令牌桶中的剩余情况，降低了重复计算令牌桶的复杂性。
+数据帧被分配了一个资格时间$T_{Eligibility}$，除此之外还有$T_{BucketEmpty}$和$T_{BucketFull}$分别表示令牌桶空闲和桶满时间，其中桶满时间是令牌桶中令牌数量达到$Size_{CommittedBurst}$时刻。$D_{EmptyToFull}$表示以$Rate_{CommittedInformation}$将令牌桶从空闲填充到满所需的时长。$D_{LengthRecovery}$表示向桶中填充帧长度数量的令牌所需要的时长。当令牌桶令牌数量最少达到帧长度是即满足了调度资格时间$T_{SchedulerEligibility}$。$T_{MaxResidence}$表示帧能够在节点中停留最长的时间。$T_{GroupEligibility}$考虑到了一组同类整形器中最近的资格时间。
 经过资格时间计算后，有效的帧将被分配资格时间并进一步处理（$AssignAndProceed(frame,T_{Eligibility})$），反之则会被丢弃$Discard(frame)$。
+
+Algorithm 1 essentially describes the token bucket mechanism, but the distinction lies in the fact that the ATS algorithm does not calculate the remaining situation in the token bucket each time, thereby reducing the complexity of repeatedly computing the token bucket.
 
 Algorithm 1 essentially describes the token bucket mechanism, but with the distinction that data frames are allocated an eligibility time $T_{Eligibility}$, which reduces the complexity of repeatedly calculating the token bucket. In addition, there are $T_{BucketEmpty}$ and $T_{BucketFull}$ representing the times when the token bucket is empty and full, respectively, with the bucket full time being the moment when the number of tokens in the token bucket reaches $Size_{CommittedBurst}$. $D_{EmptyToFull}$ indicates the duration required to fill the token bucket from empty to full at the rate of $Rate_{CommittedInformation}$. $D_{LengthRecovery}$ represents the duration needed to fill the bucket with tokens equivalent to the length of the frame. When the number of tokens in the token bucket is at least equal to the frame length, it satisfies the scheduler eligibility time $T_{SchedulerEligibility}$. $T_{MaxResidence}$ represents the maximum time a frame can reside in a node. $T_{GroupEligibility}$ takes into account the most recent eligibility time among a group of similar shapers.
 After the eligibility time calculation, valid frames are assigned an eligibility time and further processed ($AssignAndProceed(frame, T_{Eligibility})$), while others are discarded ($Discard(frame)$).
@@ -163,6 +172,8 @@ P1: Frames from different transmitters.
 P2: Frames from the same transmitter but with different priorities. 
 P3: Frames within the same transmitter with the same priority, but different receiver priorities.
 
+通过队列分配规则可以管理多种情况的数据流传输场景。并且可以满足对不同优先级的数据流隔离，尤其是可以满足保证高优先级的数据流传输，以及很大程度的降低了高优先级数据流对于其他数据流传输的干扰。
+Through queue allocation rules, various data flow transmission scenarios can be managed. This approach can also ensure the isolation of data flows with different priorities, particularly by guaranteeing the transmission of high-priority data flows and significantly reducing the interference of high-priority data flows on the transmission of other data flows.
 # system model
 
 我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接（每个ECU上可存在本地任务链），这样组成了一条简单的基于TSN网络的分布式实时系统任务链。
