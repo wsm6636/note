@@ -1,9 +1,9 @@
 {
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "attachmentFolderPath": "/",
-  "newFileFolderPath": "/",
+  "newFileFolderPath": "归档",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "propertiesInDocument": "visible",

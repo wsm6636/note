@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "BoBxJoystick",
-      "LiJoystick",
-      "TiTemplate",
-      "LiNewspaper",
-      "RiMindMap"
+      "LiInbox",
+      "LiHome",
+      "TiReportSearch",
+      "RiProjectorLine",
+      "BoBxJoystick"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -205,5 +205,9 @@
   "教程": "LiSettings",
   "模板": "TiTemplate",
   "娱乐": "BoBxJoystick",
-  "paper": "LiNewspaper"
+  "paper": "LiNewspaper",
+  "project": "RiProjectorLine",
+  "research": "TiReportSearch",
+  "HOMEPAGE.canvas": "LiHome",
+  "归档": "LiInbox"
 }

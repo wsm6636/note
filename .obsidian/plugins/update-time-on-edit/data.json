@@ -84,7 +84,6 @@
     "research/TSN/ATS/ATS.md": "edeeba44f3988933f52e8711fb9b8294a5cecf0ed8c33f5f1a0b6fe776966641",
     "research/TSN/ATS/IEEE 802.1Qcr Asynchronous Traffic Shaping with Linux Traffic Control.md": "a0810638e310a358ac84bd5bfc3878e1adc33d6e153f96cc0c664c2f10635777",
     "research/TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md": "75513bb5b0fae371d29223a3085d4e7cee3e4ae952fa0bfc9525e6e3c43d5ef4",
-    "research/TSN/ATS/基础知识.md": "6b28b0626f58cffc3edde2536a5341790f612862174eeb5845e7cef0c27fbea2",
     "research/TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md": "080fcdd2080a6559ee187db8c21a485b23f8cbe1a4088cf67b97bcef609225ee",
     "research/端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md": "9d97f9c6ddec9de6f8cffcc754bb1f7f0295d72994d66a5af73d0057c647d097",
     "research/端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md": "a6d8a37509dc019f7326f6b1475765577c7c731e4b79c27e52754e56c7a52932",
@@ -96,7 +95,6 @@
     "research/因果链/Hybrid Scheduling of Tasks and Messages for TSN-Based Avionics Systems.md": "c7f4dd10ff09c57353f30cdab577dcc543580e273a238f68f7fcf3e4753c257b",
     "research/因果链/Injection Time Planning- Making CQF Practical in Time-Sensitive Networking.md": "5c4a828efb6c0d93e75e60243d88e92bc3879f516c166745268baf9e05dfdb0e",
     "research/因果链/ITANS- Incremental Task and Network Scheduling for Time-Sensitive Networks.md": "614e92425c0e320aa807af21bb84b8c6af7e621436921ecd746d005aa78b7166",
-    "research/因果链/note.md": "ef56ae618ef57cbefbe212b12a948c639142a9dabb9324b0b7566e7a07ce8bf7",
     "research/因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md": "a955daa748490c8999c9f7ea1c2efb083c57a5934fdeac20cc23db341cc1dbf2",
     "research/因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md": "69f5d8a52c7b3869a2f77bf4d8b21e785b85799141c5bdd4136a6fa55fc27dab",
     "research/因果链/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "4b4d6ca07fe977b25bc1e0fc4f4da16dc9a084d36f0f3713ca18754152950f91",
@@ -104,7 +102,6 @@
     "research/因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md": "52420e1a75a206811093b4cf0f3cd8c5a72397f26cfaab987d472bccd7bd5d28",
     "research/因果链/其他人的工作.md": "8b359cb4d8460d54249c3797e943648b8eeedab5b48241b6e0b178d8113d882e",
     "research/因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md": "ba9037434c3e738ef1a91e844191d8faea81e30fcd52213eaca1b4f0f02ab75d",
-    "research/因果链/基础知识.md": "b6435602dc2030d727daa57131f518541f34e1e6f6ad445dc9eb6d4ceacf71c0",
     "research/LET/Efficient Run-Time Environments for System-Level LET Programming.md": "93deb95eb13fe6add03cca3fbea120d511b4ac8497abce8406fdab6e21b2471d",
     "research/LET/LET.md": "309de6c5548e83fcb29e5c74f1cc8f87fa82a317641046f5a82df6dc9d1cd456",
     "research/LET/读写通信.md": "9292264874e205a297a578e6ddcae24d85c825f08ea8460cfd07c7ecb31786f9",
@@ -113,7 +110,6 @@
     "research/Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md": "779a3429bfc2f0823b6ed2e78778c534e90cd10f3a36804ebb9bc0b454210771",
     "research/调度/linux内核中的调度.md": "8d2e4c4d0578175f5eadd604efc1e22a4be6c10276048958a3a691ffbc988e8c",
     "research/调度/实时调度理论.md": "4be6e22f65ac14a6270d5b9bdb1e811c76b7d95040cd3bbaafc812bccfdc9cba",
-    "research/调度/基础知识.md": "71ffe789a16fef39b19e45b6d80cfe96ff6f9127a79e91d13fa6f1cd204c2b3f",
     "research/调度/bus/CAN.md": "ce690e8aefe3faa8712d3a8702efaaa1b746cba50d0c88cde350d3c11e8403de",
     "research/调度/bus/crossbar arbitation policy.md": "fc93e37ab886b903fb6849d4a0250c1bce400aca6c94aed4bbcb147a280e9da8",
     "research/调度/cache/cache 1.md": "02c5430d3064538b1395d2848d76992276066fa5c6170c628b369395c673f4e5",
@@ -142,6 +138,10 @@
     "research/PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md": "d58d9d4a64d859e142d78122afa0c8c46b8cb1d2cf1c94c49c7efa08c85302ac",
     "research/PREEMPT_RT/PREEMPT_RT.md": "7b931e55187e34d7102339a0e64ad49fbe0766367f5afd670dfc9aec3832c04f",
     "research/iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md": "a8315e2d91189cb0b3562f72d52c23e64b6022c34eb00747f6c75cef59f63464",
-    "paper/ESWEEK/note-ESWEEK.md": "fb45c948cc780e6f5d63d1db20f4d27172daddfe60a78a6226ac0529bc7ff425"
+    "paper/ESWEEK/note-ESWEEK.md": "fb45c948cc780e6f5d63d1db20f4d27172daddfe60a78a6226ac0529bc7ff425",
+    "research/因果链/note-chain.md": "ef56ae618ef57cbefbe212b12a948c639142a9dabb9324b0b7566e7a07ce8bf7",
+    "research/因果链/基础知识-因果链.md": "b6435602dc2030d727daa57131f518541f34e1e6f6ad445dc9eb6d4ceacf71c0",
+    "research/调度/基础知识-调度.md": "71ffe789a16fef39b19e45b6d80cfe96ff6f9127a79e91d13fa6f1cd204c2b3f",
+    "research/TSN/ATS/基础知识-ATS.md": "6b28b0626f58cffc3edde2536a5341790f612862174eeb5845e7cef0c27fbea2"
   }
 }

@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/日记/2024-03-26.md"
+                "file": "wsm/日记/2024-03-04.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/日记/2024-03-26.md"
+                "file": "wsm/日记/2024-03-04.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/日记/2024-03-26.md",
+                "file": "wsm/日记/2024-03-04.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/日记/2024-03-26.md",
+                "file": "wsm/日记/2024-03-04.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -235,9 +235,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5758ed947165139",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "wsm/日记/2024-03-02.md",
+    "wsm/日记/2024-03-04.md",
     "HOMEPAGE.canvas",
+    "归档/1.md",
+    "wsm/日记/2024-03-26.md",
     "research/iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md",
     "research/iousing",
     "research/PREEMPT_RT/PREEMPT_RT.md",
@@ -266,9 +270,6 @@
     "research/调度/cache/PL310.md",
     "research/调度/memory/memguard.md",
     "research/调度/cache/CAT.md",
-    "research/调度/memory/IntelMBA.md",
-    "research/调度/cache/cache.md",
-    "research/调度/cache/Cache-aware response time analysis for real-time tasks with fixed preemption points.md",
     "research/调度/锁",
     "research/调度/调度算法.pof.wpsonline",
     "research/调度/定时器",
