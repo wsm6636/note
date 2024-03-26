@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-26T13:01
+updated: 2024-03-26T16:08
 tags:
   - 笔记
   - 笔记/paper
@@ -89,8 +89,22 @@ For the end-to-end latency analysis of TSN networks, there has been significant 
 > 伪代码
 > #修改 
 
-# ATS
+# ATS background
 
+为了满足低延时高带宽的需求，时间敏感网络标准被开发，并具有多种机制：
+时间感知整形器（TAS）（IEEE 802.1Qbv[qbv]），帧抢占（IEEE Std 802.1Qbu[qbu]）。循环排队和转发(IEEE 802.1 QCH[qch])等。
+To meet the requirements for low latency and high bandwidth, Time-Sensitive Networking (TSN) standards have been developed, incorporating various mechanisms such as:
+- Time-Aware Shaper (TAS) (IEEE 802.1Qbv[qbv]),
+- Frame Preemption (IEEE Std 802.1Qbu[qbu]),
+- and Cyclic Queuing and Forwarding (IEEE 802.1 QCH[qch]).
+
+虽然TSN在确定性传输上非常有效，但例如Qbv标准由于TAS存在所以对定时同步要求严格，若同步出错则增加了TSN网络的确定性以及分析的复杂性。而异步流量整形（ATS）（IEEE 802.1Qcr），旨在允许取消同步并允许每个节点按照本地始终定时发送流，以此降低同步的复杂性，这样的异步操作依旧可以满足低延迟高带宽和确定性需求，也同样适合应用在分布式系统中。
+Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
+
+ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）（向令牌桶中加入令牌的速度，限制流量传出速率）以及承诺的突发大小（committed burst size）（令牌桶的最大容量，允许速率超过限制）确定数据帧的资格时间。
+如算法1的伪代码显示了计算合格时间，将合格时间分配给帧，并更新ATS调度器状态机变量的过程。
+The ATS algorithm determines the flow of data frames based on queue allocation rules and establishes the eligibility time for data frames through the committed information rate —the rate at which tokens are added to the token bucket, which limits the flow transmission rate—and the committed burst size —the maximum capacity of the token bucket, allowing the rate to exceed the limit.
+As shown in the pseudocode of Algorithm 1, the process of calculating the eligible time, assigning the eligible time to frames, and updating the ATS scheduler state machine variables is depicted.
 
 ```latex
 \begin{algorithm}
@@ -133,6 +147,22 @@ $T_{GroupEligibility} = 0$\\
 
 ```
 
+算法1本质上描述的还是令牌桶机制，但区别在于数据帧被分配了一个资格时间$T_{Eligibility}$，降低了重复计算令牌桶的复杂性。除此之外还有$T_{BucketEmpty}$和$T_{BucketFull}$分别表示令牌桶空闲和桶满时间，其中桶满时间是令牌桶中令牌数量达到$Size_{CommittedBurst}$时刻。$D_{EmptyToFull}$表示以$Rate_{CommittedInformation}$将令牌桶从空闲填充到满所需的时长。$D_{LengthRecovery}$表示向桶中填充帧长度数量的令牌所需要的时长。当令牌桶令牌数量最少达到帧长度是即满足了调度资格时间$T_{SchedulerEligibility}$。$T_{MaxResidence}$表示帧能够在节点中停留最长的时间。$T_{GroupEligibility}$考虑到了一组同类整形器中最近的资格时间。
+经过资格时间计算后，有效的帧将被分配资格时间并进一步处理（$AssignAndProceed(frame,T_{Eligibility})$），反之则会被丢弃$Discard(frame)$。
+
+Algorithm 1 essentially describes the token bucket mechanism, but with the distinction that data frames are allocated an eligibility time $T_{Eligibility}$, which reduces the complexity of repeatedly calculating the token bucket. In addition, there are $T_{BucketEmpty}$ and $T_{BucketFull}$ representing the times when the token bucket is empty and full, respectively, with the bucket full time being the moment when the number of tokens in the token bucket reaches $Size_{CommittedBurst}$. $D_{EmptyToFull}$ indicates the duration required to fill the token bucket from empty to full at the rate of $Rate_{CommittedInformation}$. $D_{LengthRecovery}$ represents the duration needed to fill the bucket with tokens equivalent to the length of the frame. When the number of tokens in the token bucket is at least equal to the frame length, it satisfies the scheduler eligibility time $T_{SchedulerEligibility}$. $T_{MaxResidence}$ represents the maximum time a frame can reside in a node. $T_{GroupEligibility}$ takes into account the most recent eligibility time among a group of similar shapers.
+After the eligibility time calculation, valid frames are assigned an eligibility time and further processed ($AssignAndProceed(frame, T_{Eligibility})$), while others are discarded ($Discard(frame)$).
+
+对于整形队列需要遵循队列分配的规则，以下情况的数据帧不能被分配到同一个整形队列：
+P1，来自不同发射机
+P2，来自相同发射机但是优先级不同
+P3，在同一个发射机中具有相同优先级，但是接收器优先级不一样。
+
+For shaping queues, it is necessary to adhere to the rules of queue allocation. Data frames in the following situations should not be assigned to the same shaping queue:
+P1: Frames from different transmitters. 
+P2: Frames from the same transmitter but with different priorities. 
+P3: Frames within the same transmitter with the same priority, but different receiver priorities.
+
 # system model
 
 我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接（每个ECU上可存在本地任务链），这样组成了一条简单的基于TSN网络的分布式实时系统任务链。
@@ -163,20 +193,6 @@ $B_i$ represents the fixed size (is $|B_i|$) input buffer of scheduling task $\t
 ## Network Module
 **为了区别ECU上执行的任务，我们将TSN网络中的任务称为网络任务并用m={l，d}表示，而ECU上的任务我们仍然成为任务。我们使用数据帧作为端到端分析的一个基本单元。所以网络任务$m^{i}_j$代表携带任务链信息的数据帧，i代表了数据帧所在的流，并且它是数据流i中的第j个数据帧，在本文后续的内容中。$l(m^{i}_j)$代表了数据帧的长度。$d(m^{i}_j$)代表整个数据帧结束的时间，即数据帧通过ATS算法获得资格时间$et(m^{i}_j)$之后，通过传输算法根据优先级等选择，最后离开的时刻。在数据帧连续的传输过程中，能够确保从一个交换机流出之后才会经过网络传输并流入到下一个交换机中，这类似于ECU上任务对于读写顺序的约束。**
 In order to distinguish the scheduling tasks performed on the ECU, we refer to the tasks in the TSN network as network tasks and represent them as m={l, d}, and the tasks on the ECU, we still refer to them as scheduling tasks. We use data frames as the basic unit for end-to-end analysis. Therefore, the network task $m^{i}_j$ represents a data frame carrying task chain information, where i indicates the stream the data frame belongs to, and it is the jth data frame in data stream i in the following content. $l(m^{i}_j)$ represents the length of the data frame. $d(m^{i}_j)$ represents the end time of the entire data frame, which is the moment the data frame leaves after obtaining eligibility time $et(m^{i}_j)$ through the ATS algorithm and selecting the transmission algorithm based on priority, among other things. During the continuous transmission process of data frames, it ensures that they will only be transmitted through the network and enter the next switch after flowing out from one switch. This is similar to the constraint on the read-write order of tasks on an ECU.
-> 这里改一下，把分配规则放前面，然后这里写参考第三节...
-> #修改
-
-**ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）以及承诺的突发大小（committed burst size）确定数据帧的资格时间。
-其中，整形队列需要遵循队列分配的规则，以下情况的数据帧不能被分配到同一个整形队列：
-P1，来自不同发射机
-P2，来自相同发射机但是优先级不同
-P3，在同一个发射机中具有相同优先级，但是接收器优先级不一样。**
-
-The ATS algorithm determines the flow direction of data frames based on queue allocation rules, and determines the eligibility time of data frames through committed information rate and committed burst size. 
-The shaping queues need to adhere to the rules of queue allocation. The frames in the following situations should not be allocated to the same shaping queue:
-P1: Frames from different transmitters. 
-P2: Frames from the same transmitter but with different priorities. 
-P3: Frames within the same transmitter with the same priority, but different receiver priorities.
 
 
 **在本文的系统中，我们考虑有N个ECU，最多产生N个流这些数据流通过N个令牌桶整形队列。每个队列Q都具有固定优先级并以先进先出的模式传输数据。$r_n$代表第n个令牌桶的速率，以及$b_n$代表第n个令牌桶的大小（即最大令牌数量）。
