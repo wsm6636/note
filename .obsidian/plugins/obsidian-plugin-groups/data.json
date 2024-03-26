@@ -46,7 +46,7 @@
     {
       "loadAtStartup": true,
       "disableOnStartup": false,
-      "delay": 10,
+      "delay": 15,
       "id": "pgdelay",
       "name": "delay",
       "plugins": [
@@ -148,9 +148,9 @@
     }
   ],
   "generateCommands": true,
-  "showNoticeOnGroupLoad": "none",
+  "showNoticeOnGroupLoad": "short",
   "devLogs": false,
   "devices": [],
   "doLoadSynchronously": true,
-  "showStatusbarIcon": "None"
+  "showStatusbarIcon": "Icon"
 }
