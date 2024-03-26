@@ -25,45 +25,6 @@
             }
           },
           {
-            "id": "59c0c4debfa1394e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/ESWEEK-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "180d153cc91c8608",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAC/方法-模型整理.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a4347a50a304e92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESWEEK/note.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f5758ed947165139",
             "type": "leaf",
             "state": {
@@ -90,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md"
+                "file": "wsm/日记/2024-03-26.md"
               }
             }
           },
@@ -186,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md"
+                "file": "wsm/日记/2024-03-26.md"
               }
             }
           }
@@ -221,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md",
+                "file": "wsm/日记/2024-03-26.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md",
+                "file": "wsm/日记/2024-03-26.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -274,44 +235,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b0de07a1ff1a1cd1",
+  "active": "f5758ed947165139",
   "lastOpenFiles": [
-    "wsm/日记/2024-03-26.md",
-    "ESWEEK/ESWEEK-workspace.md",
     "HOMEPAGE.canvas",
-    "wsm/周记/2024-03-25-W13.md",
-    "wsm/日记/2024-03-25.md",
-    "DAC/方法-模型整理.md",
-    "DAC/ATS-workspace.md",
-    "RTCSA/QCH-workspace.md",
-    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
-    "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-    "wsm/日记/2024-03-25.md.baiduyun.uploading.cfg",
-    "wsm/月复盘/2024-02.md.baiduyun.uploading.cfg",
-    "wsm/月复盘/2024-03.md",
-    "wsm/月复盘/2024-02.md",
-    "wsm/周记/2024-02-19-W08.md",
-    "模板/年复盘模板.md",
-    "模板/年复盘模板.md.baiduyun.uploading.cfg",
-    "模板/月复盘模板.md",
-    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
-    "模板/月复盘模板.md.baiduyun.uploading.cfg",
-    "模板/挂件.md",
-    "模板/挂件.md.baiduyun.uploading.cfg",
-    "ESWEEK/ESWEEK-workspace.md.baiduyun.uploading.cfg",
-    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md.baiduyun.uploading.cfg",
-    "wsm/周记/2024-03-25-W13.md.baiduyun.uploading.cfg",
-    "desktop.ini",
-    "ESWEEK/note.md",
-    "wsm/周记/2024-03-18-W12.md",
-    "wsm/周记/2024-03-04-W10.md",
-    "wsm/周记/2024-03-11-W11.md",
-    "wsm/日记/2024-03-24.md",
-    "wsm/日记/2024-03-22.md",
-    "wsm/日记/2024-03-21.md",
-    "wsm/日记/2024-03-23.md",
-    "wsm/日记/2024-03-19.md",
+    "research/iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md",
+    "research/iousing",
+    "research/PREEMPT_RT/PREEMPT_RT.md",
+    "research/PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md",
+    "research/PREEMPT_RT",
+    "教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md",
+    "教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核过程.md",
+    "教程/litmus/litmus虚拟机qcow扩容.md",
+    "教程/litmus/imx6q移植——linux4.1.15.+litmus2016.1.md",
+    "教程/litmus/imx6q移植litmus用户库+trace工具.md",
+    "教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
+    "教程/litmus",
+    "娱乐/塞尔达/旷野之息迷你挑战.md",
+    "娱乐/塞尔达/旷野之息神庙挑战.md",
+    "娱乐/塞尔达",
+    "娱乐",
+    "新建文件夹",
+    "research/调度/锁/sleepspinlock.md",
+    "research/调度/锁/RTmutes.md",
+    "research/调度/锁/RCU.md",
+    "research/调度/锁/preemptrt.md",
+    "research/调度/定时器/硬件化.md",
+    "research/调度/定时器/多优先级硬件定时器专利.md",
+    "research/调度/定时器/减少定时器中断延时.md",
+    "research/调度/定时器/timershield.md",
+    "research/调度/cache/PL310.md",
+    "research/调度/memory/memguard.md",
+    "research/调度/cache/CAT.md",
+    "research/调度/memory/IntelMBA.md",
+    "research/调度/cache/cache.md",
+    "research/调度/cache/Cache-aware response time analysis for real-time tasks with fixed preemption points.md",
+    "research/调度/锁",
+    "research/调度/调度算法.pof.wpsonline",
+    "research/调度/定时器",
+    "research/调度/中断",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
