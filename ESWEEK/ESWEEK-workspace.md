@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-26T16:59
+updated: 2024-03-26T17:20
 tags:
   - 笔记
   - 笔记/paper
@@ -107,10 +107,9 @@ In the LRQ algorithm, the time at which the next data frame can be transmitted i
 In the TBE algorithm, the eligibility time for a data frame requires that there are enough tokens in the token bucket equivalent to the length of the data frame. When there are sufficient tokens, it can accommodate bursts under certain conditions.
 
 
-ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）（向令牌桶中加入令牌的速度，限制流量传出速率）以及承诺的突发大小（committed burst size）（令牌桶的最大容量，允许速率超过限制）确定数据帧的资格时间。
+ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）以及承诺的突发大小（committed burst size）确定数据帧的资格时间。
 如算法1的伪代码显示了计算合格时间，将合格时间分配给帧，并更新ATS调度器状态机变量的过程。
-The ATS algorithm determines the flow of data frames based on queue allocation rules and establishes the eligibility time for data frames through the committed information rate —the rate at which tokens are added to the token bucket, which limits the flow transmission rate—and the committed burst size —the maximum capacity of the token bucket, allowing the rate to exceed the limit.
-As shown in the pseudocode of Algorithm 1, the process of calculating the eligible time, assigning the eligible time to frames, and updating the ATS scheduler state machine variables is depicted.
+The ATS algorithm determines the flow direction of data frames based on queue allocation rules and establishes the eligibility time for data frames through the committed information rate and the committed burst size. The pseudocode of Algorithm 1, as mentioned, illustrates the process of calculating the eligible time, assigning this time to frames, and updating the ATS scheduler state machine variables.
 
 ```latex
 \begin{algorithm}
@@ -155,11 +154,26 @@ $T_{GroupEligibility} = 0$\\
 
 算法1本质上描述的还是令牌桶机制，但区别在于ATS算法不会每次都计算令牌桶中的剩余情况，降低了重复计算令牌桶的复杂性。
 数据帧被分配了一个资格时间$T_{Eligibility}$，除此之外还有$T_{BucketEmpty}$和$T_{BucketFull}$分别表示令牌桶空闲和桶满时间，其中桶满时间是令牌桶中令牌数量达到$Size_{CommittedBurst}$时刻。$D_{EmptyToFull}$表示以$Rate_{CommittedInformation}$将令牌桶从空闲填充到满所需的时长。$D_{LengthRecovery}$表示向桶中填充帧长度数量的令牌所需要的时长。当令牌桶令牌数量最少达到帧长度是即满足了调度资格时间$T_{SchedulerEligibility}$。$T_{MaxResidence}$表示帧能够在节点中停留最长的时间。$T_{GroupEligibility}$考虑到了一组同类整形器中最近的资格时间。
+
+（向令牌桶中加入令牌的速度，限制流量传出速率）
+（令牌桶的最大容量，允许速率超过限制）
+
+Algorithm \ref{alATS} essentially describes the token bucket mechanism, but the distinction lies in the fact that the ATS algorithm does not calculate the remaining situation in the token bucket each time, thereby reducing the complexity of repeatedly computing the token bucket. Data frames are allocated an eligibility time $T_{Eligibility}$. In addition, there are other important parameters as follows:
+\begin{enumerate}
+		\item $Rate_{CommittedInformation}$represents the rate at which tokens are added to the token bucket, which limits the rate at which traffic is transmitted
+		\item $Size_{CommittedBurst}$represents The maximum capacity of the token bucket, allowing the rate to exceed the limit
+    \item $T_{BucketEmpty}$ represents the times when the token bucket is empty,
+    \item $T_{BucketFull}$ represents the times when the token bucket is full, which being the moment when the number of tokens in the token bucket reaches $Size_{CommittedBurst}$,
+    \item $D_{EmptyToFull}$ indicates the duration required to fill the token bucket from empty to full at the rate of $Rate_{CommittedInformation}$,
+    \item $D_{LengthRecovery}$ represents the duration needed to fill the bucket with tokens equivalent to the length of the frame,
+    \item $T_{SchedulerEligibility}$ means when the number of tokens in the token bucket is at least equal to the frame length, it satisfies the scheduler eligibility time $T_{SchedulerEligibility}$
+    \item $T_{MaxResidence}$ represents the maximum time a frame can reside in a node,
+    \item $T_{GroupEligibility}$ takes into account the most recent eligibility time among a group of similar shapers.
+\end{enumerate}
+
 经过资格时间计算后，有效的帧将被分配资格时间并进一步处理（$AssignAndProceed(frame,T_{Eligibility})$），反之则会被丢弃$Discard(frame)$。
 
-Algorithm 1 essentially describes the token bucket mechanism, but the distinction lies in the fact that the ATS algorithm does not calculate the remaining situation in the token bucket each time, thereby reducing the complexity of repeatedly computing the token bucket.
 
-Algorithm 1 essentially describes the token bucket mechanism, but with the distinction that data frames are allocated an eligibility time $T_{Eligibility}$, which reduces the complexity of repeatedly calculating the token bucket. In addition, there are $T_{BucketEmpty}$ and $T_{BucketFull}$ representing the times when the token bucket is empty and full, respectively, with the bucket full time being the moment when the number of tokens in the token bucket reaches $Size_{CommittedBurst}$. $D_{EmptyToFull}$ indicates the duration required to fill the token bucket from empty to full at the rate of $Rate_{CommittedInformation}$. $D_{LengthRecovery}$ represents the duration needed to fill the bucket with tokens equivalent to the length of the frame. When the number of tokens in the token bucket is at least equal to the frame length, it satisfies the scheduler eligibility time $T_{SchedulerEligibility}$. $T_{MaxResidence}$ represents the maximum time a frame can reside in a node. $T_{GroupEligibility}$ takes into account the most recent eligibility time among a group of similar shapers.
 After the eligibility time calculation, valid frames are assigned an eligibility time and further processed ($AssignAndProceed(frame, T_{Eligibility})$), while others are discarded ($Discard(frame)$).
 
 对于整形队列需要遵循队列分配的规则，以下情况的数据帧不能被分配到同一个整形队列：
