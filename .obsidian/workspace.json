@@ -154,8 +154,7 @@
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/日记/2024-03-26.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -253,7 +252,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/日记/2024-03-26.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -288,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/日记/2024-03-26.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/日记/2024-03-26.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -324,7 +323,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 319,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -341,13 +341,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5758ed947165139",
+  "active": "298480bd46575a83",
   "lastOpenFiles": [
-    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+    "HOMEPAGE.canvas",
     "wsm/日记/2024-03-26.md",
+    "因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "wsm/日记/2024-03-25.md",
     "wsm/周记/2024-03-25-W13.md",
-    "HOMEPAGE.canvas",
     "DAC/方法-模型整理.md",
     "ESWEEK/ESWEEK-workspace.md",
     "wsm/日记/2024-03-25.md.baiduyun.uploading.cfg",
@@ -379,7 +379,6 @@
     "wsm/日记/2024-03-19.md",
     "wsm/日记/2024-03-20.md",
     "端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-    "因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",

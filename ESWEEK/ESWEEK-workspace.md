@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-25T21:58
+updated: 2024-03-26T13:01
 tags:
   - 笔记
   - 笔记/paper
@@ -89,7 +89,49 @@ For the end-to-end latency analysis of TSN networks, there has been significant 
 > 伪代码
 > #修改 
 
+# ATS
 
+
+```latex
+\begin{algorithm}
+\caption{ATS algorithm}\label{alATS}
+/*Initialization*/\\
+$T_{Eligibility} = 0 $\\
+$T_{BucketFull} = 0$\\
+$T_{GroupEligibility} = 0$\\
+/*Frame Process*/\\
+\SetKwFunction{ProcessFrame}{ProcessFrame}%定义一个函数
+\SetKwFunction{AssignAndProceed}{AssignAndProceed}%定义一个函数
+\SetKwFunction{Discard}{Discard}%定义一个函数
+\SetKwProg{Fn}{}{\\ \{}{\}}% %定义C语言样式的函数格式
+\Fn{\ProcessFrame{$frame$}}{ %C语言的类型注释写法
+    $D_{LengthRecovery}=length(frame)/ Rate_{CommittedInformation};$\\
+    $D_{EmptyToFull}=Size_{CommittedBurst}/Rate_{CommittedInformation};$\\
+    $T_{SchedulerEligibility}=T_{BucketEmpty}+D_{LengthRecovery};$\\
+    
+    $T_{BucketFull}=T_{BucketEmpty}+D_{EmptyToFull};$\\
+    
+    $T_{Eligibility}=\max\{T_{arrival}^{frame}, T_{GroupEligibility}, T_{SchedulerEligibility}\};$\\
+    \eIf{$T_{Eligibility}\le (T_{arrival}^{frame}+T_{MaxResidence}/1.0e9)$}
+    {
+        $T_{GroupEligibility}=T_{Eligibility};$\\
+        \eIf{$T_{Eligibility} < T_{BucketFull}$}
+        {
+        $T_{BucketEmpty}=T_{SchedulerEligibility};$\\
+        }
+        {
+        $T_{BucketEmpty}=T_{SchedulerEligibility}+T_{Eligibility}-T_{BucketFull};$\\
+        }
+        \AssignAndProceed{$frame$, $T_{Eligibility}$}\;
+    }
+    {
+        \Discard{$frame$}\;
+    }
+}
+
+\end{algorithm}
+
+```
 
 # system model
 
