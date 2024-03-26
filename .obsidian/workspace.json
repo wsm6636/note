@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/日记/2024-03-04.md"
+                "file": "wsm/周记/2024-03-25-W13.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/日记/2024-03-04.md"
+                "file": "wsm/周记/2024-03-25-W13.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/日记/2024-03-04.md",
+                "file": "wsm/周记/2024-03-25-W13.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/日记/2024-03-04.md",
+                "file": "wsm/周记/2024-03-25-W13.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -235,10 +235,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "b0de07a1ff1a1cd1",
   "lastOpenFiles": [
-    "wsm/日记/2024-03-02.md",
     "wsm/日记/2024-03-04.md",
+    "wsm/日记/2024-03-02.md",
     "HOMEPAGE.canvas",
     "归档/1.md",
     "wsm/日记/2024-03-26.md",
