@@ -1,0 +1,156 @@
+{
+  "groups": [
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 0,
+      "id": "pgstart",
+      "name": "start",
+      "plugins": [
+        {
+          "id": "calendar",
+          "name": "Calendar"
+        },
+        {
+          "id": "contribution-graph",
+          "name": "Contribution Graph"
+        },
+        {
+          "id": "contribution-widget",
+          "name": "Contribution Widget"
+        },
+        {
+          "id": "customjs",
+          "name": "CustomJS"
+        },
+        {
+          "id": "dataview",
+          "name": "Dataview"
+        },
+        {
+          "id": "homepage",
+          "name": "Homepage"
+        },
+        {
+          "id": "obsidian-file-color",
+          "name": "File Color"
+        },
+        {
+          "id": "obsidian-icon-folder",
+          "name": "Iconize"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    },
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 10,
+      "id": "pgdelay",
+      "name": "delay",
+      "plugins": [
+        {
+          "id": "obsidian-advanced-slides",
+          "name": "Advanced Slides"
+        },
+        {
+          "id": "table-editor-obsidian",
+          "name": "Advanced Tables"
+        },
+        {
+          "id": "obsidian-auto-link-title",
+          "name": "Auto Link Title"
+        },
+        {
+          "id": "obsidian42-brat",
+          "name": "BRAT"
+        },
+        {
+          "id": "obsidian-citation-plugin",
+          "name": "Citations"
+        },
+        {
+          "id": "cmdr",
+          "name": "Commander"
+        },
+        {
+          "id": "editing-toolbar",
+          "name": "Editing Toolbar"
+        },
+        {
+          "id": "emojio",
+          "name": "Emojio"
+        },
+        {
+          "id": "obsidian-git",
+          "name": "Git"
+        },
+        {
+          "id": "obsidian-hider",
+          "name": "Hider"
+        },
+        {
+          "id": "obsidian-image-auto-upload-plugin",
+          "name": "Image auto upload Plugin"
+        },
+        {
+          "id": "obsidian-kanban",
+          "name": "Kanban"
+        },
+        {
+          "id": "metadata-hider",
+          "name": "Metadata Hider"
+        },
+        {
+          "id": "metadata-icon",
+          "name": "Metadata Icon"
+        },
+        {
+          "id": "obsidian-mind-map",
+          "name": "Mind Map"
+        },
+        {
+          "id": "mousewheel-image-zoom",
+          "name": "Mousewheel Image zoom"
+        },
+        {
+          "id": "obsidian-opener",
+          "name": "Opener"
+        },
+        {
+          "id": "obsidian-outliner",
+          "name": "Outliner"
+        },
+        {
+          "id": "share-my-plugin-list",
+          "name": "Share my plugin list"
+        },
+        {
+          "id": "obsidian-style-settings",
+          "name": "Style Settings"
+        },
+        {
+          "id": "tag-wrangler",
+          "name": "Tag Wrangler"
+        },
+        {
+          "id": "templater-obsidian",
+          "name": "Templater"
+        },
+        {
+          "id": "update-time-on-edit",
+          "name": "Update time on edit"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    }
+  ],
+  "generateCommands": true,
+  "showNoticeOnGroupLoad": "none",
+  "devLogs": false,
+  "devices": [],
+  "doLoadSynchronously": true,
+  "showStatusbarIcon": "None"
+}
