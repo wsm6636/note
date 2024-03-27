@@ -49,9 +49,36 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "124395ff43adf116",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
+      },
+      {
+        "id": "f3ac89954ecca467",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf10e084a9fbb842",
+            "type": "leaf",
+            "state": {
+              "type": "zdc-debug",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模板/zoteronote模板.md"
+                "file": "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md"
               }
             }
           },
@@ -147,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "模板/zoteronote模板.md"
+                "file": "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md"
               }
             }
           }
@@ -182,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/zoteronote模板.md",
+                "file": "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/zoteronote模板.md",
+                "file": "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +245,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 319,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,17 +265,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5150fea12009d561",
+  "active": "124395ff43adf116",
   "lastOpenFiles": [
-    "inbox/{{select}}.md",
-    "模板/zoteronote模板.md",
+    "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md.baiduyun.uploading.cfg",
     "模板/zoteronote模板.md.baiduyun.uploading.cfg",
+    "模板/zoteronote模板.md",
+    "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "inbox/{{select}}.md",
     "inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md.baiduyun.uploading.cfg",
     "模板/annotation-color-note.md",
     "inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "模板/annotation-color-note.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas",
-    "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "未命名.canvas",
     "inbox/2024-03-27.md",
     "research/因果链/End-To-End Timing Analysis in ROS2.md",
@@ -276,7 +305,6 @@
     "240327QuickNote.md",
     "research/因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "paper/ESWEEK/note-ESWEEK.md",
-    "research/因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
