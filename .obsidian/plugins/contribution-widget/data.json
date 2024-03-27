@@ -4,7 +4,7 @@
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
       "name": "查询",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-03-27T14:53:59.289Z",
+      "updateAt": "2024-03-27T14:56:23.441Z",
       "widget": {
         "id": "bbcd3eff-71d4-40bc-ba1e-3c6c32c31be3",
         "type": "multi",
@@ -18,7 +18,7 @@
             "type": "dataview",
             "titleAlign": "center",
             "maxWidthRatio": 100,
-            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n           .wherer(p=>p.file.path)\n\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
+            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n\n\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
             "queryType": "dataviewjs",
             "backgroundStyle": "card",
             "maxHeight": 1200,

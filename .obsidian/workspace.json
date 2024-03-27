@@ -23,17 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "f41520c73ee388a1",
-            "type": "leaf",
-            "state": {
-              "type": "contribution-widget-database-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,11 +187,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 319,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,7 +211,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f41520c73ee388a1",
+  "active": "298480bd46575a83",
   "lastOpenFiles": [
     "wsm/月复盘/2024-02.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-26.md.baiduyun.uploading.cfg",
