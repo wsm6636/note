@@ -1,0 +1,34 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "daily": {
+    "format": "YYYY-MM-DD",
+    "folder": "wsm/日记",
+    "template": "模板/日记模板",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "YYYY-MM-DD-[W]ww",
+    "folder": "wsm/周记",
+    "template": "模板/周记模板",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "YYYY-MM",
+    "template": "模板/月复盘模板.md",
+    "folder": "wsm/月复盘",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "YYYY",
+    "template": "模板/年复盘模板.md",
+    "folder": "wsm/年复盘",
+    "enabled": true
+  }
+}

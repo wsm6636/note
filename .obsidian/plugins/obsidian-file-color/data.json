@@ -569,10 +569,6 @@
       "color": "6WMXfCuSwugf1FJ9WTa5-"
     },
     {
-      "path": "归档",
-      "color": "rE3DI0wpPeODCiPAqTEi0"
-    },
-    {
       "path": "娱乐/塞尔达",
       "color": "8lxKc-w-D4gyD7ZqwUpyo"
     },
@@ -935,6 +931,18 @@
     {
       "path": "research/TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "inbox",
+      "color": "rE3DI0wpPeODCiPAqTEi0"
+    },
+    {
+      "path": "永久笔记",
+      "color": "9642R5bFMvgEVEEXfTLqW"
+    },
+    {
+      "path": "模板/QuickNote.md",
+      "color": "xQMmAZ6IvurmjeLGcm4ih"
     }
   ]
 }

@@ -25,12 +25,20 @@
             }
           },
           {
-            "id": "f5758ed947165139",
+            "id": "b0de07a1ff1a1cd1",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "47da2bd527d79819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/日记/2024-03-26.md",
+                "file": "wsm/日记/2024-03-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -38,12 +46,59 @@
             }
           },
           {
-            "id": "b0de07a1ff1a1cd1",
+            "id": "4cd0c3288271e786",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e606a594fbbb34a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md",
+                "file": "paper/DAC/方法-模型整理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e2ea0fb172dcaa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/QuickNote.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b736d00158217e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "inbox/240327QuickNote.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05d3775187ecdd9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/日记模板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -80,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-03-27.md"
               }
             }
           },
@@ -90,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#修改",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +202,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/日记/2024-03-27.md"
               }
             }
           }
@@ -182,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-03-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/日记/2024-03-27.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -222,24 +277,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
-      "command-palette:打开命令面板": true
+      "command-palette:打开命令面板": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": true,
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open this week": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "fbd984f9597fd947",
+  "active": "4cd0c3288271e786",
   "lastOpenFiles": [
+    "inbox/未命名.md",
+    "wsm/日记/2024-03-27.md",
+    "inbox/240327QuickNote.md",
+    "inbox/2024-03-27.md",
+    "模板/日记模板.md",
+    "模板/QuickNote.md",
+    "240327QuickNote.md",
+    "paper/DAC/方法-模型整理.md",
+    "research/因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "paper/ESWEEK/note-ESWEEK.md",
+    "research/因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+    "research/端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "wsm/日记/2024-03-26.md",
+    "HOMEPAGE.canvas",
+    "永久笔记",
+    "新建文件夹",
+    "inbox",
     "research/TSN/ATS/基础知识.md.nssyncsc",
     "research/调度/基础知识.md.nssyncsc",
     "paper/ESWEEK/note.md.nssyncsc",
     "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-03-02.md",
-    "HOMEPAGE.canvas",
     "归档/1.md",
-    "wsm/日记/2024-03-26.md",
     "research/iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md",
     "research/iousing",
     "research/PREEMPT_RT/PREEMPT_RT.md",
@@ -253,22 +332,7 @@
     "教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
     "教程/litmus",
     "娱乐/塞尔达/旷野之息迷你挑战.md",
-    "娱乐/塞尔达/旷野之息神庙挑战.md",
     "娱乐/塞尔达",
-    "娱乐",
-    "新建文件夹",
-    "research/调度/锁/sleepspinlock.md",
-    "research/调度/锁/RTmutes.md",
-    "research/调度/锁/RCU.md",
-    "research/调度/锁/preemptrt.md",
-    "research/调度/定时器/硬件化.md",
-    "research/调度/定时器/多优先级硬件定时器专利.md",
-    "research/调度/定时器/减少定时器中断延时.md",
-    "research/调度/定时器/timershield.md",
-    "research/调度/cache/PL310.md",
-    "research/调度/memory/memguard.md",
-    "research/调度/锁",
-    "research/调度/调度算法.pof.wpsonline",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",

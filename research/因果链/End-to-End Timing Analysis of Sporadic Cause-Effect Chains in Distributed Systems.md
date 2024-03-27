@@ -1,10 +1,9 @@
 ---
 created: 2023-07-21T12:27
-updated: 2024-03-26T23:33
+updated: 2024-03-27T12:15
 tags:
   - 笔记
   - 笔记/文献笔记
-  - 论文参考
 ---
 
 # End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems
