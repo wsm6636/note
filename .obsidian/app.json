@@ -3,7 +3,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "attachmentFolderPath": "/",
-  "newFileFolderPath": "inbox",
+  "newFileFolderPath": "00-inbox",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "propertiesInDocument": "visible",

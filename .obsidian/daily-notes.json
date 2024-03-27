@@ -1,6 +1,6 @@
 {
   "autorun": false,
-  "folder": "",
+  "folder": "00-inbox",
   "format": "YYYY-MM-DD",
-  "template": "模板/日记模板"
+  "template": "00-模板/日记模板"
 }

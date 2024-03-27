@@ -4,20 +4,20 @@
   "hasMigratedWeeklyNoteSettings": true,
   "daily": {
     "format": "YYYY-MM-DD",
-    "folder": "inbox",
-    "template": "模板/日记模板",
+    "folder": "00-inbox",
+    "template": "00-模板/日记模板.md",
     "enabled": true
   },
   "weekly": {
     "format": "YYYY-MM-DD-[W]ww",
-    "folder": "inbox",
-    "template": "模板/周记模板",
+    "folder": "00-inbox",
+    "template": "00-模板/周记模板.md",
     "enabled": true
   },
   "monthly": {
     "format": "YYYY-MM",
-    "template": "模板/月复盘模板.md",
-    "folder": "inbox",
+    "template": "00-模板/月复盘模板.md",
+    "folder": "00-inbox",
     "enabled": true
   },
   "quarterly": {
@@ -27,8 +27,8 @@
   },
   "yearly": {
     "format": "YYYY",
-    "template": "模板/年复盘模板.md",
-    "folder": "inbox",
+    "template": "00-模板/年复盘模板.md",
+    "folder": "00-inbox",
     "enabled": true
   }
 }

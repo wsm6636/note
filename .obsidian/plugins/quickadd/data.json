@@ -6,12 +6,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "inbox/{{DATE}}.md",
+      "captureTo": "00-inbox/{{DATE}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "模板/日记模板.md"
+        "template": "00-模板/日记模板.md"
       },
       "format": {
         "enabled": true,
@@ -46,7 +46,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "模板",
+  "templateFolderPath": "00-模板",
   "announceUpdates": true,
   "version": "1.8.1",
   "disableOnlineFeatures": true,
