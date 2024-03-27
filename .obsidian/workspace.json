@@ -36,19 +36,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "05d3775187ecdd9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "模板/日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -213,8 +200,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,30 +224,92 @@
       "obsidian-memos:Thino": false
     }
   },
+  "floating": {
+    "id": "7c6c4e7efdb575e3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "cbacbf59c5cc1314",
+        "type": "window",
+        "children": [
+          {
+            "id": "ae1aece948ebc53e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b5f8aebc076b651c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "research/因果链/End-To-End Timing Analysis in ROS2.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "cb08bf26e10cd093",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1ee3d62c5842fb22",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "模板/zoteronote模板.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2828,
+        "y": 0,
+        "width": 1480,
+        "height": 1050,
+        "maximize": true,
+        "zoom": -0.5
+      }
+    ]
+  },
   "active": "9cfa68d8289aaeaa",
   "lastOpenFiles": [
+    "模板/zoteronote模板.md",
+    "模板/zotero note 模板.md.baiduyun.uploading.cfg",
+    "research/因果链/End-To-End Timing Analysis in ROS2.md",
+    "模板/月复盘模板.md.baiduyun.uploading.cfg",
+    "模板/年复盘模板.md.baiduyun.uploading.cfg",
+    "模板/周记模板.md.baiduyun.uploading.cfg",
+    "模板/QuickNote.md.baiduyun.uploading.cfg",
+    "模板/年复盘模板.md",
+    "模板/月复盘模板.md",
+    "模板/周记模板.md",
+    "模板/日记模板.md",
+    "模板/QuickNote.md",
+    "模板/read note template.md",
+    "inbox/2024-03-27.md",
     "inbox/2024-03-27.md.baiduyun.uploading.cfg",
     "inbox/{{YYYY-MM-DD}}.md.baiduyun.uploading.cfg",
     "inbox/240327QuickNote.md",
     "inbox/{{YYYY-MM-DD}}.md",
     "paper/DAC/方法-模型整理.md",
-    "inbox/2024-03-27.md",
-    "模板/日记模板.md",
-    "模板/QuickNote.md",
     "inbox/2024-03.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-26.md",
     "inbox/2024-03-25-W13.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-26.md.baiduyun.uploading.cfg",
-    "模板/日记模板.md.baiduyun.uploading.cfg",
     "inbox/2024-03-25-W13.md",
     "2024-03-27.md",
     "wsm/日记/2024-03-27.md",
-    "wsm/日记/2024-03-27.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas",
-    "inbox/240327QuickNote.md.baiduyun.uploading.cfg",
-    "inbox/test.md.baiduyun.uploading.cfg",
-    "模板/月复盘模板.md.baiduyun.uploading.cfg",
-    "模板/挂件.md.baiduyun.uploading.cfg",
     "inbox/test.md",
     "inbox/未命名.md",
     "240327QuickNote.md",
@@ -271,12 +319,6 @@
     "research/端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-03-02.md",
-    "归档/1.md",
-    "research/iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md",
-    "research/PREEMPT_RT/PREEMPT_RT.md",
-    "research/PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md",
-    "教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md",
-    "教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核过程.md",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",

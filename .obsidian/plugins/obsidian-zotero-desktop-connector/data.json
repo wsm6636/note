@@ -1,12 +1,27 @@
 {
   "database": "Zotero",
-  "noteImportFolder": "",
+  "noteImportFolder": "inbox",
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
-  "citeFormats": [],
-  "exportFormats": [],
+  "citeFormats": [
+    {
+      "name": "cite",
+      "format": "formatted-bibliography",
+      "cslStyle": "IEEE"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "import zoter note",
+      "outputPathTemplate": "inbox/{{title}}.md",
+      "imageOutputPathTemplate": "inbox/{{title}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "模板/zotero note 模板.md",
+      "cslStyle": "IEEE "
+    }
+  ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
-  "openNoteAfterImport": false,
-  "whichNotesToOpenAfterImport": "first-imported-note"
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "all-imported-notes"
 }
