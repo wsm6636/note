@@ -1,42 +1,12 @@
 {
   "choices": [
     {
-      "id": "09528b50-c3ce-467e-b5a2-a48b36304351",
-      "name": "QucikNote",
-      "type": "Template",
-      "command": true,
-      "templatePath": "模板/QuickNote.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{DATE:YYMMDD}}QuickNote"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "inbox"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
       "id": "8ebad018-6726-4531-a27e-73827a2a3266",
       "name": "QuickCapture",
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "inbox/",
+      "captureTo": "inbox/{{DATE:YYMMDD}}QuickNote.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
@@ -44,8 +14,8 @@
         "template": "模板/QuickNote.md"
       },
       "format": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "- {{time}}：{{VALUE}}"
       },
       "insertAfter": {
         "enabled": false,
@@ -55,7 +25,7 @@
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
-      "prepend": false,
+      "prepend": true,
       "task": false,
       "openFileInNewTab": {
         "enabled": false,
