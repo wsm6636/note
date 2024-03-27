@@ -8,17 +8,17 @@
     {
       "name": "cite",
       "format": "formatted-bibliography",
-      "cslStyle": "IEEE"
+      "cslStyle": "ieee"
     }
   ],
   "exportFormats": [
     {
       "name": "import zotero note",
-      "outputPathTemplate": "inbox/{{citekey}}.md",
-      "imageOutputPathTemplate": "inbox/{{citekey}}/",
+      "outputPathTemplate": "inbox/{{title}}.md",
+      "imageOutputPathTemplate": "inbox/{{title}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "模板/zoteronote模板.md",
-      "cslStyle": "IEEE "
+      "cslStyle": "ieee"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",

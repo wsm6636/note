@@ -7,18 +7,14 @@ tags:
   - 待归档
 ---
 
-| Title                 | {{title}}                      |
-| --------------------- | ------------------------------ |
-| Journal or Conference | {{publicationTitle}}           |
-| Authors               | {{authors}}                    |
-| Pub. date             | {{date\|format("YYYY-MM-DD")}} |
-| DOI                   | {{DOI}}                        |
-| Level                 |                                |
-| zoterolink            | {{pdfZoteroLink}}              |
+Title:  {{title}}
+Journal or Conference:  {% if journalAbbreviation %}{{journalAbbreviation}}{% endif %}  {{publicationTitle}} {{university}}
+Authors:  {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
+Pub.date:  {% if date %}{{date | format("YYYY-MM")}}{% endif %}
+DOI:  {% if DOI %}{{DOI}}{% endif %}
+zoterolink:  [zotero]({{select}})
 
-
-
-
+# title
 
 ***
 
