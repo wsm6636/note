@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/周记/2024-03-25-W13.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -222,21 +222,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
-      "command-palette:打开命令面板": true,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": true,
-      "templater-obsidian:Templater": false
+      "command-palette:打开命令面板": true
     }
   },
-  "active": "b0de07a1ff1a1cd1",
+  "active": "fbd984f9597fd947",
   "lastOpenFiles": [
+    "research/TSN/ATS/基础知识.md.nssyncsc",
+    "research/调度/基础知识.md.nssyncsc",
+    "paper/ESWEEK/note.md.nssyncsc",
     "wsm/日记/2024-03-04.md",
     "wsm/日记/2024-03-02.md",
     "HOMEPAGE.canvas",
@@ -269,11 +267,8 @@
     "research/调度/定时器/timershield.md",
     "research/调度/cache/PL310.md",
     "research/调度/memory/memguard.md",
-    "research/调度/cache/CAT.md",
     "research/调度/锁",
     "research/调度/调度算法.pof.wpsonline",
-    "research/调度/定时器",
-    "research/调度/中断",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
