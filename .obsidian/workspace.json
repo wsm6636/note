@@ -200,7 +200,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -219,9 +220,8 @@
       "obsidian-advanced-slides:Show Slide Preview": false,
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": true,
-      "periodic-notes:Open this week": false,
-      "periodic-notes:Open today": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
     }
   },
   "floating": {
@@ -272,8 +272,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 2828,
-        "y": 0,
+        "x": 670,
+        "y": 332,
         "width": 1480,
         "height": 1050,
         "maximize": true,
@@ -283,9 +283,12 @@
   },
   "active": "9cfa68d8289aaeaa",
   "lastOpenFiles": [
+    "research/因果链/End-To-End Timing Analysis in ROS2.md",
+    "inbox/2024-03-27.md",
+    "HOMEPAGE.canvas",
+    "模板/zoteronote模板.md.baiduyun.uploading.cfg",
     "模板/zoteronote模板.md",
     "模板/zotero note 模板.md.baiduyun.uploading.cfg",
-    "research/因果链/End-To-End Timing Analysis in ROS2.md",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
     "模板/年复盘模板.md.baiduyun.uploading.cfg",
     "模板/周记模板.md.baiduyun.uploading.cfg",
@@ -296,7 +299,6 @@
     "模板/日记模板.md",
     "模板/QuickNote.md",
     "模板/read note template.md",
-    "inbox/2024-03-27.md",
     "inbox/2024-03-27.md.baiduyun.uploading.cfg",
     "inbox/{{YYYY-MM-DD}}.md.baiduyun.uploading.cfg",
     "inbox/240327QuickNote.md",
@@ -305,11 +307,9 @@
     "inbox/2024-03.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-26.md",
     "inbox/2024-03-25-W13.md.baiduyun.uploading.cfg",
-    "wsm/日记/2024-03-26.md.baiduyun.uploading.cfg",
     "inbox/2024-03-25-W13.md",
     "2024-03-27.md",
     "wsm/日记/2024-03-27.md",
-    "HOMEPAGE.canvas",
     "inbox/test.md",
     "inbox/未命名.md",
     "240327QuickNote.md",

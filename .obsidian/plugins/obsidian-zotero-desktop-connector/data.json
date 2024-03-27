@@ -13,11 +13,11 @@
   ],
   "exportFormats": [
     {
-      "name": "import zoter note",
-      "outputPathTemplate": "inbox/{{title}}.md",
-      "imageOutputPathTemplate": "inbox/{{title}}/",
+      "name": "import zotero note",
+      "outputPathTemplate": "inbox/{{citekey}}.md",
+      "imageOutputPathTemplate": "inbox/{{citekey}}/",
       "imageBaseNameTemplate": "image",
-      "templatePath": "模板/zotero note 模板.md",
+      "templatePath": "模板/zoteronote模板.md",
       "cslStyle": "IEEE "
     }
   ],
