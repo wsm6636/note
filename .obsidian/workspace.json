@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/2024-03-27.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -134,7 +133,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "inbox/2024-03-27.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -169,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/2024-03-27.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/2024-03-27.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +280,7 @@
       }
     ]
   },
-  "active": "9cfa68d8289aaeaa",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "research/因果链/End-To-End Timing Analysis in ROS2.md",
     "inbox/2024-03-27.md",

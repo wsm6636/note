@@ -1,21 +1,20 @@
 ---
-created: 2024-03-27T20:23
-updated: 2024-03-27T20:23
+created: 2024-03-27T20:10
+updated: 2024-03-27T20:10
 tags:
   - 笔记
   - 笔记/文献笔记
   - 待归档
 ---
 
-**TitleTranslation:**  
+**Title:**  Efficient maximum data age analysis for cause-effect chains in automotive systems
 **Journal or Conference:**   DAC '22: 59th ACM/IEEE Design Automation Conference  
 **Authors:**  RanBi, XinbinLiu, JiankangRen, PengfeiWang, HuaweiLv, GuozhenTan
 **Pub.date:**  2022-07
 **DOI:**  10/gsfbs4
 **zoterolink:**  [zotero](zotero://select/library/items/NUYD2XNF)
 
-# 摘要
-
+# title
 
 ***
 

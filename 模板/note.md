@@ -110,7 +110,8 @@ languages: {{language}}
 {{annotation.annotatedText}}
 #### 评论: 
 {{annotation.comment}}{% if annotation.imageBaseName %}
-![[{{annotation.imageBaseName}}]]{% endif %}
+![[{{annotation.imageBaseName}}]]
+{% endif %}
 #### zotero位置:
 {{pdfZoteroLink|replace("//select/", "//open-pdf/")|replace(")", "")}}?page={{annotation.page}}&annotation={{annotation.id}})
 {% endif %}
