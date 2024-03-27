@@ -1,48 +1,23 @@
 ---
-status: todo
-weight: 1
-field: 
-date: {% if date %}{{date | format("YYYY-MM")}}{% endif %}
-DOI: {% if DOI %}{{DOI}}{% endif %}
-tags: 
-- {{allTags}}
-- 文献笔记
-authors: {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
-期刊: {% if journalAbbreviation %}{{journalAbbreviation}}{% endif %}
-languages: {{language}}
-类别: {{itemType}} {{thesisType}}
-期刊: {{publicationTitle}} {{university}}
+created: 
+updated: 
+tags:
+  - 笔记/文献笔记
+  - 待归档
+  - 笔记
 ---
 
-# 论文信息
 **title:** {{title}}
-**DOI:** {{DOI}}
-**tags:** {{allTags}}
-**level:** {% if archive %}{{archive}}{% endif %} {% if archiveLocation%}{{archiveLocation}}{% endif %}
-**IF:** {% if callNuimber %}{{callNuimber}}{% endif %}
-**期刊:** {{publicationTitle}} {{university}}
-**类别:** {{itemType}} {{thesisType}}
+**TitleTranslation:**  {% if titleTranslation %}{{titleTranslation}}{% endif %} 
+**Journal or Conference:**  {% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} {{conferenceName}} {{publicationTitle}} {{university}}
+**Authors:**  {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
+**Pub.date:**  {% if date %}{{date | format("YYYY-MM")}}{% endif %}
+**DOI:**  {% if DOI %}{{DOI}}{% endif %}
+**zoterolink:**  [zotero]({{select}})
 
-## abstract: 
-{{abstractNote}}
 
-## Files and Links
-- **Url**: [Open online]({{url}})
-- **zotero entry**: {{pdfZoteroLink}}
-- **open pdf**: [zotero]({{select}})
 
-# 概要
-
-# 研究对象
-
-# 背景
-
-# 方法
-
-# 结论
-
-# 标注
-## 黄色
+# <font color="#ffd400">问题</font>
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#ffd400' %}
 ### 第{{i}}个注释{% set i=i+1 %}
 #### 文本:
@@ -57,7 +32,7 @@ languages: {{language}}
 
 {% endfor %}
 
-## 红色
+# <font color="#ff6666">贡献</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#ff6666' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -72,7 +47,7 @@ languages: {{language}}
 
 {% endfor %}
 
-## 绿色
+# <font color="#5fb236">模型</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#5fb236' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -87,7 +62,7 @@ languages: {{language}}
 
 {% endfor %}
 
-## 蓝色
+# <font color="#2ea8e5">背景</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#2ea8e5' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -102,7 +77,7 @@ languages: {{language}}
 
 {% endfor %}
 
-## 紫色
+# <font color="#a28ae5">算法</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#a28ae5' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -118,7 +93,7 @@ languages: {{language}}
 
 {% endfor %}
 
-## 洋红色
+# <font color="#e56eee">参考</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#e56eee' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -133,7 +108,7 @@ languages: {{language}}
 
 {% endfor %}
 
-## 橘色
+# <font color="#f19837">方法/实验</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#f19837' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -148,9 +123,24 @@ languages: {{language}}
 
 {% endfor %}
 
-## 灰色
+# <font color="#aaaaaa">不足</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#aaaaaa' %}
+### 第{{i}}个注释{% set i=i+1 %}
+#### 文本:
+{{annotation.annotatedText}}
+#### 评论: 
+{{annotation.comment}}{% if annotation.imageBaseName %}
+![[{{annotation.imageBaseName}}]]{% endif %}
+#### zotero位置:
+{{pdfZoteroLink|replace("//select/", "//open-pdf/")|replace(")", "")}}?page={{annotation.page}}&annotation={{annotation.id}})
+{% endif %}
+
+{% endfor %}
+
+# <font color="#b15928">学习</font>
+
+{% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#b15928' %}
 ### 第{{i}}个注释{% set i=i+1 %}
 #### 文本:
 {{annotation.annotatedText}}

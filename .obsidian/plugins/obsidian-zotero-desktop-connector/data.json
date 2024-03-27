@@ -13,6 +13,14 @@
   ],
   "exportFormats": [
     {
+      "name": "import annotation color note",
+      "outputPathTemplate": "inbox/annotation-{{title}}.md",
+      "imageOutputPathTemplate": "inbox/{{title}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "模板/annotation-color-note.md",
+      "cslStyle": "ieee"
+    },
+    {
       "name": "import zotero note",
       "outputPathTemplate": "inbox/{{title}}.md",
       "imageOutputPathTemplate": "inbox/{{title}}/",

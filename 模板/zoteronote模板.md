@@ -7,11 +7,12 @@ tags:
   - 待归档
 ---
 
-**TitleTranslation:**  {{TitleTranslation}}
+**TitleTranslation:**  {% if titleTranslation %}{{titleTranslation}}{% endif %} 
 **Journal or Conference:**  {% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} {{conferenceName}} {{publicationTitle}} {{university}}
 **Authors:**  {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
 **Pub.date:**  {% if date %}{{date | format("YYYY-MM")}}{% endif %}
 **DOI:**  {% if DOI %}{{DOI}}{% endif %}
+**tags:** {{allTags}}
 **zoterolink:**  [zotero]({{select}})
 
 # 摘要

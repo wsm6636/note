@@ -36,8 +36,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5150fea12009d561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/zoteronote模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -66,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/zoteronote模板.md"
               }
             }
           },
@@ -133,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "模板/zoteronote模板.md"
               }
             }
           }
@@ -168,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/zoteronote模板.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "模板/zoteronote模板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -223,70 +237,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "floating": {
-    "id": "7c6c4e7efdb575e3",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cbacbf59c5cc1314",
-        "type": "window",
-        "children": [
-          {
-            "id": "ae1aece948ebc53e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b5f8aebc076b651c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "research/因果链/End-To-End Timing Analysis in ROS2.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "cb08bf26e10cd093",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1ee3d62c5842fb22",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "模板/zoteronote模板.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 670,
-        "y": 332,
-        "width": 1480,
-        "height": 1050,
-        "maximize": true,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "832e1994679bf635",
+  "active": "5150fea12009d561",
   "lastOpenFiles": [
-    "research/因果链/End-To-End Timing Analysis in ROS2.md",
-    "inbox/2024-03-27.md",
-    "HOMEPAGE.canvas",
-    "模板/zoteronote模板.md.baiduyun.uploading.cfg",
+    "inbox/{{select}}.md",
     "模板/zoteronote模板.md",
+    "模板/zoteronote模板.md.baiduyun.uploading.cfg",
+    "inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md.baiduyun.uploading.cfg",
+    "模板/annotation-color-note.md",
+    "inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "模板/annotation-color-note.md.baiduyun.uploading.cfg",
+    "HOMEPAGE.canvas",
+    "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "未命名.canvas",
+    "inbox/2024-03-27.md",
+    "research/因果链/End-To-End Timing Analysis in ROS2.md",
     "模板/zotero note 模板.md.baiduyun.uploading.cfg",
     "模板/月复盘模板.md.baiduyun.uploading.cfg",
     "模板/年复盘模板.md.baiduyun.uploading.cfg",
@@ -303,9 +267,7 @@
     "inbox/240327QuickNote.md",
     "inbox/{{YYYY-MM-DD}}.md",
     "paper/DAC/方法-模型整理.md",
-    "inbox/2024-03.md.baiduyun.uploading.cfg",
     "wsm/日记/2024-03-26.md",
-    "inbox/2024-03-25-W13.md.baiduyun.uploading.cfg",
     "inbox/2024-03-25-W13.md",
     "2024-03-27.md",
     "wsm/日记/2024-03-27.md",
@@ -315,9 +277,6 @@
     "research/因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "paper/ESWEEK/note-ESWEEK.md",
     "research/因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
-    "research/端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-    "wsm/日记/2024-03-04.md",
-    "wsm/日记/2024-03-02.md",
     "模板/启动页模板1.canvas",
     "模板/启动页模板2.canvas",
     "模板/启动页模板3.canvas",
@@ -325,7 +284,6 @@
     "模板/启动页.canvas",
     "wsm/未命名.canvas",
     "图/1.png",
-    "未命名.canvas",
     "图/222 1.png",
     "图/111).png",
     "图/111.png",

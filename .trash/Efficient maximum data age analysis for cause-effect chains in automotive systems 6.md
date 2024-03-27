@@ -1,13 +1,13 @@
 ---
 created: 2024-03-27T20:23
-updated: 2024-03-27T20:23
+updated: 2024-03-27T20:26
 tags:
   - 笔记
   - 笔记/文献笔记
   - 待归档
 ---
 
-**TitleTranslation:**  
+**TitleTranslation:**   
 **Journal or Conference:**   DAC '22: 59th ACM/IEEE Design Automation Conference  
 **Authors:**  RanBi, XinbinLiu, JiankangRen, PengfeiWang, HuaweiLv, GuozhenTan
 **Pub.date:**  2022-07
