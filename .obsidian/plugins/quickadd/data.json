@@ -6,26 +6,26 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "inbox/{{DATE:YYMMDD}}QuickNote.md",
+      "captureTo": "inbox/{{DATE}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "模板/QuickNote.md"
+        "template": "模板/日记模板.md"
       },
       "format": {
         "enabled": true,
         "format": "- {{time}}：{{VALUE}}"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
+        "enabled": true,
+        "after": "# QuickNote",
+        "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
-      "prepend": true,
+      "prepend": false,
       "task": false,
       "openFileInNewTab": {
         "enabled": false,
