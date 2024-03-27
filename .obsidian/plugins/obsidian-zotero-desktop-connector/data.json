@@ -25,7 +25,7 @@
       "outputPathTemplate": "00-inbox/{{title}}.md",
       "imageOutputPathTemplate": "00-inbox/{{title}}/",
       "imageBaseNameTemplate": "image",
-      "templatePath": "模板/zoteronote模板.md",
+      "templatePath": "00-模板/zoteronote模板.md",
       "cslStyle": "ieee"
     }
   ],

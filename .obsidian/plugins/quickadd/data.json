@@ -6,12 +6,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "00-inbox/{{DATE}}.md",
+      "captureTo": "00-inbox/{{DATE}}QuickNote.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "00-模板/日记模板.md"
+        "template": "00-模板/QuickNote.md"
       },
       "format": {
         "enabled": true,

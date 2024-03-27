@@ -127,7 +127,7 @@
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
       "name": "打卡",
       "createAt": "2024-02-28T08:37:59.147Z",
-      "updateAt": "2024-03-25T14:02:38.625Z",
+      "updateAt": "2024-03-27T15:26:19.382Z",
       "widget": {
         "id": "8d6cf5ca-585b-45a1-8cd4-ad9d66cc61dc",
         "type": "multi",
@@ -147,7 +147,7 @@
                 "id": "e507dce4-f389-4496-b67c-ee75c2038189",
                 "checkInRecordType": "task",
                 "tag": "#论文",
-                "name": ""
+                "name": "#论文"
               },
               {
                 "id": "ea7d6105-8e0a-4ae6-98cf-a46a8824b778",

@@ -23,6 +23,53 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "b1da508ef36c873b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/02-周记/2024-03-25-W13.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0348a068b3945856",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/日记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "302926277e7bc2bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/01-日记/2024-03-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbe9e765aeee8033",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
           }
         ]
       }
@@ -63,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#待归档path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +127,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -187,12 +235,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 319,
-    "collapsed": true
+    "width": 319
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,49 +255,49 @@
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": true,
       "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "298480bd46575a83",
+  "active": "14e19d6c3c25ebf5",
   "lastOpenFiles": [
+    "wsm/01-日记/2024-03-27.md",
+    "wsm/01-日记/2024-03-27.md.baiduyun.uploading.cfg",
+    "00-模板/日记模板.md",
+    "wsm/02-周记/2024-03-25-W13.md",
+    "HOMEPAGE.canvas",
+    "2024-03-27.md.baiduyun.uploading.cfg",
+    "wsm/01-日记/2024-03-26.md",
+    "2024-03-27.md",
+    "00-inbox/2024-03-27.md.baiduyun.uploading.cfg",
+    "wsm/01-日记/2024-03-20.md",
+    "wsm/03-月复盘/2024-03.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-03-25-W13.md.baiduyun.uploading.cfg",
+    "00-inbox/2024-03-26.md",
     "wsm/03-月复盘/2024-02.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-03-18-W12.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-03-11-W11.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-03-04-W10.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-02-26-W09.md.baiduyun.uploading.cfg",
-    "wsm/02-周记/2024-02-19-W08.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-03-26.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-03-25.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-03-24.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-03-23.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-03-22.md.baiduyun.uploading.cfg",
     "03-research/LET/未命名看板.md",
-    "00-inbox/2024-03-27.md",
     "00-模板/zoteronote模板.md",
     "inbox/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "00-模板/annotation-color-note.md",
     "inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "未命名.canvas",
     "inbox/{{select}}.md",
-    "HOMEPAGE.canvas",
     "03-research/02-因果链/End-To-End Timing Analysis in ROS2.md",
     "00-模板/年复盘模板.md",
     "00-模板/月复盘模板.md",
     "00-模板/周记模板.md",
-    "00-模板/日记模板.md",
     "00-模板/QuickNote.md",
     "模板/read note template.md",
     "inbox/240327QuickNote.md",
     "inbox/{{YYYY-MM-DD}}.md",
     "02-paper/03-DAC/方法-模型整理.md",
-    "wsm/01-日记/2024-03-26.md",
-    "00-inbox/2024-03-25-W13.md",
-    "2024-03-27.md",
     "wsm/日记/2024-03-27.md",
     "inbox/test.md",
     "inbox/未命名.md",
-    "240327QuickNote.md",
-    "03-research/02-因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
     "00-模板/启动页模板1.canvas",
     "00-模板/启动页模板2.canvas",
     "00-模板/启动页模板3.canvas",
