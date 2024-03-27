@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"ae99c48849aeb857","type":"text","text":"![1|160](图/1.png)\n\n","x":-679,"y":267,"width":195,"height":220,"color":"#1e1e2e"},
+		{"id":"ae99c48849aeb857","type":"text","text":"![1|160](../06-图/1.png)\n\n","x":-679,"y":267,"width":195,"height":220,"color":"#1e1e2e"},
 		{"id":"04352d163ff92106","type":"text","text":"```contributionWidget\nid: 7c10eacf-0a9f-4fad-8c62-8726f9b2000c\ntype: 'ref'\nrefId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n","x":-486,"y":381,"width":507,"height":106},
 		{"id":"17df56943a6644af","type":"text","text":"```contributionWidget\nid: cf644c2f-b299-40df-90fd-e5b6843910c7\ntype: 'ref'\nrefId: '4bc8ad91-691f-4473-b9bb-6ae22dcb130d'\n```\n","x":30,"y":298,"width":651,"height":189},
 		{"id":"3dc7d63e2b7b2296","type":"text","text":"\n# 每天都很哇塞    ","x":-486,"y":298,"width":507,"height":75},

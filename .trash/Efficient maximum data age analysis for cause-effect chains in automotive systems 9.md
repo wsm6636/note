@@ -1,6 +1,6 @@
 ---
 created: 2024-03-27T21:11
-updated: 2024-03-27T21:11
+updated: 2024-03-27T21:35
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -12,7 +12,7 @@ tags:
 **Authors:**  RanBi, XinbinLiu, JiankangRen, PengfeiWang, HuaweiLv, GuozhenTan
 **Pub.date:**  2022-07
 **DOI:**  10/gsfbs4
-**tags:** #ing, ##组会, ##端到端/dateage
+**tags:** ing, #组会, #端到端/dateage
 **zoterolink:**  [zotero](zotero://select/library/items/NUYD2XNF)
 
 # 摘要

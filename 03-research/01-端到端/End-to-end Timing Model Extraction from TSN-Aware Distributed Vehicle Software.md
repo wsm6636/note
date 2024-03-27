@@ -1,6 +1,6 @@
 ---
 created: 2023-09-19T20:22
-updated: 2024-03-26T23:33
+updated: 2024-03-27T22:40
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -33,7 +33,7 @@ End-to-end Timing Modeling and Analysis of TSN in Component-Based Vehicular Soft
 除了管理车载分布式软件系统的设计复杂性外，这些系统的开发人员还被要求验证其软件体系结构上指定的实时要求。可以通过执行这些系统的软件体系结构的端到端数据传播延迟分析来验证时序要求 [13]、[14]。分析结果还可以指导软件体系结构的改进 [15]。这种分析已经在汽车行业的几个工具中实现，这些工具支持这些系统的基于模型和组件的开发，例如，SymTA/S2 [16] 和 Rubus [17]。分析需要端到端时序模型作为关键输入。端到端计时模型包含车载分布式软件系统的全面计时信息。该时序模型的实例必须从这些系统的软件体系结构中提取，并作为输入提供给基于模型的分析工具。
 
 本文提出了一种端到端的时序模型来描述支持 TSN 的分布式嵌入式系统。此外，我们提出了一种自动化的方法来系统地从这些系统的软件体系结构中提取端到端时序模型的实例。端到端时序模型可用于系统的端到端数据传输延迟分析。我们基于在 Rubus-ICE 工具套件 [18] 中开发的 RCM 在车辆领域的工业用例上对所提出的方法进行了评估。作为概念验证，我们选择 RCM 是因为它是第一个商业上可用的模型，支持基于 TSN 的车载分布式嵌入式系统的全面建模和端到端数据传播延迟分析 [19]。
-[8、Holistic Modeling of Time Sensitive Networking in Component-based Vehicular Embedded Systems——构件化车载嵌入式系统中时间敏感网络的整体建模](因果链/其他人的工作.md#8、Holistic%20Modeling%20of%20Time%20Sensitive%20Networking%20in%20Component-based%20Vehicular%20Embedded%20Systems——构件化车载嵌入式系统中时间敏感网络的整体建模)
+[8、Holistic Modeling of Time Sensitive Networking in Component-based Vehicular Embedded Systems——构件化车载嵌入式系统中时间敏感网络的整体建模](../02-因果链/其他人的工作.md#8、Holistic%20Modeling%20of%20Time%20Sensitive%20Networking%20in%20Component-based%20Vehicular%20Embedded%20Systems——构件化车载嵌入式系统中时间敏感网络的整体建模)
 
 本文的主要贡献如下。
 

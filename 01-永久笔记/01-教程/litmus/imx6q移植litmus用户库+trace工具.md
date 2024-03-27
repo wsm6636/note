@@ -1,12 +1,12 @@
 ---
 created: 2023-07-08T20:32
-updated: 2024-03-26T23:35
+updated: 2024-03-27T22:23
 tags:
   - 笔记
   - 笔记/实验
 ---
 
-@[TOC](imx6q移植litmus用户库+trace工具)
+@[TOC](imx6q移植litmus用户库+trace工具.md)
  [litmus内核移植](https://blog.csdn.net/qq_38349235/article/details/122578766?spm=1001.2014.3001.5502).
 # liblitmus
 1、下载并解压liblitmus（确保liblitmus与litmus内核在同一路径下）

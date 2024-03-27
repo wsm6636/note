@@ -6,17 +6,27 @@ tags:
   - 笔记/文献笔记
   - 待归档
 ---
-
-**TitleTranslation:**  
+{% set cleanedString = extra|replace("abstractTranslation: ", "")|replace("titleTranslation: ", "") %}
+{% set parts = cleanedString.split("\n") %}
+{% set titleTranslation = parts[0] %}
+{% set abstractTranslation = parts[1] %}
+**TitleTranslation:**  {{ titleTranslation }}
 **Journal or Conference:**  {% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} {{conferenceName}} {{publicationTitle}} {{university}}
 **Authors:**  {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
 **Pub.date:**  {% if date %}{{date | format("YYYY-MM")}}{% endif %}
 **DOI:**  {% if DOI %}{{DOI}}{% endif %}
-**tags:** {{hashTags}}
+**tags:** #{{allTags}}
 **zoterolink:**  [zotero]({{select}})
 
 # 摘要
-{{extra}}
+
+{{ abstractTranslation }}
+
+
+
+
+
+
 
 ***
 

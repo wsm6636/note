@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiNotebook",
       "LiInbox",
       "LiHome",
       "TiReportSearch",
-      "RiProjectorLine",
-      "BoBxJoystick"
+      "RiProjectorLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -196,18 +196,19 @@
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":"
   },
-  "快速笔记OneNote": "TiNotebook",
-  "图": "TiPhoto",
   "英语": "RiEnglishInput",
-  "wsm": "RiAdminLine",
-  "ppt": "FarFilePowerpoint",
-  "Mind": "RiMindMap",
-  "教程": "LiSettings",
-  "模板": "TiTemplate",
-  "娱乐": "BoBxJoystick",
-  "paper": "LiNewspaper",
-  "project": "RiProjectorLine",
-  "research": "TiReportSearch",
   "HOMEPAGE.canvas": "LiHome",
-  "inbox": "LiInbox"
+  "00-inbox": "LiInbox",
+  "00-快速笔记OneNote": "TiNotebook",
+  "02-paper": "LiNewspaper",
+  "03-research": "TiReportSearch",
+  "04-project": "RiProjectorLine",
+  "05-娱乐": "BoBxJoystick",
+  "06-图": "TiPhoto",
+  "06-Mind": "RiMindMap",
+  "06-ppt": "FarFilePowerpoint",
+  "00-模板": "TiTemplate",
+  "01-永久笔记": "TiNotebook",
+  "01-永久笔记/01-教程": "LiSettings",
+  "wsm": "RiAdminLine"
 }

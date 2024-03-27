@@ -1,12 +1,12 @@
 ---
 created: 2023-07-08T20:32
-updated: 2024-03-26T23:35
+updated: 2024-03-27T22:23
 tags:
   - 笔记
   - 笔记/实验
 ---
 
-@[TOC](imx6q移植——linux4.1.15.+litmus2016.1)
+@[TOC](imx6q移植——linux4.1.15.+litmus2016.1.md)
 开发板：OKMX6X-C
 环境：Vmware16 Pro+Ubuntu18.0
 # 编译环境搭建

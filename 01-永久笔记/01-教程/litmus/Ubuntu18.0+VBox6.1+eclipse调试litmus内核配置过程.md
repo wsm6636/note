@@ -1,12 +1,12 @@
 ---
 created: 2023-07-08T20:32
-updated: 2024-03-26T23:35
+updated: 2024-03-27T22:23
 tags:
   - 笔记
   - 笔记/实验
 ---
 
-@[TOC](Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程)
+@[TOC](Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md)
 目标机：Vbox6.1，litmus（官网下载litmus-2016.1.qcow），Linux4.1.3
 开发机：Ubuntu18.0，Linux4.18，eclipse2021-06R，socat（串口）
 ## 开发机配置

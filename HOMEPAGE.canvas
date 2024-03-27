@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"02085c6c7c617200","type":"text","text":"","x":-2088,"y":355,"width":250,"height":60},
-		{"id":"6337b67602c01e79","type":"text","text":"![1|160](图/1.png)\n\n","x":-2681,"y":-1120,"width":198,"height":223,"color":"#1e1e2e"},
+		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2681,"y":-1120,"width":198,"height":223,"color":"#1e1e2e"},
 		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2571,"y":-1110,"width":523,"height":102},
 		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2483,"y":-1038,"width":480,"height":198},
 		{"id":"d5128eeb3a24cf14","type":"text","text":"```contributionWidget\nid: 9d1154cd-4fa5-4645-ba8c-8e12aa27c071\ntype: 'ref'\nrefId: '4bc8ad91-691f-4473-b9bb-6ae22dcb130d'\n```\n\n","x":-2048,"y":-1110,"width":802,"height":257},

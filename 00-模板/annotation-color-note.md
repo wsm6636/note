@@ -14,6 +14,7 @@ tags:
 **Pub.date:**  {% if date %}{{date | format("YYYY-MM")}}{% endif %}
 **DOI:**  {% if DOI %}{{DOI}}{% endif %}
 **zoterolink:**  [zotero]({{select}})
+**link:** [[{{title}}]]
 
 
 

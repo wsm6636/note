@@ -229,47 +229,47 @@
       "color": "-7UiyGekduMqn6xGIZ06x"
     },
     {
-      "path": "图",
-      "color": "U1U6tCyWCtnF-D51N_16M"
-    },
-    {
-      "path": "ppt",
-      "color": "U1U6tCyWCtnF-D51N_16M"
-    },
-    {
-      "path": "教程",
+      "path": "06-图",
       "color": "s6B9A2N9MmcAl0wTGH6-c"
     },
     {
-      "path": "快速笔记OneNote",
-      "color": "rE3DI0wpPeODCiPAqTEi0"
+      "path": "06-ppt",
+      "color": "s6B9A2N9MmcAl0wTGH6-c"
+    },
+    {
+      "path": "01-永久笔记/01-教程",
+      "color": "S1keANt57L8-ByvYi7lL-"
+    },
+    {
+      "path": "00-快速笔记OneNote",
+      "color": "7VdWZ__bkU2cCGuZYuwC0"
     },
     {
       "path": "wsm",
-      "color": "9642R5bFMvgEVEEXfTLqW"
+      "color": "rE3DI0wpPeODCiPAqTEi0"
     },
     {
-      "path": "教程/远程开机_校园网环境_实验室主机配置.md",
-      "color": "bw7aKq_ZVirbcxDn5pKQL"
+      "path": "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "教程/远程控制_客户端配置.md",
-      "color": "bw7aKq_ZVirbcxDn5pKQL"
+      "path": "01-永久笔记/01-教程/远程控制_客户端配置.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "教程/ubuntu系统迁移.md",
-      "color": "bw7aKq_ZVirbcxDn5pKQL"
+      "path": "01-永久笔记/01-教程/ubuntu系统迁移.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "教程/Vmware Ubuntu虚拟机磁盘扩容方法.md",
-      "color": "bw7aKq_ZVirbcxDn5pKQL"
+      "path": "01-永久笔记/01-教程/Vmware Ubuntu虚拟机磁盘扩容方法.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "图/RTCSA",
+      "path": "06-图/RTCSA",
       "color": "et4HgjNVHtXv8WFSKh4yL"
     },
     {
-      "path": "图/RTSS",
+      "path": "06-图/RTSS",
       "color": "et4HgjNVHtXv8WFSKh4yL"
     },
     {
@@ -281,19 +281,19 @@
       "color": "TS3Et3LXh6o1TzyoSWZp7"
     },
     {
-      "path": "Mind",
-      "color": "U1U6tCyWCtnF-D51N_16M"
+      "path": "06-Mind",
+      "color": "s6B9A2N9MmcAl0wTGH6-c"
     },
     {
-      "path": "教程/配置zotero7.md",
-      "color": "bw7aKq_ZVirbcxDn5pKQL"
+      "path": "01-永久笔记/01-教程/配置zotero7.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "模板",
+      "path": "00-模板",
       "color": "7VdWZ__bkU2cCGuZYuwC0"
     },
     {
-      "path": "图/DAC",
+      "path": "06-图/DAC",
       "color": "et4HgjNVHtXv8WFSKh4yL"
     },
     {
@@ -301,16 +301,16 @@
       "color": "SVMP98bwJKH3jah9yW4iq"
     },
     {
-      "path": "模板/挂件.md",
+      "path": "00-模板/挂件.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "模板/contributionGraph.md",
+      "path": "00-模板/contributionGraph.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "Excalidraw",
-      "color": "U1U6tCyWCtnF-D51N_16M"
+      "path": "06-Excalidraw",
+      "color": "s6B9A2N9MmcAl0wTGH6-c"
     },
     {
       "path": "英语/雅思",
@@ -325,35 +325,35 @@
       "color": "SVMP98bwJKH3jah9yW4iq"
     },
     {
-      "path": "图/111.png",
+      "path": "06-图/111.png",
       "color": "6zMlG3qJ1WPdUq6TNEdGm"
     },
     {
-      "path": "图/1.png",
+      "path": "06-图/1.png",
       "color": "6zMlG3qJ1WPdUq6TNEdGm"
     },
     {
-      "path": "模板/周记模板.md",
+      "path": "00-模板/周记模板.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "模板/日记模板.md",
+      "path": "00-模板/日记模板.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "模板/启动页模板1.canvas",
+      "path": "00-模板/启动页模板1.canvas",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
       "path": "HOMEPAGE.canvas",
-      "color": "rE3DI0wpPeODCiPAqTEi0"
+      "color": "7VdWZ__bkU2cCGuZYuwC0"
     },
     {
-      "path": "模板/月复盘模板.md",
+      "path": "00-模板/月复盘模板.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "模板/年复盘模板.md",
+      "path": "00-模板/年复盘模板.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
@@ -365,7 +365,7 @@
       "color": "SVMP98bwJKH3jah9yW4iq"
     },
     {
-      "path": "模板/启动页模板3.canvas",
+      "path": "00-模板/启动页模板3.canvas",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
@@ -405,7 +405,7 @@
       "color": "TS3Et3LXh6o1TzyoSWZp7"
     },
     {
-      "path": "模板/启动页模板2.canvas",
+      "path": "00-模板/启动页模板2.canvas",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
@@ -421,8 +421,8 @@
       "color": "TS3Et3LXh6o1TzyoSWZp7"
     },
     {
-      "path": "inbox/2024-03.md",
-      "color": "TS3Et3LXh6o1TzyoSWZp7"
+      "path": "00-inbox/2024-03.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
       "path": "wsm/日记/2024-03-09.md",
@@ -433,11 +433,11 @@
       "color": "TS3Et3LXh6o1TzyoSWZp7"
     },
     {
-      "path": "模板/一言模板.md",
+      "path": "00-模板/一言模板.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "模板/一言.md",
+      "path": "00-模板/一言.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
@@ -513,440 +513,444 @@
       "color": "TS3Et3LXh6o1TzyoSWZp7"
     },
     {
-      "path": "inbox/2024-03-25-W13.md",
-      "color": "TS3Et3LXh6o1TzyoSWZp7"
+      "path": "00-inbox/2024-03-25-W13.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
       "path": "wsm/日记/2024-03-26.md",
       "color": "TS3Et3LXh6o1TzyoSWZp7"
     },
     {
-      "path": "research",
-      "color": "_4X6fmaHPTO3qzOjfm9E6"
-    },
-    {
-      "path": "paper",
-      "color": "rkhLH1n7Pc0VXixbEMDwt"
-    },
-    {
-      "path": "project",
+      "path": "03-research",
       "color": "FBexy33_ayGHMXeikvPYp"
     },
     {
-      "path": "娱乐",
+      "path": "02-paper",
+      "color": "_4X6fmaHPTO3qzOjfm9E6"
+    },
+    {
+      "path": "04-project",
+      "color": "rkhLH1n7Pc0VXixbEMDwt"
+    },
+    {
+      "path": "05-娱乐",
       "color": "oTyZywE7fsthV7GFbQFAu"
     },
     {
-      "path": "教程/litmus",
-      "color": "bw7aKq_ZVirbcxDn5pKQL"
+      "path": "01-永久笔记/01-教程/litmus",
+      "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
-      "color": "6WMXfCuSwugf1FJ9WTa5-"
+      "path": "01-永久笔记/01-教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
+      "color": "TW5aPdIAm8mTqITGzqdgu"
     },
     {
-      "path": "教程/litmus/imx6q移植——linux4.1.15.+litmus2016.1.md",
-      "color": "6WMXfCuSwugf1FJ9WTa5-"
+      "path": "01-永久笔记/01-教程/litmus/imx6q移植——linux4.1.15.+litmus2016.1.md",
+      "color": "TW5aPdIAm8mTqITGzqdgu"
     },
     {
-      "path": "教程/litmus/imx6q移植litmus用户库+trace工具.md",
-      "color": "6WMXfCuSwugf1FJ9WTa5-"
+      "path": "01-永久笔记/01-教程/litmus/imx6q移植litmus用户库+trace工具.md",
+      "color": "TW5aPdIAm8mTqITGzqdgu"
     },
     {
-      "path": "教程/litmus/litmus虚拟机qcow扩容.md",
-      "color": "6WMXfCuSwugf1FJ9WTa5-"
+      "path": "01-永久笔记/01-教程/litmus/litmus虚拟机qcow扩容.md",
+      "color": "TW5aPdIAm8mTqITGzqdgu"
     },
     {
-      "path": "教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核过程.md",
-      "color": "6WMXfCuSwugf1FJ9WTa5-"
+      "path": "01-永久笔记/01-教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核过程.md",
+      "color": "TW5aPdIAm8mTqITGzqdgu"
     },
     {
-      "path": "教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md",
-      "color": "6WMXfCuSwugf1FJ9WTa5-"
+      "path": "01-永久笔记/01-教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md",
+      "color": "TW5aPdIAm8mTqITGzqdgu"
     },
     {
-      "path": "娱乐/塞尔达",
+      "path": "05-娱乐/塞尔达",
       "color": "8lxKc-w-D4gyD7ZqwUpyo"
     },
     {
-      "path": "娱乐/塞尔达/旷野之息迷你挑战.md",
+      "path": "05-娱乐/塞尔达/旷野之息迷你挑战.md",
       "color": "QWCVnxnKFIMAQxqBKJpyj"
     },
     {
-      "path": "娱乐/塞尔达/旷野之息神庙挑战.md",
+      "path": "05-娱乐/塞尔达/旷野之息神庙挑战.md",
       "color": "QWCVnxnKFIMAQxqBKJpyj"
     },
     {
-      "path": "paper/DAC",
-      "color": "Ji29X9GRfcCwWY5Hagczs"
+      "path": "02-paper/03-DAC",
+      "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "paper/ESWEEK",
-      "color": "Ji29X9GRfcCwWY5Hagczs"
+      "path": "02-paper/04-ESWEEK",
+      "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "paper/RTCSA",
-      "color": "Ji29X9GRfcCwWY5Hagczs"
+      "path": "02-paper/01-RTCSA",
+      "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "paper/RTSS",
-      "color": "Ji29X9GRfcCwWY5Hagczs"
+      "path": "02-paper/02-RTSS",
+      "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "paper/DAC/方法-模型整理.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/03-DAC/方法-模型整理.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/DAC/ATS-workspace.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/03-DAC/ATS-workspace.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/ESWEEK/ESWEEK-workspace.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/04-ESWEEK/ESWEEK-workspace.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/ESWEEK/note-ESWEEK.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/04-ESWEEK/note-ESWEEK.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/RTCSA/LAG.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/01-RTCSA/LAG.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/RTCSA/QCH-workspace.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/01-RTCSA/QCH-workspace.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/RTSS/评审意见精简.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/02-RTSS/评审意见精简.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "paper/RTSS/workshop.md",
-      "color": "d8-xy80JVXxLgUhOCWYHi"
+      "path": "02-paper/02-RTSS/workshop.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "project/山水清",
+      "path": "04-project/山水清",
       "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "project/fastdds",
+      "path": "04-project/fastdds",
       "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "project/perf",
+      "path": "04-project/perf",
       "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "project/rtbubbles",
+      "path": "04-project/rtbubbles",
       "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/调度",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/03-调度",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/端到端",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/01-端到端",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/因果链",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/02-因果链",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/Enrico Bini",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/04-Enrico Bini",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/iousing",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/07-iousing",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/LET",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/05-LET",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/PREEMPT_RT",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/09-PREEMPT_RT",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/RTC",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/08-RTC",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/TSN",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "path": "03-research/06-TSN",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "research/调度/定时器",
-      "color": "2idXfXWSgk2lkGKUH3deA"
+      "path": "03-research/03-调度/定时器",
+      "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "research/调度/定时器/多优先级硬件定时器专利.md",
+      "path": "03-research/03-调度/定时器/多优先级硬件定时器专利.md",
       "color": "QyV0W8XheK7Dw9m5BeKP2"
     },
     {
-      "path": "research/调度/定时器/减少定时器中断延时.md",
+      "path": "03-research/03-调度/定时器/减少定时器中断延时.md",
       "color": "QyV0W8XheK7Dw9m5BeKP2"
     },
     {
-      "path": "research/调度/定时器/硬件化.md",
+      "path": "03-research/03-调度/定时器/硬件化.md",
       "color": "QyV0W8XheK7Dw9m5BeKP2"
     },
     {
-      "path": "research/调度/定时器/timershield.md",
+      "path": "03-research/03-调度/定时器/timershield.md",
       "color": "QyV0W8XheK7Dw9m5BeKP2"
     },
     {
-      "path": "research/调度/锁",
+      "path": "03-research/03-调度/锁",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/03-调度/锁/preemptrt.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/锁/RCU.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/锁/RTmutes.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/锁/sleepspinlock.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/中断",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/锁/preemptrt.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
-    },
-    {
-      "path": "research/调度/锁/RCU.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
-    },
-    {
-      "path": "research/调度/锁/RTmutes.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
-    },
-    {
-      "path": "research/调度/锁/sleepspinlock.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
-    },
-    {
-      "path": "research/调度/中断",
+      "path": "03-research/03-调度/bus",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/bus",
+      "path": "03-research/03-调度/cache",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/cache",
+      "path": "03-research/03-调度/memory",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/memory",
+      "path": "03-research/03-调度/基础知识-调度.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/基础知识-调度.md",
+      "path": "03-research/03-调度/实时调度理论.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/实时调度理论.md",
+      "path": "03-research/03-调度/linux内核中的调度.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/linux内核中的调度.md",
+      "path": "03-research/03-调度/bus/CAN.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/bus/crossbar arbitation policy.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/cache/cache.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/cache/cache 1.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/cache/Cache-aware response time analysis for real-time tasks with fixed preemption points.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/cache/CAT.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/cache/PL310.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/memory/IntelMBA.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/03-调度/memory/memguard.md",
+      "color": "QyV0W8XheK7Dw9m5BeKP2"
+    },
+    {
+      "path": "03-research/01-端到端/端到端.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/01-端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/01-端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/02-因果链/基础知识-因果链.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/02-因果链/其他人的工作.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/02-因果链/cause-effect chain.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/02-因果链/End-To-End Timing Analysis in ROS2.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/02-因果链/Fixed-priority scheduling and controller co-design for time-sensitive networks.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/bus/CAN.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/Hybrid Scheduling of Tasks and Messages for TSN-Based Avionics Systems.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/bus/crossbar arbitation policy.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/Injection Time Planning- Making CQF Practical in Time-Sensitive Networking.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/cache/cache.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/ITANS- Incremental Task and Network Scheduling for Time-Sensitive Networks.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/cache/cache 1.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/note-chain.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/cache/Cache-aware response time analysis for real-time tasks with fixed preemption points.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/cache/CAT.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/cache/PL310.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/memory/IntelMBA.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/调度/memory/memguard.md",
-      "color": "QyV0W8XheK7Dw9m5BeKP2"
+      "path": "03-research/02-因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/端到端/端到端.md",
+      "path": "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "03-research/04-Enrico Bini/Feedback-based resource management for multi-threaded applications.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "03-research/07-iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "03-research/05-LET/读写通信.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "03-research/05-LET/Efficient Run-Time Environments for System-Level LET Programming.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "03-research/05-LET/LET.md",
       "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "research/端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+      "path": "03-research/09-PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/基础知识-因果链.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/其他人的工作.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/cause-effect chain.md",
+      "path": "03-research/09-PREEMPT_RT/PREEMPT_RT.md",
       "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "research/因果链/End-To-End Timing Analysis in ROS2.md",
+      "path": "03-research/08-RTC/Finitary Real-Time Calculus- Efficient Performance Analysis of Distributed Embedded Systems.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Fixed-priority scheduling and controller co-design for time-sensitive networks.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Hybrid Scheduling of Tasks and Messages for TSN-Based Avionics Systems.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Injection Time Planning- Making CQF Practical in Time-Sensitive Networking.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/ITANS- Incremental Task and Network Scheduling for Time-Sensitive Networks.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/note-chain.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/Enrico Bini/Feedback-based resource management for multi-threaded applications.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/LET/读写通信.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/LET/Efficient Run-Time Environments for System-Level LET Programming.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/LET/LET.md",
+      "path": "03-research/08-RTC/RTC.md",
       "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "research/PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md",
+      "path": "03-research/06-TSN/ATS",
+      "color": "pxDfySp685qcG-LPQKv8I"
+    },
+    {
+      "path": "03-research/06-TSN/Routing",
+      "color": "pxDfySp685qcG-LPQKv8I"
+    },
+    {
+      "path": "03-research/06-TSN/ATS/基础知识-ATS.md",
+      "color": "pxDfySp685qcG-LPQKv8I"
+    },
+    {
+      "path": "03-research/06-TSN/ATS/ATS.md",
+      "color": "pxDfySp685qcG-LPQKv8I"
+    },
+    {
+      "path": "03-research/06-TSN/ATS/IEEE 802.1Qcr Asynchronous Traffic Shaping with Linux Traffic Control.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/PREEMPT_RT/PREEMPT_RT.md",
-      "color": "pxDfySp685qcG-LPQKv8I"
-    },
-    {
-      "path": "research/RTC/Finitary Real-Time Calculus- Efficient Performance Analysis of Distributed Embedded Systems.md",
+      "path": "03-research/06-TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/RTC/RTC.md",
-      "color": "pxDfySp685qcG-LPQKv8I"
-    },
-    {
-      "path": "research/TSN/ATS",
-      "color": "pxDfySp685qcG-LPQKv8I"
-    },
-    {
-      "path": "research/TSN/Routing",
-      "color": "pxDfySp685qcG-LPQKv8I"
-    },
-    {
-      "path": "research/TSN/ATS/基础知识-ATS.md",
-      "color": "pxDfySp685qcG-LPQKv8I"
-    },
-    {
-      "path": "research/TSN/ATS/ATS.md",
-      "color": "pxDfySp685qcG-LPQKv8I"
-    },
-    {
-      "path": "research/TSN/ATS/IEEE 802.1Qcr Asynchronous Traffic Shaping with Linux Traffic Control.md",
+      "path": "03-research/06-TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "research/TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "research/TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
-      "path": "inbox",
-      "color": "rE3DI0wpPeODCiPAqTEi0"
-    },
-    {
-      "path": "永久笔记",
+      "path": "00-inbox",
       "color": "9642R5bFMvgEVEEXfTLqW"
     },
     {
-      "path": "模板/QuickNote.md",
+      "path": "01-永久笔记",
+      "color": "sTW3gDQbTUfHskG9qVYED"
+    },
+    {
+      "path": "00-模板/QuickNote.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "模板/zoteronote模板.md",
+      "path": "00-模板/zoteronote模板.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "模板/annotation-color-note.md",
+      "path": "00-模板/annotation-color-note.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
+    },
+    {
+      "path": "00-inbox/2024-03-27.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T13:43
-updated: 2024-03-26T23:33
+updated: 2024-03-27T22:40
 ---
 # cause-effect chain
 
@@ -24,6 +24,6 @@ updated: 2024-03-26T23:33
 
 [End-To-End Timing Analysis in ROS2](End-To-End%20Timing%20Analysis%20in%20ROS2.md)
 
-[End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software](../端到端/End-to-end%20Timing%20Model%20Extraction%20from%20TSN-Aware%20Distributed%20Vehicle%20Software.md)
+[End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software](../01-端到端/End-to-end%20Timing%20Model%20Extraction%20from%20TSN-Aware%20Distributed%20Vehicle%20Software.md)
 
 [Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing](Reaction%20Time%20Analysis%20of%20Event-Triggered%20Processing%20Chains%20with%20Data%20Refreshing.md)

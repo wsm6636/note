@@ -4,7 +4,7 @@
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
       "name": "查询",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-03-27T12:31:38.091Z",
+      "updateAt": "2024-03-27T14:53:59.289Z",
       "widget": {
         "id": "bbcd3eff-71d4-40bc-ba1e-3c6c32c31be3",
         "type": "multi",
@@ -18,7 +18,7 @@
             "type": "dataview",
             "titleAlign": "center",
             "maxWidthRatio": 100,
-            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
+            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n           .wherer(p=>p.file.path)\n\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
             "queryType": "dataviewjs",
             "backgroundStyle": "card",
             "maxHeight": 1200,
@@ -602,29 +602,40 @@
       "id": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
       "name": "摘录",
       "createAt": "2024-03-09T15:32:14.015Z",
-      "updateAt": "2024-03-13T15:04:25.388Z",
+      "updateAt": "2024-03-27T14:54:24.077Z",
       "widget": {
-        "id": "aebd52d9-9b81-4c99-8026-ccdf6eda080e",
-        "type": "quote",
+        "id": "464d29d9-8941-43c0-bba3-7b608a11edbc",
+        "type": "multi",
         "titleAlign": "center",
         "tabTitle": "",
         "maxWidthRatio": -1,
-        "backgroundStyle": "card",
-        "contentType": "block",
-        "coverType": "pageProperty",
-        "filter": {
-          "conditions": [
-            {
-              "type": "file_path",
-              "value": "调度",
-              "operator": "equals",
-              "property": "",
-              "id": "02fa38b0-9652-4106-a0f6-857f70309ba2"
-            }
-          ]
-        },
-        "maxHeight": 300,
-        "coverValue": "评分"
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "aebd52d9-9b81-4c99-8026-ccdf6eda080e",
+            "type": "quote",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "backgroundStyle": "card",
+            "contentType": "block",
+            "coverType": "pageProperty",
+            "filter": {
+              "conditions": [
+                {
+                  "type": "file_path",
+                  "value": "调度",
+                  "operator": "equals",
+                  "property": "",
+                  "id": "02fa38b0-9652-4106-a0f6-857f70309ba2"
+                }
+              ]
+            },
+            "maxHeight": 300,
+            "coverValue": "评分"
+          }
+        ],
+        "layoutType": "column"
       },
       "layout": {
         "lg": {
@@ -954,7 +965,7 @@
         "layoutType": "column"
       },
       "createAt": "2024-03-25T14:11:23.171Z",
-      "updateAt": "2024-03-25T14:12:18.757Z"
+      "updateAt": "2024-03-27T14:54:43.142Z"
     },
     {
       "id": "61bce30b-9de5-4e79-a4d1-f4e456c0eac9",
