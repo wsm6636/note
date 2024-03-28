@@ -1,7 +1,7 @@
 {
-  "trigger_auto_manual": "Manual",
+  "trigger_auto_manual": "Automatic",
   "use_regex_to_check_for_tags": true,
-  "statusBar_trigger_indicator": true,
+  "statusBar_trigger_indicator": false,
   "folder_tag_pattern": [
     {
       "folder": "00-inbox",

@@ -1,6 +1,6 @@
 {
   "autorun": false,
-  "folder": "",
+  "folder": "wsm/01-日记",
   "format": "YYYY-MM-DD",
   "template": "00-模板/日记模板"
 }
