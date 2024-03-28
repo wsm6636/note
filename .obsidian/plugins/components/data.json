@@ -4,7 +4,7 @@
       "id": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f",
       "name": "查询2",
       "createAt": "2024-03-28T14:31:18.139Z",
-      "updateAt": "2024-03-28T15:23:39.606Z",
+      "updateAt": "2024-03-28T16:17:07.633Z",
       "widget": {
         "id": "bd1f179d-cc75-4262-babb-a90d452067dd",
         "type": "multi",
@@ -19,7 +19,7 @@
             "titleAlign": "center",
             "tabTitle": "",
             "maxWidthRatio": -1,
-            "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag) => {\n\n        if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
+            "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const alltags={{alltags}}\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag) => {\n       \n        if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
             "queryType": "dataviewjs",
             "backgroundStyle": "card",
             "maxHeight": 300,
@@ -147,6 +147,15 @@
                 "placeholder": "",
                 "fromProperty": "${file.basename}",
                 "label": "Title"
+              },
+              {
+                "id": "b1981f1f-cd38-4bb1-b62e-2e654c132f85",
+                "type": "checkbox",
+                "name": "alltags",
+                "defaultValue": "ture",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "alltags"
               }
             ]
           }
@@ -327,7 +336,7 @@
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
       "name": "打卡",
       "createAt": "2024-02-28T08:37:59.147Z",
-      "updateAt": "2024-03-27T15:58:43.744Z",
+      "updateAt": "2024-03-28T16:06:56.812Z",
       "widget": {
         "id": "8d6cf5ca-585b-45a1-8cd4-ad9d66cc61dc",
         "type": "multi",
@@ -345,21 +354,21 @@
             "tasks": [
               {
                 "id": "e507dce4-f389-4496-b67c-ee75c2038189",
-                "checkInRecordType": "task",
+                "checkInRecordType": "pageProperty",
                 "tag": "#论文",
-                "name": ""
+                "name": "#论文"
               },
               {
                 "id": "ea7d6105-8e0a-4ae6-98cf-a46a8824b778",
-                "checkInRecordType": "task",
+                "checkInRecordType": "pageProperty",
                 "tag": "#英语",
-                "name": ""
+                "name": "#英语"
               },
               {
                 "id": "deb71792-6476-4866-a708-7fe1624c93a8",
-                "checkInRecordType": "task",
+                "checkInRecordType": "pageProperty",
                 "tag": "#运动",
-                "name": ""
+                "name": "#运动"
               }
             ],
             "backgroundColor": "#00000000",
