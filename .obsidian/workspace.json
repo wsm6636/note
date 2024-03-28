@@ -59,12 +59,25 @@
             }
           },
           {
-            "id": "98ee3d80cd1d8422",
+            "id": "b514ce9251950fe7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-模板/一言.md",
+                "file": "01-永久笔记/01-教程/远程控制_客户端配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94303954b01b9b0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "01-永久笔记/01-教程/远程控制_客户端配置.md"
               }
             }
           },
@@ -194,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "01-永久笔记/01-教程/远程控制_客户端配置.md"
               }
             }
           }
@@ -230,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "01-永久笔记/01-教程/远程控制_客户端配置.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "01-永久笔记/01-教程/远程控制_客户端配置.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -285,12 +298,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "787a902dd5ed4457",
+  "active": "b514ce9251950fe7",
   "lastOpenFiles": [
+    "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
+    "01-永久笔记/01-教程/远程控制_客户端配置.md",
     "00-inbox/2024-03-28.md",
-    "01-永久笔记/工作流.md",
-    "00-模板/日记模板.md",
     "00-模板/一言.md",
+    "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-03-27.md",
+    "00-模板/日记模板.md",
     "00-模板/挂件.md",
     "HOMEPAGE.canvas",
     "00-inbox/未命名.md",
@@ -304,7 +320,6 @@
     "wsm/01-日记/2024-03-28.md.nssyncsc",
     "00-inbox/2024-03-28.md.nssyncsc",
     "00-inbox/2024-03-28QuickNote.md",
-    "wsm/01-日记/2024-03-27.md",
     "wsm/01-日记/2024-03-24.md",
     "00-模板/QuickNote.md",
     "00-模板/contributionGraph.md",
@@ -314,7 +329,6 @@
     "00-inbox/2024-03.md",
     "00-模板/年复盘模板.md",
     "wsm/03-月复盘/2024-02.md",
-    "00-inbox/2024-03-25-W13.md",
     "desktop.ini",
     "wsm/01-日记/2024-03-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-03-27.md.baiduyun.uploading.cfg",

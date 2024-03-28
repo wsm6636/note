@@ -9,5 +9,8 @@
   "anuppuccin-theme-settings@@anp-file-icon-align": "0",
   "anuppuccin-theme-settings@@anp-kanban-hide-card-menus": false,
   "anuppuccin-theme-settings@@anp-highlight-custom": "anp-highlight-pink",
-  "catppuccin-interface-styles@@ctp-bold-folder-title": false
+  "catppuccin-interface-styles@@ctp-bold-folder-title": false,
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-mauve",
+  "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-text)"
 }
