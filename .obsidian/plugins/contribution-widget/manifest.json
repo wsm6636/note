@@ -1,9 +1,9 @@
 {
-	"id": "contribution-widget",
-	"name": "Contribution Widget",
-	"version": "9999.0.325",
+	"id": "components",
+	"name": "Components",
+	"version": "20240328",
 	"minAppVersion": "0.14.0",
-	"description": "create widgts for your obsidian",
+	"description": "create component for your obsidian",
 	"author": "vran",
 	"authorUrl": "https://github.com/vran-dev",
 	"isDesktopOnly": false,

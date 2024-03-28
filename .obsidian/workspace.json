@@ -32,8 +32,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -216,11 +215,10 @@
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": true,
       "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "dbe9e765aeee8033",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "wsm/01-日记/2024-03-27.md",
     "wsm/01-日记/2024-03-27.md.baiduyun.uploading.cfg",
