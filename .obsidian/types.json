@@ -13,7 +13,7 @@
     "created": "date",
     "日记": "date",
     "月复盘": "date",
-    "英语": "datetime",
-    "论文": "datetime"
+    "英语": "date",
+    "论文": "date"
   }
 }
