@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-03-28.md"
+                "file": "01-永久笔记/工作流.md"
               }
             }
           },
@@ -194,7 +194,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-03-28.md"
+                "file": "01-永久笔记/工作流.md"
               }
             }
           }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-03-28.md",
+                "file": "01-永久笔记/工作流.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-03-28.md",
+                "file": "01-永久笔记/工作流.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -285,14 +285,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "156b7746f428b099",
+  "active": "787a902dd5ed4457",
   "lastOpenFiles": [
+    "00-inbox/2024-03-28.md",
     "01-永久笔记/工作流.md",
     "00-模板/日记模板.md",
     "00-模板/一言.md",
     "00-模板/挂件.md",
     "HOMEPAGE.canvas",
-    "00-inbox/2024-03-28.md",
     "00-inbox/未命名.md",
     "00-inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "00-模板/zoteronote模板.md",

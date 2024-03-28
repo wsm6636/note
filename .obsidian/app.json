@@ -7,5 +7,6 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "propertiesInDocument": "visible",
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": true
 }

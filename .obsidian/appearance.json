@@ -14,5 +14,6 @@
     "supercharged-links-gen",
     "coffeebean-去除删除线-任务回顾专用",
     "【隐藏】canvas方框"
-  ]
+  ],
+  "showViewHeader": false
 }
