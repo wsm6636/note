@@ -1,16 +1,34 @@
 {
-  "trigger_auto_manual": "Automatic",
+  "trigger_auto_manual": "Manual",
   "use_regex_to_check_for_tags": true,
   "statusBar_trigger_indicator": true,
   "folder_tag_pattern": [
     {
-      "folder": "",
+      "folder": "00-inbox",
       "tag": "#待归档",
+      "pattern": ""
+    },
+    {
+      "folder": "wsm/01-日记",
+      "tag": "#个人/日记",
+      "pattern": ""
+    },
+    {
+      "folder": "wsm/02-周记",
+      "tag": "#个人/周记",
+      "pattern": ""
+    },
+    {
+      "folder": "wsm/03-月复盘",
+      "tag": "#个人/月复盘",
       "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": true,
   "excluded_folder": [
+    {
+      "folder": "00-模板"
+    },
     {
       "folder": ""
     }
