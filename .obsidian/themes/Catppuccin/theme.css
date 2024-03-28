@@ -129,7 +129,7 @@ body {
     var(--background-modifier-border),
     inset 0 0 0 1px var(--background-modifier-border);
   /* File layout */
-  --file-line-width: 65ch;
+  --file-line-width: 90ch;
   --file-folding-offset: 24px;
   --file-margins: var(--size-4-8);
   --file-header-font-size: var(--font-ui-small);
@@ -1647,6 +1647,15 @@ settings:
   --color-base-100: rgb(var(--ctp-text));
 }
 
+img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > * {
+  margin: auto auto !important;
+}
 .theme-dark {
   color-scheme: dark;
   --highlight-mix-blend-mode: lighten;
@@ -3071,9 +3080,8 @@ button.mod-cta:hover {
 .theme-light:not(.css-settings-manager) .tree-item-self.is-active,
 .ctp-full-palette body:not(.is-grabbing) .tree-item-self.is-active:hover,
 .ctp-full-palette .tree-item-self.is-active {
-  --nav-item-border-color: rgb(var(--ctp-mauve));
   --nav-item-color-active: var(--text-on-accent);
-  /* --nav-item-background-active: rgb(var(--ctp-mauve)); */
+  --nav-item-background-active: rgb(var(--ctp-mauve));
 }
 .theme-dark:not(.css-settings-manager) body:not(.is-grabbing) .tree-item-self.is-active:hover .tree-item-icon,
 .theme-dark:not(.css-settings-manager) .tree-item-self.is-active .tree-item-icon,
