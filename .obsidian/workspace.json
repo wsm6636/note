@@ -36,91 +36,8 @@
             "id": "787a902dd5ed4457",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "156b7746f428b099",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-03-28.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b514ce9251950fe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/01-教程/远程控制_客户端配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94303954b01b9b0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "216c9803b4dbafc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/日记模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bbd5c14bd267c8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/挂件.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82f960a632789a08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/01-教程/远程控制_客户端配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "contribution-widget-database-view",
+              "state": {}
             }
           }
         ],
@@ -152,9 +69,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01-永久笔记/工作流.md"
-              }
+              "state": {}
             }
           },
           {
@@ -219,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "01-永久笔记/工作流.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -256,7 +169,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/工作流.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +185,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/工作流.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +224,15 @@
   },
   "active": "787a902dd5ed4457",
   "lastOpenFiles": [
+    "01-永久笔记/工作流.md",
     "01-永久笔记/工作流.md.baiduyun.uploading.cfg",
+    "00-inbox/2024-03-28.md",
+    "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
+    "HOMEPAGE.canvas",
+    "00-模板/日记模板.md",
+    "00-模板/挂件.md",
+    "01-永久笔记/01-教程/远程控制_客户端配置.md",
+    "00-inbox/2024-03-28.md.baiduyun.uploading.cfg",
     "00-模板/月复盘模板.md.baiduyun.uploading.cfg",
     "00-模板/日记模板.md.baiduyun.uploading.cfg",
     "00-模板/挂件.md.baiduyun.uploading.cfg",
@@ -321,18 +240,9 @@
     "00-模板/周记模板.md.baiduyun.uploading.cfg",
     "00-inbox/2024.md.baiduyun.uploading.cfg",
     "00-inbox/2024-03.md.baiduyun.uploading.cfg",
-    "00-inbox/2024-03-28.md.baiduyun.uploading.cfg",
     "00-inbox/2024-03-25-W13.md.baiduyun.uploading.cfg",
-    "HOMEPAGE.canvas",
-    "01-永久笔记/工作流.md",
-    "desktop.ini",
-    "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
-    "01-永久笔记/01-教程/远程控制_客户端配置.md",
-    "00-inbox/2024-03-28.md",
     "00-模板/一言.md",
     "wsm/01-日记/2024-03-27.md",
-    "00-模板/日记模板.md",
-    "00-模板/挂件.md",
     "00-inbox/未命名.md",
     "00-inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "00-模板/zoteronote模板.md",

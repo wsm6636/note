@@ -1,10 +1,39 @@
 {
   "widgets": [
     {
+      "id": "1ba1c9cf-fd94-451b-af55-ccd3bb048350",
+      "name": "",
+      "createAt": "2024-03-28T14:04:02.794Z",
+      "updateAt": "2024-03-28T14:09:21.168Z",
+      "widget": {
+        "id": "2580228e-cb5f-4eda-b80d-9b272ea6c2b4",
+        "type": "multi",
+        "titleAlign": "center",
+        "tabTitle": "",
+        "maxWidthRatio": -1,
+        "backgroundStyle": "none",
+        "widgets": [
+          {
+            "id": "93e65f8b-efbb-48a8-8acf-8e9eb537d948",
+            "type": "dataview",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n\n\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
+            "queryType": "dataviewjs",
+            "backgroundStyle": "card",
+            "maxHeight": 300,
+            "dynamicParamComponents": []
+          }
+        ],
+        "layoutType": "tab"
+      }
+    },
+    {
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
       "name": "查询",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-03-27T15:57:11.531Z",
+      "updateAt": "2024-03-28T14:10:14.623Z",
       "widget": {
         "id": "bbcd3eff-71d4-40bc-ba1e-3c6c32c31be3",
         "type": "multi",
@@ -40,6 +69,14 @@
                 "placeholder": "",
                 "fromProperty": "",
                 "label": "数量"
+              },
+              {
+                "id": "f6f5aec0-e5b0-45d5-b85e-222c5bbb6203",
+                "type": "text",
+                "name": "",
+                "defaultValue": "",
+                "placeholder": "",
+                "fromProperty": ""
               }
             ],
             "title": "",
@@ -47,7 +84,7 @@
             "fontColor": "#f1e7e7ff"
           }
         ],
-        "layoutType": "column"
+        "layoutType": "tab"
       },
       "layout": {
         "lg": {
@@ -880,7 +917,7 @@
     },
     {
       "id": "c13f257a-72f9-4c37-9313-64687fd4513a",
-      "name": "",
+      "name": "周复盘统计视图",
       "widget": {
         "id": "2fcd1b4b-cda0-4add-9ae9-c2654b1f1b0e",
         "type": "multi",
@@ -965,11 +1002,11 @@
         "layoutType": "column"
       },
       "createAt": "2024-03-25T14:11:23.171Z",
-      "updateAt": "2024-03-27T14:54:43.142Z"
+      "updateAt": "2024-03-28T14:03:57.548Z"
     },
     {
       "id": "61bce30b-9de5-4e79-a4d1-f4e456c0eac9",
-      "name": "",
+      "name": "月复盘统计视图",
       "widget": {
         "id": "55471240-d925-441b-b631-541fe3ae930d",
         "type": "multi",
@@ -1045,7 +1082,7 @@
         "layoutType": "column"
       },
       "createAt": "2024-03-25T14:12:53.555Z",
-      "updateAt": "2024-03-25T14:14:20.435Z"
+      "updateAt": "2024-03-28T14:04:01.268Z"
     }
   ]
 }
