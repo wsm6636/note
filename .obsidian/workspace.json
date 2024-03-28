@@ -31,9 +31,74 @@
               "type": "thino_view",
               "state": {}
             }
+          },
+          {
+            "id": "787a902dd5ed4457",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/工作流.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "156b7746f428b099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-03-28.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98ee3d80cd1d8422",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/一言.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "216c9803b4dbafc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/日记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bbd5c14bd267c8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/挂件.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -62,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/01-日记/2024-03-28.md"
+                "file": "00-inbox/2024-03-28.md"
               }
             }
           },
@@ -129,11 +194,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/01-日记/2024-03-28.md"
+                "file": "00-inbox/2024-03-28.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "dbe74c464049a0d9",
@@ -164,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/01-日记/2024-03-28.md",
+                "file": "00-inbox/2024-03-28.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/01-日记/2024-03-28.md",
+                "file": "00-inbox/2024-03-28.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +262,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -219,9 +285,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dbe9e765aeee8033",
+  "active": "156b7746f428b099",
   "lastOpenFiles": [
-    "00-模板/工作流.md",
+    "01-永久笔记/工作流.md",
+    "00-模板/日记模板.md",
+    "00-模板/一言.md",
+    "00-模板/挂件.md",
     "HOMEPAGE.canvas",
     "00-inbox/2024-03-28.md",
     "00-inbox/未命名.md",
@@ -237,15 +306,12 @@
     "00-inbox/2024-03-28QuickNote.md",
     "wsm/01-日记/2024-03-27.md",
     "wsm/01-日记/2024-03-24.md",
-    "00-模板/挂件.md",
     "00-模板/QuickNote.md",
     "00-模板/contributionGraph.md",
     "00-模板/annotation-color-note.md",
-    "00-模板/一言.md",
     "00-模板/一言模板.md",
     "00-inbox/2024.md",
     "00-inbox/2024-03.md",
-    "00-模板/日记模板.md",
     "00-模板/年复盘模板.md",
     "wsm/03-月复盘/2024-02.md",
     "00-inbox/2024-03-25-W13.md",

@@ -22,6 +22,11 @@
       "folder": "wsm/03-月复盘",
       "tag": "#个人/月复盘",
       "pattern": ""
+    },
+    {
+      "folder": "01-永久笔记",
+      "tag": "#笔记/永久笔记",
+      "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": true,
