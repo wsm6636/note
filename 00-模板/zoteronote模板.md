@@ -1,10 +1,12 @@
 ---
-created: 
-updated: 
+created: 2024-03-27T18:55
+updated: 2024-03-28T22:52
 tags:
   - 笔记
   - 笔记/文献笔记
   - 待归档
+status:
+  - todo
 ---
 {% set cleanedString = extra|replace("abstractTranslation: ", "")|replace("titleTranslation: ", "") %}
 {% set parts = cleanedString.split("\n") %}

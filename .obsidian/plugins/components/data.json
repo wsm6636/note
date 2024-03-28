@@ -1,12 +1,12 @@
 {
   "widgets": [
     {
-      "id": "1ba1c9cf-fd94-451b-af55-ccd3bb048350",
+      "id": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f",
       "name": "",
-      "createAt": "2024-03-28T14:04:02.794Z",
-      "updateAt": "2024-03-28T14:09:21.168Z",
+      "createAt": "2024-03-28T14:31:18.139Z",
+      "updateAt": "2024-03-28T15:15:59.227Z",
       "widget": {
-        "id": "2580228e-cb5f-4eda-b80d-9b272ea6c2b4",
+        "id": "bd1f179d-cc75-4262-babb-a90d452067dd",
         "type": "multi",
         "titleAlign": "center",
         "tabTitle": "",
@@ -14,26 +14,151 @@
         "backgroundStyle": "none",
         "widgets": [
           {
-            "id": "93e65f8b-efbb-48a8-8acf-8e9eb537d948",
+            "id": "2b22246a-d6ec-4480-be2c-9af9a54d018c",
             "type": "dataview",
             "titleAlign": "center",
             "tabTitle": "",
             "maxWidthRatio": -1,
-            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"{{tag}}\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n\n\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
+            "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag) => {\n        if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return tag;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
             "queryType": "dataviewjs",
             "backgroundStyle": "card",
             "maxHeight": 300,
-            "dynamicParamComponents": []
+            "dynamicParamComponents": [
+              {
+                "id": "a94e407a-011f-458a-8bba-4b83e9027a4f",
+                "type": "select",
+                "name": "pageNum",
+                "defaultValue": "1",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "页码",
+                "options": [
+                  {
+                    "id": "1fb3e38a-d672-483e-a419-919a0492f3cb",
+                    "label": "1",
+                    "value": "1"
+                  },
+                  {
+                    "id": "b176f535-1b61-435b-ac68-5f59f9b96b7c",
+                    "label": "2",
+                    "value": "2"
+                  },
+                  {
+                    "id": "4bf0cd10-9e4d-4e8d-9023-ef014aba3e03",
+                    "label": "3",
+                    "value": "3"
+                  },
+                  {
+                    "id": "557cd2d0-081d-48fe-8b36-4abf36d7be37",
+                    "label": "4",
+                    "value": "4"
+                  },
+                  {
+                    "id": "e3d5984e-3c6c-4a8b-b471-2aea81a969ec",
+                    "label": "5",
+                    "value": "5"
+                  },
+                  {
+                    "id": "7a7c2dd0-f395-424f-96ac-b9969380396d",
+                    "label": "6",
+                    "value": "6"
+                  },
+                  {
+                    "id": "77d9ad9a-bf58-41eb-b65b-04b28409bf9d",
+                    "label": "7",
+                    "value": "7"
+                  },
+                  {
+                    "id": "b868b4d2-0369-4e5b-aadc-78f37dbf9402",
+                    "label": "8",
+                    "value": "8"
+                  },
+                  {
+                    "id": "05837578-ec9f-4f94-ad0b-02ca893e83d1",
+                    "label": "9",
+                    "value": "9"
+                  },
+                  {
+                    "id": "21a50fa8-4dc3-4483-a5c1-60cf367bd622",
+                    "label": "10",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "id": "61d48fbd-289a-4d56-b5a2-7061aabde784",
+                "type": "select",
+                "name": "pageSize",
+                "defaultValue": "20",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "数量",
+                "options": [
+                  {
+                    "id": "2ea27df0-4be4-491a-b067-9660d63e042c",
+                    "label": "10",
+                    "value": "10"
+                  },
+                  {
+                    "id": "4c09eac9-47c4-4fe7-b69b-c49ecd5d0b9a",
+                    "label": "20",
+                    "value": "20"
+                  },
+                  {
+                    "id": "3c3f7e48-5271-4331-913b-865ce2c3792a",
+                    "label": "30",
+                    "value": "30"
+                  },
+                  {
+                    "id": "cff86ea9-2b2a-4a12-a6fb-b6250b05796e",
+                    "label": "40",
+                    "value": "40"
+                  },
+                  {
+                    "id": "44241bf7-673e-4cda-9c69-3f75e6cf1cde",
+                    "label": "50",
+                    "value": "50"
+                  }
+                ]
+              },
+              {
+                "id": "7f21d215-2235-4dce-93fd-e039f695db4f",
+                "type": "tagSuggestions",
+                "name": "tag",
+                "defaultValue": "",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "tag"
+              },
+              {
+                "id": "15ed47f4-a8c6-46a3-a4e4-1279c7377689",
+                "type": "propertyValueSuggestions",
+                "name": "status",
+                "defaultValue": "",
+                "placeholder": "",
+                "fromProperty": "status",
+                "label": "属性"
+              },
+              {
+                "id": "50786f14-70e6-427d-b659-233912d22a31",
+                "type": "text",
+                "name": "pageTitle",
+                "defaultValue": "",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "Title"
+              }
+            ]
           }
         ],
-        "layoutType": "tab"
+        "layoutType": "column"
       }
     },
     {
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
       "name": "查询",
       "createAt": "2024-02-28T07:37:22.229Z",
-      "updateAt": "2024-03-28T14:10:14.623Z",
+      "updateAt": "2024-03-28T14:38:53.275Z",
       "widget": {
         "id": "bbcd3eff-71d4-40bc-ba1e-3c6c32c31be3",
         "type": "multi",
@@ -69,19 +194,57 @@
                 "placeholder": "",
                 "fromProperty": "",
                 "label": "数量"
-              },
-              {
-                "id": "f6f5aec0-e5b0-45d5-b85e-222c5bbb6203",
-                "type": "text",
-                "name": "",
-                "defaultValue": "",
-                "placeholder": "",
-                "fromProperty": ""
               }
             ],
             "title": "",
             "backgroundColor": "#00000000",
             "fontColor": "#f1e7e7ff"
+          },
+          {
+            "id": "7282c0fb-aafe-429f-aa6b-014fbcc04ede",
+            "type": "dataview",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"#待归档\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n\n\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
+            "queryType": "dataviewjs",
+            "backgroundStyle": "card",
+            "maxHeight": 300,
+            "dynamicParamComponents": [
+              {
+                "id": "f907b0c8-6c30-4627-8d26-6e8c62044eee",
+                "type": "number",
+                "name": "pageSize",
+                "defaultValue": "20",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "数量"
+              }
+            ],
+            "title": "待归档"
+          },
+          {
+            "id": "bb5a259a-eba9-49da-9ee8-0f9eceb2728d",
+            "type": "dataview",
+            "titleAlign": "center",
+            "tabTitle": "",
+            "maxWidthRatio": -1,
+            "query": " // 日期格式化\n        const dateFormat = \"YYYY-MM-DD\"\n\t\t// 当前页码\n\t\tconst pageNum = 1;\n\t\t// 单页数量\n\t\tconst pageSize = {{pageSize}};\n\t\t// 标签\n\t\tconst tagLike = \"#笔记/永久笔记\"\n\n\tconst data = dv.pages(\"\")\n\t    .where(p => p.file.tags.some(t => t.includes(tagLike)))\n\n\n   \n.sort(p =>p.file.mtime, \"desc\")\n    .map(p => {\n  \t  return [p.file.link, moment(Number(p.file.mtime)).format(dateFormat)];\n    })\n\n    \n\tconst pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n\t    .limit(pageSize)\n\n\tdv.table([\"name\", \"mtime\"], pageData)",
+            "queryType": "dataviewjs",
+            "backgroundStyle": "card",
+            "maxHeight": 300,
+            "dynamicParamComponents": [
+              {
+                "id": "f907b0c8-6c30-4627-8d26-6e8c62044eee",
+                "type": "number",
+                "name": "pageSize",
+                "defaultValue": "20",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "数量"
+              }
+            ],
+            "title": "永久笔记"
           }
         ],
         "layoutType": "tab"

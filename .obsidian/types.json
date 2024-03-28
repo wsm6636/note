@@ -4,7 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "文本": "date",
-    "列表": "number",
+    "列表": "multitext",
     "数字": "text",
     "复选框": "checkbox",
     "日期": "date",
@@ -14,6 +14,7 @@
     "日记": "date",
     "月复盘": "date",
     "英语": "date",
-    "论文": "date"
+    "论文": "date",
+    "#日记完成度": "number"
   }
 }
