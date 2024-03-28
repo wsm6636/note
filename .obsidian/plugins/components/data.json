@@ -4,7 +4,7 @@
       "id": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f",
       "name": "查询2",
       "createAt": "2024-03-28T14:31:18.139Z",
-      "updateAt": "2024-03-28T16:17:07.633Z",
+      "updateAt": "2024-03-28T16:37:38.813Z",
       "widget": {
         "id": "bd1f179d-cc75-4262-babb-a90d452067dd",
         "type": "multi",
@@ -19,7 +19,7 @@
             "titleAlign": "center",
             "tabTitle": "",
             "maxWidthRatio": -1,
-            "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const alltags={{alltags}}\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag) => {\n       \n        if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
+            "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const allTags={{alltags}}\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag,alltags) => {\n       if(alltags) return page.file.tags;\n        else if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike,allTags), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
             "queryType": "dataviewjs",
             "backgroundStyle": "card",
             "maxHeight": 300,
@@ -125,13 +125,34 @@
                 "id": "7f21d215-2235-4dce-93fd-e039f695db4f",
                 "type": "tagSuggestions",
                 "name": "tag",
-                "defaultValue": "",
+                "defaultValue": "#待归档",
                 "placeholder": "",
                 "fromProperty": "",
                 "label": "tag"
               },
               {
-                "id": "15ed47f4-a8c6-46a3-a4e4-1279c7377689",
+                "id": "b1981f1f-cd38-4bb1-b62e-2e654c132f85",
+                "type": "select",
+                "name": "alltags",
+                "defaultValue": "1",
+                "placeholder": "",
+                "fromProperty": "",
+                "label": "",
+                "options": [
+                  {
+                    "id": "04eed069-b81b-49b6-8dac-46722afda626",
+                    "label": "all",
+                    "value": "1"
+                  },
+                  {
+                    "id": "df0aab85-fbeb-4eab-8079-ab90e3617c54",
+                    "label": "no",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "id": "4a8a7eba-02b9-4733-9695-0616ead965e6",
                 "type": "propertyValueSuggestions",
                 "name": "status",
                 "defaultValue": "",
@@ -140,22 +161,13 @@
                 "label": "属性"
               },
               {
-                "id": "50786f14-70e6-427d-b659-233912d22a31",
+                "id": "781afa25-217e-435d-9ad8-4328acf1dec3",
                 "type": "propertyValueSuggestions",
                 "name": "pageTitle",
                 "defaultValue": "",
                 "placeholder": "",
                 "fromProperty": "${file.basename}",
                 "label": "Title"
-              },
-              {
-                "id": "b1981f1f-cd38-4bb1-b62e-2e654c132f85",
-                "type": "checkbox",
-                "name": "alltags",
-                "defaultValue": "ture",
-                "placeholder": "",
-                "fromProperty": "",
-                "label": "alltags"
               }
             ]
           }

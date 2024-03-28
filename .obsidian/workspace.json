@@ -16,8 +16,8 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1971.5,
-                  "y": -643.4245986938477,
+                  "x": -1949.2913624859782,
+                  "y": -618.3980188892231,
                   "zoom": 0
                 }
               },
@@ -33,14 +33,6 @@
             }
           },
           {
-            "id": "787a902dd5ed4457",
-            "type": "leaf",
-            "state": {
-              "type": "contribution-widget-database-view",
-              "state": {}
-            }
-          },
-          {
             "id": "5fcc520145c068d1",
             "type": "leaf",
             "state": {
@@ -52,22 +44,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "53182ef784b87153",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-03-28.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +73,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -160,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           }
         ],
@@ -195,6 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,6 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -248,11 +232,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "787a902dd5ed4457",
+  "active": "298480bd46575a83",
   "lastOpenFiles": [
+    "wsm/01-日记/2024-03-28.md",
     "HOMEPAGE.canvas",
     "01-永久笔记/工作流.md",
-    "00-inbox/2024-03-28.md",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
     "00-inbox/2024-03-28.md.baiduyun.uploading.cfg",
     "00-模板/zoteronote模板.md.baiduyun.uploading.cfg",
@@ -280,7 +264,6 @@
     "00-inbox/未命名.md",
     "00-inbox/annotation-Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "00-inbox/2024-04-01-W14.md",
-    "wsm/01-日记/2024-03-28.md",
     "00-inbox/2024-03-28-冲突-02200059_Win10.md",
     "00-inbox/2024-03-28QuickNote.md",
     "wsm/01-日记/2024-03-24.md",
