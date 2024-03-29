@@ -59,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "00-inbox/2024-03-29.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "00-inbox/2024-03-29.md"
               }
             }
           }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "00-inbox/2024-03-29.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "00-inbox/2024-03-29.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -245,11 +245,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5fcc520145c068d1",
+  "active": "dee5490fae8d7a76",
   "lastOpenFiles": [
+    "01-永久笔记/工作流.md",
     "00-inbox/2024-03-25-W13.md",
     "00-inbox/2024-03-29.md",
-    "01-永久笔记/工作流.md",
     "HOMEPAGEiPhone.canvas",
     "desktop.ini",
     "wsm/01-日记/2024-03-28.md.baiduyun.uploading.cfg",
