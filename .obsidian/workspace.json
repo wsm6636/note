@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,9 +100,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00-inbox/2024-03-29.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,9 +165,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "00-inbox/2024-03-29.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -203,7 +199,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-03-29.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +215,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-03-29.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -258,10 +252,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dee5490fae8d7a76",
+  "active": "dbe9e765aeee8033",
   "lastOpenFiles": [
-    "00-inbox/2024-03-25-W13.md",
     "00-inbox/2024-03-29.md",
+    "00-inbox/2024-03-25-W13.md",
     "HOMEPAGEiPhone.canvas",
     "desktop.ini",
     "wsm/01-日记/2024-03-28.md.baiduyun.uploading.cfg",
