@@ -1,5 +1,5 @@
 {
-  "confirmDeletion": true,
+  "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [
@@ -45,6 +45,12 @@
       "id": "obsidian-git:push2",
       "icon": "github",
       "name": "Git: Push",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "git-pull-request",
+      "name": "Git: Pull",
       "mode": "any"
     }
   ],

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbIphone",
       "TiNotebook",
       "LiInbox",
       "LiHome",
-      "TiReportSearch",
-      "RiProjectorLine"
+      "TiReportSearch"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -210,5 +210,6 @@
   "00-模板": "TiTemplate",
   "01-永久笔记": "TiNotebook",
   "01-永久笔记/01-教程": "LiSettings",
-  "wsm": "RiAdminLine"
+  "wsm": "RiAdminLine",
+  "HOMEPAGEiPhone.canvas": "IbIphone"
 }
