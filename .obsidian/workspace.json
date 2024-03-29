@@ -46,19 +46,6 @@
             }
           },
           {
-            "id": "d3dc9df2d745bccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-03-25-W13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dee5490fae8d7a76",
             "type": "leaf",
             "state": {
@@ -72,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01-永久笔记/工作流.md"
+              }
             }
           },
           {
@@ -165,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "01-永久笔记/工作流.md"
+              }
             }
           }
         ]
@@ -199,6 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01-永久笔记/工作流.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,6 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01-永久笔记/工作流.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -252,10 +245,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dbe9e765aeee8033",
+  "active": "5fcc520145c068d1",
   "lastOpenFiles": [
-    "00-inbox/2024-03-29.md",
     "00-inbox/2024-03-25-W13.md",
+    "00-inbox/2024-03-29.md",
+    "01-永久笔记/工作流.md",
     "HOMEPAGEiPhone.canvas",
     "desktop.ini",
     "wsm/01-日记/2024-03-28.md.baiduyun.uploading.cfg",
@@ -269,7 +263,6 @@
     "03-research/06-TSN/ATS/基础知识-ATS.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-03-28.md",
-    "01-永久笔记/工作流.md",
     "00-模板/QuickNote.md",
     "00-模板/zoteronote模板.md",
     "00-模板/annotation-color-note.md",
