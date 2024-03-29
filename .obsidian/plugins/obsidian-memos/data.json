@@ -78,7 +78,7 @@
   },
   "startSync": false,
   "tokenForVerify": {},
-  "saveThinoType": "FILE",
+  "saveThinoType": "DAILY",
   "showDayMark": false,
   "dayMarkRange": "day",
   "navigation": true,
