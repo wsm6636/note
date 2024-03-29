@@ -4,7 +4,7 @@
       "id": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f",
       "name": "查询2",
       "createAt": "2024-03-28T14:31:18.139Z",
-      "updateAt": "2024-03-28T16:37:38.813Z",
+      "updateAt": "2024-03-29T07:08:55.681Z",
       "widget": {
         "id": "bd1f179d-cc75-4262-babb-a90d452067dd",
         "type": "multi",
@@ -134,7 +134,7 @@
                 "id": "b1981f1f-cd38-4bb1-b62e-2e654c132f85",
                 "type": "select",
                 "name": "alltags",
-                "defaultValue": "1",
+                "defaultValue": "0",
                 "placeholder": "",
                 "fromProperty": "",
                 "label": "",
