@@ -1,5 +1,5 @@
 {
-  "snapToObjects": false,
+  "snapToObjects": true,
   "snapToGrid": false,
   "cardLabelVisibility": "hover",
   "newFileLocation": "folder",

@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "e32f5ed0e5d3b186",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd661bfb78552ac6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f37701c4e0b4d206",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "viewState": {
+                  "x": -1835.3022682243643,
+                  "y": -561.4922819987532,
+                  "zoom": -1.2823011339846913
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "bb68a9d0a6b4364a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGEiPhone.canvas",
+                "viewState": {
+                  "x": -2237.578371501272,
+                  "y": -493.426717557252,
+                  "zoom": -1.4542830710950236
+                }
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fbfd1b6369c64f9b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "494645fd561bfbfd",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "75cb51cb4f98089c",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1e8e98d835d6cd55",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "94fb399191018855",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      },
+      {
+        "id": "e2a91e566f4ccb68",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "1dbb25e6772f0222",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a0bde52f2142a0f3",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "HOMEPAGEiPhone.canvas",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bd3cc2cab5b50b2c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "HOMEPAGEiPhone.canvas",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8b54bf5fdf7e3224",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "HOMEPAGEiPhone.canvas"
+          }
+        }
+      },
+      {
+        "id": "0aad75a82c7e47e7",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "08ebd56b6904e721",
+        "type": "leaf",
+        "state": {
+          "type": "emoji-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "bb68a9d0a6b4364a",
+  "lastOpenFiles": [
+    "Pasted image 20240329164952.png",
+    "HOMEPAGE.canvas",
+    "HOMEPAGEiPhone.canvas"
+  ]
+}
