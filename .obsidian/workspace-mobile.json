@@ -33,12 +33,33 @@
               "state": {
                 "file": "HOMEPAGEiPhone.canvas",
                 "viewState": {
-                  "x": -2237.578371501272,
-                  "y": -493.426717557252,
-                  "zoom": -1.4542830710950236
+                  "x": -2284.8746314044506,
+                  "y": -648.5066312789891,
+                  "zoom": -1.0788727010757941
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "b78c1fbeca2b1f38",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "bde6ad96094ab921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-03-29.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -190,8 +211,10 @@
   },
   "active": "bb68a9d0a6b4364a",
   "lastOpenFiles": [
+    "00-inbox/2024-03-29.md",
+    "wsm/01-日记/2024-03-18.md",
+    "HOMEPAGEiPhone.canvas",
     "Pasted image 20240329164952.png",
-    "HOMEPAGE.canvas",
-    "HOMEPAGEiPhone.canvas"
+    "HOMEPAGE.canvas"
   ]
 }
