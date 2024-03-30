@@ -10,7 +10,7 @@
     "日期": "date",
     "时间": "date",
     "updated": "datetime",
-    "created": "date",
+    "created": "datetime",
     "日记": "date",
     "月复盘": "date",
     "英语": "date",
