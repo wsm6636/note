@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1987.8708302594157,
-                  "y": -722.2403727100238,
+                  "y": 21.75962728997615,
                   "zoom": 0
                 }
               },
@@ -97,8 +97,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -194,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -229,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -284,8 +283,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6e58c8a98c59008b",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "00-inbox/2024.md",
     "HOMEPAGE.canvas",
     "templify-康奈尔笔记模板-20240331001356.md",
     "templify-四象限模板-20240331001448.md",
