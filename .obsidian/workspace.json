@@ -44,22 +44,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dee5490fae8d7a76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-03-29.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +74,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-03-29.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -155,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-03-29.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -190,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-03-29.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-03-29.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -245,11 +231,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dee5490fae8d7a76",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-03-29.md",
     "00-inbox/2024-03-25-W13.md",
-    "00-inbox/2024-03-29.md",
+    "wsm/01-日记/2024-03-28.md",
+    "00-inbox/2024-03.md",
+    "HOMEPAGE.canvas",
     "HOMEPAGEiPhone.canvas",
     "desktop.ini",
     "wsm/01-日记/2024-03-28.md.baiduyun.uploading.cfg",
@@ -261,8 +250,6 @@
     "03-research/07-iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md.baiduyun.uploading.cfg",
     "03-research/06-TSN/Routing.baiduyun.uploading.cfg",
     "03-research/06-TSN/ATS/基础知识-ATS.md.baiduyun.uploading.cfg",
-    "HOMEPAGE.canvas",
-    "wsm/01-日记/2024-03-28.md",
     "00-模板/QuickNote.md",
     "00-模板/zoteronote模板.md",
     "00-模板/annotation-color-note.md",
@@ -270,7 +257,6 @@
     "00-模板/年复盘模板.md",
     "00-模板/周记模板.md",
     "00-模板/月复盘模板.md",
-    "00-inbox/2024-03.md",
     "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
     "00-模板/挂件.md",
     "01-永久笔记/01-教程/远程控制_客户端配置.md",
