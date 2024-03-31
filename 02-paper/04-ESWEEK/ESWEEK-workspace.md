@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-31T16:31
+updated: 2024-03-31T17:23
 tags:
   - 笔记
   - 笔记/paper
@@ -44,39 +44,26 @@ Analysis of end-to-end timing has been carried out for many years on individual 
 以前关于多ECU联合的端到端时序分析通常考虑CAN总线为通信方式，例如【13-14】但目前嵌入式实时系统被接入更多的传感器已采集大量信息，同时也造成数据传输量激增，CAN总线不能更好的满足嵌入式实时系统某些高带宽低时延的要求。时间敏感网络被考虑为嵌入式实时系统以及控制领域的通信方式之一。
 Previously, end-to-end timing analysis for multiple ECUs typically considered the Controller Area Network (CAN) bus as the communication method, as seen in references [Controller-MPS]. However, with the increasing integration of numerous sensors in embedded real-time systems to collect vast amounts of information, there has been a surge in data transmission volume. The CAN bus is no longer adequately meeting the high bandwidth and low latency requirements of certain embedded real-time systems. Time-Sensitive Networking (TSN) is being considered as one of the communication methods for embedded real-time systems and the control domain.
 
-> 时间敏感网络是IEEE802.1Q协议的增强，旨在通过提供时间敏感性和低延迟的通信以支持实时控制与数据传输。
-> 其中IEEE 802.1Qcr[IEEEStandardLocal2020]异步流量整形 (ATS) 标准旨在通过撤销同步并允许每个网络节点按自己的时间发送流量来绕过同步的复杂性。
-> Time-sensitive networking is an enhancement of the IEEE 802.1Q protocol aimed at providing time-sensitive and low-latency communication to support real-time control and data transfer. Among them, the IEEE 802.1Qcr [IEEEStandardLocal2020] standard for asynchronous traffic shaping (ATS) aims to bypass the complexity of synchronization by revoking synchronization and allowing each network node to send traffic at its own time.
+时间敏感网络是IEEE802.1Q协议的增强，旨在通过提供时间敏感性和低延迟的通信以支持实时控制与数据传输。
+其中IEEE 802.1Qcr[IEEEStandardLocal2020]异步流量整形 (ATS) 标准旨在通过撤销同步并允许每个网络节点按自己的时间发送流量来绕过同步的复杂性。
+Time-sensitive networking is an enhancement of the IEEE 802.1Q protocol aimed at providing time-sensitive and low-latency communication to support real-time control and data transfer. Among them, the IEEE 802.1Qcr [IEEEStandardLocal2020] standard for asynchronous traffic shaping (ATS) aims to bypass the complexity of synchronization by revoking synchronization and allowing each network node to send traffic at its own time.
 
-> 在成为IEEE标准前，Specht等人提出了Urgency-Based Scheduler（UBS），并使用了Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE)两种算法。LRQ和TBE虽然都是适用于TSN的异步整形算法，但LRQ主要是通过传输/泄露速率整形，可以将突然流量整形为稳定的输出；TBE则通过平均速率控制数据流，桶中令牌数量满足即可传输。最后在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，数据流通过TSN交换机整形时，数据流中的每一个数据帧会经由本地时钟确定一个资格时间，用来数据帧排队和确定数据帧传输的时间。在数据帧到达所在队列的头部时，判断其分配的资格时间经过优先级选择，最后和其他未经由ATS整形的数据流一起输出。
->   
-> Before becoming an IEEE standard, Specht and others proposed the Urgency-Based Scheduler (UBS), which utilized two algorithms: Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE). Both LRQ and TBE are asynchronous shaping algorithms suitable for TSN, but LRQ primarily focuses on transforming sudden bursts of traffic into a stable output through transmission/leakage rate shaping, while TBE controls the data flow by average rate, allowing transmission once the number of tokens in the bucket is sufficient. Ultimately, in the IEEE 802.1 Qcr protocol, the Token Bucket-based ATS algorithm is employed. As illustrated, when a data stream is shaped by a TSN switch, each data frame in the stream is assigned a qualification time by the local clock for queuing and determining the transmission time of the data frame. When a data frame reaches the head of the queue, its allocated qualification time is checked against priority selection, and then it is outputted along with other data streams that have not been shaped by ATS.
+在成为IEEE标准前，Specht等人提出了Urgency-Based Scheduler（UBS），并使用了Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE)两种算法。LRQ和TBE虽然都是适用于TSN的异步整形算法，但LRQ主要是通过传输/泄露速率整形，可以将突然流量整形为稳定的输出；TBE则通过平均速率控制数据流，桶中令牌数量满足即可传输。最后在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，数据流通过TSN交换机整形时，数据流中的每一个数据帧会经由本地时钟确定一个资格时间，用来数据帧排队和确定数据帧传输的时间。在数据帧到达所在队列的头部时，判断其分配的资格时间经过优先级选择，最后和其他未经由ATS整形的数据流一起输出。
+  
+Before becoming an IEEE standard, Specht and others proposed the Urgency-Based Scheduler (UBS), which utilized two algorithms: Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE). Both LRQ and TBE are asynchronous shaping algorithms suitable for TSN, but LRQ primarily focuses on transforming sudden bursts of traffic into a stable output through transmission/leakage rate shaping, while TBE controls the data flow by average rate, allowing transmission once the number of tokens in the bucket is sufficient. Ultimately, in the IEEE 802.1 Qcr protocol, the Token Bucket-based ATS algorithm is employed. As illustrated, when a data stream is shaped by a TSN switch, each data frame in the stream is assigned a qualification time by the local clock for queuing and determining the transmission time of the data frame. When a data frame reaches the head of the queue, its allocated qualification time is checked against priority selection, and then it is outputted along with other data streams that have not been shaped by ATS.
 
-目前已有研究将TSN与任务链相结合，【houtanSupportingEndtoendData2023】通过实际汽车案例建模任务链并通过IEEE 802.1 Qbv协议作为网络传输的桥梁。
-Currently, there have been studies combining TSN with task chains. [houtanSupportingEndtoendData2023] Modeling task chains using real-world automotive cases and using the IEEE 802.1Qbv protocol as a bridge for network transmission. 
-
-> 虽然TAS在施加业务确定性方面表现良好，但严格的同步要求，则增加了复杂性并威胁到TSN网络域的可靠性。
-> Although TAS performs well in enforcing business determinism, strict synchronization requirements increase complexity and pose a threat to the reliability of TSN network domains.
-> 
-
-虽然TSN在确定性传输上非常有效，但例如Qbv标准由于TAS存在所以对定时同步要求严格，若同步出错则增加了TSN网络的确定性以及分析的复杂性。而异步流量整形（ATS）（IEEE 802.1Qcr），旨在允许取消同步并允许每个节点按照本地始终定时发送流，以此降低同步的复杂性，这样的异步操作依旧可以满足低延迟高带宽和确定性需求，也同样适合应用在分布式系统中。
-Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
-
-针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性例如使用CAN总线作为网络传输。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络传输标准，ATS算法作为队列整形算法。
- For general embedded real-time system scenarios, asynchronous systems are still widely used to reduce complexity, for example, using the CAN bus as network transmission. Therefore, in this paper, we choose the asynchronous IEEE 802.1Qcr as the network task standard and the ATS algorithm as the queue shaping algorithm.
+目前已有研究将TSN与任务链相结合，【houtanSupportingEndtoendData2023】通过实际汽车案例建模任务链并通过IEEE 802.1 Qbv协议作为网络传输的桥梁。虽然TAS在施加业务确定性方面表现良好，但严格的同步要求，则增加了复杂性并威胁到TSN网络域的可靠性。针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性例如使用CAN总线作为网络传输。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络传输标准，ATS算法作为队列整形算法。
+Currently, there have been studies combining TSN with task chains. [houtanSupportingEndtoendData2023] Modeling task chains using real-world automotive cases and using the IEEE 802.1Qbv protocol as a bridge for network transmission. Although TAS performs well in enforcing business determinism, strict synchronization requirements increase complexity and pose a threat to the reliability of TSN network domains. For general embedded real-time system scenarios, asynchronous systems are still widely used to reduce complexity, for example, using the CAN bus as network transmission. Therefore, in this paper, we choose the asynchronous IEEE 802.1Qcr as the network task standard and the ATS algorithm as the queue shaping algorithm.
 
 
 贡献： 
 我们研究了分布式实时系统上基于TSN网络的任务链端到端时间分析，我们的贡献是：
-- 在第二节中，我们作为第一个给出了基于TSN网络IEEE 802.1Qcr标准的分布式实时系统任务链模型，包括单个ECU上的任务模型和多个ECU链接的网络任务模型。其中多ECU通过TSN相互连接，我们是使用的TSN标准为IEEE 802.1Qcr。
+- 在第二节中，我们给出了基于TSN网络的分布式实时系统任务链模型，包括单个ECU上的任务模型和多个ECU链接的网络任务模型。其中多ECU通过TSN相互连接，我们使用的TSN标准为IEEE 802.1Qcr。
 - 在第三节中，我们对多ECU场景下最大反应时间和最大数据年龄进行分析，为采用IEEE 802.1Qcr标准的网络传输任务链分别提供了上界。
 - 在第四节中，我们进行了评估并证明提出的方法提高了性能.
 
 Contribution: We have studied the end-to-end timing analysis of task chains based on TSN networks in distributed real-time systems. Our contributions are:
-In Section 2, We are the first to provide a task chain model for distributed real-time systems based on the TSN network IEEE 802.1Qcr standard.
-> we present the task chain models for distributed real-time systems based on TSN networks, 
-
-including the task model for a single ECU and the network task model for multiple ECUs connected through TSN. The TSN standard we use is IEEE 802.1Qcr.
+In Section 2, we present the task chain models for distributed real-time systems based on TSN networks, including the task model for a single ECU and the network task model for multiple ECUs connected through TSN. The TSN standard we use is IEEE 802.1Qcr.
 In Section 3, we analyze the maximum reaction time and maximum data age in a multi-ECU scenario, providing upper bounds on the maximum reaction time for network transmission task chains adopting the IEEE 802.1Qcr standard.
 In Section 4,  we evaluate and demonstrate that the proposed method improves the performance.
 
@@ -103,27 +90,16 @@ For the end-to-end latency analysis of TSN networks, there has been significant 
 > #修改 
 
 # ATS background
-时间敏感网络是IEEE802.1Q协议的增强，旨在通过提供时间敏感性和低延迟的通信以支持实时控制与数据传输。
-Time-sensitive networking is an enhancement of the IEEE 802.1Q protocol aimed at providing time-sensitive and low-latency communication to support real-time control and data transfer. 
 
-TSN具有多种机制：
+为了满足低延时高带宽的需求，时间敏感网络标准被开发，并具有多种机制：
 时间感知整形器（TAS）（IEEE 802.1Qbv[qbv]），帧抢占（IEEE Std 802.1Qbu[qbu]）。循环排队和转发(IEEE 802.1 QCH[qch])等。
-Time-Sensitive Networking (TSN) standards have been developed, incorporating various mechanisms such as:
+To meet the requirements for low latency and high bandwidth, Time-Sensitive Networking (TSN) standards have been developed, incorporating various mechanisms such as:
 - Time-Aware Shaper (TAS) (IEEE 802.1Qbv[qbv]),
 - Frame Preemption (IEEE Std 802.1Qbu[qbu]),
 - and Cyclic Queuing and Forwarding (IEEE 802.1 QCH[qch]).
 
- 其中IEEE 802.1Qcr[IEEEStandardLocal2020]异步流量整形 (ATS) 标准旨在通过撤销同步并允许每个网络节点按自己的时间发送流量来绕过同步的复杂性。
- Among them, the IEEE 802.1Qcr [IEEEStandardLocal2020] standard for asynchronous traffic shaping (ATS) aims to bypass the complexity of synchronization by revoking synchronization and allowing each network node to send traffic at its own time.
->  虽然TAS在施加业务确定性方面表现良好，但严格的同步要求，则增加了复杂性并威胁到TSN网络域的可靠性。
-> Although TAS performs well in enforcing business determinism, strict synchronization requirements increase complexity and pose a threat to the reliability of TSN network domains.
-
-> 虽然TSN在确定性传输上非常有效，但例如Qbv标准由于TAS存在所以对定时同步要求严格，若同步出错则增加了TSN网络的确定性以及分析的复杂性。而异步流量整形（ATS）（IEEE 802.1Qcr），旨在允许取消同步并允许每个节点按照本地始终定时发送流，以此降低同步的复杂性，这样的异步操作依旧可以满足低延迟高带宽和确定性需求，也同样适合应用在分布式系统中。
-> Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
-
- 在成为IEEE标准前，Specht等人提出了Urgency-Based Scheduler（UBS），并使用了Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE)两种算法。LRQ和TBE虽然都是适用于TSN的异步整形算法，但LRQ主要是通过传输/泄露速率整形，可以将突然流量整形为稳定的输出；TBE则通过平均速率控制数据流，桶中令牌数量满足即可传输。最后在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，数据流通过TSN交换机整形时，数据流中的每一个数据帧会经由本地时钟确定一个资格时间，用来数据帧排队和确定数据帧传输的时间。在数据帧到达所在队列的头部时，判断其分配的资格时间经过优先级选择，最后和其他未经由ATS整形的数据流一起输出。
-
-Before becoming an IEEE standard, Specht and others proposed the Urgency-Based Scheduler (UBS), which utilized two algorithms: Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE). Both LRQ and TBE are asynchronous shaping algorithms suitable for TSN, but LRQ primarily focuses on transforming sudden bursts of traffic into a stable output through transmission/leakage rate shaping, while TBE controls the data flow by average rate, allowing transmission once the number of tokens in the bucket is sufficient. Ultimately, in the IEEE 802.1 Qcr protocol, the Token Bucket-based ATS algorithm is employed. As illustrated, when a data stream is shaped by a TSN switch, each data frame in the stream is assigned a qualification time by the local clock for queuing and determining the transmission time of the data frame. When a data frame reaches the head of the queue, its allocated qualification time is checked against priority selection, and then it is outputted along with other data streams that have not been shaped by ATS.
+虽然TSN在确定性传输上非常有效，但例如Qbv标准由于TAS存在所以对定时同步要求严格，若同步出错则增加了TSN网络的确定性以及分析的复杂性。而异步流量整形（ATS）（IEEE 802.1Qcr），旨在允许取消同步并允许每个节点按照本地始终定时发送流，以此降低同步的复杂性，这样的异步操作依旧可以满足低延迟高带宽和确定性需求，也同样适合应用在分布式系统中。
+Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
 
 在LRQ算法中，通过帧长度/传输速率的商来确定下一个数据帧的可以被传输的时间。
 在TBE算法中，数据帧的资格时间需要满足令牌桶中有足够数据帧长度数量的令牌。当令牌数量足够时，可以满足一定情况下的突发情况。
