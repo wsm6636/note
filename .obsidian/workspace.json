@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "a6dddda9719ac0ef",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -189,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -224,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +279,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4f2ec52871089e80",
+  "active": "298480bd46575a83",
   "lastOpenFiles": [
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace.md",
