@@ -54,22 +54,8 @@
               "type": "thino_view",
               "state": {}
             }
-          },
-          {
-            "id": "f61645ba67bd9234",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-04.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-04.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -165,7 +151,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-04.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -200,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-04.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-04.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -255,8 +241,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f61645ba67bd9234",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "00-inbox/2024-04.md",
     "wsm/03-月复盘/2024-03.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-03-25-W13.md.baiduyun.uploading.cfg",
     "wsm/01-日记/2024-04-02.md.baiduyun.uploading.cfg",
@@ -267,11 +254,9 @@
     "wsm/01-日记/2024-03-28.md.baiduyun.uploading.cfg",
     "02-paper/04-ESWEEK/ESWEEK-workspace.md.baiduyun.uploading.cfg",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md.baiduyun.uploading.cfg",
-    "01-永久笔记/工作流.md.baiduyun.uploading.cfg",
     "wsm/03-月复盘/2024-03.md",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "wsm/02-周记/2024-03-25-W13.md",
-    "00-inbox/2024-04.md",
     "00-inbox/2024-04-01-W14.md",
     "wsm/01-日记/2024-04-02.md",
     "00-inbox/2024.md",
