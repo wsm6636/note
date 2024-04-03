@@ -1,29 +1,30 @@
 ---
 tags:
   - "#个人"
-  - "#个人/月复盘"
+  - "#个人/年复盘"
   - 待归档
-月复盘: 2024-03-01
-created: 2024-03-08T21:20
-updated: 2024-03-28T22:51
-"#月复盘完成度": "90"
+created: 2024-02-19T12:48
+updated: 2024-04-02T20:54
 status:
   - todo
 ---
-# 月复盘GRAI
+# 年复盘KPT
 
-| **项目**            | **内容**                                          |
-| ----------------- | ----------------------------------------------- |
-| **goal-回顾目标**     | 1.  准备出国事宜<br>2. 提高英语口语<br>3. 肝论文EMSOFT         |
-| **result-评估结果**   | 1.  <br>2. 始终没有行动，浪费了一个月的时间<br>3.               |
-| **analysis-分析原因** | 亮点：<br>不足：                                      |
-| **insight-归类总结**  | 1.  需要优化：从生活中学英语<br>2. 继续保持：记录日常<br>3. 需要放弃：睡懒觉 |
+| **内容** | **Keep-保持** | **problem-问题** | **try-尝试** |
+| ------ | ----------- | -------------- | ---------- |
+| **个人**     |             |                |            |
+| **学业**     |             |                |            |
+| **财务**     |             |                |            |
+| **交友**     |             |                |            |
+| **家庭**     |             |                |            |
+| **娱乐**     |             |                |            |
+| **健康**     |             |                |            |
 
-# 本月周记
-> 手动选择日期
+
+# 今年月复盘
 ```contributionGraph
 title: ""
-graphType: month-track
+graphType: default
 dateRangeValue: 1
 dateRangeType: FIXED_DATE_RANGE
 startOfWeek: 1
@@ -34,14 +35,14 @@ titleStyle:
   fontWeight: normal
 dataSource:
   type: PAGE
-  value: "#个人/周记"
+  value: "#个人/月复盘"
   dateField:
     type: PAGE_PROPERTY
-    value: 周记
+    value: 月复盘
   countField:
     type: PAGE_PROPERTY
-    value: "#周复盘完成度"
-fillTheScreen: false
+    value: "#月复盘完成度"
+fillTheScreen: true
 enableMainContainerShadow: false
 cellStyleRules:
   - id: default_b
@@ -61,7 +62,7 @@ cellStyleRules:
     min: "80"
     max: "100"
   - id: 1711604010617
-    min: 1
+    min: "1"
     max: "20"
     color: "#c8f3d0ff"
     text: ""
@@ -69,18 +70,17 @@ mainContainerStyle:
   backgroundColor: "#6e313100"
   boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
 cellStyle:
-  minHeight: 18px
-  minWidth: 18px
-fromDate: 2024-03-01
-toDate: 2024-03-31
+  minHeight: 4px
+  minWidth: 4px
+fromDate: 2024-01-01
+toDate: 2024-12-31
 
 ```
 
-# 本月打卡
-> 手动选择日期
+# 今年打卡
 ```contributionGraph
 title: 论文
-graphType: month-track
+graphType: calendar
 dateRangeValue: 1
 dateRangeType: FIXED_DATE_RANGE
 startOfWeek: "0"
@@ -99,7 +99,7 @@ dataSource:
   countField:
     type: PAGE_PROPERTY
     value: "#论文"
-fillTheScreen: false
+fillTheScreen: true
 enableMainContainerShadow: false
 cellStyleRules:
   - id: Halloween_a
@@ -127,15 +127,15 @@ mainContainerStyle:
   boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
   backgroundColor: "#5d313100"
 cellStyle:
-  minWidth: 18px
-  minHeight: 18px
-fromDate: 2024-03-01
-toDate: 2024-03-31
+  minWidth: 14px
+  minHeight: 14px
+fromDate: 2024-01-01
+toDate: 2024-12-31
 
 ```
 ```contributionGraph
 title: 英语
-graphType: month-track
+graphType: calendar
 dateRangeValue: 1
 dateRangeType: FIXED_DATE_RANGE
 startOfWeek: "0"
@@ -154,7 +154,7 @@ dataSource:
   countField:
     type: PAGE_PROPERTY
     value: "#英语"
-fillTheScreen: false
+fillTheScreen: true
 enableMainContainerShadow: false
 cellStyleRules:
   - id: Lovely_a
@@ -182,16 +182,15 @@ mainContainerStyle:
   boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
   backgroundColor: "#5d313100"
 cellStyle:
-  minWidth: 18px
-  minHeight: 18px
-fromDate: 2024-03-01
-toDate: 2024-03-31
+  minWidth: 14px
+  minHeight: 14px
+fromDate: 2024-01-01
+toDate: 2024-12-31
 
 ```
-
 ```contributionGraph
 title: 运动
-graphType: month-track
+graphType: calendar
 dateRangeValue: 1
 dateRangeType: FIXED_DATE_RANGE
 startOfWeek: "0"
@@ -210,7 +209,7 @@ dataSource:
   countField:
     type: PAGE_PROPERTY
     value: "#运动"
-fillTheScreen: false
+fillTheScreen: true
 enableMainContainerShadow: false
 cellStyleRules:
   - id: Wine_a
@@ -238,17 +237,18 @@ mainContainerStyle:
   boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
   backgroundColor: "#5d313100"
 cellStyle:
-  minWidth: 18px
-  minHeight: 18px
-fromDate: 2024-03-01
-toDate: 2024-03-31
+  minWidth: 14px
+  minHeight: 14px
+fromDate: 2024-01-01
+toDate: 2024-12-31
 
 ```
-# 本周笔记
-> 手动选择日期
+
+
+# 今年笔记
 ```contributionGraph
 title: ""
-graphType: month-track
+graphType: calendar
 dateRangeValue: 1
 dateRangeType: FIXED_DATE_RANGE
 startOfWeek: "0"
@@ -262,7 +262,7 @@ dataSource:
   value: "#笔记"
   dateField:
     type: FILE_MTIME
-    value: updated
+    value: 学英语
   filters: []
   countField:
     type: DEFAULT
@@ -290,19 +290,86 @@ mainContainerStyle:
   boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
   backgroundColor: "#5d313100"
 cellStyle:
-  minWidth: 18px
-  minHeight: 18px
-fromDate: 2024-03-01
-toDate: 2024-03-31
+  minWidth: 14px
+  minHeight: 14px
+fromDate: 2024-01-01
+toDate: 2024-12-31
 
 ```
 
 # 时间统计
-> 每周时间统计
+> 每月时间分配
 
 ```contributionWidget
-id: 6f91c239-206f-4578-a3c5-e07bd33548fe
+id: df406827-5481-4033-b9d3-b930e6bb3c62
 type: ref
-refId: db083c95-f246-4219-92ea-ac9446538436
+refId: 61bce30b-9de5-4e79-a4d1-f4e456c0eac9
 
 ```
+
+```contributionWidget
+    id: 2fcd1b4b-cda0-4add-9ae9-c2654b1f1b0e
+type: multi
+titleAlign: center
+tabTitle: ""
+maxWidthRatio: -1
+backgroundStyle: none
+widgets:
+  - id: 5c2b9c4c-48c7-4918-8866-9629c2797678
+    type: dynamicDataView
+    titleAlign: center
+    tabTitle: ""
+    maxWidthRatio: -1
+    backgroundStyle: none
+    viewType: gallary
+    datasource:
+      filter:
+        conditions:
+          - type: tag
+            value: "#个人/周记"
+            operator: contains
+            property: ${file.tags}
+            id: 85259f70-366e-4faf-a424-a9637a3a0136
+          - type: file_path
+            value: 模板
+            operator: not_equals
+            property: ${file.path}
+            id: e35a91a4-c18a-402f-b740-c9c068b1a6d0
+          - type: property
+            value: 2024-03-01T21:41
+            operator: time_after_or_equal
+            property: 周记
+            id: 78833fa4-2e8f-42fa-80ca-a028f2e15ece
+          - type: property
+            value: 2024-03-31T21:41
+            operator: time_before_or_equal
+            property: 周记
+            id: 0d78a12b-5dd6-49b7-9527-9b105219faea
+      dataLimit: 12
+      storage:
+        location: ""
+      sort:
+        orders:
+          - id: 62ffd5c0-d082-4b8f-815a-790dd10ed0c3
+            property: 周记
+            direction: asc
+    properties:
+      - id: 42f0300e-010c-479e-8752-619e6550459d
+        name: ${file.basename}
+        isShow: true
+        defaultValue: ""
+        type: text
+    viewOptions:
+      openPageIn: split
+      itemSize: gallary-small
+      cover:
+        type: pageFirstImage
+        value: ""
+        fit: contains
+layoutType: column
+```
+
+
+
+
+

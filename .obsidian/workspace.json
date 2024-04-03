@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "298480bd46575a83",
+            "id": "c4663dab3db39cf1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,12 +16,22 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1987.8708302594157,
-                  "y": -629.2403727100238,
-                  "zoom": 0
+                  "x": -1974.5,
+                  "y": -642,
+                  "zoom": -0.1481866055170653
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "f85d9c9c86872d56",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
             }
           },
           {
@@ -33,12 +43,12 @@
             }
           },
           {
-            "id": "391c7784495318a5",
+            "id": "74d2f7af24d1cc42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace.md",
+                "file": "wsm/03-月复盘/2024-03.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,44 +56,12 @@
             }
           },
           {
-            "id": "0c7fa2227972a793",
+            "id": "f61645ba67bd9234",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a6dddda9719ac0ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d7adb6266eabec9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-paper/03-DAC/ATS-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f2ec52871089e80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace.md",
+                "file": "00-inbox/2024-04.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-04.md"
               }
             }
           },
@@ -151,8 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.0110321044922,
-    "collapsed": true
+    "width": 260.0110321044922
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -188,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-04.md"
               }
             }
           }
@@ -223,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-04.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-04.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -259,8 +236,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319,
-    "collapsed": true
+    "width": 319
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,15 +255,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "298480bd46575a83",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "wsm/03-月复盘/2024-03.md",
+    "wsm/02-周记/2024-03-25-W13.md",
+    "00-inbox/2024-04.md",
+    "00-inbox/2024-04-01-W14.md",
+    "wsm/01-日记/2024-04-02.md",
+    "00-inbox/2024.md",
+    "wsm/03-月复盘/2024-02.md",
+    "HOMEPAGE.canvas",
+    "HOMEPAGEiPhone.canvas",
+    "00-inbox/2024-04-02.md.nssyncsc",
+    "wsm/01-日记/2024-04-01.md",
+    "wsm/01-日记/2024-03-31.md",
+    "wsm/01-日记/2024-03-30.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace.md",
     "02-paper/03-DAC/ATS-workspace.md",
     "02-paper/03-DAC/ATS-workspace 1.md",
     "02-paper/02-RTSS/评审意见精简.md",
-    "HOMEPAGE.canvas",
-    "00-inbox/2024.md",
     "templify-康奈尔笔记模板-20240331001356.md",
     "templify-四象限模板-20240331001448.md",
     "templify-KG 笔记模板-20240331001655.md",
@@ -295,17 +282,9 @@
     "00-模板/挂件.md",
     "templify-四象限模板-20240331001259.md",
     "2024-03-31.md",
-    "00-inbox/2024-03-31.md",
     "00-模板/周记模板.md",
-    "00-inbox/2024-04-01-W14.md",
-    "00-inbox/2024-03-25-W13.md",
     "wsm/01-日记/2024-03-24.md",
     "01-永久笔记/工作流.md",
-    "wsm/01-日记/2024-03-30.md",
-    "wsm/01-日记/2024-03-29.md",
-    "wsm/01-日记/2024-03-28.md",
-    "00-inbox/2024-03.md",
-    "HOMEPAGEiPhone.canvas",
     "desktop.ini",
     "wsm/01-日记/2024-03-28.md.baiduyun.uploading.cfg",
     "HOMEPAGE.canvas.baiduyun.uploading.cfg",
@@ -315,10 +294,6 @@
     "03-research/08-RTC/Finitary Real-Time Calculus- Efficient Performance Analysis of Distributed Embedded Systems.md.baiduyun.uploading.cfg",
     "03-research/07-iousing/Latency Analysis of IO Virtualization Techniques in Hypervisor-Based Real-Time Systems.md.baiduyun.uploading.cfg",
     "03-research/06-TSN/Routing.baiduyun.uploading.cfg",
-    "03-research/06-TSN/ATS/基础知识-ATS.md.baiduyun.uploading.cfg",
-    "00-模板/QuickNote.md",
-    "00-模板/zoteronote模板.md",
-    "00-模板/annotation-color-note.md",
     "未命名.canvas",
     "00-模板/启动页模板1.canvas",
     "00-模板/启动页模板2.canvas",
