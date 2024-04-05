@@ -58,9 +58,9 @@
               "state": {
                 "file": "HOMEPAGEiPhone.canvas",
                 "viewState": {
-                  "x": -2434.9390467243766,
-                  "y": -569.3528981592069,
-                  "zoom": -0.8071662635550156
+                  "x": -2402.816538921016,
+                  "y": -621.118495154898,
+                  "zoom": -0.6109733820900575
                 }
               }
             }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGEiPhone.canvas"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGEiPhone.canvas"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -205,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGEiPhone.canvas",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGEiPhone.canvas",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -260,10 +259,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7fc5fa2c3f576f36",
+  "active": "c4663dab3db39cf1",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
     "HOMEPAGEiPhone.canvas",
+    "HOMEPAGE.canvas",
     "00-inbox/2024-04.md",
     "wsm/01-日记/2024-04-04.md",
     "wsm/01-日记/2024-04-03.md",
