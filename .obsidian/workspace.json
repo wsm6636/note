@@ -72,8 +72,22 @@
               "type": "contribution-widget-database-view",
               "state": {}
             }
+          },
+          {
+            "id": "642e4e33f89502af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/01-日记/2024-04-05.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/01-日记/2024-04-05.md"
               }
             }
           },
@@ -169,7 +183,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/01-日记/2024-04-05.md"
               }
             }
           }
@@ -204,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/01-日记/2024-04-05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/01-日记/2024-04-05.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -259,10 +273,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c4663dab3db39cf1",
+  "active": "642e4e33f89502af",
   "lastOpenFiles": [
-    "HOMEPAGEiPhone.canvas",
     "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-04-05.md",
+    "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-04.md",
     "wsm/01-日记/2024-04-04.md",
     "wsm/01-日记/2024-04-03.md",
@@ -297,7 +312,6 @@
     "templify-空白-20240331001424.md",
     "00-模板/挂件.md",
     "templify-四象限模板-20240331001259.md",
-    "2024-03-31.md",
     "未命名.canvas",
     "00-模板/启动页模板1.canvas",
     "00-模板/启动页模板2.canvas",
