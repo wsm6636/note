@@ -49,8 +49,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bd01c3da3be97992",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGEiPhone.canvas",
+                "viewState": {
+                  "x": -2434.9390467243766,
+                  "y": -569.3528981592069,
+                  "zoom": -0.8071662635550156
+                }
+              }
+            }
+          },
+          {
+            "id": "d89b1ca3fd731304",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-database-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "HOMEPAGEiPhone.canvas"
               }
             }
           },
@@ -146,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "HOMEPAGEiPhone.canvas"
               }
             }
           }
@@ -181,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "HOMEPAGEiPhone.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "HOMEPAGEiPhone.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -236,10 +260,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
-    "00-inbox/2024-04.md",
     "HOMEPAGE.canvas",
+    "HOMEPAGEiPhone.canvas",
+    "00-inbox/2024-04.md",
     "wsm/01-日记/2024-04-04.md",
     "wsm/01-日记/2024-04-03.md",
     "00-inbox/2024-04-04.md.nssyncsc",
@@ -259,7 +284,6 @@
     "wsm/02-周记/2024-03-25-W13.md",
     "00-inbox/2024.md",
     "wsm/03-月复盘/2024-02.md",
-    "HOMEPAGEiPhone.canvas",
     "wsm/01-日记/2024-04-01.md",
     "wsm/01-日记/2024-03-31.md",
     "wsm/01-日记/2024-03-30.md",
