@@ -18,7 +18,7 @@
                 "viewState": {
                   "x": -1974.5,
                   "y": -642,
-                  "zoom": -0.1481866055170653
+                  "zoom": 0
                 }
               },
               "pinned": true
@@ -38,7 +38,20 @@
             }
           },
           {
-            "id": "68eb002757127e64",
+            "id": "d73dcd6b96083b7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/月复盘模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5663825e25abf41",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -51,43 +64,32 @@
             }
           },
           {
-            "id": "bd01c3da3be97992",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "HOMEPAGEiPhone.canvas",
-                "viewState": {
-                  "x": -2402.816538921016,
-                  "y": -621.118495154898,
-                  "zoom": -0.6109733820900575
-                }
-              }
-            }
-          },
-          {
-            "id": "d89b1ca3fd731304",
-            "type": "leaf",
-            "state": {
-              "type": "contribution-widget-database-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "642e4e33f89502af",
+            "id": "d8ede96a2bdb5122",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/01-日记/2024-04-05.md",
+                "file": "00-模板/年复盘模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b8f901e0aec6cc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/01-日记/2024-04-04.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/01-日记/2024-04-05.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -183,7 +185,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/01-日记/2024-04-05.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -218,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/01-日记/2024-04-05.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/01-日记/2024-04-05.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -273,14 +275,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "642e4e33f89502af",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
-    "wsm/01-日记/2024-04-05.md",
-    "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-04.md",
+    "00-模板/月复盘模板.md",
+    "00-inbox/2024-04-01-W14.md",
     "wsm/01-日记/2024-04-04.md",
     "wsm/01-日记/2024-04-03.md",
+    "HOMEPAGE.canvas",
+    "00-模板/年复盘模板.md",
+    "01-永久笔记/工作流.md",
+    "00-模板/周记模板.md",
+    "wsm/01-日记/2024-04-05.md",
+    "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-04-04.md.nssyncsc",
     "06-ppt/Shumowang-pitch.pdf",
     "06-ppt/~$Shumowang-pitch.pptx",
@@ -293,7 +300,6 @@
     "06-ppt/Shumowang-pitch.pptx",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "wsm/01-日记/2024-04-02.md",
-    "00-inbox/2024-04-01-W14.md",
     "wsm/03-月复盘/2024-03.md",
     "wsm/02-周记/2024-03-25-W13.md",
     "00-inbox/2024.md",
@@ -308,10 +314,6 @@
     "02-paper/02-RTSS/评审意见精简.md",
     "templify-康奈尔笔记模板-20240331001356.md",
     "templify-四象限模板-20240331001448.md",
-    "templify-KG 笔记模板-20240331001655.md",
-    "templify-空白-20240331001424.md",
-    "00-模板/挂件.md",
-    "templify-四象限模板-20240331001259.md",
     "未命名.canvas",
     "00-模板/启动页模板1.canvas",
     "00-模板/启动页模板2.canvas",
