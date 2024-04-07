@@ -9,7 +9,7 @@
     "enabled": true
   },
   "weekly": {
-    "format": "YYYY-MM-DD-[W]ww",
+    "format": "YYYY-[W]ww-MM-DD",
     "folder": "wsm/02-周记",
     "template": "00-模板/周记模板.md",
     "enabled": true
@@ -23,7 +23,8 @@
   "quarterly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "",
+    "enabled": false
   },
   "yearly": {
     "format": "YYYY",
