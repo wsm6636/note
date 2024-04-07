@@ -75,22 +75,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b13481462ef9c72b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W15-04-08.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/菜谱.md"
+                "file": "00-inbox/2024-04-07.md"
               }
             }
           },
@@ -186,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/菜谱.md"
+                "file": "00-inbox/2024-04-07.md"
               }
             }
           }
@@ -221,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/菜谱.md",
+                "file": "00-inbox/2024-04-07.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/菜谱.md",
+                "file": "00-inbox/2024-04-07.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -276,11 +263,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7e035297e5cfde56",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "00-inbox/菜谱.md",
     "01-永久笔记/工作流.md",
     "00-模板/note.md",
-    "00-inbox/菜谱.md",
     "01-永久笔记/未命名.md",
     "HOMEPAGE.canvas",
     "01-永久笔记/菜谱.md",
