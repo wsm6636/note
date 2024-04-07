@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "00-inbox",
+      "template": "00-模板/note.md"
     }
   ],
   "syntax_highlighting": true,
