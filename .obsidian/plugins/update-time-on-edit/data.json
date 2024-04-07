@@ -81,7 +81,6 @@
     "03-research/03-调度/锁/RCU.md": "814a9e350ededc1fe7e50e1347c40d3dbce6f43fef1171d146bb539c85d8de61",
     "03-research/03-调度/锁/RTmutes.md": "5c8ff9996df0b52291817495156f4d1193e09ade58dc2cc3e9c8387a5cebbf23",
     "03-research/03-调度/锁/sleepspinlock.md": "5c8ff9996df0b52291817495156f4d1193e09ade58dc2cc3e9c8387a5cebbf23",
-    "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md": "779a3429bfc2f0823b6ed2e78778c534e90cd10f3a36804ebb9bc0b454210771",
     "03-research/04-Enrico Bini/Feedback-based resource management for multi-threaded applications.md": "1bb8ce5816279fbdb132245892239584e5dbc51fb97c6f2bff4422a092d70fe6",
     "03-research/05-LET/Efficient Run-Time Environments for System-Level LET Programming.md": "b545acfd0738f52b48780996ee10417ed29b29cda0ab40993f1c07a99a527410",
     "03-research/05-LET/LET.md": "2a785f9de753addb5657bef21ace7d53c1fc4e0d5d4099a59a056e330d638453",
@@ -165,6 +164,7 @@
     "wsm/01-日记/2024-04/2024-04-06.md": "adcb306bf5156c2b9804ddcee61a5d8bb8fc293bd58689c908d80599ad9412a2",
     "00-inbox/2024-04-07.md": "6df4239d9947f0db9d9a291bcec9311c6eeafba567b866853c7694a0bd2870f2",
     "00-模板/note.md": "d8a278ff3bd077235286a3c58754274ca402f54c5295c5968aa8a55fa722920b",
-    "00-inbox/菜谱.md": "aaee8e59a22184ce6d10e7a5f32f919b59ab3a7aba0aae85dcec3e3cb278e613"
+    "00-inbox/菜谱.md": "aaee8e59a22184ce6d10e7a5f32f919b59ab3a7aba0aae85dcec3e3cb278e613",
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md": "07e4df29dfba1b82a43c288f6a3b5b15fd6c7bcd47d3fada4473c742634cfe28"
   }
 }

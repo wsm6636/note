@@ -289,12 +289,15 @@
       "backgroundStyle": "none",
       "widgets": [],
       "layoutType": "column",
-      "updateAt": "2024-03-17T07:04:46.024Z",
+      "updateAt": "2024-04-07T15:18:51.305Z",
       "createAt": "2024-02-28T08:07:19.825Z",
       "remark": "日期进度",
       "components": [
         {
           "componentId": "56b7db38-48f2-478f-a0e2-21810f140245"
+        },
+        {
+          "componentId": "6cb68c94-8c7e-462f-b608-22550ccb19b6"
         }
       ]
     },
@@ -312,7 +315,8 @@
       "endDateTime": "2026-08-01 00:00:00",
       "backgroundColor": "#ffffff00",
       "fontColor": "#e37d7dff",
-      "picture": ""
+      "picture": "",
+      "updateAt": "2024-04-07T15:20:48.780Z"
     },
     {
       "id": "5c50de7f-3d5e-4f84-ae23-7883e3940882",
@@ -549,97 +553,6 @@
       "title": "paper",
       "backgroundColor": "#ffffff00",
       "fontColor": "#9eceffff"
-    },
-    {
-      "id": "13c5cb33-ab95-4541-b0ee-cf8fa8704833",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "widgets": [],
-      "layoutType": "column",
-      "updateAt": "2024-03-17T07:04:25.056Z",
-      "createAt": "2024-03-07T13:15:46.494Z",
-      "remark": "进度组合条",
-      "components": [
-        {
-          "componentId": "644d9b94-d04c-4756-87f2-9727c5ae9113"
-        },
-        {
-          "componentId": "c6418ad4-301b-4ba8-9137-8268c294f11e"
-        },
-        {
-          "componentId": "047fdfd0-7af1-4b99-bd88-3b2bf14fe695"
-        },
-        {
-          "componentId": "54e9bfde-4691-4c8d-adbb-878dc228956f"
-        }
-      ]
-    },
-    {
-      "id": "644d9b94-d04c-4756-87f2-9727c5ae9113",
-      "type": "dateProgress",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": 100,
-      "backgroundStyle": "card",
-      "showDateIndicator": false,
-      "showProgressIndicator": true,
-      "startDateTimeType": "$startOfToday",
-      "endDateTimeType": "$endOfToday",
-      "uiType": "bar",
-      "title": "日进度",
-      "backgroundColor": "#ffffff00",
-      "fontColor": "#d99694ff"
-    },
-    {
-      "id": "c6418ad4-301b-4ba8-9137-8268c294f11e",
-      "type": "dateProgress",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": 100,
-      "backgroundStyle": "card",
-      "showDateIndicator": false,
-      "showProgressIndicator": true,
-      "startDateTimeType": "$startOfWeek",
-      "endDateTimeType": "$endOfWeek",
-      "uiType": "bar",
-      "backgroundColor": "#ffffff00",
-      "fontColor": "#fac08fff",
-      "title": "周进度"
-    },
-    {
-      "id": "047fdfd0-7af1-4b99-bd88-3b2bf14fe695",
-      "type": "dateProgress",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": 100,
-      "backgroundStyle": "card",
-      "showDateIndicator": false,
-      "showProgressIndicator": true,
-      "startDateTimeType": "$startOfMonth",
-      "endDateTimeType": "$endOfMonth",
-      "uiType": "bar",
-      "backgroundColor": "#ffffff00",
-      "fontColor": "#92cddcff",
-      "title": "月进度"
-    },
-    {
-      "id": "54e9bfde-4691-4c8d-adbb-878dc228956f",
-      "type": "dateProgress",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": 100,
-      "backgroundStyle": "card",
-      "showDateIndicator": false,
-      "showProgressIndicator": true,
-      "startDateTimeType": "$startOfYear",
-      "endDateTimeType": "$endOfYear",
-      "uiType": "bar",
-      "backgroundColor": "#ffffff00",
-      "fontColor": "#b2a2c7ff",
-      "title": "年进度"
     },
     {
       "id": "b798fa95-c92d-44a5-92ce-b2a5ace0fca3",
@@ -1107,6 +1020,26 @@
           "fit": "contains"
         }
       }
+    },
+    {
+      "id": "6cb68c94-8c7e-462f-b608-22550ccb19b6",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-07T15:18:51.304Z",
+      "updateAt": "2024-04-07T15:20:56.857Z",
+      "backgroundStyle": "card",
+      "showDateIndicator": false,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$specifiedDateTime",
+      "endDateTimeType": "$specifiedDateTime",
+      "uiType": "bar",
+      "title": "意大利",
+      "startDateTime": "2024-04-01 17:18:57",
+      "endDateTime": "2026-04-01 17:19:02",
+      "backgroundColor": "#ffffff00",
+      "fontColor": "#e2bcf2ff"
     }
   ]
 }
