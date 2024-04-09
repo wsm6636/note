@@ -97,8 +97,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/课堂笔记.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -194,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/课堂笔记.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -229,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/课堂笔记.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/课堂笔记.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +283,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e40f18b61987f6e2",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "00-inbox/2024-04-09.md",
     "00-inbox/课堂笔记.md",
