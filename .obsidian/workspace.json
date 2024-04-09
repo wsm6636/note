@@ -25,6 +25,14 @@
             }
           },
           {
+            "id": "23a9f6af31535b54",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
             "id": "4d1a05918f96f4a5",
             "type": "leaf",
             "state": {
@@ -61,14 +69,6 @@
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "218568ed5c261092",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
             }
           },
           {
@@ -285,10 +285,10 @@
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/Real-time system Class.md",
     "00-inbox/2024-04-09.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-W15-04-08.md",
     "wsm/02-周记/2024-W14-04-01.md",
     "01-永久笔记/工作流.md",

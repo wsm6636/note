@@ -194,7 +194,9 @@
     "iconsBackgroundCheckEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true,
+    "debugMode": false
   },
   "英语": "RiEnglishInput",
   "HOMEPAGE.canvas": "LiHome",
