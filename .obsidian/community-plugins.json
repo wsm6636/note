@@ -35,7 +35,7 @@
   "quickadd",
   "periodic-notes",
   "obsidian-hover-editor",
-  "obsidian-zotero-desktop-connector",
   "auto-note-mover",
-  "components"
+  "components",
+  "obsidian-zotero-desktop-connector"
 ]
