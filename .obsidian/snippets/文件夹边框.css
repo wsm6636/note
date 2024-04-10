@@ -1,0 +1,25 @@
+.theme-dark:not(.css-settings-manager) body:not(.is-grabbing) .tree-item-self.is-active:hover, 
+.theme-dark:not(.css-settings-manager) .tree-item-self.is-active, 
+.theme-light:not(.css-settings-manager) body:not(.is-grabbing) .tree-item-self.is-active:hover, 
+.theme-light:not(.css-settings-manager) .tree-item-self.is-active, 
+.ctp-full-palette body:not(.is-grabbing) .tree-item-self.is-active:hover, 
+.ctp-full-palette .tree-item-self.is-active {
+	color: rgb(205, 214, 244); /*ctp-text*/
+	/* background-color: rgba(205, 214, 244, 0.548) !important; */
+	background-color: inherit;
+	outline: solid 2px rgb(184, 112, 252); /*ctp-mauve*/
+}
+.theme-dark:not(.css-settings-manager) :not(.is-grabbing) .nav-file-title:hover,
+.theme-dark:not(.css-settings-manager) :not(.is-grabbing) .nav-folder-title:hover,
+.theme-dark:not(.css-settings-manager) .tree-item-self.is-clickable:hover,
+.theme-light:not(.css-settings-manager) :not(.is-grabbing) .nav-file-title:hover,
+.theme-light:not(.css-settings-manager) :not(.is-grabbing) .nav-folder-title:hover,
+.theme-light:not(.css-settings-manager) .tree-item-self.is-clickable:hover,
+.ctp-full-palette :not(.is-grabbing) .nav-file-title:hover,
+.ctp-full-palette :not(.is-grabbing) .nav-folder-title:hover,
+.ctp-full-palette .tree-item-self.is-clickable:hover {
+	color: rgb(205, 214, 244); /*ctp-text*/
+	/* background-color: inherit !important; */
+	background-color: rgba(205, 214, 244, 0.548) !important;
+	/* outline: solid 1px rgb(187, 139, 247); */
+}
