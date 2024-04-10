@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1967.9273681640625,
-                  "y": -544.6182861328125,
+                  "y": -637.6182861328125,
                   "zoom": 0
                 }
               },
@@ -30,6 +30,32 @@
             "state": {
               "type": "thino_view",
               "state": {}
+            }
+          },
+          {
+            "id": "77c486fccb688f09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-04-10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddc5dcc5ea1d73fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/端到端分析-idea.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -46,12 +72,12 @@
             }
           },
           {
-            "id": "cdb5ec6b4f700ead",
+            "id": "7cb0242e561c3c94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/01-日记/2024-04-09.md",
+                "file": "00-inbox/菜谱.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,60 +96,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5ca710209a5b5528",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W15-04-08.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b083b7df979ad0d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/zoteronote模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "716eb9726f0b6165",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/annotation-color-note.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6965779b6e9f61e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -152,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/菜谱.md"
               }
             }
           },
@@ -219,7 +194,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/菜谱.md"
               }
             }
           }
@@ -254,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/菜谱.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/菜谱.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -294,31 +269,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
-      "obsidian42-brat:BRAT": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian-advanced-slides:Show Slide Preview": true,
+      "templater-obsidian:Templater": true,
+      "obsidian42-brat:BRAT": true,
       "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": true,
+      "homepage:Open homepage": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "7cb0242e561c3c94",
   "lastOpenFiles": [
-    "00-模板/annotation-color-note.md",
-    "00-模板/zoteronote模板.md",
-    "wsm/01-日记/2024-04-09.md",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "00-模板/contributionGraph.md",
-    "00-inbox/2024-W15-04-08.md",
-    "HOMEPAGE.canvas",
     "00-inbox/Real-time system Class.md",
+    "00-inbox/2024-04-10.md",
+    "00-inbox/端到端分析-idea.md",
+    "00-inbox/2024-W15-04-08.md",
+    "00-模板/zoteronote模板.md",
+    "HOMEPAGE.canvas",
+    "wsm/其他/科技论文写作.md",
+    "00-模板/annotation-color-note.md",
+    "wsm/01-日记/2024-04-09.md",
+    "00-模板/contributionGraph.md",
     "wsm/02-周记/2024-W14-04-01.md",
     "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-04/2024-04-08.md",
@@ -336,10 +314,6 @@
     "wsm/02-周记/2024-W09-02-26.md",
     "wsm/02-周记/2024-W13-03-25.md",
     "wsm/02-周记/2024-W12-03-18.md",
-    "wsm/02-周记/2024-W11-03-11.md",
-    "wsm/02-周记/2024-W10-03-04.md",
-    "wsm/02-周记/2024-W08-02-19.md",
-    "wsm/03-月复盘/2024-02.md",
     "wsm/01-日记/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
     "wsm/01-日记/2024-03",
     "wsm/01-日记/2024-02",
