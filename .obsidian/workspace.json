@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-04-09.md",
+                "file": "wsm/01-日记/2024-04-09.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,6 +98,19 @@
             }
           },
           {
+            "id": "716eb9726f0b6165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/annotation-color-note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6965779b6e9f61e2",
             "type": "leaf",
             "state": {
@@ -110,8 +123,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-模板/zoteronote模板.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -207,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-模板/zoteronote模板.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -242,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-模板/zoteronote模板.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-模板/zoteronote模板.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -297,13 +309,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b083b7df979ad0d8",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
-    "00-inbox/2024-04-09.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "00-模板/zoteronote模板.md",
-    "00-模板/contributionGraph.md",
     "00-模板/annotation-color-note.md",
+    "00-模板/zoteronote模板.md",
+    "wsm/01-日记/2024-04-09.md",
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-模板/contributionGraph.md",
     "00-inbox/2024-W15-04-08.md",
     "HOMEPAGE.canvas",
     "00-inbox/Real-time system Class.md",
