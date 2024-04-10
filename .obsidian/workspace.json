@@ -85,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "00-inbox/2024-04-10.md"
               }
             }
           },
@@ -181,7 +181,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "00-inbox/2024-04-10.md"
               }
             }
           }
@@ -216,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "00-inbox/2024-04-10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "00-inbox/2024-04-10.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -271,21 +271,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4d1a05918f96f4a5",
+  "active": "77c486fccb688f09",
   "lastOpenFiles": [
+    "wsm/其他/科技论文写作.md",
+    "00-inbox/2024-04-10.md",
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "06-ppt/zero jitter/20240305_TUM_LET_rings.pdf",
     "06-ppt/zero jitter/20230303_USC_LET_over_rings.pdf",
     "06-ppt/zero jitter",
     "06-ppt/新建文件夹",
     "00-inbox/菜谱.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/Real-time system Class.md",
-    "00-inbox/2024-04-10.md",
     "00-inbox/端到端分析-idea.md",
     "00-inbox/2024-W15-04-08.md",
     "00-模板/zoteronote模板.md",
     "HOMEPAGE.canvas",
-    "wsm/其他/科技论文写作.md",
     "00-模板/annotation-color-note.md",
     "wsm/01-日记/2024-04-09.md",
     "00-模板/contributionGraph.md",
@@ -310,7 +310,6 @@
     "wsm/01-日记/2024-02",
     "00-inbox/2024-04-04.md.nssyncsc",
     "06-ppt/Shumowang-pitch.pdf",
-    "06-ppt/~$Shumowang-pitch.pptx",
     "未命名.canvas",
     "00-模板/启动页模板1.canvas",
     "00-模板/启动页模板2.canvas",
