@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "00-inbox/Towards a Tractable Exact Test for Global Multiprocessor Fixed Priority Scheduling.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "00-inbox/Towards a Tractable Exact Test for Global Multiprocessor Fixed Priority Scheduling.md"
               }
             }
           }
@@ -190,7 +190,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +206,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -245,10 +243,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b7a7a55615f2df95",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
-    "wsm/01-日记/2024-04-10.md",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-inbox/Towards a Tractable Exact Test for Global Multiprocessor Fixed Priority Scheduling.md",
+    "wsm/01-日记/2024-04-10.md",
     "00-inbox/2024-04-11.md",
     "HOMEPAGE.canvas",
     "00-模板/一言模板.md",
