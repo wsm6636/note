@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-04-11.md",
+                "file": "wsm/01-日记/2024-04-11.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -48,14 +48,6 @@
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "4ca270a920f6e805",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
             }
           }
         ]
@@ -129,11 +121,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4fe5a22a763255f3",
+            "id": "a785ba6e7591c8b6",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
+            }
+          },
+          {
+            "id": "4ada7681c10794a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -145,16 +147,6 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "4ada7681c10794a6",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -229,27 +221,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-memos:Thino": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "obsidian-advanced-slides:Show Slide Preview": true,
-      "templater-obsidian:Templater": true,
-      "obsidian42-brat:BRAT": true,
-      "homepage:Open homepage": false,
-      "obsidian-memos:Thino": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "c4663dab3db39cf1",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-inbox/2024-W15-04-08.md",
+    "wsm/01-日记/2024-04-11.md",
+    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-04-10.md",
-    "00-inbox/2024-04-11.md",
     "00-inbox/Towards a Tractable Exact Test for Global Multiprocessor Fixed Priority Scheduling.md",
     "00-模板/一言模板.md",
     "00-模板/一言.md",
@@ -263,7 +256,6 @@
     "wsm/其他/科技论文写作.md",
     "wsm/01-日记/2024-04-09.md",
     "00-inbox/菜谱.md",
-    "00-inbox/2024-W15-04-08.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/端到端分析-idea.md",
     "00-inbox/Real-time system Class.md",

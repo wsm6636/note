@@ -25,17 +25,16 @@
   "emojio",
   "update-time-on-edit",
   "templater-obsidian",
-  "share-my-plugin-list",
   "homepage",
   "obsidian42-brat",
   "obsidian-opener",
   "obsidian-hider",
-  "obsidian-plugin-groups",
   "obsidian-memos",
   "quickadd",
   "periodic-notes",
   "obsidian-hover-editor",
   "auto-note-mover",
   "components",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "share-my-plugin-list"
 ]
