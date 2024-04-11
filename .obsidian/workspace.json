@@ -49,8 +49,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4ca270a920f6e805",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
               }
             }
           },
@@ -146,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
               }
             }
           }
@@ -181,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -236,8 +245,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "b7a7a55615f2df95",
   "lastOpenFiles": [
+    "wsm/01-日记/2024-04-10.md",
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-inbox/2024-04-11.md",
+    "HOMEPAGE.canvas",
     "00-模板/一言模板.md",
     "00-模板/一言.md",
     "00-模板/note.md",
@@ -246,13 +259,9 @@
     "00-模板/启动页模板1.canvas",
     "00-模板/HOMEPAGE 模板.canvas",
     "00-模板/HOMEPAGEiPhone 模板.canvas",
-    "HOMEPAGE.canvas",
     "00-模板/QuickNote.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "00-inbox/2024-04-11.md",
     "wsm/其他/科技论文写作.md",
     "wsm/01-日记/2024-04-09.md",
-    "wsm/01-日记/2024-04-10.md",
     "00-inbox/菜谱.md",
     "00-inbox/2024-W15-04-08.md",
     "HOMEPAGEiPhone.canvas",
@@ -275,7 +284,6 @@
     "wsm/03-月复盘/2024-03.md",
     "wsm/01-日记/2024-04/2024-04-07.md",
     "00-inbox/2024-04-07.md",
-    "01-永久笔记/未命名.md",
     "wsm/01-日记/2024-04",
     "wsm/01-日记/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
     "wsm/01-日记/2024-03",
