@@ -152,7 +152,7 @@
             },
             {
               "id": "df0aab85-fbeb-4eab-8079-ab90e3617c54",
-              "label": "no",
+              "label": "one",
               "value": "0"
             }
           ]
@@ -175,7 +175,8 @@
           "fromProperty": "${file.basename}",
           "label": "Title"
         }
-      ]
+      ],
+      "updateAt": "2024-04-11T13:39:17.253Z"
     },
     {
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
