@@ -381,15 +381,17 @@
       "backgroundStyle": "none",
       "widgets": [],
       "layoutType": "flat",
-      "updateAt": "2024-03-24T16:10:18.186Z",
+      "updateAt": "2024-04-11T07:55:55.837Z",
       "createAt": "2024-02-28T11:59:16.219Z",
       "remark": "倒计时正计时",
       "components": [
         {
-          "componentId": "58cc1831-362c-41df-bbc6-651c3921bc41"
+          "componentId": "58cc1831-362c-41df-bbc6-651c3921bc41",
+          "widthRatio": 50.242595204513414
         },
         {
-          "componentId": "3c746ef4-e76c-4303-a4e6-38793f01ddf6"
+          "componentId": "3c746ef4-e76c-4303-a4e6-38793f01ddf6",
+          "widthRatio": 49.75740479548659
         }
       ]
     },

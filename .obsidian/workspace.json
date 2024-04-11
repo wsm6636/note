@@ -57,8 +57,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9213d49988b6903e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGEiPhone.canvas",
+                "viewState": {
+                  "x": -2129.171142578125,
+                  "y": -184.7468719482422,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "51437bd8d7363bb4",
+            "type": "leaf",
+            "state": {
+              "type": "contribution-widget-database-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "HOMEPAGEiPhone.canvas"
               }
             }
           },
@@ -154,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "HOMEPAGEiPhone.canvas"
               }
             }
           }
@@ -189,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "HOMEPAGEiPhone.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "HOMEPAGEiPhone.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -244,15 +268,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "9213d49988b6903e",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "HOMEPAGEiPhone.canvas",
     "00-inbox/菜谱.md",
     "wsm/其他/科技论文写作.md",
     "00-inbox/端到端分析-idea.md",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/Real-time system Class.md",
     "wsm/01-日记/2024-04-10.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-04-10.md.nssyncsc",
     "01-永久笔记/01-教程/配置zotero7.md",
     "01-永久笔记/工作流.md",
@@ -272,7 +297,6 @@
     "wsm/03-月复盘/2024-03.md",
     "wsm/01-日记/2024-04/2024-04-07.md",
     "00-inbox/2024-04-07.md",
-    "HOMEPAGEiPhone.canvas",
     "00-模板/note.md",
     "01-永久笔记/未命名.md",
     "01-永久笔记/菜谱.md",
