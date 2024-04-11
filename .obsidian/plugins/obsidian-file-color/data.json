@@ -341,10 +341,6 @@
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
-      "path": "00-模板/启动页模板1.canvas",
-      "color": "xQMmAZ6IvurmjeLGcm4ih"
-    },
-    {
       "path": "HOMEPAGE.canvas",
       "color": "7VdWZ__bkU2cCGuZYuwC0"
     },
@@ -363,10 +359,6 @@
     {
       "path": "wsm/03-月复盘",
       "color": "m3H0gtRjQ6C4Kn0jLCrW9"
-    },
-    {
-      "path": "00-模板/启动页模板3.canvas",
-      "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
       "path": "wsm/01-日记/2024-02/2024-02-27.md",
@@ -403,10 +395,6 @@
     {
       "path": "wsm/02-周记/2024-W10-03-04.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
-      "path": "00-模板/启动页模板2.canvas",
-      "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
       "path": "wsm/01-日记/2024-03/2024-03-05.md",
@@ -937,10 +925,6 @@
       "color": "sTW3gDQbTUfHskG9qVYED"
     },
     {
-      "path": "00-模板/QuickNote.md",
-      "color": "xQMmAZ6IvurmjeLGcm4ih"
-    },
-    {
       "path": "00-模板/zoteronote模板.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
@@ -1079,6 +1063,14 @@
     {
       "path": "wsm/01-日记/2024-04-08.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-模板/HOMEPAGEiPhone 模板.canvas",
+      "color": "xQMmAZ6IvurmjeLGcm4ih"
+    },
+    {
+      "path": "00-模板/HOMEPAGE 模板.canvas",
+      "color": "xQMmAZ6IvurmjeLGcm4ih"
     }
   ]
 }

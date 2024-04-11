@@ -129,7 +129,7 @@ body {
     var(--background-modifier-border),
     inset 0 0 0 1px var(--background-modifier-border);
   /* File layout */
-  --file-line-width: 90ch;
+  --file-line-width: 65ch;
   --file-folding-offset: 24px;
   --file-margins: var(--size-4-8);
   --file-header-font-size: var(--font-ui-small);
@@ -1647,15 +1647,6 @@ settings:
   --color-base-100: rgb(var(--ctp-text));
 }
 
-img {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.markdown-source-view.mod-cm6 .cm-content > * {
-  margin: auto auto !important;
-}
 .theme-dark {
   color-scheme: dark;
   --highlight-mix-blend-mode: lighten;
