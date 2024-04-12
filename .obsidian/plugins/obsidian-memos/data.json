@@ -96,7 +96,7 @@
   "MomentsIcon": "06-图/1.png",
   "MomentsQuote": "Share your thino with the world",
   "DefaultThemeForThino": "classic",
-  "LastUpdatedVersion": "2.4.19",
+  "LastUpdatedVersion": "2.4.21",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -107,5 +107,6 @@
   "ProcessContentTarget": "custom",
   "InsertType": "custom",
   "ShareAppendType": "preset",
-  "SharePrependType": "preset"
+  "SharePrependType": "preset",
+  "SetFileNameAfterCreate": false
 }
