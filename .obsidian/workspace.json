@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "00-inbox/未命名.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "00-inbox/未命名.md"
               }
             }
           },
@@ -182,7 +182,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +198,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,14 +235,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b7a7a55615f2df95",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-inbox/未命名.md",
     "00-inbox/2024-04-13.md",
     "00-inbox/2024-W15-04-08.md",
     "wsm/01-日记/2024-04-12.md",
     "HOMEPAGE.canvas",
     "00-inbox/2024-04-12.md.nssyncsc",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "wsm/01-日记/2024-04-11.md",
     "wsm/01-日记/2024-04-10.md",
     "00-inbox/Towards a Tractable Exact Test for Global Multiprocessor Fixed Priority Scheduling.md",
@@ -277,7 +276,6 @@
     "00-模板/annotation-color-note.md",
     "00-模板/contributionGraph.md",
     "wsm/02-周记/2024-W14-04-01.md",
-    "wsm/03-月复盘/2024-03.md",
     "wsm/01-日记/2024-04",
     "wsm/01-日记/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
     "wsm/01-日记/2024-03",
