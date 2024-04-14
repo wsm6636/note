@@ -36,48 +36,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5a3a226f33e05e52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/端到端分析-idea.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ca1ecb132a6085f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W15-04-08.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c42b5609fda9ba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-04-14.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-W15-04-08.md"
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
               }
             }
           },
@@ -161,7 +122,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-W15-04-08.md"
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
               }
             }
           },
@@ -208,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-W15-04-08.md",
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-W15-04-08.md",
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -263,17 +224,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ca1ecb132a6085f",
+  "active": "b7a7a55615f2df95",
   "lastOpenFiles": [
-    "00-inbox/2024-04-14.md",
-    "00-inbox/菜谱.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "wsm/01-日记/2024-04-13.md",
-    "HOMEPAGE.canvas",
     "00-inbox/端到端分析-idea.md",
+    "wsm/02-周记/2024-W15-04-08.md",
+    "00-inbox/2024-04.md",
+    "wsm/01-日记/2024-04-14.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-inbox/菜谱.md",
+    "wsm/01-日记/2024-04-13.md",
     "00-inbox/2024-04-13.md.nssyncsc",
     "00-inbox/未命名.md",
-    "00-inbox/2024-W15-04-08.md",
     "wsm/01-日记/2024-04-12.md",
     "00-inbox/2024-04-12.md.nssyncsc",
     "wsm/01-日记/2024-04-11.md",
