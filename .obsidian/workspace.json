@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1967.9273681640625,
-                  "y": -637.6182861328125,
+                  "y": -544.6182861328125,
                   "zoom": 0
                 }
               },
@@ -31,32 +31,6 @@
               "type": "markdown",
               "state": {
                 "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03313e0656b6b34b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-04-13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba24de9fdf375a3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/菜谱.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,8 +62,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9c42b5609fda9ba7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-04-14.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-W15-04-08.md"
               }
             }
           },
@@ -173,7 +161,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-W15-04-08.md"
               }
             }
           },
@@ -220,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W15-04-08.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W15-04-08.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -275,15 +263,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "1ca1ecb132a6085f",
   "lastOpenFiles": [
-    "00-inbox/端到端分析-idea.md",
+    "00-inbox/2024-04-14.md",
+    "00-inbox/菜谱.md",
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "wsm/01-日记/2024-04-13.md",
     "HOMEPAGE.canvas",
+    "00-inbox/端到端分析-idea.md",
     "00-inbox/2024-04-13.md.nssyncsc",
-    "00-inbox/菜谱.md",
     "00-inbox/未命名.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/2024-W15-04-08.md",
     "wsm/01-日记/2024-04-12.md",
     "00-inbox/2024-04-12.md.nssyncsc",
@@ -315,7 +304,6 @@
     "06-ppt/新建文件夹",
     "00-模板/zoteronote模板.md",
     "00-模板/annotation-color-note.md",
-    "00-模板/contributionGraph.md",
     "wsm/01-日记/2024-04",
     "wsm/01-日记/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
     "wsm/01-日记/2024-03",
