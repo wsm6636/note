@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1967.9273681640625,
-                  "y": -544.6182861328125,
+                  "y": -637.6182861328125,
                   "zoom": 0
                 }
               },
@@ -51,6 +51,19 @@
             }
           },
           {
+            "id": "4cc793c2d8fdfd3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/菜谱.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7fec71dec00f1670",
             "type": "leaf",
             "state": {
@@ -63,7 +76,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/菜谱.md"
               }
             }
           },
@@ -147,7 +161,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/菜谱.md"
               }
             }
           },
@@ -194,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/菜谱.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/菜谱.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -249,10 +263,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "4cc793c2d8fdfd3c",
   "lastOpenFiles": [
-    "00-inbox/2024-W16-04-15.md",
     "00-inbox/2024-04-15.md",
+    "00-inbox/2024-W16-04-15.md",
     "HOMEPAGE.canvas",
     "00-inbox/端到端分析-idea.md",
     "wsm/02-周记/2024-W15-04-08.md",
@@ -286,7 +300,6 @@
     "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-04/2024-04-08.md",
     "wsm/01-日记/2024-04/2024-04-02.md",
-    "wsm/01-日记/2024-04/2024-04-05.md",
     "06-ppt/zero jitter/20240305_TUM_LET_rings.pdf",
     "06-ppt/zero jitter/20230303_USC_LET_over_rings.pdf",
     "06-ppt/zero jitter",
