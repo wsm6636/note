@@ -63,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -148,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +249,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b7a7a55615f2df95",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "00-inbox/2024-W16-04-15.md",
     "00-inbox/2024-04-15.md",
