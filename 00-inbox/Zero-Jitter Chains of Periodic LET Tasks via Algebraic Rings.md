@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21-14:00:00
-updated: 2024-04-10T11:48
+updated: 2024-04-15T15:49
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -282,7 +282,7 @@ T 确定链的周期，
 
 类似地，以向后迭代的方式，从链的最后任务的任何作业开始，并包括不晚于该作业的读取时刻的前一任务的最后作业，构建立即向后作业链。在我们的符号中，作业(j1，j2，.。。，jn)是直接向后的作业链，当
 
-![image-20230715211139363](https://gcore.jsdelivr.net/gh/wsm6636/pic/202307211406430.png)
+![image-20230715211139363|550](https://gcore.jsdelivr.net/gh/wsm6636/pic/202307211406430.png)
 
 在文献中，直接前向作业链被用来测量第一个任务感知的事件到达链的末端所需的时间。立即转发作业链中最长的输入输出延迟对应于链的最大反应时间 [9]。另一方面，直接后向作业链代表链中最后一个任务使用的数据的新鲜值，并且立即后向作业链中最长的输入输出延迟对应于最大数据年龄。
 
@@ -290,13 +290,13 @@ T 确定链的周期，
 
 τ i 的一项作业 ji 是 **无效的** W.r.t.τ如果它不传播数据，即 <span style="background:#BBFFBB !important;"> ji 的输出在被τ的任何作业读取之前被作业 next(ji)覆盖。</span>
 
-<span style="background:#BBFFBB !important;"> 定义 8(作废作业)</span>。给定一个链，一个作业 ji 是无效的 W.r.t。τ i <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307211406911.png" alt="image-20230715211610985" style="zoom:67%;" />
+<span style="background:#BBFFBB !important;"> 定义 8(作废作业)</span>。给定一个链，一个作业 ji 是无效的 W.r.t。τ i <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307211406911.png" alt="image-20230715211610985" style="zoom:100%;" />
 
-例如，在图 1 中，作业 j1 = 8 是无效的 w.r.t.τ 2，因为其数据被τ 1 的作业 9 覆盖。事实上 <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307152117911.png" alt="image-20230715211751837" style="zoom:67%;" />
+例如，在图 1 中，作业 j1 = 8 是无效的 w.r.t.τ 2，因为其数据被τ 1 的作业 9 覆盖。事实上 <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307152117911.png" alt="image-20230715211751837" style="zoom:100%;" />
 
 相反，τ的作业 j 是 **多余的** w.r.t。τ i 如果它重复相同的数据处理，即，<span style="background:#BBFFBB !important;"> 作业 jl 读取由作业 prev(jl)读取的相同输入，并且因此产生相同的输出。</span>
 
-<span style="background:#BBFFBB !important;"> 定义 9(冗余工作)。</span> 给定链，作业 jl 是多余的 w.r.t。τ i <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307152121219.png" alt="image-20230715212126094" style="zoom:67%;" />
+<span style="background:#BBFFBB !important;"> 定义 9(冗余工作)。</span> 给定链，作业 jl 是多余的 w.r.t。τ i <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307152121219.png" alt="image-20230715212126094" style="zoom:100%;" />
 
 再看图 1，作业 j2 = 6 是多余的 w.r.t.τ 1，因为它读取与前一个相同的输入，因此执行关于 <img src="https://gcore.jsdelivr.net/gh/wsm6636/pic/202307211406451.png" alt="image-20230715212158718" style="zoom:67%;" /> 的冗余计算。
 
