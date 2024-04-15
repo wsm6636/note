@@ -51,19 +51,6 @@
             }
           },
           {
-            "id": "4cc793c2d8fdfd3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/菜谱.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7fec71dec00f1670",
             "type": "leaf",
             "state": {
@@ -77,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/菜谱.md"
+                "file": "00-inbox/2024-04-15.md"
               }
             }
           },
@@ -133,7 +120,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,7 +149,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/菜谱.md"
+                "file": "00-inbox/2024-04-15.md"
               }
             }
           },
@@ -208,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/菜谱.md",
+                "file": "00-inbox/2024-04-15.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/菜谱.md",
+                "file": "00-inbox/2024-04-15.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -263,17 +251,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4cc793c2d8fdfd3c",
+  "active": "799207c0c379461a",
   "lastOpenFiles": [
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/2024-04-15.md",
+    "00-inbox/菜谱.md",
     "00-inbox/2024-W16-04-15.md",
     "HOMEPAGE.canvas",
     "00-inbox/端到端分析-idea.md",
     "wsm/02-周记/2024-W15-04-08.md",
     "00-inbox/2024-04.md",
     "wsm/01-日记/2024-04/2024-04-14.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "00-inbox/菜谱.md",
     "wsm/01-日记/2024-04/2024-04-13.md",
     "00-inbox/2024-04-13.md.nssyncsc",
     "00-inbox/未命名.md",
