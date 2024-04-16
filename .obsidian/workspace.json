@@ -62,8 +62,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "23891527157b6c1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/菜谱.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -92,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/菜谱.md"
               }
             }
           },
@@ -147,7 +161,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/菜谱.md"
               }
             }
           },
@@ -194,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/菜谱.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/菜谱.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -249,13 +263,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "23891527157b6c1f",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-模板/zoteronote模板.md",
     "00-模板/annotation-color-note.md",
     "00-inbox/A Novel Partitioning Approach for Real-Time Scheduling of Mixed-Criticality Systems -.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-W16-04-15.md",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/2024-04.md",
@@ -284,7 +298,6 @@
     "00-模板/HOMEPAGE 模板.canvas",
     "00-模板/HOMEPAGEiPhone 模板.canvas",
     "00-模板/QuickNote.md",
-    "wsm/其他/科技论文写作.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-04-10.md.nssyncsc",
     "06-ppt/zero jitter/20240305_TUM_LET_rings.pdf",
