@@ -51,6 +51,45 @@
             }
           },
           {
+            "id": "b97ed6c1a2b1f101",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba1d2e5c801f2c27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/端到端分析-idea.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84570abdba2e81f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/04-ESWEEK/note-ESWEEK.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7fec71dec00f1670",
             "type": "leaf",
             "state": {
@@ -77,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Real-time system Class.md"
+                "file": "00-inbox/端到端分析-idea.md"
               }
             }
           },
@@ -161,7 +200,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Real-time system Class.md"
+                "file": "00-inbox/端到端分析-idea.md"
               }
             }
           },
@@ -208,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Real-time system Class.md",
+                "file": "00-inbox/端到端分析-idea.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Real-time system Class.md",
+                "file": "00-inbox/端到端分析-idea.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -263,8 +302,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fd79f44a1d60a35d",
+  "active": "ba1d2e5c801f2c27",
   "lastOpenFiles": [
+    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+    "02-paper/04-ESWEEK/note-ESWEEK.md",
+    "00-inbox/Real-time system Class.md",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/2024-04-16.md",
     "wsm/01-日记/2024-04-15.md",
@@ -295,11 +337,9 @@
     "wsm/其他/科技论文写作.md",
     "wsm/01-日记/2024-04/2024-04-09.md",
     "HOMEPAGEiPhone.canvas",
-    "00-inbox/Real-time system Class.md",
     "00-inbox/2024-04-10.md.nssyncsc",
     "01-永久笔记/01-教程/配置zotero7.md",
     "01-永久笔记/工作流.md",
-    "wsm/01-日记/2024-04/2024-04-08.md",
     "06-ppt/zero jitter/20240305_TUM_LET_rings.pdf",
     "06-ppt/zero jitter/20230303_USC_LET_over_rings.pdf",
     "06-ppt/zero jitter",
