@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-04-15.md",
+                "file": "wsm/01-日记/2024-04-15.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,9 +62,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05c44cd5765b1d48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/01-日记/2024-04-15.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-04-15.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -120,8 +132,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-04-15.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -196,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-04-15.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-04-15.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -251,13 +262,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "799207c0c379461a",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-04-15.md",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "00-inbox/2024-04-15.md",
     "00-inbox/菜谱.md",
     "00-inbox/2024-W16-04-15.md",
-    "HOMEPAGE.canvas",
     "00-inbox/端到端分析-idea.md",
     "wsm/02-周记/2024-W15-04-08.md",
     "00-inbox/2024-04.md",
