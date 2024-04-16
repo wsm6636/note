@@ -63,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -148,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +249,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f42c4afbfff4a203",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "00-模板/zoteronote模板.md",
     "00-模板/annotation-color-note.md",
