@@ -2,6 +2,58 @@
   "widgets": [],
   "components": [
     {
+      "id": "9dbb6409-9982-46d8-9762-4146a3b8357b",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-16T13:48:55.377Z",
+      "updateAt": "2024-04-16T13:48:58.186Z",
+      "backgroundStyle": "none",
+      "viewType": "gallary",
+      "datasource": {
+        "filter": {
+          "conditions": []
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "gallary-small",
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      }
+    },
+    {
+      "id": "6bbcb79b-0084-4755-8a8a-cb65a0e97146",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-16T13:48:41.765Z",
+      "updateAt": "2024-04-16T13:48:55.377Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "9dbb6409-9982-46d8-9762-4146a3b8357b"
+        }
+      ],
+      "layoutType": "column",
+      "remark": ""
+    },
+    {
       "id": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f",
       "type": "multi",
       "titleAlign": "center",

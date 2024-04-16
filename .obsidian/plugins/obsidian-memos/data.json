@@ -19,6 +19,7 @@
   "OpenDailyMemosWithMemos": true,
   "HideDoneTasks": false,
   "ShowTaskLabel": true,
+  "AppendDateWhenTaskDone": false,
   "MobileAndDesktop": "All",
   "OpenMemosAutomatically": false,
   "ShowTime": true,
@@ -60,18 +61,6 @@
       "value": "DAILY",
       "target": "ProcessEntriesBelow",
       "insert": "InsertAfter"
-    },
-    {
-      "value": "CANVAS",
-      "target": "MemoDefaultCanvasPath"
-    },
-    {
-      "value": "MULTI",
-      "target": "MemoDefaultMultiFilePath"
-    },
-    {
-      "value": "FILE",
-      "target": "MemoDefaultSingleFilePath"
     }
   ],
   "DeleteThinoDirectly": false,
@@ -96,7 +85,7 @@
   "MomentsIcon": "06-图/1.png",
   "MomentsQuote": "Share your thino with the world",
   "DefaultThemeForThino": "classic",
-  "LastUpdatedVersion": "2.4.21",
+  "LastUpdatedVersion": "2.4.24",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -108,5 +97,8 @@
   "InsertType": "custom",
   "ShareAppendType": "preset",
   "SharePrependType": "preset",
-  "SetFileNameAfterCreate": false
+  "SetFileNameAfterCreate": false,
+  "TagForFileTypeFiles": "thino/file",
+  "TagForMultiTypeFiles": "thino/multi",
+  "MinHeightForShare": "200px"
 }
