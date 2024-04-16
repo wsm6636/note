@@ -4,14 +4,13 @@ tags:
   - 待归档
   - 笔记/课堂笔记
 created: 2024-04-07T16:29
-updated: 2024-04-09T16:46
+updated: 2024-04-16T10:52
 status:
   - todo
 ---
+应对不确定性
 1. benchmarking
-	1. pros： easy to implement general purpose  computing
-	2. cons： what can we really say in general
-2. stochaastic models
+2. stochaastic models随机
 3. bonding uncertainties whit intervals polytopes
 
 ## schedul
