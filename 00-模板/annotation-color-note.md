@@ -1,6 +1,6 @@
 ---
-created: 
-updated: 
+created: 2024-03-27T12:30
+updated: 2024-04-16T16:34
 tags:
   - 笔记/文献笔记
   - 待归档
@@ -8,9 +8,12 @@ tags:
 status:
   - todo
 ---
-
+ {% if extra %}{% set cleanedString = extra|replace("abstractTranslation: ", "")|replace("titleTranslation: ", "") %}
+{% set parts = cleanedString.split("\n") %}
+{% set titleTranslation = parts[0] %}
+{% set abstractTranslation = parts[1] %}{% endif %}
 **title:** {{title}}
-**TitleTranslation:**  {% if titleTranslation %}{{titleTranslation}}{% endif %} 
+**TitleTranslation:**  {{titleTranslation}}
 **Journal or Conference:**  {% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} {{conferenceName}} {{publicationTitle}} {{university}}
 **Authors:**  {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
 **Pub.date:**  {% if date %}{{date | format("YYYY-MM")}}{% endif %}

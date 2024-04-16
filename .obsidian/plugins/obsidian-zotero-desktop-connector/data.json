@@ -8,7 +8,7 @@
     {
       "name": "cite",
       "format": "formatted-bibliography",
-      "cslStyle": "elsevier-harvard"
+      "cslStyle": "ieee"
     }
   ],
   "exportFormats": [
@@ -18,7 +18,7 @@
       "imageOutputPathTemplate": "00-inbox/{{title}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "00-模板/annotation-color-note.md",
-      "cslStyle": "elsevier-harvard"
+      "cslStyle": "ieee"
     },
     {
       "name": "import zotero note",
