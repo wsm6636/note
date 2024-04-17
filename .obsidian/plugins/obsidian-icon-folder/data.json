@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSettings",
       "LiPaintbrush",
       "IbIphone",
       "TiNotebook",
-      "LiInbox",
-      "LiHome"
+      "LiInbox"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -213,8 +213,9 @@
   "06-ppt": "FarFilePowerpoint",
   "00-模板": "TiTemplate",
   "01-永久笔记": "TiNotebook",
-  "01-永久笔记/01-教程": "LiSettings",
   "wsm": "RiAdminLine",
   "HOMEPAGEiPhone.canvas": "IbIphone",
-  "06-Excalidraw": "LiPaintbrush"
+  "06-Excalidraw": "LiPaintbrush",
+  "01-永久笔记/02-配置": "LiSettings",
+  "01-永久笔记/01-教程": "TiNotebook"
 }
