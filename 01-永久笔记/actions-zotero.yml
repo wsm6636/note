@@ -1,0 +1,165 @@
+type: ActionsTagsBackup
+author: wsm02200059
+platformVersion: 7.0.0-beta.74+2e8073ab9
+pluginVersion: 1.0.0-beta.38
+timestamp: '2024-04-17T13:02:19.829Z'
+actions:
+  '1695445925961':
+    event: 0
+    operation: 4
+    data: |-
+      item.addTag("schedule");
+      item.addTag("/ing");
+      item.removeTag("/unread");
+      item.removeTag("❌");
+    shortcut: Ctrl,Alt,2
+    enabled: true
+    menu: schedule
+    name: schedule
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  1712691350007-zgLXQNK2:
+    event: 0
+    operation: 4
+    data: |-
+      item.addTag("/reread");
+      item.removeTag("/ing");
+      item.removeTag("/unread");
+      item.removeTag("/readed");
+      item.removeTag("❌");
+    shortcut: ''
+    enabled: true
+    menu: reread
+    name: reread
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  '1695445240715':
+    event: 2
+    operation: 4
+    data: |-
+      item.addTag("/ing");
+      item.removeTag("/unread");
+      item.removeTag("❌");
+    shortcut: Alt,2
+    enabled: true
+    menu: ing
+    name: ing
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  default1:
+    event: 0
+    operation: 4
+    data: |-
+      item.removeTag("/unread");
+      item.removeTag("/ing");
+      item.addTag("/readed");
+    shortcut: Alt,3
+    enabled: true
+    menu: 已读
+    name: 已读
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  '1697706013490':
+    event: 0
+    operation: 2
+    data: |
+      bookmark
+    shortcut: ''
+    enabled: true
+    menu: 移除书签
+    name: 移除书签
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  default0:
+    event: 1
+    operation: 4
+    data: |
+      item.addTag("/unread");
+      item.removeTag("/ing");
+      item.removeTag("/readed");
+      item.removeTag("/reread");
+    shortcut: Alt,1
+    enabled: true
+    menu: 未读
+    name: 未读
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  '1695445460362':
+    event: 0
+    operation: 4
+    data: |-
+      item.addTag("bookmark");
+      item.addTag("/ing");
+      item.removeTag("/unread");
+      item.removeTag("schedule");
+      item.removeTag("❌");
+    shortcut: Ctrl,Alt,1
+    enabled: true
+    menu: 书签
+    name: 书签
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  '1697706212843':
+    event: 0
+    operation: 2
+    data: |+
+      schedule
+
+    shortcut: ''
+    enabled: true
+    menu: 取消schedule
+    name: 取消schedule
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false
+  '1697706433088':
+    event: 0
+    operation: 4
+    data: |-
+      item.addTag("❌");
+      item.removeTag("/unread");
+      item.removeTag("/ing");
+      item.removeTag("bookmark");
+      item.removeTag("schedule");
+      item.removeTag("/rereade");
+    shortcut: Ctrl,Alt,3
+    enabled: true
+    menu: ❌
+    name: ❌
+    showInMenu:
+      item: true
+      collection: true
+      tools: false
+      reader: true
+      readerAnnotation: false

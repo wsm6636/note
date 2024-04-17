@@ -62,8 +62,61 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "941c95ad0b250762",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/工作流.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b23a1646268eb8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1f88e173ca9b066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8231e3fd8c11513c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/zoteronote模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -92,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/annotation-Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md"
+                "file": "00-模板/zoteronote模板.md"
               }
             }
           },
@@ -147,7 +200,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/annotation-Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md"
+                "file": "00-模板/zoteronote模板.md"
               }
             }
           },
@@ -194,6 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-模板/zoteronote模板.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,6 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00-模板/zoteronote模板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -247,11 +302,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7fc5fa2c3f576f36",
+  "active": "8231e3fd8c11513c",
   "lastOpenFiles": [
-    "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-    "00-inbox/annotation-Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-inbox/配置.md",
+    "01-永久笔记/配置.md",
+    "01-永久笔记/工作流.md",
     "HOMEPAGE.canvas",
+    "00-inbox/annotation-Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+    "01-永久笔记/actions-zotero.yml",
+    "01-永久笔记/actions-zotero.yml.tmp",
+    "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
@@ -263,8 +324,6 @@
     "wsm/02-周记/2024-W13-03-25.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W12-03-18.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W11-03-11.md.baiduyun.uploading.cfg",
-    "wsm/02-周记/2024-W10-03-04.md.baiduyun.uploading.cfg",
-    "wsm/02-周记/2024-W09-02-26.md.baiduyun.uploading.cfg",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "wsm/01-日记/2024-04-16.md",
     "00-inbox/菜谱.md",
@@ -281,12 +340,8 @@
     "wsm/02-周记/2024-W15-04-08.md",
     "wsm/01-日记/2024-04/2024-04-14.md",
     "wsm/01-日记/2024-04/2024-04-13.md",
-    "00-inbox/未命名.md",
     "wsm/01-日记/2024-04/2024-04-12.md",
     "wsm/01-日记/2024-04/2024-04-11.md",
-    "wsm/01-日记/2024-04/2024-04-10.md",
-    "00-inbox/Towards a Tractable Exact Test for Global Multiprocessor Fixed Priority Scheduling.md",
-    "00-模板/一言模板.md",
     "00-模板/启动页模板3.canvas",
     "00-模板/启动页模板2.canvas",
     "00-模板/启动页模板1.canvas",
