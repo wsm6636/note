@@ -1,6 +1,5 @@
 {
   "pluginList": [
-    "vran-dev/obsidian-components-release",
     "aidan-gibson/obsidian-opener",
     "vran-dev/obsidian-emojio"
   ],

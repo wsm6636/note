@@ -2,18 +2,153 @@
   "widgets": [],
   "components": [
     {
+      "id": "faa3adb5-7a67-4fa6-b993-cff9e97f5568",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-17T08:55:32.812Z",
+      "updateAt": "2024-04-17T08:56:52.980Z",
+      "backgroundStyle": "none",
+      "viewType": "kanban",
+      "datasource": {
+        "filter": {
+          "conditions": [
+            {
+              "value": "#个人/周记",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "id": "a29157b6-233e-4917-9b99-62c6b628c174"
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "4aceb370-28c7-4637-ac05-1fce0264d174",
+              "property": "${file.basename}",
+              "direction": "desc"
+            }
+          ]
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "groups": [
+        {
+          "id": "c7a686a9-aaaf-4b53-b158-006f6845bdc7",
+          "name": "20",
+          "items": []
+        },
+        {
+          "id": "56071fb8-4fb5-4073-a5f9-12a0c6cb960f",
+          "name": "60",
+          "items": []
+        },
+        {
+          "id": "edcb63ff-763e-49b8-8e89-a4f5b59b7792",
+          "name": "70",
+          "items": []
+        },
+        {
+          "id": "6a867d90-c477-4803-8569-39fbcd2ed664",
+          "name": "75",
+          "items": []
+        },
+        {
+          "id": "934ee87e-bea5-4d52-85c0-79bb628e780a",
+          "name": "85",
+          "items": []
+        }
+      ],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      },
+      "groupBy": "#周复盘完成度"
+    },
+    {
+      "id": "05feed8b-e6e6-4cbd-a872-c919a7437774",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-17T08:51:35.280Z",
+      "updateAt": "2024-04-17T08:55:04.112Z",
+      "backgroundStyle": "none",
+      "viewType": "kanban",
+      "datasource": {
+        "filter": {
+          "conditions": [
+            {
+              "value": "",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "id": "a37c547f-e5fb-4c01-9d7b-838dd75349db"
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "viewOptions": {
+        "openPageIn": "current",
+        "itemSize": "gallary-small",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      },
+      "groupBy": "#日记完成度",
+      "groups": [
+        {
+          "id": "13195c9f-6ebb-4d53-addc-9f4861cc6fc1",
+          "name": 10,
+          "items": []
+        },
+        {
+          "id": "781728c1-4967-4035-946b-2e27cc857a41",
+          "name": "20",
+          "items": []
+        }
+      ]
+    },
+    {
       "id": "d9cc666e-f773-406d-b63d-f011c1a2c366",
       "type": "multi",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-17T08:44:41.251Z",
-      "updateAt": "2024-04-17T08:44:41.251Z",
+      "updateAt": "2024-04-17T08:57:11.029Z",
       "backgroundStyle": "none",
       "widgets": [],
-      "components": [],
+      "components": [
+        {
+          "componentId": "faa3adb5-7a67-4fa6-b993-cff9e97f5568"
+        }
+      ],
       "layoutType": "column",
-      "remark": ""
+      "remark": "看板"
     },
     {
       "id": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f",
@@ -1057,6 +1192,23 @@
       "endDateTime": "2026-04-01 17:19:02",
       "backgroundColor": "#ffffff00",
       "fontColor": "#e2bcf2ff"
+    },
+    {
+      "id": "e7555b41-a1b7-41b3-86e0-875c58043a31",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-17T08:51:07.200Z",
+      "updateAt": "2024-04-17T08:51:35.281Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "05feed8b-e6e6-4cbd-a872-c919a7437774"
+        }
+      ],
+      "layoutType": "column"
     }
   ]
 }
