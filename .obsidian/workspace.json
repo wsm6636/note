@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,6 +57,32 @@
               "type": "markdown",
               "state": {
                 "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e61aa994814d2ba6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9dea8fd5561dfe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/挂件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -251,16 +277,26 @@
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "HOMEPAGE.canvas",
+    "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W15-04-08.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W14-04-01.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W13-03-25.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W12-03-18.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W11-03-11.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W10-03-04.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W09-02-26.md.baiduyun.uploading.cfg",
+    "wsm/02-周记/2024-W08-02-19.md.baiduyun.uploading.cfg",
+    "wsm/01-日记/2024-04/2024-04-14.md.baiduyun.uploading.cfg",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "wsm/01-日记/2024-04-16.md",
     "00-inbox/菜谱.md",
     "wsm/其他/科技论文写作.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-W16-04-15.md",
     "00-模板/zoteronote模板.md",
     "00-模板/annotation-color-note.md",
     "00-inbox/A Novel Partitioning Approach for Real-Time Scheduling of Mixed-Criticality Systems -.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-inbox/2024-04.md",
     "02-paper/04-ESWEEK/note-ESWEEK.md",
     "00-inbox/端到端分析-idea.md",
@@ -269,10 +305,8 @@
     "wsm/02-周记/2024-W15-04-08.md",
     "wsm/01-日记/2024-04/2024-04-14.md",
     "wsm/01-日记/2024-04/2024-04-13.md",
-    "00-inbox/2024-04-13.md.nssyncsc",
     "00-inbox/未命名.md",
     "wsm/01-日记/2024-04/2024-04-12.md",
-    "00-inbox/2024-04-12.md.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-11.md",
     "wsm/01-日记/2024-04/2024-04-10.md",
     "00-inbox/Towards a Tractable Exact Test for Global Multiprocessor Fixed Priority Scheduling.md",
@@ -284,16 +318,7 @@
     "00-模板/启动页模板1.canvas",
     "00-模板/HOMEPAGE 模板.canvas",
     "00-模板/HOMEPAGEiPhone 模板.canvas",
-    "00-模板/QuickNote.md",
     "HOMEPAGEiPhone.canvas",
-    "00-inbox/2024-04-10.md.nssyncsc",
-    "06-ppt/zero jitter/20240305_TUM_LET_rings.pdf",
-    "06-ppt/zero jitter/20230303_USC_LET_over_rings.pdf",
-    "06-ppt/zero jitter",
-    "06-ppt/新建文件夹",
-    "wsm/01-日记/2024-04",
-    "wsm/01-日记/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
-    "wsm/01-日记/2024-03",
     "未命名.canvas",
     "模板/未命名.canvas",
     "模板/启动页.canvas",
