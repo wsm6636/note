@@ -1,6 +1,6 @@
 ---
 created: 2023-07-21T12:27
-updated: 2024-03-26T23:33
+updated: 2024-04-18T15:00
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -79,7 +79,7 @@ Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanis
 
 > r≤re
 
-(Ii)逻辑执行时间==(LET)[==16]，其中每个任务τ被分配任意的截止日期Dτ，并且τ的每个作业J的==读和写事件分别被设置为其释放时间re(J)=rj和其绝对截止日期we(J)=dJ：=rj+Dτ。==**系统中的每个任务要么使用隐式通信，要么使用逻辑执行时间(LET)**，COMM(τ)∈{LET，impl}表示任务τ的通信策略。我们假设Rτ≤Dτ如果τ使用LET进行通信。
+(Ii)逻辑执行时间==(LET)==[16]，其中每个任务τ被分配任意的截止日期Dτ，并且τ的每个作业J的==读和写事件分别被设置为其释放时间re(J)=rj和其绝对截止日期we(J)=dJ：=rj+Dτ。==**系统中的每个任务要么使用隐式通信，要么使用逻辑执行时间(LET)**，COMM(τ)∈{LET，impl}表示任务τ的通信策略。我们假设Rτ≤Dτ如果τ使用LET进行通信。
 
 > COMM(τ)：通讯方式
 >
