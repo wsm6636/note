@@ -25,12 +25,12 @@
             }
           },
           {
-            "id": "b7a7a55615f2df95",
+            "id": "e94d99ba5e3be9a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+                "file": "00-inbox/2024-04-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -38,84 +38,20 @@
             }
           },
           {
-            "id": "84570abdba2e81f1",
+            "id": "2ff309e8304f5274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-paper/04-ESWEEK/note-ESWEEK.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0e87805e8e831e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/端到端分析-idea.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32afeb67d4791516",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ba92a7fb86d6de8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ef5792d49704534",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca0c5a78076c02f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+                "file": "00-inbox/2024-W16-04-15.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-04-18.md"
               }
             }
           },
@@ -199,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-04-18.md"
               }
             }
           },
@@ -246,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-04-18.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-04-18.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -301,26 +237,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "e94d99ba5e3be9a2",
   "lastOpenFiles": [
+    "00-inbox/2024-W16-04-15.md",
     "00-inbox/2024-04-18.md",
+    "HOMEPAGE.canvas",
+    "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "02-paper/04-ESWEEK/note-ESWEEK.md",
+    "00-inbox/端到端分析-idea.md",
+    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
     "00-inbox/未命名.canvas",
-    "00-inbox/端到端分析-idea.md",
     "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "01-永久笔记/03-文献总结",
     "01-永久笔记/02-配置/zotero7配置.md",
-    "02-paper/04-ESWEEK/note-ESWEEK.md",
-    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "03-research/02-因果链/End-To-End Timing Analysis in ROS2.md",
     "03-research/02-因果链/其他人的工作.md",
     "03-research/01-端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
-    "HOMEPAGE.canvas",
     "wsm/其他/十问.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
-    "00-inbox/2024-W16-04-15.md",
     "00-inbox/2024年04月18日摘录.md",
     "templify-四象限模板-20240418123025.md",
     "00-inbox/未命名.md",
@@ -331,7 +268,6 @@
     "00-inbox/2024-04-17.md",
     "wsm/01-日记/2024-04-16.md",
     "wsm/01-日记/2024-04-15.md",
-    "00-inbox/菜谱.md",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-16.361Z.yaml",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-10.056Z.yaml",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-04.049Z.yaml",
