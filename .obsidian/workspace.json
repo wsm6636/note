@@ -62,6 +62,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "61d29541f8e050b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W16-04-15.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -252,6 +265,13 @@
   "active": "832e1994679bf635",
   "lastOpenFiles": [
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+    "00-inbox/2024-W16-04-15.md",
+    "wsm/01-日记/2024-04-17.md",
+    "wsm/01-日记/2024-04-16.md",
+    "wsm/01-日记/2024-04-15.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/2024-04-17.md",
+    "00-inbox/菜谱.md",
     "01-永久笔记/02-配置/zotero/配置.md",
     "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-模板/zoteronote模板.md",
@@ -267,26 +287,20 @@
     "01-永久笔记/02-配置/actions-zotero.yml",
     "01-永久笔记/02-配置",
     "01-永久笔记/工作流.md",
-    "HOMEPAGE.canvas",
     "00-inbox/annotation-Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "00-模板/一言.md",
-    "wsm/01-日记/2024-04-16.md",
-    "00-inbox/菜谱.md",
     "wsm/其他/科技论文写作.md",
-    "00-inbox/2024-W16-04-15.md",
     "00-inbox/A Novel Partitioning Approach for Real-Time Scheduling of Mixed-Criticality Systems -.md",
     "00-inbox/2024-04.md",
     "02-paper/04-ESWEEK/note-ESWEEK.md",
     "00-inbox/端到端分析-idea.md",
     "00-inbox/Real-time system Class.md",
-    "wsm/01-日记/2024-04-15.md",
     "wsm/02-周记/2024-W15-04-08.md",
     "wsm/01-日记/2024-04/2024-04-14.md",
     "wsm/01-日记/2024-04/2024-04-13.md",
-    "wsm/01-日记/2024-04/2024-04-12.md",
     "00-模板/启动页模板3.canvas",
     "00-模板/启动页模板2.canvas",
     "00-模板/启动页模板1.canvas",
