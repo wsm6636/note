@@ -4,9 +4,9 @@ tags:
   - 待归档
   - 笔记/idea
 created: 2024-04-07T16:29
-updated: 2024-04-16T15:19
+updated: 2024-04-18T10:55
 status:
-  - todo
+  - ing
 ---
 # idea1
 ## 结合zero jitter和自己的分析
