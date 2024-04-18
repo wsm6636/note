@@ -166,5 +166,13 @@
     }
   ],
   "obsidian-advanced-slides:reload-advanced-slides-preview": [],
-  "obsidian-advanced-slides:open-advanced-slides-preview": []
+  "obsidian-advanced-slides:open-advanced-slides-preview": [],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ]
 }
