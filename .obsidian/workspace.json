@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md"
+                "file": "00-inbox/端到端分析-idea.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md"
+                "file": "00-inbox/端到端分析-idea.md"
               }
             }
           },
@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+                "file": "00-inbox/端到端分析-idea.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+                "file": "00-inbox/端到端分析-idea.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -315,11 +315,12 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "9ef5792d49704534",
+  "active": "e0e87805e8e831e3",
   "lastOpenFiles": [
-    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-    "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+    "02-paper/04-ESWEEK/note-ESWEEK.md",
     "02-paper/03-DAC/方法-模型整理.md",
+    "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "00-inbox/端到端分析-idea.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "00-inbox/2024-04-18.md",
@@ -338,7 +339,6 @@
     "2024-04-18.md",
     "wsm/01-日记/2024-04-17.md",
     "00-inbox/2024-04-17.md",
-    "02-paper/04-ESWEEK/note-ESWEEK.md",
     "wsm/01-日记/2024-04-16.md",
     "wsm/01-日记/2024-04-15.md",
     "00-inbox/菜谱.md",
