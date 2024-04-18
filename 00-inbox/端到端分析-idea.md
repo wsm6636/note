@@ -1,10 +1,10 @@
 ---
 tags:
   - 笔记
-  - 待归档
   - 笔记/idea
+  - 待归档
 created: 2024-04-07T16:29
-updated: 2024-04-18T15:53
+updated: 2024-04-18T16:27
 status:
   - ing
 ---
