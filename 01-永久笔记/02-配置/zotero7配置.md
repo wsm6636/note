@@ -3,7 +3,7 @@ tags:
   - 笔记
   - 笔记/永久笔记
 created: 2024-04-07T16:29
-updated: 2024-04-17T15:56
+updated: 2024-04-18T15:57
 status:
   - todo
 ---
@@ -18,7 +18,7 @@ status:
 
 # 重命名
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202404171510809.png)
-> {{ year suffix="_" }}{{ title truncate="100" }}{{ firstCreator suffix="_" }}
+> {{ year suffix="_" }}{{ title truncate="100" suffix="_"  }}{{ firstCreator }}
 
 
 # 同步

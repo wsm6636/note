@@ -1,14 +1,15 @@
 ---
 created: 2023-11-17T19:14
-updated: 2024-04-18T15:06
+updated: 2024-04-18T16:01
 tags:
   - 笔记
   - 笔记/idea
+  - 笔记/永久笔记
 ---
 
 # 方法
 
-  test
+  
 ---
 ## 1、 R+T
 ### Period Optimization for Hard Real-time Distributed Automotive Systems
@@ -92,7 +93,7 @@ $f$：结束时间（finishing time）
 > 参考[方法1](#^cc7877)
 
 **单ECU**
-对于WCFC考虑两种情况[5.1最长反应时间](../因果链/End-to-End%20Timing%20Analysis%20of%20Sporadic%20Cause-Effect%20Chains%20in%20Distributed%20Systems.md#5.1最长反应时间)
+对于WCFC考虑两种情况[5.1最长反应时间](../../03-research/02-因果链/End-to-End%20Timing%20Analysis%20of%20Sporadic%20Cause-Effect%20Chains%20in%20Distributed%20Systems.md#5.1最长反应时间)
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202310262203668.png)
 可能由于过采样或者欠采样
 

@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-paper/03-DAC/方法-模型整理.md",
+                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md"
+                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md"
+                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md"
               }
             }
           },
@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md",
+                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md",
+                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -315,13 +315,16 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "e0e87805e8e831e3",
+  "active": "00e7f125e2b61535",
   "lastOpenFiles": [
-    "02-paper/04-ESWEEK/note-ESWEEK.md",
-    "02-paper/03-DAC/方法-模型整理.md",
     "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
-    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
+    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
+    "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
+    "01-永久笔记/03-文献总结",
+    "01-永久笔记/02-配置/zotero7配置.md",
     "00-inbox/端到端分析-idea.md",
+    "02-paper/04-ESWEEK/note-ESWEEK.md",
+    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "00-inbox/2024-04-18.md",
     "03-research/02-因果链/End-To-End Timing Analysis in ROS2.md",
@@ -342,8 +345,6 @@
     "wsm/01-日记/2024-04-16.md",
     "wsm/01-日记/2024-04-15.md",
     "00-inbox/菜谱.md",
-    "01-永久笔记/02-配置/zotero/配置.md",
-    "00-inbox/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-16.361Z.yaml",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-10.056Z.yaml",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-04.049Z.yaml",
@@ -353,8 +354,6 @@
     "01-永久笔记/02-配置/bn-template-backup-2024-04-17T13-49-10.056Z.yaml",
     "01-永久笔记/02-配置/bn-template-backup-2024-04-17T13-49-04.049Z.yaml",
     "01-永久笔记/02-配置/actions-zotero.yml",
-    "01-永久笔记/02-配置",
-    "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "00-模板/启动页模板3.canvas",
     "00-模板/启动页模板2.canvas",
     "00-模板/启动页模板1.canvas",

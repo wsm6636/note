@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNewspaper",
       "LiSettings",
       "LiPaintbrush",
       "IbIphone",
-      "TiNotebook",
-      "LiInbox"
+      "TiNotebook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -217,5 +217,6 @@
   "HOMEPAGEiPhone.canvas": "IbIphone",
   "06-Excalidraw": "LiPaintbrush",
   "01-永久笔记/02-配置": "LiSettings",
-  "01-永久笔记/01-教程": "TiNotebook"
+  "01-永久笔记/01-教程": "TiNotebook",
+  "01-永久笔记/03-文献总结": "LiNewspaper"
 }
