@@ -174,5 +174,23 @@
       ],
       "key": "D"
     }
+  ],
+  "obsidian-memos:show-thino-in-popover": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:8ebad018-6726-4531-a27e-73827a2a3266": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
   ]
 }

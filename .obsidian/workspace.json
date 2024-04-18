@@ -64,14 +64,6 @@
             }
           },
           {
-            "id": "628ebe1c05056784",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "f42c4afbfff4a203",
             "type": "leaf",
             "state": {
@@ -111,7 +103,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -287,14 +279,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "templater-obsidian:Templater": true,
-      "obsidian-memos:Thino": false,
       "homepage:Open homepage": false,
       "obsidian42-brat:BRAT": true,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "templify:Templify 市场": false,
+      "obsidian-memos:Thino": false
     }
   },
   "active": "c1ce786f297fd275",
