@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-04-18.md",
+                "file": "wsm/01-日记/2024-04-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,9 +49,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bea117abd5d94875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/菜谱.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-04-18.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -135,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-04-18.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-04-18.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-04-18.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,10 +249,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e94d99ba5e3be9a2",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "00-inbox/2024-W16-04-15.md",
-    "00-inbox/2024-04-18.md",
+    "00-inbox/菜谱.md",
+    "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-04-18.md",
     "HOMEPAGE.canvas",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "02-paper/04-ESWEEK/note-ESWEEK.md",
@@ -267,7 +281,6 @@
     "wsm/01-日记/2024-04-17.md",
     "00-inbox/2024-04-17.md",
     "wsm/01-日记/2024-04-16.md",
-    "wsm/01-日记/2024-04-15.md",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-16.361Z.yaml",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-10.056Z.yaml",
     "01-永久笔记/02-配置/zotero/bn-template-backup-2024-04-17T13-49-04.049Z.yaml",
