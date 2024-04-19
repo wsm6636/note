@@ -85,7 +85,7 @@
   "MomentsIcon": "06-图/1.png",
   "MomentsQuote": "Share your thino with the world",
   "DefaultThemeForThino": "classic",
-  "LastUpdatedVersion": "2.4.26",
+  "LastUpdatedVersion": "2.4.28",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -100,5 +100,11 @@
   "SetFileNameAfterCreate": false,
   "TagForFileTypeFiles": "thino/file",
   "TagForMultiTypeFiles": "thino/multi",
-  "MinHeightForShare": "200px"
+  "MinHeightForShare": "200px",
+  "ThinoMaxHeight": 0,
+  "OptimizeForCallout": true,
+  "AppendOrPrependTextViaServer": false,
+  "AppendViaServer": "",
+  "PrependViaServer": "",
+  "WithNewLineViaServer": "none"
 }
