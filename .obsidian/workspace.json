@@ -25,25 +25,12 @@
             }
           },
           {
-            "id": "e72c04974c9c35d5",
+            "id": "254b28f4257f8a85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f784b9ff8177221",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/一言.md",
+                "file": "wsm/01-日记/2024-04-22.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-模板/一言.md"
+                "file": "wsm/01-日记/2024-04-22.md"
               }
             }
           },
@@ -135,7 +122,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-模板/一言.md"
+                "file": "wsm/01-日记/2024-04-22.md"
               }
             }
           },
@@ -182,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-模板/一言.md",
+                "file": "wsm/01-日记/2024-04-22.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-模板/一言.md",
+                "file": "wsm/01-日记/2024-04-22.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,15 +224,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3f784b9ff8177221",
+  "active": "254b28f4257f8a85",
   "lastOpenFiles": [
-    "00-inbox/端到端分析-idea.md",
     "HOMEPAGE.canvas",
+    "00-inbox/2024-W17-04-22.md",
+    "00-inbox/端到端分析-idea.md",
     "00-模板/一言.md",
     "00-模板/一言模板.md",
     "wsm/01-日记/2024-04-22.md",
     "00-inbox/2024-04-22.md.nssyncsc",
-    "00-inbox/2024-W17-04-22.md",
     "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
     "06-ppt/RTS-Turin-Class/ppt5755.tmp",
     "06-ppt/RTS-Turin-Class/ppt1B34.tmp",
