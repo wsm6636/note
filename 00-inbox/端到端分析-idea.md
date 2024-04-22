@@ -4,7 +4,7 @@ tags:
   - 笔记/idea
   - 待归档
 created: 2024-04-07T16:29
-updated: 2024-04-18T16:27
+updated: 2024-04-22T17:29
 status:
   - ing
 ---
@@ -38,6 +38,8 @@ status:
 
 思考方向： 
 1. 把DAC论文变成TT链考虑，同时需要考虑TSN的情况
+	1. QCH
+	2. QBV别人做过了
 2. 考虑ET任务链是否有jitter的情况
 	1. 应该没有
 3. 隐式通信有没有jitter的情况
