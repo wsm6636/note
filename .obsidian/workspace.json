@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -135,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -182,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +236,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e72c04974c9c35d5",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "00-inbox/2024-04.md",
