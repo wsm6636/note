@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "294b4e0f06f67d58",
+    "type": "split",
+    "children": [
+      {
+        "id": "e524bb73871cade8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9140a2fbbd7f221",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "viewState": {
+                  "x": -1955,
+                  "y": -593,
+                  "zoom": 0
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "010ab82ac2a59b67",
+            "type": "leaf",
+            "state": {
+              "type": "components-database-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1fed9e04a5e97d6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ab1e536c6013608",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fc5fa2c3f576f36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b8117d4845201ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
+            }
+          },
+          {
+            "id": "14e19d6c3c25ebf5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96534df3a7e62762",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 260.0110321044922
+  },
+  "right": {
+    "id": "72a98f63b87fd861",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c272ce0b3fbb768",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a785ba6e7591c8b6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "4ada7681c10794a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
+            }
+          },
+          {
+            "id": "3489e9e69e67f977",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "dbe74c464049a0d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef7b58c1de8e9019",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fbd984f9597fd947",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e8da10234d4adde3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e38c973fcf2e963e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "832e1994679bf635",
+            "type": "leaf",
+            "state": {
+              "type": "emoji-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "templater-obsidian:Templater": true,
+      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "a9140a2fbbd7f221",
+  "lastOpenFiles": [
+    "00-模板/年复盘模板.md",
+    "00-inbox/2024.md.baiduyun.uploading.cfg",
+    "00-inbox/2024.md",
+    "00-模板/年复盘模板.md.baiduyun.uploading.cfg",
+    "wsm/03-月复盘/2024-02.md.baiduyun.uploading.cfg",
+    "HOMEPAGE.canvas",
+    "wsm/03-月复盘/2024-02.md",
+    "00-inbox/2024-04.md",
+    "00-inbox/2024-04.md.baiduyun.uploading.cfg",
+    "wsm/03-月复盘/2024-03.md",
+    "00-模板/月复盘模板.md",
+    "wsm/01-日记/2024-04-22.md",
+    "wsm/03-月复盘/2024-03.md.baiduyun.uploading.cfg",
+    "00-模板/月复盘模板.md.baiduyun.uploading.cfg",
+    "01-永久笔记/01-教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md",
+    "wsm/02-周记/2024-W08-02-19.md",
+    "00-inbox/2024-W17-04-22.md",
+    "00-模板/周记模板.md",
+    "00-模板/周记模板.md.baiduyun.uploading.cfg",
+    "00-模板/日记模板.md.baiduyun.uploading.cfg",
+    "00-模板/日记模板.md",
+    "00-模板/zoteronote模板.md",
+    "04-project/02-fastdds/uprobe测试过程.md",
+    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
+    "00-模板/挂件.md.baiduyun.uploading.cfg",
+    "00-模板/挂件.md",
+    "HOMEPAGE.canvas.baiduyun.uploading.cfg",
+    "00-模板/一言.md",
+    "00-inbox/菜谱.md",
+    "00-inbox/端到端分析-idea.md",
+    "00-模板/一言模板.md",
+    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
+    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+    "02-paper/01-RTCSA/QCH-workspace.md",
+    "wsm/02-周记/2024-W16-04-15.md",
+    "wsm/01-日记/2024-04/2024-04-17.md",
+    "00-inbox/未命名.canvas",
+    "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
+    "00-模板/启动页模板3.canvas",
+    "00-模板/启动页模板2.canvas",
+    "00-模板/启动页模板1.canvas",
+    "00-模板/HOMEPAGE 模板.canvas",
+    "00-模板/HOMEPAGEiPhone 模板.canvas",
+    "HOMEPAGEiPhone.canvas",
+    "未命名.canvas",
+    "模板/未命名.canvas",
+    "06-图/1.png",
+    "图/222 1.png",
+    "图/111).png",
+    "06-图/111.png",
+    "图/2a64fd65617e9cd277a6f0137ee8d43.jpg",
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg",
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.png",
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/rollup-logo.svg",
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/repo-hero-logo-light.svg"
+  ]
+}

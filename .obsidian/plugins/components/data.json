@@ -2,6 +2,254 @@
   "widgets": [],
   "components": [
     {
+      "id": "251ef898-69e0-4fda-81f5-b45c5850d63f",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-23T18:38:36.531Z",
+      "updateAt": "2024-04-23T18:39:12.128Z",
+      "backgroundStyle": "none",
+      "viewType": "gallary",
+      "datasource": {
+        "filter": {
+          "id": "1782ac15-9bb4-486f-9852-b92c3884d9e4",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "e946767d-8a35-49bf-8573-0a9bf0a56003",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "月复盘",
+              "value": "2024-01-01T00:00",
+              "conditions": []
+            },
+            {
+              "id": "2251ff04-57e4-4bf1-9691-f71d6f7a43b4",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "月复盘",
+              "value": "2024-12-31T23:59",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "5374cb0e-ab9c-4f2a-addc-48634c2a5390",
+              "property": "${file.basename}",
+              "direction": "asc"
+            }
+          ]
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      }
+    },
+    {
+      "id": "411850b9-66b3-4a2c-9865-602212938762",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-23T18:37:16.611Z",
+      "updateAt": "2024-04-23T18:37:57.992Z",
+      "backgroundStyle": "none",
+      "viewType": "gallary",
+      "datasource": {
+        "filter": {
+          "id": "1782ac15-9bb4-486f-9852-b92c3884d9e4",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "ca457b14-c49c-441d-a824-4fdbae4a30d5",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "周记",
+              "value": "2024-02-01T00:00",
+              "conditions": []
+            },
+            {
+              "id": "32850c05-7cc9-4e32-80dc-516df049e001",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "周记",
+              "value": "2024-02-29T23:59",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "406e8823-8c8a-45e5-a120-a817ca42f56e",
+              "property": "${file.basename}",
+              "direction": "asc"
+            }
+          ]
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      }
+    },
+    {
+      "id": "2ae239fe-8308-4215-b981-262b28a47cc9",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-23T18:35:18.723Z",
+      "updateAt": "2024-04-23T18:35:54.853Z",
+      "backgroundStyle": "none",
+      "viewType": "gallary",
+      "datasource": {
+        "filter": {
+          "id": "1782ac15-9bb4-486f-9852-b92c3884d9e4",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "01d9161c-5fd7-4dc5-baa6-7d05e5a17380",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "周记",
+              "value": "2024-04-01T00:00",
+              "conditions": []
+            },
+            {
+              "id": "625f7f22-9ab9-44e0-8f8f-fd6d1cda5223",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "周记",
+              "value": "2024-04-30T23:59",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "4d2ca8cb-4cf0-4e3f-adb7-a7b0494877dd",
+              "property": "${file.basename}",
+              "direction": "asc"
+            }
+          ]
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      }
+    },
+    {
+      "id": "6233caf7-b127-45a9-98f5-867b733301ca",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-23T18:31:44.483Z",
+      "updateAt": "2024-04-23T18:32:58.735Z",
+      "backgroundStyle": "none",
+      "viewType": "gallary",
+      "datasource": {
+        "filter": {
+          "id": "1782ac15-9bb4-486f-9852-b92c3884d9e4",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "999531d0-e9b5-4939-9ba6-a9415d220b84",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "周记",
+              "value": "2024-03-01T00:00",
+              "conditions": []
+            },
+            {
+              "id": "b1d41030-d2c5-459c-90ba-d24bef14fd3d",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "周记",
+              "value": "2024-03-31T23:59",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "5467256f-f75b-4b28-90eb-89302759d1d2",
+              "property": "${file.basename}",
+              "direction": "asc"
+            }
+          ]
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      }
+    },
+    {
       "id": "faa3adb5-7a67-4fa6-b993-cff9e97f5568",
       "type": "dynamicDataView",
       "titleAlign": "center",
@@ -76,61 +324,6 @@
         }
       },
       "groupBy": "#周复盘完成度"
-    },
-    {
-      "id": "05feed8b-e6e6-4cbd-a872-c919a7437774",
-      "type": "dynamicDataView",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "createAt": "2024-04-17T08:51:35.280Z",
-      "updateAt": "2024-04-17T08:55:04.112Z",
-      "backgroundStyle": "none",
-      "viewType": "kanban",
-      "datasource": {
-        "filter": {
-          "conditions": [
-            {
-              "value": "",
-              "operator": "contains",
-              "property": "${file.tags}",
-              "id": "a37c547f-e5fb-4c01-9d7b-838dd75349db"
-            }
-          ]
-        },
-        "dataLimit": 50,
-        "storage": {
-          "location": ""
-        },
-        "sort": {
-          "orders": []
-        }
-      },
-      "properties": [],
-      "templates": [],
-      "viewOptions": {
-        "openPageIn": "current",
-        "itemSize": "gallary-small",
-        "showPropertyName": false,
-        "cover": {
-          "type": "pageFirstImage",
-          "value": "",
-          "fit": "contains"
-        }
-      },
-      "groupBy": "#日记完成度",
-      "groups": [
-        {
-          "id": "13195c9f-6ebb-4d53-addc-9f4861cc6fc1",
-          "name": 10,
-          "items": []
-        },
-        {
-          "id": "781728c1-4967-4035-946b-2e27cc857a41",
-          "name": "20",
-          "items": []
-        }
-      ]
     },
     {
       "id": "d9cc666e-f773-406d-b63d-f011c1a2c366",
@@ -588,16 +781,16 @@
       "maxWidthRatio": 100,
       "repeatType": "none",
       "showEndDateTime": true,
-      "endHour": 20,
+      "endHour": 17,
       "endMinute": 0,
       "endSecond": 0,
       "title": "讨论",
       "endYear": 2024,
       "endMonth": 3,
-      "endDayOfMonth": 22,
+      "endDayOfMonth": 24,
       "backgroundColor": "#ffffff00",
       "fontColor": "#ddae8eff",
-      "updateAt": "2024-04-10T11:36:08.223Z"
+      "updateAt": "2024-04-23T18:40:18.578Z"
     },
     {
       "id": "3c746ef4-e76c-4303-a4e6-38793f01ddf6",
@@ -837,47 +1030,6 @@
       "fontColor": "#b2a2c7ff"
     },
     {
-      "id": "c14910fc-0195-4e4c-91f3-cbca5fb6793b",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "widgets": [],
-      "layoutType": "column",
-      "updateAt": "2024-03-27T14:54:24.077Z",
-      "createAt": "2024-03-09T15:32:14.015Z",
-      "remark": "摘录",
-      "components": [
-        {
-          "componentId": "dc69fd71-c06d-4bbc-931f-cf9f62c294cc"
-        }
-      ]
-    },
-    {
-      "id": "dc69fd71-c06d-4bbc-931f-cf9f62c294cc",
-      "type": "quote",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "card",
-      "contentType": "block",
-      "coverType": "pageProperty",
-      "filter": {
-        "conditions": [
-          {
-            "type": "file_path",
-            "value": "调度",
-            "operator": "equals",
-            "property": "",
-            "id": "02fa38b0-9652-4106-a0f6-857f70309ba2"
-          }
-        ]
-      },
-      "maxHeight": 300,
-      "coverValue": "评分"
-    },
-    {
       "id": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",
       "type": "multi",
       "titleAlign": "center",
@@ -919,300 +1071,6 @@
       "chartLabelPosition": "hidden"
     },
     {
-      "id": "aadc8501-b6e3-458c-8749-7987f95f117f",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "widgets": [],
-      "layoutType": "column",
-      "updateAt": "2024-03-13T15:04:35.599Z",
-      "createAt": "2024-03-10T08:16:27.940Z",
-      "remark": "每日一句",
-      "components": [
-        {
-          "componentId": "690d9663-bba6-4804-8da4-b57fb29361e7"
-        }
-      ]
-    },
-    {
-      "id": "690d9663-bba6-4804-8da4-b57fb29361e7",
-      "type": "dataview",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "query": "let fileContent = await app.vault.readRaw(dv.page(\"一言\").file.path) \nlet sentenceList = fileContent.split(\"\\n\") \nsentenceList = sentenceList.filter(x => x.startsWith(\"-\")) \nlet oneSentence = sentenceList[sentenceList.length * Math.random() | 0] \noneSentence =oneSentence.substring(2) \ndv.paragraph(`<div style=\"font-size: 24px; font-family: kaiti;\">${oneSentence}</div>`)",
-      "queryType": "dataviewjs",
-      "backgroundStyle": "card",
-      "maxHeight": 300,
-      "dynamicParamComponents": []
-    },
-    {
-      "id": "db083c95-f246-4219-92ea-ac9446538436",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "widgets": [],
-      "layoutType": "column",
-      "updateAt": "2024-03-25T14:08:12.954Z",
-      "createAt": "2024-03-17T15:10:44.097Z",
-      "remark": "每月复盘",
-      "components": [
-        {
-          "componentId": "9f5729fa-0743-47b0-be91-cb11df8a76e3"
-        }
-      ]
-    },
-    {
-      "id": "9f5729fa-0743-47b0-be91-cb11df8a76e3",
-      "type": "dynamicDataView",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "viewType": "gallary",
-      "datasource": {
-        "filter": {
-          "conditions": [
-            {
-              "type": "tag",
-              "value": "#个人/周记",
-              "operator": "contains",
-              "property": "${file.tags}",
-              "id": "85259f70-366e-4faf-a424-a9637a3a0136"
-            },
-            {
-              "type": "file_path",
-              "value": "模板",
-              "operator": "not_equals",
-              "property": "${file.path}",
-              "id": "e35a91a4-c18a-402f-b740-c9c068b1a6d0"
-            },
-            {
-              "type": "property",
-              "value": "2024-03-01T21:41",
-              "operator": "time_after_or_equal",
-              "property": "周记",
-              "id": "78833fa4-2e8f-42fa-80ca-a028f2e15ece"
-            },
-            {
-              "type": "property",
-              "value": "2024-03-31T21:41",
-              "operator": "time_before_or_equal",
-              "property": "周记",
-              "id": "0d78a12b-5dd6-49b7-9527-9b105219faea"
-            }
-          ]
-        },
-        "dataLimit": 12,
-        "storage": {
-          "location": ""
-        },
-        "sort": {
-          "orders": [
-            {
-              "id": "62ffd5c0-d082-4b8f-815a-790dd10ed0c3",
-              "property": "周记",
-              "direction": "asc"
-            }
-          ]
-        }
-      },
-      "properties": [
-        {
-          "id": "42f0300e-010c-479e-8752-619e6550459d",
-          "name": "${file.basename}",
-          "isShow": true,
-          "defaultValue": "",
-          "type": "text"
-        }
-      ],
-      "viewOptions": {
-        "openPageIn": "split",
-        "itemSize": "gallary-small",
-        "cover": {
-          "type": "pageFirstImage",
-          "value": "",
-          "fit": "contains"
-        }
-      }
-    },
-    {
-      "id": "c13f257a-72f9-4c37-9313-64687fd4513a",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "widgets": [],
-      "layoutType": "column",
-      "updateAt": "2024-03-28T14:03:57.548Z",
-      "createAt": "2024-03-25T14:11:23.171Z",
-      "remark": "周复盘统计视图",
-      "components": [
-        {
-          "componentId": "f9c00b45-1111-40b9-9a45-1a8e650d66d5"
-        }
-      ]
-    },
-    {
-      "id": "f9c00b45-1111-40b9-9a45-1a8e650d66d5",
-      "type": "dynamicDataView",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "viewType": "gallary",
-      "datasource": {
-        "filter": {
-          "conditions": [
-            {
-              "type": "tag",
-              "value": "#个人/周记",
-              "operator": "contains",
-              "property": "${file.tags}",
-              "id": "85259f70-366e-4faf-a424-a9637a3a0136"
-            },
-            {
-              "type": "file_path",
-              "value": "模板",
-              "operator": "not_contains",
-              "property": "${file.path}",
-              "id": "e35a91a4-c18a-402f-b740-c9c068b1a6d0"
-            },
-            {
-              "type": "property",
-              "value": "2024-04-01T00:00",
-              "operator": "time_after_or_equal",
-              "property": "周记",
-              "id": "78833fa4-2e8f-42fa-80ca-a028f2e15ece"
-            },
-            {
-              "type": "property",
-              "value": "2024-04-30T23:59",
-              "operator": "time_before_or_equal",
-              "property": "周记",
-              "id": "0d78a12b-5dd6-49b7-9527-9b105219faea"
-            }
-          ]
-        },
-        "dataLimit": 12,
-        "storage": {
-          "location": ""
-        },
-        "sort": {
-          "orders": [
-            {
-              "id": "62ffd5c0-d082-4b8f-815a-790dd10ed0c3",
-              "property": "周记",
-              "direction": "asc"
-            }
-          ]
-        }
-      },
-      "properties": [
-        {
-          "id": "42f0300e-010c-479e-8752-619e6550459d",
-          "name": "${file.basename}",
-          "isShow": true,
-          "defaultValue": "",
-          "type": "text"
-        }
-      ],
-      "viewOptions": {
-        "cover": {
-          "type": "pageFirstImage",
-          "value": "",
-          "fit": "contains"
-        }
-      },
-      "updateAt": "2024-04-02T18:59:07.107Z"
-    },
-    {
-      "id": "61bce30b-9de5-4e79-a4d1-f4e456c0eac9",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "widgets": [],
-      "layoutType": "column",
-      "updateAt": "2024-03-28T14:04:01.268Z",
-      "createAt": "2024-03-25T14:12:53.555Z",
-      "remark": "月复盘统计视图",
-      "components": [
-        {
-          "componentId": "56a3ea90-7f6d-41e6-a33f-502cc7790f50"
-        }
-      ]
-    },
-    {
-      "id": "56a3ea90-7f6d-41e6-a33f-502cc7790f50",
-      "type": "dynamicDataView",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "viewType": "gallary",
-      "datasource": {
-        "filter": {
-          "conditions": [
-            {
-              "value": "#个人/月复盘",
-              "operator": "contains",
-              "property": "${file.tags}",
-              "id": "31ad9bfd-5d0f-496b-ac79-fb81c016818d"
-            },
-            {
-              "value": "模板",
-              "operator": "not_contains",
-              "property": "${file.path}",
-              "id": "7d9b42f5-8d68-4e2d-90bf-e4ed4ba26a91"
-            },
-            {
-              "value": "2024-01-01T22:14",
-              "operator": "time_after_or_equal",
-              "property": "月复盘",
-              "id": "86e64ab6-3a32-4655-9869-5fe3d0b62f6a"
-            },
-            {
-              "value": "2024-12-31T22:14",
-              "operator": "time_before_or_equal",
-              "property": "月复盘",
-              "id": "424e7c06-c9ea-4788-88d8-91d6f3dbd08d"
-            }
-          ]
-        },
-        "dataLimit": 50,
-        "storage": {
-          "location": ""
-        },
-        "sort": {
-          "orders": [
-            {
-              "id": "4f0da817-1843-4d9e-9424-b1ac742aa660",
-              "property": "月复盘",
-              "direction": "asc"
-            }
-          ]
-        }
-      },
-      "properties": [],
-      "templates": [],
-      "viewOptions": {
-        "openPageIn": "split",
-        "itemSize": "gallary-small",
-        "cover": {
-          "type": "pageFirstImage",
-          "value": "",
-          "fit": "contains"
-        }
-      }
-    },
-    {
       "id": "6cb68c94-8c7e-462f-b608-22550ccb19b6",
       "type": "dateProgress",
       "titleAlign": "center",
@@ -1233,21 +1091,76 @@
       "fontColor": "#e2bcf2ff"
     },
     {
-      "id": "e7555b41-a1b7-41b3-86e0-875c58043a31",
+      "id": "67851e5e-c380-4988-a782-d93a38e30b84",
       "type": "multi",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "createAt": "2024-04-17T08:51:07.200Z",
-      "updateAt": "2024-04-17T08:51:35.281Z",
+      "createAt": "2024-04-23T18:31:40.478Z",
+      "updateAt": "2024-04-23T18:34:37.739Z",
       "backgroundStyle": "none",
       "widgets": [],
       "components": [
         {
-          "componentId": "05feed8b-e6e6-4cbd-a872-c919a7437774"
+          "componentId": "6233caf7-b127-45a9-98f5-867b733301ca"
         }
       ],
-      "layoutType": "column"
+      "layoutType": "column",
+      "remark": "2024-03"
+    },
+    {
+      "id": "00019d1d-8c80-4e04-8734-0aeff493b479",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-23T18:35:14.204Z",
+      "updateAt": "2024-04-23T18:36:10.038Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "2ae239fe-8308-4215-b981-262b28a47cc9"
+        }
+      ],
+      "layoutType": "column",
+      "remark": "2024-04"
+    },
+    {
+      "id": "a48680cb-89c6-4e1a-82fa-cf2b75d8e279",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-23T18:37:09.184Z",
+      "updateAt": "2024-04-23T18:38:18.506Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "411850b9-66b3-4a2c-9865-602212938762"
+        }
+      ],
+      "layoutType": "column",
+      "remark": "2024-02"
+    },
+    {
+      "id": "da3ca788-d26d-4660-b176-20b0c605ef2c",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-23T18:38:33.134Z",
+      "updateAt": "2024-04-23T18:39:37.594Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "251ef898-69e0-4fda-81f5-b45c5850d63f"
+        }
+      ],
+      "layoutType": "column",
+      "remark": "2024"
     }
   ]
 }
