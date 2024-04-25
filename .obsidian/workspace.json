@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/其他/科技论文写作.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/其他/科技论文写作.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -216,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/其他/科技论文写作.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/其他/科技论文写作.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -258,24 +258,23 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "templater-obsidian:Templater": true,
-      "homepage:Open homepage": false,
-      "obsidian42-brat:BRAT": true,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "219016e7fa3bbf41",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "wsm/其他/科技论文写作.md",
+    "00-inbox/快速笔记.md",
+    "00-inbox/Untitled.md",
+    "00-inbox/未命名.md",
+    "00-inbox/未命名.md.nssyncsc",
+    "wsm/01-日记/2024-04/2024-04-18.md",
     "00-inbox/2024-04-25.md",
     "00-模板/一言.md",
-    "wsm/其他/科技论文写作.md",
     "HOMEPAGE.canvas",
     "00-inbox/菜谱.md",
     "00-inbox/2024年04月25日摘录.md",
@@ -300,16 +299,11 @@
     "00-模板/月复盘模板.md",
     "wsm/01-日记/2024-04-22.md",
     "wsm/03-月复盘/2024-03.md.baiduyun.uploading.cfg",
-    "00-模板/月复盘模板.md.baiduyun.uploading.cfg",
     "01-永久笔记/01-教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md",
     "wsm/02-周记/2024-W08-02-19.md",
     "00-模板/周记模板.md",
     "00-模板/日记模板.md",
     "00-模板/zoteronote模板.md",
-    "04-project/02-fastdds/uprobe测试过程.md",
-    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
-    "00-模板/挂件.md",
-    "00-inbox/端到端分析-idea.md",
     "00-inbox/未命名.canvas",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "00-模板/启动页模板3.canvas",
@@ -328,6 +322,4 @@
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg",
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.png",
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/rollup-logo.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/repo-hero-logo-light.svg"
-  ]
-}
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-�
