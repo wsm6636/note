@@ -88,9 +88,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b440a95a41b91f18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024年04月25日摘录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/菜谱.md"
+                "file": "00-inbox/2024年04月25日摘录.md"
               }
             }
           },
@@ -174,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/菜谱.md"
+                "file": "00-inbox/2024年04月25日摘录.md"
               }
             }
           },
@@ -221,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/菜谱.md",
+                "file": "00-inbox/2024年04月25日摘录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/菜谱.md",
+                "file": "00-inbox/2024年04月25日摘录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -276,8 +289,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5931f5419eca20b1",
+  "active": "b440a95a41b91f18",
   "lastOpenFiles": [
+    "00-inbox/菜谱.md",
+    "00-inbox/2024年04月25日摘录.md",
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-04-24.md",
     "00-inbox/2024-W17-04-22.md",
@@ -310,7 +325,6 @@
     "04-project/02-fastdds/uprobe测试过程.md",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "00-模板/挂件.md",
-    "00-inbox/菜谱.md",
     "00-inbox/端到端分析-idea.md",
     "00-模板/一言模板.md",
     "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
