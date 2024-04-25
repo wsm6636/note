@@ -102,8 +102,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024年04月25日摘录.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -187,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024年04月25日摘录.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -234,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024年04月25日摘录.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024年04月25日摘录.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -289,11 +288,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b440a95a41b91f18",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "wsm/其他/科技论文写作.md",
+    "HOMEPAGE.canvas",
     "00-inbox/菜谱.md",
     "00-inbox/2024年04月25日摘录.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-04-24.md",
     "00-inbox/2024-W17-04-22.md",
     "06-ppt/discussion/~$0424.pptx",
@@ -327,7 +327,6 @@
     "00-模板/挂件.md",
     "00-inbox/端到端分析-idea.md",
     "00-模板/一言模板.md",
-    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
     "00-inbox/未命名.canvas",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "00-模板/启动页模板3.canvas",

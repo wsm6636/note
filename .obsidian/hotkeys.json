@@ -192,5 +192,13 @@
       ],
       "key": "A"
     }
+  ],
+  "obsidian-memos:open-thino-in-center": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
   ]
 }
