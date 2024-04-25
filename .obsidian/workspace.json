@@ -25,14 +25,6 @@
             }
           },
           {
-            "id": "73793619f1cd56ad",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "615371cc73f575e5",
             "type": "leaf",
             "state": {
@@ -71,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/其他/科技论文写作.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -156,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/其他/科技论文写作.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -203,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/其他/科技论文写作.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/其他/科技论文写作.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -243,20 +234,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "73793619f1cd56ad",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "wsm/其他/科技论文写作.md",
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-04-24.md",
-    "wsm/其他/科技论文写作.md",
     "00-inbox/快速笔记.md",
     "00-inbox/Untitled.md",
     "00-inbox/未命名.md",

@@ -8,29 +8,6 @@
       "name": "start",
       "plugins": [
         {
-          "id": "contribution-widget",
-          "name": "Contribution Widget"
-        }
-      ],
-      "groupIds": [],
-      "generateCommands": false
-    },
-    {
-      "loadAtStartup": true,
-      "disableOnStartup": false,
-      "delay": 25,
-      "id": "pgdelay",
-      "name": "delay",
-      "plugins": [
-        {
-          "id": "calendar",
-          "name": "Calendar"
-        },
-        {
-          "id": "cmdr",
-          "name": "Commander"
-        },
-        {
           "id": "components",
           "name": "Components"
         },
@@ -39,36 +16,28 @@
           "name": "Contribution Graph"
         },
         {
-          "id": "customjs",
-          "name": "CustomJS"
-        },
-        {
           "id": "dataview",
           "name": "Dataview"
+        },
+        {
+          "id": "customjs",
+          "name": "CustomJS"
         },
         {
           "id": "homepage",
           "name": "Homepage"
         },
         {
-          "id": "obsidian-file-color",
-          "name": "File Color"
-        },
-        {
-          "id": "obsidian-git",
-          "name": "Git"
-        },
-        {
           "id": "obsidian-memos",
           "name": "Thino"
         },
         {
-          "id": "obsidian-icon-folder",
-          "name": "Iconize"
+          "id": "obsidian-file-color",
+          "name": "File Color"
         },
         {
-          "id": "periodic-notes",
-          "name": "Periodic Notes"
+          "id": "obsidian-icon-folder",
+          "name": "Iconize"
         }
       ],
       "groupIds": [],
@@ -76,10 +45,10 @@
     },
     {
       "loadAtStartup": true,
-      "disableOnStartup": false,
+      "disableOnStartup": true,
       "delay": 25,
-      "id": "pgother",
-      "name": "other",
+      "id": "pgdelay",
+      "name": "delay",
       "plugins": [
         {
           "id": "obsidian-advanced-slides",
@@ -102,8 +71,16 @@
           "name": "BRAT"
         },
         {
+          "id": "calendar",
+          "name": "Calendar"
+        },
+        {
           "id": "obsidian-citation-plugin",
           "name": "Citations"
+        },
+        {
+          "id": "cmdr",
+          "name": "Commander"
         },
         {
           "id": "editing-toolbar",
@@ -112,6 +89,10 @@
         {
           "id": "emojio",
           "name": "Emojio"
+        },
+        {
+          "id": "obsidian-git",
+          "name": "Git"
         },
         {
           "id": "obsidian-hider",
@@ -154,6 +135,10 @@
           "name": "Outliner"
         },
         {
+          "id": "periodic-notes",
+          "name": "Periodic Notes"
+        },
+        {
           "id": "quickadd",
           "name": "QuickAdd"
         },
@@ -174,10 +159,6 @@
           "name": "Templater"
         },
         {
-          "id": "templify",
-          "name": "Templify"
-        },
-        {
           "id": "update-time-on-edit",
           "name": "Update time on edit"
         },
@@ -186,9 +167,7 @@
           "name": "Zotero Integration"
         }
       ],
-      "groupIds": [
-        "pgdelay"
-      ],
+      "groupIds": [],
       "generateCommands": false,
       "autoAdd": true
     }
