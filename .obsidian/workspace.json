@@ -16,9 +16,9 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1950.0888593189138,
+                  "x": -1955,
                   "y": -593,
-                  "zoom": -0.1645427765022873
+                  "zoom": 0
                 }
               },
               "pinned": true
@@ -134,14 +134,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a785ba6e7591c8b6",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "4ada7681c10794a6",
             "type": "leaf",
             "state": {
@@ -161,6 +153,14 @@
                 "showSearch": false,
                 "searchQuery": ""
               }
+            }
+          },
+          {
+            "id": "1fb0494ef5a9a8c0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -234,6 +234,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -241,18 +245,15 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
-      "obsidian42-brat:BRAT": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
-    "wsm/其他/科技论文写作.md",
+    "00-inbox/2024-W17-04-22.md",
     "HOMEPAGE.canvas",
+    "wsm/其他/科技论文写作.md",
     "wsm/01-日记/2024-04-24.md",
     "00-inbox/快速笔记.md",
     "00-inbox/Untitled.md",
@@ -263,7 +264,6 @@
     "00-模板/一言.md",
     "00-inbox/菜谱.md",
     "00-inbox/2024年04月25日摘录.md",
-    "00-inbox/2024-W17-04-22.md",
     "06-ppt/discussion/~$0424.pptx",
     "wsm/01-日记/2024-04-23.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",

@@ -3,7 +3,7 @@
     {
       "loadAtStartup": true,
       "disableOnStartup": false,
-      "delay": 0,
+      "delay": 10,
       "id": "pgstart",
       "name": "start",
       "plugins": [
@@ -28,16 +28,16 @@
           "name": "Homepage"
         },
         {
-          "id": "obsidian-memos",
-          "name": "Thino"
-        },
-        {
           "id": "obsidian-file-color",
           "name": "File Color"
         },
         {
           "id": "obsidian-icon-folder",
           "name": "Iconize"
+        },
+        {
+          "id": "obsidian-memos",
+          "name": "Thino"
         }
       ],
       "groupIds": [],
@@ -45,7 +45,7 @@
     },
     {
       "loadAtStartup": true,
-      "disableOnStartup": true,
+      "disableOnStartup": false,
       "delay": 25,
       "id": "pgdelay",
       "name": "delay",
