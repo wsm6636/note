@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a9140a2fbbd7f221",
+            "id": "349294642902a61d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,33 +16,20 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1955,
+                  "x": -1950.0888593189138,
                   "y": -593,
-                  "zoom": 0
+                  "zoom": -0.1645427765022873
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "219016e7fa3bbf41",
+            "id": "73793619f1cd56ad",
             "type": "leaf",
             "state": {
               "type": "thino_view",
               "state": {}
-            }
-          },
-          {
-            "id": "448e4a651a385990",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-04-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           },
           {
@@ -114,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/其他/科技论文写作.md"
               }
             }
           },
@@ -169,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/其他/科技论文写作.md"
               }
             }
           },
@@ -216,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/其他/科技论文写作.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/其他/科技论文写作.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -265,8 +252,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7fc5fa2c3f576f36",
+  "active": "73793619f1cd56ad",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-04-24.md",
     "wsm/其他/科技论文写作.md",
     "00-inbox/快速笔记.md",
     "00-inbox/Untitled.md",
@@ -275,10 +264,8 @@
     "wsm/01-日记/2024-04/2024-04-18.md",
     "00-inbox/2024-04-25.md",
     "00-模板/一言.md",
-    "HOMEPAGE.canvas",
     "00-inbox/菜谱.md",
     "00-inbox/2024年04月25日摘录.md",
-    "wsm/01-日记/2024-04-24.md",
     "00-inbox/2024-W17-04-22.md",
     "06-ppt/discussion/~$0424.pptx",
     "wsm/01-日记/2024-04-23.md",
@@ -303,7 +290,6 @@
     "wsm/02-周记/2024-W08-02-19.md",
     "00-模板/周记模板.md",
     "00-模板/日记模板.md",
-    "00-模板/zoteronote模板.md",
     "00-inbox/未命名.canvas",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "00-模板/启动页模板3.canvas",
@@ -322,4 +308,6 @@
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg",
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.png",
     "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/rollup-logo.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-�
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/repo-hero-logo-light.svg"
+  ]
+}

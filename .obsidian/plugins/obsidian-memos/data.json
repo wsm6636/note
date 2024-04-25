@@ -21,7 +21,7 @@
   "ShowTaskLabel": true,
   "AppendDateWhenTaskDone": false,
   "MobileAndDesktop": "Desktop",
-  "OpenMemosAutomatically": true,
+  "OpenMemosAutomatically": false,
   "ShowTime": true,
   "ShowDate": true,
   "AddBlankLineWhenDate": false,
