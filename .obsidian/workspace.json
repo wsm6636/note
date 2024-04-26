@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/工作流.md"
+                "file": "00-inbox/菜谱.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/工作流.md"
+                "file": "00-inbox/菜谱.md"
               }
             }
           },
@@ -222,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/工作流.md",
+                "file": "00-inbox/菜谱.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/工作流.md",
+                "file": "00-inbox/菜谱.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -277,15 +277,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0bd5ed2ed9ec9516",
+  "active": "5931f5419eca20b1",
   "lastOpenFiles": [
-    "00-inbox/2024-04-27.md",
+    "00-inbox/工作流.md",
     "03-research/06-TSN/TSN 知识总结.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/2024-04-27.md",
     "00-inbox/2024-W17-04-22.md",
     "00-inbox/菜谱.md",
     "wsm/01-日记/2024-04-26.md",
     "00-inbox/2024年04月25日摘录.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-04-25.md",
     "wsm/其他/科技论文写作.md",
     "wsm/01-日记/2024-04-24.md",
@@ -315,7 +316,6 @@
     "00-模板/月复盘模板.md",
     "wsm/01-日记/2024-04-22.md",
     "wsm/03-月复盘/2024-03.md.baiduyun.uploading.cfg",
-    "01-永久笔记/01-教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md",
     "00-inbox/未命名.canvas",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
     "00-模板/启动页模板3.canvas",
