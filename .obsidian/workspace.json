@@ -64,6 +64,19 @@
             }
           },
           {
+            "id": "0bd5ed2ed9ec9516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/工作流.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8350bea41b404f42",
             "type": "leaf",
             "state": {
@@ -77,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-04-27.md"
+                "file": "00-inbox/工作流.md"
               }
             }
           },
@@ -153,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-04-27.md"
+                "file": "00-inbox/工作流.md"
               }
             }
           },
@@ -209,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-04-27.md",
+                "file": "00-inbox/工作流.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-04-27.md",
+                "file": "00-inbox/工作流.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -264,10 +277,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d8c6a76e5e21b193",
+  "active": "0bd5ed2ed9ec9516",
   "lastOpenFiles": [
-    "03-research/06-TSN/TSN 知识总结.md",
     "00-inbox/2024-04-27.md",
+    "03-research/06-TSN/TSN 知识总结.md",
     "00-inbox/2024-W17-04-22.md",
     "00-inbox/菜谱.md",
     "wsm/01-日记/2024-04-26.md",
