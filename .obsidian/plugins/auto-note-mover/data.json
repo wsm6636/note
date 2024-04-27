@@ -33,9 +33,6 @@
   "excluded_folder": [
     {
       "folder": "00-模板"
-    },
-    {
-      "folder": ""
     }
   ]
 }
