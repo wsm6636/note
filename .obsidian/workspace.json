@@ -16,8 +16,8 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1677.8523559570312,
-                  "y": -591.4706497192383,
+                  "x": -1954.8987474449111,
+                  "y": -593,
                   "zoom": 0
                 }
               },
@@ -49,9 +49,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a92fb0c1054e8443",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W17-04-22.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a6c865b53d4cbdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-04-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -80,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/TSN 知识总结.md"
+                "file": "00-inbox/2024-04-27.md"
               }
             }
           },
@@ -127,7 +153,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/TSN 知识总结.md"
+                "file": "00-inbox/2024-04-27.md"
               }
             }
           },
@@ -183,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/TSN 知识总结.md",
+                "file": "00-inbox/2024-04-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/TSN 知识总结.md",
+                "file": "00-inbox/2024-04-27.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -238,12 +264,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8350bea41b404f42",
+  "active": "0a6c865b53d4cbdf",
   "lastOpenFiles": [
     "01-永久笔记/工作流.md",
+    "00-inbox/2024-04-27.md",
+    "00-inbox/2024-W17-04-22.md",
+    "00-inbox/菜谱.md",
     "HOMEPAGE.canvas",
     "00-inbox/TSN 知识总结.md",
-    "00-inbox/2024-W17-04-22.md",
     "wsm/01-日记/2024-04-26.md",
     "wsm/01-日记/2024-04-25.md",
     "wsm/01-日记/2024-04-25.md",
@@ -252,7 +280,6 @@
     "wsm/02-周记/2024-W15-04-08.md",
     "00-inbox/2024.md",
     "00-inbox/().md",
-    "00-inbox/菜谱.md",
     "00-inbox/2024年04月25日摘录.md",
     "wsm/其他/科技论文写作.md",
     "wsm/01-日记/2024-04-24.md",
@@ -273,7 +300,6 @@
     "00-inbox/2024.md.baiduyun.uploading.cfg",
     "00-模板/年复盘模板.md.baiduyun.uploading.cfg",
     "wsm/03-月复盘/2024-02.md.baiduyun.uploading.cfg",
-    "wsm/03-月复盘/2024-02.md",
     "00-inbox/2024-04.md.baiduyun.uploading.cfg",
     "wsm/03-月复盘/2024-03.md.baiduyun.uploading.cfg",
     "00-inbox/未命名.canvas",
