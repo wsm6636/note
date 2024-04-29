@@ -45,7 +45,8 @@
 			"width":844,
 			"height":257
 		},
-		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1923,"y":-965,"width":722,"height":241}
+		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1923,"y":-965,"width":722,"height":241},
+		{"id":"a7141b8d916a5c32","x":-1180,"y":-1099,"width":693,"height":1035,"type":"text","text":"```components\ncomponentId: '9ba0fb0b-74c3-43ef-93f2-95767c4b0ac1'\n```\n\n"}
 	],
 	"edges":[]
 }

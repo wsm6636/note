@@ -2,6 +2,147 @@
   "widgets": [],
   "components": [
     {
+      "id": "32728c93-307a-4e76-87fb-bb56aacdd551",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-29T18:07:18.981Z",
+      "updateAt": "2024-04-29T18:56:08.036Z",
+      "backgroundStyle": "none",
+      "viewType": "table",
+      "datasource": {
+        "filter": {
+          "id": "15365c15-b2af-4281-8d1f-fba8877b6a04",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "efd88efc-4654-4415-b641-5468dd9452e4",
+              "type": "filter",
+              "operator": "not_contains",
+              "property": "${file.path}",
+              "value": "00-模板",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 5,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "266d48ce-1129-4a33-90b8-9bc0a55e889a",
+              "property": "updated",
+              "direction": "desc"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "id": "2669b54b-2bbe-4865-a8ed-44cfe41d2d8b",
+          "name": "tags",
+          "isShow": true,
+          "defaultValue": [],
+          "type": "multiSelect"
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "05bcd4c2-f1b1-4547-80c1-020c82072d4a",
+          "name": "todo",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "9608cacf-a778-403b-991a-974c63d2c0de",
+          "name": "ing",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "abdb6237-aaa3-42db-8964-b46a3717bc86",
+          "name": "done",
+          "items": [
+            "wsm/01-日记/2024-04/2024-04-09.md",
+            "wsm/02-周记/2024-W16-04-15.md",
+            "wsm/02-周记/2024-W15-04-08.md",
+            "wsm/02-周记/2024-W17-04-22.md",
+            "wsm/01-日记/2024-04/2024-04-28.md",
+            "wsm/01-日记/2024-04/2024-04-21.md",
+            "wsm/01-日记/2024-04/2024-04-20.md",
+            "wsm/01-日记/2024-04/2024-04-19.md",
+            "wsm/01-日记/2024-04/2024-04-18.md",
+            "wsm/01-日记/2024-04/2024-04-17.md",
+            "wsm/01-日记/2024-04/2024-04-16.md",
+            "wsm/01-日记/2024-04/2024-04-15.md",
+            "wsm/01-日记/2024-04/2024-04-14.md",
+            "wsm/01-日记/2024-04/2024-04-13.md",
+            "wsm/01-日记/2024-04/2024-04-12.md",
+            "wsm/01-日记/2024-04/2024-04-25.md",
+            "wsm/01-日记/2024-04/2024-04-24.md",
+            "wsm/01-日记/2024-04/2024-04-23.md",
+            "wsm/01-日记/2024-04/2024-04-22.md",
+            "wsm/01-日记/2024-04/2024-04-27.md",
+            "wsm/01-日记/2024-04/2024-04-26.md",
+            "wsm/03-月复盘/2024-03.md",
+            "01-永久笔记/zotero7配置.md",
+            "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+            "wsm/01-日记/2024-04/2024-04-11.md",
+            "wsm/01-日记/2024-04/2024-04-10.md",
+            "wsm/01-日记/2024-03/2024-03-29.md",
+            "wsm/01-日记/2024-04/2024-04-08.md",
+            "wsm/02-周记/2024-W14-04-01.md",
+            "wsm/01-日记/2024-04/2024-04-07.md",
+            "wsm/01-日记/2024-04/2024-04-06.md",
+            "wsm/01-日记/2024-04/2024-04-04.md",
+            "wsm/01-日记/2024-04/2024-04-03.md",
+            "wsm/01-日记/2024-04/2024-04-05.md",
+            "wsm/02-周记/2024-W13-03-25.md",
+            "wsm/01-日记/2024-04/2024-04-02.md",
+            "wsm/01-日记/2024-04/2024-04-01.md",
+            "wsm/01-日记/2024-03/2024-03-31.md",
+            "wsm/01-日记/2024-03/2024-03-30.md",
+            "wsm/01-日记/2024-03/2024-03-28.md"
+          ],
+          "collapsed": false
+        }
+      ],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-small",
+        "showPropertyName": false,
+        "cover": {
+          "type": "none",
+          "value": "",
+          "fit": "contains"
+        }
+      },
+      "groupBy": "status"
+    },
+    {
+      "id": "9ba0fb0b-74c3-43ef-93f2-95767c4b0ac1",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-29T18:07:13.714Z",
+      "updateAt": "2024-04-29T18:48:30.178Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "32728c93-307a-4e76-87fb-bb56aacdd551"
+        }
+      ],
+      "layoutType": "column",
+      "remark": "看板"
+    },
+    {
       "id": "251ef898-69e0-4fda-81f5-b45c5850d63f",
       "type": "dynamicDataView",
       "titleAlign": "center",
@@ -250,84 +391,6 @@
       }
     },
     {
-      "id": "faa3adb5-7a67-4fa6-b993-cff9e97f5568",
-      "type": "dynamicDataView",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "createAt": "2024-04-17T08:55:32.812Z",
-      "updateAt": "2024-04-29T15:06:01.594Z",
-      "backgroundStyle": "none",
-      "viewType": "gallary",
-      "datasource": {
-        "filter": {
-          "conditions": [
-            {
-              "id": "5b157c95-d463-47b4-9697-d874a8e20ed5",
-              "type": "filter",
-              "operator": "contains",
-              "property": "tags",
-              "value": "待归档",
-              "conditions": []
-            }
-          ]
-        },
-        "dataLimit": 50,
-        "storage": {
-          "location": ""
-        },
-        "sort": {
-          "orders": [
-            {
-              "id": "4aceb370-28c7-4637-ac05-1fce0264d174",
-              "property": "${file.mtime}",
-              "direction": "desc"
-            }
-          ]
-        }
-      },
-      "properties": [
-        {
-          "id": "ff7e5a2b-bc14-474e-b963-2d4610d2c459",
-          "name": "status",
-          "isShow": true,
-          "defaultValue": "",
-          "type": "text"
-        }
-      ],
-      "templates": [],
-      "groups": [],
-      "viewOptions": {
-        "openPageIn": "tab",
-        "itemSize": "components--project-card-medium",
-        "showPropertyName": false,
-        "cover": {
-          "type": "none",
-          "value": "",
-          "fit": "contains"
-        }
-      },
-      "groupBy": "#论文"
-    },
-    {
-      "id": "d9cc666e-f773-406d-b63d-f011c1a2c366",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "createAt": "2024-04-17T08:44:41.251Z",
-      "updateAt": "2024-04-17T08:57:11.029Z",
-      "backgroundStyle": "none",
-      "widgets": [],
-      "components": [
-        {
-          "componentId": "faa3adb5-7a67-4fa6-b993-cff9e97f5568"
-        }
-      ],
-      "layoutType": "column",
-      "remark": "看板"
-    },
-    {
       "id": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f",
       "type": "multi",
       "titleAlign": "center",
@@ -351,7 +414,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const allTags={{alltags}}\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag,alltags) => {\n       if(alltags) return page.file.tags;\n        else if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike,allTags), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
+      "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const allTags={{alltags}}\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag,alltags) => {\n       if(alltags) return page.file.tags;\n        else if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property ]),tagis(p, tagLike,allTags), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n\n\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)\n",
       "queryType": "dataviewjs",
       "backgroundStyle": "card",
       "maxHeight": 300,
@@ -528,7 +591,7 @@
           "label": "Title"
         }
       ],
-      "updateAt": "2024-04-29T15:01:36.987Z"
+      "updateAt": "2024-04-29T18:44:21.661Z"
     },
     {
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
