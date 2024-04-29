@@ -8,7 +8,7 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-29T18:07:18.981Z",
-      "updateAt": "2024-04-29T18:56:08.036Z",
+      "updateAt": "2024-04-29T19:28:23.614Z",
       "backgroundStyle": "none",
       "viewType": "table",
       "datasource": {
@@ -24,10 +24,22 @@
               "property": "${file.path}",
               "value": "00-模板",
               "conditions": []
+            },
+            {
+              "id": "3f43694a-2c7a-4726-b8d5-95108bb77097",
+              "type": "filter",
+              "operator": "contains_any",
+              "property": "status",
+              "value": [
+                "done",
+                "ing",
+                "todo"
+              ],
+              "conditions": []
             }
           ]
         },
-        "dataLimit": 5,
+        "dataLimit": 10,
         "storage": {
           "location": ""
         },
@@ -35,7 +47,7 @@
           "orders": [
             {
               "id": "266d48ce-1129-4a33-90b8-9bc0a55e889a",
-              "property": "updated",
+              "property": "${file.mtime}",
               "direction": "desc"
             }
           ]
@@ -47,20 +59,30 @@
           "name": "tags",
           "isShow": true,
           "defaultValue": [],
-          "type": "multiSelect"
+          "type": "multiSelect",
+          "options": {
+            "width": "232"
+          }
+        },
+        {
+          "id": "749ac396-eba1-4e4b-9b4e-708d58e1e58a",
+          "name": "${file.mtime}",
+          "isShow": true,
+          "defaultValue": "",
+          "type": "datetime"
         }
       ],
       "templates": [],
       "groups": [
         {
-          "id": "05bcd4c2-f1b1-4547-80c1-020c82072d4a",
-          "name": "todo",
+          "id": "9608cacf-a778-403b-991a-974c63d2c0de",
+          "name": "ing",
           "items": [],
           "collapsed": false
         },
         {
-          "id": "9608cacf-a778-403b-991a-974c63d2c0de",
-          "name": "ing",
+          "id": "05bcd4c2-f1b1-4547-80c1-020c82072d4a",
+          "name": "todo",
           "items": [],
           "collapsed": false
         },
@@ -114,7 +136,7 @@
       ],
       "viewOptions": {
         "openPageIn": "tab",
-        "itemSize": "components--project-card-small",
+        "itemSize": "components--project-card-large",
         "showPropertyName": false,
         "cover": {
           "type": "none",
@@ -399,7 +421,7 @@
       "backgroundStyle": "none",
       "widgets": [],
       "layoutType": "column",
-      "updateAt": "2024-03-29T07:08:55.681Z",
+      "updateAt": "2024-04-29T19:19:10.374Z",
       "createAt": "2024-03-28T14:31:18.139Z",
       "remark": "查询2",
       "components": [
@@ -981,7 +1003,7 @@
       "backgroundStyle": "none",
       "widgets": [],
       "layoutType": "column",
-      "updateAt": "2024-04-21T19:27:04.460Z",
+      "updateAt": "2024-04-29T19:02:51.342Z",
       "createAt": "2024-03-09T02:39:45.183Z",
       "remark": "进度组合圆",
       "components": [
@@ -1017,7 +1039,8 @@
       "uiType": "ring",
       "title": "日进度",
       "backgroundColor": "#ffffff00",
-      "fontColor": "#d99694ff"
+      "fontColor": "#d99694ff",
+      "updateAt": "2024-04-29T19:02:51.342Z"
     },
     {
       "id": "271f096d-dfe6-45c7-9cf8-3253160c6820",
@@ -1033,7 +1056,8 @@
       "uiType": "ring",
       "title": "周进度",
       "backgroundColor": "#ffffff00",
-      "fontColor": "#fac08fff"
+      "fontColor": "#fac08fff",
+      "updateAt": "2024-04-29T19:02:51.342Z"
     },
     {
       "id": "d09b90e4-1156-4d94-a1bc-2eeb467407ff",
@@ -1049,7 +1073,8 @@
       "uiType": "ring",
       "title": "月进度",
       "backgroundColor": "#ffffff00",
-      "fontColor": "#92cddcff"
+      "fontColor": "#92cddcff",
+      "updateAt": "2024-04-29T19:02:51.342Z"
     },
     {
       "id": "7d791fda-8cd2-4942-ac31-39606a2119e9",
@@ -1065,7 +1090,8 @@
       "uiType": "ring",
       "title": "年进度",
       "backgroundColor": "#ffffff00",
-      "fontColor": "#b2a2c7ff"
+      "fontColor": "#b2a2c7ff",
+      "updateAt": "2024-04-29T19:02:51.342Z"
     },
     {
       "id": "e5619a6e-61d0-4216-bc91-b0caefa5c7cb",

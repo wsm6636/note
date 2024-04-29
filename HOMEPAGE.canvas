@@ -3,8 +3,6 @@
 		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2681,"y":-1120,"width":198,"height":223,"color":"#1e1e2e"},
 		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2571,"y":-1110,"width":523,"height":102},
 		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2483,"y":-1038,"width":480,"height":198},
-		{"id":"174375176805dc41","type":"text","text":"```components\nid: cff26aa0-fdbb-4611-adbb-a0bcf7ffa5f0\ntype: 'ref'\nrefId: '5c50de7f-3d5e-4f84-ae23-7883e3940882'\n```\n    \n","x":-1926,"y":-776,"width":725,"height":285},
-		{"id":"12706d4a9a6cf3f7","type":"text","text":"```components\nid: 48c7696a-a00a-4ea3-b8af-39f5d37fd772\ntype: 'ref'\nrefId: '6f4839c3-ce07-41eb-bf4d-ce5f20d0878f'\n```\n    \n    \n    \n    \n    \n    \n    \n    \n\n","x":-1927,"y":-527,"width":726,"height":463},
 		{
 			"id":"efc6103b5c612f67",
 			"type":"text",
@@ -40,13 +38,14 @@
 			"hasId":"",
 			"linkId":"",
 			"resourceList":[],
-			"x":-2045,
+			"x":-2048,
 			"y":-1136,
 			"width":844,
 			"height":257
 		},
-		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1923,"y":-965,"width":722,"height":241},
-		{"id":"a7141b8d916a5c32","x":-1180,"y":-1099,"width":693,"height":1035,"type":"text","text":"```components\ncomponentId: '9ba0fb0b-74c3-43ef-93f2-95767c4b0ac1'\n```\n\n"}
+		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1938,"y":-960,"width":722,"height":241},
+		{"id":"12706d4a9a6cf3f7","type":"text","text":"```components\ncomponentId: '9ba0fb0b-74c3-43ef-93f2-95767c4b0ac1'\n```\n    \n    \n    \n    \n    \n    \n    \n    \n\n","x":-1938,"y":-529,"width":726,"height":431},
+		{"id":"174375176805dc41","type":"text","text":"```components\nid: cff26aa0-fdbb-4611-adbb-a0bcf7ffa5f0\ntype: 'ref'\nrefId: '5c50de7f-3d5e-4f84-ae23-7883e3940882'\n```\n    \n","x":-1937,"y":-767,"width":725,"height":285}
 	],
 	"edges":[]
 }
