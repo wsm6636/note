@@ -367,7 +367,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const allTags={{alltags}}\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag,alltags) => {\n       if(alltags) return page.file.tags;\n        else if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike,allTags), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
+      "query": "      // 日期格式化\n      const dateFormat = \"YYYY-MM-DD\"\n      // 表头：期望的展示的属性列表\n      const headers = [\"status\"]\n      // 当前页码\n      const pageNum = {{pageNum}};\n      // 单页数量\n      const pageSize = {{pageSize}};\n      // 文件名称\n      const pageTitleLike = \"{{pageTitle}}\"\n      // 标签\n      const tagLike = \"{{tag}}\"\n      const allTags={{alltags}}\n      const tagMatch = (page, tag) => {\n        if (tag) {\n         return page.file.tags && page.file.tags.some(t => t.includes(tagLike));\n        }\n        return true;\n      }\nconst tagis = (page, tag,alltags) => {\n       if(alltags) return page.file.tags;\n        else if (page.file.tags && page.file.tags.some(t => t.includes(tagLike))) {\n         return tag;\n        }\n        return page.file.tags;\n      }\n\n      const data = dv.pages(\"\")\n      .where(p => p.file.name?.toLowerCase().includes(pageTitleLike?.toLowerCase()))\n      .where(p => tagMatch(p, tagLike))\n\n      .sort(p => p.file.mtime, \"{{sort}}\")\n      .map(p => {\n        return [p.file.link, ...headers.map(property => p[property]),tagis(p, tagLike,allTags), moment(Number(p.file.mtime)).format(dateFormat)];\n      })\n\n      const pageData = data.slice((pageNum - 1) * pageSize, pageNum * pageSize)\n        .limit(pageSize)\n      dv.paragraph(\"共有 \" + data.length +\" 条数据\")\n      dv.table([\"name\", ...headers,\"tags\", \"mtime\"], pageData)",
       "queryType": "dataviewjs",
       "backgroundStyle": "card",
       "maxHeight": 300,
@@ -515,15 +515,6 @@
           ]
         },
         {
-          "id": "4a8a7eba-02b9-4733-9695-0616ead965e6",
-          "type": "propertyValueSuggestions",
-          "name": "status",
-          "defaultValue": "",
-          "placeholder": "",
-          "fromProperty": "status",
-          "label": "属性"
-        },
-        {
           "id": "9be7b815-698b-451b-aced-81df94d5831e",
           "type": "select",
           "name": "sort",
@@ -553,7 +544,7 @@
           "label": "Title"
         }
       ],
-      "updateAt": "2024-04-21T19:22:45.861Z"
+      "updateAt": "2024-04-29T15:01:36.987Z"
     },
     {
       "id": "2de8d3dc-058a-48f3-ba08-0696416b8136",
