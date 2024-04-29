@@ -256,17 +256,19 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-17T08:55:32.812Z",
-      "updateAt": "2024-04-17T08:56:52.980Z",
+      "updateAt": "2024-04-29T15:06:01.594Z",
       "backgroundStyle": "none",
-      "viewType": "kanban",
+      "viewType": "gallary",
       "datasource": {
         "filter": {
           "conditions": [
             {
-              "value": "#个人/周记",
+              "id": "5b157c95-d463-47b4-9697-d874a8e20ed5",
+              "type": "filter",
               "operator": "contains",
-              "property": "${file.tags}",
-              "id": "a29157b6-233e-4917-9b99-62c6b628c174"
+              "property": "tags",
+              "value": "待归档",
+              "conditions": []
             }
           ]
         },
@@ -278,52 +280,34 @@
           "orders": [
             {
               "id": "4aceb370-28c7-4637-ac05-1fce0264d174",
-              "property": "${file.basename}",
+              "property": "${file.mtime}",
               "direction": "desc"
             }
           ]
         }
       },
-      "properties": [],
-      "templates": [],
-      "groups": [
+      "properties": [
         {
-          "id": "c7a686a9-aaaf-4b53-b158-006f6845bdc7",
-          "name": "20",
-          "items": []
-        },
-        {
-          "id": "56071fb8-4fb5-4073-a5f9-12a0c6cb960f",
-          "name": "60",
-          "items": []
-        },
-        {
-          "id": "edcb63ff-763e-49b8-8e89-a4f5b59b7792",
-          "name": "70",
-          "items": []
-        },
-        {
-          "id": "6a867d90-c477-4803-8569-39fbcd2ed664",
-          "name": "75",
-          "items": []
-        },
-        {
-          "id": "934ee87e-bea5-4d52-85c0-79bb628e780a",
-          "name": "85",
-          "items": []
+          "id": "ff7e5a2b-bc14-474e-b963-2d4610d2c459",
+          "name": "status",
+          "isShow": true,
+          "defaultValue": "",
+          "type": "text"
         }
       ],
+      "templates": [],
+      "groups": [],
       "viewOptions": {
         "openPageIn": "tab",
         "itemSize": "components--project-card-medium",
         "showPropertyName": false,
         "cover": {
-          "type": "pageFirstImage",
+          "type": "none",
           "value": "",
           "fit": "contains"
         }
       },
-      "groupBy": "#周复盘完成度"
+      "groupBy": "#论文"
     },
     {
       "id": "d9cc666e-f773-406d-b63d-f011c1a2c366",
