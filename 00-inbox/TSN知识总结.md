@@ -1,6 +1,6 @@
 ---
 created: 2024-04-26T09:56
-updated: 2024-04-30T12:16
+updated: 2024-04-30T12:44
 tags:
   - 笔记
   - 笔记/学习笔记
@@ -103,3 +103,7 @@ CQF 整 形 器 基 于 IEEE 802.1Qch-2017《IEEE 标 准 局 域 网 和 城 �
 
 在典型的 Qbv 交换机中，网络数据包按其到达时间进行排队（即 FIFO 排队），并且以非抢占方式传输 [11]。
 
+
+
+
+基于信用的整形技术CBS（credit-based shaper）,最初是用于以太网实时传输音视频信号期间信息流的缓冲，解决突发的多媒体数据流导致的缓冲拥堵造成的丢包，在 IEEE 802.1Qav4协议中,将经过带宽预留的流称为 SR（Stream Reservation）class,SR class主要分为两类，classA和classB，分别代表不同类型的带宽预留数据流，classA的优先级高于classB.CBS算法中，每条通过SRP（StreamReservationProtocol)协议进行带宽预留的数据流被赋予一个信用值credit，此信用值状态的变化分为以下几种情况：（1)当数据流在FIFO中等待传输时，credit以idleSlope的速率增加；（2）当数据帧进行传输时，credit以sendSlope的速率减少；(3)当credit的值小于O时，不能开始传输数据帧，但是在信用值减为0以前开始传输的数据帧可以继续传输；(4）如果队列中没有数据帧在等待传输，若credit大于O,则credit的值置为O；若credit小于0,则按照idleSlope的速率增加至0.如图2所示，BE（BestEffort)流为标准以太网数据流，无时间延时限制；SRclassA和 SRclass B是时间敏感流，SRclassA优先级比 SRclassB高.此时，在输出端看到的数据帧的次序如图3所示，调整idleSlope和 sendSlope值使得每个队列最大数据流不超过配置的带宽限值.通过设置hiCred-it和loCredit的差值，可控制突发数据的缓冲深度，防止数据丢失,使发送的网络包更平滑.

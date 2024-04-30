@@ -39,25 +39,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "cf5654bb84300a5c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a14ef0d314f259fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/TSN知识总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
