@@ -1,6 +1,6 @@
 ---
 created: 2024-04-26T09:56
-updated: 2024-04-30T14:40
+updated: 2024-04-30T15:01
 tags:
   - 笔记
   - 笔记/学习笔记
@@ -12,11 +12,11 @@ status:
 > 注意重点在于调度问题等，比如吞吐量，等待，延迟等等
 
 # 背景
-一页就行
-时间敏感网络（TSN）是 IEEE 802.1 任务组开发的一套数据链路层 协议规范，用于构建更可靠的、低延迟、低抖动的以太网。
-![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202404261554921.png)
+> 一页就行
 
-TSN 的数据调度是保证时间敏感的基础，它的核心思想是基于不同 的整形器（Shaper）来进行不同应用场景的流控制。
+时间敏感网络（TSN）是 IEEE 802.1 任务组开发的一套数据链路层 协议规范，用于构建更可靠的、低延迟、低抖动的以太网。
+
+TSN 的数据调度是保证时间敏感的基础，它的核心思想是基于不同的整形器（Shaper）来进行不同应用场景的流控制。
 
 根据IEEE 802.1Q-2022标准，流量类别分为ST、AVB和BE流量三类。在众多功能中，TSN 标准允许暂时隔离 ST 流量，这些流量通过门控制列表 (GCL) 根据离线计划传输，如图 1 所示。
 
@@ -109,3 +109,6 @@ CQF 整 形 器 基 于 IEEE 802.1Qch-2017《IEEE 标 准 局 域 网 和 城 �
 
 
 基于信用的整形技术CBS（credit-based shaper）,最初是用于以太网实时传输音视频信号期间信息流的缓冲，解决突发的多媒体数据流导致的缓冲拥堵造成的丢包，在 IEEE 802.1Qav4协议中,将经过带宽预留的流称为 SR（Stream Reservation）class,SR class主要分为两类，classA和classB，分别代表不同类型的带宽预留数据流，classA的优先级高于classB.CBS算法中，每条通过SRP（StreamReservationProtocol)协议进行带宽预留的数据流被赋予一个信用值credit，此信用值状态的变化分为以下几种情况：（1)当数据流在FIFO中等待传输时，credit以idleSlope的速率增加；（2）当数据帧进行传输时，credit以sendSlope的速率减少；(3)当credit的值小于O时，不能开始传输数据帧，但是在信用值减为0以前开始传输的数据帧可以继续传输；(4）如果队列中没有数据帧在等待传输，若credit大于O,则credit的值置为O；若credit小于0,则按照idleSlope的速率增加至0.如图2所示，BE（BestEffort)流为标准以太网数据流，无时间延时限制；SRclassA和 SRclass B是时间敏感流，SRclassA优先级比 SRclassB高.此时，在输出端看到的数据帧的次序如图3所示，调整idleSlope和 sendSlope值使得每个队列最大数据流不超过配置的带宽限值.通过设置hiCred-it和loCredit的差值，可控制突发数据的缓冲深度，防止数据丢失,使发送的网络包更平滑.
+
+
+

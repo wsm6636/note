@@ -52,6 +52,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "1bcd5fa178149f63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2a1fef466e6a56c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/TSN知识总结.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.0110321044922
+    "width": 260.0110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -219,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 319,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,7 +259,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6640b7d520d5619d",
+  "active": "f2a1fef466e6a56c",
   "lastOpenFiles": [
     "00-inbox/2024-04-30.md",
     "00-inbox/TSN知识总结.md",
