@@ -23,53 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "63eda5a0f0390233",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3c008e6635ce9358",
-            "type": "leaf",
-            "state": {
-              "type": "components-database-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "746b112cc415c493",
-            "type": "leaf",
-            "state": {
-              "type": "components-view-item",
-              "state": "6f4839c3-ce07-41eb-bf4d-ce5f20d0878f"
-            }
-          },
-          {
-            "id": "a3bf82675e641ae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-04-29.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-04-29.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -145,7 +100,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-04-29.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -201,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-04-29.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-04-29.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -256,25 +211,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a3bf82675e641ae3",
+  "active": "349294642902a61d",
   "lastOpenFiles": [
+    "00-inbox/TSN知识总结.md",
     "HOMEPAGE.canvas",
-    "00-inbox/2024-04-29.md",
+    "00-inbox/2024.md",
+    "00-inbox/2024-W18-04-29.md",
+    "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-04-29.md",
     "00-模板/HOMEPAGE 模板.canvas",
     "HOMEPAGEiPhone.canvas",
     "看板.canvas",
-    "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-04/2024-04-09.md",
     "wsm/01-日记/2024-04/2024-04-25.md",
     "wsm/01-日记/2024-04-25.md",
-    "00-inbox/TSN知识总结.md",
     "01-永久笔记/02-配置/zotero7配置.md",
-    "00-inbox/2024-W18-04-29.md",
     "01-永久笔记/02-配置/文本处理盒_20240429_125425.json",
     "00-inbox/TSN知识总结.md.md",
     "01-永久笔记/02-配置/复制到OB_20240429_115632.json",
     "01-永久笔记/02-配置/复制到OB_20240429_115521.qka",
-    "00-inbox/2024.md",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
     "wsm/02-周记/2024-W17-04-22.md",
     "wsm/02-周记/2024-W16-04-15.md",

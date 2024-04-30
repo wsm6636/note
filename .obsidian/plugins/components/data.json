@@ -8,7 +8,7 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-29T18:07:18.981Z",
-      "updateAt": "2024-04-29T19:28:23.614Z",
+      "updateAt": "2024-04-29T21:02:08.451Z",
       "backgroundStyle": "none",
       "viewType": "table",
       "datasource": {
@@ -136,7 +136,7 @@
       ],
       "viewOptions": {
         "openPageIn": "tab",
-        "itemSize": "components--project-card-large",
+        "itemSize": "components--project-card-small",
         "showPropertyName": false,
         "cover": {
           "type": "none",
