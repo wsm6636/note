@@ -1,6 +1,6 @@
 ---
 created: 2024-04-26T09:56
-updated: 2024-04-30T12:44
+updated: 2024-04-30T14:40
 tags:
   - 笔记
   - 笔记/学习笔记
@@ -72,6 +72,8 @@ Express流量可以抢占可抢占流量，但它本身不能被抢占。抢占�
 ## （3）周 期 性 排 队 与 转 发 机 制 整 形 器 CQF（Cyclic Queuing and Forwarding）
 CQF 整 形 器 基 于 IEEE 802.1Qch-2017《IEEE 标 准 局 域 网 和 城 域 网 网桥和桥接网络 修正 29: 循环排队和转发》。
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202404301129773.png)
+
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202404301440393.png)
 
 ## （4）异步数据流整形器 ATS（Asynchronous Traffic Shaper）
 为了解决非周期性数据的传输零拥堵问题并且针对周期性的数据传输而言，网络的严格时钟同步和队列保护带宽等原因无法最大的使用到网络带宽，ATS进一步优化那些对于时间同步非严苛任务的带宽利用。
