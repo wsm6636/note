@@ -2,6 +2,241 @@
   "widgets": [],
   "components": [
     {
+      "id": "febb8277-f875-4f9c-b46f-3b69408bdf60",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "食材",
+      "maxWidthRatio": -1,
+      "createAt": "2024-05-01T13:09:52.892Z",
+      "updateAt": "2024-05-01T14:13:06.069Z",
+      "backgroundStyle": "none",
+      "viewType": "gallary",
+      "datasource": {
+        "filter": {
+          "id": "77c95d7a-bfe3-4129-892a-a7bdc9e5c6ee",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "c81d3760-2d2c-42ad-a266-6d77eb631aef",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "菜谱",
+              "conditions": []
+            },
+            {
+              "id": "27f66385-3d31-4211-9d2c-0c10ef1e44b7",
+              "type": "filter",
+              "operator": "not_contains",
+              "property": "${file.path}",
+              "value": "00-模板",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "5e7980a8-d164-4937-8274-dc2669a3b5e2",
+              "property": "${file.basename}",
+              "direction": "asc"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "id": "de1dc0e9-22a1-412c-8eeb-e33243c6383d",
+          "name": "种类",
+          "isShow": true,
+          "defaultValue": "",
+          "type": "multiSelect"
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "979395ed-4607-4cbf-848e-f0b3807e4b92",
+          "name": "五花肉",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "c35446ef-5345-4ae1-8800-5f0b8e139bba",
+          "name": "包菜",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "130ddfbc-374f-4c85-8747-5110e9afadc9",
+          "name": "意面",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "a801128f-e360-4802-bc2e-4ae970adb42a",
+          "name": "洋葱",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "57bdb6e6-9d6e-4a41-8290-49901512c7e1",
+          "name": "猪肉",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "746b3460-c23a-486b-82e4-891a81bf9293",
+          "name": "粉丝",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "61d39cc9-49cf-4b92-8efa-9e90b78dafe8",
+          "name": "角瓜",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "d33342e3-1e37-45d6-bcb9-139d04f20dfd",
+          "name": "青椒",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "de1464f6-1e10-4d43-a994-ac7feec6d4f9",
+          "name": "香肠",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "ffc71ca4-ee07-4886-bcd8-e4776c681544",
+          "name": "鸡肉",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "a6e7e232-9383-4434-af10-8f899c78b815",
+          "name": "鸡蛋",
+          "items": [],
+          "collapsed": false
+        }
+      ],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-large",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      },
+      "groupBy": "食材"
+    },
+    {
+      "id": "e24e0767-9218-4b37-976e-49d68a2c8ae9",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "种类",
+      "maxWidthRatio": -1,
+      "createAt": "2024-05-01T12:25:18.551Z",
+      "updateAt": "2024-05-01T14:12:58.724Z",
+      "backgroundStyle": "none",
+      "viewType": "kanban",
+      "datasource": {
+        "filter": {
+          "id": "77c95d7a-bfe3-4129-892a-a7bdc9e5c6ee",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "b1e9d6c6-0b15-4ba5-8224-225e76dd53be",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "菜谱",
+              "conditions": []
+            },
+            {
+              "id": "94405751-d974-437b-9d8f-57bd354b876e",
+              "type": "filter",
+              "operator": "not_contains",
+              "property": "${file.path}",
+              "value": "00-模板",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "79f13100-41ae-4ae2-9742-c1563c053147",
+              "property": "${file.basename}",
+              "direction": "asc"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "id": "114e44d6-3de3-460d-b462-a2fe333cecf4",
+          "name": "食材",
+          "isShow": true,
+          "defaultValue": [],
+          "type": "multiSelect",
+          "options": {
+            "name": "",
+            "action": {
+              "type": "updateProperty",
+              "properties": []
+            }
+          }
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "ceb1fd60-be3e-443e-be6b-df42722dbcd2",
+          "name": "素菜",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "d021b91e-dd29-4d17-89b1-41de8479909c",
+          "name": "肉类",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "4dac2739-03c0-4c74-b35e-194b5cd2cb28",
+          "name": "面条",
+          "items": [],
+          "collapsed": false
+        }
+      ],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-large",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "fill"
+        }
+      },
+      "groupBy": "种类"
+    },
+    {
       "id": "32728c93-307a-4e76-87fb-bb56aacdd551",
       "type": "dynamicDataView",
       "titleAlign": "center",
@@ -1228,6 +1463,39 @@
       ],
       "layoutType": "column",
       "remark": "2024"
+    },
+    {
+      "id": "f6cf812c-c2f0-4799-bb04-f5474226d929",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-05-01T12:25:13.316Z",
+      "updateAt": "2024-05-01T13:12:42.635Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "e24e0767-9218-4b37-976e-49d68a2c8ae9"
+        },
+        {
+          "componentId": "febb8277-f875-4f9c-b46f-3b69408bdf60"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "70b22efc-246f-4ea6-b1c0-30bd8c04dc8c",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-05-01T13:09:40.476Z",
+      "updateAt": "2024-05-01T13:09:40.476Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [],
+      "layoutType": "column"
     }
   ]
 }
