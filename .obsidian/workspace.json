@@ -75,9 +75,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a823df57b28ae95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/04-菜谱/16-油泼面.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/04-菜谱/12-香菇炖鸡.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -153,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/04-菜谱/12-香菇炖鸡.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -209,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -264,12 +276,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3eaa4a196035178f",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
     "01-永久笔记/04-菜谱/0-菜谱看板.md",
-    "HOMEPAGE.canvas",
     "00-inbox/Real-time system Class.md",
     "00-inbox/2024-05-02.md",
     "06-ppt/discussion/ppt16F4.tmp",
