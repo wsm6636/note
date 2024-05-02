@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-05-02.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -127,7 +126,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-05-02.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -183,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-05-02.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-05-02.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -238,11 +237,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "893dfca7090e8665",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "00-inbox/Real-time system Class.md",
+    "00-inbox/2024-05-02.md",
     "06-ppt/discussion/ppt16F4.tmp",
     "HOMEPAGE.canvas",
-    "00-inbox/2024-05-02.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/TSN知识总结.md",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
@@ -270,7 +270,6 @@
     "01-永久笔记/04-菜谱/11-炖豆角.md",
     "01-永久笔记/04-菜谱/10-清炒西蓝花.md",
     "01-永久笔记/04-菜谱/9-烧茄子.md",
-    "01-永久笔记/04-菜谱/8-番茄肉酱意面.md.nssyncsc",
     "01-永久笔记/04-菜谱/8-番茄肉酱意面.md",
     "01-永久笔记/04-菜谱/7-咖喱鸡.md",
     "01-永久笔记/04-菜谱/6-麻婆豆腐.md",
