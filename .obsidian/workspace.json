@@ -25,12 +25,25 @@
             }
           },
           {
-            "id": "e3d6c20a3dc0ea19",
+            "id": "64868b44e521085b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/04-菜谱/0-菜谱看板.md",
+                "file": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "893dfca7090e8665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-05-02.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -38,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/04-菜谱/0-菜谱看板.md"
+                "file": "00-inbox/2024-05-02.md"
               }
             }
           },
@@ -77,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"status\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/04-菜谱/0-菜谱看板.md"
+                "file": "00-inbox/2024-05-02.md"
               }
             }
           },
@@ -170,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/04-菜谱/0-菜谱看板.md",
+                "file": "00-inbox/2024-05-02.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/04-菜谱/0-菜谱看板.md",
+                "file": "00-inbox/2024-05-02.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -225,11 +238,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e3d6c20a3dc0ea19",
+  "active": "893dfca7090e8665",
   "lastOpenFiles": [
+    "06-ppt/discussion/ppt16F4.tmp",
+    "HOMEPAGE.canvas",
+    "00-inbox/2024-05-02.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "00-inbox/TSN知识总结.md",
+    "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
+    "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf.crdownload",
+    "01-永久笔记/04-菜谱/0-菜谱看板.md",
+    "06-ppt/discussion/ppt738D.tmp",
+    "06-ppt/discussion/~$TSN.pptx",
+    "06-ppt/discussion/TSN.pdf",
+    "06-ppt/discussion/pptCBF6.tmp",
+    "06-ppt/discussion/pptC2BB.tmp",
+    "06-ppt/discussion/pptE4DA.tmp",
     "01-永久笔记/04-菜谱/5-清炒包菜.md",
     "01-永久笔记/04-菜谱/4-包菜鸡蛋粉丝.md",
-    "01-永久笔记/04-菜谱/0-菜谱看板.md",
     "01-永久笔记/04-菜谱/3-角瓜香肠-鸡蛋.md",
     "01-永久笔记/04-菜谱/19-宫保鸡丁.md",
     "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
@@ -247,23 +273,10 @@
     "01-永久笔记/04-菜谱/8-番茄肉酱意面.md.nssyncsc",
     "01-永久笔记/04-菜谱/8-番茄肉酱意面.md",
     "01-永久笔记/04-菜谱/7-咖喱鸡.md",
-    "01-永久笔记/04-菜谱/6-麻婆豆腐.md.nssyncsc",
     "01-永久笔记/04-菜谱/6-麻婆豆腐.md",
     "01-永久笔记/04-菜谱/2-青椒肉丝.md",
-    "01-永久笔记/04-菜谱/1-红烧肉.md.nssyncsc",
     "01-永久笔记/04-菜谱/1-红烧肉.md",
     "01-永久笔记/工作流.md",
-    "HOMEPAGE.canvas",
-    "00-inbox/2024-W18-04-29.md",
-    "wsm/01-日记/2024-05-01.md",
-    "wsm/01-日记/2024-04-30.md",
-    "00-inbox/2024-05.md",
-    "06-ppt/discussion/ppt9A98.tmp",
-    "06-ppt/discussion/ppt95B5.tmp",
-    "06-ppt/discussion/ppt5D3F.tmp",
-    "06-ppt/RTS-Turin-Class/~$0423.pptx",
-    "06-ppt/discussion/ppt75DF.tmp",
-    "06-ppt/discussion/~$0424.pptx",
     "00-模板/HOMEPAGE 模板.canvas",
     "HOMEPAGEiPhone.canvas",
     "看板.canvas",
