@@ -25,19 +25,6 @@
             }
           },
           {
-            "id": "64868b44e521085b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "893dfca7090e8665",
             "type": "leaf",
             "state": {
@@ -51,45 +38,20 @@
             }
           },
           {
-            "id": "5c74ab2fdac9e143",
+            "id": "6e1e1f6b25472030",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/04-菜谱/0-菜谱看板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3eaa4a196035178f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a823df57b28ae95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/04-菜谱/16-油泼面.md",
+                "file": "00-inbox/2024-W18-04-29.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-05-02.md"
               }
             }
           },
@@ -165,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-05-02.md"
               }
             }
           },
@@ -221,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-05-02.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-05-02.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -276,14 +238,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "893dfca7090e8665",
   "lastOpenFiles": [
+    "00-inbox/2024-W18-04-29.md",
+    "00-inbox/2024-05-02.md",
+    "01-永久笔记/04-菜谱/16-油泼面.md",
     "HOMEPAGE.canvas",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
     "01-永久笔记/04-菜谱/0-菜谱看板.md",
     "00-inbox/Real-time system Class.md",
-    "00-inbox/2024-05-02.md",
     "06-ppt/discussion/ppt16F4.tmp",
     "00-inbox/TSN知识总结.md",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
@@ -301,7 +265,6 @@
     "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
     "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
     "01-永久笔记/04-菜谱/17-排骨炖豆角.md",
-    "01-永久笔记/04-菜谱/16-油泼面.md",
     "01-永久笔记/04-菜谱/15-鸡丝拌面.md",
     "01-永久笔记/04-菜谱/14-酸汤面.md.nssyncsc",
     "01-永久笔记/04-菜谱/14-酸汤面.md",
