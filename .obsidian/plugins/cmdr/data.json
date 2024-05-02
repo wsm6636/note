@@ -52,6 +52,12 @@
       "icon": "git-pull-request",
       "name": "Git: Pull",
       "mode": "any"
+    },
+    {
+      "id": "auto-note-mover:Move-the-note",
+      "icon": "move",
+      "name": "Auto Note Mover: Move the note",
+      "mode": "any"
     }
   ],
   "leftRibbon": [],
