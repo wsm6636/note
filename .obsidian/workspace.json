@@ -51,19 +51,6 @@
             }
           },
           {
-            "id": "f49e87fcf4d90522",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "af20e79821cb4e9c",
             "type": "leaf",
             "state": {
@@ -266,8 +253,11 @@
   },
   "active": "12768c29fdceefed",
   "lastOpenFiles": [
-    "00-inbox/ob摘录文字稿.md",
+    "01-永久笔记/工作流.md",
+    "01-永久笔记/02-配置/zotero7配置.md",
+    "01-永久笔记/01-教程/配置zotero7.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/ob摘录文字稿.md",
     "00-模板/zoteronote模板.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/SEAM-AnOptimalMessageSynchronizerinROSwithWell-BoundedTimeDisparity.md",
@@ -300,9 +290,6 @@
     "01-永久笔记/04-菜谱/19-宫保鸡丁.md",
     "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
     "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
-    "01-永久笔记/04-菜谱/17-排骨炖豆角.md",
-    "01-永久笔记/04-菜谱/15-鸡丝拌面.md",
-    "01-永久笔记/04-菜谱/14-酸汤面.md",
     "00-模板/HOMEPAGE 模板.canvas",
     "HOMEPAGEiPhone.canvas",
     "看板.canvas",
