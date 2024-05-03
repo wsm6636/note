@@ -1,6 +1,6 @@
 ---
 created: 2024-03-27T12:30
-updated: 2024-04-16T16:34
+updated: 2024-05-03T12:50
 tags:
   - 笔记/文献笔记
   - 待归档
@@ -8,6 +8,7 @@ tags:
 status:
   - todo
 ---
+# {{title}}
  {% if extra %}{% set cleanedString = extra|replace("abstractTranslation: ", "")|replace("titleTranslation: ", "") %}
 {% set parts = cleanedString.split("\n") %}
 {% set titleTranslation = parts[0] %}

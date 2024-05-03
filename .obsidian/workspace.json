@@ -25,7 +25,33 @@
             }
           },
           {
-            "id": "342829894ac35bba",
+            "id": "cdbe3ec4b09770e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/zoteronote模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1eb5069a4cb66468",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f2c77c70b209cbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -114,7 +139,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -225,15 +250,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "342829894ac35bba",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "00-inbox/Real-Time-Scheduling-of-Autonomous-Driving-System-with-Guaranteed-Timing-Correctness-9WF9M9BW.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "HOMEPAGE.canvas",
+    "00-模板/zoteronote模板.md",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md.tmp",
+    "00-模板/annotation-color-note.md",
+    "00-inbox/attachments/885DVGI8.png",
+    "00-inbox/attachments/7JSN53ID.png",
+    "00-inbox/attachments/7XRA6KSM.png",
+    "00-inbox/attachments",
     "01-永久笔记/工作流.md",
     "01-永久笔记/02-配置/zotero7配置.md",
     "01-永久笔记/01-教程/配置zotero7.md",
     "00-inbox/ob摘录文字稿.md",
-    "00-模板/zoteronote模板.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/SEAM-AnOptimalMessageSynchronizerinROSwithWell-BoundedTimeDisparity.md",
     "00-inbox/未命名.md",
@@ -242,7 +275,6 @@
     "03-research/10-DAG",
     "03-research/新建文件夹",
     "00-inbox/2024-W18-04-29.md",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/2024-05-02.md.nssyncsc",
@@ -256,13 +288,9 @@
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf.crdownload",
     "06-ppt/discussion/ppt738D.tmp",
     "06-ppt/discussion/~$TSN.pptx",
-    "06-ppt/discussion/TSN.pdf",
-    "06-ppt/discussion/pptCBF6.tmp",
     "01-永久笔记/04-菜谱/5-清炒包菜.md",
     "01-永久笔记/04-菜谱/4-包菜鸡蛋粉丝.md",
     "01-永久笔记/04-菜谱/3-角瓜香肠-鸡蛋.md",
-    "01-永久笔记/04-菜谱/19-宫保鸡丁.md",
-    "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
     "00-模板/HOMEPAGE 模板.canvas",
     "HOMEPAGEiPhone.canvas",
     "看板.canvas",
@@ -278,9 +306,6 @@
     "图/111).png",
     "06-图/111.png",
     "图/2a64fd65617e9cd277a6f0137ee8d43.jpg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.png",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/rollup-logo.svg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/repo-hero-logo-light.svg"
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg"
   ]
 }

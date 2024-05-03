@@ -105,8 +105,8 @@
     "00-模板/月复盘模板.md": "e36093210c4133fb01bc46751f6cf7cf3741f9732a2d04c3a28d8c56c728ced2",
     "00-模板/年复盘模板.md": "b9412982b9444146f12f7de036f898c0550177a914c99064d5a57df9ceca3eb6",
     "00-inbox/2024.md": "e6c9d07eed4b2aaa82b61e4e14c95b9254cf6f93548a3211c990bead685a22ba",
-    "00-模板/annotation-color-note.md": "84831b8bcb722d2111a3a6fa2bdb88350ac4f9ac8b4cf2c2a4b593c01c0bdcac",
-    "00-模板/zoteronote模板.md": "d8d4fab1cc848a4611b259afe146c5333e351ddbb3ceb01cb8e66b9fc6cdc3a9",
+    "00-模板/annotation-color-note.md": "144f9ed75fddecf606fa92afbd0d4537506b7d0739c1fecd03493bd31978f27d",
+    "00-模板/zoteronote模板.md": "1559505f3ea519df43605e63d7114ba2036502fd0cf8ebbfa106b1a88b8f4117",
     "00-模板/一言模板.md": "8453df9deacedd2eed94aae70a4705c7bad8838652b2f49ab30580f67333d18e",
     "00-模板/一言.md": "050de092870e2bdafc2bd70a5aa9ba515dad1852b8267f61f87041ed0a706ea5",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md": "4e4ca1c237f37dc61d3380fdc179d6241de47529f3a2401668ae5c92b701915f",
@@ -218,10 +218,10 @@
     "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md": "999ca7e0ba750b834e3699d88689eab7961c8ad26c23421958ab80ce8987772a",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md": "e5f1db29255947a92669215eb1af8b46e900bb6f5370e2d9d6e68081153d708b",
     "wsm/01-日记/2024-05-02.md": "dfe774bf0fc793ad64ecb2714fb0ad50c8454d60f05114cb803d7538dee3b5ce",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "c349e1fe0b1d800624e3e3b0bee92077f351f5800c78fe2899b302f36a694180",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md": "055240e0a288bfe4610505203f8121aeafb3991d28a67dae123742b5e7188236",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "91b82603b9201bdf53dfb14547129bac11befdfa45b4a53e27ac18f22051fb5d",
     "00-inbox/Parallel Path Progression DAG Scheduling.md": "ce431ad3f550120d6c7dd998768e62314bdc9ac6d13d6803f75d1d179df736ae",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md": "0f6e4f6d43235a03592452105d770bb3f78edab21952925d058724d375656602",
-    "00-inbox/ob摘录文字稿.md": "0603bb3b3c06019894e4d77e4e6445e97900b792fb44eb2a0dca16ff987f2c95"
+    "00-inbox/ob摘录文字稿.md": "0603bb3b3c06019894e4d77e4e6445e97900b792fb44eb2a0dca16ff987f2c95",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md": "8312fb7df28bee928e901f84eaee44e363526fb5483823ca343ddab3da6a6341"
   }
 }
