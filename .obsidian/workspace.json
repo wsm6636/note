@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1955,
-                  "y": -314,
+                  "y": -500,
                   "zoom": 0
                 }
               },
@@ -25,20 +25,7 @@
             }
           },
           {
-            "id": "893dfca7090e8665",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-05-02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12768c29fdceefed",
+            "id": "342829894ac35bba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,22 +36,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "af20e79821cb4e9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ob摘录文字稿.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -140,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -196,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -251,12 +224,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "12768c29fdceefed",
+  "active": "349294642902a61d",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "01-永久笔记/工作流.md",
     "01-永久笔记/02-配置/zotero7配置.md",
     "01-永久笔记/01-教程/配置zotero7.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/ob摘录文字稿.md",
     "00-模板/zoteronote模板.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
@@ -270,7 +244,6 @@
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-05-02.md.nssyncsc",
     "01-永久笔记/04-菜谱/16-油泼面.md",
     "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
@@ -288,7 +261,6 @@
     "01-永久笔记/04-菜谱/4-包菜鸡蛋粉丝.md",
     "01-永久笔记/04-菜谱/3-角瓜香肠-鸡蛋.md",
     "01-永久笔记/04-菜谱/19-宫保鸡丁.md",
-    "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
     "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
     "00-模板/HOMEPAGE 模板.canvas",
     "HOMEPAGEiPhone.canvas",
