@@ -36,6 +36,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f73deae814d271dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ob摘录文字稿.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -202,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -228,8 +241,10 @@
   "active": "5f2c77c70b209cbe",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
-    "01-永久笔记/04-菜谱/15-鸡丝拌面.md",
+    "00-inbox/TSN知识总结.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/ob摘录文字稿.md",
+    "01-永久笔记/04-菜谱/15-鸡丝拌面.md",
     "00-模板/zoteronote模板.md",
     "00-inbox/Real-Time-Scheduling-of-Autonomous-Driving-System-with-Guaranteed-Timing-Correctness-9WF9M9BW.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
@@ -242,7 +257,6 @@
     "01-永久笔记/工作流.md",
     "01-永久笔记/02-配置/zotero7配置.md",
     "01-永久笔记/01-教程/配置zotero7.md",
-    "00-inbox/ob摘录文字稿.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/SEAM-AnOptimalMessageSynchronizerinROSwithWell-BoundedTimeDisparity.md",
     "00-inbox/未命名.md",
@@ -259,7 +273,6 @@
     "01-永久笔记/04-菜谱/0-菜谱看板.md",
     "00-inbox/Real-time system Class.md",
     "06-ppt/discussion/ppt16F4.tmp",
-    "00-inbox/TSN知识总结.md",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf.crdownload",
     "06-ppt/discussion/ppt738D.tmp",
