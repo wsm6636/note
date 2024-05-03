@@ -1291,6 +1291,38 @@
     {
       "path": "01-永久笔记/04-菜谱/19-宫保鸡丁.md",
       "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "03-research/10-DAG",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
+    },
+    {
+      "path": "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "wsm/01-日记/2024-05-01.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "wsm/01-日记/2024-05-02.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
     }
   ]
 }
