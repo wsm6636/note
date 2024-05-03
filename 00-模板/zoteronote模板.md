@@ -1,6 +1,6 @@
 ---
 created: 2024-03-27T18:55
-updated: 2024-05-03T12:58
+updated: 2024-05-03T13:34
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -14,17 +14,11 @@ status:
 {% set titleTranslation = parts[0] %}
 {% set abstractTranslation = parts[1] %}{% endif %}
 **TitleTranslation:**  {{ titleTranslation}}
-
 **Journal or Conference:**  {% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} {{conferenceName}} {{publicationTitle}} {{university}}
-
 **Authors:**  {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
-
 **Pub.date:**  {% if date %}{{date | format("YYYY-MM")}}{% endif %}
-
 **DOI:**  {% if DOI %}{{DOI}}{% endif %}
-
 **tags:** #{{allTags}}
-
 **zoterolink:**  [zotero]({{select}})
 
 # 摘要

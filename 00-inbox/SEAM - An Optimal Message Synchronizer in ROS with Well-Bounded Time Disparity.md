@@ -1,6 +1,6 @@
 ---
-created: 2024-05-03T18:55:00
-updated: 2024-05-03T13:01
+created: 2024-05-03T12:48
+updated: 2024-05-03T13:37
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -8,7 +8,8 @@ tags:
 status:
   - ing
 ---
- 
+
+# SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity
 
 **TitleTranslation:**  SEAM：ROS 中具有有界时间差的最佳消息同步器
 **Journal or Conference:**   2023 IEEE Real-Time Systems Symposium (RTSS)  
@@ -79,7 +80,7 @@ status:
 
 
 在 ROS 2 中，消息同步器从多个传感器接收数据，有选择地处理输入，并将所选消息转发到融合组件进行进一步处理，如图 2 所示。
-![Uploading file...0i0mg]()
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405031337365.png)
 
 
 理想情况下，融合算法假设来自不同传感器的输入数据是同时采样的。
