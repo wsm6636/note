@@ -25,19 +25,72 @@
             }
           },
           {
-            "id": "524aa823167a7c70",
+            "id": "66ca55a7f75bc6e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsm/02-周记/2024-W18-04-29.md",
+                "file": "01-永久笔记/04-菜谱/16-油泼面.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b816bf8e0e7eaf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/04-菜谱/0-菜谱看板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c317bddfbf88f467",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-05-05.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21590bb7cb2074f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W19-05-06.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80de51d486b47dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/04-菜谱/1-红烧肉.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -66,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-05-05.md"
               }
             }
           },
@@ -113,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-05-05.md"
               }
             }
           },
@@ -169,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-05-05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-05-05.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -224,12 +277,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "c317bddfbf88f467",
   "lastOpenFiles": [
+    "00-inbox/2024-W19-05-06.md",
+    "00-inbox/2024-05-05.md",
+    "01-永久笔记/04-菜谱/0-菜谱看板.md",
+    "01-永久笔记/04-菜谱/1-红烧肉.md",
+    "01-永久笔记/04-菜谱/19-宫保鸡丁.md",
+    "HOMEPAGE.canvas",
+    "01-永久笔记/04-菜谱/16-油泼面.md",
+    "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
+    "01-永久笔记/04-菜谱/21 黄瓜炒鸡蛋火腿.md",
+    "wsm/02-周记/2024-W18-04-29.md",
+    "00-模板/菜谱.md",
+    "01-永久笔记/04-菜谱/Untitled.md",
     "wsm/01-日记/2024-05-03.md",
     "wsm/01-日记/2024-05-04.md",
-    "HOMEPAGE.canvas",
-    "wsm/02-周记/2024-W18-04-29.md",
     "00-inbox/2024-05.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/TSN知识总结.md",
@@ -248,18 +311,9 @@
     "01-永久笔记/02-配置/zotero7配置.md",
     "01-永久笔记/01-教程/配置zotero7.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-    "00-inbox/SEAM-AnOptimalMessageSynchronizerinROSwithWell-BoundedTimeDisparity.md",
-    "00-inbox/未命名.md",
-    "wsm/03-月复盘/2024-02.md",
-    "wsm/01-日记/2024-05-02.md",
     "03-research/10-DAG",
     "03-research/新建文件夹",
-    "00-inbox/Parallel Path Progression DAG Scheduling.md",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/2024-05-02.md.nssyncsc",
-    "01-永久笔记/04-菜谱/16-油泼面.md",
-    "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
-    "01-永久笔记/04-菜谱/0-菜谱看板.md",
     "06-ppt/discussion/ppt16F4.tmp",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf.crdownload",

@@ -146,7 +146,7 @@
       "tabTitle": "种类",
       "maxWidthRatio": -1,
       "createAt": "2024-05-01T12:25:18.551Z",
-      "updateAt": "2024-05-01T14:12:58.724Z",
+      "updateAt": "2024-05-05T17:21:39.537Z",
       "backgroundStyle": "none",
       "viewType": "kanban",
       "datasource": {
@@ -181,7 +181,7 @@
           "orders": [
             {
               "id": "79f13100-41ae-4ae2-9742-c1563c053147",
-              "property": "${file.basename}",
+              "property": "${file.ctime}",
               "direction": "asc"
             }
           ]
