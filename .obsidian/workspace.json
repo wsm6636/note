@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-W18-04-29.md",
+                "file": "wsm/02-周记/2024-W18-04-29.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -67,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-W18-04-29.md"
+                "file": "wsm/02-周记/2024-W18-04-29.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-W18-04-29.md"
+                "file": "wsm/02-周记/2024-W18-04-29.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-W18-04-29.md",
+                "file": "wsm/02-周记/2024-W18-04-29.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-W18-04-29.md",
+                "file": "wsm/02-周记/2024-W18-04-29.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -228,8 +228,9 @@
   "active": "524aa823167a7c70",
   "lastOpenFiles": [
     "wsm/01-日记/2024-05-03.md",
+    "wsm/01-日记/2024-05-04.md",
     "HOMEPAGE.canvas",
-    "00-inbox/2024-W18-04-29.md",
+    "wsm/02-周记/2024-W18-04-29.md",
     "00-inbox/2024-05.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/TSN知识总结.md",
@@ -260,7 +261,6 @@
     "01-永久笔记/04-菜谱/16-油泼面.md",
     "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
     "01-永久笔记/04-菜谱/0-菜谱看板.md",
-    "00-inbox/Real-time system Class.md",
     "06-ppt/discussion/ppt16F4.tmp",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf.crdownload",
