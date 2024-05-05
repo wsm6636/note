@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/02-周记/2024-W18-04-29.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -114,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/02-周记/2024-W18-04-29.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/02-周记/2024-W18-04-29.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/02-周记/2024-W18-04-29.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +224,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "524aa823167a7c70",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "wsm/01-日记/2024-05-03.md",
     "wsm/01-日记/2024-05-04.md",
