@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1955,
-                  "y": -500,
+                  "y": -593,
                   "zoom": 0
                 }
               },
@@ -44,6 +44,19 @@
               "type": "markdown",
               "state": {
                 "file": "00-inbox/ob摘录文字稿.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffad9f3b4a2e18f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -239,10 +252,10 @@
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/ob摘录文字稿.md",
     "00-inbox/2024-05-06.md",
     "wsm/01-日记/2024-05",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-W19-05-06.md",
     "wsm/01-日记/2024-05/2024-05-05.md",
     "wsm/02-周记/2024-W18-04-29.md",
