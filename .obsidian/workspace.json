@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-05-06.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -127,7 +126,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-05-06.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -183,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-05-06.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-05-06.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +237,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "44d7ff7c639c74c1",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "00-inbox/ob摘录文字稿.md",
     "00-inbox/2024-05-06.md",
