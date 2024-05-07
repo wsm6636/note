@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-03-31T17:23
+updated: 2024-05-06T22:19
 tags:
   - 笔记
   - 笔记/paper
@@ -85,9 +85,6 @@ The majority of the aforementioned research focuses on the end-to-end latency an
 对于TSN网络的端到端延迟分析目前已有很多关于Time-Aware Shaper (TAS). 有Bahar等人参考【feiertagCompositionalFrameworkEndtoend】提出的端到端时延分析框架基于IEEE 802.1Qbv标准分析了ECU之间同步和非同步以及离线网络下的端到端时延分析【HOUTAN2023102911】。航电系统中也基于TSN网络提出混合调度框架以保证两种端到端语义【Hybrid】。【arestova2022itans】中Arestova等人采用增量启发式方法计算由多速率任务和网络流组成的因果链调度。【co-design】中针对不同需求的控制任务分析帧级的响应时间。
 For the end-to-end latency analysis of TSN networks, there has been significant focus on Time-Aware Shaper (TAS). Bahar et al., referencing the framework proposed in [feiertagCompositionalFrameworkEndtoend], analyzed the end-to-end latency between ECUs under synchronous and asynchronous conditions, as well as in offline network scenarios, based on the IEEE 802.1Qbv standard [HOUTAN2023102911]. In avionics systems, a hybrid scheduling framework has been proposed based on TSN networks to ensure both end-to-end timing semantics [Hybrid]. Arestova et al. in [arestova2022itans] used incremental heuristic methods to calculate the scheduling of cause-effect chains composed of multi-rate tasks and network flows. Additionally, in [co-design], frame-level response times were analyzed for control tasks with varying requirements.
 
-> 加一个章节，关于ATS算法的介绍
-> 伪代码
-> #修改 
 
 # ATS background
 

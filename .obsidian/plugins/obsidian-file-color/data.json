@@ -1305,7 +1305,7 @@
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+      "path": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -1349,8 +1349,12 @@
       "color": "m3H0gtRjQ6C4Kn0jLCrW9"
     },
     {
-      "path": "00-inbox/2024-05-06.md",
+      "path": "wsm/01-日记/2024-05-06.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "03-research/11-ROS",
+      "color": "ETRIvOM6-WNE21I5fmtvU"
     }
   ]
 }

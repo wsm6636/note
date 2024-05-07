@@ -3,16 +3,10 @@ tags:
   - 笔记
   - 笔记/文献笔记
   - 待归档
-parent: Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness
-collections:
-  - DAG
 created: 2024-03-27T18:55
-updated: 2024-05-03T13:02
+updated: 2024-05-06T22:19
 status:
-  - todo
-$version: 0
-$libraryID: 1
-$itemKey: 7CKKC6PD
+  - ing
 ---
 # Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness
 

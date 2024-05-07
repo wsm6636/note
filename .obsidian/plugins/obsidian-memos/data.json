@@ -85,7 +85,7 @@
   "MomentsIcon": "06-图/1.png",
   "MomentsQuote": "Share your thino with the world",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.33",
+  "LastUpdatedVersion": "2.4.39",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -109,5 +109,10 @@
   "PrependViaServer": "",
   "WithNewLineViaServer": "none",
   "SupportSelectOtherView": false,
-  "WaitTemplaterToFinishParse": false
+  "WaitTemplaterToFinishParse": false,
+  "NavbarButton": false,
+  "AlwaysShowStatusText": false,
+  "FilterByMetadata": false,
+  "ShowSourcePath": false,
+  "ShowUpdateMessage": true
 }

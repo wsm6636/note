@@ -25,38 +25,12 @@
             }
           },
           {
-            "id": "ffad9f3b4a2e18f1",
+            "id": "5a7bc0b64b00bf05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fe7e441bb9a29d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-05-06.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a57fb2836a37c56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W19-05-06.md",
+                "file": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -93,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
               }
             }
           },
@@ -103,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"parent\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
               }
             }
           },
@@ -196,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -240,23 +214,31 @@
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
-      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
+      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "ffad9f3b4a2e18f1",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
-    "00-inbox/2024-05-06.md",
-    "00-inbox/2024-W19-05-06.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md.nssyncsc",
+    "03-research/11-ROS",
     "HOMEPAGE.canvas",
+    "HOMEPAGEiPhone.canvas",
+    "00-inbox/2024-W19-05-06.md",
+    "wsm/01-日记/2024-05-06.md",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "02-paper/04-ESWEEK/ESWEEK-workspace.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/Parallel Path Progression DAG Scheduling.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/端到端分析-idea.md",
     "00-inbox/2024年05月06日摘录.md",
     "00-inbox/未命名 1.md",
@@ -277,11 +259,6 @@
     "00-模板/菜谱.md",
     "01-永久笔记/04-菜谱/Untitled.md",
     "wsm/01-日记/2024-05/2024-05-03.md",
-    "wsm/01-日记/2024-05/2024-05-04.md",
-    "00-inbox/2024-05.md",
-    "00-inbox/TSN知识总结.md",
-    "01-永久笔记/04-菜谱/15-鸡丝拌面.md",
-    "00-模板/zoteronote模板.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md.tmp",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
@@ -291,9 +268,7 @@
     "03-research/新建文件夹",
     "00-inbox/2024-05-02.md.nssyncsc",
     "06-ppt/discussion/ppt16F4.tmp",
-    "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
     "00-模板/HOMEPAGE 模板.canvas",
-    "HOMEPAGEiPhone.canvas",
     "看板.canvas",
     "00-inbox/未命名.canvas",
     "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
