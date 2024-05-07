@@ -4,7 +4,7 @@ tags:
   - 笔记/文献笔记
   - 待归档
 created: 2024-03-27T18:55
-updated: 2024-05-07T21:03
+updated: 2024-05-07T21:28
 status:
   - ing
 ---
@@ -164,7 +164,8 @@ Def 1中定义的任务链。文献[6]中也被称为因果链。如果 π 以�
 
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405072103684.png)
 尽管（15）的执行模式在文献[7]中被广泛采用，但它并不是最佳选择。主要缺点列举如下。
-
+- <span style="color:black;background:#fff88f !important;">执行模式为（15）的任务系统会生成最密集的就绪作业，其工作量太大而无法调度，</span>因此常常无法满足（1）中定义的截止时间约束。 
+- <span style="color:black;background:#fff88f !important;">虽然（15）的执行模式生成的作业始终可以具有最小的端到端延迟，但有些作业产生的数据无法被控制作业使用，因此不需要执行。</span>在删除这些冗余作业后，也可以满足（9）中的端到端延迟约束。
 
 
 
