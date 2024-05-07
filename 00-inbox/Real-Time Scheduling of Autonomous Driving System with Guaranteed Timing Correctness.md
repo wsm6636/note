@@ -4,24 +4,18 @@ tags:
   - 笔记/文献笔记
   - 待归档
 created: 2024-03-27T18:55
-updated: 2024-05-06T22:19
+updated: 2024-05-07T09:22
 status:
   - ing
 ---
 # Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness
 
 **TitleTranslation:** 保证时序正确性的自动驾驶系统实时调度
-
 **Journal or Conference:** 2023 IEEE 29th Real-Time and Embedded Technology and Applications Symposium (RTAS)
-
 **Authors:** JinghaoSun, KailuDuan, XishengLi, NanGuan, ZhishanGuo, QingxuDeng, GuozhenTan
-
 **Pub.date:** 2023-05
-
 **DOI:** 10.1109/RTAS58335.2023.00022
-
-**tags:** #schedule, /ing
-
+**tags:** 
 **zoterolink:** [zotero](zotero://select/library/items/ZZ9936VR)
 
 # 摘要

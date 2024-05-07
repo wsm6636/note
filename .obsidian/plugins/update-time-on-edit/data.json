@@ -214,7 +214,7 @@
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md": "e5f1db29255947a92669215eb1af8b46e900bb6f5370e2d9d6e68081153d708b",
     "00-inbox/Parallel Path Progression DAG Scheduling.md": "ce431ad3f550120d6c7dd998768e62314bdc9ac6d13d6803f75d1d179df736ae",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md": "0f6e4f6d43235a03592452105d770bb3f78edab21952925d058724d375656602",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md": "55feccc264cef3e2744a0c8d8009a71a862d5f7b19cbd49632fd1ba1efc7cdbd",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md": "3062c45a2022b808abdb1a35d39b66182266983c48a21834f855d1f57e0759de",
     "wsm/02-周记/2024-W18-04-29.md": "81b55c2021b3247f32a35271b101fa45c027d33c8e0d78f6b220a85cb7e6b88d",
     "01-永久笔记/04-菜谱/20 鱼香肉丝.md": "d216a009a2a805c348a678a6b46ad7325daa07bda72826d53f7ed9313cb76849",
     "01-永久笔记/04-菜谱/21 黄瓜炒鸡蛋火腿.md": "f21adfa89695af67480ff0a64d0f392f5edebd5bd976dbbce629b8fe23bf615d",
@@ -228,6 +228,6 @@
     "wsm/01-日记/2024-05/2024-05-03.md": "7829da72e2ee16aff83060308c4babcaf33dc4d4a8b1c30b5d44c03923258764",
     "wsm/01-日记/2024-05/2024-05-05.md": "28b4d4a973ffb6a74924859e34a0be70bd7c632da46214643518b34cf987340c",
     "wsm/01-日记/2024-05-06.md": "5c2d8e3ed74541632e49cdcbfd2ece79d59293fd3fb95263d3dc69fa04f292c6",
-    "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "a04e097c0a792708a26723592abfbbd1e3576b7f4a9d66e5b49f6620c01d4763"
+    "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "0b15499d480a3ea9f892c4e3cde6099234bebdfdea207da775d588762bdc7d0f"
   }
 }
