@@ -49,22 +49,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3323599a0bd781a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md"
+                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md"
               }
             }
           },
@@ -140,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md"
+                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md"
               }
             }
           },
@@ -196,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
+                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
+                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -251,8 +238,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3323599a0bd781a4",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "HOMEPAGE.canvas",
