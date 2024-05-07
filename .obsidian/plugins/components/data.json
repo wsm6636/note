@@ -243,7 +243,7 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-29T18:07:18.981Z",
-      "updateAt": "2024-04-30T21:44:05.099Z",
+      "updateAt": "2024-05-07T20:18:58.962Z",
       "backgroundStyle": "none",
       "viewType": "kanban",
       "datasource": {
@@ -261,15 +261,11 @@
               "conditions": []
             },
             {
-              "id": "3f43694a-2c7a-4726-b8d5-95108bb77097",
+              "id": "3914cff0-0b8d-4549-b74c-935c1dd3a027",
               "type": "filter",
-              "operator": "contains_any",
-              "property": "status",
-              "value": [
-                "done",
-                "ing",
-                "todo"
-              ],
+              "operator": "contains",
+              "property": "tags",
+              "value": "待归档",
               "conditions": []
             }
           ]
@@ -1110,7 +1106,7 @@
       "backgroundStyle": "none",
       "widgets": [],
       "layoutType": "column",
-      "updateAt": "2024-03-25T14:05:56.952Z",
+      "updateAt": "2024-05-07T20:23:00.797Z",
       "createAt": "2024-02-28T12:02:57.754Z",
       "remark": "计数",
       "components": [
@@ -1135,30 +1131,35 @@
       "backgroundStyle": "card",
       "maxWidthRatio": 100,
       "query": {
-        "type": "page",
+        "valueType": "query",
+        "value": 100,
         "filter": {
           "conditions": [
             {
-              "type": "tag",
-              "value": "#个人",
+              "id": "bff58088-918e-4268-9d43-14d0fc21695c",
+              "type": "filter",
               "operator": "contains",
-              "property": "${file.tags}",
-              "id": "e99c9e6c-0b1d-4216-9b42-749d0c562ee4"
+              "property": "tags",
+              "value": "#个人",
+              "conditions": []
             },
             {
-              "type": "file_path",
-              "value": "模板",
+              "id": "1c604f79-5e74-432d-978c-86ebf9fd88de",
+              "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "id": "eb79080d-1e3d-4dea-8e35-fb32124dca2b"
+              "value": "00-模板",
+              "conditions": []
             }
           ]
-        }
+        },
+        "type": "page"
       },
       "backgroundColor": "#ffffff00",
       "title": "个人",
       "picture": "",
-      "fontColor": "#ce9effff"
+      "fontColor": "#ce9effff",
+      "updateAt": "2024-05-07T20:20:30.372Z"
     },
     {
       "id": "e58681cc-e2f2-4653-806c-8200f37a2218",
@@ -1167,22 +1168,26 @@
       "backgroundStyle": "card",
       "maxWidthRatio": 100,
       "query": {
-        "type": "page",
+        "valueType": "query",
+        "value": 100,
         "filter": {
           "conditions": [
             {
-              "type": "property",
-              "value": "#笔记/文献笔记",
+              "id": "b5028a49-5d6a-412e-8e7f-f651962f5ba6",
+              "type": "filter",
               "operator": "contains",
-              "property": "${file.tags}",
-              "id": "2d9358e3-5740-49e0-b1cb-069dc6366a49"
+              "property": "tags",
+              "value": "笔记/永久笔记",
+              "conditions": []
             }
           ]
-        }
+        },
+        "type": "page"
       },
-      "title": "文献",
+      "title": "永久",
       "backgroundColor": "#ffffff00",
-      "fontColor": "#89c4ffff"
+      "fontColor": "#89c4ffff",
+      "updateAt": "2024-05-07T20:25:11.473Z"
     },
     {
       "id": "f228c46d-fa4c-4034-a61e-2b004844f8f6",
@@ -1191,22 +1196,34 @@
       "backgroundStyle": "card",
       "maxWidthRatio": 100,
       "query": {
-        "type": "page",
+        "valueType": "query",
+        "value": 100,
         "filter": {
           "conditions": [
             {
-              "type": "property",
-              "value": "#笔记/学习笔记",
+              "id": "2cab8aea-da8a-46cd-b5ba-90e1fe5c1149",
+              "type": "filter",
               "operator": "contains",
-              "property": "${file.tags}",
-              "id": "dfdcf3da-aa29-4048-bd27-55c11a1a47d3"
+              "property": "tags",
+              "value": "笔记/文献笔记",
+              "conditions": []
+            },
+            {
+              "id": "d3b64027-4f94-4128-97ba-75e920832f2c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "笔记/学习笔记",
+              "conditions": []
             }
           ]
-        }
+        },
+        "type": "page"
       },
-      "title": "学习",
+      "title": "研究",
       "backgroundColor": "#ffffff00",
-      "fontColor": "#93c9ffff"
+      "fontColor": "#93c9ffff",
+      "updateAt": "2024-05-07T20:24:57.780Z"
     },
     {
       "id": "e9ec5dc2-152e-4d83-b82a-8b9ebaf9fc82",
@@ -1215,22 +1232,34 @@
       "backgroundStyle": "card",
       "maxWidthRatio": 100,
       "query": {
-        "type": "page",
+        "valueType": "query",
+        "value": 100,
         "filter": {
           "conditions": [
             {
-              "type": "property",
-              "value": "#笔记/paper",
+              "id": "d192ee21-d23e-4533-8b45-938492213177",
+              "type": "filter",
               "operator": "contains",
-              "property": "${file.tags}",
-              "id": "b7238169-4380-4a41-a2e8-d6795a0a157c"
+              "property": "tags",
+              "value": "笔记/idea",
+              "conditions": []
+            },
+            {
+              "id": "faf37177-94c6-4b14-b056-40225ac6d374",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "笔记/闪念",
+              "conditions": []
             }
           ]
-        }
+        },
+        "type": "page"
       },
-      "title": "paper",
+      "title": "闪念",
       "backgroundColor": "#ffffff00",
-      "fontColor": "#9eceffff"
+      "fontColor": "#9eceffff",
+      "updateAt": "2024-05-07T20:29:39.110Z"
     },
     {
       "id": "b798fa95-c92d-44a5-92ce-b2a5ace0fca3",

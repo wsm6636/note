@@ -1,9 +1,10 @@
 ---
 created: 2023-09-12T09:56
-updated: 2024-03-26T23:32
+updated: 2024-05-07T22:28
 tags:
   - 笔记
   - 笔记/paper
+  - 笔记/永久笔记
 ---
 
 # RTSS workshop

@@ -1069,7 +1069,7 @@
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "wsm/01-日记/2024-04/2024-04-10.md",
+      "path": "wsm/01-日记/2024-04-10.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
@@ -1097,7 +1097,7 @@
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "wsm/01-日记/2024-04/2024-04-16.md",
+      "path": "wsm/01-日记/2024-04-16.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
@@ -1121,7 +1121,7 @@
       "color": "S1keANt57L8-ByvYi7lL-"
     },
     {
-      "path": "wsm/01-日记/2024-04/2024-04-18.md",
+      "path": "wsm/01-日记/2024-04-18.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
@@ -1305,7 +1305,7 @@
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+      "path": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -1355,6 +1355,10 @@
     {
       "path": "03-research/11-ROS",
       "color": "ETRIvOM6-WNE21I5fmtvU"
+    },
+    {
+      "path": "wsm/01-日记/2024-05-07.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
     }
   ]
 }
