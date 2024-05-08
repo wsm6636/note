@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1955,
-                  "y": -593,
+                  "y": -407,
                   "zoom": 0
                 }
               },
@@ -36,17 +36,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ebb43ad287ffc7ad",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -122,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -178,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -233,13 +224,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b3934e3efb6d0ee2",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "wsm/其他/科技论文写作.md",
+    "HOMEPAGE.canvas",
     "01-永久笔记/04-菜谱/0-菜谱看板.md",
     "01-永久笔记/04-菜谱/20240508161800  new.md",
     "01-永久笔记/工作流.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-05-08.md",
     "wsm/其他/十问.md",
     "00-inbox/2024-W19-05-06.md",
@@ -262,7 +254,6 @@
     "wsm/01-日记/2024-04-16.md",
     "wsm/01-日记/2024-04/2024-04-10.md.nssyncsc",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
-    "02-paper/04-ESWEEK/ESWEEK-workspace.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md.nssyncsc",
     "03-research/11-ROS",
     "HOMEPAGEiPhone.canvas",
