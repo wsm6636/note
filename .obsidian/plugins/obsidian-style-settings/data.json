@@ -11,7 +11,7 @@
   "anuppuccin-theme-settings@@anp-highlight-custom": "anp-highlight-pink",
   "catppuccin-interface-styles@@ctp-bold-folder-title": false,
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
-  "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-accent)",
+  "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-text)",
   "catppuccin-heading-settings@@ctp-h1": "var(--ctp-accent)",
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette"
 }
