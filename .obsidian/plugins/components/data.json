@@ -146,7 +146,7 @@
       "tabTitle": "种类",
       "maxWidthRatio": -1,
       "createAt": "2024-05-01T12:25:18.551Z",
-      "updateAt": "2024-05-05T17:21:39.537Z",
+      "updateAt": "2024-05-08T14:18:40.086Z",
       "backgroundStyle": "none",
       "viewType": "kanban",
       "datasource": {
@@ -175,7 +175,7 @@
         },
         "dataLimit": 50,
         "storage": {
-          "location": ""
+          "location": "01-永久笔记/04-菜谱"
         },
         "sort": {
           "orders": [
@@ -203,7 +203,14 @@
           }
         }
       ],
-      "templates": [],
+      "templates": [
+        {
+          "id": "cd51627a-eb0d-4e67-80d3-8fec453b3290",
+          "path": "00-模板/菜谱.md",
+          "name": "菜谱.md",
+          "type": "normal"
+        }
+      ],
       "groups": [
         {
           "id": "ceb1fd60-be3e-443e-be6b-df42722dbcd2",
@@ -234,7 +241,8 @@
           "fit": "fill"
         }
       },
-      "groupBy": "种类"
+      "groupBy": "种类",
+      "defaultTemplate": null
     },
     {
       "id": "32728c93-307a-4e76-87fb-bb56aacdd551",

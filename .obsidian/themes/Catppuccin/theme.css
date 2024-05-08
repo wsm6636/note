@@ -1458,6 +1458,7 @@ settings:
   --hex-lavender: #b7bdf8;
 }
 /* --ctp-subtext0: 166, 173, 200; */
+/* --ctp-subtext0: 233,233,233; */
 .theme-dark,
 .theme-dark.ctp-mocha {
   --ctp-rosewater: 245, 224, 220;
