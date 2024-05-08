@@ -23,6 +23,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "b3934e3efb6d0ee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -213,8 +226,11 @@
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "HOMEPAGE.canvas",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "03-research/03-调度/bus/CAN.md",
     "03-research/03-调度/定时器/硬件化.md",
@@ -236,9 +252,6 @@
     "02-paper/02-RTSS/评审意见精简.md",
     "02-paper/01-RTCSA/QCH-workspace.md",
     "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "wsm/01-日记/2024-05-07.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md.nssyncsc",
     "03-research/11-ROS",

@@ -243,7 +243,7 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-29T18:07:18.981Z",
-      "updateAt": "2024-05-07T20:18:58.962Z",
+      "updateAt": "2024-05-07T20:32:36.451Z",
       "backgroundStyle": "none",
       "viewType": "kanban",
       "datasource": {
@@ -278,7 +278,7 @@
           "orders": [
             {
               "id": "266d48ce-1129-4a33-90b8-9bc0a55e889a",
-              "property": "${file.mtime}",
+              "property": "tags",
               "direction": "desc"
             }
           ]
