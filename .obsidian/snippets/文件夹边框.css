@@ -24,9 +24,7 @@
 .ctp-full-palette .tree-item-self.is-clickable:hover {
 	/* color: rgb(205, 214, 244);  */
 	/*ctp-text*/
-	color: inherit !important;
-	color: rgb(237, 63, 243);
-	
+	color: #CBA6F7;
 	/* background-color: inherit !important; 411*/
 	background-color: rgba(205, 214, 244, 0.411) !important;
 	/* outline: solid 1px rgb(187, 139, 247); */
