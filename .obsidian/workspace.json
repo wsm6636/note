@@ -16,21 +16,21 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1956.5,
+                  "x": -1944.5,
                   "y": -593,
-                  "zoom": 0
+                  "zoom": -0.24217233391513962
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "78a2066fe06c6721",
+            "id": "294d95a2d356cefe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-模板/挂件.md",
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261
+    "width": 227
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -205,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,8 +226,11 @@
   },
   "active": "832e1994679bf635",
   "lastOpenFiles": [
-    "00-模板/挂件.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "HOMEPAGE.canvas",
+    "00-inbox/Parallel Path Progression DAG Scheduling.md",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "00-模板/挂件.md",
     "00-模板/年复盘模板.md",
     "00-模板/周记模板.md",
     "00-模板/月复盘模板.md",
@@ -238,15 +241,12 @@
     "wsm/01-日记/2024-05-06.md",
     "00-inbox/TSN知识总结.md",
     "00-inbox/未命名.md",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "wsm/其他/科技论文写作.md",
     "01-永久笔记/04-菜谱/0-菜谱看板.md",
     "01-永久笔记/04-菜谱/20240508161800  new.md",
     "wsm/其他/十问.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-    "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "03-research/03-调度/bus/CAN.md",
     "03-research/03-调度/定时器/硬件化.md",
     "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",

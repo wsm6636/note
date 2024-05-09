@@ -1,15 +1,13 @@
 ---
 created: 2024-03-27T18:55
-updated: 2024-05-03T09:45
+updated: 2024-05-09T09:10
 tags:
   - 笔记
   - 笔记/文献笔记
   - 待归档
 status:
-  - todo
+  - ing
 ---
- 
-
 
 
 **TitleTranslation:**  并行路径进展DAG调度
@@ -17,7 +15,7 @@ status:
 **Authors:**  NiklasUeter, MarioGünzel, Georg Von DerBrüggen, Jian-JiaChen
 **Pub.date:**  2023-10
 **DOI:**  10.1109/TC.2023.3280137
-**tags:** #schedule, /ing
+**tags:** 
 **zoterolink:**  [zotero](zotero://select/library/items/X4I3VCIH)
 
 # 摘要

@@ -4,9 +4,9 @@ tags:
   - 笔记/文献笔记
   - 待归档
 created: 2024-03-27T18:55
-updated: 2024-05-08T20:44
+updated: 2024-05-09T09:10
 status:
-  - ing
+  - done
 ---
 # Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness
 
