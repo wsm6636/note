@@ -2,7 +2,6 @@
   "contribution-widget",
   "obsidian-advanced-slides",
   "table-editor-obsidian",
-  "obsidian-auto-link-title",
   "auto-note-mover",
   "obsidian42-brat",
   "calendar",
@@ -12,8 +11,6 @@
   "contribution-graph",
   "customjs",
   "dataview",
-  "editing-toolbar",
-  "emojio",
   "obsidian-file-color",
   "obsidian-git",
   "obsidian-hider",
@@ -27,7 +24,6 @@
   "obsidian-opener",
   "obsidian-outliner",
   "periodic-notes",
-  "obsidian-plugin-groups",
   "quickadd",
   "share-my-plugin-list",
   "obsidian-style-settings",
@@ -35,5 +31,7 @@
   "templater-obsidian",
   "obsidian-memos",
   "update-time-on-edit",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "emojio",
+  "editing-toolbar"
 ]
