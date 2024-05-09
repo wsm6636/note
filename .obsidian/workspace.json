@@ -25,7 +25,7 @@
             }
           },
           {
-            "id": "294d95a2d356cefe",
+            "id": "621a89159b484802",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -225,11 +225,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "294d95a2d356cefe",
+  "active": "621a89159b484802",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-模板/挂件.md",
     "00-模板/年复盘模板.md",
