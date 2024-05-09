@@ -1,6 +1,5 @@
 [
   "contribution-widget",
-  "obsidian-advanced-slides",
   "table-editor-obsidian",
   "auto-note-mover",
   "obsidian42-brat",
@@ -24,14 +23,11 @@
   "obsidian-opener",
   "obsidian-outliner",
   "periodic-notes",
-  "quickadd",
-  "share-my-plugin-list",
   "obsidian-style-settings",
   "tag-wrangler",
   "templater-obsidian",
   "obsidian-memos",
   "update-time-on-edit",
   "obsidian-zotero-desktop-connector",
-  "emojio",
   "editing-toolbar"
 ]

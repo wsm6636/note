@@ -37,7 +37,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
               }
             }
           },
@@ -113,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
               }
             }
           },
@@ -169,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,22 +187,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "832e1994679bf635",
-            "type": "leaf",
-            "state": {
-              "type": "emoji-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -216,7 +209,6 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
@@ -224,7 +216,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "621a89159b484802",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
