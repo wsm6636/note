@@ -18,7 +18,7 @@
                 "viewState": {
                   "x": -1957.5,
                   "y": -623,
-                  "zoom": -0.31107511250348224
+                  "zoom": 0
                 }
               },
               "pinned": true
@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -114,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -139,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "dbe74c464049a0d9",
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,10 +216,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "621a89159b484802",
+  "active": "349294642902a61d",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
+    "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-05-09.md",
+    "00-inbox/2024-05-09.md.nssyncsc",
+    "00-模板/日记模板.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-模板/挂件.md",
@@ -242,8 +245,6 @@
     "03-research/03-调度/bus/CAN.md",
     "03-research/03-调度/定时器/硬件化.md",
     "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
-    "wsm/01-日记/2024-04-18.md",
-    "wsm/01-日记/2024-04-10.md",
     "wsm/01-日记/2024-04/2024-04-10.md.nssyncsc",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md.nssyncsc",
     "03-research/11-ROS",
@@ -257,7 +258,6 @@
     "00-inbox/attachments/7XRA6KSM.png",
     "00-inbox/attachments",
     "03-research/10-DAG",
-    "03-research/新建文件夹",
     "00-模板/HOMEPAGE 模板.canvas",
     "看板.canvas",
     "00-inbox/未命名.canvas",
