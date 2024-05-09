@@ -131,7 +131,7 @@
             }
           },
           {
-            "id": "1fb0494ef5a9a8c0",
+            "id": "f1a5b9bdc03fee69",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "dbe74c464049a0d9",
@@ -210,18 +210,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian42-brat:BRAT": false,
-      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-memos:Thino": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
       "periodic-notes:Open today": false
     }
   },
