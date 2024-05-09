@@ -16,7 +16,7 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1955,
+                  "x": -1956.5,
                   "y": -593,
                   "zoom": 0
                 }
@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-模板/挂件.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -98,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.0110321044922
+    "width": 261
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -114,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-模板/挂件.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-模板/挂件.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-模板/挂件.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -225,8 +224,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "78a2066fe06c6721",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
+    "00-模板/挂件.md",
     "HOMEPAGE.canvas",
     "00-模板/年复盘模板.md",
     "00-模板/周记模板.md",
@@ -252,7 +252,6 @@
     "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
     "wsm/01-日记/2024-04-18.md",
     "wsm/01-日记/2024-04-10.md",
-    "03-research/02-因果链/note-chain.md",
     "wsm/01-日记/2024-04/2024-04-10.md.nssyncsc",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md.nssyncsc",
     "03-research/11-ROS",
