@@ -1,26 +1,7 @@
 {
 	"nodes":[
-		{
-			"id":"efc6103b5c612f67",
-			"type":"text",
-			"text":"```components\ncomponentId: '8e37fe0d-62b2-4a77-bfeb-666fcca32a6c'\n```\n",
-			"createdAt":"2024-04-07 17:20:05",
-			"updatedAt":"2024-04-07 17:20:05",
-			"deletedAt":"",
-			"pinned":false,
-			"visibility":"PUBLIC",
-			"rowStatus":"NORMAL",
-			"thinoType":"JOURNAL",
-			"hasId":"",
-			"linkId":"",
-			"resourceList":[],
-			"x":-2624,
-			"y":-853,
-			"width":730,
-			"height":217
-		},
-		{"id":"c35d2d8a64e85946","type":"text","text":"![one.svg](https://v2.jinrishici.com/one.svg?font-size=24&spacing=2&color=thistle)","x":-2624,"y":-897,"width":686,"height":73},
-		{"id":"da236e0cb22143df","type":"text","text":"```contributionGraph\ntitle: \ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"1\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: PAGE_PROPERTY\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 10px\n  minHeight: 10px\n  borderRadius: \"\"\n\n```","x":-2624,"y":-705,"width":776,"height":655},
+		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2723,"y":-1169,"width":198,"height":223,"color":"#1e1e2e"},
+		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2624,"y":-1159,"width":523,"height":102},
 		{
 			"id":"d5128eeb3a24cf14",
 			"type":"text",
@@ -35,17 +16,36 @@
 			"hasId":"",
 			"linkId":"",
 			"resourceList":[],
-			"x":-2048,
-			"y":-1136,
-			"width":783,
-			"height":257
+			"x":-2037,
+			"y":-1169,
+			"width":847,
+			"height":252
 		},
-		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1938,"y":-960,"width":673,"height":241},
-		{"id":"12706d4a9a6cf3f7","type":"text","text":"```components\ncomponentId: '9ba0fb0b-74c3-43ef-93f2-95767c4b0ac1'\n```\n    \n    \n    \n    \n    \n    \n    \n    \n\n","x":-1938,"y":-529,"width":673,"height":431},
-		{"id":"174375176805dc41","type":"text","text":"```components\nid: cff26aa0-fdbb-4611-adbb-a0bcf7ffa5f0\ntype: 'ref'\nrefId: '5c50de7f-3d5e-4f84-ae23-7883e3940882'\n```\n    \n","x":-1937,"y":-767,"width":672,"height":285},
-		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2453,"y":-1034,"width":480,"height":181},
-		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2496,"y":-1109,"width":523,"height":102},
-		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2624,"y":-1120,"width":198,"height":223,"color":"#1e1e2e"}
+		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2564,"y":-1098,"width":566,"height":181},
+		{"id":"c35d2d8a64e85946","type":"text","text":"![one.svg](https://v2.jinrishici.com/one.svg?font-size=28&spacing=2&color=thistle)","x":-2705,"y":-946,"width":707,"height":65},
+		{
+			"id":"efc6103b5c612f67",
+			"type":"text",
+			"text":"```components\ncomponentId: '8e37fe0d-62b2-4a77-bfeb-666fcca32a6c'\n```\n",
+			"createdAt":"2024-04-07 17:20:05",
+			"updatedAt":"2024-04-07 17:20:05",
+			"deletedAt":"",
+			"pinned":false,
+			"visibility":"PUBLIC",
+			"rowStatus":"NORMAL",
+			"thinoType":"JOURNAL",
+			"hasId":"",
+			"linkId":"",
+			"resourceList":[],
+			"x":-2705,
+			"y":-881,
+			"width":767,
+			"height":199
+		},
+		{"id":"da236e0cb22143df","type":"text","text":"```contributionGraph\ntitle: \ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"1\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: PAGE_PROPERTY\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 10px\n  minHeight: 10px\n  borderRadius: \"\"\n\n```","x":-2725,"y":-732,"width":816,"height":655},
+		{"id":"174375176805dc41","type":"text","text":"```components\nid: cff26aa0-fdbb-4611-adbb-a0bcf7ffa5f0\ntype: 'ref'\nrefId: '5c50de7f-3d5e-4f84-ae23-7883e3940882'\n```\n    \n","x":-1959,"y":-777,"width":769,"height":308},
+		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1967,"y":-982,"width":777,"height":276},
+		{"id":"12706d4a9a6cf3f7","type":"text","text":"```components\ncomponentId: '9ba0fb0b-74c3-43ef-93f2-95767c4b0ac1'\n```\n    \n    \n    \n    \n    \n    \n    \n    \n\n","x":-1959,"y":-533,"width":769,"height":431}
 	],
 	"edges":[]
 }

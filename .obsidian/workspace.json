@@ -16,9 +16,9 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1944.5,
-                  "y": -593,
-                  "zoom": -0.24217233391513962
+                  "x": -1957.5,
+                  "y": -623,
+                  "zoom": -0.31107511250348224
                 }
               },
               "pinned": true
@@ -37,7 +37,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
               }
             }
           },
@@ -113,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
               }
             }
           },
@@ -169,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -224,10 +225,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "832e1994679bf635",
+  "active": "294d95a2d356cefe",
   "lastOpenFiles": [
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "HOMEPAGE.canvas",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-模板/挂件.md",
