@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": 4,
+    "migrated": 5,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "native",
@@ -198,7 +198,8 @@
     "iconsInLinksEnabled": true,
     "debugMode": false,
     "iconInFrontmatterFieldName": "icon",
-    "iconColorInFrontmatterFieldName": "iconColor"
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconInTitlePosition": "above"
   },
   "英语": "RiEnglishInput",
   "HOMEPAGE.canvas": "LiHome",

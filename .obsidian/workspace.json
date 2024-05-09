@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -114,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +209,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -222,10 +220,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "621a89159b484802",
+  "active": "832e1994679bf635",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
