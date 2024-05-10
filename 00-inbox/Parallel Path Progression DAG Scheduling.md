@@ -1,6 +1,6 @@
 ---
 created: 2024-03-27T18:55
-updated: 2024-05-10T10:44
+updated: 2024-05-10T11:09
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -178,11 +178,19 @@ n 路径集合近似算法：从算法 1 中的第 1 行到第 3 行，计算完
 
 步骤 2：在第二步中，我们现在通过归纳法断言并证明
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101044348.png)
-
-
-
-
-
+对于 n = 1，(9) 简化为 w · vol(Vs(ψ1)) ≥ C，这成立，因为我们知道存在有限 w，使得 vol(πψ1 ∪ · · · ∪ πψw ) = C ≤ Σ w i=1 vol(πψi ) ≤ w · vol(Vs(ψ1)) = w · vol(π*)，因为 ψ1 只包含 G 中的最长路径。在归纳步骤 n → n + 1 中，我们有
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101057969.png)
+使用（4），我们得出结论：
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101057412.png)
+结论：使用（9）得出，在nPCA第n次迭代之后，使用计算的n路径集合ψn的最大响应时间至多为
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101057157.png)
+由于 Ropt ≥ max{vol(π*), C/M } 以及 nPCA 在第 17 行使用 (14) 返回的最小响应时间解 (ψ*, n*)，我们有：
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101058964.png)
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101058912.png)
+请注意，(15) 是由于在约束 (M ≥ n ≥ 1) 下，函数 M/(M − n + 1) 在 n ≥ 1 时相对于 M 严格递减。约束下，最小可行 M 由 n 向下限制，因此不超过 n/(n − n + 1) = n。
+此外，我们还有基于算法生成的结果 w 和 n* 的参数界限，即
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101108564.png)
+最后，我们有 RJ ≤ Eq.(17) ≤ Eq.(16) 得出证明。
 
 
 
