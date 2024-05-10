@@ -37,7 +37,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
               }
             }
           },
@@ -113,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
               }
             }
           },
@@ -169,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -215,10 +216,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "349294642902a61d",
+  "active": "621a89159b484802",
   "lastOpenFiles": [
-    "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "HOMEPAGE.canvas",
+    "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "wsm/01-日记/2024-05-09.md",
     "00-inbox/2024-05-09.md.nssyncsc",
     "00-模板/日记模板.md",

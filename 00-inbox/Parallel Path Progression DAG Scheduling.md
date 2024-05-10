@@ -1,6 +1,6 @@
 ---
 created: 2024-03-27T18:55
-updated: 2024-05-09T16:48
+updated: 2024-05-10T10:44
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -150,6 +150,34 @@ n 路径集合近似算法：从算法 1 中的第 1 行到第 3 行，计算完
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405091620847.png)
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405091648684.png)
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405091648305.png)
+
+
+**定理 8 (nPCA)**：使用并行路径级数调度且根据算法 1 计算 n* 多路径的 DAG 作业 J (makespan) 在 M 个专用处理器上的最坏情况响应时间最多为
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101015404.png)
+其中 w 指的是 PATHCOVERAGE 的解。
+> 能覆盖所有节点的最小路径数
+
+证明：我们分别针对 M ≥ w 和 M < w 的情况证明该定理。
+情况 1：在第一种情况下，即从第 1 行到第 3 行，令 M ≥ w。从第 IV-A 节的讨论中，我们知道 DAG G = (V, E) 的每个顶点 v ∈ V 至少被 PATHCOVERAGE 算法计算出的 w 条路径中的一条覆盖，这些路径在 PATHCOVERAGE 算法中返回第 3 行。因此，响应时间界限由下式给出
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101029489.png)
+它的上限是最佳响应时间，因为 G 中的最长路径是任何 DAG 作业响应时间的下限。
+
+情况 2：请注意，从 PATHCOVERAGE 获得的 w 不是最小解，而是它的上限。也就是说，在w>M≥n≥1的约束下，可能存在n条路径，使得可以覆盖DAG总体积C。然而，尚不知道这样的最小解是否可以在多项式时间内计算。然而，我们可以证明最佳响应时间相对于该上限的近似比率。
+
+步骤 1：我们通过反证法证明，对于每次迭代 n ∈ {1, . 。 。 , M } 以下不等式成立
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101036780.png)
+其中 ψ0 := ∅ 且 vol(Vs(ψ0)) = 0。为了使证明更加清晰，我们在第 n 次迭代中使用 vol(n) 来指代 vol′。假设矛盾存在迭代 n ∈ {1, . 。 。 , M } 这样
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101039712.png)
+成立。那么它必须特别指出
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101039271.png)
+其中 - - 通过算法策略选择- π\*n，使得对于所有路径 π ∈ Ψ(G)，满足不等式 vol(n)(π\*n) ≥ vol(n)(π)。因此，对于任意 w 条路径的集合，w·vol(n)(π\*n) ≥ vol(n)(∪w,i=1  πi)。因此，如果 (6) 成立，那么
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101042990.png)
+也成立。根据算法不难看出
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101043960.png)
+成立，因为如果第 n 次迭代中顶点的体积与初始体积不同，则该顶点必须被先前迭代期间收集的任何路径覆盖，即 Vs(ψn−1)。然后，在 (7) 中使用 (8) 的恒等式，得出 (5) 对于任意 w 条路径的任意集合，得出条件 vol(∪w,i=1  πi) < C，这与 w 条解的存在性相矛盾路径。
+
+步骤 2：在第二步中，我们现在通过归纳法断言并证明
+![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202405101044348.png)
 
 
 
