@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -77,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "帮派",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +216,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "14e19d6c3c25ebf5",
+  "active": "349294642902a61d",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
