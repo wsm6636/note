@@ -22,8 +22,8 @@
 			"width":767,
 			"height":232
 		},
-		{"id":"c35d2d8a64e85946","type":"text","text":"![one.svg](https://v2.jinrishici.com/one.svg?font-size=28&spacing=26&color=thistle)","x":-2705,"y":-925,"width":707,"height":65},
-		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2723,"y":-1140,"width":198,"height":223,"color":"#1e1e2e"},
+		{"id":"c35d2d8a64e85946","type":"text","text":"![one.svg](https://v2.jinrishici.com/one.svg?font-size=24&spacing=2&color=thistle)","x":-2705,"y":-925,"width":707,"height":65},
+		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2723,"y":-1140,"width":198,"height":215,"color":"#1e1e2e"},
 		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2624,"y":-1130,"width":523,"height":102},
 		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2564,"y":-1043,"width":566,"height":181},
 		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1967,"y":-974,"width":777,"height":276},
