@@ -766,23 +766,23 @@
     },
     {
       "path": "03-research/06-TSN/ATS/基础知识-ATS.md",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
       "path": "03-research/06-TSN/ATS/ATS.md",
-      "color": "pxDfySp685qcG-LPQKv8I"
+      "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
       "path": "03-research/06-TSN/ATS/IEEE 802.1Qcr Asynchronous Traffic Shaping with Linux Traffic Control.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
+      "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
       "path": "03-research/06-TSN/ATS/Synthesis of Queue and Priority Assignment for Asynchronous Traffic Shaping in Switched Ethernet.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
+      "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
       "path": "03-research/06-TSN/ATS/Urgency-Based Scheduler for Time-Sensitive Switched Ethernet Networks.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
+      "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
       "path": "00-inbox",
@@ -1066,6 +1066,38 @@
     },
     {
       "path": "wsm/01-日记/2024-05-08.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "01-永久笔记/02-配置/zotero7配置.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "02-paper/01-RTCSA/QCH-workspace.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "02-paper/02-RTSS/workshop.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "02-paper/03-DAC/ATS-workspace.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "02-paper/04-ESWEEK/ESWEEK-workspace.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "wsm/01-日记/2024-02/2024-02-27.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     }
   ]
