@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -114,7 +113,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +216,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0452a522730bacea",
+  "active": "349294642902a61d",
   "lastOpenFiles": [
     "00-inbox/2024.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
