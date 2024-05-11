@@ -16,21 +16,21 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1957.5,
-                  "y": -585.9430461423103,
-                  "zoom": 0
+                  "x": -1947.5,
+                  "y": -608.5,
+                  "zoom": -0.5164913625686058
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "0452a522730bacea",
+            "id": "4b81e5bbdc171a44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
+                "file": "wsm/01-日记/2024-05-10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -197,8 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,9 +217,11 @@
   },
   "active": "349294642902a61d",
   "lastOpenFiles": [
-    "00-inbox/2024.md",
-    "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-05-10.md",
+    "wsm/01-日记/2024-05-11.md",
+    "00-inbox/Parallel Path Progression DAG Scheduling.md",
+    "00-inbox/2024.md",
     "00-模板/一言.md",
     "00-模板/zoteronote模板.md",
     "00-模板/菜谱.md",
@@ -241,10 +242,6 @@
     "wsm/01-日记/2024-04/2024-04-25.md",
     "wsm/01-日记/2024-04/2024-04-24.md",
     "wsm/01-日记/2024-04/2024-04-23.md",
-    "wsm/01-日记/2024-04/2024-04-22.md",
-    "wsm/01-日记/2024-04/2024-04-21.md",
-    "wsm/01-日记/2024-04/2024-04-20.md",
-    "wsm/01-日记/2024-04/2024-04-19.md",
     "wsm/01-日记/2024-04/2024-04-20.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-10.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-09.nssyncsc",
