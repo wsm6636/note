@@ -49,6 +49,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5619765f175b2fcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/zoteronote模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac71f30ba941b792",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/菜谱.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcc0f2186f401510",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -231,6 +270,8 @@
   },
   "active": "349294642902a61d",
   "lastOpenFiles": [
+    "00-模板/菜谱.md",
+    "00-模板/zoteronote模板.md",
     "HOMEPAGE.canvas",
     "01-永久笔记/zotero7配置.md",
     "00-inbox/Data-Age Analysis and Optimisation for Cause-Effect Chains in Automotive Control Systems.md",
@@ -258,7 +299,6 @@
     "01-永久笔记/04-菜谱/20240508161800  new.md",
     "wsm/其他/十问.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "wsm/01-日记/2024-04/2024-04-10.md.nssyncsc",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md.nssyncsc",
     "03-research/11-ROS",
