@@ -200,5 +200,13 @@
       ],
       "key": "T"
     }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
   ]
 }
