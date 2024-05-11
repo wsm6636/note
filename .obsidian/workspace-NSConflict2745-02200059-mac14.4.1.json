@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1957.5,
-                  "y": -616.0868754880134,
+                  "y": -681.4422584115107,
                   "zoom": -0.30472893640141685
                 }
               },
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213
+    "width": 221
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -211,9 +211,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
+      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
-      "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": false
+      "obsidian-memos:Thino": false
     }
   },
   "active": "349294642902a61d",
