@@ -1,6 +1,6 @@
 ---
 created: 2024-03-27T18:55
-updated: 2024-05-10T15:57
+updated: 2024-05-11T16:53
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -8,14 +8,12 @@ tags:
 status:
   - ing
 ---
-
-
+	
 **TitleTranslation:**  并行路径进展DAG调度
 **Journal or Conference:**  IEEE Trans. Comput.  IEEE Transactions on Computers 
 **Authors:**  NiklasUeter, MarioGünzel, Georg Von DerBrüggen, Jian-JiaChen
 **Pub.date:**  2023-10
-**DOI:**  10.1109/TC.2023.3280137
-**tags:** 
+**DOI:**  10.1109/TC.2023.3280137     
 **zoterolink:**  [zotero](zotero://select/library/items/X4I3VCIH)
 
 # 摘要
