@@ -36,6 +36,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "47fc890b68c6916b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/一言.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
