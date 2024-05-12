@@ -17,41 +17,14 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -608.5,
-                  "zoom": -1.0248859604692397
+                  "y": -157.6359999999999,
+                  "zoom": -0.27738969881086406
                 }
               },
               "pinned": true
             }
-          },
-          {
-            "id": "60966c54ad3acb30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-05-12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0538cd289c0866be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/02-周记/2024-W19-05-06.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/02-周记/2024-W19-05-06.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -127,7 +100,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/02-周记/2024-W19-05-06.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -183,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/02-周记/2024-W19-05-06.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,14 +173,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/02-周记/2024-W19-05-06.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bcf0436741c982fe",
+            "id": "66995075eb263964",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -237,21 +210,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bcf0436741c982fe",
+  "active": "66995075eb263964",
   "lastOpenFiles": [
-    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
-    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.nssyncsc",
-    "01-永久笔记/02-配置/zotero7配置.md",
-    "01-永久笔记/02-配置/zotero7配置.nssyncsc",
+    "wsm/01-日记/2024-05/2024-05-06.md",
+    "wsm/01-日记/2024-05/2024-05-06.md.nssyncsc",
     "wsm/01-日记/2024-05-12.md",
-    "HOMEPAGE.canvas",
-    "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-05-12.md.nssyncsc",
     "wsm/02-周记/2024-W19-05-06.md",
+    "wsm/02-周记/2024-W19-05-06.md.nssyncsc",
     "00-inbox/2024-W20-05-13.md",
-    "01-永久笔记/zotero7配置.md",
-    "01-永久笔记/端到端分析模型整理-DAC.md",
-    "01-永久笔记/zotero7配置.nssyncsc",
-    "01-永久笔记/端到端分析模型整理-DAC.nssyncsc",
+    "01-永久笔记/02-配置/zotero7配置.md",
+    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
+    "00-inbox/2024-W19-05-06.md",
+    "00-inbox/2024-W20-05-13.md.nssyncsc",
+    "01-永久笔记/02-配置/zotero7配置.md.nssyncsc",
+    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md.nssyncsc",
+    "00-inbox/2024-05-12.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/2024-05-12.md.nssyncsc",
     "00-inbox/端到端分析-idea.md",
     "HOMEPAGEiPhone.canvas",
     "wsm/01-日记/2024-05-10.md",
@@ -274,9 +250,6 @@
     "wsm/01-日记/2024-04/2024-04-20.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-10.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-09.nssyncsc",
-    "wsm/01-日记/2024-05/2024-05-05.nssyncsc",
-    "wsm/01-日记/2024-05/2024-05-04.nssyncsc",
-    "wsm/01-日记/2024-05/2024-05-03.nssyncsc",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
     "00-inbox/attachments/7XRA6KSM.png",
