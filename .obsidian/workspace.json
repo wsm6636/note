@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba97d992d02ad4c6",
+        "id": "b5659d2d793e0d8b",
         "type": "tabs",
         "children": [
           {
-            "id": "93c36ef0228047a6",
+            "id": "f0f5b56a01c8c830",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,27 +18,13 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -608.5,
-                  "zoom": -0.27738969881086406
+                  "zoom": -1.0248859604692397
                 }
               },
               "pinned": true
             }
-          },
-          {
-            "id": "e389918804d23fd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/端到端分析-idea.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -114,7 +100,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/端到端分析-idea.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -216,8 +202,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e389918804d23fd2",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
+    "00-inbox/端到端分析-idea.md",
     "HOMEPAGE.canvas",
     "HOMEPAGEiPhone.canvas",
     "wsm/01-日记/2024-05-10.md",
