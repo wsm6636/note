@@ -18,13 +18,40 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -608.5,
-                  "zoom": -0.27738969881086406
+                  "zoom": -1.0248859604692397
                 }
               },
               "pinned": true
             }
+          },
+          {
+            "id": "0a6c1bb298d39a6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-05-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38eec179ede1322e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W19-05-06.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-W19-05-06.md"
               }
             }
           },
@@ -100,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-W19-05-06.md"
               }
             }
           },
@@ -123,17 +150,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "66995075eb263964",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "dbe74c464049a0d9",
@@ -164,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W19-05-06.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,14 +200,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W19-05-06.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "bcf0436741c982fe",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -210,12 +237,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "38eec179ede1322e",
   "lastOpenFiles": [
     "00-inbox/2024-05-12.md",
-    "00-inbox/2024-05-12.md.nssyncsc",
-    "00-inbox/端到端分析-idea.md",
+    "00-inbox/2024-W19-05-06.md",
     "HOMEPAGE.canvas",
+    "00-inbox/端到端分析-idea.md",
     "HOMEPAGEiPhone.canvas",
     "wsm/01-日记/2024-05-10.md",
     "wsm/01-日记/2024-05-11.md",
@@ -240,7 +267,6 @@
     "wsm/01-日记/2024-04/2024-04-26.md",
     "wsm/01-日记/2024-04/2024-04-25.md",
     "wsm/01-日记/2024-04/2024-04-24.md",
-    "wsm/01-日记/2024-04/2024-04-23.md",
     "wsm/01-日记/2024-04/2024-04-20.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-10.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-09.nssyncsc",
@@ -250,6 +276,7 @@
     "wsm/01-日记/2024-05/2024-05-02.nssyncsc",
     "wsm/01-日记/2024-05/2024-05-01.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-30.nssyncsc",
+    "wsm/01-日记/2024-04/2024-04-29.nssyncsc",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
     "00-inbox/attachments/7XRA6KSM.png",
