@@ -1045,10 +1045,6 @@
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "wsm/02-周记/2024-W19-05-06.md",
-      "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
       "path": "wsm/01-日记/2024-05",
       "color": "m3H0gtRjQ6C4Kn0jLCrW9"
     },
@@ -1067,6 +1063,14 @@
     {
       "path": "wsm/01-日记/2024-05-08.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "01-永久笔记/zotero7配置.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/端到端分析模型整理-DAC.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
       "path": "02-paper/QCH-workspace.md",
@@ -1366,14 +1370,6 @@
     },
     {
       "path": "wsm/01-日记/2024-05-11.md",
-      "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
-      "path": "wsm/01-日记/2024-05-12.md",
-      "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
-      "path": "00-inbox/2024-W20-05-13.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     }
   ]
