@@ -123,9 +123,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "66995075eb263964",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "dbe74c464049a0d9",
@@ -178,17 +186,9 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "66995075eb263964",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -212,13 +212,10 @@
   },
   "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
-    "wsm/01-日记/2024-05-12.md",
-    "wsm/01-日记/2024-05-12.md.nssyncsc",
-    "wsm/02-周记/2024-W19-05-06.md",
     "wsm/02-周记/2024-W19-05-06.md.nssyncsc",
     "00-inbox/2024-W20-05-13.md",
-    "01-永久笔记/02-配置/zotero7配置.md",
-    "01-永久笔记/03-文献总结/端到端分析模型整理-DAC.md",
+    "01-永久笔记/zotero7配置.md",
+    "01-永久笔记/端到端分析模型整理-DAC.md",
     "00-inbox/2024-W19-05-06.md",
     "00-inbox/2024-W20-05-13.md.nssyncsc",
     "01-永久笔记/02-配置/zotero7配置.md.nssyncsc",
@@ -246,10 +243,13 @@
     "wsm/01-日记/2024-05/2024-05-01.md",
     "wsm/01-日记/2024-04/2024-04-30.md",
     "wsm/01-日记/2024-04/2024-04-29.md",
+    "wsm/01-日记/2024-04/2024-04-28.md",
     "wsm/01-日记/2024-04/2024-04-20.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-10.nssyncsc",
     "wsm/01-日记/2024-04/2024-04-09.nssyncsc",
     "wsm/01-日记/2024-05/2024-05-05.nssyncsc",
+    "wsm/01-日记/2024-05/2024-05-04.nssyncsc",
+    "wsm/01-日记/2024-05/2024-05-03.nssyncsc",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
     "00-inbox/attachments/7XRA6KSM.png",
