@@ -152,7 +152,7 @@
     "01-永久笔记/04-菜谱/20 鱼香肉丝.md": "d216a009a2a805c348a678a6b46ad7325daa07bda72826d53f7ed9313cb76849",
     "01-永久笔记/04-菜谱/21 黄瓜炒鸡蛋火腿.md": "a9089e4767371b46e32e6894cc7fd1be79e1dc4e1230a0936e3aedf072c46284",
     "01-永久笔记/04-菜谱/0-菜谱看板.md": "3050fd281387e10da58dccb7eb81e055850dc27790ec2e6d1f242a0c96ca3da9",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "7d91b32e6626a644949c8b9a4fc56ffa789ff70afd96c85633ae069dfa40d3d0",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "eb374f1f4fdd731355a5b50e61bedc47ca06ae8971871b7790dc6f7a834d4e7d",
     "02-paper/QCH-workspace-NSConflict-02200059-mac14.4.1.md": "04032ec93b9d5841e315f5dfd90725a3a6b3579e06c5d4ea10bc70a6e4a5fcc9",
     "02-paper/QCH-workspace.md": "04032ec93b9d5841e315f5dfd90725a3a6b3579e06c5d4ea10bc70a6e4a5fcc9",
     "02-paper/workshop.md": "2b9c08792a6fd9061f81d5a0fa7e277b9ec6002fbe44a8db6c6b1b37ba4dd0f6",
@@ -276,6 +276,7 @@
     "wsm/01-日记/2024-05/2024-05-10.md": "be99c7b31574d5876f246a8914f4b45da4e8137a302fb7e31a963e067657bb04",
     "wsm/01-日记/2024-05/2024-05-11.md": "a8924305101c197bec6a89d2341705cefe21f4dcb950ce47f16d81c79ca591f0",
     "wsm/01-日记/2024-05/2024-05-12.md": "3831eb4f8d2008ad2ee7688a536edcbe2bebdab112687a2f08c7599bbf109f7b",
-    "wsm/01-日记/2024-05/2024-05-06.md": "07fa60b1f28ebe977191a6fe091cb0de9d9a0c55be918df80a0ee3aabe528ebd"
+    "wsm/01-日记/2024-05/2024-05-06.md": "07fa60b1f28ebe977191a6fe091cb0de9d9a0c55be918df80a0ee3aabe528ebd",
+    "00-inbox/DAG总结.md": "9a7f4b3e1992f8ac4f32c6803bbf1197e2cb258f4de24a5ea02fd50bf009c8ab"
   }
 }
