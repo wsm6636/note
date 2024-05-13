@@ -25,19 +25,6 @@
             }
           },
           {
-            "id": "a9d0141a66ce832e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "db0f8e1db3c5e2cc",
             "type": "leaf",
             "state": {
@@ -51,20 +38,7 @@
             }
           },
           {
-            "id": "a13a267e1e2dcb53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "381f22e09b811af2",
+            "id": "46fa38287476f982",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -75,35 +49,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "92c3132e37090a00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/DAG总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a36b45d045becfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-05-13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-05-13.md"
+                "file": "00-inbox/DAG总结.md"
               }
             }
           },
@@ -179,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-05-13.md"
+                "file": "00-inbox/DAG总结.md"
               }
             }
           },
@@ -235,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-05-13.md",
+                "file": "00-inbox/DAG总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-05-13.md",
+                "file": "00-inbox/DAG总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -289,15 +237,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0a36b45d045becfb",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "06-ppt/discussion/ppt1679.tmp",
+    "06-ppt/discussion/ppt2523.tmp",
+    "06-ppt/discussion/ppt5D62.tmp",
+    "06-ppt/discussion/~$0514.pptx",
+    "06-ppt/discussion/0514 - 副本.pptx",
+    "06-ppt/discussion/ppt8080.tmp",
+    "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "HOMEPAGE.canvas",
-    "00-inbox/2024-05-13.md",
+    "wsm/01-日记/2024-05-13.md",
+    "00-inbox/2024-W20-05-13.md",
     "00-inbox/DAG总结.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "06-ppt/discussion/0514.pptx",
+    "06-ppt/discussion/新建 Microsoft PowerPoint 演示文稿.pptx",
     "00-inbox/端到端分析-idea.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-    "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-模板/note.md",
@@ -308,25 +265,17 @@
     "wsm/01-日记/2024-05/2024-05-10-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md.nssyncsc",
     "wsm/01-日记/2024-05/2024-05-09-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md.nssyncsc",
     "wsm/01-日记/2024-05/2024-05-08-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md.nssyncsc",
-    "wsm/01-日记/2024-05/2024-05-07-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md.nssyncsc",
     "wsm/01-日记/2024-05/2024-05-07.md",
     "wsm/01-日记/2024-05/2024-05-11-冲突-02200059_Win10.md",
     "wsm/01-日记/2024-05/2024-05-12.md",
     "wsm/01-日记/2024-05/2024-05-11.md",
     "wsm/01-日记/2024-05/2024-05-10.md",
     "wsm/01-日记/2024-05/2024-05-09.md",
-    "wsm/01-日记/2024-05/2024-05-11-冲突-02200059_Win10.md.nssyncsc",
     "wsm/01-日记/2024-05/2024-05-07-冲突-02200059_Win10.md",
     "conflict-files-obsidian-git.md",
     "wsm/01-日记/2024-05/2024-05-06.md",
     "wsm/01-日记/2024-05/2024-05-12-冲突-02200059_Win10.md",
     "wsm/01-日记/2024-05/2024-05-10-冲突-02200059_Win10.md",
-    "wsm/01-日记/2024-05/2024-05-08-冲突-02200059_Win10.md",
-    "wsm/01-日记/2024-05/2024-05-06.md.nssyncsc",
-    "wsm/01-日记/2024-05-12.md.nssyncsc",
-    "wsm/02-周记/2024-W19-05-06.md.nssyncsc",
-    "00-inbox/2024-W20-05-13.md.nssyncsc",
-    "01-永久笔记/02-配置/zotero7配置.md.nssyncsc",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
