@@ -266,10 +266,10 @@
   },
   "active": "db0f8e1db3c5e2cc",
   "lastOpenFiles": [
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "00-inbox/DAG总结.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-模板/note.md",
