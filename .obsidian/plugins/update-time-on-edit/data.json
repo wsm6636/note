@@ -154,8 +154,6 @@
     "01-永久笔记/04-菜谱/0-菜谱看板.md": "3050fd281387e10da58dccb7eb81e055850dc27790ec2e6d1f242a0c96ca3da9",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "e90c8bb7a96f86d4aadc7422dc740dbfd0f09c2c91ee52d885c862fc931fe724",
     "02-paper/QCH-workspace-NSConflict-02200059-mac14.4.1.md": "04032ec93b9d5841e315f5dfd90725a3a6b3579e06c5d4ea10bc70a6e4a5fcc9",
-    "02-paper/QCH-workspace.md": "04032ec93b9d5841e315f5dfd90725a3a6b3579e06c5d4ea10bc70a6e4a5fcc9",
-    "02-paper/workshop.md": "2b9c08792a6fd9061f81d5a0fa7e277b9ec6002fbe44a8db6c6b1b37ba4dd0f6",
     "wsm/01-日记/2024-02-27.md": "1f98131f48b86392759838f8fbb7099851929cb0f9274e7adebf0d3938247f75",
     "wsm/01-日记/2024-02-28-NSConflict-02200059-mac14.4.1.md": "27658ea50c613890449b7f95487bf1133470f97205604a3eea6c6b77de1b3fd2",
     "wsm/01-日记/2024-02-28.md": "27658ea50c613890449b7f95487bf1133470f97205604a3eea6c6b77de1b3fd2",
@@ -278,6 +276,8 @@
     "wsm/01-日记/2024-05/2024-05-12.md": "3831eb4f8d2008ad2ee7688a536edcbe2bebdab112687a2f08c7599bbf109f7b",
     "wsm/01-日记/2024-05/2024-05-06.md": "07fa60b1f28ebe977191a6fe091cb0de9d9a0c55be918df80a0ee3aabe528ebd",
     "00-inbox/DAG总结.md": "70d3615dc2803f6d19d0c8a796bdb5a5cb62fc44cb9b8f36c75d4956a750c583",
-    "wsm/01-日记/2024-05-13.md": "2ba414bbb0e2c08afb7ab9510214ab1b241c36a0d652a17125c03d94fa799318"
+    "wsm/01-日记/2024-05-13.md": "2ba414bbb0e2c08afb7ab9510214ab1b241c36a0d652a17125c03d94fa799318",
+    "02-paper/01-RTCSA/QCH-workspace.md": "04032ec93b9d5841e315f5dfd90725a3a6b3579e06c5d4ea10bc70a6e4a5fcc9",
+    "02-paper/02-RTSS/workshop.md": "2b9c08792a6fd9061f81d5a0fa7e277b9ec6002fbe44a8db6c6b1b37ba4dd0f6"
   }
 }

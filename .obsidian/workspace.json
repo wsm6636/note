@@ -119,8 +119,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -232,8 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,7 +249,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
     "00-inbox/DAG总结.md",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
