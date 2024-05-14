@@ -36,9 +36,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "674bb6a5c092398e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/DAG总结.md"
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
               }
             }
           },
@@ -114,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/DAG总结.md"
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
               }
             }
           },
@@ -170,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/DAG总结.md",
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/DAG总结.md",
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -225,10 +238,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "db0f8e1db3c5e2cc",
+  "active": "674bb6a5c092398e",
   "lastOpenFiles": [
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/DAG总结.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "HOMEPAGE.canvas",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "06-ppt/discussion/~$0514.pptx",
