@@ -36,34 +36,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "46fa38287476f982",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7134b863614835d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/DAG总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/DAG总结.md"
               }
             }
           },
@@ -139,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/DAG总结.md"
               }
             }
           },
@@ -195,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/DAG总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/DAG总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -250,20 +225,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "db0f8e1db3c5e2cc",
   "lastOpenFiles": [
-    "06-ppt/discussion/~$0514.pptx",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/DAG总结.md",
     "HOMEPAGE.canvas",
+    "00-inbox/Parallel Path Progression DAG Scheduling.md",
+    "06-ppt/discussion/~$0514.pptx",
     "06-ppt/discussion/ppt1679.tmp",
     "06-ppt/discussion/ppt2523.tmp",
     "06-ppt/discussion/ppt5D62.tmp",
     "06-ppt/discussion/0514 - 副本.pptx",
     "06-ppt/discussion/ppt8080.tmp",
-    "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "wsm/01-日记/2024-05-13.md",
     "00-inbox/2024-W20-05-13.md",
-    "00-inbox/DAG总结.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "06-ppt/discussion/0514.pptx",
     "06-ppt/discussion/新建 Microsoft PowerPoint 演示文稿.pptx",
     "00-inbox/端到端分析-idea.md",
