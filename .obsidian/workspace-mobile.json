@@ -33,9 +33,9 @@
               "state": {
                 "file": "HOMEPAGEiPhone.canvas",
                 "viewState": {
-                  "x": -2284.8746314044506,
-                  "y": -648.5066312789891,
-                  "zoom": -1.0788727010757941
+                  "x": -2236.257158864573,
+                  "y": -17.243900480421644,
+                  "zoom": -1.4859626873498666
                 }
               },
               "pinned": true
@@ -53,13 +53,8 @@
             "id": "bde6ad96094ab921",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-03-29.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -68,7 +63,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-03-29.md",
+                "file": "03-research/06-TSN/TSN 知识总结.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf34ef6089ef958d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "viewState": {
+                  "x": -2242.75433788755,
+                  "y": -378.26131364290893,
+                  "zoom": -0.9784303965889168
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9b671634ff4b282c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/菜谱.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +101,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +179,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "00-inbox/2024-03-29.md",
+            "file": "00-inbox/菜谱.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,7 +196,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "00-inbox/2024-03-29.md",
+            "file": "00-inbox/菜谱.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -183,7 +208,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "00-inbox/2024-03-29.md"
+            "file": "00-inbox/菜谱.md"
           }
         }
       },
@@ -213,21 +238,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "db0584c5ab433e1b",
+  "active": "9b671634ff4b282c",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "03-research/06-TSN/TSN 知识总结.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-03-29.md",
     "wsm/01-日记/2024-03-18.md",
-    "Pasted image 20240329164952.png",
-    "HOMEPAGE.canvas"
+    "Pasted image 20240329164952.png"
   ]
 }
