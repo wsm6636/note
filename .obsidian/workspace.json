@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -127,7 +126,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -183,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +237,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "674bb6a5c092398e",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
     "06-ppt/discussion/0514.pdf",
     "00-inbox/DAG总结.md",
