@@ -18,10 +18,23 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -608.5,
-                  "zoom": -0.2575907562418253
+                  "zoom": -0.49925759913048573
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "9d48b2560b248a42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ROS总结.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -51,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "00-inbox/ROS总结.md"
               }
             }
           },
@@ -127,7 +140,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "00-inbox/ROS总结.md"
               }
             }
           },
@@ -183,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "00-inbox/ROS总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "00-inbox/ROS总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -238,9 +251,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e05ccd85344d4ad4",
+  "active": "9d48b2560b248a42",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
+    "00-inbox/ROS总结.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
@@ -275,7 +289,6 @@
     "wsm/01-日记/2024-05/2024-05-07.md",
     "wsm/01-日记/2024-05/2024-05-11-冲突-02200059_Win10.md",
     "wsm/01-日记/2024-05/2024-05-12.md",
-    "wsm/01-日记/2024-05/2024-05-11.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",

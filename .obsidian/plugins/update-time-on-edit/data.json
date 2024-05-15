@@ -282,6 +282,7 @@
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md": "c7df48e32dcc12d96bc6dc2d95a7b4ac3fda3ea755fed313b40c9591c68f4ea4",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "579ded483c99f88fcdb530af3c45ec91abcd91fbf3df400538806a316e72e405",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md": "7f7f50838c0112d9d1fd6dbe91f20a8828ee9764ba64183123c661f427e6f238",
-    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "75e5543d92eee026026a0c7fe3ce394f5a896cb67087396c5e050ad1663eb3c9"
+    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "75e5543d92eee026026a0c7fe3ce394f5a896cb67087396c5e050ad1663eb3c9",
+    "00-inbox/ROS总结.md": "319e37837df390ad9f2e647e6cf26bcdd86e7e56e8303dc6bb6c6fb04f07b565"
   }
 }
