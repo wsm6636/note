@@ -18,52 +18,27 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -608.5,
-                  "zoom": -0.49925759913048573
+                  "zoom": -0.21128982764188267
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "9d48b2560b248a42",
+            "id": "04feb3801aa526c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/ROS总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb976d7d6e4ebe36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-05-14.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e05ccd85344d4ad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "00-inbox/2024-W20-05-13.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-W20-05-13.md"
               }
             }
           },
@@ -139,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-W20-05-13.md"
               }
             }
           },
@@ -195,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W20-05-13.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W20-05-13.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -231,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,9 +224,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "04feb3801aa526c5",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
+    "00-inbox/2024-05-14.md",
+    "00-inbox/2024-05-15.md",
+    "00-inbox/2024-W20-05-13.md",
     "00-inbox/ROS总结.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
@@ -263,7 +240,6 @@
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "02-paper/03-DAC/ATS-workspace.md",
     "03-research/02-因果链/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
-    "00-inbox/2024-05-14.md",
     "00-inbox/DAG总结.md",
     "06-ppt/discussion/0514.pdf",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
@@ -274,7 +250,6 @@
     "06-ppt/discussion/0514 - 副本.pptx",
     "06-ppt/discussion/ppt8080.tmp",
     "wsm/01-日记/2024-05-13.md",
-    "00-inbox/2024-W20-05-13.md",
     "06-ppt/discussion/0514.pptx",
     "06-ppt/discussion/新建 Microsoft PowerPoint 演示文稿.pptx",
     "00-inbox/端到端分析-idea.md",
@@ -287,7 +262,6 @@
     "wsm/01-日记/2024-05/2024-05-09-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md",
     "wsm/01-日记/2024-05/2024-05-07.md",
     "wsm/01-日记/2024-05/2024-05-11-冲突-02200059_Win10.md",
-    "wsm/01-日记/2024-05/2024-05-12.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
