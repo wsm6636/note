@@ -244,7 +244,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,9 +265,9 @@
   },
   "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/Parallel Path Progression DAG Scheduling.md",
     "00-inbox/2024-05-14.md",
-    "HOMEPAGE.canvas",
     "00-inbox/DAG总结.md",
     "06-ppt/discussion/0514.pdf",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
