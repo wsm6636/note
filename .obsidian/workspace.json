@@ -18,49 +18,10 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -608.5,
-                  "zoom": -0.5914699318755414
+                  "zoom": -0.2575907562418253
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "db0f8e1db3c5e2cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/DAG总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "674bb6a5c092398e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "995fe6bcc968f42d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Parallel Path Progression DAG Scheduling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           },
           {
@@ -75,8 +36,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e05ccd85344d4ad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
               }
             }
           },
@@ -152,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
               }
             }
           },
@@ -208,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -263,14 +238,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "e05ccd85344d4ad4",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
-    "00-inbox/Parallel Path Progression DAG Scheduling.md",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "03-research/10-DAG/Parallel Path Progression DAG Scheduling.md",
+    "00-inbox/DAG总结.nssyncsc",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "02-paper/03-DAC/ATS-workspace.md",
+    "03-research/02-因果链/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "00-inbox/2024-05-14.md",
-    "00-inbox/DAG总结.md",
+    "01-永久笔记/03-文献总结/DAG总结.md",
     "06-ppt/discussion/0514.pdf",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "06-ppt/discussion/~$0514.pptx",
     "06-ppt/discussion/ppt1679.tmp",
     "06-ppt/discussion/ppt2523.tmp",
@@ -282,25 +265,17 @@
     "06-ppt/discussion/0514.pptx",
     "06-ppt/discussion/新建 Microsoft PowerPoint 演示文稿.pptx",
     "00-inbox/端到端分析-idea.md",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-模板/note.md",
     "wsm/01-日记/2024-05/2024-05-08-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md",
     "wsm/01-日记/2024-05/2024-05-07-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md",
     "wsm/01-日记/2024-05/2024-05-10-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md",
     "wsm/01-日记/2024-05/2024-05-09-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md",
-    "wsm/01-日记/2024-05/2024-05-10-冲突-02200059_Win10-NSConflict-02200059-mac14.4.1.md.nssyncsc",
     "wsm/01-日记/2024-05/2024-05-07.md",
     "wsm/01-日记/2024-05/2024-05-11-冲突-02200059_Win10.md",
     "wsm/01-日记/2024-05/2024-05-12.md",
     "wsm/01-日记/2024-05/2024-05-11.md",
-    "wsm/01-日记/2024-05/2024-05-10.md",
-    "wsm/01-日记/2024-05/2024-05-09.md",
-    "wsm/01-日记/2024-05/2024-05-07-冲突-02200059_Win10.md",
-    "conflict-files-obsidian-git.md",
-    "wsm/01-日记/2024-05/2024-05-06.md",
-    "wsm/01-日记/2024-05/2024-05-12-冲突-02200059_Win10.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
