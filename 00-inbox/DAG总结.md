@@ -4,11 +4,11 @@ tags:
   - 待归档
   - 笔记/文献笔记
 created: 2024-05-13T16:29:00
-updated: 2024-05-15T10:57
+updated: 2024-05-15T21:44
 status:
   - ing
 ---
-[SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity](../../03-research/11-ROS/SEAM%20-%20An%20Optimal%20Message%20Synchronizer%20in%20ROS%20with%20Well-Bounded%20Time%20Disparity.md)
+[SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity](SEAM%20-%20An%20Optimal%20Message%20Synchronizer%20in%20ROS%20with%20Well-Bounded%20Time%20Disparity.md)
 > 改进ROS 2中的消息同步机制，以支持多传感器数据融合并保证时间一致性。在一定范围内同步最早的
 
 传统消息同步：
@@ -47,7 +47,7 @@ gang，需要一组处理器都可用，共同完成一个任务。
 - **Ordinary Reservation Provisioning**：对于普通预留系统，同样需要确保每个任务的每个实例都能在提供的服务时间内完成。但是，由于任务可以在多个处理器上分散执行，因此需要考虑如何在处理器之间分配服务量。
 
 
-[Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness](../../03-research/10-DAG/Real-Time%20Scheduling%20of%20Autonomous%20Driving%20System%20with%20Guaranteed%20Timing%20Correctness.md)
+[Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness](Real-Time%20Scheduling%20of%20Autonomous%20Driving%20System%20with%20Guaranteed%20Timing%20Correctness.md)
 > 提供一个自动化的设计-分析-重设计流程，以提高自动驾驶系统的设计效率。
 
 本文将 AD 系统表述为多速率 DAG，并提出了一个集成框架来共同分析多速率 DAG 中各个任务的可调度性和任务链的端到端延迟。整数线性规划 (ILP) 技术的开发是为了指导如何删除冗余工作负载，以增加满足时序要求的机会。本文提出了一种分析框架，该框架实现了以迭代方式创建、分析和完善 AD 系统设计的自动化过程，即上一次迭代的分析结果为下一次迭代中重新设计 AD 系统提供了有价值的指导。
