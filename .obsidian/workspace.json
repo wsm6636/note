@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS总结.md"
               }
             }
           },
@@ -110,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272
+    "width": 272,
+    "collapsed": true
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -126,7 +128,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS总结.md"
               }
             }
           },
@@ -182,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,15 +239,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "95d68c9731155215",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/ROS总结.md",
     "00-inbox/22-木须肉.md",
     "01-永久笔记/04-菜谱/21-黄瓜炒鸡蛋火腿.md",
     "01-永久笔记/04-菜谱/20-鱼香肉丝.md",
-    "HOMEPAGE.canvas",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/2024-W20-05-13.md",
     "wsm/01-日记/2024-05-14.md",
