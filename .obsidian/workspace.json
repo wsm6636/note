@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -111,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272,
-    "collapsed": true
+    "width": 272
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -128,7 +126,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -184,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -220,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,7 +236,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "62678b0d3cacd346",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
     "00-inbox/ROS总结.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
