@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
               }
             }
           },
@@ -110,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272
+    "width": 272,
+    "collapsed": true
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -126,7 +128,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
               }
             }
           },
@@ -182,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,11 +239,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "62678b0d3cacd346",
   "lastOpenFiles": [
     "00-inbox/ROS总结.md",
-    "HOMEPAGE.canvas",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "HOMEPAGE.canvas",
     "00-inbox/ROS-idea.md",
     "01-永久笔记/02-研究/TSN知识总结.md",
     "01-永久笔记/端到端分析-idea.md",
