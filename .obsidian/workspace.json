@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -128,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -184,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -239,20 +238,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "62678b0d3cacd346",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
     "00-inbox/ROS总结.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "HOMEPAGE.canvas",
     "00-inbox/ROS-idea.md",
-    "01-永久笔记/02-研究/TSN知识总结.md",
+    "00-inbox/TSN知识总结.md",
     "01-永久笔记/端到端分析-idea.md",
-    "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/2024-W20-05-13.md",
     "00-inbox/2024-05-17.md",
-    "wsm/01-日记/2024-05-16.md",
+    "00-inbox/2024-05-16.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/22-木须肉.md",
     "01-永久笔记/03-菜谱/21-黄瓜炒鸡蛋火腿.md",

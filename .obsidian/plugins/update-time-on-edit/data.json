@@ -252,19 +252,15 @@
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md": "c7df48e32dcc12d96bc6dc2d95a7b4ac3fda3ea755fed313b40c9591c68f4ea4",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "579ded483c99f88fcdb530af3c45ec91abcd91fbf3df400538806a316e72e405",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md": "7f7f50838c0112d9d1fd6dbe91f20a8828ee9764ba64183123c661f427e6f238",
-    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "19388397dbb557bf5dfda65d3cf12729dfc82089125858c22dad6f744345c0d9",
+    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "2db2fc4f1f895a266be1fd860cbd3fd67879d303db7b14ba598acd7241f5c254",
     "00-inbox/ROS总结.md": "77eded220f8dcb10402fa9950be74e66b4d66ada1ec6e5b60e9424e6cc20a336",
-    "00-inbox/DAG总结.md": "2af7585fb9206e245cf9c6ae74b312debfa2d01b46f39a878d2344483d57aba4",
+    "00-inbox/DAG总结.md": "59a1f58671755ee60dd478d61654f3870264f57ff6c4d01fd1119f60b94bd9bf",
     "wsm/01-日记/2024-05-14.md": "e512cb8d3e94ecf4b891ab5e360ecb69f12288fa5d017dad47e4262589af4928",
     "wsm/01-日记/2024-05-15.md": "5a1811a157793e7466b6a8a8f0627e7fbc7e1f4803ce1382017e90b5ff08e27c",
     "00-inbox/2024-05-17.md": "95a319fe878ff159808c0171672f97c900601060568faa557e548131ce8013ae",
-    "wsm/01-日记/2024-05-16.md": "15e7a094907d7aad1f1f15d30e41a9067b7624f249d8dc51c6f64cb5cd8a3a95",
-    "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md": "0e2e459bb50b6ecf138c630db4c7b59b4b46ca71fcef781561a08d41924a7ffe",
-    "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "e90c8bb7a96f86d4aadc7422dc740dbfd0f09c2c91ee52d885c862fc931fe724",
     "01-永久笔记/端到端分析-idea.md": "5d915008d93e779461db4e02d065c6f69368b5e2e0c992a4467a31a04d6926f2",
     "00-inbox/ROS-idea.md": "580fdc0509b54b22cd0217037c5e592a902cf5ae56714380668ce5acc516a3d3",
     "01-永久笔记/02-研究/端到端分析模型整理-DAC.md": "651ffbf0da3cd2394519e8507bdb0264a3dd789280cc46c3241517918c368fce",
-    "01-永久笔记/02-研究/TSN知识总结.md": "887e325f71841ad37fa649d2700adc0d199bee55355f7b7f8fd0b09f85ceb1f9",
     "01-永久笔记/03-菜谱/0-菜谱看板.md": "3050fd281387e10da58dccb7eb81e055850dc27790ec2e6d1f242a0c96ca3da9",
     "01-永久笔记/03-菜谱/1-红烧肉.md": "36a63c66c7ca26b1db4c65fe76bd048121ba5428c1672767939c5ebb3f105fb6",
     "01-永久笔记/03-菜谱/10-清炒西蓝花.md": "2a679521e44fa89d7577add6816ded642aa01479957e5aeb991f54ea532382eb",
@@ -287,6 +283,10 @@
     "01-永久笔记/03-菜谱/7-咖喱鸡.md": "9690111e408e55b8ca6ac7ae350eed397ce7dc2e2a7b900ef094ba0173577c4d",
     "01-永久笔记/03-菜谱/9-烧茄子.md": "9936c8476ee8b0843f89fc72fd499919dce0ce3244ef30005fb43d96582f70f8",
     "01-永久笔记/03-菜谱/8-番茄肉酱意面.md": "3ae2f04359d8869ec5d8d3e3d8466f3799a3e2a60132eae40a43a1f4b92efee0",
-    "01-永久笔记/01-教程/zotero7配置.md": "a825c86785be844c3d71ac2fbb196a1d7d4468934462acb2327ebc470c306437"
+    "01-永久笔记/01-教程/zotero7配置.md": "a825c86785be844c3d71ac2fbb196a1d7d4468934462acb2327ebc470c306437",
+    "00-inbox/TSN知识总结.md": "887e325f71841ad37fa649d2700adc0d199bee55355f7b7f8fd0b09f85ceb1f9",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md": "0e2e459bb50b6ecf138c630db4c7b59b4b46ca71fcef781561a08d41924a7ffe",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "e90c8bb7a96f86d4aadc7422dc740dbfd0f09c2c91ee52d885c862fc931fe724",
+    "00-inbox/2024-05-16.md": "15e7a094907d7aad1f1f15d30e41a9067b7624f249d8dc51c6f64cb5cd8a3a95"
   }
 }
