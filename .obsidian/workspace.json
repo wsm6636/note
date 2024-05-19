@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md"
+                "file": "wsm/01-日记/2024-05-19.md"
               }
             }
           },
@@ -127,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md"
+                "file": "wsm/01-日记/2024-05-19.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+                "file": "wsm/01-日记/2024-05-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+                "file": "wsm/01-日记/2024-05-19.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -219,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,9 +237,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "874a0cf47970b63d",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+    "wsm/01-日记/2024-05-19.md",
+    "wsm/01-日记/2024-05-18.md",
     "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-05-16.md",
+    "wsm/01-日记/2024-05-17.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "00-inbox/ROS总结.md",
     "00-inbox/ROS-idea.md",
@@ -250,8 +254,6 @@
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/2024-W20-05-13.md",
-    "00-inbox/2024-05-17.md",
-    "00-inbox/2024-05-16.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/22-木须肉.md",
     "01-永久笔记/03-菜谱/21-黄瓜炒鸡蛋火腿.md",
@@ -260,13 +262,11 @@
     "wsm/01-日记/2024-05-14.md",
     "wsm/01-日记/2024-05-15.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
-    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "03-research/10-DAG/Parallel Path Progression DAG Scheduling.md",
     "00-inbox/DAG总结.nssyncsc",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "02-paper/03-DAC/ATS-workspace.md",
     "03-research/02-因果链/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
-    "00-inbox/DAG总结.md",
     "06-ppt/discussion/0514.pdf",
     "06-ppt/discussion/~$0514.pptx",
     "06-ppt/discussion/ppt1679.tmp",
@@ -274,7 +274,6 @@
     "06-ppt/discussion/ppt5D62.tmp",
     "06-ppt/discussion/0514 - 副本.pptx",
     "06-ppt/discussion/ppt8080.tmp",
-    "wsm/01-日记/2024-05-13.md",
     "06-ppt/discussion/0514.pptx",
     "06-ppt/discussion/新建 Microsoft PowerPoint 演示文稿.pptx",
     "00-inbox/attachments/885DVGI8.png",
