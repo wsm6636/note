@@ -251,7 +251,7 @@
     "03-research/10-DAG/Parallel Path Progression DAG Scheduling.md": "353bf15570c9fbe1465ed1fb9a9261d9749b2f42d2a11f722f11849cd47343aa",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md": "c7df48e32dcc12d96bc6dc2d95a7b4ac3fda3ea755fed313b40c9591c68f4ea4",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "579ded483c99f88fcdb530af3c45ec91abcd91fbf3df400538806a316e72e405",
-    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md": "566325170fe994a82033d4f8307a57c50577f84969b55d9288a0524124d46069",
+    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md": "f43810663e748b3e8e81d75c5cc809f44625d002f935f60211f853cf89785ed5",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "bc2f048f6f9c3162db640fc3c205fd34504e065e04c8cc18af473ca623fa27c6",
     "00-inbox/ROS总结.md": "77eded220f8dcb10402fa9950be74e66b4d66ada1ec6e5b60e9424e6cc20a336",
     "00-inbox/DAG总结.md": "59a1f58671755ee60dd478d61654f3870264f57ff6c4d01fd1119f60b94bd9bf",

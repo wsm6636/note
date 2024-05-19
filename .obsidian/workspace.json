@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md"
               }
             }
           },
@@ -126,7 +127,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md"
               }
             }
           },
@@ -182,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -236,12 +237,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "874a0cf47970b63d",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "wsm/01-日记/2024-05-19.md",
     "wsm/01-日记/2024-05-18.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-05-16.md",
     "wsm/01-日记/2024-05-17.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
