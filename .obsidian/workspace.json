@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/01-日记/2024-05-19.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -127,7 +126,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/01-日记/2024-05-19.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -183,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/01-日记/2024-05-19.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/01-日记/2024-05-19.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +236,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7fc5fa2c3f576f36",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "wsm/01-日记/2024-05-19.md",
