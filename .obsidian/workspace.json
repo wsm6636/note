@@ -23,8 +23,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "8ace22756260cc1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/23-肉末茄子.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/23-肉末茄子.md"
               }
             }
           },
@@ -100,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/23-肉末茄子.md"
               }
             }
           },
@@ -156,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/23-肉末茄子.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/23-肉末茄子.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -210,11 +224,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "8ace22756260cc1d",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "00-inbox/23-肉末茄子.md",
     "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
     "01-永久笔记/03-菜谱/22-木须肉.md",
-    "HOMEPAGE.canvas",
     "wsm/02-周记/2024-W20-05-13.md",
     "00-inbox/2024-W21-05-20.md",
     "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
@@ -238,7 +253,6 @@
     "01-永久笔记/03-菜谱/21-黄瓜炒鸡蛋火腿.md",
     "01-永久笔记/03-菜谱/20-鱼香肉丝.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
-    "wsm/01-日记/2024-05/2024-05-14.md",
     "00-inbox/DAG总结.nssyncsc",
     "06-ppt/discussion/0514.pdf",
     "06-ppt/discussion/~$0514.pptx",
