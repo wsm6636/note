@@ -11,13 +11,13 @@
   "enabledCssSnippets": [
     "metadata-icon-auto-gen",
     "remove-task-line",
-    "【隐藏】canvas方框",
     "Lzlin【多彩月进度条】timeline",
     "coffeebean-去除删除线-任务回顾专用",
     "文件夹边框",
     "宽度90",
     "图片居中",
-    "supercharged-links-gen"
+    "supercharged-links-gen",
+    "【隐藏】canvas方框"
   ],
   "showViewHeader": false
 }

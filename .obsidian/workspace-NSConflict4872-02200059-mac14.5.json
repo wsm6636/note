@@ -25,6 +25,19 @@
             }
           },
           {
+            "id": "c2fa8005ced6e71d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "373a2659dcd224bd",
             "type": "leaf",
             "state": {
@@ -80,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -127,7 +140,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -183,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,13 +250,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "373a2659dcd224bd",
+  "active": "c2fa8005ced6e71d",
   "lastOpenFiles": [
-    "wsm/01-日记/2024-05-20.md",
-    "HOMEPAGE.canvas",
-    "conflict-files-obsidian-git.md",
+    "00-inbox/2024-05-20.md",
     "00-inbox/2024-W21-05-20.md",
     "00-inbox/23-肉末茄子.md",
+    "HOMEPAGE.canvas",
+    "conflict-files-obsidian-git.md",
     "00-inbox/2024-05-20.nssyncsc",
     "00-inbox/23-肉末茄子.nssyncsc",
     "00-inbox/ROS总结.md",
@@ -270,6 +283,7 @@
     "01-永久笔记/03-菜谱/22-木须肉.md",
     "wsm/02-周记/2024-W20-05-13.md",
     "01-永久笔记/工作流.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/DAG总结.nssyncsc",
     "06-ppt/discussion/0514.pdf",
