@@ -248,10 +248,10 @@
     "02-paper/02-RTSS/workshop.md": "2b9c08792a6fd9061f81d5a0fa7e277b9ec6002fbe44a8db6c6b1b37ba4dd0f6",
     "03-research/10-DAG/Parallel Path Progression DAG Scheduling.md": "353bf15570c9fbe1465ed1fb9a9261d9749b2f42d2a11f722f11849cd47343aa",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md": "c7df48e32dcc12d96bc6dc2d95a7b4ac3fda3ea755fed313b40c9591c68f4ea4",
-    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "16b34fabcea797a9cee6c34cebdd7b9d2f6bba764498483e2c54917506f9d915",
+    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "c3d4e8aef9d63d0f5d881cacdc0768fb11bb67558c54be474a79cee5179ae2ea",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md": "8eb784a5f04462e89118f2d6061f4f831f192999264a4194bd18ae2adf988de8",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "5f40d0d801c70cd415f6796f6104651dfb1631c7bf853755753854bf94c3c054",
-    "00-inbox/ROS总结.md": "4f3c7152ec15b649d2f1a132ce5e111df9ee35f5e0888640f224a325309648b5",
+    "00-inbox/ROS总结.md": "5d28c7a2a49824659ae35285126cb76c0dc7d8c489cc7cea3fb8237640573336",
     "00-inbox/ROS-idea.md": "524ae48078cc0951089eb3de9830f4b74d162d138abc22d90e17e4103514213d",
     "01-永久笔记/02-研究/端到端分析模型整理-DAC.md": "651ffbf0da3cd2394519e8507bdb0264a3dd789280cc46c3241517918c368fce",
     "01-永久笔记/03-菜谱/0-菜谱看板.md": "3050fd281387e10da58dccb7eb81e055850dc27790ec2e6d1f242a0c96ca3da9",
@@ -294,7 +294,7 @@
     "00-inbox/DAG总结.md": "071f30f824dc85f1e95beb00db5ce461e8b49a8743c3aff1081e93de50f3485f",
     "00-inbox/审稿意见.md": "8e025e37af37cb3abd3b80704aae125a2c4612c972d856a72355b248f51ecaa7",
     "00-inbox/23-肉末茄子.md": "756cd99ed0e3bc3e3074456a037b3a8c0c2fdf0dc7d647a789d414d622b2ef86",
-    "00-inbox/2024-W21-05-20.md": "bb456038b6d1bb77ee6a8abeced7ccca6bb39c699e16f96673182424f2fab915",
+    "00-inbox/2024-W21-05-20.md": "9c92c95cd9d8c9df4b991d194907be5297952deef9bee2f4b97bbf0aefda6a53",
     "wsm/01-日记/2024-05-20.md": "75861d6dc4fba1071f9898a4577e08164819f9992189d33ff7aa27ed62dc4c78"
   }
 }
