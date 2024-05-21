@@ -49,6 +49,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c59342d00b2e550f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -239,10 +252,10 @@
   },
   "active": "8ac7cda1ecbb1a4b",
   "lastOpenFiles": [
-    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/ROS总结.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "wsm/01-日记/2024-05-20.md",
     "HOMEPAGE.canvas",
