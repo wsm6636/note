@@ -9,13 +9,8 @@
       "pattern": ""
     },
     {
-      "folder": "01-永久笔记",
-      "tag": "#笔记/永久笔记",
-      "pattern": ""
-    },
-    {
-      "folder": "wsm/01-日记",
-      "tag": "#个人/日记",
+      "folder": "01-永久笔记/04-菜谱",
+      "tag": "#菜谱",
       "pattern": ""
     },
     {
@@ -33,9 +28,6 @@
   "excluded_folder": [
     {
       "folder": "00-模板"
-    },
-    {
-      "folder": ""
     }
   ]
 }

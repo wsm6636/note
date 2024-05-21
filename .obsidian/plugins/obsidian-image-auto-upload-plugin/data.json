@@ -10,5 +10,6 @@
   "applyImage": true,
   "newWorkBlackDomains": "",
   "deleteSource": true,
-  "imageDesc": "origin"
+  "imageDesc": "origin",
+  "remoteServerMode": false
 }

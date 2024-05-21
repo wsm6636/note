@@ -58,19 +58,6 @@
             }
           },
           {
-            "id": "db0584c5ab433e1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-research/06-TSN/TSN 知识总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bf34ef6089ef958d",
             "type": "leaf",
             "pinned": true,
@@ -88,12 +75,12 @@
             }
           },
           {
-            "id": "9b671634ff4b282c",
+            "id": "2a163b2414ba6b00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/菜谱.md",
+                "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -179,7 +166,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "00-inbox/菜谱.md",
+            "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -196,7 +183,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "00-inbox/菜谱.md",
+            "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -208,7 +195,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "00-inbox/菜谱.md"
+            "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md"
           }
         }
       },
@@ -241,13 +228,45 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9b671634ff4b282c",
+  "active": "2a163b2414ba6b00",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
-    "03-research/06-TSN/TSN 知识总结.md",
+    "00-inbox/菜谱.md",
+    "desktop.ini",
+    "01-永久笔记/02-配置/复制到OB_20240506_112631.json",
+    "01-永久笔记/02-配置/文本处理盒_20240429_125425.json",
+    "01-永久笔记/04-菜谱/15-鸡丝拌面.md",
+    "01-永久笔记/04-菜谱/1-红烧肉.md",
+    "01-永久笔记/04-菜谱/6-麻婆豆腐.md",
+    "01-永久笔记/04-菜谱/19-宫保鸡丁.md",
+    "01-永久笔记/04-菜谱/10-清炒西蓝花.md",
+    "01-永久笔记/04-菜谱/4-包菜鸡蛋粉丝.md",
+    "01-永久笔记/04-菜谱/13-地三鲜.md",
+    "01-永久笔记/04-菜谱/11-炖豆角.md",
+    "01-永久笔记/04-菜谱/17-排骨炖豆角.md",
+    "01-永久笔记/04-菜谱/18-蘑菇肉酱（打卤面）.md",
+    "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
+    "01-永久笔记/04-菜谱/12-香菇炖鸡.md",
+    "01-永久笔记/04-菜谱/14-酸汤面.md",
+    "01-永久笔记/04-菜谱/0-菜谱看板.md",
+    "01-永久笔记/04-菜谱/9-烧茄子.md",
+    "01-永久笔记/04-菜谱/7-咖喱鸡.md",
+    "01-永久笔记/04-菜谱/5-清炒包菜.md",
+    "01-永久笔记/04-菜谱/16-油泼面.md",
+    "01-永久笔记/04-菜谱/8-番茄肉酱意面.md",
+    "01-永久笔记/04-菜谱/3-角瓜香肠-鸡蛋.md",
+    "01-永久笔记/04-菜谱/21 黄瓜炒鸡蛋火腿.md",
+    "01-永久笔记/04-菜谱/2-青椒肉丝.md",
+    "01-永久笔记/04-菜谱",
+    "06-ppt/discussion/0514 - 副本.pptx",
+    "06-ppt/discussion/0514.pptx",
+    "06-ppt/discussion/TSN.pdf",
+    "06-ppt/discussion/TSN.pptx",
+    "06-ppt/discussion/0514.pdf",
+    "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "HOMEPAGEiPhone.canvas",
-    "00-inbox/2024-03-29.md",
-    "wsm/01-日记/2024-03-18.md",
     "Pasted image 20240329164952.png"
   ]
 }

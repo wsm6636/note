@@ -1457,7 +1457,8 @@ settings:
   --hex-blue: #8aadf4;
   --hex-lavender: #b7bdf8;
 }
-
+/* --ctp-subtext0: 166, 173, 200; */
+/* --ctp-subtext0: 233,233,233; */
 .theme-dark,
 .theme-dark.ctp-mocha {
   --ctp-rosewater: 245, 224, 220;
@@ -1476,7 +1477,7 @@ settings:
   --ctp-lavender: 180, 190, 254;
   --ctp-text: 205, 214, 244;
   --ctp-subtext1: 186, 194, 222;
-  --ctp-subtext0: 166, 173, 200;
+  --ctp-subtext0: 233,233,233;
   --ctp-overlay2: 147, 153, 178;
   --ctp-overlay1: 127, 132, 156;
   --ctp-overlay0: 108, 112, 134;
