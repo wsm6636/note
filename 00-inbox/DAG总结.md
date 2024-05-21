@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/文献笔记
 created: 2024-05-13T16:29:00
-updated: 2024-05-13T21:34
+updated: 2024-05-17T22:12
 status:
   - ing
 ---
@@ -27,7 +27,7 @@ SEAM：
 > 存在不适用的场景吗，这种情况下的端到端时间怎么分析
 
 
-[Parallel Path Progression DAG Scheduling](Parallel%20Path%20Progression%20DAG%20Scheduling.md)
+[Parallel Path Progression DAG Scheduling](../../03-research/10-DAG/Parallel%20Path%20Progression%20DAG%20Scheduling.md)
 
 > 提高高度并行DAG结构的响应时间分析，并设计了新的调度算法。
 
