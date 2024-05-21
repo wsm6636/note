@@ -38,32 +38,6 @@
             }
           },
           {
-            "id": "41ff77c224aeb43e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W21-05-20.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "085af55f7d807630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-05-20.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f15d327fe809a1e",
             "type": "leaf",
             "state": {
@@ -119,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-W21-05-20.md"
+                "file": "wsm/01-日记/2024-05-21.md"
               }
             }
           },
@@ -166,7 +140,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-W21-05-20.md"
+                "file": "wsm/01-日记/2024-05-21.md"
               }
             }
           },
@@ -222,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-W21-05-20.md",
+                "file": "wsm/01-日记/2024-05-21.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-W21-05-20.md",
+                "file": "wsm/01-日记/2024-05-21.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -276,11 +250,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "41ff77c224aeb43e",
+  "active": "3f15d327fe809a1e",
   "lastOpenFiles": [
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
-    "wsm/01-日记/2024-05-21.md",
     "00-inbox/2024-W21-05-20.md",
+    "wsm/01-日记/2024-05-21.md",
     "wsm/01-日记/2024-05-20.md",
     "00-inbox/ROS总结.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
