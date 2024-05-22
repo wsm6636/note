@@ -25,19 +25,6 @@
             }
           },
           {
-            "id": "373a2659dcd224bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9d8179c2f0bb98ce",
             "type": "leaf",
             "state": {
@@ -63,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -140,7 +126,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -196,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -251,12 +237,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "373a2659dcd224bd",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
-    "00-inbox/ROS总结.md",
     "HOMEPAGE.canvas",
-    "00-inbox/2024-W21-05-20.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+    "00-inbox/ROS总结.md",
+    "00-inbox/2024-W21-05-20.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "wsm/01-日记/2024-05-21.md",
