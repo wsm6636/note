@@ -219,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,7 +238,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "099af40333a65db5",
+  "active": "66995075eb263964",
   "lastOpenFiles": [
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
