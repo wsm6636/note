@@ -219,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,8 +239,9 @@
   },
   "active": "099af40333a65db5",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+    "HOMEPAGE.canvas",
     "00-inbox/ROS总结.md",
     "00-inbox/2024-W21-05-20.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
@@ -258,7 +258,6 @@
     "02-paper/#52 - EMSOFT 2024.pdf",
     "#52 - EMSOFT 2024.pdf",
     "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "01-永久笔记/02-研究/端到端分析-idea.md",
     "00-inbox/ROS-idea.md",
