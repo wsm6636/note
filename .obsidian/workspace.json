@@ -118,11 +118,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3c272ce0b3fbb768",
+        "id": "dbe74c464049a0d9",
         "type": "tabs",
         "children": [
           {
-            "id": "4ada7681c10794a6",
+            "id": "3501862ae9ba4ae9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5197dfeb81980684",
             "type": "leaf",
             "state": {
               "type": "file-properties",
@@ -132,7 +140,7 @@
             }
           },
           {
-            "id": "3489e9e69e67f977",
+            "id": "96dc35b409b674e6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -144,29 +152,6 @@
             }
           },
           {
-            "id": "f1a5b9bdc03fee69",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "dbe74c464049a0d9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ef7b58c1de8e9019",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
             "id": "fbd984f9597fd947",
             "type": "leaf",
             "state": {
@@ -175,6 +160,21 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7b1fd88d5e213e1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef7b58c1de8e9019",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           },
           {
@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -230,20 +230,21 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
-      "homepage:Open homepage": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian42-brat:BRAT": true,
+      "obsidian-kanban:创建新看板": true,
       "templater-obsidian:Templater": false,
       "obsidian-memos:Thino": false,
+      "homepage:Open homepage": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "66995075eb263964",
+  "active": "099af40333a65db5",
   "lastOpenFiles": [
-    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
-    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
-    "HOMEPAGE.canvas",
     "00-inbox/ROS总结.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/2024-W21-05-20.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",

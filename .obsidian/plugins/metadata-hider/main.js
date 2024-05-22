@@ -133,14 +133,12 @@ var MetadataHider = class extends import_obsidian.Plugin {
         this.updateCSS();
       }, 100);
     });
-    this.registerEvent(this.app.workspace.on("layout-change", () => {
-      this.app.workspace.onLayoutReady(() => {
+    this.app.workspace.on("active-leaf-change", (leaf) => {
+      if (leaf && leaf.view.getViewType() == "all-properties")
         setTimeout(() => {
           this.hideInAllProperties();
-          ;
         }, 100);
-      });
-    }));
+    });
     this.registerDomEvent(document, "focusin", (evt) => {
       var _a;
       const target = evt.target;
