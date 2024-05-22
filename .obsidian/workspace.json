@@ -107,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -231,24 +230,24 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-kanban:创建新看板": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-memos:Thino": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "obsidian-kanban:创建新看板": false,
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Thino": false
     }
   },
   "active": "099af40333a65db5",
   "lastOpenFiles": [
+    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/ROS总结.md",
     "HOMEPAGE.canvas",
-    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/2024-W21-05-20.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
-    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "wsm/01-日记/2024-05-21.md",
     "wsm/01-日记/2024-05-20.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
