@@ -1,12 +1,12 @@
 ---
 created: 2024-03-27T18:55
-updated: 2024-05-20T15:12
+updated: 2024-05-22T09:28
 tags:
   - 笔记
   - 笔记/文献笔记
   - 待归档
 status:
-  - todo
+  - done
 ---
 # Worst-Case Time Disparity Analysis of Message Synchronization in ROS
  

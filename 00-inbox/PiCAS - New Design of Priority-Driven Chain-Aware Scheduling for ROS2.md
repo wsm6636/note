@@ -1,12 +1,12 @@
 ---
 created: 2024-03-27T18:55
-updated: 2024-05-21T23:26
+updated: 2024-05-22T09:28
 tags:
   - 笔记
   - 笔记/文献笔记
   - 待归档
 status:
-  - todo
+  - ing
 ---
 # PiCAS: New Design of Priority-Driven Chain-Aware Scheduling for ROS2
  
