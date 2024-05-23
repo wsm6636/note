@@ -38,6 +38,58 @@
             }
           },
           {
+            "id": "a0e65f8b46f1742e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "168c8bc2986593f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c999f61748fd73f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4712f808354b1654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "abaee38edeaafd86",
             "type": "leaf",
             "state": {
@@ -50,8 +102,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS总结.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -135,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS总结.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -183,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS总结.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS总结.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -239,45 +290,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "abaee38edeaafd86",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
-    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+    "06-ppt/discussion/~$0524.pptx",
+    "06-ppt/discussion/0524 - 副本.pptx",
+    "06-ppt/discussion/ppt1719.tmp",
+    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/ROS总结.md",
-    "HOMEPAGE.canvas",
+    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+    "06-ppt/discussion/ppt7ABA.tmp",
+    "00-inbox/TSN知识总结.md",
+    "06-ppt/discussion/ppt9ABC.tmp",
+    "06-ppt/discussion/ppt9646.tmp",
+    "06-ppt/discussion/0524.pptx",
+    "06-ppt/discussion/TSN - 副本.pptx",
+    "06-ppt/discussion/0524.pptx.nssyncsc",
+    "06-ppt/discussion/0514 - 副本 (2).pptx",
+    "06-ppt/discussion/新建 Microsoft PowerPoint 演示文稿.pptx",
+    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-05-22.md",
     "00-inbox/2024-W21-05-20.md",
     "00-inbox/2024-05-23.md",
-    "wsm/01-日记/2024-05-22.md.nssyncsc",
-    "00-inbox/2024-05-23.md.nssyncsc",
-    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
-    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "wsm/01-日记/2024-05-21.md",
     "wsm/01-日记/2024-05-20.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "conflict-files-obsidian-git.md",
     "00-inbox/23-肉末茄子.md",
-    "00-inbox/2024-05-20.nssyncsc",
-    "00-inbox/23-肉末茄子.nssyncsc",
     "00-inbox/审稿意见.md",
-    "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
-    "02-paper/#52 - EMSOFT 2024.pdf",
-    "#52 - EMSOFT 2024.pdf",
     "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "01-永久笔记/02-研究/端到端分析-idea.md",
     "00-inbox/ROS-idea.md",
     "00-inbox/DAG总结.md",
-    "00-inbox/TSN知识总结.md",
     "wsm/01-日记/2024-05/2024-05-16.md",
     "wsm/01-日记/2024-05/2024-05-19.md",
     "wsm/01-日记/2024-05/2024-05-18.md",
     "wsm/01-日记/2024-05/2024-05-17.md",
     "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
     "HOMEPAGEiPhone.canvas",
-    "00-inbox/DAG总结.nssyncsc",
-    "06-ppt/discussion/0514.pdf",
-    "06-ppt/discussion/~$0514.pptx",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
     "00-inbox/attachments/7XRA6KSM.png",
