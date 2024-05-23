@@ -247,11 +247,9 @@
     "02-paper/01-RTCSA/QCH-workspace.md": "04032ec93b9d5841e315f5dfd90725a3a6b3579e06c5d4ea10bc70a6e4a5fcc9",
     "02-paper/02-RTSS/workshop.md": "2b9c08792a6fd9061f81d5a0fa7e277b9ec6002fbe44a8db6c6b1b37ba4dd0f6",
     "03-research/10-DAG/Parallel Path Progression DAG Scheduling.md": "353bf15570c9fbe1465ed1fb9a9261d9749b2f42d2a11f722f11849cd47343aa",
-    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md": "1c99778ddded7de6dfbd67f6a1b26275e8476392f4ed8c8d8140013624fd7d66",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "22d7de5c2889ce725304aa49b87edd32589f33b01e8fc630ef967e05c5dd6df5",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md": "d1052fb9f01c173de464f5354d95bdb262b5d3ae330086aca73e31db0fe2f6c6",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "fa88a9ed8373526bdec449f2631d6a3f5c825beff11b50397ae2df19b6ffd013",
-    "00-inbox/ROS总结.md": "e44eb4f4961abd5d5cbb51af6218a76746a8c185a0643998debeb83e7013a4eb",
     "00-inbox/ROS-idea.md": "524ae48078cc0951089eb3de9830f4b74d162d138abc22d90e17e4103514213d",
     "01-永久笔记/02-研究/端到端分析模型整理-DAC.md": "651ffbf0da3cd2394519e8507bdb0264a3dd789280cc46c3241517918c368fce",
     "01-永久笔记/03-菜谱/0-菜谱看板.md": "3050fd281387e10da58dccb7eb81e055850dc27790ec2e6d1f242a0c96ca3da9",
@@ -294,10 +292,12 @@
     "00-inbox/DAG总结.md": "071f30f824dc85f1e95beb00db5ce461e8b49a8743c3aff1081e93de50f3485f",
     "00-inbox/审稿意见.md": "8e025e37af37cb3abd3b80704aae125a2c4612c972d856a72355b248f51ecaa7",
     "00-inbox/23-肉末茄子.md": "756cd99ed0e3bc3e3074456a037b3a8c0c2fdf0dc7d647a789d414d622b2ef86",
-    "00-inbox/2024-W21-05-20.md": "28a52b506dfa740532dfaa118ddfd16510d18872599f33dbe90edd31c6113d7f",
     "wsm/01-日记/2024-05-20.md": "e419fb6b6f02e8d119965dc89624cd73a9a93f3be3ac4e92ad90af2815aef52f",
     "wsm/01-日记/2024-05-21.md": "88e01c27f7564e4480e5f13915bcf42bcc9635a16fad898cf3d077f88adac867",
-    "00-inbox/2024-05-23.md": "bd29ff4358322f925b5f563b3552c6d0460774ce9e33662949aca2430ea51ba2",
-    "wsm/01-日记/2024-05-22.md": "02d07347ec99a12de8efd68935b9204bce81486f7e9dc0c8ac68df26e5056c41"
+    "00-inbox/2024-05-23.md": "c3c4d3b25a3d562af4865bfa84db4cd800ae05a19e52976181a8596c63f22a2f",
+    "00-inbox/2024-W21-05-20.md": "ff91688449d256a5f7f1eed15e9467e4e7b25f3005d745a780829bac65a24f1b",
+    "wsm/01-日记/2024-05-22.md": "a66634e5bcc65d581412996ebb34e021f133d756fc9de686269b90d3eaa29e0f",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md": "955f37769d11fd729a7c9cd300e7a1f9e92ede5e45fe789cdd40e2ebab1f51fd",
+    "00-inbox/ROS总结.md": "f6570989c5859bcff96a1948446b5a726897508129e558df23ccbf960fa05717"
   }
 }

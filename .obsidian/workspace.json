@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS总结.md"
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS总结.md"
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS总结.md",
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS总结.md",
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -239,11 +239,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "abaee38edeaafd86",
+  "active": "32f58b0030ff4118",
   "lastOpenFiles": [
+    "00-inbox/ROS总结.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "HOMEPAGE.canvas",
-    "00-inbox/ROS总结.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "wsm/01-日记/2024-05-22.md",
     "00-inbox/2024-W21-05-20.md",
