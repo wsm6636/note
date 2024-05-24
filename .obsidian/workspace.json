@@ -77,19 +77,6 @@
             }
           },
           {
-            "id": "7cdb58ea9f022a3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9d846df1a27dedba",
             "type": "leaf",
             "state": {
@@ -103,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md"
+                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md"
               }
             }
           },
@@ -187,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md"
+                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md"
               }
             }
           },
@@ -235,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -291,15 +278,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "70bea7e034b7d672",
+  "active": "393c31319076ea35",
   "lastOpenFiles": [
     "00-inbox/ROS总结.md",
-    "01-永久笔记/02-研究/DAG总结.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+    "01-永久笔记/02-研究/DAG总结.md",
     "00-inbox/ROS-idea.md",
     "00-inbox/TSN知识总结.md",
     "HOMEPAGE.canvas",
