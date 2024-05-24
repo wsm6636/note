@@ -25,45 +25,6 @@
             }
           },
           {
-            "id": "70bea7e034b7d672",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e1247bdad202d0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ROS总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62c6245b2989099b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ROS-idea.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "393c31319076ea35",
             "type": "leaf",
             "state": {
@@ -101,9 +62,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc0a7bfd1e1a06d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ROS-idea.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS总结.md"
+                "file": "00-inbox/ROS-idea.md"
               }
             }
           },
@@ -187,7 +161,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS总结.md"
+                "file": "00-inbox/ROS-idea.md"
               }
             }
           },
@@ -235,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS总结.md",
+                "file": "00-inbox/ROS-idea.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS总结.md",
+                "file": "00-inbox/ROS-idea.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -291,20 +265,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7e1247bdad202d0e",
+  "active": "bc0a7bfd1e1a06d4",
   "lastOpenFiles": [
+    "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
+    "00-inbox/ROS-idea.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/ROS总结.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
-    "00-inbox/ROS-idea.md",
     "02-paper/01-RTCSA/LAG.md",
-    "00-inbox/ROS总结.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "01-永久笔记/02-研究/DAG总结.md",
     "00-inbox/TSN知识总结.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-05-23.md",
     "00-inbox/2024-W21-05-20.md",
     "06-ppt/discussion/~$0524.pptx",
@@ -329,7 +304,6 @@
     "wsm/01-日记/2024-05/2024-05-16.md",
     "wsm/01-日记/2024-05/2024-05-19.md",
     "wsm/01-日记/2024-05/2024-05-18.md",
-    "wsm/01-日记/2024-05/2024-05-17.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
