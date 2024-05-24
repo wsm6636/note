@@ -23,8 +23,87 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "70bea7e034b7d672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e1247bdad202d0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ROS总结.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "393c31319076ea35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d80439e5d2944af5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cdb58ea9f022a3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d846df1a27dedba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md"
               }
             }
           },
@@ -108,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md"
               }
             }
           },
@@ -156,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,22 +291,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "70bea7e034b7d672",
   "lastOpenFiles": [
+    "00-inbox/ROS总结.md",
+    "01-永久笔记/02-研究/DAG总结.md",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+    "00-inbox/ROS-idea.md",
+    "00-inbox/TSN知识总结.md",
+    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-05-23.md",
     "00-inbox/2024-W21-05-20.md",
-    "HOMEPAGE.canvas",
     "06-ppt/discussion/~$0524.pptx",
     "06-ppt/discussion/0524 - 副本.pptx",
     "06-ppt/discussion/ppt1719.tmp",
-    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-    "00-inbox/ROS总结.md",
-    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
-    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
-    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "06-ppt/discussion/ppt7ABA.tmp",
-    "00-inbox/TSN知识总结.md",
     "06-ppt/discussion/ppt9ABC.tmp",
     "06-ppt/discussion/ppt9646.tmp",
     "06-ppt/discussion/0524.pptx",
@@ -242,8 +324,6 @@
     "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "01-永久笔记/02-研究/端到端分析-idea.md",
-    "00-inbox/ROS-idea.md",
-    "00-inbox/DAG总结.md",
     "wsm/01-日记/2024-05/2024-05-16.md",
     "wsm/01-日记/2024-05/2024-05-19.md",
     "wsm/01-日记/2024-05/2024-05-18.md",
