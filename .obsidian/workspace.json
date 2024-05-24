@@ -103,7 +103,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "00-inbox/ROS总结.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md"
+                "file": "00-inbox/ROS总结.md"
               }
             }
           },
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "00-inbox/ROS总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+                "file": "00-inbox/ROS总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -291,10 +291,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d80439e5d2944af5",
+  "active": "7e1247bdad202d0e",
   "lastOpenFiles": [
-    "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
     "00-inbox/ROS-idea.md",
     "02-paper/01-RTCSA/LAG.md",
     "00-inbox/ROS总结.md",
