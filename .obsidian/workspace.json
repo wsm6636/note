@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/23-肉末茄子.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -122,7 +121,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/23-肉末茄子.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/23-肉末茄子.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/23-肉末茄子.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +224,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f4fb642f4b1c864c",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "00-模板/月复盘模板.md",
