@@ -17,24 +17,11 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -570.2419016098113,
-                  "zoom": -0.2575907562418253
+                  "y": -542.5,
+                  "zoom": -0.37587996781690763
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "f4fb642f4b1c864c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/23-肉末茄子.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           }
         ]
@@ -226,10 +213,11 @@
   },
   "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
+    "00-模板/挂件.md",
     "HOMEPAGE.canvas",
+    "00-inbox/23-肉末茄子.md",
     "00-模板/月复盘模板.md",
     "00-模板/日记模板.md",
-    "00-模板/挂件.md",
     "00-模板/年复盘模板.md",
     "00-模板/周记模板.md",
     "00-模板/一言模板.md",
@@ -261,7 +249,6 @@
     "wsm/01-日记/2024-05-22.md",
     "wsm/01-日记/2024-05-21.md",
     "wsm/01-日记/2024-05-20.md",
-    "conflict-files-obsidian-git.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
