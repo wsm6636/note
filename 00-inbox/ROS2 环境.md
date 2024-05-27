@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-05-27T15:54
+updated: 2024-05-27T16:16
 status:
   - ing
 ---
@@ -14,3 +14,10 @@ status:
 
 默认情况下，Linux 内核使用端口 32768-60999 作为临时端口。这意味着可以安全地使用域 ID 0-101 和 215-232，而不会与临时端口发生冲突。在 Linux 中，可以通过在 中设置自定义值来配置临时端口范围`/proc/sys/net/ipv4/ip_local_port_range`。如果使用自定义临时端口范围，则可能需要相应调整上述数字。
 
+# 配置
+> 因为换成zsh
+```
+echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
+echo "export ROS_DOMAIN_ID=1" >> ~/.zshrc
+echo "export ROS_LOCALHOST_ONLY=1" >> ~/.zshrc
+```
