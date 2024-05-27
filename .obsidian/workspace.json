@@ -25,20 +25,19 @@
             }
           },
           {
-            "id": "926373c6100d2bf6",
+            "id": "b2f9b208cc7b6184",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "01-永久笔记/02-研究/ROS总结.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -122,7 +121,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -169,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -224,8 +223,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "926373c6100d2bf6",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "01-永久笔记/工作流.md",
     "00-inbox/2024-W22-05-27.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-05-27.md",
@@ -236,11 +237,9 @@
     "wsm/01-日记/2024-05/2024-05-21.md.baiduyun.uploading.cfg",
     "wsm/01-日记/2024-05/2024-05-20.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-W21-05-20.md.baiduyun.uploading.cfg",
     "wsm/03-月复盘/2024-04.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W20-05-13.md.baiduyun.uploading.cfg",
-    "01-永久笔记/工作流.md",
     "00-模板/挂件.md",
     "00-inbox/23-肉末茄子.md",
     "00-模板/月复盘模板.md",
@@ -251,7 +250,7 @@
     "00-模板/一言.md",
     "00-inbox/ROS-idea.md",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "00-inbox/ROS总结.md",
+    "01-永久笔记/02-研究/ROS总结.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
     "02-paper/01-RTCSA/LAG.md",
