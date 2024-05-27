@@ -17,8 +17,8 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -542.5,
-                  "zoom": -0.37587996781690763
+                  "y": -654.1,
+                  "zoom": 0
                 }
               },
               "pinned": true
@@ -192,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
