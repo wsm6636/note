@@ -25,19 +25,20 @@
             }
           },
           {
-            "id": "b2f9b208cc7b6184",
+            "id": "9b5db1a2c610a780",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/02-研究/ROS总结.md",
+                "file": "00-inbox/ROS2 环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2 环境.md"
               }
             }
           },
@@ -121,7 +122,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2 环境.md"
               }
             }
           },
@@ -168,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2 环境.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2 环境.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,9 +225,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "9b5db1a2c610a780",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
+    "00-inbox/ROS2 环境.md",
+    "01-永久笔记/02-研究/ROS总结.md",
+    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "01-永久笔记/工作流.md",
     "00-inbox/2024-W22-05-27.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
@@ -250,17 +257,12 @@
     "00-模板/一言.md",
     "00-inbox/ROS-idea.md",
     "03-research/04-Enrico Bini/Zero-Jitter Chains of Periodic LET Tasks via Algebraic Rings.md",
-    "01-永久笔记/02-研究/ROS总结.md",
-    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
     "02-paper/01-RTCSA/LAG.md",
     "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
-    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
-    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "01-永久笔记/02-研究/DAG总结.md",
     "00-inbox/TSN知识总结.md",
-    "wsm/01-日记/2024-05/2024-05-23.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",
