@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -728.5,
+                  "y": -635.5,
                   "zoom": 0
                 }
               },
@@ -38,12 +38,12 @@
             }
           },
           {
-            "id": "8620b03f4a10cb23",
+            "id": "3e6b2731a132c959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-05-27.md",
+                "file": "00-inbox/2024-W22-05-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-05-27.md"
+                "file": "00-inbox/ROS2 环境.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-05-27.md"
+                "file": "00-inbox/ROS2 环境.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-05-27.md",
+                "file": "00-inbox/ROS2 环境.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-05-27.md",
+                "file": "00-inbox/ROS2 环境.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -238,9 +238,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8620b03f4a10cb23",
+  "active": "9b5db1a2c610a780",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-05-27.md",
     "00-inbox/ROS2 环境.md",
     "01-永久笔记/02-研究/ROS总结.md",
     "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
@@ -249,7 +250,6 @@
     "01-永久笔记/工作流.md",
     "00-inbox/2024-W22-05-27.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
-    "00-inbox/2024-05-27.md",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",
     "wsm/01-日记/2024-05/2024-05-23.md.baiduyun.uploading.cfg",
