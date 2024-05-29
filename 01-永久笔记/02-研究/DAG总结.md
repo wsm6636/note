@@ -3,11 +3,11 @@ tags:
   - 笔记
   - 笔记/文献笔记
 created: 2024-05-13T16:29:00
-updated: 2024-05-24T10:10
+updated: 2024-05-28T22:42
 status:
   - done
 ---
-[SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity](SEAM%20-%20An%20Optimal%20Message%20Synchronizer%20in%20ROS%20with%20Well-Bounded%20Time%20Disparity.md)
+[SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity](../../03-research/11-ROS/SEAM%20-%20An%20Optimal%20Message%20Synchronizer%20in%20ROS%20with%20Well-Bounded%20Time%20Disparity.md)
 > 改进ROS 2中的消息同步机制，以支持多传感器数据融合并保证时间一致性。在一定范围内同步最早的
 
 传统消息同步：

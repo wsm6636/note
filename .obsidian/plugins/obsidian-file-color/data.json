@@ -933,10 +933,6 @@
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "01-永久笔记/03-菜谱/2-青椒肉丝.md",
-      "color": "TTRBfV8hZozWygBmMsdLK"
-    },
-    {
       "path": "01-永久笔记/03-菜谱/3-角瓜香肠-鸡蛋.md",
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
@@ -1013,7 +1009,7 @@
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+      "path": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -1409,7 +1405,7 @@
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+      "path": "03-research/11-ROS/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -1417,11 +1413,11 @@
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+      "path": "03-research/11-ROS/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+      "path": "03-research/11-ROS/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -1430,6 +1426,42 @@
     },
     {
       "path": "01-永久笔记/02-研究/ROS总结.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-20.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-21.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-22.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-23.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "03-research/11-ROS/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/24-肉末茄子.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/25-孜然蘑菇.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/2-青椒肉丝.md",
       "color": "TTRBfV8hZozWygBmMsdLK"
     }
   ]
