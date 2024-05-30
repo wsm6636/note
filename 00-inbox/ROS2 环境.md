@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-05-28T16:12
+updated: 2024-05-30T09:17
 status:
   - ing
 ---
@@ -73,13 +73,7 @@ rosdep install -i --from-path src --rosdistro foxy -y
 colcon build
 ```
 
-  如果提示colcon没有安装的话，可以使用如下命令安装：
-
-```
-sudo apt install python3-colcon-common-extensions
-```
-
-  colcon是ROS2的编译工具，类似于ROS1中的catkin。运行之后可以看到：  [![](https://www.guyuehome.com/Uploads/wp/2020/08/06a0be4625a38e0a08-19-14-04-20.png)](https://www.guyuehome.com/Uploads/wp/2020/08/06a0be4625a38e0a08-19-14-04-20.png)  colcon build后边还可以跟一些常用的参数：  
+   colcon build后边还可以跟一些常用的参数：  
 
 1. --packages-up-to ：编译指定的功能包，而不是整个工作空间
 2. --symlink-install ：节省每次重建python脚本的时间
@@ -96,4 +90,8 @@ cd ~/dev_ws
 . install/local_setup.sh
 ```
 
-  install里有两个很类似的文件：local_setup.sh和setup.sh，前者仅会设置当前工作空间中功能包的相关环境变量，后者还会设置该工作空间下其他底层工作空间的环境变量。   现在我们就可以来运行dev_ws工作空间下的turtlesi功能包了：
+  install里有两个很类似的文件：local_setup.sh和setup.sh，前者仅会设置当前工作空间中功能包的相关环境变量，后者还会设置该工作空间下其他底层工作空间的环境变量。   现在我们就可以来运行dev_ws工作空间下的turtlesi功能包了
+
+
+# 线程
+

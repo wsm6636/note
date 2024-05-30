@@ -25,12 +25,12 @@
             }
           },
           {
-            "id": "2dd6db686de7d1ed",
+            "id": "899f9a7fd3b34c79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/03-菜谱/0-菜谱看板.md",
+                "file": "00-inbox/ROS2 环境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -38,25 +38,12 @@
             }
           },
           {
-            "id": "223e5b7886b90895",
+            "id": "6c0b5ea8209271e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/03-菜谱/0-菜谱看板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "916b74d3fe0c0ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/03-菜谱/17-排骨炖豆角.md",
+                "file": "01-永久笔记/02-研究/ROS总结.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -64,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/03-菜谱/17-排骨炖豆角.md"
+                "file": "01-永久笔记/02-研究/ROS总结.md"
               }
             }
           },
@@ -148,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/03-菜谱/17-排骨炖豆角.md"
+                "file": "01-永久笔记/02-研究/ROS总结.md"
               }
             }
           },
@@ -195,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/03-菜谱/17-排骨炖豆角.md",
+                "file": "01-永久笔记/02-研究/ROS总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/03-菜谱/17-排骨炖豆角.md",
+                "file": "01-永久笔记/02-研究/ROS总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -231,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,10 +237,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "916b74d3fe0c0ba5",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
-    "01-永久笔记/03-菜谱/0-菜谱看板.md",
+    "00-inbox/ROS2 环境.md",
     "HOMEPAGE.canvas",
+    "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-05-29.md",
+    "00-inbox/2024-W22-05-27.md",
+    "01-永久笔记/03-菜谱/0-菜谱看板.md",
     "01-永久笔记/03-菜谱/2-青椒肉丝.md",
     "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
     "01-永久笔记/03-菜谱/22-木须肉.md",
@@ -274,11 +264,7 @@
     "03-research/11-ROS/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "03-research/11-ROS/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
-    "00-inbox/2024-W22-05-27.md",
-    "00-inbox/ROS2 环境.md",
     "wsm/01-日记/2024-05-27.md",
-    "01-永久笔记/02-研究/ROS总结.md",
-    "01-永久笔记/工作流.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",
