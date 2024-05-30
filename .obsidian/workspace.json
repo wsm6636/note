@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2 环境.md"
+                "file": "01-永久笔记/02-研究/ROS总结.md"
               }
             }
           },
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2 环境.md"
+                "file": "01-永久笔记/02-研究/ROS总结.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2 环境.md",
+                "file": "01-永久笔记/02-研究/ROS总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2 环境.md",
+                "file": "01-永久笔记/02-研究/ROS总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,10 +237,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "899f9a7fd3b34c79",
+  "active": "6c0b5ea8209271e3",
   "lastOpenFiles": [
-    "01-永久笔记/02-研究/ROS总结.md",
     "00-inbox/ROS2 环境.md",
+    "01-永久笔记/02-研究/ROS总结.md",
     "HOMEPAGE.canvas",
     "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-05-29.md",
