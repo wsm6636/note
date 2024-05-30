@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-05-30T12:41
+updated: 2024-05-30T16:04
 status:
   - ing
 ---
@@ -106,4 +106,8 @@ cd ~/dev_ws
 ![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405301220447.png)
 
 
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405301553849.png)
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405301604605.png)
 
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405301554157.png)
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405301604777.png)
