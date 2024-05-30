@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-05-30T20:13
+updated: 2024-05-30T21:00
 status:
   - ing
 ---
@@ -113,6 +113,18 @@ cd ~/dev_ws
 ![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405301604777.png)
 
 ![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405301655785.png)
-会产生10个线程
-单线程+1
-多线程+4
+11
+14
+
+1. **追踪工具的展示方式**： 追踪工具可能会以不同的方式展示线程信息。有些工具可能会展示所有线程，包括那些由操作系统或语言运行时创建的线程，这可能导致你看到比预期更多的线程。
+
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405302040493.png)
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405302041984.png)
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405302043552.png)
+
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405302052354.png)
+
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202405302053956.png)
+9
+12
+
