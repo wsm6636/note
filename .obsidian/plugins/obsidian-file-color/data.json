@@ -909,7 +909,7 @@
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "01-永久笔记/端到端分析-idea.md",
+      "path": "01-永久笔记/02-研究/端到端分析-idea.md",
       "color": "S1keANt57L8-ByvYi7lL-"
     },
     {
@@ -930,10 +930,6 @@
     },
     {
       "path": "01-永久笔记/03-菜谱/1-红烧肉.md",
-      "color": "TTRBfV8hZozWygBmMsdLK"
-    },
-    {
-      "path": "01-永久笔记/03-菜谱/2-青椒肉丝.md",
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
@@ -1009,23 +1005,11 @@
       "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
-      "path": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
       "path": "03-research/10-DAG/Parallel Path Progression DAG Scheduling.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
-      "path": "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+      "path": "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -1353,7 +1337,7 @@
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
-      "path": "00-inbox/DAG总结.md",
+      "path": "01-永久笔记/02-研究/DAG总结.md",
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
@@ -1385,10 +1369,6 @@
       "color": "S1keANt57L8-ByvYi7lL-"
     },
     {
-      "path": "00-inbox/ROS总结.md",
-      "color": "S1keANt57L8-ByvYi7lL-"
-    },
-    {
       "path": "wsm/01-日记/2024-05/2024-05-13.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
@@ -1417,15 +1397,71 @@
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "00-inbox/2024-W21-05-20.md",
-      "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
       "path": "01-永久笔记/03-菜谱/22-木须肉.md",
       "color": "TTRBfV8hZozWygBmMsdLK"
     },
     {
       "path": "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "03-research/11-ROS/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/11-ROS/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "03-research/11-ROS/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "00-inbox/审稿意见.md",
+      "color": "2idXfXWSgk2lkGKUH3deA"
+    },
+    {
+      "path": "01-永久笔记/02-研究/ROS总结.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-20.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-21.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-22.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "wsm/01-日记/2024-05/2024-05-23.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "03-research/11-ROS/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/24-肉末茄子.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/25-孜然蘑菇.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
+      "color": "TTRBfV8hZozWygBmMsdLK"
+    },
+    {
+      "path": "01-永久笔记/03-菜谱/2-青椒肉丝.md",
       "color": "TTRBfV8hZozWygBmMsdLK"
     }
   ]

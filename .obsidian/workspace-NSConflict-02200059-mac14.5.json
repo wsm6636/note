@@ -1,0 +1,312 @@
+{
+  "main": {
+    "id": "294b4e0f06f67d58",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5659d2d793e0d8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0f5b56a01c8c830",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "viewState": {
+                  "x": -1947.5,
+                  "y": -577.2429243046722,
+                  "zoom": -0.2575907562418253
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c2fa8005ced6e71d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "373a2659dcd224bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ac7cda1ecbb1a4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ROS总结.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1fed9e04a5e97d6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ab1e536c6013608",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fc5fa2c3f576f36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b8117d4845201ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
+            }
+          },
+          {
+            "id": "14e19d6c3c25ebf5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96534df3a7e62762",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272
+  },
+  "right": {
+    "id": "72a98f63b87fd861",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c272ce0b3fbb768",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ada7681c10794a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
+            }
+          },
+          {
+            "id": "3489e9e69e67f977",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "f1a5b9bdc03fee69",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "dbe74c464049a0d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef7b58c1de8e9019",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fbd984f9597fd947",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e8da10234d4adde3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e38c973fcf2e963e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "66995075eb263964",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "c2fa8005ced6e71d",
+  "lastOpenFiles": [
+    "00-inbox/2024-W21-05-20.md",
+    "00-inbox/23-肉末茄子.md",
+    "HOMEPAGE.canvas",
+    "conflict-files-obsidian-git.md",
+    "00-inbox/2024-05-20.nssyncsc",
+    "00-inbox/23-肉末茄子.nssyncsc",
+    "00-inbox/ROS总结.md",
+    "00-inbox/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
+    "00-inbox/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
+    "00-inbox/审稿意见.md",
+    "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
+    "02-paper/#52 - EMSOFT 2024.pdf",
+    "#52 - EMSOFT 2024.pdf",
+    "00-inbox/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
+    "00-inbox/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "00-inbox/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "01-永久笔记/02-研究/端到端分析-idea.md",
+    "00-inbox/ROS-idea.md",
+    "00-inbox/DAG总结.md",
+    "00-inbox/TSN知识总结.md",
+    "wsm/01-日记/2024-05/2024-05-16.md",
+    "wsm/01-日记/2024-05/2024-05-19.md",
+    "wsm/01-日记/2024-05/2024-05-18.md",
+    "wsm/01-日记/2024-05/2024-05-17.md",
+    "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
+    "01-永久笔记/03-菜谱/22-木须肉.md",
+    "wsm/02-周记/2024-W20-05-13.md",
+    "00-inbox/2024-05-20.md",
+    "01-永久笔记/工作流.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "HOMEPAGEiPhone.canvas",
+    "00-inbox/DAG总结.nssyncsc",
+    "06-ppt/discussion/0514.pdf",
+    "06-ppt/discussion/~$0514.pptx",
+    "06-ppt/discussion/ppt1679.tmp",
+    "06-ppt/discussion/ppt2523.tmp",
+    "00-inbox/attachments/885DVGI8.png",
+    "00-inbox/attachments/7JSN53ID.png",
+    "00-inbox/attachments/7XRA6KSM.png",
+    "00-模板/HOMEPAGE 模板.canvas",
+    "看板.canvas",
+    "00-inbox/未命名.canvas",
+    "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
+    "00-模板/启动页模板3.canvas",
+    "00-模板/启动页模板2.canvas",
+    "00-模板/启动页模板1.canvas",
+    "00-模板/HOMEPAGEiPhone 模板.canvas",
+    "未命名.canvas",
+    "06-图/1.png",
+    "图/222 1.png",
+    "图/111).png",
+    "06-图/111.png",
+    "图/2a64fd65617e9cd277a6f0137ee8d43.jpg",
+    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg"
+  ]
+}
