@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2 环境.md"
               }
             }
           },
@@ -134,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2 环境.md"
               }
             }
           },
@@ -181,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2 环境.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2 环境.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -236,11 +237,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "899f9a7fd3b34c79",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "01-永久笔记/02-研究/ROS总结.md",
     "00-inbox/ROS2 环境.md",
-    "HOMEPAGE.canvas",
     "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-05-29.md",
     "00-inbox/2024-W22-05-27.md",
