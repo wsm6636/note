@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-05-30T21:00
+updated: 2024-06-01T22:15
 status:
   - ing
 ---
@@ -92,6 +92,7 @@ cd ~/dev_ws
 
   install里有两个很类似的文件：local_setup.sh和setup.sh，前者仅会设置当前工作空间中功能包的相关环境变量，后者还会设置该工作空间下其他底层工作空间的环境变量。   现在我们就可以来运行dev_ws工作空间下的turtlesi功能包了
 
+# gz
 
 # 线程
 ## 单线程

@@ -291,11 +291,9 @@
     "wsm/01-日记/2024-05/2024-05-21.md": "88e01c27f7564e4480e5f13915bcf42bcc9635a16fad898cf3d077f88adac867",
     "wsm/01-日记/2024-05/2024-05-22.md": "a66634e5bcc65d581412996ebb34e021f133d756fc9de686269b90d3eaa29e0f",
     "wsm/01-日记/2024-05/2024-05-23.md": "81d7a97d2ffd3176347f5940e07e0094e7187fdb45db1e33c8fc671efa38adae",
-    "00-inbox/2024-W22-05-27.md": "483be8564c25803e23644679424ab22b0da6b366db1be80feead4e5348aaccfc",
+    "00-inbox/2024-W22-05-27.md": "36c440e1debfcc12d542586649ecd9bceb284904939c8a75c99f7a24dcb54cbe",
     "01-永久笔记/02-研究/ROS总结.md": "3377eb95331e03997d049a04f90f596d857ad11952caca499cf3963a7f561b84",
-    "00-inbox/ROS2 环境.md": "7113ada86ee0e4bd5817b3a1cd2e4fd432cfcd6102be3d2a2b29db25eb5e13d4",
-    "wsm/01-日记/2024-05-27.md": "2c07ec3adad62a4b2db6be0ff90ec11cd9f93d326817fa88695cf5859ad7de59",
-    "wsm/01-日记/2024-05-28.md": "77e02a2ddb0f9e21aeff207b275f93f4ec28164d797263be274622e2bdaeb34b",
+    "00-inbox/ROS2 环境.md": "b7a333af1bf1fd0a5cc9a46f04ed88a6f32d905262cdfff3d195d2b1c90948b0",
     "03-research/11-ROS/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "c17831827f2a8d8947968d79349f837d0651f5ad4448164e5f1d6a66da79dec7",
     "03-research/11-ROS/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "7cb789e2e88bcb9ec8771afa4bd4a6a7f468398e906251fe8683945b37656812",
     "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "df5b704e11429227a544e0c2329f44e663dfbeddff0f0341b2a02fb285840f5f",
@@ -304,8 +302,11 @@
     "01-永久笔记/03-菜谱/25-孜然蘑菇.md": "ef519691c61d6ef3a2d146ccbbfd2ab4e07d8f38a0bc9783e00ff1c07dde1b3b",
     "01-永久笔记/03-菜谱/24-肉末茄子.md": "7c4ae25fa100f381460a813f9e15a0d5641e71317da691492b084265d95b97f7",
     "01-永久笔记/03-菜谱/26-可乐鸡翅.md": "5f176e287b8f8960e3a2e1cf28eef603bff8a73e7373b0143a24d43ada81c62b",
-    "00-inbox/28-蚝油生菜.md": "3678ab0ade4ca8c2fc344d01eec0b3a782cef7a43ce65aeaca71899d6dc90a74",
     "01-永久笔记/03-菜谱/2-青椒肉丝.md": "a3e0216eb598c3a88b34e3fb24a6093ae3599049c92d500aa78356cb46f439b4",
-    "wsm/01-日记/2024-05-29.md": "6da6addbca04375993abbb7d789c214cc37c5e74705e8b36a5cc09e8c85efb22"
+    "01-永久笔记/03-菜谱/27-蚝油生菜.md": "3678ab0ade4ca8c2fc344d01eec0b3a782cef7a43ce65aeaca71899d6dc90a74",
+    "wsm/01-日记/2024-06-01.md": "bae63450419ba3ca789da3f2e6b54a8456f4890847015d977d2334070cd403b7",
+    "wsm/01-日记/2024-05/2024-05-27.md": "2c07ec3adad62a4b2db6be0ff90ec11cd9f93d326817fa88695cf5859ad7de59",
+    "wsm/01-日记/2024-05/2024-05-28.md": "77e02a2ddb0f9e21aeff207b275f93f4ec28164d797263be274622e2bdaeb34b",
+    "wsm/01-日记/2024-05/2024-05-29.md": "6da6addbca04375993abbb7d789c214cc37c5e74705e8b36a5cc09e8c85efb22"
   }
 }

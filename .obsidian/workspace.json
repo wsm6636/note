@@ -23,35 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "899f9a7fd3b34c79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ROS2 环境.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c0b5ea8209271e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/02-研究/ROS总结.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2 环境.md"
+                "file": "wsm/01-日记/2024-06-01.md"
               }
             }
           },
@@ -135,7 +108,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2 环境.md"
+                "file": "wsm/01-日记/2024-06-01.md"
               }
             }
           },
@@ -182,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2 环境.md",
+                "file": "wsm/01-日记/2024-06-01.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2 环境.md",
+                "file": "wsm/01-日记/2024-06-01.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -237,14 +210,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "899f9a7fd3b34c79",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
-    "01-永久笔记/02-研究/ROS总结.md",
     "00-inbox/ROS2 环境.md",
-    "01-永久笔记/工作流.md",
-    "wsm/01-日记/2024-05-29.md",
     "00-inbox/2024-W22-05-27.md",
+    "wsm/01-日记/2024-06-01.md",
+    "01-永久笔记/02-研究/ROS总结.md",
+    "01-永久笔记/03-菜谱/27-蚝油生菜.md",
+    "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-05/2024-05-29.md",
     "01-永久笔记/03-菜谱/0-菜谱看板.md",
     "01-永久笔记/03-菜谱/2-青椒肉丝.md",
     "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
@@ -252,10 +227,9 @@
     "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
     "01-永久笔记/03-菜谱/1-红烧肉.md",
     "01-永久笔记/03-菜谱/5-清炒包菜.md",
-    "00-inbox/28-蚝油生菜.md",
     "01-永久笔记/03-菜谱/24-肉末茄子.md",
     "01-永久笔记/03-菜谱/17-排骨炖豆角.md",
-    "wsm/01-日记/2024-05-28.md",
+    "wsm/01-日记/2024-05/2024-05-28.md",
     "01-永久笔记/03-菜谱/21-黄瓜炒鸡蛋火腿.md",
     "01-永久笔记/03-菜谱/25-孜然蘑菇.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
@@ -264,7 +238,6 @@
     "03-research/11-ROS/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
     "03-research/11-ROS/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
     "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
-    "03-research/11-ROS/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",
