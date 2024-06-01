@@ -251,9 +251,9 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-29T18:07:18.981Z",
-      "updateAt": "2024-05-07T20:32:36.451Z",
+      "updateAt": "2024-06-01T22:40:38.726Z",
       "backgroundStyle": "none",
-      "viewType": "kanban",
+      "viewType": "table",
       "datasource": {
         "filter": {
           "id": "15365c15-b2af-4281-8d1f-fba8877b6a04",

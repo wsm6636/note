@@ -23,8 +23,56 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "9c9efffc14cbbd2c",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
+            "id": "1050aa1fce7f5703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "571abb6350088b66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-research/01-端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "533d36bc503d0d50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/01-RTCSA/QCH-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,9 +100,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -107,9 +153,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -155,7 +199,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +215,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,13 +250,18 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "9c9efffc14cbbd2c",
   "lastOpenFiles": [
-    "wsm/01-日记/2024-06-01.md",
+    "02-paper/01-RTCSA/QCH-workspace.md",
+    "03-research/01-端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
+    "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
     "HOMEPAGE.canvas",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "wsm/01-日记/2024-06-01.md",
     "00-inbox/ROS2 环境.md",
     "00-inbox/2024-W22-05-27.md",
     "01-永久笔记/02-研究/ROS总结.md",
@@ -232,12 +280,9 @@
     "wsm/01-日记/2024-05/2024-05-28.md",
     "01-永久笔记/03-菜谱/21-黄瓜炒鸡蛋火腿.md",
     "01-永久笔记/03-菜谱/25-孜然蘑菇.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "03-research/11-ROS/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md",
     "03-research/11-ROS/A ROS 2 Response-Time Analysis Exploiting Starvation Freedom and Execution-Time Variance.md",
-    "03-research/11-ROS/Worst-Case Time Disparity Analysis of Message Synchronization in ROS.md",
-    "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",

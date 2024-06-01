@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "#论文": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "or",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#da51cf",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记/永久笔记\"]"
+                }
+              },
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"个人\"]"
+                }
+              },
+              {
+                "color": "#f7f7f7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"模板\"]"
+                }
+              },
+              {
+                "color": "#f06e8a",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"待归档\"]"
+                }
+              },
+              {
+                "color": "#ff7f7f",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"paper\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e3a9ca8c-f447-432b-ae8f-c45d2a6b9a27",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3e7def22-2746-4781-9592-04168ad05d3d",
+          "name": "看板",
+          "type": "board"
+        }
+      ],
+      "id": "09103755-474f-4284-a100-b09c8a3d98ae",
+      "name": "project"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
