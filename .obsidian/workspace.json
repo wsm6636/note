@@ -31,19 +31,6 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "6767453127263081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/未命名.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -83,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -153,7 +141,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7b1fd88d5e213e1c",
@@ -227,8 +216,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c7f81fc298a1fa0b",
+  "active": "14e19d6c3c25ebf5",
   "lastOpenFiles": [
+    "00-模板/一言.md",
+    "00-模板/年复盘模板.md",
+    "00-模板/挂件.md",
     "00-inbox/未命名.md",
     "HOMEPAGE.canvas",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
@@ -254,8 +246,6 @@
     "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
     "01-永久笔记/03-菜谱/22-木须肉.md",
     "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
-    "01-永久笔记/03-菜谱/1-红烧肉.md",
-    "01-永久笔记/03-菜谱/5-清炒包菜.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",

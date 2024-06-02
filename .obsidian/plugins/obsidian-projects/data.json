@@ -106,7 +106,43 @@
             "conditions": []
           },
           "colors": {
-            "conditions": []
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"个人\"]"
+                }
+              },
+              {
+                "color": "#ff7fff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记/永久笔记\"]"
+                }
+              },
+              {
+                "color": "#f7f7f7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"模板\"]"
+                }
+              },
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true
+                }
+              }
+            ]
           },
           "sort": {
             "criteria": []
