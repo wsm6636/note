@@ -23,8 +23,30 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c7f81fc298a1fa0b",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
+            "id": "6767453127263081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,9 +74,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -107,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -155,7 +173,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +189,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -196,29 +212,36 @@
   "left-ribbon": {
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
-      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": true,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-kanban:创建新看板": false,
-      "templater-obsidian:Templater": false,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "obsidian-kanban:创建新看板": true,
+      "templater-obsidian:Templater": true,
       "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": true,
+      "obsidian-projects:Open projects": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "c7f81fc298a1fa0b",
   "lastOpenFiles": [
+    "00-inbox/未命名.md",
+    "HOMEPAGE.canvas",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
+    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
+    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
+    "Projects - Demo Project",
     "wsm/其他/科技论文写作.md",
     "wsm/01-日记/2024-06-01.md",
-    "00-inbox/未命名.md",
     "02-paper/01-RTCSA/QCH-workspace.md",
     "03-research/01-端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
     "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
-    "HOMEPAGE.canvas",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/ROS2 环境.md",
     "00-inbox/2024-W22-05-27.md",
@@ -233,12 +256,6 @@
     "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
     "01-永久笔记/03-菜谱/1-红烧肉.md",
     "01-永久笔记/03-菜谱/5-清炒包菜.md",
-    "01-永久笔记/03-菜谱/24-肉末茄子.md",
-    "01-永久笔记/03-菜谱/17-排骨炖豆角.md",
-    "wsm/01-日记/2024-05/2024-05-28.md",
-    "01-永久笔记/03-菜谱/21-黄瓜炒鸡蛋火腿.md",
-    "01-永久笔记/03-菜谱/25-孜然蘑菇.md",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",
@@ -248,7 +265,6 @@
     "wsm/01-日记/2024-05/2024-05-20.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W21-05-20.md.baiduyun.uploading.cfg",
     "wsm/03-月复盘/2024-04.md.baiduyun.uploading.cfg",
-    "wsm/02-周记/2024-W20-05-13.md.baiduyun.uploading.cfg",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/attachments/885DVGI8.png",
     "00-inbox/attachments/7JSN53ID.png",

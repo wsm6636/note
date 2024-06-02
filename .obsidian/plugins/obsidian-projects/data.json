@@ -1,0 +1,132 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "status": {
+          "richText": false
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [
+        ""
+      ],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "#论文": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              },
+              "due": {
+                "hide": true
+              },
+              "image": {
+                "hide": true
+              },
+              "published": {
+                "hide": true
+              },
+              "weight": {
+                "hide": true
+              },
+              "tags": {
+                "width": 331
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "created",
+              "updated",
+              "status",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "32ebd41f-0542-4abc-ab4b-2eb5d3374980",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "adf64eee-98dd-4a20-b202-7a5332c08a76",
+      "name": "全部"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
