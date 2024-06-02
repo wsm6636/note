@@ -473,10 +473,6 @@
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "02-paper/01-RTCSA/LAG.md",
-      "color": "2idXfXWSgk2lkGKUH3deA"
-    },
-    {
       "path": "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
@@ -550,10 +546,6 @@
     },
     {
       "path": "03-research/03-调度/定时器/硬件化.md",
-      "color": "kCOMTLIAd2rataZO1clEn"
-    },
-    {
-      "path": "03-research/03-调度/定时器/timershield.md",
       "color": "kCOMTLIAd2rataZO1clEn"
     },
     {
@@ -641,10 +633,6 @@
       "color": "kCOMTLIAd2rataZO1clEn"
     },
     {
-      "path": "03-research/01-端到端/端到端.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
       "path": "03-research/01-端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
@@ -658,10 +646,6 @@
     },
     {
       "path": "03-research/02-因果链/其他人的工作.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
-      "path": "03-research/02-因果链/cause-effect chain.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -733,23 +717,11 @@
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "03-research/05-LET/LET.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
       "path": "03-research/09-PREEMPT_RT/Demystifying the Real-Time Linux Scheduling Latency.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "03-research/09-PREEMPT_RT/PREEMPT_RT.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
       "path": "03-research/08-RTC/Finitary Real-Time Calculus- Efficient Performance Analysis of Distributed Embedded Systems.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
-      "path": "03-research/08-RTC/RTC.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -762,10 +734,6 @@
     },
     {
       "path": "03-research/06-TSN/ATS/基础知识-ATS.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
-      "path": "03-research/06-TSN/ATS/ATS.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
@@ -917,7 +885,7 @@
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "00-inbox/2024-05.md",
+      "path": "wsm/03-月复盘/2024-05.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {

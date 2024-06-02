@@ -103,7 +103,14 @@
           },
           "filter": {
             "conjunction": "and",
-            "conditions": []
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "00-模板"
+              }
+            ]
           },
           "colors": {
             "conditions": [
@@ -117,7 +124,7 @@
                 }
               },
               {
-                "color": "#ff7fff",
+                "color": "#f04833",
                 "condition": {
                   "field": "tags",
                   "operator": "has-any-of",
@@ -135,11 +142,370 @@
                 }
               },
               {
-                "color": "#a882ff",
+                "color": "#7fbfff",
                 "condition": {
                   "field": "tags",
                   "operator": "has-any-of",
-                  "enabled": true
+                  "enabled": true,
+                  "value": "[\"笔记/学习笔记\"]"
+                }
+              },
+              {
+                "color": "#7fbfff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"笔记/文献笔记\"]"
+                }
+              },
+              {
+                "color": "#ff7fbf",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记/闪念\"]"
+                }
+              },
+              {
+                "color": "#ff7fbf",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记/idea\"]"
+                }
+              },
+              {
+                "color": "#ffff7f",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记/项目\"]"
+                }
+              },
+              {
+                "color": "#ffff7f",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记/实验\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "updated",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "32ebd41f-0542-4abc-ab4b-2eb5d3374980",
+          "name": "卡片笔记",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "#论文": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              },
+              "due": {
+                "hide": true
+              },
+              "image": {
+                "hide": true
+              },
+              "published": {
+                "hide": true
+              },
+              "weight": {
+                "hide": true
+              },
+              "tags": {
+                "width": 331
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "created",
+              "updated",
+              "status",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "00-模板"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#f04833",
+                "condition": {
+                  "field": "status",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"todo\"]"
+                }
+              },
+              {
+                "color": "#f7f7f7",
+                "condition": {
+                  "field": "status",
+                  "operator": "is-empty",
+                  "enabled": true,
+                  "value": "[\"模板\"]"
+                }
+              },
+              {
+                "color": "#7fbfff",
+                "condition": {
+                  "field": "status",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"ing\"]"
+                }
+              },
+              {
+                "color": "#7fffbf",
+                "condition": {
+                  "field": "status",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"done\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "status",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "028d4cd2-80f4-4ddb-85aa-e8a97fa58690",
+          "name": "状态",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "#论文": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              },
+              "due": {
+                "hide": true
+              },
+              "image": {
+                "hide": true
+              },
+              "published": {
+                "hide": true
+              },
+              "weight": {
+                "hide": true
+              },
+              "tags": {
+                "width": 331
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "created",
+              "updated",
+              "status",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "00-模板"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "path",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "wsm"
+                }
+              },
+              {
+                "color": "#f04833",
+                "condition": {
+                  "field": "path",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "02-paper"
+                }
+              },
+              {
+                "color": "#7fbfff",
+                "condition": {
+                  "field": "path",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "03-research"
+                }
+              },
+              {
+                "color": "#ff7fff",
+                "condition": {
+                  "field": "path",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "01-永久笔记"
+                }
+              },
+              {
+                "color": "#ff7fbf",
+                "condition": {
+                  "field": "path",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "00-index"
+                }
+              },
+              {
+                "color": "#ffff7f",
+                "condition": {
+                  "field": "path",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "04-project"
+                }
+              },
+              {
+                "color": "#ffff7f",
+                "condition": {
+                  "field": "path",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "[\"笔记/实验\"]"
                 }
               }
             ]
@@ -147,8 +513,8 @@
           "sort": {
             "criteria": []
           },
-          "id": "32ebd41f-0542-4abc-ab4b-2eb5d3374980",
-          "name": "表格",
+          "id": "9cf4f37a-f68f-4f06-a5ae-2b952d09020f",
+          "name": "路径",
           "type": "table"
         }
       ],

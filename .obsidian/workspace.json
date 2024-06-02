@@ -31,6 +31,32 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "f56f2ff8ea688140",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W22-05-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "888d2508837b8b7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/03-月复盘/2024-05.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -70,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,8 +113,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "7b1fd88d5e213e1c",
@@ -216,36 +241,36 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "14e19d6c3c25ebf5",
+  "active": "c7f81fc298a1fa0b",
   "lastOpenFiles": [
+    "00-inbox/审稿意见.md",
+    "02-paper/02-RTSS/评审意见精简.md",
+    "01-永久笔记/01-教程/远程控制_客户端配置.md",
+    "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
+    "01-永久笔记/01-教程/Vmware Ubuntu虚拟机磁盘扩容方法.md",
+    "01-永久笔记/01-教程/ubuntu系统迁移.md",
+    "03-research/03-调度/定时器/timershield.md",
+    "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
+    "03-research/09-PREEMPT_RT/PREEMPT_RT.md",
+    "03-research/02-因果链/cause-effect chain.md",
+    "00-inbox/2024-W22-05-27.md",
+    "00-inbox/2024.md",
+    "wsm/03-月复盘/2024-05.md",
+    "00-模板/note.md",
+    "00-模板/contributionGraph.md",
+    "03-research/05-LET/LET.md",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "05-娱乐/塞尔达/旷野之息神庙挑战.md",
+    "05-娱乐/塞尔达/旷野之息迷你挑战.md",
+    "wsm/03-月复盘/2024-02.md",
+    "wsm/03-月复盘/2024-03.md",
+    "wsm/03-月复盘/2024-04.md",
+    "00-模板/月复盘模板.md",
+    "00-模板/一言模板.md",
     "00-模板/一言.md",
     "00-模板/年复盘模板.md",
-    "00-模板/挂件.md",
-    "00-inbox/未命名.md",
     "HOMEPAGE.canvas",
-    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
-    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
-    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project",
-    "wsm/其他/科技论文写作.md",
-    "wsm/01-日记/2024-06-01.md",
-    "02-paper/01-RTCSA/QCH-workspace.md",
-    "03-research/01-端到端/Efficient maximum data age analysis for cause-effect chains in automotive systems.md",
-    "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-    "00-inbox/ROS2 环境.md",
-    "00-inbox/2024-W22-05-27.md",
-    "01-永久笔记/02-研究/ROS总结.md",
-    "01-永久笔记/03-菜谱/27-蚝油生菜.md",
-    "01-永久笔记/工作流.md",
-    "wsm/01-日记/2024-05/2024-05-29.md",
-    "01-永久笔记/03-菜谱/0-菜谱看板.md",
-    "01-永久笔记/03-菜谱/2-青椒肉丝.md",
-    "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
-    "01-永久笔记/03-菜谱/22-木须肉.md",
-    "01-永久笔记/03-菜谱/23-鸡蛋酱.md",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
     "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",
