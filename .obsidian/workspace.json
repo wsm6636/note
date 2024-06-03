@@ -31,8 +31,22 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "96d0497bfd404240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ROS2使用.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -88,11 +102,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 272
+    "width": 272,
+    "collapsed": true
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -116,7 +132,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -164,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 288,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,8 +237,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0f5b56a01c8c830",
+  "active": "96d0497bfd404240",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "01-永久笔记/01-教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
     "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
     "00-模板/zoteronote模板.md",
@@ -249,8 +267,6 @@
     "03-research/03-调度/定时器/timershield.md",
     "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "03-research/09-PREEMPT_RT/PREEMPT_RT.md",
-    "03-research/02-因果链/cause-effect chain.md",
-    "HOMEPAGE.canvas",
     "Projects - Demo Project",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",

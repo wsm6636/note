@@ -283,7 +283,6 @@
     "wsm/01-日记/2024-05/2024-05-22.md": "a66634e5bcc65d581412996ebb34e021f133d756fc9de686269b90d3eaa29e0f",
     "wsm/01-日记/2024-05/2024-05-23.md": "81d7a97d2ffd3176347f5940e07e0094e7187fdb45db1e33c8fc671efa38adae",
     "01-永久笔记/02-研究/ROS总结.md": "3377eb95331e03997d049a04f90f596d857ad11952caca499cf3963a7f561b84",
-    "00-inbox/ROS2 环境.md": "b7a333af1bf1fd0a5cc9a46f04ed88a6f32d905262cdfff3d195d2b1c90948b0",
     "03-research/11-ROS/PiCAS - New Design of Priority-Driven Chain-Aware Scheduling for ROS2.md": "c17831827f2a8d8947968d79349f837d0651f5ad4448164e5f1d6a66da79dec7",
     "03-research/11-ROS/Response Time Analysis and Priority Assignment of Processing Chains on ROS2 Executors.md": "7cb789e2e88bcb9ec8771afa4bd4a6a7f468398e906251fe8683945b37656812",
     "03-research/11-ROS/SEAM - An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md": "df5b704e11429227a544e0c2329f44e663dfbeddff0f0341b2a02fb285840f5f",
@@ -307,6 +306,7 @@
     "wsm/01-日记/2024-02/2024-02-27.md": "f3e4796ecf5392a05886fbaaef8425be39fc90eb56c849971a7b558e8404b14c",
     "02-paper/04-ESWEEK/ESWEEK-workspace.md": "96e2c484ece1ce5f6c27edd4d6b56f32d6a0a07fb0d4f8b0d3363ce57786ced8",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md": "7549c67a3735189fb8ae5bba3d7f8f1bfc1f2d60eb8146c599bcb2214dd2cbfb",
-    "02-paper/03-DAC/ATS-workspace.md": "d67deaeaac74e5dcfb7c1fa29850497e07f1858a97af823a7cc6f37bbb128e1e"
+    "02-paper/03-DAC/ATS-workspace.md": "d67deaeaac74e5dcfb7c1fa29850497e07f1858a97af823a7cc6f37bbb128e1e",
+    "00-inbox/ROS2使用.md": "2f1e189330d7b03e4edec2731c37fc0c2469bf73e29ac4d04cf99ea4c55ace7f"
   }
 }
