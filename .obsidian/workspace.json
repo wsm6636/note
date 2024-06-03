@@ -32,8 +32,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -114,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -161,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -210,13 +215,14 @@
       "obsidian-kanban:创建新看板": true,
       "templater-obsidian:Templater": true,
       "obsidian-memos:Thino": false,
-      "periodic-notes:Open today": true,
       "obsidian-projects:Open projects": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "c7f81fc298a1fa0b",
+  "active": "f0f5b56a01c8c830",
   "lastOpenFiles": [
+    "01-永久笔记/01-教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
     "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
     "00-模板/zoteronote模板.md",
     "00-模板/annotation-color-note.md",
@@ -244,7 +250,6 @@
     "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
     "03-research/09-PREEMPT_RT/PREEMPT_RT.md",
     "03-research/02-因果链/cause-effect chain.md",
-    "00-inbox/2024.md",
     "HOMEPAGE.canvas",
     "Projects - Demo Project",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",

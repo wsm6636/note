@@ -90,15 +90,19 @@
               },
               "tags": {
                 "width": 331
+              },
+              "path": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
               }
             },
             "orderFields": [
               "name",
-              "path",
-              "created",
-              "updated",
               "status",
-              "tags"
+              "tags",
+              "updated"
             ]
           },
           "filter": {
@@ -278,15 +282,19 @@
               },
               "tags": {
                 "width": 331
+              },
+              "path": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
               }
             },
             "orderFields": [
               "name",
-              "path",
-              "created",
-              "updated",
               "status",
-              "tags"
+              "tags",
+              "updated"
             ]
           },
           "filter": {
@@ -421,15 +429,20 @@
               },
               "tags": {
                 "width": 331
+              },
+              "created": {
+                "hide": true
+              },
+              "path": {
+                "hide": false
               }
             },
             "orderFields": [
               "name",
-              "path",
-              "created",
-              "updated",
               "status",
-              "tags"
+              "tags",
+              "updated",
+              "path"
             ]
           },
           "filter": {
@@ -842,14 +855,68 @@
         {
           "config": {
             "interval": "month",
-            "dateField": "周记"
+            "dateField": "日记"
           },
           "filter": {
-            "conjunction": "and",
-            "conditions": []
+            "conjunction": "or",
+            "conditions": [
+              {
+                "field": "论文",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "意语",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "运动",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "英语",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
           },
           "colors": {
-            "conditions": []
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "论文",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#78ace3",
+                "condition": {
+                  "field": "意语",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#85eabe",
+                "condition": {
+                  "field": "英语",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#f7abe7",
+                "condition": {
+                  "field": "运动",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              }
+            ]
           },
           "sort": {
             "criteria": []
@@ -1249,7 +1316,53 @@
         },
         {
           "config": {
-            "coverField": "#周复盘完成度"
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              }
+            }
           },
           "filter": {
             "conjunction": "and",
@@ -1258,7 +1371,18 @@
                 "field": "tags",
                 "operator": "has-any-of",
                 "enabled": true,
-                "value": "[\"个人/周记\"]"
+                "value": "[\"个人/日记\"]"
+              },
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "path",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "00-模板"
               }
             ]
           },
@@ -1268,13 +1392,355 @@
           "sort": {
             "criteria": []
           },
-          "id": "9f7b2ba3-f9dc-4436-8993-c53d8f6da560",
-          "name": "周",
-          "type": "gallery"
+          "id": "0d7a7504-f929-45d2-bacc-e0304fbd2fc8",
+          "name": "打卡",
+          "type": "table"
         }
       ],
       "id": "d7973416-7b1b-48b2-ab40-1dd2983562ab",
       "name": "个人"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#笔记/paper",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ab3b7bfb-abac-4521-9718-09ede504f13a",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "0bf6182e-b67f-471c-87e8-9fd7b29af82c",
+      "name": "paper"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "04-project",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ba2067d0-f18d-45e6-8e43-243d9bd73536",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "faf20c5d-3f3c-417d-a97a-aeda0903b162",
+      "name": "projet"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "#论文": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": true,
+                "value": "[\"菜谱\"]"
+              },
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": true,
+                "value": "[\"笔记/永久笔记\"]"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "02a1b829-0d18-4f2c-a61b-a497a647c050",
+          "name": "菜谱",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 221,
+                "hide": true
+              },
+              "#论文": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "contains",
+                "enabled": true,
+                "value": "01-永久笔记/02-研究"
+              },
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": true,
+                "value": "[\"笔记/永久笔记\"]"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1b363697-48e5-4b13-99ed-7802469df75e",
+          "name": "研究",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "#论文": {
+                "hide": true
+              },
+              "#日记完成度": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "论文": {
+                "hide": true
+              },
+              "评分": {
+                "hide": true
+              },
+              "日记": {
+                "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "意语": {
+                "hide": true
+              },
+              "英语": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "运动": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "contains",
+                "enabled": true,
+                "value": "01-永久笔记/01"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7e4831c4-8a62-4778-9b0c-4a546f763eaf",
+          "name": "工程",
+          "type": "table"
+        }
+      ],
+      "id": "05db6be6-8247-47c4-9397-6b8ad2589793",
+      "name": "永久笔记"
     }
   ],
   "archives": [],
