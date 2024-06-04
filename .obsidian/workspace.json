@@ -25,28 +25,28 @@
             }
           },
           {
+            "id": "5c65a75da4ff540f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W23-06-03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c7f81fc298a1fa0b",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "96d0497bfd404240",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ROS2使用.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "00-inbox/2024-06-03.md"
               }
             }
           },
@@ -102,13 +102,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 272,
-    "collapsed": true
+    "width": 272
   },
   "right": {
     "id": "72a98f63b87fd861",
@@ -132,7 +130,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "00-inbox/2024-06-03.md"
               }
             }
           },
@@ -159,8 +157,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7b1fd88d5e213e1c",
@@ -180,7 +177,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +193,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -216,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288,
-    "collapsed": true
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,9 +231,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "96d0497bfd404240",
+  "active": "7fc5fa2c3f576f36",
   "lastOpenFiles": [
+    "00-inbox/2024-W23-06-03.md",
+    "00-inbox/2024-06-03.md",
     "HOMEPAGE.canvas",
+    "00-inbox/ROS2使用.md",
     "01-永久笔记/01-教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
     "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
     "00-模板/zoteronote模板.md",
@@ -251,7 +248,6 @@
     "00-inbox/Robot Operating System 2 - Design, Architecture, and Uses In The Wild.md",
     "01-永久笔记/工作流.md",
     "00-inbox/2024-06.md",
-    "00-inbox/2024-W23-06-03.md",
     "00-模板/月复盘模板.md",
     "wsm/02-周记/2024-W23-06-03.md.nssyncsc",
     "wsm/02-周记/2024-W22-05-27.md",
@@ -266,7 +262,6 @@
     "01-永久笔记/01-教程/ubuntu系统迁移.md",
     "03-research/03-调度/定时器/timershield.md",
     "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "03-research/09-PREEMPT_RT/PREEMPT_RT.md",
     "Projects - Demo Project",
     "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
     "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
