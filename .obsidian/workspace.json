@@ -23,8 +23,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "cb00a4539b597b8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W24-06-10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W24-06-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-W24-06-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-W24-06-10.md"
               }
             }
           }
@@ -158,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,6 +192,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "74eb1e8a07033896",
-  "lastOpenFiles": []
+  "active": "cb00a4539b597b8b",
+  "lastOpenFiles": [
+    "wsm/02-周记/2024-W23-06-03.md",
+    "00-inbox/2024-W24-06-10.md",
+    "wsm/01-日记/2024-06/2024-06-07.md",
+    "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-06/2024-06-01.md"
+  ]
 }
