@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "294b4e0f06f67d58",
+    "id": "19236dad4060009d",
     "type": "split",
     "children": [
       {
-        "id": "b5659d2d793e0d8b",
+        "id": "939ddccc092016fb",
         "type": "tabs",
         "children": [
           {
-            "id": "f0f5b56a01c8c830",
+            "id": "74eb1e8a07033896",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,49 +18,27 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -599,
-                  "zoom": -0.34066182837500686
+                  "zoom": -0.23684872993759304
                 }
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5c65a75da4ff540f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W23-06-03.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7f81fc298a1fa0b",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1fed9e04a5e97d6d",
+    "id": "a15e6ad2653dfebf",
     "type": "split",
     "children": [
       {
-        "id": "6ab1e536c6013608",
+        "id": "0298f76ce71a3884",
         "type": "tabs",
         "children": [
           {
-            "id": "7fc5fa2c3f576f36",
+            "id": "7c6620abd473f20d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -70,23 +48,13 @@
             }
           },
           {
-            "id": "2b8117d4845201ce",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00-inbox/2024-06-03.md"
-              }
-            }
-          },
-          {
-            "id": "14e19d6c3c25ebf5",
+            "id": "680cc852cf22b7f1",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -95,7 +63,7 @@
             }
           },
           {
-            "id": "96534df3a7e62762",
+            "id": "5b93bea0a6df77fd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -106,18 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272
+    "width": 300
   },
   "right": {
-    "id": "72a98f63b87fd861",
+    "id": "f9eb34c335bcb918",
     "type": "split",
     "children": [
       {
-        "id": "dbe74c464049a0d9",
+        "id": "741130da544f6c02",
         "type": "tabs",
         "children": [
           {
-            "id": "3501862ae9ba4ae9",
+            "id": "3ed4811e61b1cfd9",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -125,17 +93,47 @@
             }
           },
           {
-            "id": "5197dfeb81980684",
+            "id": "4e95ff449c903c79",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
+              "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-06-03.md"
+                "file": "HOMEPAGE.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "96dc35b409b674e6",
+            "id": "ccf1553d9e14d3f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d81f3eabc5e22ee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e69b3382a918dcc5",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,147 +145,40 @@
             }
           },
           {
-            "id": "fbd984f9597fd947",
+            "id": "103c4a89efe1b288",
             "type": "leaf",
             "state": {
-              "type": "tag",
+              "type": "outline",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
         ]
-      },
-      {
-        "id": "7b1fd88d5e213e1c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ef7b58c1de8e9019",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "e8da10234d4adde3",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "e38c973fcf2e963e",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "66995075eb263964",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": true,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": true,
-      "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": true,
-      "obsidian-kanban:创建新看板": true,
-      "templater-obsidian:Templater": true,
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
+      "obsidian-kanban:创建新看板": false,
+      "templater-obsidian:Templater": false,
       "obsidian-memos:Thino": false,
       "obsidian-projects:Open projects": false,
-      "homepage:Open homepage": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "7fc5fa2c3f576f36",
-  "lastOpenFiles": [
-    "00-inbox/2024-W23-06-03.md",
-    "00-inbox/2024-06-03.md",
-    "HOMEPAGE.canvas",
-    "00-inbox/ROS2使用.md",
-    "01-永久笔记/01-教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md",
-    "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
-    "00-模板/zoteronote模板.md",
-    "00-模板/annotation-color-note.md",
-    "wsm/其他/科技论文写作.md",
-    "00-inbox/annotation-ROS2 Real-time Performance Optimization and Evaluation.md",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-    "00-inbox/{{title}}.md",
-    "00-inbox/Robot Operating System 2 - Design, Architecture, and Uses In The Wild.md",
-    "01-永久笔记/工作流.md",
-    "00-inbox/2024-06.md",
-    "00-模板/月复盘模板.md",
-    "wsm/02-周记/2024-W23-06-03.md.nssyncsc",
-    "wsm/02-周记/2024-W22-05-27.md",
-    "wsm/03-月复盘/2024-05.md",
-    "wsm/01-日记/2024-06-01.md",
-    "wsm/01-日记/2024-06",
-    "00-inbox/审稿意见.md",
-    "02-paper/02-RTSS/评审意见精简.md",
-    "01-永久笔记/01-教程/远程控制_客户端配置.md",
-    "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md",
-    "01-永久笔记/01-教程/Vmware Ubuntu虚拟机磁盘扩容方法.md",
-    "01-永久笔记/01-教程/ubuntu系统迁移.md",
-    "03-research/03-调度/定时器/timershield.md",
-    "03-research/10-DAG/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "Projects - Demo Project",
-    "00-inbox/2024-05-27.md.baiduyun.uploading.cfg",
-    "00-inbox/2024-W22-05-27.md.baiduyun.uploading.cfg",
-    "wsm/02-周记/2024-W21-05-20.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-05/2024-05-23.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-05/2024-05-22.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-05/2024-05-21.md.baiduyun.uploading.cfg",
-    "wsm/01-日记/2024-05/2024-05-20.md.baiduyun.uploading.cfg",
-    "HOMEPAGEiPhone.canvas",
-    "00-inbox/attachments/885DVGI8.png",
-    "00-inbox/attachments/7JSN53ID.png",
-    "00-inbox/attachments/7XRA6KSM.png",
-    "00-模板/HOMEPAGE 模板.canvas",
-    "看板.canvas",
-    "00-inbox/未命名.canvas",
-    "00-inbox/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing/image-5-x240-y136.png",
-    "00-模板/启动页模板3.canvas",
-    "00-模板/启动页模板2.canvas",
-    "00-模板/启动页模板1.canvas",
-    "00-模板/HOMEPAGEiPhone 模板.canvas",
-    "未命名.canvas",
-    "06-图/1.png",
-    "图/222 1.png",
-    "图/111).png",
-    "06-图/111.png",
-    "图/2a64fd65617e9cd277a6f0137ee8d43.jpg",
-    "obsidian-example-LifeOS-chinese-version/1. 项目/个人品牌-WOT-分享会/Attachments/PPT 素材/warning.svg"
-  ]
+  "active": "74eb1e8a07033896",
+  "lastOpenFiles": []
 }
