@@ -38,19 +38,46 @@
             }
           },
           {
-            "id": "d258c2183dc22b52",
+            "id": "778bf6752451ffa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-06-11.md",
+                "file": "00-inbox/2024-06-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3b4f992ccf1ba22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-娱乐/塞尔达/旷野之息迷你挑战.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5614cf6ad2227c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-娱乐/塞尔达/旷野之息神庙挑战.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "05-娱乐/塞尔达/旷野之息神庙挑战.md"
               }
             }
           }
@@ -134,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "05-娱乐/塞尔达/旷野之息神庙挑战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "05-娱乐/塞尔达/旷野之息神庙挑战.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,10 +254,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "74eb1e8a07033896",
+  "active": "c5614cf6ad2227c6",
   "lastOpenFiles": [
-    "00-inbox/2024-06-11.md",
+    "05-娱乐/塞尔达/旷野之息迷你挑战.md",
+    "00-inbox/2024-06-12.md",
     "00-inbox/2024-W24-06-10.md",
+    "wsm/01-日记/2024-06/2024-06-11.md",
     "HOMEPAGE.canvas",
     "00-inbox/2024-06.md",
     "wsm/02-周记/2024-W23-06-03.md",
