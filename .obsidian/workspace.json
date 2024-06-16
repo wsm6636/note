@@ -23,8 +23,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "28d1ea38859ca58d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/02-周记/2024-W24-06-10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6883978c82144b91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-06-16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/2024-06-16.md"
               }
             }
           }
@@ -108,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-06-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/2024-06-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,25 +228,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "74eb1e8a07033896",
+  "active": "6883978c82144b91",
   "lastOpenFiles": [
+    "wsm/02-周记/2024-W24-06-10.md",
+    "00-inbox/2024-06-16.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/2024-W25-06-17.md",
+    "01-永久笔记/工作流.md",
+    "wsm/02-周记/2024-W23-06-03.md",
     "01-永久笔记/03-菜谱/0-菜谱看板.md",
     "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
     "01-永久笔记/03-菜谱/30-干锅鸡翅.md",
     "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
     "01-永久笔记/03-菜谱/29-韩式拌饭.md",
-    "HOMEPAGE.canvas",
     "01-永久笔记/03-菜谱/28-卤肉饭.md",
     "wsm/01-日记/2024-06/2024-06-14.md",
-    "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-06/2024-06-07.md",
     "wsm/01-日记/2024-06/2024-06-11.md",
     "wsm/01-日记/2024-06/2024-06-12.md",
-    "00-inbox/2024-W24-06-10.md",
     "05-娱乐/塞尔达/旷野之息神庙挑战.md",
     "05-娱乐/塞尔达/旷野之息迷你挑战.md",
     "00-inbox/2024-06.md",
-    "wsm/02-周记/2024-W23-06-03.md",
     "wsm/01-日记/2024-06/2024-06-01.md"
   ]
 }
