@@ -1522,7 +1522,8 @@
                 "hide": true
               },
               "食材": {
-                "hide": true
+                "hide": false,
+                "width": 266
               },
               "意语": {
                 "hide": true
@@ -1537,12 +1538,24 @@
                 "hide": true
               },
               "种类": {
-                "hide": true
+                "hide": false
               },
               "周记": {
                 "hide": true
+              },
+              "created": {
+                "hide": true
               }
-            }
+            },
+            "orderFields": [
+              "name",
+              "种类",
+              "食材",
+              "created",
+              "status",
+              "tags",
+              "updated"
+            ]
           },
           "filter": {
             "conjunction": "and",

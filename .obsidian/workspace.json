@@ -23,58 +23,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5dc29ecfea79d1d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W24-06-10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "778bf6752451ffa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-06-12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3b4f992ccf1ba22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-娱乐/塞尔达/旷野之息迷你挑战.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5614cf6ad2227c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-娱乐/塞尔达/旷野之息神庙挑战.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -255,15 +203,23 @@
   },
   "active": "74eb1e8a07033896",
   "lastOpenFiles": [
-    "00-inbox/2024-06-12.md",
+    "01-永久笔记/03-菜谱/0-菜谱看板.md",
+    "01-永久笔记/03-菜谱/26-可乐鸡翅.md",
+    "01-永久笔记/03-菜谱/30-干锅鸡翅.md",
+    "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
+    "01-永久笔记/03-菜谱/29-韩式拌饭.md",
+    "HOMEPAGE.canvas",
+    "01-永久笔记/03-菜谱/28-卤肉饭.md",
+    "wsm/01-日记/2024-06/2024-06-14.md",
+    "01-永久笔记/工作流.md",
+    "wsm/01-日记/2024-06/2024-06-07.md",
     "wsm/01-日记/2024-06/2024-06-11.md",
+    "wsm/01-日记/2024-06/2024-06-12.md",
+    "00-inbox/2024-W24-06-10.md",
     "05-娱乐/塞尔达/旷野之息神庙挑战.md",
     "05-娱乐/塞尔达/旷野之息迷你挑战.md",
-    "00-inbox/2024-W24-06-10.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-06.md",
     "wsm/02-周记/2024-W23-06-03.md",
-    "wsm/01-日记/2024-06/2024-06-07.md",
     "wsm/01-日记/2024-06/2024-06-01.md"
   ]
 }
