@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,8 +227,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d310361db0e2ce21",
+  "active": "74eb1e8a07033896",
   "lastOpenFiles": [
+    "00-inbox/ROS2使用.md",
     "00-inbox/2024-W25-06-17.md",
     "HOMEPAGE.canvas",
     "00-inbox/2024-06-16.md",
