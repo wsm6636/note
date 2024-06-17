@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-06-03T12:50
+updated: 2024-06-17T11:11
 status:
   - ing
 ---
@@ -191,3 +191,9 @@ rviz2
 
 
 ![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202406031240487.png)
+
+# linux
+```
+sudo chrt -d -p 0  -T 5000000 -D 10000000 -P 16666666 84721  
+```
+
