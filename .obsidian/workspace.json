@@ -25,6 +25,16 @@
             }
           },
           {
+            "id": "39b3308514803f62",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
             "id": "28d1ea38859ca58d",
             "type": "leaf",
             "state": {
@@ -36,22 +46,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6883978c82144b91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-06-16.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00-inbox/2024-06-16.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-06-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-06-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +221,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6883978c82144b91",
+  "active": "39b3308514803f62",
   "lastOpenFiles": [
     "wsm/02-周记/2024-W24-06-10.md",
     "00-inbox/2024-06-16.md",
@@ -241,7 +234,7 @@
     "01-永久笔记/03-菜谱/30-干锅鸡翅.md",
     "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
     "01-永久笔记/03-菜谱/29-韩式拌饭.md",
-    "01-永久笔记/03-菜谱/28-卤肉饭.md",
+    "00-inbox/28-卤肉饭.md",
     "wsm/01-日记/2024-06/2024-06-14.md",
     "wsm/01-日记/2024-06/2024-06-07.md",
     "wsm/01-日记/2024-06/2024-06-11.md",
