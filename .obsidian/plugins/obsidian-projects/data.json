@@ -96,6 +96,15 @@
               },
               "created": {
                 "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -288,6 +297,15 @@
               },
               "created": {
                 "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -435,6 +453,15 @@
               },
               "path": {
                 "hide": false
+              },
+              "每周一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -616,6 +643,15 @@
               },
               "tags": {
                 "width": 373
+              },
+              "每日一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -757,6 +793,15 @@
               },
               "updated": {
                 "width": 150
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -883,40 +928,7 @@
             ]
           },
           "colors": {
-            "conditions": [
-              {
-                "color": "#a882ff",
-                "condition": {
-                  "field": "论文",
-                  "operator": "is-not-empty",
-                  "enabled": true
-                }
-              },
-              {
-                "color": "#78ace3",
-                "condition": {
-                  "field": "意语",
-                  "operator": "is-not-empty",
-                  "enabled": true
-                }
-              },
-              {
-                "color": "#85eabe",
-                "condition": {
-                  "field": "英语",
-                  "operator": "is-not-empty",
-                  "enabled": true
-                }
-              },
-              {
-                "color": "#f7abe7",
-                "condition": {
-                  "field": "运动",
-                  "operator": "is-not-empty",
-                  "enabled": true
-                }
-              }
-            ]
+            "conditions": []
           },
           "sort": {
             "criteria": []
@@ -969,8 +981,32 @@
               },
               "path": {
                 "hide": true
+              },
+              "每日一句总结": {
+                "width": 309
+              },
+              "name": {
+                "width": 127
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
               }
-            }
+            },
+            "orderFields": [
+              "name",
+              "每日一句总结",
+              "#日记完成度",
+              "#论文",
+              "#意语",
+              "#英语",
+              "#运动",
+              "status",
+              "tags",
+              "updated"
+            ]
           },
           "filter": {
             "conjunction": "and",
@@ -1070,8 +1106,22 @@
               },
               "#运动": {
                 "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
               }
-            }
+            },
+            "orderFields": [
+              "name",
+              "每周一句总结",
+              "#周复盘完成度",
+              "status",
+              "tags",
+              "updated"
+            ]
           },
           "filter": {
             "conjunction": "and",
@@ -1171,8 +1221,22 @@
               },
               "#运动": {
                 "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
               }
-            }
+            },
+            "orderFields": [
+              "name",
+              "每月一句总结",
+              "#月复盘完成度",
+              "status",
+              "tags",
+              "updated"
+            ]
           },
           "filter": {
             "conjunction": "and",
@@ -1361,6 +1425,15 @@
               },
               "created": {
                 "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
               }
             }
           },
@@ -1545,6 +1618,15 @@
               },
               "created": {
                 "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -1641,6 +1723,15 @@
               },
               "周记": {
                 "hide": true
+              },
+              "每日一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
               }
             }
           },
@@ -1726,6 +1817,15 @@
                 "hide": true
               },
               "path": {
+                "hide": true
+              },
+              "每周一句总结": {
+                "hide": true
+              },
+              "每月一句总结": {
+                "hide": true
+              },
+              "每日一句总结": {
                 "hide": true
               }
             }

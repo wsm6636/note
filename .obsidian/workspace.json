@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -752.4297425742575,
+                  "y": -423.65172277227725,
                   "zoom": -0.23684872993759304
                 }
               },
@@ -25,7 +25,20 @@
             }
           },
           {
-            "id": "b60adbf3b6a8096d",
+            "id": "9a43c0bacb6afb9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/01-日记/2024-06-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78a329ed64ec36ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,12 +51,46 @@
             }
           },
           {
-            "id": "d310361db0e2ce21",
+            "id": "c2c27a14db6e0157",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
+            "id": "9eb5c51499056bde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "00-模板/zoteronote模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc132855dfb636a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcde31f4c34af7ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/annotation-color-note.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -229,9 +276,22 @@
   },
   "active": "74eb1e8a07033896",
   "lastOpenFiles": [
-    "00-inbox/ROS2使用.md",
-    "HOMEPAGE.canvas",
+    "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-模板/annotation-color-note.md",
+    "00-模板/zoteronote模板.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "wsm/01-日记/2024-06-17.md",
     "00-inbox/2024-W25-06-17.md",
+    "00-模板/年复盘模板.md",
+    "00-模板/周记模板.md",
+    "00-模板/月复盘模板.md",
+    "00-inbox/2024-06.md",
+    "00-模板/日记模板.md",
+    "00-inbox/2024.md",
+    "wsm/01-日记/2024-02/2024-02-27.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/ROS2使用.md",
     "00-inbox/2024-06-16.md",
     "wsm/02-周记/2024-W24-06-10.md",
     "01-永久笔记/工作流.md",
@@ -242,13 +302,6 @@
     "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
     "01-永久笔记/03-菜谱/29-韩式拌饭.md",
     "00-inbox/28-卤肉饭.md",
-    "wsm/01-日记/2024-06/2024-06-14.md",
-    "wsm/01-日记/2024-06/2024-06-07.md",
-    "wsm/01-日记/2024-06/2024-06-11.md",
-    "wsm/01-日记/2024-06/2024-06-12.md",
-    "05-娱乐/塞尔达/旷野之息神庙挑战.md",
-    "05-娱乐/塞尔达/旷野之息迷你挑战.md",
-    "00-inbox/2024-06.md",
-    "wsm/01-日记/2024-06/2024-06-01.md"
+    "wsm/01-日记/2024-06/2024-06-14.md"
   ]
 }

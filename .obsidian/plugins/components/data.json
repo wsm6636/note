@@ -2,6 +2,87 @@
   "widgets": [],
   "components": [
     {
+      "id": "98bc8dfd-729b-4b44-8202-57178e032f99",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-06-17T20:42:14.888Z",
+      "updateAt": "2024-06-17T20:44:42.153Z",
+      "backgroundStyle": "none",
+      "viewType": "table",
+      "datasource": {
+        "filter": {
+          "id": "05518b9f-7496-4cac-96f1-bce65023dd13",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "fbbd9e5e-4031-4b84-9d8d-279831b67ef1",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "个人/日记",
+              "conditions": []
+            },
+            {
+              "id": "c364be8c-4933-4625-8e87-2262cce76036",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "日记",
+              "value": "2024-06-01T00:00",
+              "conditions": []
+            },
+            {
+              "id": "96c0c11e-f14b-4df9-8bb5-bb04d8ba1573",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "日记",
+              "value": "2024-06-30T23:59",
+              "conditions": []
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": [
+            {
+              "id": "969ed699-dfda-4111-8cd4-d380aeafadd0",
+              "property": "${file.basename}",
+              "direction": "desc"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "id": "1498bda5-6b91-426e-9cfe-a734a007967f",
+          "name": "每日一句总结",
+          "isShow": true,
+          "defaultValue": "",
+          "type": "text",
+          "options": {
+            "width": "418"
+          }
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--project-card-medium",
+        "showPropertyName": false,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      }
+    },
+    {
       "id": "febb8277-f875-4f9c-b46f-3b69408bdf60",
       "type": "dynamicDataView",
       "titleAlign": "center",
@@ -1532,6 +1613,23 @@
       "backgroundStyle": "none",
       "widgets": [],
       "components": [],
+      "layoutType": "column"
+    },
+    {
+      "id": "410a3be6-63ce-438f-84b0-77215438d273",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-06-17T20:31:42.240Z",
+      "updateAt": "2024-06-17T20:31:57.032Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "98bc8dfd-729b-4b44-8202-57178e032f99"
+        }
+      ],
       "layoutType": "column"
     }
   ]
