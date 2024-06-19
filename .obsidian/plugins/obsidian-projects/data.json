@@ -105,6 +105,30 @@
               },
               "每日一句总结": {
                 "hide": true
+              },
+              "zoterolink": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "allAuthors": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -306,6 +330,30 @@
               },
               "每日一句总结": {
                 "hide": true
+              },
+              "zoterolink": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "allAuthors": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -462,6 +510,30 @@
               },
               "每日一句总结": {
                 "hide": true
+              },
+              "zoterolink": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "allAuthors": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -581,7 +653,7 @@
       "dataSource": {
         "kind": "tag",
         "config": {
-          "tag": "",
+          "tag": "#笔记/idea",
           "hierarchy": true
         }
       },
@@ -722,7 +794,7 @@
       "dataSource": {
         "kind": "tag",
         "config": {
-          "tag": "",
+          "tag": "#笔记/文献笔记",
           "hierarchy": true
         }
       },
@@ -822,20 +894,7 @@
           },
           "filter": {
             "conjunction": "and",
-            "conditions": [
-              {
-                "field": "tags",
-                "operator": "has-all-of",
-                "enabled": true,
-                "value": "[\"笔记/文献笔记\"]"
-              },
-              {
-                "field": "path",
-                "operator": "not-contains",
-                "enabled": true,
-                "value": "00-模板"
-              }
-            ]
+            "conditions": []
           },
           "colors": {
             "conditions": []
@@ -886,12 +945,17 @@
       "fieldConfig": {},
       "defaultName": "",
       "templates": [],
-      "excludedNotes": [],
+      "excludedNotes": [
+        "00-模板/月复盘模板.md",
+        "00-模板/年复盘模板.md",
+        "00-模板/日记模板.md",
+        "00-模板/周记模板.md"
+      ],
       "isDefault": false,
       "dataSource": {
         "kind": "tag",
         "config": {
-          "tag": "",
+          "tag": "#个人",
           "hierarchy": true
         }
       },
@@ -992,6 +1056,30 @@
                 "hide": true
               },
               "每周一句总结": {
+                "hide": true
+              },
+              "allAuthors": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "zoterolink": {
                 "hide": true
               }
             },
@@ -1112,6 +1200,30 @@
               },
               "每月一句总结": {
                 "hide": true
+              },
+              "zoterolink": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "allAuthors": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -1226,6 +1338,30 @@
                 "hide": true
               },
               "每周一句总结": {
+                "hide": true
+              },
+              "zoterolink": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "allAuthors": {
                 "hide": true
               }
             },
@@ -1434,6 +1570,39 @@
               },
               "每周一句总结": {
                 "hide": true
+              },
+              "zoterolink": {
+                "hide": true
+              },
+              "updated": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              },
+              "status": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "allAuthors": {
+                "hide": true
               }
             }
           },
@@ -1552,7 +1721,7 @@
       "dataSource": {
         "kind": "tag",
         "config": {
-          "tag": "",
+          "tag": "#笔记/永久笔记",
           "hierarchy": true
         }
       },
