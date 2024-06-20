@@ -39,7 +39,7 @@ notelink: "[[{{title}}]]"
 
 {% endfor %}
 
-# <font color="#ff6666">贡献</font>
+# <font color="#ff6666">贡献/结果</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#ff6666' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -84,7 +84,7 @@ notelink: "[[{{title}}]]"
 
 {% endfor %}
 
-# <font color="#a28ae5">算法</font>
+# <font color="#a28ae5">算法/推导/分析</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#a28ae5' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -100,7 +100,7 @@ notelink: "[[{{title}}]]"
 
 {% endfor %}
 
-# <font color="#e56eee">参考</font>
+# <font color="#e56eee">参考/学习</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#e56eee' %}
 ### 第{{i}}个注释{% set i=i+1 %}
@@ -145,7 +145,7 @@ notelink: "[[{{title}}]]"
 
 {% endfor %}
 
-# <font color="#b15928">学习</font>
+# <font color="#b15928">没看懂</font>
 
 {% set i=1%}{% for annotation in annotations %}{% if annotation.color == '#b15928' %}
 ### 第{{i}}个注释{% set i=i+1 %}
