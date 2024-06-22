@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-模板/annotation-color-note.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -134,7 +133,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-模板/annotation-color-note.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-模板/annotation-color-note.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-模板/annotation-color-note.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +224,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a31edbe4153579f4",
+  "active": "74eb1e8a07033896",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "01-永久笔记/工作流.md",
