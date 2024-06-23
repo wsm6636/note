@@ -63,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/01-日记/2024-06-22.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -160,7 +159,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/01-日记/2024-06-22.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -203,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/01-日记/2024-06-22.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/01-日记/2024-06-22.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +250,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7c6620abd473f20d",
+  "active": "74eb1e8a07033896",
   "lastOpenFiles": [
     "00-inbox/2024-W25-06-17.md",
     "wsm/01-日记/2024-06-22.md",
