@@ -31,6 +31,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "fd33f01724c83fc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/03-菜谱/20-鱼香肉丝.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -221,6 +234,8 @@
   },
   "active": "74eb1e8a07033896",
   "lastOpenFiles": [
+    "01-永久笔记/03-菜谱/20-鱼香肉丝.md",
+    "01-永久笔记/03-菜谱/0-菜谱看板.md",
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-06-23.md",
     "00-inbox/2024-W25-06-17.md",
@@ -249,7 +264,6 @@
     "wsm/01-日记/2024-02/2024-02-28.md",
     "wsm/01-日记/2024-02/2024-02-29.md",
     "wsm/01-日记/2024-03/2024-03-01.md",
-    "wsm/01-日记/2024-03/2024-03-04.md",
     "00-inbox/2024-06-10.md.nssyncsc"
   ]
 }
