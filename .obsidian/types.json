@@ -3,7 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "文本": "date",
+    "文本": "text",
     "列表": "multitext",
     "数字": "text",
     "复选框": "checkbox",
@@ -16,6 +16,11 @@
     "英语": "date",
     "论文": "date",
     "#日记完成度": "number",
-    "意语": "date"
+    "意语": "date",
+    "title": "text",
+    "Pub.date": "date",
+    "Journal or Conference": "text",
+    "allAuthors": "multitext",
+    "文献tags": "multitext"
   }
 }
