@@ -25,6 +25,16 @@
             }
           },
           {
+            "id": "41b1666d063eeda6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
             "id": "3843e200b345248f",
             "type": "leaf",
             "state": {
@@ -37,7 +47,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -132,9 +141,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -176,7 +183,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +199,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,38 +229,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "74eb1e8a07033896",
+  "active": "41b1666d063eeda6",
   "lastOpenFiles": [
-    "00-inbox/ROS2使用.md",
     "HOMEPAGE.canvas",
+    "00-inbox/ROS2使用.md",
     "01-永久笔记/03-菜谱/20-鱼香肉丝.md",
     "00-inbox/2024-W26-06-24.md",
-    "wsm/01-日记/2024-06/2024-06-24.md",
+    "wsm/01-日记/2024-06-24.md",
     "01-永久笔记/03-菜谱/0-菜谱看板.md",
-    "wsm/01-日记/2024-06/2024-06-23.md",
+    "wsm/01-日记/2024-06-23.md",
     "00-inbox/2024-W25-06-17.md",
     "00-模板/annotation-color-note.md",
-    "wsm/01-日记/2024-06/2024-06-22.md",
+    "wsm/01-日记/2024-06-22.md",
     "00-inbox/2024-06-23.md.nssyncsc",
-    "wsm/01-日记/2024-06/2024-06-21.md",
+    "wsm/01-日记/2024-06-21.md",
     "00-inbox/2024-06-21.md",
     "00-inbox/2024-06-21.md.nssyncsc",
     "01-永久笔记/工作流.md",
-    "wsm/01-日记/2024-06/2024-06-19.md",
-    "wsm/01-日记/2024-06/2024-06-20.md",
+    "wsm/01-日记/2024-06-19.md",
+    "wsm/01-日记/2024-06-20.md",
     "00-inbox/2024-06-20.md.nssyncsc",
     "00-模板/日记模板.md",
     "01-永久笔记/03-菜谱/28-卤肉饭.md",
     "01-永久笔记/03-菜谱/18-蘑菇肉酱（打卤面）.md",
-    "wsm/01-日记/2024-05/2024-05-22.md",
-    "wsm/01-日记/2024-05/2024-05-29.md",
+    "wsm/01-日记/2024-05-22.md",
+    "wsm/01-日记/2024-05-29.md",
     "wsm/02-周记/2024-W08-02-19.md",
     "00-模板/月复盘模板.md",
     "00-inbox/2024-06.md",
     "00-模板/周记模板.md",
     "wsm/02-周记/2024-W09-02-26.md",
     "wsm/02-周记/2024-W24-06-10.md",
-    "wsm/01-日记/2024-02/2024-02-27.md",
     "00-inbox/2024-06-10.md.nssyncsc"
   ]
 }
