@@ -33,42 +33,9 @@
               "state": {
                 "file": "HOMEPAGEiPhone.canvas",
                 "viewState": {
-                  "x": -2236.257158864573,
-                  "y": -17.243900480421644,
+                  "x": -2099.006189207078,
+                  "y": -1084.4402155723737,
                   "zoom": -1.4859626873498666
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b78c1fbeca2b1f38",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
-            "id": "bde6ad96094ab921",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "bf34ef6089ef958d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "HOMEPAGE.canvas",
-                "viewState": {
-                  "x": -2242.75433788755,
-                  "y": -378.26131364290893,
-                  "zoom": -0.9784303965889168
                 }
               },
               "pinned": true
@@ -80,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
+                "file": "00-inbox/2024-W26-06-24.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +133,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
+            "file": "HOMEPAGEiPhone.canvas",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -183,7 +150,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md",
+            "file": "HOMEPAGEiPhone.canvas",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -195,7 +162,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "01-永久笔记/04-菜谱/20 鱼香肉丝.md"
+            "file": "HOMEPAGEiPhone.canvas"
           }
         }
       },
@@ -223,14 +190,25 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "obsidian-kanban:创建新看板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": true,
+      "obsidian-projects:Open projects": false,
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": true,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "2a163b2414ba6b00",
+  "active": "bb68a9d0a6b4364a",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
+    "HOMEPAGEiPhone.canvas",
+    "00-inbox/2024-W26-06-24.md",
+    "wsm/01-日记/2024-06-26.md",
     "00-inbox/菜谱.md",
     "desktop.ini",
     "01-永久笔记/02-配置/复制到OB_20240506_112631.json",
@@ -264,9 +242,6 @@
     "06-ppt/discussion/TSN.pptx",
     "06-ppt/discussion/0514.pdf",
     "06-ppt/RTS-Turin-Class/2024_RT_UniTo_handouts.pdf",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-    "00-inbox/Real-Time Scheduling of Autonomous Driving System with Guaranteed Timing Correctness.md",
-    "HOMEPAGEiPhone.canvas",
     "Pasted image 20240329164952.png"
   ]
 }
