@@ -25,17 +25,7 @@
             }
           },
           {
-            "id": "41b1666d063eeda6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
-            "id": "3843e200b345248f",
+            "id": "dc143308b141ff56",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -99,7 +89,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00-inbox/ROS2使用.md"
+              }
             }
           }
         ]
@@ -141,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "00-inbox/ROS2使用.md"
+              }
             }
           },
           {
@@ -183,6 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,6 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,12 +225,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "41b1666d063eeda6",
+  "active": "dc143308b141ff56",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
+    "00-inbox/2024-06-26.md",
     "00-inbox/ROS2使用.md",
-    "01-永久笔记/03-菜谱/20-鱼香肉丝.md",
     "00-inbox/2024-W26-06-24.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "HOMEPAGE.canvas",
+    "01-永久笔记/03-菜谱/20-鱼香肉丝.md",
     "wsm/01-日记/2024-06-24.md",
     "01-永久笔记/03-菜谱/0-菜谱看板.md",
     "wsm/01-日记/2024-06-23.md",
@@ -259,7 +257,6 @@
     "00-inbox/2024-06.md",
     "00-模板/周记模板.md",
     "wsm/02-周记/2024-W09-02-26.md",
-    "wsm/02-周记/2024-W24-06-10.md",
     "00-inbox/2024-06-10.md.nssyncsc"
   ]
 }
