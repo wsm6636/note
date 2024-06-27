@@ -51,35 +51,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6c29dfd9718de884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-06-27.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f200309e6000b20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W26-06-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-06-27.md"
+                "file": "02-paper/05-SIES/SIES-workspace.md"
               }
             }
           }
@@ -175,7 +149,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-06-27.md"
+                "file": "02-paper/05-SIES/SIES-workspace.md"
               }
             }
           },
@@ -218,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-06-27.md",
+                "file": "02-paper/05-SIES/SIES-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-06-27.md",
+                "file": "02-paper/05-SIES/SIES-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,10 +240,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6c29dfd9718de884",
+  "active": "93e27ebc8d690931",
   "lastOpenFiles": [
     "00-inbox/审稿意见.md",
+    "00-inbox/2024-W26-06-24.md",
     "00-inbox/2024-06-27.md",
+    "wsm/01-日记/2024-06-24.md",
+    "wsm/01-日记/2024-06-26.md",
     "wsm/01-日记/2024-03/2024-03-04.md",
     "wsm/01-日记/2024-06/2024-06-23.md",
     "wsm/01-日记/2024-06/2024-06-22.md",
@@ -291,9 +268,6 @@
     "wsm/01-日记/2024-05/2024-05-23.md",
     "wsm/01-日记/2024-05/2024-05-22.md",
     "wsm/01-日记/2024-05/2024-05-21.md",
-    "wsm/01-日记/2024-05/2024-05-20.md",
-    "wsm/01-日记/2024-05/2024-05-19.md",
-    "wsm/01-日记/2024-05/2024-05-18.md",
     "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
     "HOMEPAGE.canvas",
     "06-图/05-SIES/SIES.drawio",
