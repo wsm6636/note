@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-06-27T14:05
+updated: 2024-06-27T15:08
 tags:
   - 笔记
   - 笔记/paper
@@ -45,10 +45,6 @@ Analysis of end-to-end timing has been carried out for many years on individual 
 以前关于多ECU联合的端到端时序分析通常考虑CAN总线为通信方式，例如【13-14】但目前嵌入式实时系统被接入更多的传感器已采集大量信息，同时也造成数据传输量激增，CAN总线不能更好的满足嵌入式实时系统某些高带宽低时延的要求。时间敏感网络被考虑为嵌入式实时系统以及控制领域的通信方式之一。
 Previously, end-to-end timing analysis for multiple ECUs typically considered the Controller Area Network (CAN) bus as the communication method, as seen in references \cite{Controllerarea}\cite{MPS}. However, with the increasing integration of numerous sensors in embedded real-time systems to collect vast amounts of information, there has been a surge in data transmission volume. The CAN bus is no longer adequately meeting the high bandwidth and low latency requirements of certain embedded real-time systems. Time-Sensitive Networking (TSN) is being considered as one of the communication methods for embedded real-time systems and the control domain.
 
-
-**时间敏感网络是IEEE802.1Q协议的增强，旨在通过提供时间敏感性和低延迟的通信以支持实时控制与数据传输。**
-Time-sensitive networking is an enhancement of the IEEE 802.1Q protocol aimed at providing time-sensitive and low-latency communication to support real-time control and data transfer.
-
 目前已有研究将TSN与任务链相结合，【houtanSupportingEndtoendData2023】通过实际汽车案例建模任务链并通过IEEE 802.1 Qbv协议作为网络传输的桥梁。
 Currently, there have been studies combining TSN with task chains. \cite{zhouInsightIEEE8022019a} Modeling task chains using real-world automotive cases and using the IEEE 802.1Qbv protocol as a bridge for network transmission.
 
@@ -56,8 +52,8 @@ Currently, there have been studies combining TSN with task chains. \cite{zhouIns
 Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
 
 
-**在成为IEEE标准前，Specht等人提出了Urgency-Based Scheduler（UBS），并使用了Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE)两种算法。最后在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，在TSN交换机中数据流将通过令牌桶的方式整形队列分配给数据帧资格时间，到达队列头的数据帧通过判断资格时间以及经过优先级选择，最终和其他未整形数据流一起输出。**
-Before becoming an IEEE standard, Specht et al. proposed the Urgency-Based Scheduler (UBS) and used two algorithms, Length-Rate Quotient (LRQ) and Token Bucket Emulation (TBE). Finally, the Token Bucket-based ATS algorithm was used in the IEEE 802.1 Qcr protocol as shown in the figure \ref{ATS}. In TSN switches, data flows are shaped and queues are allocated to data frames based on token bucket. Data frames reaching the head of the queue are output together with other non-shaped data flows after evaluating their eligibility time and priority selection.
+**在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，在TSN交换机中数据流将通过令牌桶的方式整形队列分配给数据帧资格时间，到达队列头的数据帧通过判断资格时间以及经过优先级选择，最终和其他未整形数据流一起输出。**
+The Token Bucket-based ATS algorithm was used in the IEEE 802.1 Qcr protocol as shown in the figure \ref{ATS}. In TSN switches, data flows are shaped and queues are allocated to data frames based on token bucket. Data frames reaching the head of the queue are output together with other non-shaped data flows after evaluating their eligibility time and priority selection.
 
 针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性例如使用CAN总线作为网络传输。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络传输标准，ATS算法作为队列整形算法。
 For general embedded real-time system scenarios, asynchronous systems are still widely used to reduce complexity, for example, using the CAN bus as network transmission. Therefore, in this paper, we choose the asynchronous IEEE 802.1Qcr as the network task standard and the ATS algorithm as the queue shaping algorithm.
@@ -78,24 +74,7 @@ For general embedded real-time system scenarios, asynchronous systems are still 
     \item In Section 3, we analyze the maximum reaction time and maximum data age in a multi-ECU scenario, providing upper bounds on the maximum reaction time for network transmission task chains adopting the IEEE 802.1Qcr standard.
     \item In Section 4,  we evaluate and demonstrate that the proposed method improves the performance.
 \end{itemize}
-# related work
 
-
-对于因果链的端到端分析有很多工作考虑时间触发的方式，即任务链上的每个任务都有自己的周期并按照固定的间隔触发执行。针对这种时间触发的任务链已有多种方法处理，例如D{\"u}rr等人在【durr2019end】中设定即时向前和向后作业链，通过计算作业链的长度求得偶发性任务链的最大反应时间与最大数据年龄的上界。Günzel等人在[gunzel2021timing]中针对即时向前（向后）作业链设定长度从原来的数据处理任务（包括采样任务）向前扩展到外部活动触发以及向后扩展到驱动事件。随后他们在【gunzel_et_al】中引入划分的作业链并证明最大反应时间和最大数据年龄的等价性。
-For end-to-end timing analysis of cause-effect chains, much work has considered time-triggered approach**es，which** each task in the chain is periodically triggered to execute at fixed intervals. There are various methods to handle such time-triggered task chains. For instance, Dürr et al. in \cite{durr2019end}defined immediate forward and backward job chains, and by calculating the length of the job chain, they derived the upper bounds for the maximum reaction time and maximum data age of sporadic job chains. Günzel et al. in \cite{gunzel2021timing} study extended the definition of immediate forward (backward) job chains in length, from the original data processing tasks (including sampling tasks) forward to external activity triggers and backward to driving events. Subsequently, they introduced partitioned job chains in their follow-up work \cite{gunzel_et_al} and proved the equivalence of maximum reaction time and data age.
-
-另一种则是事件触 发的方式，即任务链上的每个任务需要其前一个任务执行结束生成数据，随后触发该任务读取数据进行下一步处理。【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析。【7461359】提出了静态优先抢占任务链的忙窗口分析。【recursiveapproach】提出用于推导应用程序的端到端延迟的方法并支持任意事件模式的时间触发和事件触发任务激活方案。本文的研究以事件触发的方式为基础。
-The event-triggered mechanism for task **chains, which** each task requires the completion of its preceding task to generate data, which then triggers the task to read the data for further processing. In the paper \cite{tangReactionTimeAnalysis2023}, a resource service curve model is utilized to analyze the maximum reaction time under event-triggered and data refresh modes. The paper \cite{7461359} proposes a busy window analysis for static priority preemptive task chains. The \cite{recursiveapproach} presents a method for deriving the end-to-end delay of an application, supporting both time-triggered and event-triggered task activation schemes for arbitrary event patterns. This research is based on the time-triggered mechanism.
-
-除此之外还有一些研究仅专注于一种端到端时序语义。Günzel等人在【Probabilistic】中进一步提出基于概率的反应时间分析方法，考虑反应时间的随机性与故障概率并对偶发性任务链分析。【 10.1145/3534879.3534893】考虑混合线性规划的优化以最小化数据年龄分析。【bi2022efficient】中则是提出以较低的计算代价实现较高的数据年龄分析精度的方法。
-In addition to the aforementioned studies, some research focuses solely on one aspect of end-to-end timing semantics. Günzel et al. in their work \cite{Probabilistic} further propose a probability-based reaction time analysis method, considering the randomness of reaction times and failure probabilities for sporadic task chain analysis. The paper with the identifier \cite{10.1145/3534879.3534893} explores the optimization of data age analysis using mixed-integer linear programming to minimize data age. In the work \cite{bi2022efficient}a method is proposed that achieves high precision in data age analysis with lower computational overhead.
-
-
-以上研究多是关于单个ECU上的端到端时延分析，而对于多ECU上的分析【gunzel2021timing】提出切割定理将联合任务链拆解为ECU上的任务链与通信任务链以求取端到端时延界限。而对于通信任务多数研究参考【davare2007period】所提出的分析，认为通信任务与ECU任务一样用任务的最差响应时间与周期求和得到上界。但他们仍然考虑以CAN总线作为通信任务标准，但已经不再适合嵌入式实时系统数据量增加的场景，所以研究者们开始考虑更高效的网络作为通信任务标准以代替CAN总线，例如TSN。
-The majority of the aforementioned research focuses on the end-to-end latency analysis within a single ECU. However, for the analysis across multiple ECUs, the work \cite{gunzel2021timing} proposes the slicing theorem, which decomposes the joint task chain into ECU task chains and communication task chains to derive the end-to-end latency bounds. For communication tasks, many studies refer to the analysis proposed by \cite{davare2007period} which considers communication tasks in the same way as ECU tasks, using the worst-case response time and period of the tasks to sum up and obtain an upper bound. However, they still consider the CAN bus as the standard for communication tasks, which is no longer suitable for the scenario where embedded real-time systems have increased data volumes. Therefore, researchers have started to consider more efficient networks as the standard for communication tasks to replace the CAN bus, such as TSN (Time-Sensitive Networking).
-
-对于TSN网络的端到端延迟分析目前已有很多关于Time-Aware Shaper (TAS). 有Bahar等人参考【feiertagCompositionalFrameworkEndtoend】提出的端到端时延分析框架基于IEEE 802.1Qbv标准分析了ECU之间同步和非同步以及离线网络下的端到端时延分析【HOUTAN2023102911】。航电系统中也基于TSN网络提出混合调度框架以保证两种端到端语义【Hybrid】。【arestova2022itans】中Arestova等人采用增量启发式方法计算由多速率任务和网络流组成的因果链调度。【co-design】中针对不同需求的控制任务分析帧级的响应时间。
-For the end-to-end latency analysis of TSN networks, there has been significant focus on Time-Aware Shaper (TAS). Bahar et al., referencing the framework proposed in \cite{feiertagCompositionalFrameworkEndtoend}, analyzed the end-to-end latency between ECUs under synchronous and asynchronous conditions, as well as in offline network scenarios, based on the IEEE 802.1Qbv standard \cite{HOUTAN2023102911}. In avionics systems, a hybrid scheduling framework has been proposed based on TSN networks to ensure both end-to-end timing semantics \cite{Hybrid}. Arestova et al. in \cite{arestova2022itans} used incremental heuristic methods to calculate the scheduling of cause-effect chains composed of multi-rate tasks and network flows. Additionally, in \cite{co-design}, frame-level response times were analyzed for control tasks with varying requirements.
 # system model
 
 **我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接，这样组成了一条简单的基于TSN网络的车载分布式系统任务链。**
@@ -176,7 +155,7 @@ Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisf
 
 
 **我们根据反应时间和数据年龄的特性得到如下定义。**
-Based on the characteristics of response time and data age, we arrive at the following definitions.
+Based on the characteristics of reaction time and data age, we arrive at the following definitions.
 
 
 定义（反应时间）：对于任务链C的反应时间表示为R(c)
@@ -211,8 +190,8 @@ In the figure, the task chain consists of external event z, three scheduling tas
 $\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the task chain C can be further represented as $C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
 
 
-在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到任务$J_0^2$的输入缓冲区$B_0$。在t=6时刻采样任务释放的作业$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上的调度任务$J_0^2$处理数据结束并将更新后的数据写入任务$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，根据定义处理外部事件z的任务链的反应时间为$R(C)=36-4=32$。根据外部事件z而产生的激励动作发生在任务链最终结果产生之后的下一个数据处理任务，根据本文任务模型，激励动作发生时间即为任务链最后一个任务之后下一个任务的释放时刻，也为任务链最后一个任务的结束时刻，因为我们采用的是事件触发方法。所以根据定义，任务链的数据年龄为$D(C)=36-6=30$
-At the system time $t=4$, an external event occurs and the relevant initial data is written into the input buffer $B_0$ of task $J_0^2$. At time $t=6$, the sampling task $J_0^2$ that was released captures the external event data updated in its input buffer $B_0$. At $t=10$, the scheduling task $J_0^2$ on ECU1 finishes processing the data and writes the updated data into the input buffer $B_1$ of task $J_1^1$. When task $J_1^1$ ends, the resulting output begins to be transmitted over the network to ECU2. The data frame is enqueued at time $t=17$, shaped by the ATS algorithm, and by time $t=21$, the entire data frame has finished processing at switch 1. As required by network topology or routing selection algorithms, the data frame is directed to switch 2, where it continues to undergo ATS-related processing. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding the external event z is produced. As shown in the figure, according to the definition, the reaction time of the task chain processing external event z is $R(C) = 36 - 4 = 32$. The incentivized action resulting from external event z occurs after the final result of the task chain is produced, at the release time of the next data processing task following the last task in the chain. According to the task model of this paper, the time of the incentivized action is the release time of the next task after the last task in the task chain, which is also the end time of the last task in the chain, because we are using an event-triggered method. Therefore, by definition, the data age of the task chain is $D(C) = 36 - 6 = 30$.
+在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到任务$J_0^2$的输入缓冲区$B_0$。在t=6时刻采样任务释放的作业$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上的调度任务$J_0^2$处理数据结束并将更新后的数据写入任务$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，根据定义处理外部事件z的任务链的反应时间为$R(C)=36-4=32$。任务链的数据年龄为$D(C)=36-6=30$
+At the system time $t=4$, an external event occurs and the relevant initial data is written into the input buffer $B_0$ of task $J_0^2$. At time $t=6$, the sampling task $J_0^2$ that was released captures the external event data updated in its input buffer $B_0$. At $t=10$, the scheduling task $J_0^2$ on ECU1 finishes processing the data and writes the updated data into the input buffer $B_1$ of task $J_1^1$. When task $J_1^1$ ends, the resulting output begins to be transmitted over the network to ECU2. The data frame is enqueued at time $t=17$, shaped by the ATS algorithm, and by time $t=21$, the entire data frame has finished processing at switch 1. As required by network topology or routing selection algorithms, the data frame is directed to switch 2, where it continues to undergo ATS-related processing. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding the external event z is produced. As shown in the figure, according to the definition, the reaction time of the task chain processing external event z is $R(C) = 36 - 4 = 32$. The data age of the task chain is $D(C) = 36 - 6 = 30$.
 
 # End-to-eng Timing Analysis
 
@@ -221,8 +200,8 @@ At the system time $t=4$, an external event occurs and the relevant initial data
 In this section, we conducted an end-to-end timing analysis for a multi-ECU scenario based on the TSN network as a replacement for traditional CAN bus analysis, providing results for both maximum reaction time and maximum data age.
 ## Maximum Reaction Time Analysis
 
-在本节中我们将讨论最大反应时间的上界，参考【】我们假设调度任务的缓冲区是固定大小的，而且存在缓冲区满数据帧溢出的情况。但对于基于ATS算法网络任务现有的分析大部分基于LRQ或是TBE，并且只考虑TSN网络本身，并不适用于任务链的分析。所以我们将基于ATS算法网络任务部分分析与现有ECU调度任务链分析整合，扩展到通过TSN网络互联的多个ECU之间的任务链最大反应时间上界分析。
-In this section, we will discuss the upper bound of the maximum reaction time. Referring to [], we assume that the buffer for scheduling tasks is of a fixed size, and there is a possibility of buffer overflow. However, most of the existing analysis for network tasks based on the ATS algorithm is based on LRQ or TBE, and only considers the TSN network itself, which is not suitable for analyzing task chains. Therefore, we will integrate the partial analysis of network tasks based on the ATS algorithm with the existing analysis of ECU scheduling task chains, and extend it to analyze the upper bound of the maximum reaction time for task chains between multiple ECUs interconnected through the TSN network.
+**在本节中我们将讨论最大反应时间的上界，参考【】我们假设调度任务的缓冲区是固定大小的，而且存在缓冲区满数据帧溢出的情况。我们将基于ATS算法网络任务部分分析与现有ECU调度任务链分析整合，扩展到通过TSN网络互联的多个ECU之间的任务链最大反应时间上界分析。**
+In this section, we will discuss the upper bound of the maximum reaction time. Referring to [], we assume that the buffer for scheduling tasks is of a fixed size, and there is a possibility of buffer overflow. We will integrate the partial analysis of network tasks based on the ATS algorithm with the existing analysis of ECU scheduling task chains, and extend it to analyze the upper bound of the maximum reaction time for task chains between multiple ECUs interconnected through the TSN network.
 
 定义 （结束时间）：对于任务链$C = \{z, c_1, c_2, c_3, ... , c_n\}$中的每一个事件，$t(\cdot )$为事件的结束时间：
 - 对于外部事件z，$t(z)$为外部事件发生的时间，t(c0)为外部事件结束时间。根据定义1可知，外部事件z也是任务链的事件c0。外部事件的结束时间就是当外部事件触发后，下一个将要捕捉此外部事件z的周期性调度任务τ0对应的作业的释放时间。
@@ -257,8 +236,8 @@ R(C) & = t'-t\\
 则最大反应时间根据公式（）为$\max\{t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\}$
 The maximum reaction time is determined according to formula () is $\max\{t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\}$
 
-根据公式（4）我们可以对任务链C的的最大反应时间分段求取上界。我们将任务链C的最大反应时间分为两部分
-Based on formula (4), we can obtain upper bounds for the maximum reaction time of task chain C in segments. We divide the maximum reaction time of task chain C into two parts.
+我们将任务链C的最大反应时间分为两部分
+We divide the maximum reaction time of task chain C into two parts.
 
 Part one. $t(c_0)-t(z)$的上界
 Part \uppercase\expandafter{\romannumeral1}. The upper bound of $t(c_0)-t(z)$.
@@ -318,20 +297,12 @@ In this case, we refer to the time upper bound for fixed-size buffer event-trigg
 
 其中$\overline{\beta(\cdot)}$为资源曲线函数$\beta(\Delta )$的伪逆函数，表示系统处理一定工作负载所需要的时间。
 In this equation, $\overline{\beta(\cdot)}$ represents the pseudo-inverse function of the resource curve function $\beta(\Delta)$, which indicates the time required for the system to process a certain workload.
-
-
-
-资源服务曲线定义自[thiele2000real]，用$⟨β^l_i(∆), β^u_i(∆)⟩$来表示在任意$∆$时间段内任务可用的最小和最大负载。通过【tangReactionTimeAnalysis2023】证明在$[t(c_i)，t(c_{i-1}))$期间内，系统能提供的最大处理时间（工作负载）为$\beta^l_i([t(c_i)，t(c_{i-1})))=(|Bi|+1)\cdot E_i$，且在此期间内所有的资源都被用于处理任务。所以根据伪逆函数的定义[le2001network]，$f^{-1} \left ( x \right ) = \inf \left \{ \text{ t such that }  f(t)\ge x  \right \}$,可以进一步得到，系统如果需要处理$(|Bi|+1)\cdot E_i$的工作负载则需要的时间就是$\bar{\beta^l_i}(|Bi|+1)·E_i)$。
-The definition of the resource service curve is from [thiele2000real], represented by $⟨β^l_i(∆), β^u_i(∆)⟩$ to indicate the minimum and maximum load available for a task in any time interval $∆$. According to [tangReactionTimeAnalysis2023], it is proven that during the period $[t(c_i), t(c_{i-1}))$, the maximum processing time (workload) that the system can provide is $\beta^l_i([t(c_i), t(c_{i-1})]) = (|Bi|+1) \cdot E_i$, and all resources are used for processing tasks during this period. Therefore, based on the definition of the pseudo-inverse function [le2001network], $f^{-1}(x) = \inf \{t \text{ such that } f(t) \ge x\}$, it can be further derived that the time needed by the system to process a workload of $(|Bi|+1) \cdot E_i$ is $\bar{\beta^l_i}((|Bi|+1) \cdot E_i)$.
-
+且【tangReactionTimeAnalysis2023】证明在$[t(c_i)，t(c_{i-1}))$期间内，系统能提供的最大处理时间（工作负载）为$\beta^l_i([t(c_i)，t(c_{i-1})))=(|Bi|+1)\cdot E_i$，
+And [tangReactionTimeAnalysis2023] proves that during the period $[t(c_i), t(c_{i-1}))$, the maximum processing time (workload) that the system can provide is $\beta^l_i([t(c_i), t(c_{i-1})))=(|Bi|+1)\cdot E_i$,
 
 **而$DLY_i(|B_i|)$是作业的最大延迟。**
  $DLY_i(|B_i|)$ represents the maximum delay of the job
 
-$DLY_i(\left | B_i \right | ) = \min \left \{ H(\alpha_{i}^{l}, \left | B_i \right | +1),H(\hat{\alpha_{i}^{u}} ,\beta_{i}^{'l} )\right \}$
-
-其中$\left \langle \alpha^l_i ,  \alpha^u_i  \right \rangle$ 是到达曲线，表示在任意$∆$时间段内数据到达最小和最大的数量。
-Where $\left \langle \alpha^l_i ,  \alpha^u_i  \right \rangle$ is the arrival curve, indicating the minimum and maximum amount of data arriving in any time interval $\Delta$.
 
 所以我们可以得到当$s(c_i)=\tau, s(c_{i-1})=\tau$时，$D=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$
 Therefore, we can obtain that when $s(c_i)=\tau$ and $s(c_{i-1})=\tau$, $D=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$.
@@ -382,11 +353,14 @@ Where $D$ is given by Lemma 2.
 
 ## Maximum Data Age Analysis
 
-在本节中我们将讨论最大数据年龄的上界，对于任务链的缓冲区要求我们需要与最大反应时间分析一致，所以在本节中我们将使用相同的术语描述最大数据年龄的分析问题。我们将任务链最大数据年龄分析的问题分解为每两个相邻任务之间“结束时间”间隔界限的问题。同样，TSN网络对于任务链的最大数据年龄分析的影响仅仅是考虑其作为一个网络任务对于整个联合任务链的影响，而不会详细讨论TSN网络本身的端到端延迟问题如何获得更精确上界。
-In this section, we will discuss the upper bound of the maximum data age. For the buffer requirements of the task chain, we need to be consistent with the maximum reaction time analysis. Therefore, in this section, we will use the same terminology to describe the analysis problem of the maximum data age. We decompose the problem of the maximum data age analysis for the task chain into the problem of the "end time" interval boundaries between each pair of adjacent tasks. Similarly, the impact of the TSN network on the maximum data age analysis of the task chain is simply to consider its effect as a network task on the entire combined task chain, without detailed discussion on how to obtain a more precise upper bound for the end-to-end delay issue within the TSN network itself.
+在本节中我们将讨论最大数据年龄的上界。由于定义不同，数据年龄不会关注外部事件的产生以及传输。数据年龄的开始在本文的任务链模型中是能够第一个成功捕捉到外部事件产生的数据的采样任务的释放时间。而相对的，反应时间的分析中我们同样不需要考虑数据年龄分析里的激励动作。
+所以我们将任务链最大数据年龄分析的问题分解为每两个相邻任务之间“结束时间”间隔界限的问题。对于缓冲区以及TSN网络任务的要求与上节一样。
+In this section, we will discuss the upper bound of the maximum data age. Due to different definitions, data age does not focus on the generation and transmission of external events. The start of data age in the task chain model of this article is the release time of the first sampling task that can successfully capture the data generated by the external event. In contrast, in the analysis of reaction time, we also do not need to consider the incentive action in the data age analysis.
+Therefore, we decompose the problem of the maximum data age analysis of the task chain into the problem of the interval limit of the "end time" between each two adjacent tasks. The requirements for the buffer and TSN network tasks are the same as in the previous section.
 
-根据前一节最大反应时间分析中提到的结束时间的定义，以及公式，对于数据年龄我们可以将其表达为
-Based on the definition of "end time" mentioned in the previous section's maximum reaction time analysis, as well as the formula provided, we can express data age as follows:
+根据结束时间的定义，对于数据年龄和我们可以表达为
+According to the definition of the end time, for the data age and we can express it as
+
 
 
 $$\begin{equation}
@@ -400,12 +374,8 @@ D(C) & = t'-t\\
 \end{aligned}
 \end{equation}$$
 
-则最大数据年龄根据公式（）为$\max\{\sum_{i=0}^{n}(t(c_i) - t(c_{i-1}))\}$
+为$\max\{\sum_{i=0}^{n}(t(c_i) - t(c_{i-1}))\}$
 The maximum data age is determined according to formula () is $\max\{\sum_{i=0}^{n}(t(c_i) - t(c_{i-1}))\}$
-
-与最大反应时间的分段分析方式不同，根据公式，我们可以对任务链c的最大数据年龄分解为每两个相邻任务之间“结束时间”间隔界限的问题。首先这是由于数据年龄与反应时间的定义不同，数据年龄将不会关注引起任务链数据传输的外部事件，不需要考虑外部事件如何产生以及传输。数据年龄的开始点是数据开始处理的时刻，在本文的任务链模型中也就是能够第一个成功捕捉到外部事件产生的数据的采样任务的释放时间。而相对的，反应时间的分析中我们同样不需要考虑数据经过整条任务链之后，系统将最终更新的数据交给哪一个任务用于激励动作，但数据年龄需要考虑这个过程。
-
-Unlike the segmented analysis method for maximum reaction time, according to the formula, we can decompose the maximum data age of task chain c into the problem of "end time" interval boundaries between each pair of adjacent tasks. This is primarily because data age, unlike reaction time, does not focus on the external events that trigger data transmission in the task chain. It does not consider how external events are generated or transmitted. The starting point of data age is the moment when data processing begins, which in the task chain model of this paper is the release time of the first sampling task that successfully captures the data generated by the external event. Conversely, in the analysis of reaction time, we do not need to consider which task the system ultimately hands over the final updated data to for the incentivized action after it has passed through the entire task chain. However, data age must take this process into account.
 
 
 在其他的数据年龄分析工作中【bi2022efficient】或【 10.1145/3534879.3534893】等，对于数据年龄分析通常考虑“last-to-last”路径，确定数据最后激励所在的位置。而在本文的任务链模型中，由于采用了事件触发方式并考虑固定大小的缓冲区以及数据帧溢出情况，所以激励动作的时间是任务链最终数据传输的下一个任务的释放时刻，也就是任务链最后一个任务的结束时刻，如图所示，同理数据年龄公式中用$t(c_n)$表达激励动作时刻。

@@ -22,11 +22,6 @@
       "folder": "wsm/03-月复盘",
       "tag": "#个人/月复盘",
       "pattern": ""
-    },
-    {
-      "folder": "wsm/01-日记",
-      "tag": "#个人/日记",
-      "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": true,
