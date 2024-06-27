@@ -31,25 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md",
+                "file": "00-inbox/SIES-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "850e7ad16e1e6186",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/审稿意见.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           }
         ],
@@ -105,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md"
+                "file": "00-inbox/SIES-workspace.md"
               }
             }
           }
@@ -149,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md"
+                "file": "00-inbox/SIES-workspace.md"
               }
             }
           },
@@ -192,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md",
+                "file": "00-inbox/SIES-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md",
+                "file": "00-inbox/SIES-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,6 +230,8 @@
   "active": "93e27ebc8d690931",
   "lastOpenFiles": [
     "00-inbox/审稿意见.md",
+    "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
+    "00-inbox/SIES-workspace.md",
     "00-inbox/2024-W26-06-24.md",
     "00-inbox/2024-06-27.md",
     "wsm/01-日记/2024-06-24.md",
@@ -266,8 +255,6 @@
     "wsm/01-日记/2024-05/2024-05-28.md",
     "wsm/01-日记/2024-05/2024-05-27.md",
     "wsm/01-日记/2024-05/2024-05-23.md",
-    "wsm/01-日记/2024-05/2024-05-22.md",
-    "wsm/01-日记/2024-05/2024-05-21.md",
     "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
     "HOMEPAGE.canvas",
     "06-图/05-SIES/SIES.drawio",
