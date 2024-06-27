@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-06-27T11:16
+updated: 2024-06-27T12:47
 tags:
   - 笔记
   - 笔记/paper
@@ -108,8 +108,6 @@ Logical Execution Time (LET) was introduced by the GIOTTO framework [biondi2018a
 **另外还有显示通信，也就是“直接的”通信，表示数据在执行的任意时刻被读或写**
 Additionally, direct communication, which means that data is read or written at any given moment during execution
 
-【Mechanisms】和【characterization】都对显示、隐式和逻辑执行时间(LET)三种通信模型下任务链端到端时延的分析加以对比。其中前者更是提出针对隐式通信与LET混合的任务链场景提出新的分析方法，以减少传统分析方法中将任务链上所有任务转为单一通信语义（尤其是LET）所带来的不必要的延迟。
-【Mechanisms】 and 【characterization】 both compare the end-to-end timing analysis of task chains under three communication models: explicit communication, implicit communication, and Logical Execution Time (LET). The former, in particular, proposes a new analysis method for task chains that mix implicit communication and LET scenarios, aiming to reduce the unnecessary delays brought about by traditional analysis methods that convert all tasks on the task chain to a single communication semantics (especially LET).
 
 **图1展现了通信语义对于端到端延迟分析的影响。由此可见，LET模型会导致因果链的端到端时延分析结果出现更长的延迟。所以在本文中我们考虑任务链上所有任务都采用隐式通信语义，以减少不必要的延迟对基于TSN的任务链分析结果的影响。**
 Figure 1 demonstrates the impact of communication semantics on end-to-end timing analysis. It can be seen that the LET model leads to longer delays in the end-to-end timing analysis results of cause-effect chains. Therefore, in this paper, we consider all tasks on the task chain to adopt implicit communication semantics to reduce the impact of unnecessary delays on the analysis results of task chains based on TSN.
@@ -311,7 +309,8 @@ $$D=\begin{array}{l}
 For the P2 part, we divide it into three cases to discuss their upper bounds.
 
 case1：$s(c_i)=\tau, s(c_{i-1})=\tau$。即前后相邻的两个事件中，前一个事件$c_{i-1}$为调度任务$\tau_{i-1}$ ，后一个任务$c_i$也是调度任务$\tau_i$ 。
-Case 1: $s(c_i) = \tau, s(c_{i-1}) = \tau$. In other words, in the adjacent events, the previous event $c_{i-1}$ is a scheduling task $\tau_{i-1}$, and the subsequent task $c_i$ is also a scheduling task $\tau_i$.
+Case 1: $s(c_i) = \tau, s(c_{i-1}) = \tau$. 
+In other words, in the adjacent events, the previous event $c_{i-1}$ is a scheduling task $\tau_{i-1}$, and the subsequent task $c_i$ is also a scheduling task $\tau_i$.
 
 
 
@@ -334,7 +333,7 @@ The definition of the resource service curve is from [thiele2000real], represent
 $DLY_i(\left | B_i \right | ) = \min \left \{ H(\alpha_{i}^{l}, \left | B_i \right | +1),H(\hat{\alpha_{i}^{u}} ,\beta_{i}^{'l} )\right \}$
 
 其中$\left \langle \alpha^l_i ,  \alpha^u_i  \right \rangle$ 是到达曲线，表示在任意$∆$时间段内数据到达最小和最大的数量。
-
+Where $\left \langle \alpha^l_i ,  \alpha^u_i  \right \rangle$ is the arrival curve, indicating the minimum and maximum amount of data arriving in any time interval $\Delta$.
 
 所以我们可以得到当$s(c_i)=\tau, s(c_{i-1})=\tau$时，$D=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$
 Therefore, we can obtain that when $s(c_i)=\tau$ and $s(c_{i-1})=\tau$, $D=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$.
