@@ -17,9 +17,9 @@
     "05-娱乐/塞尔达/旷野之息神庙挑战.md": "0e642ff329612493a9d21655596ffb56194c6c776159084d4a2c1087e853ebe2",
     "05-娱乐/塞尔达/旷野之息迷你挑战.md": "921bf6edb6c8b03d04010178b537e0c3a7cb49fe14241e33dbd34d80229263c1",
     "00-模板/contributionGraph.md": "a5535341bf236f880ed8de72c073db0cf52792b89d26a357b519da167961ed50",
-    "00-模板/周记模板.md": "440d944320b8595eebc51f3eddb7d23d930eaa180043d11581c2b0ad7a107b26",
+    "00-模板/周记模板.md": "b3b0942cedc9015db907da3fb05a4ca1d979492c17e2f531821821736223fd29",
     "00-模板/挂件.md": "4371ec985d362ee3158b5aed89ed29f4c9bd121d147e7f83018f22fb9b9c8bfa",
-    "00-模板/日记模板.md": "fc295c488400579e688350d71955cca6a4ca7a226ee40e7d57bf4899c010d302",
+    "00-模板/日记模板.md": "81f0b424cc5b141add546379620ead1fbe81057899897a4cd42eb5af56956595",
     "01-永久笔记/01-教程/ubuntu系统迁移.md": "3af637fbac82377df029657f9802c554dcad3fc89f8f96c0113dd7e59a9cdb18",
     "01-永久笔记/01-教程/Vmware Ubuntu虚拟机磁盘扩容方法.md": "763e71234d7684bb5574f01fd615bbd3209ae7bf67a64aeae3b590772499c6db",
     "01-永久笔记/01-教程/远程开机_校园网环境_实验室主机配置.md": "801170e110b25ae32caaf5863ea20bab44b769fb95f343bcfc464836e453f181",
@@ -89,7 +89,7 @@
     "04-project/04-rtbubbles/cyclictes.md": "632ff03bfdc72b0cde5bbaf20d8d05ed33d775bee28c44d5c8fab426722559e3",
     "04-project/04-rtbubbles/jitter计算.md": "b6ceb0ffc5dbfac98801f3ebbb4b383dbd514bfccb9846a40084a513e7e85824",
     "04-project/04-rtbubbles/多任务实现思路.md": "840081ded3a9577ea8d77a53b621130607d6b937897cc34a906325de0430c2ea",
-    "00-模板/月复盘模板.md": "e461e9589c234c53bb817c707a14dc5f315d6f03c1e2a02d4894676ae62b321e",
+    "00-模板/月复盘模板.md": "a97ff00623cdf1547656c228b113ced25d43a7e147722fb2d53db409018fb8f5",
     "00-模板/年复盘模板.md": "8a17254016fb0520f26a6ca57c5e712a24a0a9abf93341522d090ee832bc510e",
     "00-inbox/2024.md": "7d722d4241c250250f882894d783610b6de9e37509f093d0176e6815ce565363",
     "00-模板/annotation-color-note.md": "43f2acab3c421b3e54ffa39b6254c0319add11436efec73a2bbb9f58f61f6f1d",
@@ -223,7 +223,7 @@
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "e197ba455f0afaff8da810725b3cba616dc3ff18d62bad0d4d1655b2550b0e95",
     "01-永久笔记/03-菜谱/28-卤肉饭.md": "28b133d766929a8171c3a82520941f47524fdeaf7e98f279c5bd48439ef62b41",
     "wsm/02-周记/2024-W25-06-17.md": "e8b21de62e7c6897a6e2802e9e0470f7207866d4a2226563a851ca76fe72a329",
-    "00-inbox/2024-W26-06-24.md": "fca11ce2667fb53b9856130e28cde8491089bad10c33cd6cbb1157225d7f4a94",
+    "00-inbox/2024-W26-06-24.md": "9520cb8aebb95eb6fa776011e50250b577b98b44f5eead4273a5eb57d5be9ebe",
     "wsm/01-日记/2024-06-24.md": "d190e0fc55068dffacbd66d8723deb27f66dea813f52c5d7a4172105729dc76c",
     "wsm/01-日记/2024-06-26.md": "b8c365c180deccce4f49ecceaf6ff348a328e33839fa9afb77341aa2ebd5f3d9",
     "wsm/01-日记/2024-02/2024-02-27.md": "bff5b7ae913302003dfae952791d96836bbc37d724bbf433b1ddd3f1c982bf84",
@@ -326,7 +326,7 @@
     "wsm/01-日记/2024-06/2024-06-21.md": "c231c38c2d0f62c0105760667e3714b218125ff8e0c98cfbd0887226ff02320b",
     "wsm/01-日记/2024-06/2024-06-22.md": "afa197dc7de669cabdc11b043e58e0aada4de5d0d7ecc5312fbdccac7c1f9bc5",
     "wsm/01-日记/2024-06/2024-06-23.md": "445b07f9427746b6190b887d27c36535c56e41f856373d1070cba9507c58f920",
-    "00-inbox/2024-06-27.md": "8e019afad3d4731fc54883ad73db855768060de7a9ec1eedf2f006e02907c050",
+    "00-inbox/2024-06-27.md": "babe13f09111b0d6e057caa955cf1a62e652e502a8c7fed32f8020d600ab4ee2",
     "00-inbox/SIES-workspace.md": "c2a96f6a6a16a73b5e4c1dfa72e759fa6923dc1a568992ab79b86de08b3306bb"
   }
 }

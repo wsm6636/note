@@ -25,16 +25,6 @@
             }
           },
           {
-            "id": "446934e0cf706790",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
             "id": "93e27ebc8d690931",
             "type": "leaf",
             "pinned": true,
@@ -79,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:待归档",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,11 +91,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00-inbox/SIES-workspace.md"
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "00-inbox/SIES-workspace.md"
+              }
             }
           },
           {
@@ -186,6 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-inbox/SIES-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,6 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00-inbox/SIES-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,19 +223,24 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "446934e0cf706790",
+  "active": "93e27ebc8d690931",
   "lastOpenFiles": [
+    "00-inbox/2024-W26-06-24.md",
+    "00-模板/周记模板.md",
+    "00-模板/月复盘模板.md",
+    "00-模板/日记模板.md",
+    "00-inbox/2024-06-28.md",
+    "00-inbox/2024-06-27.md",
+    "wsm/01-日记/2024-06-26.md",
+    "00-inbox/SIES-workspace.md",
     "HOMEPAGE.canvas",
     "00-inbox/审稿意见.md",
     "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
-    "00-inbox/SIES-workspace.md",
-    "00-inbox/2024-W26-06-24.md",
-    "00-inbox/2024-06-27.md",
     "wsm/01-日记/2024-06-24.md",
-    "wsm/01-日记/2024-06-26.md",
     "wsm/01-日记/2024-03/2024-03-04.md",
     "wsm/01-日记/2024-06/2024-06-23.md",
     "wsm/01-日记/2024-06/2024-06-22.md",
@@ -256,9 +256,6 @@
     "wsm/01-日记/2024-06/2024-06-07.md",
     "wsm/01-日记/2024-06/2024-06-01.md",
     "wsm/01-日记/2024-05/2024-05-01.md",
-    "wsm/01-日记/2024-05/2024-05-29.md",
-    "wsm/01-日记/2024-05/2024-05-28.md",
-    "wsm/01-日记/2024-05/2024-05-27.md",
     "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
     "06-图/05-SIES/SIES.drawio",
     "06-图/05-SIES/RTDA.pdf",
