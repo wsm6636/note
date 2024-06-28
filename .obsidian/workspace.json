@@ -52,8 +52,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -149,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -192,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,10 +239,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f2cceb56e3c7b204",
+  "active": "74eb1e8a07033896",
   "lastOpenFiles": [
-    "00-inbox/SIES-workspace.md",
     "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/SIES-workspace.md",
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/2024-W26-06-24.md",
     "00-模板/周记模板.md",
@@ -252,7 +252,6 @@
     "00-inbox/2024-06-28.md",
     "00-inbox/2024-06-27.md",
     "wsm/01-日记/2024-06-26.md",
-    "HOMEPAGE.canvas",
     "00-inbox/审稿意见.md",
     "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
     "wsm/01-日记/2024-06-24.md",
@@ -268,7 +267,6 @@
     "wsm/01-日记/2024-06/2024-06-12.md",
     "wsm/01-日记/2024-06/2024-06-11.md",
     "wsm/01-日记/2024-06/2024-06-10.md",
-    "wsm/01-日记/2024-06/2024-06-07.md",
     "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
     "06-图/05-SIES/SIES.drawio",
     "06-图/05-SIES/RTDA.pdf",
