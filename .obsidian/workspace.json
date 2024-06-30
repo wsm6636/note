@@ -25,18 +25,16 @@
             }
           },
           {
-            "id": "93e27ebc8d690931",
+            "id": "40a87efa7179b093",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/SIES-workspace.md",
+                "file": "00-inbox/2024-W26-06-24.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -92,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/SIES-workspace.md"
+                "file": "00-inbox/2024-W26-06-24.md"
               }
             }
           }
@@ -136,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/SIES-workspace.md"
+                "file": "00-inbox/2024-W26-06-24.md"
               }
             }
           },
@@ -179,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/SIES-workspace.md",
+                "file": "00-inbox/2024-W26-06-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/SIES-workspace.md",
+                "file": "00-inbox/2024-W26-06-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,20 +225,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "93e27ebc8d690931",
+  "active": "40a87efa7179b093",
   "lastOpenFiles": [
+    "00-inbox/2024-06-30.md",
     "HOMEPAGE.canvas",
+    "00-inbox/2024-W26-06-24.md",
+    "06-ppt/discussion/ppt488D.tmp",
+    "01-永久笔记/02-研究/ROS总结.md",
+    "00-inbox/ROS-idea.md",
+    "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
+    "wsm/其他/科技论文写作.md",
+    "06-ppt/discussion/~$0524 - 副本.pptx",
+    "00-inbox/2024-W27-07-01.md",
+    "06-ppt/discussion/~$0701.pptx",
+    "06-ppt/discussion/0701.pptx",
+    "06-ppt/discussion/0524 - 副本 (2).pptx",
+    "06-ppt/discussion/~$0524.pptx",
+    "wsm/01-日记/2024-06-28.md",
+    "wsm/01-日记/2024-06/2024-06-27.md",
     "00-inbox/SIES-workspace.md",
     "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
-    "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
     "wsm/01-日记/2024-06-27.md",
-    "wsm/01-日记/2024-06/2024-06-27.md",
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-    "00-inbox/2024-W26-06-24.md",
     "00-模板/周记模板.md",
     "00-模板/月复盘模板.md",
     "00-模板/日记模板.md",
-    "00-inbox/2024-06-28.md",
     "wsm/01-日记/2024-06-26.md",
     "00-inbox/审稿意见.md",
     "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
@@ -250,20 +259,8 @@
     "wsm/01-日记/2024-06/2024-06-22.md",
     "wsm/01-日记/2024-06/2024-06-21.md",
     "wsm/01-日记/2024-06/2024-06-20.md",
-    "wsm/01-日记/2024-06/2024-06-19.md",
-    "wsm/01-日记/2024-06/2024-06-18.md",
-    "wsm/01-日记/2024-06/2024-06-17.md",
-    "wsm/01-日记/2024-06/2024-06-14.md",
-    "wsm/01-日记/2024-06/2024-06-12.md",
-    "wsm/01-日记/2024-06/2024-06-11.md",
     "06-图/05-SIES/SIES.drawio",
     "06-图/05-SIES/RTDA.pdf",
-    "06-图/05-SIES/TT.pdf",
-    "06-图/05-SIES/LET.pdf",
-    "06-图/05-SIES/implicit.pdf",
-    "06-图/05-SIES/ex4_age.pdf",
-    "06-图/05-SIES/ex4.pdf",
-    "06-图/05-SIES/ex3_age.pdf",
-    "06-图/05-SIES/ex3.pdf"
+    "06-图/05-SIES/TT.pdf"
   ]
 }
