@@ -39,7 +39,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/SIES-workspace.md"
               }
             }
           }
@@ -135,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/SIES-workspace.md"
               }
             }
           },
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/SIES-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/SIES-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,12 +227,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "74eb1e8a07033896",
+  "active": "93e27ebc8d690931",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/SIES-workspace.md",
+    "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
     "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
     "wsm/01-日记/2024-06-27.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-06/2024-06-27.md",
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/2024-W26-06-24.md",
@@ -254,7 +256,6 @@
     "wsm/01-日记/2024-06/2024-06-14.md",
     "wsm/01-日记/2024-06/2024-06-12.md",
     "wsm/01-日记/2024-06/2024-06-11.md",
-    "02-paper/04-ESWEEK/#52 - EMSOFT 2024.pdf",
     "06-图/05-SIES/SIES.drawio",
     "06-图/05-SIES/RTDA.pdf",
     "06-图/05-SIES/TT.pdf",
