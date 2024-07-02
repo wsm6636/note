@@ -25,27 +25,20 @@
             }
           },
           {
-            "id": "3aa5467ec7b1220e",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
-            "id": "885ac89cfa6b6fb1",
+            "id": "c84845c87cd03f6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/ROS-idea.md",
+                "file": "00-inbox/ROS2使用.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           }
@@ -141,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -184,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,24 +225,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "74eb1e8a07033896",
+  "active": "c84845c87cd03f6f",
   "lastOpenFiles": [
+    "01-永久笔记/工作流.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/ROS2使用.md",
+    "wsm/01-日记/2024-07-01.md",
+    "wsm/03-月复盘/2024-06.md",
     "00-inbox/ROS-idea.md",
     "wsm/其他/科技论文写作.md",
-    "HOMEPAGE.canvas",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
     "06-ppt/discussion/~$0524 - 副本.pptx",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-    "wsm/03-月复盘/2024-06.md",
     "00-inbox/2024-06.md.nssyncsc",
-    "00-inbox/2024-07-01.md",
     "00-inbox/2024-W27-07-01.md",
     "00-inbox/2024-07.md",
     "00-模板/日记模板.md",
-    "01-永久笔记/工作流.md",
     "02-paper/05-SIES/SIES-workspace.md",
     "wsm/01-日记/2024-06/2024-06-30.md",
     "wsm/02-周记/2024-W26-06-24.md",
@@ -268,7 +262,6 @@
     "00-模板/月复盘模板.md",
     "wsm/01-日记/2024-06/2024-06-26.md",
     "00-inbox/审稿意见.md",
-    "01-永久笔记/03-菜谱/31-辣椒炒肉.md",
-    "wsm/01-日记/2024-06/2024-06-24.md"
+    "01-永久笔记/03-菜谱/31-辣椒炒肉.md"
   ]
 }
