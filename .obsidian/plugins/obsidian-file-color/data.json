@@ -1137,7 +1137,7 @@
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "wsm/01-日记/2024-06-24.md",
+      "path": "wsm/01-日记/2024-06/2024-06-24.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
@@ -1145,7 +1145,7 @@
       "color": "pxDfySp685qcG-LPQKv8I"
     },
     {
-      "path": "00-inbox/SIES-workspace.md",
+      "path": "02-paper/05-SIES/SIES-workspace.md",
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
@@ -1213,7 +1213,7 @@
       "color": "ETRIvOM6-WNE21I5fmtvU"
     },
     {
-      "path": "wsm/01-日记/2024-06-26.md",
+      "path": "wsm/01-日记/2024-06/2024-06-26.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
@@ -1409,20 +1409,12 @@
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "00-inbox/2024-06.md",
+      "path": "wsm/03-月复盘/2024-06.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "00-inbox/2024-W26-06-24.md",
+      "path": "wsm/02-周记/2024-W26-06-24.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
-      "path": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
-    },
-    {
-      "path": "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-      "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
       "path": "00-inbox/ROS2使用.md",
@@ -1457,20 +1449,32 @@
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "00-inbox/ROS2 Real-time Performance Optimization and Evaluation.md",
+      "path": "03-research/11-ROS/ROS2 Real-time Performance Optimization and Evaluation.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
     },
     {
-      "path": "wsm/01-日记/2024-06-27.md",
+      "path": "wsm/01-日记/2024-06/2024-06-27 1.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
-      "path": "wsm/01-日记/2024-06-28.md",
+      "path": "wsm/01-日记/2024-06/2024-06-28.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
     {
       "path": "wsm/01-日记/2024-05/2024-05-08.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/2024-07.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/2024-07-01.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/2024-W27-07-01.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
     }
   ]
 }

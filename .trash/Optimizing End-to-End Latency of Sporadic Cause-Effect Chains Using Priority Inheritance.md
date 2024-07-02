@@ -1,27 +1,24 @@
 ---
-created: 2024-03-27T12:30
-updated: 2024-07-01T11:17
+created: 2024-03-27T18:55
+updated: 2024-05-02T10:02
 tags:
+  - 笔记
   - 笔记/文献笔记
   - 待归档
-  - 笔记
-  - schedule
-  - /ing
 status:
   - todo
-title: Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance
-TitleTranslation: " 使用优先级继承优化偶发因果链的端到端延迟"
-Journal or Conference: " 2023 IEEE Real-Time Systems Symposium (RTSS)  "
-FirstAuthor: YueTang
-allAuthors: YueTang, XuJiang, NanGuan, SongranLiu, XiantongLuo, WangYi
-Pub.date: 2023-12
-DOI: 10.1109/RTSS59052.2023.00042
-zoterolink: zotero://select/library/items/9ZHS4W7X
 ---
+ 
 
 
-# Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance
----
+
+**TitleTranslation:**  使用优先级继承优化偶发因果链的端到端延迟
+**Journal or Conference:**   2023 IEEE Real-Time Systems Symposium (RTSS)  
+**Authors:**  YueTang, XuJiang, NanGuan, SongranLiu, XiantongLuo, WangYi
+**Pub.date:**  2023-12
+**DOI:**  10.1109/RTSS59052.2023.00042
+**tags:** 
+**zoterolink:**  [zotero](zotero://select/library/items/9ZHS4W7X)
 
 # 摘要
 
