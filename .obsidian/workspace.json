@@ -36,9 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4da2735740086abe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W27-07-01.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -134,7 +146,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -177,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,11 +237,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c84845c87cd03f6f",
+  "active": "74eb1e8a07033896",
   "lastOpenFiles": [
+    "00-inbox/ROS2使用.md",
     "01-永久笔记/工作流.md",
     "HOMEPAGE.canvas",
-    "00-inbox/ROS2使用.md",
     "wsm/01-日记/2024-07-01.md",
     "wsm/03-月复盘/2024-06.md",
     "00-inbox/ROS-idea.md",
