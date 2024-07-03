@@ -1604,7 +1604,30 @@
               "allAuthors": {
                 "hide": true
               }
-            }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "#论文",
+              "#日记完成度",
+              "#意语",
+              "#英语",
+              "#月复盘完成度",
+              "#运动",
+              "#周复盘完成度",
+              "论文",
+              "每日一句总结",
+              "日记",
+              "意语",
+              "英语",
+              "月复盘",
+              "运动",
+              "周记",
+              "created",
+              "status",
+              "tags",
+              "updated"
+            ]
           },
           "filter": {
             "conjunction": "and",

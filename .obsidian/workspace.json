@@ -23,40 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "f101b25f68593602",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
-            "id": "adb27ee2dab8f317",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "a8c57147631b2ab0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/挂件.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,14 +75,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 242
+    "width": 242,
+    "collapsed": true
   },
   "right": {
     "id": "f9eb34c335bcb918",
@@ -149,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -191,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,10 +213,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f101b25f68593602",
+  "active": "74eb1e8a07033896",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
     "00-模板/年复盘模板.md",
+    "00-模板/挂件.md",
+    "HOMEPAGE.canvas",
     "00-inbox/2024.md",
     "00-inbox/ROS-idea.md",
     "00-inbox/ROS2使用.md",
