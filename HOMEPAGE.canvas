@@ -25,7 +25,7 @@
 		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2703,"y":-1140,"width":198,"height":215,"color":"#1e1e2e"},
 		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2604,"y":-1130,"width":523,"height":102},
 		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2544,"y":-1063,"width":566,"height":181},
-		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1967,"y":-974,"width":777,"height":276},
+		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-1967,"y":-974,"width":777,"height":294},
 		{
 			"id":"d5128eeb3a24cf14",
 			"type":"text",

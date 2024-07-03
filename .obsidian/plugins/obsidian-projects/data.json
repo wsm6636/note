@@ -12,7 +12,7 @@
       "excludedNotes": [
         ""
       ],
-      "isDefault": true,
+      "isDefault": false,
       "dataSource": {
         "kind": "folder",
         "config": {
@@ -2023,6 +2023,121 @@
       ],
       "id": "05db6be6-8247-47c4-9397-6b8ad2589793",
       "name": "永久笔记"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "00-inbox",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "00-inbox",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "#月复盘完成度": {
+                "hide": true
+              },
+              "#周复盘完成度": {
+                "hide": true
+              },
+              "月复盘": {
+                "hide": true
+              },
+              "周记": {
+                "hide": true
+              },
+              "allAuthors": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              },
+              "FirstAuthor": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "Journal or Conference": {
+                "hide": true
+              },
+              "Pub.date": {
+                "hide": true
+              },
+              "status": {
+                "hide": false
+              },
+              "tags": {
+                "hide": false,
+                "width": 497
+              },
+              "title": {
+                "hide": true
+              },
+              "TitleTranslation": {
+                "hide": true
+              },
+              "zoterolink": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"个人\"]"
+                }
+              },
+              {
+                "color": "#ff7f7f",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记/永久笔记\"]"
+                }
+              },
+              {
+                "color": "#7fbfff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"笔记\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "25a4b8cc-b895-41fb-9cbe-a77393b41e37",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "205727ce-3d98-4e06-be86-ed7836ea379f",
+      "name": "inbox"
     }
   ],
   "archives": [],

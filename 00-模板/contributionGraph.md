@@ -1,6 +1,6 @@
 ---
 created: 2024-02-06T22:23
-updated: 2024-06-02T21:30
+updated: 2024-07-03T10:29
 tags:
   - 模板
 ---
@@ -20,7 +20,7 @@ dataSource:
   type: PAGE
   value: ""
   dateField:
-    type: FILE_MTIME
+    type: PAGE_PROPERTY
     value: updated
 fillTheScreen: true
 enableMainContainerShadow: false
