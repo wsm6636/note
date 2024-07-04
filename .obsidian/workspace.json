@@ -204,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309,
-    "collapsed": true
+    "width": 309
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,12 +226,13 @@
   "active": "74eb1e8a07033896",
   "lastOpenFiles": [
     "00-inbox/ROS2使用.md",
+    "wsm/01-日记/2024-07-03.md",
+    "00-inbox/2024-W27-07-01.md",
     "HOMEPAGE.canvas",
     "00-模板/年复盘模板.md",
     "00-模板/挂件.md",
     "00-inbox/2024.md",
     "00-inbox/ROS-idea.md",
-    "00-inbox/2024-W27-07-01.md",
     "00-模板/contributionGraph.md",
     "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-07-01.md",
