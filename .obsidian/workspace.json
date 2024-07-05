@@ -17,8 +17,8 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -592.762972240234,
-                  "zoom": -0.22687217114385053
+                  "y": -599,
+                  "zoom": -0.196794048190654
                 }
               },
               "pinned": true
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242
+    "width": 294.0026054382324
   },
   "right": {
     "id": "f9eb34c335bcb918",
@@ -217,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,10 +239,10 @@
   },
   "active": "74eb1e8a07033896",
   "lastOpenFiles": [
-    "00-inbox/2024-W27-07-01.md",
-    "wsm/01-日记/2024-07-04.md",
     "00-inbox/ROS2使用.md",
+    "00-inbox/2024-W27-07-01.md",
     "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-07-04.md",
     "wsm/01-日记/2024-07-03.md",
     "00-模板/年复盘模板.md",
     "00-模板/挂件.md",
