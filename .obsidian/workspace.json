@@ -220,7 +220,8 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "74eb1e8a07033896",
