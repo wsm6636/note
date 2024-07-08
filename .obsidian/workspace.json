@@ -23,56 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5c7db78a7f4557a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ROS2使用.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c10a5f722f3a389",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
-            "id": "d82d15163af81e08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W27-07-01.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8808a2d09b2ca032",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -168,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01-永久笔记/工作流.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -211,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-永久笔记/工作流.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341,
-    "collapsed": true
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,12 +211,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8808a2d09b2ca032",
+  "active": "74eb1e8a07033896",
   "lastOpenFiles": [
-    "00-inbox/2024-W27-07-01.md",
+    "00-inbox/2024-W28-07-08.md",
+    "00-inbox/2024-07-08.md",
     "HOMEPAGE.canvas",
     "00-inbox/ROS2使用.md",
     "wsm/其他/科技论文写作.md",
+    "wsm/02-周记/2024-W27-07-01.md",
+    "01-永久笔记/工作流.md",
     "02-paper/04-ESWEEK/审稿意见.md",
     "wsm/01-日记/2024-07-04.md",
     "wsm/01-日记/2024-07-03.md",
@@ -274,7 +228,6 @@
     "00-inbox/2024.md",
     "00-inbox/ROS-idea.md",
     "00-模板/contributionGraph.md",
-    "01-永久笔记/工作流.md",
     "wsm/01-日记/2024-07-01.md",
     "wsm/03-月复盘/2024-06.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
@@ -296,7 +249,6 @@
     "06-ppt/discussion/~$0701.pptx",
     "06-ppt/discussion/0701.pptx",
     "06-ppt/discussion/0524 - 副本 (2).pptx",
-    "06-ppt/discussion/~$0524.pptx",
-    "wsm/01-日记/2024-06/2024-06-28.md"
+    "06-ppt/discussion/~$0524.pptx"
   ]
 }
