@@ -157,14 +157,7 @@
       "key": "R"
     }
   ],
-  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "`"
-    }
-  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [],
   "obsidian-advanced-slides:reload-advanced-slides-preview": [],
   "obsidian-advanced-slides:open-advanced-slides-preview": [],
   "periodic-notes:open-daily-note": [
