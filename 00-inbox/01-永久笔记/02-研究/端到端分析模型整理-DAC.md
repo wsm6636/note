@@ -16,7 +16,7 @@ tags:
 2007 DAC
 Abhijit Davare1, Qi Zhu1, Marco Di Natale
 
-> [Period Optimization for Hard Real-time Distributed Automotive Systems](../../03-research/02-因果链/Period%20Optimization%20for%20Hard%20Real-time%20Distributed%20Automotive%20Systems.md)
+> [Period Optimization for Hard Real-time Distributed Automotive Systems](../../../03-research/02-因果链/Period%20Optimization%20for%20Hard%20Real-time%20Distributed%20Automotive%20Systems.md)
 
 #端到端/任务类型/周期任务   #端到端/通信类型/CAN总线   #端到端/触发方式/TT
 
@@ -52,7 +52,7 @@ Abhijit Davare1, Qi Zhu1, Marco Di Natale
 2019 Transactions on Embedded Computing Systems
 MARCO DÜRR, GEORG VON DER BRÜGGEN, KUAN-HSUN CHEN, and JIAN-JIA CHEN, TU Dortmund University
 
-> [End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems](../../03-research/02-因果链/End-to-End%20Timing%20Analysis%20of%20Sporadic%20Cause-Effect%20Chains%20in%20Distributed%20Systems.md)
+> [End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems](../../../03-research/02-因果链/End-to-End%20Timing%20Analysis%20of%20Sporadic%20Cause-Effect%20Chains%20in%20Distributed%20Systems.md)
 
 #端到端/任务类型/周期任务   #端到端/模型/向前向后作业链   #端到端/通信类型/CAN总线   #端到端/触发方式/TT  #端到端/通信方式/隐式
 
@@ -93,7 +93,7 @@ $f$：结束时间（finishing time）
 > 参考[方法1](#^cc7877)
 
 **单ECU**
-对于WCFC考虑两种情况[5.1最长反应时间](../../03-research/02-因果链/End-to-End%20Timing%20Analysis%20of%20Sporadic%20Cause-Effect%20Chains%20in%20Distributed%20Systems.md#5.1最长反应时间)
+对于WCFC考虑两种情况[5.1最长反应时间](../../../03-research/02-因果链/End-to-End%20Timing%20Analysis%20of%20Sporadic%20Cause-Effect%20Chains%20in%20Distributed%20Systems.md#5.1最长反应时间)
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202310262203668.png)
 可能由于过采样或者欠采样
 
@@ -136,7 +136,7 @@ $f$：结束时间（finishing time）
 2021 RTAS
 Mario Günzel, Kuan-Hsun Chen, Niklas Ueter, Georg von der Brüggen,Marco Dürr and Jian-Jia Chen
 
-> [Timing Analysis of Asynchronized Distributed Cause-Effect Chains](../../03-research/02-因果链/Timing%20Analysis%20of%20Asynchronized%20Distributed%20Cause-Effect%20Chains.md)
+> [Timing Analysis of Asynchronized Distributed Cause-Effect Chains](../../../03-research/02-因果链/Timing%20Analysis%20of%20Asynchronized%20Distributed%20Cause-Effect%20Chains.md)
 
 #端到端/通信方式/隐式  #端到端/触发方式/TT  #端到端/通信类型/CAN总线     #端到端/模型/超周期
 
@@ -180,7 +180,7 @@ Mario Günzel, Kuan-Hsun Chen, Niklas Ueter, Georg von der Brüggen,Marco Dürr 
 2023RTNS
 Mario Günzel
 
-> [Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms](../../03-research/02-因果链/Timing%20Analysis%20of%20Cause-Effect%20Chains%20with%20Heterogeneous%20Communication%20Mechanisms.md)
+> [Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms](../../../03-research/02-因果链/Timing%20Analysis%20of%20Cause-Effect%20Chains%20with%20Heterogeneous%20Communication%20Mechanisms.md)
 
 **方法同2、3一样
 当链中同时存在LET和隐式时，不同的拆分方式具有不同的上界**
@@ -190,7 +190,7 @@ Mario Günzel
 2023DAC
 Yue Tang1, Nan Guan2, Xu Jiang1, Zheng Dong3, Wang Yi1,4
 
-> [Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing](../../03-research/02-因果链/Reaction%20Time%20Analysis%20of%20Event-Triggered%20Processing%20Chains%20with%20Data%20Refreshing.md)
+> [Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing](../../../03-research/02-因果链/Reaction%20Time%20Analysis%20of%20Event-Triggered%20Processing%20Chains%20with%20Data%20Refreshing.md)
 
  ==ET事件触发机制  +  TT时间触发缓冲机制（固定大小缓冲区，新数据覆盖旧数据）==
  

@@ -17,8 +17,8 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -599,
-                  "zoom": -0.196794048190654
+                  "y": -594.664106874369,
+                  "zoom": -0.48397298589078763
                 }
               },
               "pinned": true
@@ -204,30 +204,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341
+    "width": 341,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-kanban:创建新看板": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-projects:Open projects": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
+      "obsidian-kanban:创建新看板": false,
+      "templater-obsidian:Templater": false,
       "obsidian-memos:Thino": false,
+      "obsidian-projects:Open projects": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "74eb1e8a07033896",
   "lastOpenFiles": [
-    "00-inbox/ROS2使用.md",
     "HOMEPAGE.canvas",
+    "00-inbox/ROS2使用.md",
     "00-inbox/2024-W28-07-08.md",
     "00-inbox/2024-07-08.md",
     "wsm/其他/科技论文写作.md",

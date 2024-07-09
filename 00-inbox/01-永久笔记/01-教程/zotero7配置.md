@@ -3,13 +3,13 @@ tags:
   - 笔记
   - 笔记/永久笔记
 created: 2024-04-07T16:29
-updated: 2024-05-17T10:31
+updated: 2024-07-10T00:13
 status:
   - done
 ---
 # 标签
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202404171509691.png)
-![zotero/actions-zotero.yml)](actions-zotero.yml)
+![zotero/actions-zotero.yml)](zotero/actions-zotero.yml)
 
 
 # 常规
@@ -42,11 +42,11 @@ status:
 
 # 模板
 
-![](bn-template-backup-2024-04-17T13-49-04.049Z.yaml)
+![](zotero/bn-template-backup-2024-04-17T13-49-04.049Z.yaml)
 
-![](bn-template-backup-2024-04-17T13-49-10.056Z.yaml)
+![](zotero/bn-template-backup-2024-04-17T13-49-10.056Z.yaml)
 
-![](bn-template-backup-2024-04-17T13-49-16.361Z.yaml)
+![](zotero/bn-template-backup-2024-04-17T13-49-16.361Z.yaml)
 
 # 配色
 ![image.png](https://gcore.jsdelivr.net/gh/wsm6636/pic/202404171552819.png)
