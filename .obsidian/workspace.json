@@ -8,23 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "74eb1e8a07033896",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "HOMEPAGE.canvas",
-                "viewState": {
-                  "x": -1947.5,
-                  "y": -594.664106874369,
-                  "zoom": -0.48397298589078763
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "4e959ad3ddc52fb5",
             "type": "leaf",
             "state": {
@@ -36,8 +19,67 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "994ffa1b51f94b04",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGE.canvas",
+                "viewState": {
+                  "x": -1947.5,
+                  "y": -599,
+                  "zoom": -0.69277698474214
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "b52deaf50d57af92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W28-07-08.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6960d259e39ed0cb",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGEiPhone.canvas",
+                "viewState": {
+                  "x": -2242,
+                  "y": -374,
+                  "zoom": -1.365089093579439
+                }
+              }
+            }
+          },
+          {
+            "id": "04430c024371f0c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/TSN知识总结.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,8 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341,
-    "collapsed": true
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,15 +266,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "74eb1e8a07033896",
+  "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
+    "00-inbox/TSN知识总结.md",
     "HOMEPAGE.canvas",
     "00-inbox/ROS2使用.md",
+    "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-W28-07-08.md",
     "00-inbox/2024-07-08.md",
     "wsm/其他/科技论文写作.md",
     "wsm/02-周记/2024-W27-07-01.md",
-    "01-永久笔记/工作流.md",
+    "00-inbox/01-永久笔记/工作流.md",
     "02-paper/04-ESWEEK/审稿意见.md",
     "wsm/01-日记/2024-07-04.md",
     "wsm/01-日记/2024-07-03.md",
