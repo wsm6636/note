@@ -17,32 +17,11 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -599,
-                  "zoom": -0.69277698474214
+                  "y": -497.2841410912157,
+                  "zoom": -0.28054083593743595
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "4e88a84bc2733f65",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "deb4c7b99695059e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-07-04.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           },
           {
@@ -59,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "wsm/01-日记/2024-07-04.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "wsm/01-日记/2024-07-04.md"
-              }
+              "state": {}
             }
           },
           {
@@ -198,7 +173,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsm/01-日记/2024-07-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +189,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsm/01-日记/2024-07-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,21 +220,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "deb4c7b99695059e",
+  "active": "7c6620abd473f20d",
   "lastOpenFiles": [
-    "wsm/01-日记/2024-07-03.md",
-    "HOMEPAGE.canvas",
+    "00-模板/paper.md",
+    "00-模板/学习.md",
+    "00-模板/永久.md",
+    "00-模板/项目.md",
+    "00-模板/文献.md",
+    "00-模板/闪念.md",
+    "00-模板/note.md",
+    "1.md",
+    "00-inbox/2024-W28-07-08.md",
     "00-inbox/2024-W29-07-15.md",
+    "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-07-04.md",
+    "wsm/01-日记/2024-07-03.md",
     "wsm/02-周记/2024-W27-07-01.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-08.md",
     "00-inbox/TSN知识总结.md",
     "00-inbox/ROS2使用.md",
-    "00-inbox/2024-W28-07-08.md",
     "wsm/其他/科技论文写作.md",
     "00-inbox/01-永久笔记/工作流.md",
     "02-paper/04-ESWEEK/审稿意见.md",
-    "wsm/01-日记/2024-07-04.md",
     "00-模板/年复盘模板.md",
     "00-模板/挂件.md",
     "00-inbox/2024.md",
@@ -269,18 +250,11 @@
     "00-模板/contributionGraph.md",
     "wsm/01-日记/2024-07-01.md",
     "wsm/03-月复盘/2024-06.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
     "06-ppt/discussion/~$0524 - 副本.pptx",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/2024-06.md.nssyncsc",
-    "00-inbox/2024-07.md",
-    "00-模板/日记模板.md",
-    "02-paper/05-SIES/SIES-workspace.md",
-    "wsm/01-日记/2024-06/2024-06-30.md",
-    "wsm/02-周记/2024-W26-06-24.md",
     "06-ppt/discussion/ppt488D.tmp",
     "06-ppt/discussion/~$0701.pptx",
     "06-ppt/discussion/0701.pptx",

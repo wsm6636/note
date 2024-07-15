@@ -647,7 +647,9 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "00-模板/闪念.md"
+      ],
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
@@ -657,7 +659,7 @@
           "hierarchy": true
         }
       },
-      "newNotesFolder": "",
+      "newNotesFolder": "00-inbox/01-永久笔记",
       "views": [
         {
           "config": {
@@ -788,7 +790,11 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "00-模板/zoteronote模板.md",
+        "00-模板/annotation-color-note.md",
+        "00-模板/文献.md"
+      ],
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
@@ -798,7 +804,7 @@
           "hierarchy": true
         }
       },
-      "newNotesFolder": "",
+      "newNotesFolder": "00-inbox",
       "views": [
         {
           "config": {
@@ -943,8 +949,13 @@
     },
     {
       "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
+      "defaultName": "{{date:YYYY-MM-DD}}",
+      "templates": [
+        "00-模板/月复盘模板.md",
+        "00-模板/日记模板.md",
+        "00-模板/年复盘模板.md",
+        "00-模板/周记模板.md"
+      ],
       "excludedNotes": [
         "00-模板/月复盘模板.md",
         "00-模板/年复盘模板.md",
@@ -959,7 +970,7 @@
           "hierarchy": true
         }
       },
-      "newNotesFolder": "",
+      "newNotesFolder": "wsm",
       "views": [
         {
           "config": {
@@ -1668,7 +1679,9 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "00-模板/paper.md"
+      ],
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
@@ -1678,7 +1691,7 @@
           "hierarchy": true
         }
       },
-      "newNotesFolder": "",
+      "newNotesFolder": "02-paper",
       "views": [
         {
           "config": {},
@@ -1703,7 +1716,9 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "00-模板/项目.md"
+      ],
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
@@ -1713,7 +1728,7 @@
           "recursive": true
         }
       },
-      "newNotesFolder": "",
+      "newNotesFolder": "04-project",
       "views": [
         {
           "config": {},
@@ -1738,7 +1753,10 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "00-模板/菜谱.md",
+        "00-模板/永久.md"
+      ],
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
@@ -1748,7 +1766,7 @@
           "hierarchy": true
         }
       },
-      "newNotesFolder": "",
+      "newNotesFolder": "00-inbox",
       "views": [
         {
           "config": {
@@ -2050,7 +2068,9 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "00-模板/note.md"
+      ],
       "excludedNotes": [],
       "isDefault": true,
       "dataSource": {
@@ -2113,6 +2133,12 @@
               },
               "zoterolink": {
                 "hide": true
+              },
+              "食材": {
+                "hide": true
+              },
+              "种类": {
+                "hide": true
               }
             }
           },
@@ -2152,7 +2178,13 @@
             ]
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "updated",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
           },
           "id": "25a4b8cc-b895-41fb-9cbe-a77393b41e37",
           "name": "表格",
