@@ -25,6 +25,19 @@
             }
           },
           {
+            "id": "2667286f2231ceb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e03d8e49b9a6fb38",
             "type": "leaf",
             "state": {
@@ -90,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md"
               }
             }
           }
@@ -134,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md"
               }
             }
           },
@@ -177,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,15 +238,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e03d8e49b9a6fb38",
+  "active": "2667286f2231ceb0",
   "lastOpenFiles": [
-    "00-inbox/放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派.md",
-    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md",
-    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc",
-    "00-inbox/0-Mcti： mixed-criticality task-based isolation _ Real-Time Systems@annote.md",
-    "00-inbox/ROS2使用.md",
     "00-inbox/Mcti：基于混合关键性任务的隔离 _ 实时系统.md",
+    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md",
+    "00-inbox/0-Mcti： mixed-criticality task-based isolation _ Real-Time Systems@annote.md",
     "HOMEPAGE.canvas",
+    "00-inbox/ROS2使用.md",
+    "00-inbox/放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派.md",
+    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc",
     "00-inbox/2024-W29-07-15.md",
     "00-模板/paper.md",
     "00-模板/学习.md",
@@ -255,7 +268,6 @@
     "02-paper/04-ESWEEK/审稿意见.md",
     "00-模板/年复盘模板.md",
     "00-模板/挂件.md",
-    "00-inbox/2024.md",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
