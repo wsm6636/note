@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-07-05T16:35
+updated: 2024-07-15T15:18
 status:
   - ing
 ---
@@ -214,6 +214,166 @@ for i in `seq 1 $(cat /proc/cpuinfo |grep "physical id" |wc -l)`; do dd if=/dev/
 
 
 ## 1、performance_test
+
+```
+ros2 在 21:03:05 运行 performance_test perf_test --help
+
+用法：
+
+perf_test [-h] [--check-memory] ​​[--loaned-samples] [--prevent-cpu-idle]
+[--print-to-console] [--shared-memory] ​​[--version]
+[--with-security] [--zero-copy] [-c
+<rclcpp-single-threaded-executor|
+rclcpp-static-single-threaded-executor|rclcpp-waitset>] [-e
+<INTER_THREAD|INTRA_THREAD>] [-l <name>] [-m <Array128|
+Array16k|Array1k|Array1m|Array256|Array256k|Array2m|Array32|
+Array32k|Array4k|Array4m|Array512|Array60k|Array64|Array64k|
+Array8m|PointCloud1m|PointCloud2m|PointCloud4m|PointCloud512k|
+PointCloud8m|Struct16|Struct256|Struct32k|Struct4k>] [-p <0|
+1>] [-r <N>] [-s <N>] [-t <topic>] [--dds-domain-id <id>]
+[--durability <TRANSIENT_LOCAL|VOLATILE>]
+[--expected-num-pubs <0|1>] [--expected-num-subs <N>]
+[--history <KEEP_LAST|KEEP_ALL>] [--history-depth <N>]
+[--ignore <N>] [--max-runtime <N>] [--reliability <RELIABLE|
+BEST_EFFORT>] [--roundtrip-mode <None|Main|Relay>]
+[--unbounded-msg-size <N>] [--use-rt-cpus <N>] [--use-rt-prio
+<N>] [--wait-for-matched-timeout <N>]
+
+其中：
+
+--print-to-console
+将指标打印到控制台。
+
+-l <name>, --logfile <name>
+指定日志文件的名称，例如 -l "log_$(date
++%F_%H-%M-%S).json"。支持的格式：csv、json
+
+-r <N>, --rate <N>
+发布速率。0 表示尽快发布。默认值为
+1000。
+
+-c <rclcpp-single-threaded-executor|
+rclcpp-static-single-threaded-executor|rclcpp-waitset>,
+--communicator <rclcpp-single-threaded-executor|
+rclcpp-static-single-threaded-executor|rclcpp-waitset>
+插件的通信器。默认为 rclcpp-single-threaded-executor。
+
+-e <INTER_THREAD|INTRA_THREAD>, --execution-strategy <INTER_THREAD|
+INTRA_THREAD>
+要使用的执行策略。默认为 INTER_THREAD。
+
+-t <topic>, --topic <topic>
+主题名称。默认为 test_topic。
+
+-m <Array128|Array16k|Array1k|Array1m|Array256|Array256k|Array2m|Array32|
+Array32k|Array4k|Array4m|Array512|Array60k|Array64|Array64k|Array8m|
+PointCloud1m|PointCloud2m|PointCloud4m|PointCloud512k|PointCloud8m|
+Struct16|Struct256|Struct32k|Struct4k>, --msg <Array128|Array16k|
+Array1k|Array1m|Array256|Array256k|Array2m|Array32|Array32k|Array4k|
+Array4m|Array512|Array60k|Array64|Array64k|Array8m|PointCloud1m|
+PointCloud2m|PointCloud4m|PointCloud512k|PointCloud8m|Struct16|
+Struct256|Struct32k|Struct4k>
+消息类型。默认为 Array128。
+
+--dds-domain-id <id>
+DDS 域 ID。如果未指定，则返回到 ROS_DOMAIN_ID
+环境变量。默认值为 0。
+
+--reliability <RELIABLE|BEST_EFFORT>
+QOS 可靠性类型。默认值为 BEST_EFFORT。
+
+--durability <TRANSIENT_LOCAL|VOLATILE>
+QOS 持久性类型。默认值为 VOLATILE。
+
+--history <KEEP_LAST|KEEP_ALL>
+QOS 历史类型。默认值为 KEEP_LAST。
+
+--history-depth <N>
+QOS 历史深度。默认值为 16。
+
+--max-runtime <N>
+运行 N 秒，然后退出。0 表示永远运行。默认值为 0。
+
+-p <0|1>, --num-pub-threads <0|1>
+发布者线程数。默认值为 1。
+
+-s <N>, --num-sub-threads <N>
+订阅者线程数。默认值为 1。
+
+--check-memory
+打印中间件执行的所有内存操作的回溯。
+这会降低应用程序的速度！
+
+--use-rt-prio <N>
+使用 SCHED_FIFO 实时策略设置 RT 优先级。此选项
+需要设置实时优先级的权限。默认值为 0
+（禁用）。
+
+--use-rt-cpus <N>
+设置 RT CPU 亲和性掩码。亲和性掩码必须采用十进制
+系统。例如，10 设置处理器 1 和 3 的亲和性。
+默认值为 0（禁用）。
+
+--with-security
+为安全性使用具有确定性名称的节点。
+
+--roundtrip-mode <None|Main|Relay>
+选择往返模式。默认值为 None。
+
+--ignore <N>
+忽略实验的前 N ​​秒。默认值为 0。
+
+--expected-num-pubs <0|1>
+wait-for-matched 的预期发布者数量。默认值与 -p 参数相同。
+
+--expected-num-subs <N>
+wait-for-matched 的预期订阅者数量。默认值与 -s 参数相同。
+
+--wait-for-matched-timeout <N>
+等待匹配的发布/订阅的最长时间（以秒为单位）。默认值为 30。
+
+--shared-memory
+启用共享内存传输。根据插件实现，这可能会覆盖您已设置的部分或全部运行时标志。
+
+--loaned-samples
+使用借出的示例 API 发布消息。
+
+--zero-copy
+--shared-memory --loaned-samples 的别名。
+
+--unbounded-msg-size <N>
+用于无界消息类型的字节数。忽略
+其他消息。默认值为 0。
+
+--prevent-cpu-idle
+防止 CPU 进入空闲状态。
+
+--, --ignore_rest
+忽略此标志后面的其余标记参数。
+
+--version
+显示版本信息并退出。
+
+-h, --help
+显示使用信息并退出。
+```
+
+### 单进程
+```
+./install/performance_test/lib/performance_test/perf_test -c ROS2 -l log --msg Array1k -t test_topic --max_runtime 30 --num_sub_threads 1 --num_pub_threads 1
+```
+### 多进程
+```
+#发布
+./install/performance_test/lib/performance_test/perf_test -c ROS2 -l log --msg Array1k -t test_topic --max_runtime 30 --num_sub_threads 0 --num_pub_threads 1
+
+#订阅
+./install/performance_test/lib/performance_test/perf_test -c ROS2 -l log --msg Array1k -t test_topic --max_runtime 30 --num_sub_threads 1 --num_pub_threads 0
+```
+
+
+
+
 
 
 ## 2、reference system

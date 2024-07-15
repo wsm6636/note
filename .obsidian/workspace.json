@@ -25,19 +25,20 @@
             }
           },
           {
-            "id": "db61f910a94d641c",
+            "id": "e03d8e49b9a6fb38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-W29-07-15.md",
+                "file": "00-inbox/ROS2使用.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           }
@@ -97,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.0026054382324
+    "width": 279
   },
   "right": {
     "id": "f9eb34c335bcb918",
@@ -133,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,14 +194,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,8 +225,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "994ffa1b51f94b04",
+  "active": "7c6620abd473f20d",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-模板/paper.md",
     "00-模板/学习.md",
     "00-模板/永久.md",
@@ -237,7 +238,6 @@
     "1.md",
     "00-inbox/2024-W28-07-08.md",
     "00-inbox/2024-W29-07-15.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-07-04.md",
     "wsm/01-日记/2024-07-03.md",
     "wsm/02-周记/2024-W27-07-01.md",
@@ -254,7 +254,6 @@
     "00-inbox/ROS-idea.md",
     "00-模板/contributionGraph.md",
     "wsm/01-日记/2024-07-01.md",
-    "wsm/03-月复盘/2024-06.md",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
