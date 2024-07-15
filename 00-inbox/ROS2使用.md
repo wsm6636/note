@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-07-15T15:37
+updated: 2024-07-15T16:42
 status:
   - ing
 ---
@@ -358,21 +358,28 @@ wait-for-matched 的预期订阅者数量。默认值与 -s 参数相同。
 显示使用信息并退出。
 ```
 
+```
+ros2 run performance_test perf_test  -c rclcpp-single-threaded-executor -l log.json -t Array1k --max-runtime 30
+```
+
 ### 单进程
 ```
-./install/performance_test/lib/performance_test/perf_test -c ROS2 -l log --msg Array1k -t test_topic --max_runtime 30 --num_sub_threads 1 --num_pub_threads 1
+ros2 run performance_test perf_test  -c rclcpp-single-threaded-executor -l logsingle.csv --msg Array1k -t test_topic --max-runtime 30 -s 1 -p 1 
+
 ```
 ### 多进程
 ```
 #发布
-./install/performance_test/lib/performance_test/perf_test -c ROS2 -l log --msg Array1k -t test_topic --max_runtime 30 --num_sub_threads 0 --num_pub_threads 1
+ros2 run performance_test perf_test  -c rclcpp-single-threaded-executor -l logmutil.csv --msg Array1k -t test_topic --max-runtime 30 -s 0 -p 1 
 
 #订阅
-./install/performance_test/lib/performance_test/perf_test -c ROS2 -l log --msg Array1k -t test_topic --max_runtime 30 --num_sub_threads 1 --num_pub_threads 0
+ros2 run performance_test perf_test  -c rclcpp-single-threaded-executor -l logmutil.csv --msg Array1k -t test_topic --max-runtime 30 -s 1 -p 0 
 ```
 
 ### 画图
-
+```
+perfplot log.csv   
+```
 
 
 
