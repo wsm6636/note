@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e959ad3ddc52fb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ROS2使用.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "994ffa1b51f94b04",
             "type": "leaf",
             "pinned": true,
@@ -38,12 +25,20 @@
             }
           },
           {
-            "id": "b52deaf50d57af92",
+            "id": "4e88a84bc2733f65",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
+            "id": "deb4c7b99695059e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-W28-07-08.md",
+                "file": "wsm/01-日记/2024-07-04.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,27 +46,12 @@
             }
           },
           {
-            "id": "6960d259e39ed0cb",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "HOMEPAGEiPhone.canvas",
-                "viewState": {
-                  "x": -2242,
-                  "y": -374,
-                  "zoom": -1.365089093579439
-                }
-              }
-            }
-          },
-          {
-            "id": "04430c024371f0c0",
+            "id": "db61f910a94d641c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/TSN知识总结.md",
+                "file": "00-inbox/2024-W29-07-15.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -79,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/01-日记/2024-07-04.md"
               }
             }
           }
@@ -175,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "wsm/01-日记/2024-07-04.md"
               }
             }
           },
@@ -218,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/01-日记/2024-07-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "wsm/01-日记/2024-07-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341
+    "width": 341,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,20 +247,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "994ffa1b51f94b04",
+  "active": "deb4c7b99695059e",
   "lastOpenFiles": [
-    "00-inbox/TSN知识总结.md",
+    "wsm/01-日记/2024-07-03.md",
     "HOMEPAGE.canvas",
-    "00-inbox/ROS2使用.md",
-    "HOMEPAGEiPhone.canvas",
-    "00-inbox/2024-W28-07-08.md",
-    "00-inbox/2024-07-08.md",
-    "wsm/其他/科技论文写作.md",
+    "00-inbox/2024-W29-07-15.md",
     "wsm/02-周记/2024-W27-07-01.md",
+    "HOMEPAGEiPhone.canvas",
+    "00-inbox/2024-07-08.md",
+    "00-inbox/TSN知识总结.md",
+    "00-inbox/ROS2使用.md",
+    "00-inbox/2024-W28-07-08.md",
+    "wsm/其他/科技论文写作.md",
     "00-inbox/01-永久笔记/工作流.md",
     "02-paper/04-ESWEEK/审稿意见.md",
     "wsm/01-日记/2024-07-04.md",
-    "wsm/01-日记/2024-07-03.md",
     "00-模板/年复盘模板.md",
     "00-模板/挂件.md",
     "00-inbox/2024.md",
@@ -299,8 +281,6 @@
     "02-paper/05-SIES/SIES-workspace.md",
     "wsm/01-日记/2024-06/2024-06-30.md",
     "wsm/02-周记/2024-W26-06-24.md",
-    "03-research/11-ROS/ROS2 Real-time Performance Optimization and Evaluation.md",
-    "03-research/11-ROS/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "06-ppt/discussion/ppt488D.tmp",
     "06-ppt/discussion/~$0701.pptx",
     "06-ppt/discussion/0701.pptx",

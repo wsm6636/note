@@ -285,11 +285,10 @@
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md": "fbaff21cc8e203afd21faeef749409c42c9c4c08174763323683a0592db9c1e5",
     "wsm/01-日记/2024-07-01.md": "064f7071c09d24dbe2f5c68568f2076907ad9287a98ac30298137e77910d26c3",
     "wsm/01-日记/2024-07-03.md": "bf6e5b7481d22a54d3d93c985a8c78e2d1c104a0b3104e21d47d2a4d0b7a2dfa",
-    "wsm/01-日记/2024-07-04.md": "ca866af9d8d24fd5e799bcd7f36dfee986c538a2278139e1875e44d18da0602b",
+    "wsm/01-日记/2024-07-04.md": "023401c5b38bcb8a2905b91bd2d14ed4fe70e66a374c0889202373e6077ca36d",
     "02-paper/04-ESWEEK/审稿意见.md": "21d0b8290d074a916c1b99f892d438d05d25bb8edbf0cb72e7585e7708a6a86e",
     "wsm/02-周记/2024-W27-07-01.md": "85a3482924332df42965b6568c654b563f560732aa0b226db9200efbc85d5f4b",
     "00-inbox/2024-W28-07-08.md": "334b2c13cfe4c8dc9a2a16a8419479a8dc41c02e650c06edb02c4e1ad7d18dfb",
-    "00-inbox/2024-07-08.md": "fae7716c9f67ebc0da387cd5fba2c01d1a493abccf82c1636fffbd4ef0b41bd2",
     "00-inbox/01-永久笔记/工作流.md": "d93e8a9666f75781f5983d08af69f327a8be8208da321dbf4e7143a9d4355174",
     "00-inbox/01-永久笔记/02-研究/DAG总结.md": "eff9ee36cb797803c46b92312b8555ee525207aa28b06771ff3e6060d9c39ffb",
     "00-inbox/01-永久笔记/02-研究/ROS总结.md": "3377eb95331e03997d049a04f90f596d857ad11952caca499cf3963a7f561b84",
@@ -337,6 +336,7 @@
     "00-inbox/01-永久笔记/01-教程/litmus/archarmkernelreturn_address.c667 error redefinition of ‘return_address’.md": "18112ab8187e1396575f9cea456c162e7f9656578a2a5aa27fb746b62d1e2441",
     "00-inbox/01-永久笔记/01-教程/litmus/imx6q移植——linux4.1.15.+litmus2016.1.md": "28de2212d4500135d5611983b47cc31dcc2523bb00cde32f20a5a09c21842bd5",
     "00-inbox/01-永久笔记/01-教程/litmus/litmus虚拟机qcow扩容.md": "f6f81ccf346a36c82512cc67db1d5d97683337e2d76fdae9148af55c74c16002",
-    "00-inbox/01-永久笔记/01-教程/litmus/imx6q移植litmus用户库+trace工具.md": "61c7fd7c9b12a462df0d26f50a960f0719d699492ef9bedbea5938ff13b23abf"
+    "00-inbox/01-永久笔记/01-教程/litmus/imx6q移植litmus用户库+trace工具.md": "61c7fd7c9b12a462df0d26f50a960f0719d699492ef9bedbea5938ff13b23abf",
+    "00-inbox/2024-W29-07-15.md": "9bca69a17e5d90975c4f1fedf33e84294b8b511072264788f34098fae9600054"
   }
 }
