@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +88,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           }
         ]
@@ -131,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -173,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +225,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7c6620abd473f20d",
+  "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
     "00-模板/paper.md",
     "00-模板/学习.md",
