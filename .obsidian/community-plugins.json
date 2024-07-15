@@ -32,5 +32,7 @@
   "editing-toolbar",
   "obsidian-emoji-toolbar",
   "obsidian-projects",
-  "obsidian-auto-link-title"
+  "obsidian-auto-link-title",
+  "obsidian-local-rest-api",
+  "simpread"
 ]
