@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-07-16T11:53
+updated: 2024-07-16T12:22
 status:
   - ing
 ---
@@ -387,8 +387,44 @@ perfplot log.csv
 
 
 ## 2、reference system
+```
+usage: benchmark.py [-h] [--trace_types TRACE_TYPES] [--rmws RMWS] [--logdir LOGDIR]
+                    [--plot_only] [--template_file TEMPLATE_FILE]
+                    runtimes executables
+
+Benchmark an executor implementation.
+
+positional arguments:
+  runtimes              comma-separated list of runtimes (in seconds)
+  executables           comma-separated list of target executables
+
+options:
+  -h, --help            show this help message and exit
+  --trace_types TRACE_TYPES
+                        comma-separated list of trace types (default: memory,std)
+  --rmws RMWS           comma-separated list of rmw implementations
+  --logdir LOGDIR       The directory where traces and results are placed (default:
+                        /home/wsm/.ros/benchmark_<pkg>/<timestamp>)
+  --plot_only           Only plot existing data, do not run new experiments.
+  --template_file TEMPLATE_FILE
+                        Path to template report file to fill in
+
+```
 
 
+```
+ ros2 run autoware_reference_system number_cruncher_benchmark
+maximum_number     run time
+          64       0.003533ms
+         128       0.010693ms
+         256       0.035756ms
+         512       0.12813ms
+        1024       0.446658ms
+        2048       1.68166ms
+        4096       5.87434ms
+        8192       21.5425ms
+       16384       81.0377ms
+       32768       297.538ms
+       65536       1105.35ms
 
-
-
+```
