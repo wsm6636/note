@@ -283,12 +283,9 @@
     "00-inbox/2024-07.md": "3f60f0bfd43b87278fb2dfb2b8d3661888db5871e93aec2d0ff740458f9cc989",
     "wsm/03-月复盘/2024-06.md": "55ddef3832f86fe117bdb5d6568e787f37c26097b7348e6e9bbaeff4c71df97c",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md": "fbaff21cc8e203afd21faeef749409c42c9c4c08174763323683a0592db9c1e5",
-    "wsm/01-日记/2024-07-01.md": "064f7071c09d24dbe2f5c68568f2076907ad9287a98ac30298137e77910d26c3",
-    "wsm/01-日记/2024-07-03.md": "bf6e5b7481d22a54d3d93c985a8c78e2d1c104a0b3104e21d47d2a4d0b7a2dfa",
-    "wsm/01-日记/2024-07-04.md": "6b2efb1121cfb11040b11afa1acd9b2779fc7837b6b5796e512460dcee7e2613",
     "02-paper/04-ESWEEK/审稿意见.md": "21d0b8290d074a916c1b99f892d438d05d25bb8edbf0cb72e7585e7708a6a86e",
     "wsm/02-周记/2024-W27-07-01.md": "85a3482924332df42965b6568c654b563f560732aa0b226db9200efbc85d5f4b",
-    "00-inbox/2024-W29-07-15.md": "9487d6e2ef2a49ff6eb149184d9f1a7aa0c017d35ecd0770fb2a5cfd311f0ee3",
+    "00-inbox/2024-W29-07-15.md": "13755e3eae26a4122f7901d9a04e37f49fc501dfeb235c3f0b20c7ce08401f23",
     "00-模板/闪念.md": "6b30ce7bbe509828178096c5ce0167563b58bb4ce52f6d623fc22cc90ae29deb",
     "00-模板/文献.md": "dea2fce93c649fd2705553c8c48a921caa3d4c758d90719942f0e009feb79df4",
     "00-模板/项目.md": "9cdbaf9ddbc8e444c5300652e1b1e0ad5032419a144c1474c720ac327fc5072f",
@@ -343,6 +340,9 @@
     "01-永久笔记/01-教程/litmus/litmus虚拟机qcow扩容.md": "f6f81ccf346a36c82512cc67db1d5d97683337e2d76fdae9148af55c74c16002",
     "01-永久笔记/01-教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核过程.md": "7825c1999b62c4330300a1919af4be7a576e21325e7ad5a49e654188816e84d7",
     "01-永久笔记/01-教程/litmus/Ubuntu18.0+VBox6.1+eclipse调试litmus内核配置过程.md": "d8b28dfa8d1497087ed9fba93c0c4d13fa3183449af303913a969bd718da04ce",
-    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md": "9cd7f158bd0ae3e04edb6249b6b09b30bb0a9021eefa5710cdab6bd8ae89c59a"
+    "wsm/01-日记/2024-07-15.md": "344cada0d2a162cc2a12560ef0884c0cacfb9ecc498b486ccd7e701f3c995a9c",
+    "wsm/01-日记/2024-07/2024-07-01.md": "064f7071c09d24dbe2f5c68568f2076907ad9287a98ac30298137e77910d26c3",
+    "wsm/01-日记/2024-07/2024-07-03.md": "bf6e5b7481d22a54d3d93c985a8c78e2d1c104a0b3104e21d47d2a4d0b7a2dfa",
+    "wsm/01-日记/2024-07/2024-07-04.md": "6b2efb1121cfb11040b11afa1acd9b2779fc7837b6b5796e512460dcee7e2613"
   }
 }
