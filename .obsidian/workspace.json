@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -147,7 +146,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -190,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,17 +233,16 @@
       "obsidian-kanban:创建新看板": false,
       "templater-obsidian:Templater": false,
       "obsidian-memos:Thino": false,
-      "obsidian-projects:Open projects": false,
-      "periodic-notes:Open today": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "eb5e3fea94af54af",
+  "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
+    "00-inbox/ROS2使用.md",
     "wsm/01-日记/2024-07-15.md",
     "HOMEPAGE.canvas",
     "00-inbox/2024-W29-07-15.md",
     "wsm/01-日记/2024-07",
-    "00-inbox/ROS2使用.md",
     "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md",
     "00-inbox/Mcti：基于混合关键性任务的隔离 _ 实时系统.md",
     "00-inbox/0-Mcti： mixed-criticality task-based isolation _ Real-Time Systems@annote.md",
