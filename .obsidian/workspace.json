@@ -36,21 +36,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f8448193ee01cd6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-07-15.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           }
@@ -146,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -189,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341,
-    "collapsed": true
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,15 +220,17 @@
       "obsidian-kanban:创建新看板": false,
       "templater-obsidian:Templater": false,
       "obsidian-memos:Thino": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "994ffa1b51f94b04",
+  "active": "eb5e3fea94af54af",
   "lastOpenFiles": [
+    "00-inbox/2024-W29-07-15.md",
     "00-inbox/ROS2使用.md",
+    "wsm/01-日记/2024-07-16.md",
     "wsm/01-日记/2024-07-15.md",
     "HOMEPAGE.canvas",
-    "00-inbox/2024-W29-07-15.md",
     "wsm/01-日记/2024-07",
     "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md",
     "00-inbox/Mcti：基于混合关键性任务的隔离 _ 实时系统.md",
