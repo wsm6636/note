@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "Kenshin/simpread-obsidian-plugin",
     "aidan-gibson/obsidian-opener",
     "vran-dev/obsidian-emojio"
   ],
