@@ -36,35 +36,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c0ac2522035d6de7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77b1a04e18a592bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md"
+                "file": "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md"
               }
             }
           }
@@ -160,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md"
+                "file": "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md"
               }
             }
           },
@@ -203,7 +177,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +193,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,13 +223,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "77b1a04e18a592bd",
+  "active": "7c6620abd473f20d",
   "lastOpenFiles": [
+    "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md",
+    "00-inbox/ROS2使用.md",
+    "SimpRead/2-导出全文时应包含标签和标签@annote.md",
+    "SimpRead/2-导入到 Obsidian@annote.md",
+    "SimpRead/1-【分享】 让简悦更好的为 Obsidian 服务 - 经验分享 - Obsidian 中文论坛@annote.md",
+    "HOMEPAGE.canvas",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
-    "HOMEPAGE.canvas",
     "SimpRead",
-    "00-inbox/ROS2使用.md",
     "00-inbox/2024-W29-07-15.md",
     "wsm/01-日记/2024-07-16.md",
     "wsm/01-日记/2024-07-15.md",
@@ -280,10 +256,6 @@
     "wsm/01-日记/2024-07/2024-07-03.md",
     "wsm/02-周记/2024-W27-07-01.md",
     "HOMEPAGEiPhone.canvas",
-    "00-inbox/2024-07-08.md",
-    "00-inbox/TSN知识总结.md",
-    "wsm/其他/科技论文写作.md",
-    "01-永久笔记/工作流.md",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
