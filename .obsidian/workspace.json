@@ -17,11 +17,27 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -497.2841410912157,
+                  "y": -561.6501307629281,
                   "zoom": -0.28054083593743595
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "c98b6a8a5074b432",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a05dbb403800106",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           },
           {
@@ -36,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a1ebd0f0ecc1fa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/工作流.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -134,7 +162,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2使用.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -177,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2使用.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,14 +253,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eb5e3fea94af54af",
+  "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
-    "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md",
     "00-inbox/ROS2使用.md",
+    "wsm/其他/科技论文写作.md",
+    "HOMEPAGE.canvas",
+    "01-永久笔记/工作流.md",
+    "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md",
     "SimpRead/2-导出全文时应包含标签和标签@annote.md",
     "SimpRead/2-导入到 Obsidian@annote.md",
     "SimpRead/1-【分享】 让简悦更好的为 Obsidian 服务 - 经验分享 - Obsidian 中文论坛@annote.md",
-    "HOMEPAGE.canvas",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
     "SimpRead",
@@ -255,8 +285,6 @@
     "1.md",
     "00-inbox/2024-W28-07-08.md",
     "wsm/01-日记/2024-07/2024-07-04.md",
-    "wsm/01-日记/2024-07/2024-07-03.md",
-    "wsm/02-周记/2024-W27-07-01.md",
     "HOMEPAGEiPhone.canvas",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
