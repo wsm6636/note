@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-05-27T16:29:00
-updated: 2024-07-16T15:47
+updated: 2024-07-17T14:20
 status:
   - ing
 ---
@@ -194,7 +194,7 @@ rviz2
 
 # linux
 ```
-sudo chrt -d -p 0  -T 5000000 -D 10000000 -P 16666666 84721  
+sudo chrt -d -p  -T 5000000 -D 10000000 -P 16666666 0 84721  
 ```
 
 FIFO 
@@ -432,3 +432,5 @@ maximum_number     run time
 
 
 ![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202407161547493.png)
+
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202407171420873.png)

@@ -90,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -177,6 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,6 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +225,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7c6620abd473f20d",
+  "active": "eb5e3fea94af54af",
   "lastOpenFiles": [
     "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md",
     "00-inbox/ROS2使用.md",
