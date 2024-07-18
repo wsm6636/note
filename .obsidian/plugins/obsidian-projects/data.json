@@ -970,7 +970,7 @@
           "hierarchy": true
         }
       },
-      "newNotesFolder": "wsm",
+      "newNotesFolder": "00-inbox",
       "views": [
         {
           "config": {
@@ -981,22 +981,7 @@
             "conjunction": "or",
             "conditions": [
               {
-                "field": "论文",
-                "operator": "is-not-empty",
-                "enabled": true
-              },
-              {
-                "field": "意语",
-                "operator": "is-not-empty",
-                "enabled": true
-              },
-              {
-                "field": "运动",
-                "operator": "is-not-empty",
-                "enabled": true
-              },
-              {
-                "field": "英语",
+                "field": "name",
                 "operator": "is-not-empty",
                 "enabled": true
               }
@@ -1104,7 +1089,18 @@
               "#运动",
               "status",
               "tags",
-              "updated"
+              "updated",
+              "path",
+              "#月复盘完成度",
+              "#周复盘完成度",
+              "论文",
+              "日记",
+              "意语",
+              "英语",
+              "月复盘",
+              "运动",
+              "周记",
+              "created"
             ]
           },
           "filter": {
