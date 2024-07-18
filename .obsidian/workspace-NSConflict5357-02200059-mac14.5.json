@@ -65,19 +65,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f8e2ad86cc2646de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -268,11 +255,10 @@
   },
   "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
-    "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.md",
-    "HOMEPAGE.canvas",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-inbox/ROS2使用.md",
     "wsm/其他/科技论文写作.md",
+    "HOMEPAGE.canvas",
     "01-永久笔记/工作流.md",
     "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md",
     "SimpRead/2-导出全文时应包含标签和标签@annote.md",
@@ -298,12 +284,14 @@
     "00-模板/闪念.md",
     "00-模板/note.md",
     "1.md",
+    "00-inbox/2024-W28-07-08.md",
     "HOMEPAGEiPhone.canvas",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
     "06-ppt/discussion/~$0524 - 副本.pptx",
     "00-inbox/2024-06.md.nssyncsc",
-    "06-ppt/discussion/ppt488D.tmp"
+    "06-ppt/discussion/ppt488D.tmp",
+    "06-ppt/discussion/~$0701.pptx"
   ]
 }
