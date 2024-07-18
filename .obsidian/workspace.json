@@ -17,28 +17,20 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -529.3906049611609,
-                  "zoom": -0.28054083593743595
+                  "y": -599,
+                  "zoom": -0.2648535297866456
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "4abd3722f7215704",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "7954f5a8f0acdf8e",
+            "id": "413e770daa2a1baa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-07-18.md",
+                "file": "00-inbox/ROS2使用.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-07-18.md"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           }
@@ -142,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-07-18.md"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -185,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-07-18.md",
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-07-18.md",
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,17 +225,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7954f5a8f0acdf8e",
+  "active": "413e770daa2a1baa",
   "lastOpenFiles": [
     "00-inbox/2024-07-18.md",
+    "00-inbox/ROS2使用.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "00-SimpRead/0-一行命令跑满 Linux 的 CPU_linux 跑满 cpu 命令 - CSDN 博客@annote.md",
+    "HOMEPAGE.canvas",
     "wsm/2024-07-18.md",
     "00-inbox/2024-07.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-07-17.md",
     "00-inbox/2024-W29-07-15.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
-    "00-inbox/ROS2使用.md",
     "wsm/其他/科技论文写作.md",
     "01-永久笔记/工作流.md",
     "SimpRead/3-Analysis of TSN Time-Aware Shapers Using Schedule Abstraction Graphs@annote.md",
@@ -252,7 +247,7 @@
     "SimpRead/1-【分享】 让简悦更好的为 Obsidian 服务 - 经验分享 - Obsidian 中文论坛@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
-    "SimpRead",
+    "00-SimpRead",
     "wsm/01-日记/2024-07-16.md",
     "wsm/01-日记/2024-07-15.md",
     "wsm/01-日记/2024-07",
@@ -263,9 +258,6 @@
     "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc",
     "00-模板/paper.md",
     "00-模板/学习.md",
-    "00-模板/永久.md",
-    "00-模板/项目.md",
-    "00-模板/文献.md",
     "HOMEPAGEiPhone.canvas",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
