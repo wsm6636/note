@@ -37,7 +37,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           }
@@ -133,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/ROS2使用.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/ROS2使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,14 +225,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "994ffa1b51f94b04",
+  "active": "413e770daa2a1baa",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
     "00-inbox/ROS2使用.md",
     "00-inbox/2024-07-18.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-SimpRead/0-一行命令跑满 Linux 的 CPU_linux 跑满 cpu 命令 - CSDN 博客@annote.md",
-    "HOMEPAGE.canvas",
     "wsm/2024-07-18.md",
     "00-inbox/2024-07.md",
     "wsm/01-日记/2024-07-17.md",
@@ -256,7 +257,6 @@
     "00-inbox/放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派.md",
     "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc",
     "00-模板/paper.md",
-    "00-模板/学习.md",
     "HOMEPAGEiPhone.canvas",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
