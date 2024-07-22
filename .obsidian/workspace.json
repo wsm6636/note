@@ -16,8 +16,8 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1936.6863734679164,
-                  "y": -543.7303532804615,
+                  "x": -1928.8645169430392,
+                  "y": -578.5300035648594,
                   "zoom": -0.2648535297866456
                 }
               },
@@ -25,35 +25,12 @@
             }
           },
           {
-            "id": "87ee0cb2aa23b9c1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
-          },
-          {
-            "id": "37a5583a9a67ac0a",
+            "id": "45c26e7b33c25895",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45a0a0ae78d730d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/03-月复盘/2024-04.md",
+                "file": "00-inbox/2024-W30-07-22.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +89,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00-inbox/2024-W30-07-22.md"
+              }
             }
           }
         ]
@@ -154,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "00-inbox/2024-W30-07-22.md"
+              }
             }
           },
           {
@@ -196,6 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-inbox/2024-W30-07-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,6 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00-inbox/2024-W30-07-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341
+    "width": 341,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,21 +225,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "87ee0cb2aa23b9c1",
+  "active": "45c26e7b33c25895",
   "lastOpenFiles": [
-    "wsm/03-月复盘/2024-04.md",
+    "00-模板/周记模板.md",
+    "00-inbox/2024-W30-07-22.md",
+    "HOMEPAGE.canvas",
     "01-永久笔记/工作流.md",
+    "wsm/03-月复盘/2024-04.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "HOMEPAGEiPhone.canvas",
     "wsm/03-月复盘/2024-03.md",
     "wsm/03-月复盘/2024-02.md",
     "wsm/03-月复盘/2024-05.md",
     "wsm/03-月复盘/2024-06.md",
     "wsm/02-周记/2024-W29-07-15.md",
     "00-inbox/2024-07.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-07-18.md",
     "wsm/01-日记/2024-07-19.md",
     "00-inbox/ROS2使用.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-SimpRead/0-一行命令跑满 Linux 的 CPU_linux 跑满 cpu 命令 - CSDN 博客@annote.md",
     "wsm/2024-07-18.md",
@@ -270,11 +257,8 @@
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
     "00-SimpRead",
-    "wsm/01-日记/2024-07-16.md",
-    "wsm/01-日记/2024-07-15.md",
     "wsm/01-日记/2024-07",
     "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc",
-    "HOMEPAGEiPhone.canvas",
     "06-ppt/discussion/ppt1D3D.tmp",
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
