@@ -962,7 +962,7 @@
         "00-模板/日记模板.md",
         "00-模板/周记模板.md"
       ],
-      "isDefault": false,
+      "isDefault": true,
       "dataSource": {
         "kind": "tag",
         "config": {
@@ -2068,7 +2068,7 @@
         "00-模板/note.md"
       ],
       "excludedNotes": [],
-      "isDefault": true,
+      "isDefault": false,
       "dataSource": {
         "kind": "folder",
         "config": {
