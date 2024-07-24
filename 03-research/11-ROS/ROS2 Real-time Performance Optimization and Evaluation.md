@@ -1,6 +1,6 @@
 ---
 created: 2024-06-28T12:30:00
-updated: 2024-07-01T11:03
+updated: 2024-07-24T12:26
 tags:
   - 笔记/文献笔记
   - 笔记
@@ -8,11 +8,11 @@ status:
   - done
 title: ROS2 Real-time Performance Optimization and Evaluation
 TitleTranslation: " ROS2实时性能优化与评估"
-Journal or Conference: "Chin. J. Mech. Eng.  Chinese Journal of Mechanical Engineering "
+Pubname: "Chin. J. Mech. Eng.  Chinese Journal of Mechanical Engineering "
 FirstAuthor: YanleiYe
 allAuthors:
   - YanleiYe, ZhenguoNie, XinjunLiu, FuguiXie, ZihaoLi, PengLi
-Pub.date: 2023-12
+Pubdate: 2023-12
 DOI: 10.1186/s10033-023-00976-5
 zoterolink: zotero://select/library/items/ICFLQ7BC
 ---
