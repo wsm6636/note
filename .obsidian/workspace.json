@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1928.8645169430392,
-                  "y": -501.9305342450806,
+                  "y": -516.6681264644931,
                   "zoom": -0.2648535297866456
                 }
               },
@@ -25,42 +25,11 @@
             }
           },
           {
-            "id": "4f135bfbabb780e8",
+            "id": "d08100be074cb857",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd77af6d805c23ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05583cb374899c81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -247,16 +216,17 @@
       "templater-obsidian:Templater": false,
       "obsidian-projects:打开项目": false,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "homepage:Open homepage": false
     }
   },
   "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
-    "01-永久笔记/工作流.md",
     "HOMEPAGE.canvas",
     "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-inbox/[color]ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
+    "00-inbox.md",
+    "01-永久笔记/工作流.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/SEAM: An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
@@ -275,17 +245,15 @@
     "00-inbox/::.md",
     "00-inbox/----YM3QWBZN.md",
     "00-inbox/---.md",
-    "00-inbox.md",
     "00-inbox/content: |- :: @author Kingw413 :: @link [PUBLISH PAGE URL](https:::github.com:windingwind:zotero-better-notes:discussio.md",
     "00-inbox/2024-W30-07-22.md",
-    "wsm/2024-07-23.md",
+    "wsm/01-日记/2024-07-23.md",
     "03-research/11-ROS/ROS2使用.md",
     "wsm/01-日记/2024-07-22.md",
     "00-模板/周记模板.md",
     "wsm/03-月复盘/2024-04.md",
     "HOMEPAGEiPhone.canvas",
     "wsm/03-月复盘/2024-03.md",
-    "wsm/03-月复盘/2024-02.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
     "wsm/01-日记/2024-07",
