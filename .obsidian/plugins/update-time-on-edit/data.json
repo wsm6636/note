@@ -351,6 +351,7 @@
     "00-inbox/ROS2 任务.md": "9da987236be1bf7567f4afaeb0b218ce5e182963ee5641ea7eb6b6215e4c0c23",
     "03-research/11-ROS/ROS2使用.md": "324cf7bae88e72f7e2fb454390da109754fae28ba8e8c53ca4042322035a3ddd",
     "wsm/2024-07-23.md": "6274db2396a82a0df0f1fd4dc8ae46e15c557b6eaf6b249b52d2ac3ed2f41106",
-    "00-inbox/---.md": "22631eae4f5a73f11cb52d79a6cd8e26f3fe2567546efb8204d2564505a47cb9"
+    "00-inbox/---.md": "22631eae4f5a73f11cb52d79a6cd8e26f3fe2567546efb8204d2564505a47cb9",
+    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md": "456a0d7fe071659e5ad38e7175e8bd962de953eac33761584d6355e04bc886b8"
   }
 }

@@ -23,8 +23,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "4f135bfbabb780e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md"
               }
             }
           }
@@ -120,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md"
               }
             }
           },
@@ -164,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,11 +226,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "994ffa1b51f94b04",
+  "active": "4f135bfbabb780e8",
   "lastOpenFiles": [
+    "HOMEPAGE.canvas",
+    "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.md",
+    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
+    "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.nssyncsc",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-    "HOMEPAGE.canvas",
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-模板/zoteronote模板.md",
@@ -239,9 +256,6 @@
     "wsm/03-月复盘/2024-03.md",
     "wsm/03-月复盘/2024-02.md",
     "wsm/03-月复盘/2024-05.md",
-    "wsm/03-月复盘/2024-06.md",
-    "wsm/02-周记/2024-W29-07-15.md",
-    "00-inbox/2024-07.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
     "wsm/01-日记/2024-07",
@@ -250,7 +264,6 @@
     "06-ppt/discussion/ppt15FC.tmp",
     "06-ppt/discussion/ppt18EF.tmp",
     "06-ppt/discussion/~$0524 - 副本.pptx",
-    "00-inbox/2024-06.md.nssyncsc",
-    "06-ppt/discussion/ppt488D.tmp"
+    "00-inbox/2024-06.md.nssyncsc"
   ]
 }
