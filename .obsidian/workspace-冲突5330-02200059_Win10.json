@@ -16,12 +16,27 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1993.4582178217822,
-                  "y": -566.0043564356436,
+                  "x": -1947.5,
+                  "y": -489.40732673267325,
                   "zoom": -0.23684872993759304
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "23efeb73d7fa8266",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGEiPhone.canvas",
+                "viewState": {
+                  "x": -2242,
+                  "y": -374,
+                  "zoom": -1.3933781380108627
+                }
+              }
             }
           }
         ]
@@ -212,7 +227,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "faa858a146cd12ad",
+  "active": "a31edbe4153579f4",
   "lastOpenFiles": [
     "HOMEPAGEiPhone.canvas",
     "HOMEPAGE.canvas",
