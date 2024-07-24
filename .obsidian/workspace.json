@@ -17,93 +17,14 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1928.8645169430392,
-                  "y": -578.5300035648594,
+                  "y": -501.9305342450806,
                   "zoom": -0.2648535297866456
                 }
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4e1878fe890f01df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ROS2 任务.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afd5a01d93561454",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4da2506e94c253d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/zoteronote模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "53b61dad7fc35bd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/::.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93aa7fec48a82793",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b981ba2d6569f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-research/11-ROS/ROS2 Real-time Performance Optimization and Evaluation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,12 +76,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -244,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -271,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341
+    "width": 341,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,19 +212,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "afd5a01d93561454",
+  "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
-    "03-research/11-ROS/ROS2 Real-time Performance Optimization and Evaluation.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-    "00-模板/zoteronote模板.md",
+    "HOMEPAGE.canvas",
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-    "00-inbox/::.md",
+    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-模板/zoteronote模板.md",
     "00-inbox/ROS2 任务.md",
+    "00-inbox/111.md",
+    "03-research/11-ROS/ROS2 Real-time Performance Optimization and Evaluation.md",
+    "00-inbox/::.md",
     "00-inbox/----YM3QWBZN.md",
     "00-inbox/---.md",
     "00-inbox.md",
     "00-inbox/content: |- :: @author Kingw413 :: @link [PUBLISH PAGE URL](https:::github.com:windingwind:zotero-better-notes:discussio.md",
-    "HOMEPAGE.canvas",
     "00-inbox/2024-W30-07-22.md",
     "wsm/2024-07-23.md",
     "03-research/11-ROS/ROS2使用.md",
@@ -318,9 +242,6 @@
     "wsm/03-月复盘/2024-06.md",
     "wsm/02-周记/2024-W29-07-15.md",
     "00-inbox/2024-07.md",
-    "wsm/01-日记/2024-07-18.md",
-    "wsm/01-日记/2024-07-19.md",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
     "wsm/01-日记/2024-07",

@@ -10,12 +10,12 @@ tags:
 status:
   - todo
 title: "{{title}}"
-TitleTranslation: ' {% if extra %}{% set cleanedString = extra|replace("abstractTranslation: ", "")|replace("titleTranslation: ", "") %}{% set parts = cleanedString.split("\n") %}{% set titleTranslation = parts[0] %}{% set abstractTranslation = parts[1] %}{% endif %}{{ titleTranslation}}'
+TitleTranslation: ' {% if extra %}{% set cleanedString = extra|replace("abstractTranslation: ", "")|replace("titleTranslation: ", "")|replace("arXiv: ", "") %}{% set parts = cleanedString.split("\n") %}{% if parts[2] %}{% set titleTranslation = parts[1] %}{% set abstractTranslation = parts[2] %}{% endif %}{% else %}{% set titleTranslation = parts[0] %}{% set abstractTranslation = parts[1] %}{% endif %}{{ titleTranslation}}'
 Pubname: 
-  - "{% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} "
-  - {{conferenceName}} 
-  - {{publicationTitle}} 
-  - {{university}}
+  - "{% if journalAbbreviation %}{{journalAbbreviation}}"
+  - "{% elif conferenceName %}{{conferenceName}}"
+  - "{% elif publicationTitle %}{{publicationTitle}}"
+  - "{% else %}{{university}}{% endif %} "
 FirstAuthor: "{{creators[0].firstName}}{{creators[0].lastName}}{{creators[0].name}}"
 allAuthors:  
   - {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}

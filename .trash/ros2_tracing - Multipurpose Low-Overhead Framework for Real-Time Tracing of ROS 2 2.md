@@ -1,6 +1,6 @@
 ---
 created: 2024-03-27T12:30
-updated: 2024-07-24T13:45
+updated: 2024-07-24T14:37
 tags:
   - 笔记/文献笔记
   - 待归档
@@ -16,11 +16,11 @@ Pubname:
   - 
   - IEEE Robotics and Automation Letters
   - 
-FirstAuthor: ChristopheBédard
+FirstAuthor: Christophe Bédard
 allAuthors:
-  - ChristopheBédard
-  - IngoLütkebohle
-  - MichelDagenais
+  - Christophe Bédard
+  - Ingo Lütkebohle
+  - Michel Dagenais
 Pubdate: 2022-07
 DOI: https://doi.org/10.1109/LRA.2022.3174346
 zoterolink: zotero://select/library/items/F6IIGQXX
@@ -55,4 +55,3 @@ ros2_tracing：用于 ROS 2 实时跟踪的多用途低开销框架
 ## 5 可参考
 
 ## 6 思考
-![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202407241345328.png)

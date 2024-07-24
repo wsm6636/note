@@ -21,6 +21,7 @@
     "Pub.date": "date",
     "Journal or Conference": "text",
     "allAuthors": "multitext",
-    "文献tags": "multitext"
+    "文献tags": "multitext",
+    "Pubdate": "date"
   }
 }
