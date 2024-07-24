@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -134,7 +133,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,12 +224,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4e1878fe890f01df",
+  "active": "994ffa1b51f94b04",
   "lastOpenFiles": [
+    "00-inbox/ROS2 任务.md",
     "00-inbox/2024-W30-07-22.md",
     "wsm/2024-07-23.md",
     "HOMEPAGE.canvas",
-    "00-inbox/ROS2 任务.md",
     "03-research/11-ROS/ROS2使用.md",
     "wsm/01-日记/2024-07-22.md",
     "00-模板/周记模板.md",
