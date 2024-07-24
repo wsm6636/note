@@ -290,7 +290,7 @@
     "00-模板/永久.md": "e91fb634de4455556324e803cd77c4a67c9fe625feaf6ceb6a5c17c5da5b8569",
     "00-模板/学习.md": "70644458fbcd78c05647f4a33fd0d59332218a1d985bdd8550d27f07a8fe85dc",
     "00-模板/paper.md": "7a9075096b209b52421ab2276b9152280b51dbaf6080624401ce052a5f18e8a7",
-    "01-永久笔记/工作流.md": "d93e8a9666f75781f5983d08af69f327a8be8208da321dbf4e7143a9d4355174",
+    "01-永久笔记/工作流.md": "caa0f11b8fe640be46eb0347b6c2ebda0481dd6cd0f5b49ca0de3e93a501aa0c",
     "01-永久笔记/01-教程/ubuntu系统迁移.md": "3af637fbac82377df029657f9802c554dcad3fc89f8f96c0113dd7e59a9cdb18",
     "01-永久笔记/01-教程/Vmware Ubuntu虚拟机磁盘扩容方法.md": "763e71234d7684bb5574f01fd615bbd3209ae7bf67a64aeae3b590772499c6db",
     "01-永久笔记/01-教程/zotero7配置.md": "a4bdbbd3da55857406e8daf128cd5864a7918161373fd4a28f56622caedf79ab",
@@ -352,6 +352,7 @@
     "03-research/11-ROS/ROS2使用.md": "324cf7bae88e72f7e2fb454390da109754fae28ba8e8c53ca4042322035a3ddd",
     "wsm/2024-07-23.md": "6274db2396a82a0df0f1fd4dc8ae46e15c557b6eaf6b249b52d2ac3ed2f41106",
     "00-inbox/---.md": "22631eae4f5a73f11cb52d79a6cd8e26f3fe2567546efb8204d2564505a47cb9",
-    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md": "456a0d7fe071659e5ad38e7175e8bd962de953eac33761584d6355e04bc886b8"
+    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md": "456a0d7fe071659e5ad38e7175e8bd962de953eac33761584d6355e04bc886b8",
+    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "8dd82139531ddb8ea48b232bf8c5cc3b688fdb5426d46f5b798255190c3cf133"
   }
 }

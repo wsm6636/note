@@ -36,9 +36,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fd77af6d805c23ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05583cb374899c81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-永久笔记/工作流.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -67,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"FirstAuthor\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md"
+                "file": "01-永久笔记/工作流.md"
               }
             }
           }
@@ -134,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md"
+                "file": "01-永久笔记/工作流.md"
               }
             }
           },
@@ -178,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
+                "file": "01-永久笔记/工作流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
+                "file": "01-永久笔记/工作流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,16 +252,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4f135bfbabb780e8",
+  "active": "05583cb374899c81",
   "lastOpenFiles": [
+    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+    "00-inbox/SEAM: An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
+    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-16.644Z.yaml",
+    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-12.377Z.yaml",
+    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-04.274Z.yaml",
+    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-58.545Z.yaml",
+    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-15.658Z.yaml",
     "HOMEPAGE.canvas",
     "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.md",
-    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
     "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.nssyncsc",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-模板/zoteronote模板.md",
     "00-inbox/ROS2 任务.md",
     "00-inbox/111.md",
@@ -259,11 +291,6 @@
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
     "wsm/01-日记/2024-07",
-    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc",
-    "06-ppt/discussion/ppt1D3D.tmp",
-    "06-ppt/discussion/ppt15FC.tmp",
-    "06-ppt/discussion/ppt18EF.tmp",
-    "06-ppt/discussion/~$0524 - 副本.pptx",
-    "00-inbox/2024-06.md.nssyncsc"
+    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc"
   ]
 }

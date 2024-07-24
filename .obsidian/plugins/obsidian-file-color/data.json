@@ -1210,7 +1210,7 @@
     },
     {
       "path": "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-      "color": "ETRIvOM6-WNE21I5fmtvU"
+      "color": "7VdWZ__bkU2cCGuZYuwC0"
     },
     {
       "path": "wsm/01-日记/2024-06/2024-06-26.md",
@@ -1527,6 +1527,14 @@
     {
       "path": "wsm/2024-07-23.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
     }
   ]
 }
