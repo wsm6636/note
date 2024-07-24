@@ -351,8 +351,10 @@
     "00-inbox/ROS2 任务.md": "9da987236be1bf7567f4afaeb0b218ce5e182963ee5641ea7eb6b6215e4c0c23",
     "03-research/11-ROS/ROS2使用.md": "324cf7bae88e72f7e2fb454390da109754fae28ba8e8c53ca4042322035a3ddd",
     "00-inbox/---.md": "22631eae4f5a73f11cb52d79a6cd8e26f3fe2567546efb8204d2564505a47cb9",
+    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md": "456a0d7fe071659e5ad38e7175e8bd962de953eac33761584d6355e04bc886b8",
     "wsm/01-日记/2024-07-23.md": "6274db2396a82a0df0f1fd4dc8ae46e15c557b6eaf6b249b52d2ac3ed2f41106",
-    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md": "456a0d7fe071659e5ad38e7175e8bd962de953eac33761584d6355e04bc886b8",
-    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "c19d455d2199f9496af5f542cac4a356bc0084b8878524a819f2e26d8a50e00b"
+    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "c19d455d2199f9496af5f542cac4a356bc0084b8878524a819f2e26d8a50e00b",
+    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md": "71d6124ba4ce384369882bdc64051e71db386f289df962a471c72e952516a18f",
+    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "3157381584ac6815e6168c250c320ebb43a4445ab576fe6402e20fc6ca2b128b"
   }
 }

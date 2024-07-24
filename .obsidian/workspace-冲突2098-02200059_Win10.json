@@ -16,70 +16,15 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1947.5,
-                  "y": -370.4252958319636,
+                  "x": -1993.4582178217822,
+                  "y": -566.0043564356436,
                   "zoom": -0.23684872993759304
                 }
               },
               "pinned": true
             }
-          },
-          {
-            "id": "23efeb73d7fa8266",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "HOMEPAGEiPhone.canvas",
-                "viewState": {
-                  "x": -2242,
-                  "y": -374,
-                  "zoom": -1.3933781380108627
-                }
-              }
-            }
-          },
-          {
-            "id": "81a15a3b097656fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a291108f9f6f02b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fcc5ed49188d643",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -175,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -219,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,16 +212,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a31edbe4153579f4",
+  "active": "faa858a146cd12ad",
   "lastOpenFiles": [
-    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "HOMEPAGE.canvas",
+    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
+    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md.nssyncsc",
+    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md.nssyncsc",
     "HOMEPAGEiPhone.canvas",
+    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/[color]ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md",
     "00-inbox.md",
     "01-永久笔记/工作流.md",
+    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/SEAM: An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity.md",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-16.644Z.yaml",
@@ -300,11 +249,7 @@
     "03-research/11-ROS/ROS2使用.md",
     "wsm/01-日记/2024-07-22.md",
     "00-模板/周记模板.md",
-    "wsm/03-月复盘/2024-04.md",
-    "wsm/03-月复盘/2024-03.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
-    "00-SimpRead",
-    "wsm/01-日记/2024-07",
-    "00-inbox/1-放弃纠结、拥抱妥协，重器轻用就是高效 - 少数派@annote.md.nssyncsc"
+    "00-SimpRead"
   ]
 }

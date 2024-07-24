@@ -18,7 +18,7 @@ $version: 38669
 $libraryID: 1
 $itemKey: 8JP9TA7A
 created: 2024-07-24T15:11
-updated: 2024-07-24T15:11
+updated: 2024-07-24T20:59
 ---
 # Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems
 
