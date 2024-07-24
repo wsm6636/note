@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -818.1853465346535,
+                  "y": -370.4252958319636,
                   "zoom": -0.23684872993759304
                 }
               },
@@ -202,12 +202,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 341,
-    "collapsed": true
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,7 +227,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "faa858a146cd12ad",
+  "active": "a31edbe4153579f4",
   "lastOpenFiles": [
     "HOMEPAGEiPhone.canvas",
     "HOMEPAGE.canvas",
