@@ -27,7 +27,6 @@
   "tag-wrangler",
   "templater-obsidian",
   "obsidian-memos",
-  "update-time-on-edit",
   "obsidian-zotero-desktop-connector",
   "editing-toolbar",
   "obsidian-emoji-toolbar",
@@ -35,5 +34,6 @@
   "obsidian-auto-link-title",
   "obsidian-local-rest-api",
   "simpread",
-  "obsidian-banners"
+  "obsidian-banners",
+  "update-time-on-edit"
 ]

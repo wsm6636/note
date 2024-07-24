@@ -11,11 +11,17 @@ status:
   - todo
 title: "{{title}}"
 TitleTranslation: ' {% if extra %}{% set cleanedString = extra|replace("abstractTranslation: ", "")|replace("titleTranslation: ", "") %}{% set parts = cleanedString.split("\n") %}{% set titleTranslation = parts[0] %}{% set abstractTranslation = parts[1] %}{% endif %}{{ titleTranslation}}'
-Journal or Conference: "{% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} {{conferenceName}} {{publicationTitle}} {{university}}"
+Journal or Conference: 
+  - "{% if journalAbbreviation %}{{journalAbbreviation}}{% endif %} "
+  - {{conferenceName}} 
+  - {{publicationTitle}} 
+  - {{university}}
 FirstAuthor: "{{creators[0].firstName}}{{creators[0].lastName}}{{creators[0].name}}"
-allAuthors:  {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}, {% endif %}{% endfor %}
+allAuthors:  
+  - {% for t in creators %}{{t.firstName}}{{t.lastName}}{{t.name}}{% if not loop.last %}
+  - {% endif %}{% endfor %}
 Pub.date: '{% if date %}{{date | format("YYYY-MM")}}{% endif %}'
-DOI: "{% if DOI %}{{DOI}}{% endif %}"
+DOI: "{% if DOI %}https://doi.org/{{DOI}}{% endif %}"
 zoterolink: "{{select}}"
 ---
 
