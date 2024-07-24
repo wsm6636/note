@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2e852376598e4e80",
+        "id": "a889343b9e8c8619",
         "type": "tabs",
         "children": [
           {
-            "id": "994ffa1b51f94b04",
+            "id": "faa858a146cd12ad",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,20 +16,27 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1928.8645169430392,
-                  "y": -516.6681264644931,
-                  "zoom": -0.2648535297866456
+                  "x": -1947.5,
+                  "y": -818.1853465346535,
+                  "zoom": -0.23684872993759304
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "d08100be074cb857",
+            "id": "23efeb73d7fa8266",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "HOMEPAGEiPhone.canvas",
+                "viewState": {
+                  "x": -2242,
+                  "y": -374,
+                  "zoom": -1.3933781380108627
+                }
+              }
             }
           }
         ]
@@ -216,11 +223,13 @@
       "templater-obsidian:Templater": false,
       "obsidian-projects:打开项目": false,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "994ffa1b51f94b04",
+  "active": "faa858a146cd12ad",
   "lastOpenFiles": [
+    "HOMEPAGEiPhone.canvas",
     "HOMEPAGE.canvas",
     "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/[color]ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
@@ -252,7 +261,6 @@
     "wsm/01-日记/2024-07-22.md",
     "00-模板/周记模板.md",
     "wsm/03-月复盘/2024-04.md",
-    "HOMEPAGEiPhone.canvas",
     "wsm/03-月复盘/2024-03.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
