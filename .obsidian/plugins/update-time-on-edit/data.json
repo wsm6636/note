@@ -290,7 +290,7 @@
     "00-模板/永久.md": "e91fb634de4455556324e803cd77c4a67c9fe625feaf6ceb6a5c17c5da5b8569",
     "00-模板/学习.md": "70644458fbcd78c05647f4a33fd0d59332218a1d985bdd8550d27f07a8fe85dc",
     "00-模板/paper.md": "7a9075096b209b52421ab2276b9152280b51dbaf6080624401ce052a5f18e8a7",
-    "01-永久笔记/工作流.md": "4017b0b18e153dc2707337de6b80af9b61b54c3a4f481e9abde15007462eec9e",
+    "01-永久笔记/工作流.md": "455a5fceb43497032f185196226e234854a90822a73be8970db6517d4ad33914",
     "01-永久笔记/01-教程/ubuntu系统迁移.md": "3af637fbac82377df029657f9802c554dcad3fc89f8f96c0113dd7e59a9cdb18",
     "01-永久笔记/01-教程/Vmware Ubuntu虚拟机磁盘扩容方法.md": "763e71234d7684bb5574f01fd615bbd3209ae7bf67a64aeae3b590772499c6db",
     "01-永久笔记/01-教程/zotero7配置.md": "a4bdbbd3da55857406e8daf128cd5864a7918161373fd4a28f56622caedf79ab",
@@ -351,8 +351,11 @@
     "00-inbox/ROS2 任务.md": "9da987236be1bf7567f4afaeb0b218ce5e182963ee5641ea7eb6b6215e4c0c23",
     "03-research/11-ROS/ROS2使用.md": "324cf7bae88e72f7e2fb454390da109754fae28ba8e8c53ca4042322035a3ddd",
     "00-inbox/---.md": "22631eae4f5a73f11cb52d79a6cd8e26f3fe2567546efb8204d2564505a47cb9",
+    "00-inbox/Automatic Latency Management for ROS 2: Benefits, Challenges, and Open Problems.md": "456a0d7fe071659e5ad38e7175e8bd962de953eac33761584d6355e04bc886b8",
     "wsm/01-日记/2024-07-23.md": "6274db2396a82a0df0f1fd4dc8ae46e15c557b6eaf6b249b52d2ac3ed2f41106",
-    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md": "456a0d7fe071659e5ad38e7175e8bd962de953eac33761584d6355e04bc886b8",
-    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "c19d455d2199f9496af5f542cac4a356bc0084b8878524a819f2e26d8a50e00b"
+    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "c19d455d2199f9496af5f542cac4a356bc0084b8878524a819f2e26d8a50e00b",
+    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md": "71d6124ba4ce384369882bdc64051e71db386f289df962a471c72e952516a18f",
+    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md": "3157381584ac6815e6168c250c320ebb43a4445ab576fe6402e20fc6ca2b128b",
+    "00-inbox/2024-07-24.md": "4618e25415c20f5bb70084f2268de1863a95c89443c67f2835ff1395bee0aeb9"
   }
 }
