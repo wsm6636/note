@@ -23,8 +23,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "56af6e6d12c10b0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -120,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -164,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,10 +226,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "127b90710b70bb7e",
+  "active": "56af6e6d12c10b0e",
   "lastOpenFiles": [
-    "HOMEPAGEiPhone.canvas",
     "HOMEPAGE.canvas",
+    "conflict-files-obsidian-git.md",
+    "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-26.md",
     "wsm/01-日记/2024-07-26.md",
     "00-inbox/2024-W30-07-22.md",
@@ -247,7 +262,6 @@
     "03-research/11-ROS/ROS2 Real-time Performance Optimization and Evaluation.md",
     "00-inbox/::.md",
     "00-inbox/----YM3QWBZN.md",
-    "00-inbox/---.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
     "wsm/01-日记/2024-07"
