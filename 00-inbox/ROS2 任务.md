@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-04-07T16:29
-updated: 2024-07-26T11:28
+updated: 2024-07-26T12:14
 status:
   - ing
 ---
@@ -62,6 +62,125 @@ status:
 
 ## tracetools_analysis API
 tracetools_analysis 提供了用于分析由 ros2_tracing 软件包生成的 ROS 2 系统跟踪数据的工具。
+
+- - [tracetools_analysis](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html)
+        - [`time_diff_to_str()`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.time_diff_to_str)
+        - [loading](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.loading)
+            - [`load_file()`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.loading.load_file)
+        - [processor](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.processor)
+            - [`AutoProcessor`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.processor.AutoProcessor)
+            - [`Dependant`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.processor.Dependant)
+            - [`DependencySolver`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.processor.DependencySolver)
+            - [`EventHandler`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.processor.EventHandler)
+            - [`EventMetadata`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.processor.EventMetadata)
+            - [`ProcessingProgressDisplay`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.processor.ProcessingProgressDisplay)
+            - [`Processor`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.processor.Processor)
+            - [CPU time](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.processor.cpu_time)
+            - [memory usage](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.processor.memory_usage)
+            - [profile](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.processor.profile)
+            - [ROS 2](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.processor.ros2)
+        - [data model](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.data_model)
+            - [`DataModel`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.data_model.DataModel)
+            - [CPU time](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id3)
+            - [memory usage](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id4)
+            - [profile](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id5)
+            - [ROS 2](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id6)
+        - [utils](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#module-tracetools_analysis.utils)
+            - [`DataModelUtil`](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#tracetools_analysis.utils.DataModelUtil)
+            - [CPU time](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id7)
+            - [memory usage](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id8)
+            - [profile](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id9)
+            - [ROS 2](https://ros-tracing.gitlab.io/tracetools_analysis-api/master/tracetools_analysis/api/tracetools_analysis.html#id10)
+
+### processor
+#### CPUTimeHandler
+**tracetools_analysis.processor.cpu_time.CpuTimeHandler**
+从 sched_switch 事件中提取时间戳，以便稍后计算每个线程的 CPU 时间
+#### KernelMemoryUsageHandler**
+**tracetools_analysis.processor.memory_usage.KernelMemoryUsageHandler** 
+提取用户空间内存使用数据的处理程序。
+它使用以下事件：
+- kmem_mm_page_alloc
+- kmem_mm_page_free
+#### UserspaceMemoryUsageHandler
+**tracetools_analysis.processor.memory_usage.UserspaceMemoryUsageHandler**
+#### Ros2Handler**
+**tracetools_analysis.processor.ros2.Ros2Handler**
+ROS 2 感知事件处理类实现。处理跟踪事件并使用数据构建模型。
+
+### utils
+#### DataModelUtil
+**tracetools_analysis.utils.DataModelUtil**
+
+compute_column_difference
+
+convert_time_columns
+
+#### CpuTimeDataModelUtil
+**tracetools_analysis.utils.cpu_time.CpuTimeDataModelUtil**
+
+get_time_per_thread
+
+#### MemoryUsageDataModelUtil
+**tracetools_analysis.utils.memory_usage.MemoryUsageDataModelUtil**
+
+format_size
+
+get_absolute_kernel_memory_usage_by_tid
+
+get_absolute_userspace_memory_usage_by_tid
+
+get_max_memory_usage_per_tid
+
+#### ProfileDataModelUtil
+**tracetools_analysis.utils.profile.ProfileDataModelUtil**
+
+get_call_tree
+
+get_function_duration_data
+
+get_tids
+
+with_tid
+
+#### Ros2DataModelUtil
+**tracetools_analysis.utils.ros2.Ros2DataModelUtil**
+
+format_info_dict
+
+get_callback_durations
+
+get_callback_owner_info
+
+get_callback_symbols
+
+get_client_handle_info
+
+get_lifecycle_node_handle_info
+
+get_lifecycle_node_state_intervals
+
+get_node_handle_info
+
+get_node_names_from_tid
+
+get_node_tid_from_name
+
+get_publish_instances
+
+get_publisher_handle_info
+
+get_rcl_publish_instances
+
+get_service_handle_info
+
+get_subscription_reference_info
+
+get_take_instances
+
+get_tids
+
+get_timer_handle_info
 
 
 
