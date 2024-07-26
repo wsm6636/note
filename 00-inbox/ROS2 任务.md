@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-04-07T16:29
-updated: 2024-07-26T15:33
+updated: 2024-07-26T15:43
 status:
   - ing
 ---
@@ -96,7 +96,7 @@ tracetools_analysis 提供了用于分析由 ros2_tracing 软件包生成的 ROS
 #### CPUTimeHandler
 **tracetools_analysis.processor.cpu_time.CpuTimeHandler**
 从 sched_switch 事件中提取时间戳，以便稍后计算每个线程的 CPU 时间
-#### KernelMemoryUsageHandler**
+#### KernelMemoryUsageHandler
 **tracetools_analysis.processor.memory_usage.KernelMemoryUsageHandler** 
 提取用户空间内存使用数据的处理程序。
 它使用以下事件：
@@ -104,7 +104,7 @@ tracetools_analysis 提供了用于分析由 ros2_tracing 软件包生成的 ROS
 - kmem_mm_page_free
 #### UserspaceMemoryUsageHandler
 **tracetools_analysis.processor.memory_usage.UserspaceMemoryUsageHandler**
-#### Ros2Handler**
+#### Ros2Handler
 **tracetools_analysis.processor.ros2.Ros2Handler**
 ROS 2 感知事件处理类实现。处理跟踪事件并使用数据构建模型。
 

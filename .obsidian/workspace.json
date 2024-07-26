@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
               }
             }
           }
@@ -147,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
               }
             }
           },
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,10 +240,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f703e9df62febf54",
+  "active": "500a54d617546c08",
   "lastOpenFiles": [
-    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/ROS2 任务.md",
+    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "HOMEPAGE.canvas",
     "00-inbox/2024-07-26.md",
     "wsm/01-日记/2024-07-26.md",
