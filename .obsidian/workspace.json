@@ -17,45 +17,11 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -352.7041124037941,
+                  "y": -657.0445179165378,
                   "zoom": -0.23684872993759304
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "4b0b63c943e3ab9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b791ef84700cfa91",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "4cdd6bbcec911484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W30-07-22.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           }
         ]
@@ -221,8 +187,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -243,18 +208,21 @@
       "templater-obsidian:Templater": false,
       "obsidian-projects:打开项目": false,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "faa858a146cd12ad",
   "lastOpenFiles": [
-    "00-inbox/2024-W30-07-22.md",
-    "00-inbox/2024-07-24.md",
-    "01-永久笔记/工作流.md",
+    "00-inbox/2024-07-25.md",
     "HOMEPAGE.canvas",
+    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-inbox/2024-W30-07-22.md",
+    "01-永久笔记/工作流.md",
+    "00-inbox/2024-07-24.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
-    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/[color]ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox.md",
@@ -280,8 +248,6 @@
     "03-research/11-ROS/ROS2使用.md",
     "wsm/01-日记/2024-07-22.md",
     "00-模板/周记模板.md",
-    "wsm/03-月复盘/2024-04.md",
-    "wsm/03-月复盘/2024-03.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
     "wsm/01-日记/2024-07",

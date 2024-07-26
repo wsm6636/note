@@ -1531,6 +1531,10 @@
     {
       "path": "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
       "color": "R6LXRdhhMw-90evUlf6-w"
+    },
+    {
+      "path": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+      "color": "R6LXRdhhMw-90evUlf6-w"
     }
   ]
 }
