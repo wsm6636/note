@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-04-07T16:29
-updated: 2024-07-26T12:14
+updated: 2024-07-26T15:20
 status:
   - ing
 ---
@@ -111,77 +111,78 @@ ROS 2 感知事件处理类实现。处理跟踪事件并使用数据构建模�
 ### utils
 #### DataModelUtil
 **tracetools_analysis.utils.DataModelUtil**
-
-compute_column_difference
-
-convert_time_columns
-
+基础数据模型 util 类，提供获取数据模型更多信息的函数。 该类提供基本的 util 函数。 创建 DataModelUtil。
+**compute_column_difference**
+用两列之间的差值创建新列。
+**convert_time_columns**
+将时间列从纳秒转换为毫秒或日期时间对象。
 #### CpuTimeDataModelUtil
 **tracetools_analysis.utils.cpu_time.CpuTimeDataModelUtil**
-
-get_time_per_thread
-
+CPU 时间数据模型实用程序类。 创建一个 CpuTimeDataModelUtil。
+**get_time_per_thread**
+获取每个线程总持续时间的 DataFrame。
 #### MemoryUsageDataModelUtil
 **tracetools_analysis.utils.memory_usage.MemoryUsageDataModelUtil**
-
-format_size
-
-get_absolute_kernel_memory_usage_by_tid
-
-get_absolute_userspace_memory_usage_by_tid
-
-get_max_memory_usage_per_tid
-
+内存使用数据模型实用程序类。 创建一个 MemoryUsageDataModelUtil，必须至少给出一个非空的 MemoryUsageDataModel。
+**format_size**
+将内存大小格式化为带有单位后缀的字符串。
+**get_absolute_kernel_memory_usage_by_tid**
+获取每个 tid 在一段时间内的内核内存绝对使用量。
+**get_absolute_userspace_memory_usage_by_tid**
+获取每个 tid 在一段时间内的绝对用户空间内存使用量。
+**get_max_memory_usage_per_tid**
+获取每个 tid 的最大内存使用量。
 #### ProfileDataModelUtil
 **tracetools_analysis.utils.profile.ProfileDataModelUtil**
+剖析数据模型实用程序类。 创建 ProfileDataModelUtil。
+**get_call_tree**
 
-get_call_tree
-
-get_function_duration_data
-
-get_tids
-
-with_tid
+**get_function_duration_data**
+获取每个函数的持续时间数据。
+**get_tids**
+获取数据模型中的 TID。
+**with_tid**
 
 #### Ros2DataModelUtil
 **tracetools_analysis.utils.ros2.Ros2DataModelUtil**
+创建一个 Ros2DataModelUtil。
+**format_info_dict**
 
-format_info_dict
-
-get_callback_durations
-
-get_callback_owner_info
-
-get_callback_symbols
-
-get_client_handle_info
-
-get_lifecycle_node_handle_info
-
-get_lifecycle_node_state_intervals
-
-get_node_handle_info
-
-get_node_names_from_tid
-
-get_node_tid_from_name
-
-get_publish_instances
-
-get_publisher_handle_info
-
-get_rcl_publish_instances
-
-get_service_handle_info
-
-get_subscription_reference_info
-
-get_take_instances
-
-get_tids
-
-get_timer_handle_info
-
+**get_callback_durations**
+为给定的回调对象获取回调实例的持续时间。
+**get_callback_owner_info**
+获取回调所有者的信息。
+根据回调类型，它将提供不同类型的信息： subscription：节点名称、主题名称 timer：tid、计时器周期 service/client：节点名称、服务名称
+**get_callback_symbols**
+获取回调对象与其解析符号之间的映射。
+**get_client_handle_info**
+获取客户句柄的信息。
+**get_lifecycle_node_handle_info**
+获取生命周期节点句柄的信息。
+**get_lifecycle_node_state_intervals**
+获取所有生命周期节点的状态间隔（开始、结束）。 返回的字典包含每个生命周期节点句柄的数据帧：（生命周期节点句柄 -> [状态字符串、开始时间戳、结束时间戳]）如果没有明确的时间戳（例如状态结束），则使用 np.nan 代替。 节点创建时间戳被用作第一个状态的起始时间戳。 TODO(christophebedard)对上下文关闭的最后结束时间做同样的处理
+**get_node_handle_info**
+获取节点句柄的信息。
+**get_node_names_from_tid**
+获取 tid 对应的节点名称列表。
+**get_node_tid_from_name**
+获取节点对应的 tid。
+**get_publish_instances**
+在单个数据帧中获取所有发布实例（rclcpp、rcl、rmw）。 行按发布时间戳排序，因此顺序通常为：rclcpp、rcl、rmw。 不过，这不适用于内部发布者的出版物，即源自 rclcpp（rcl 或 rmw）以下的出版物。 TODO(christophebedard)能否找到排除这些出版物的启发式方法？
+**get_publisher_handle_info**
+获取发布者句柄的相关信息。
+**get_rcl_publish_instances**
+获取具有给定主题名称的所有发布者的 rcl 发布实例。
+**get_service_handle_info**
+获取服务句柄的信息。
+**get_subscription_reference_info**
+获取订阅句柄的信息。
+**get_take_instances**
+获取单个数据帧中的所有占用实例（rmw、rcl、rclcpp）。 行按占用时间戳排序，因此顺序通常是：rmw、rcl、rclcpp。 但是，这不适用于来自内部订阅的记录，即来自 rclcpp 以下（rcl 或 rmw）的记录。 TODO(christophebedard)是否可以找到排除这些情况的启发式方法？
+**get_tids**
+获取节点对应的线程 ID 列表。
+**get_timer_handle_info**
+获取计时器所有者的信息。
 
 
 #  1：延迟数据分布，最大最小等

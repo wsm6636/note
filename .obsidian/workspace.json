@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1914.5945120711203,
-                  "y": -670.958224507107,
+                  "y": -602.4555988556549,
                   "zoom": -0.2648535297866456
                 }
               },
@@ -94,8 +94,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -231,6 +230,7 @@
   "active": "f703e9df62febf54",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
+    "00-inbox/ROS2 任务.md",
     "00-inbox/2024-07-26.md",
     "wsm/01-日记/2024-07-26.md",
     "conflict-files-obsidian-git.md",
@@ -259,7 +259,6 @@
     "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.nssyncsc",
     "00-inbox/ros2_tracing - Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-模板/zoteronote模板.md",
-    "00-inbox/ROS2 任务.md",
     "00-inbox/111.md",
     "03-research/11-ROS/ROS2 Real-time Performance Optimization and Evaluation.md",
     "00-inbox/::.md",
