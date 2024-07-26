@@ -94,7 +94,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -227,7 +228,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f703e9df62febf54",
+  "active": "103c4a89efe1b288",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "00-inbox/2024-07-26.md",

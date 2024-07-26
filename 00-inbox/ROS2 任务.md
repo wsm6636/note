@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-04-07T16:29
-updated: 2024-07-26T11:05
+updated: 2024-07-26T11:28
 status:
   - ing
 ---
@@ -27,7 +27,7 @@ status:
 # 0：ros2_tracing可监控数据类型
 
 ^0596df
-## ROS2_tracing 
+## ROS2_tracing API
 
 |    层     | 仪表点                                  | 参考                                                                                                                                                                                                                                                                                                                                                                                                               |
 | :------: | :----------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,6 +59,12 @@ status:
 |          | `rmw_subscription_init`              | [_创建订阅_](https://github.com/ros2/ros2_tracing/blob/humble/doc/design_ros_2.md#subscription-creation)                                                                                                                                                                                                                                                                                                             |
 |          | `rmw_publish`                        | [_消息发布_](https://github.com/ros2/ros2_tracing/blob/humble/doc/design_ros_2.md#message-publishing)                                                                                                                                                                                                                                                                                                                |
 |          | `rmw_take`                           | [_订阅回调_](https://github.com/ros2/ros2_tracing/blob/humble/doc/design_ros_2.md#subscription-callbacks)                                                                                                                                                                                                                                                                                                            |
+
+## tracetools_analysis API
+tracetools_analysis 提供了用于分析由 ros2_tracing 软件包生成的 ROS 2 系统跟踪数据的工具。
+
+
+
 #  1：延迟数据分布，最大最小等
 
 ^c726d3
