@@ -17,11 +17,24 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1914.5945120711203,
-                  "y": -623.5099840380086,
+                  "y": -670.958224507107,
                   "zoom": -0.2648535297866456
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "8b34b01f4212894c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-07-26.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -76,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsm/01-日记/2024-07-26.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -120,7 +133,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wsm/01-日记/2024-07-26.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -164,6 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,6 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,13 +225,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7c6620abd473f20d",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
+    "00-inbox/2024-07-26.md",
     "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-07-26.md",
     "conflict-files-obsidian-git.md",
     "HOMEPAGEiPhone.canvas",
-    "00-inbox/2024-07-26.md",
-    "wsm/01-日记/2024-07-26.md",
     "00-inbox/2024-W30-07-22.md",
     "00-模板/年复盘模板.md",
     "00-inbox/Invalid date.md",
