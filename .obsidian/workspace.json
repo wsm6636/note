@@ -23,17 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "907c4a681cd30b74",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +75,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           }
         ]
@@ -126,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -169,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341,
-    "collapsed": true
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,10 +212,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "907c4a681cd30b74",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
-    "00-inbox/2024-07-26.md",
+    "HOMEPAGEiPhone.canvas",
     "HOMEPAGE.canvas",
+    "00-inbox/2024-07-26.md",
     "wsm/01-日记/2024-07-26.md",
     "00-inbox/2024-W30-07-22.md",
     "00-模板/年复盘模板.md",
@@ -232,7 +229,6 @@
     "01-永久笔记/工作流.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
-    "HOMEPAGEiPhone.canvas",
     "00-inbox/[color]ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox.md",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
