@@ -36,6 +36,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "500a54d617546c08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -229,8 +242,9 @@
   },
   "active": "f703e9df62febf54",
   "lastOpenFiles": [
-    "HOMEPAGE.canvas",
+    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/ROS2 任务.md",
+    "HOMEPAGE.canvas",
     "00-inbox/2024-07-26.md",
     "wsm/01-日记/2024-07-26.md",
     "conflict-files-obsidian-git.md",
@@ -242,7 +256,6 @@
     "wsm/01-日记/2024-07-25.md",
     "00-inbox/2024-07-25.nssyncsc",
     "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "01-永久笔记/工作流.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",

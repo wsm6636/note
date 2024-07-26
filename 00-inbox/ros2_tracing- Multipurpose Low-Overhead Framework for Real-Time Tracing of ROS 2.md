@@ -15,14 +15,10 @@ zoterolink: zotero://select/library/items/F6IIGQXX
 $version: 38987
 $libraryID: 1
 $itemKey: DVM2A4PB
-<<<<<<< HEAD
-created: 2024-07-25T16:21
-updated: 2024-07-25T16:23
-=======
 created: 2024-07-24T16:45
-updated: 2024-07-24T20:59
->>>>>>> origin/main
+updated: 2024-07-26T15:33
 ---
+
 # ros2\_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2
 
 # 摘要
@@ -60,7 +56,15 @@ updated: 2024-07-24T20:59
 
 ## <span style="background-color: #f1983780">方法/实验 Annotations</span>
 
+![image.png](https://raw.githubusercontent.com/wsm6636/pic/main/202407261531766.png)
+
 <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8765952%2Fitems%2FU68SQLMG%22%2C%22annotationKey%22%3A%22V5PYT6WW%22%2C%22color%22%3A%22%23f19837%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B338.71%2C537.048%2C563.036%2C543.959%5D%2C%5B311.978%2C528.082%2C563.036%2C534.993%5D%2C%5B311.978%2C519.116%2C473.986%2C526.027%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8765952%2Fitems%2FF6IIGQXX%22%5D%2C%22locator%22%3A%225%22%7D%7D" ztype="zhighlight"><a href="zotero://open-pdf/library/items/U68SQLMG?page=5&#x26;annotation=V5PYT6WW">“Example timer callback execution interval (top) and duration (bottom) over time. The callback period is set to 100 ms, while the callback duration depends on the work done. Both contain outliers.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8765952%2Fitems%2FF6IIGQXX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/F6IIGQXX">Bédard 等, 2022, p. 5</a></span>)</span> 🔤随着时间的推移，计时器回调执行间隔（顶部）和持续时间（底部）示例。回调周期设置为 100 毫秒，回调持续时间取决于完成的工作。两者都包含异常值。🔤
+
+
+> [!NOTE] 
+> 计时器回调执行间隔T，实际间隔D，延迟时间D-T？jitter？
+> 
+
 
 <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F8765952%2Fitems%2FU68SQLMG%22%2C%22annotationKey%22%3A%22Z7HH2KS4%22%2C%22color%22%3A%22%23f19837%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B514.229%2C426.53%2C563.036%2C435.168%5D%2C%5B311.978%2C414.575%2C563.036%2C423.213%5D%2C%5B311.978%2C402.62%2C563.036%2C411.258%5D%2C%5B311.978%2C390.665%2C563.036%2C399.303%5D%2C%5B311.978%2C378.71%2C563.036%2C387.348%5D%2C%5B311.978%2C366.755%2C563.036%2C375.393%5D%2C%5B311.978%2C354.799%2C563.036%2C363.437%5D%2C%5B311.978%2C342.844%2C563.036%2C351.482%5D%2C%5B311.978%2C330.889%2C404.999%2C339.527%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8765952%2Fitems%2FF6IIGQXX%22%5D%2C%22locator%22%3A%225%22%7D%7D" ztype="zhighlight"><a href="zotero://open-pdf/library/items/U68SQLMG?page=5&#x26;annotation=Z7HH2KS4">“The ROS 2 trace data that was obtained using the ros2_tracing instrumentation can be analyzed together with the OS trace data using Eclipse Trace Compass [29], which is an open-source trace viewer and framework aimed towards performance and reliability analysis. Trace Compass can analyze Linux kernel data to show the frequency and state of CPUs over time, including interrupts, system calls, or userspace processes executing on each CPU.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F8765952%2Fitems%2FF6IIGQXX%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/F6IIGQXX">Bédard 等, 2022, p. 5</a></span>)</span> 🔤使用 ros2\_tracing 仪器获得的 ROS 2 跟踪数据可以使用 Eclipse Trace Compass \[29] 与操作系统跟踪数据一起进行分析，Eclipse Trace Compass 是一个开源跟踪查看器和框架，旨在进行性能和可靠性分析。 Trace Compass 可以分析 Linux 内核数据，以显示 CPU 随时间变化的频率和状态，包括中断、系统调用或每个 CPU 上执行的用户空间进程。🔤
 

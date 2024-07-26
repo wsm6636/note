@@ -4,7 +4,7 @@ tags:
   - 待归档
   - 笔记/学习笔记
 created: 2024-04-07T16:29
-updated: 2024-07-26T15:20
+updated: 2024-07-26T15:33
 status:
   - ing
 ---
@@ -166,7 +166,7 @@ CPU 时间数据模型实用程序类。 创建一个 CpuTimeDataModelUtil。
 **get_node_names_from_tid**
 获取 tid 对应的节点名称列表。
 **get_node_tid_from_name**
-获取节点对应的 tid。
+获取节点对应的 tid。 
 **get_publish_instances**
 在单个数据帧中获取所有发布实例（rclcpp、rcl、rmw）。 行按发布时间戳排序，因此顺序通常为：rclcpp、rcl、rmw。 不过，这不适用于内部发布者的出版物，即源自 rclcpp（rcl 或 rmw）以下的出版物。 TODO(christophebedard)能否找到排除这些出版物的启发式方法？
 **get_publisher_handle_info**
