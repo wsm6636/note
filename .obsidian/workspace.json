@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a889343b9e8c8619",
+        "id": "8e84d189fe9034b3",
         "type": "tabs",
         "children": [
           {
-            "id": "faa858a146cd12ad",
+            "id": "127b90710b70bb7e",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,8 +16,8 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1947.5,
-                  "y": -599,
+                  "x": -1914.5945120711203,
+                  "y": -623.5099840380086,
                   "zoom": -0.2648535297866456
                 }
               },
@@ -25,32 +25,15 @@
             }
           },
           {
-            "id": "86ac74b450130375",
+            "id": "907c4a681cd30b74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-07-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "627266a5daaf0469",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-07-25.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,9 +84,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "HOMEPAGE.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -190,7 +169,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,13 +185,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -238,15 +216,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "faa858a146cd12ad",
+  "active": "907c4a681cd30b74",
   "lastOpenFiles": [
+    "00-inbox/2024-07-26.md",
+    "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-07-26.md",
+    "00-inbox/2024-W30-07-22.md",
+    "00-模板/年复盘模板.md",
+    "00-inbox/Invalid date.md",
+    "wsm/01-日记/2024-07-24.md",
     "wsm/01-日记/2024-07-25.md",
     "00-inbox/2024-07-25.nssyncsc",
-    "HOMEPAGE.canvas",
-    "wsm/01-日记/2024-07-24.md",
     "00-inbox/ros2_tracing: Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
-    "00-inbox/2024-W30-07-22.md",
     "01-永久笔记/工作流.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
@@ -270,10 +252,6 @@
     "00-inbox/::.md",
     "00-inbox/----YM3QWBZN.md",
     "00-inbox/---.md",
-    "00-inbox/content: |- :: @author Kingw413 :: @link [PUBLISH PAGE URL](https:::github.com:windingwind:zotero-better-notes:discussio.md",
-    "wsm/01-日记/2024-07-23.md",
-    "03-research/11-ROS/ROS2使用.md",
-    "wsm/01-日记/2024-07-22.md",
     "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
     "00-SimpRead",
     "wsm/01-日记/2024-07"

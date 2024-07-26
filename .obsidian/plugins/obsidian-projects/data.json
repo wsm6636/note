@@ -951,10 +951,10 @@
       "fieldConfig": {},
       "defaultName": "{{date:YYYY-MM-DD}}",
       "templates": [
-        "00-模板/月复盘模板.md",
         "00-模板/日记模板.md",
-        "00-模板/年复盘模板.md",
-        "00-模板/周记模板.md"
+        "00-模板/周记模板.md",
+        "00-模板/月复盘模板.md",
+        "00-模板/年复盘模板.md"
       ],
       "excludedNotes": [
         "00-模板/月复盘模板.md",
@@ -1007,28 +1007,28 @@
                 "hide": true
               },
               "论文": {
-                "hide": true
+                "hide": false
               },
               "评分": {
                 "hide": true
               },
               "日记": {
-                "hide": true
+                "hide": false
               },
               "食材": {
                 "hide": true
               },
               "意语": {
-                "hide": true
+                "hide": false
               },
               "英语": {
-                "hide": true
+                "hide": false
               },
               "月复盘": {
                 "hide": true
               },
               "运动": {
-                "hide": true
+                "hide": false
               },
               "种类": {
                 "hide": true
@@ -1082,25 +1082,19 @@
             "orderFields": [
               "name",
               "每日一句总结",
-              "#日记完成度",
-              "#论文",
-              "#意语",
-              "#英语",
-              "#运动",
               "status",
-              "tags",
-              "updated",
-              "path",
-              "#月复盘完成度",
-              "#周复盘完成度",
-              "论文",
+              "#日记完成度",
               "日记",
-              "意语",
+              "tags",
+              "#论文",
+              "论文",
               "英语",
-              "月复盘",
+              "#英语",
+              "#意语",
+              "意语",
+              "#运动",
               "运动",
-              "周记",
-              "created"
+              "updated"
             ]
           },
           "filter": {
