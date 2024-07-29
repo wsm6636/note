@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -147,7 +146,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +239,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "500a54d617546c08",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
     "00-inbox/ROS2 任务.md",
     "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
