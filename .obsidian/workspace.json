@@ -23,6 +23,14 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "5ce0e11f357d1b12",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
         ]
       }
@@ -53,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#已归档",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +88,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,6 +221,8 @@
   },
   "active": "127b90710b70bb7e",
   "lastOpenFiles": [
+    "wsm/01-日记/2024-07-29.md",
+    "HOMEPAGE.canvas",
     "wsm/02-周记/2024-W13-03-25.md",
     "wsm/01-日记/2024-04/2024-04-10.md",
     "wsm/01-日记/2024-04/2024-04-09.md",
@@ -225,7 +234,6 @@
     "wsm/01-日记/2024-04/2024-04-02.md",
     "wsm/01-日记/2024-04/2024-04-01.md",
     "wsm/01-日记/2024-03/2024-03-31.md",
-    "HOMEPAGE.canvas",
     "wsm/01-日记/2024-03/2024-03-27.md",
     "wsm/01-日记/2024-03/2024-03-30.md",
     "wsm/01-日记/2024-03/2024-03-29.md",
@@ -242,7 +250,6 @@
     "wsm/01-日记/2024-07-26.md",
     "conflict-files-obsidian-git.md",
     "HOMEPAGEiPhone.canvas",
-    "00-模板/年复盘模板.md",
     "00-inbox/2024-07-25.nssyncsc",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-16.644Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-12.377Z.yaml",
