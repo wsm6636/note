@@ -46,6 +46,19 @@
             }
           },
           {
+            "id": "00092261faf09be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/年会/年会-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3fb2fbb24ad5ecba",
             "type": "leaf",
             "state": {
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/审稿意见.md"
+                "file": "02-paper/年会/年会-workspace.md"
               }
             }
           }
@@ -194,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/审稿意见.md"
+                "file": "02-paper/年会/年会-workspace.md"
               }
             }
           },
@@ -237,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/审稿意见.md",
+                "file": "02-paper/年会/年会-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/审稿意见.md",
+                "file": "02-paper/年会/年会-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,13 +297,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3fb2fbb24ad5ecba",
+  "active": "7c6620abd473f20d",
   "lastOpenFiles": [
-    "02-paper/04-ESWEEK/审稿意见.md",
-    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
-    "00-inbox/审稿意见.md",
     "02-paper/05-SIES/SIES-workspace.md",
+    "02-paper/年会/年会-workspace.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+    "00-inbox/审稿意见.md",
+    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+    "02-paper/04-ESWEEK/审稿意见.md",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "02-paper/年会",
     "00-inbox/2024-08.md",
@@ -314,7 +328,6 @@
     "wsm/01-日记/2024-04/2024-04-06.md",
     "wsm/01-日记/2024-04/2024-04-04.md",
     "wsm/01-日记/2024-04/2024-04-03.md",
-    "wsm/01-日记/2024-04/2024-04-02.md",
     "00-inbox/2024-W30-07-22.nssyncsc",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-25.nssyncsc",
