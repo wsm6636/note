@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -155,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -199,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,14 +242,13 @@
       "templater-obsidian:Templater": false,
       "obsidian-projects:打开项目": false,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "1a68574f18fd4ba8",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
-    "00-inbox/ROS-idea.md",
     "00-inbox/ROS2 任务.md",
+    "00-inbox/ROS-idea.md",
     "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-07-29.md",
