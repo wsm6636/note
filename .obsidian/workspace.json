@@ -33,12 +33,12 @@
             }
           },
           {
-            "id": "76071110a8ac7209",
+            "id": "bd1708791846b07e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-08.md",
+                "file": "02-paper/05-SIES/SIES-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,12 +46,25 @@
             }
           },
           {
-            "id": "6391d64a7e44afa8",
+            "id": "3fb2fbb24ad5ecba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2024-W32-08-05.md",
+                "file": "00-inbox/审稿意见.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5085f9a9abf77cd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/04-ESWEEK/审稿意见.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/2024-W32-08-05.md"
+                "file": "00-inbox/审稿意见.md"
               }
             }
           }
@@ -155,7 +168,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/2024-W32-08-05.md"
+                "file": "00-inbox/审稿意见.md"
               }
             }
           },
@@ -198,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/2024-W32-08-05.md",
+                "file": "00-inbox/审稿意见.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/2024-W32-08-05.md",
+                "file": "00-inbox/审稿意见.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,9 +258,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6391d64a7e44afa8",
+  "active": "3fb2fbb24ad5ecba",
   "lastOpenFiles": [
+    "02-paper/04-ESWEEK/审稿意见.md",
+    "00-inbox/审稿意见.md",
+    "02-paper/年会",
+    "02-paper/05-SIES/SIES-workspace.md",
     "00-inbox/2024-08.md",
+    "00-模板/周记模板.md",
+    "00-模板/日记模板.md",
     "00-inbox/2024-W32-08-05.md",
     "wsm/03-月复盘/2024-07.md",
     "01-永久笔记/工作流.md",
@@ -269,12 +288,6 @@
     "wsm/01-日记/2024-04/2024-04-02.md",
     "wsm/01-日记/2024-04/2024-04-01.md",
     "wsm/01-日记/2024-03/2024-03-31.md",
-    "wsm/01-日记/2024-03/2024-03-27.md",
-    "wsm/01-日记/2024-03/2024-03-30.md",
-    "wsm/01-日记/2024-03/2024-03-29.md",
-    "wsm/01-日记/2024-03/2024-03-28.md",
-    "wsm/01-日记/2024-03/2024-03-26.md",
-    "wsm/03-月复盘/2024-03.md",
     "00-inbox/2024-W30-07-22.nssyncsc",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-25.nssyncsc",
@@ -283,7 +296,6 @@
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-04.274Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-58.545Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-15.658Z.yaml",
-    "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.nssyncsc",
-    "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc"
+    "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.nssyncsc"
   ]
 }

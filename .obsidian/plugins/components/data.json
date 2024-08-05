@@ -680,7 +680,7 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "createAt": "2024-04-23T18:31:44.483Z",
-      "updateAt": "2024-08-05T16:14:47.361Z",
+      "updateAt": "2024-08-05T16:50:30.427Z",
       "backgroundStyle": "none",
       "viewType": "gallary",
       "datasource": {
@@ -694,7 +694,7 @@
               "type": "filter",
               "operator": "time_after_or_equal",
               "property": "周记",
-              "value": "2024-07-01T00:00",
+              "value": "2024-08-01T00:00",
               "conditions": []
             },
             {
@@ -702,7 +702,7 @@
               "type": "filter",
               "operator": "time_before_or_equal",
               "property": "周记",
-              "value": "2024-07-31T23:59",
+              "value": "2024-08-31T23:59",
               "conditions": []
             }
           ]
