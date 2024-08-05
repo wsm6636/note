@@ -33,12 +33,25 @@
             }
           },
           {
-            "id": "1a68574f18fd4ba8",
+            "id": "76071110a8ac7209",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "00-inbox/2024-08.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6391d64a7e44afa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/2024-W32-08-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "00-inbox/2024-W32-08-05.md"
               }
             }
           }
@@ -142,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/ROS2 任务.md"
+                "file": "00-inbox/2024-W32-08-05.md"
               }
             }
           },
@@ -154,8 +167,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "23e1a56069e3ed8e",
@@ -186,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "00-inbox/2024-W32-08-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/ROS2 任务.md",
+                "file": "00-inbox/2024-W32-08-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341,
-    "collapsed": true
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,13 +245,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1a68574f18fd4ba8",
+  "active": "6391d64a7e44afa8",
   "lastOpenFiles": [
+    "00-inbox/2024-08.md",
+    "00-inbox/2024-W32-08-05.md",
+    "wsm/03-月复盘/2024-07.md",
+    "01-永久笔记/工作流.md",
+    "wsm/02-周记/2024-W31-07-29.md",
+    "00-inbox/2024-W31-07-29.md.nssyncsc",
+    "00-inbox/ROS2 任务.md",
     "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "HOMEPAGE.canvas",
-    "00-inbox/ROS2 任务.md",
     "00-inbox/ROS-idea.md",
-    "wsm/01-日记/2024-07-29.md",
+    "wsm/01-日记/2024-07/2024-07-29.md",
     "wsm/02-周记/2024-W13-03-25.md",
     "wsm/01-日记/2024-04/2024-04-10.md",
     "wsm/01-日记/2024-04/2024-04-09.md",
@@ -258,11 +275,7 @@
     "wsm/01-日记/2024-03/2024-03-28.md",
     "wsm/01-日记/2024-03/2024-03-26.md",
     "wsm/03-月复盘/2024-03.md",
-    "00-inbox/2024-W31-07-29.md",
-    "00-inbox/2024-07-26.md",
-    "wsm/02-周记/2024-W30-07-22.md",
     "00-inbox/2024-W30-07-22.nssyncsc",
-    "01-永久笔记/工作流.md",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-25.nssyncsc",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-16.644Z.yaml",
@@ -271,7 +284,6 @@
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-58.545Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-15.658Z.yaml",
     "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.nssyncsc",
-    "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc",
-    "00-SimpRead"
+    "SimpRead/0-同步助手 - 文档中心 - 简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展@annote.nssyncsc"
   ]
 }
