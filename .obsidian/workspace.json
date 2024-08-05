@@ -59,12 +59,38 @@
             }
           },
           {
+            "id": "a46a17bcd0990437",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5085f9a9abf77cd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "02-paper/04-ESWEEK/审稿意见.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d0beb6bd7b41277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -261,9 +287,12 @@
   "active": "3fb2fbb24ad5ecba",
   "lastOpenFiles": [
     "02-paper/04-ESWEEK/审稿意见.md",
+    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "00-inbox/审稿意见.md",
-    "02-paper/年会",
     "02-paper/05-SIES/SIES-workspace.md",
+    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
+    "02-paper/年会",
     "00-inbox/2024-08.md",
     "00-模板/周记模板.md",
     "00-模板/日记模板.md",
@@ -286,8 +315,6 @@
     "wsm/01-日记/2024-04/2024-04-04.md",
     "wsm/01-日记/2024-04/2024-04-03.md",
     "wsm/01-日记/2024-04/2024-04-02.md",
-    "wsm/01-日记/2024-04/2024-04-01.md",
-    "wsm/01-日记/2024-03/2024-03-31.md",
     "00-inbox/2024-W30-07-22.nssyncsc",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-25.nssyncsc",
