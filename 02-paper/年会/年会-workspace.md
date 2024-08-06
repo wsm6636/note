@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-08-05T19:48
+updated: 2024-08-06T12:57
 tags:
   - 笔记
   - 笔记/paper
@@ -81,20 +81,6 @@ For general embedded real-time system scenarios, asynchronous systems are still 
 We assume a group of ECUs connected through TSN network using the IEEE 802.1 QCR standard. Each task is statically assigned to one ECU, and all the jobs released by this task are executed on the same ECU in a fixed priority non-preemptive mode. There are no other parallel executing tasks on the same ECU. Each pair of ECUs is connected through the network, forming a simple vehicle distributed system task chain based on TSN network.
 ## Task Module
 
-**不同的通信语义会产生不同的时间分析结果。在分布式实时系统中通常采用以下通信语义：**
-The use of different communication semantics produces varying results in timing analysis, with following communication semantics conventionally employed in vehicular distributed systems:
-
-隐式通信由AUTOSAR定义[AUTOSAR]为了保证数据一致性。隐式通信语义中在作业开始的时候读取数据，在作业完成的时候写入数据。
-Implicit communication is defined by AUTOSAR [AUTOSAR] to ensure data consistency. In the implicit communication semantics, data is read at the starting of the task and written at its completion. 
-逻辑执行时间是由GIOTTO框架引入的[biondi2018achieving]，目的是为了减少抖动带来的不确定性。LET语义中任务在到达时读取数据在下一周期到来前写入数据。
-Logical Execution Time (LET) was introduced by the GIOTTO framework [biondi2018achieving] with the aim of reducing the uncertainty caused by jitter. In LET semantics, tasks read data upon arrival and write data before the next cycle arrives.
-
-**显示通信，表示数据在执行的任意时刻被读或写**
-\textbf{Explicit communication}:  which means that data is read or written at any given moment during execution
-
-
-**图1展现了通信语义对于端到端延迟分析的影响。由此可见，LET模型会导致因果链的端到端时延分析结果出现更长的延迟。所以在本文中我们考虑任务链上所有任务都采用隐式通信语义，以减少不必要的延迟对基于TSN的任务链分析结果的影响。**
-Figure 1 demonstrates the impact of communication semantics on end-to-end timing analysis. It can be seen that the LET model leads to longer delays in the end-to-end timing analysis results of cause-effect chains. Therefore, in this paper, we consider all tasks on the task chain to adopt implicit communication semantics to reduce the impact of unnecessary delays on the analysis results of task chains based on TSN.
 
 我们考虑单个ECU上的调度任务τ，Ei描述了调度任务τi的最差执行时间（WCET）。Ri描述了调度任务τi的最差响应时间，即所有调度任务实例从到达到完成的最大时间间隔。$J^{j}_i$是τi释放的第j个作业。对于所有τi释放的作业都与任务τi具有相同的属性。$r_i^j$表示释放时间以及$f^{j}_i$表示结束时间。
 We consider the scheduling task τ on a single ECU. Ei describes the worst-case execution time (WCET) of the scheduling task τi. Ri describes the worst-case reaction time of the scheduling task τi, i.e., the maximum time interval from arrival to completion of all scheduling task instances. $J^{j}_i$ is the jth job released by τi. All jobs released by τi have the same attributes as the task τi.  $r(J^{j}_i)$  represents the release time and $f(J^{j}_i)$  represents the finish time.
