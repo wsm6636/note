@@ -110,8 +110,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-paper/年会/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -207,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "02-paper/年会/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -250,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-paper/年会/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-paper/年会/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,11 +292,10 @@
       "templater-obsidian:Templater": false,
       "obsidian-projects:打开项目": false,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "7c6620abd473f20d",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
     "02-paper/05-SIES/SIES-workspace.md",
     "02-paper/年会/年会-workspace.md",
