@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-08-06T15:43
+updated: 2024-08-06T16:04
 tags:
   - 笔记
   - 笔记/paper
@@ -163,30 +163,31 @@ We use events to collectively represent scheduling tasks and network tasks, and 
 Based on the characteristics of reaction time and data age, we arrive at the following definitions.
 
 
-定义（反应时间）：对于作业链C的反应时间表示为R(c)
-- 作业链C的头部事件（外部事件z）发生的时刻t(z)
-- 作业链C的最后一个事件(cn)完成数据处理的时刻f(cn) 
-R（c）= t'-t =  f(cn) - t(z)
+**定义（反应时间）：对于作业链C的反应时间表示为R(c)**
+- **作业链C的头部事件（外部事件z）发生的时刻t(z)**
+- **作业链C的最后一个事件(cn)完成数据处理的时刻f(cn)** 
+**R（c）= t'-t =  f(cn) - t(z)**
 Definition  (reaction time): the reaction time of a Job chain C is expressed as R(c), which includes:
 - The moment when the head event of Job chain C (external event z) occurs, denoted as t(z).
-- The moment when the last event of task chain C (cn) completes data processing, denoted as f(cn).
+- The moment when the last event of Job chain C (cn) completes data processing, denoted as f(cn).
 
-定义（数据年龄）：对于任务链C的数据年龄表示为D(c)
-- 任务链C的头部事件（采样任务τ0）读取数据（隐式通信，即任务释放时刻）的时刻r(c1)
-- 任务链C的最终数据处理完的激励时刻r(cn+1) 
-D（c）= t'-t =  r(cn+1) - r(c1)
-Definition  (data age): the data age of a task chain C is expressed as D(c)
-- The head event of task chain C (sampling task τ0​) reads data (implicit communication, i.e., the moment of task release) at time r(c1​).
-- The final data processing completion and incentive moment of task chain C is at time r(cn+1​).
+**定义（数据年龄）：对于作业链C的数据年龄表示为D(c)**
+- **作业链C的头部事件（采样任务τ0的作业）发生（即任务释放时刻）的时刻r(c1)**
+- **作业链C的最终数据处理完的激励时刻r(cn+1)** 
+**D（c）= t'-t =  r(cn+1) - r(c1)**
+Definition  (data age): the data age of a Job chain C is expressed as D(c)
+- The head event of Job chain C (sampling task τ0​) occurs (the moment of task release) at time r(c1​).
+- The final data processing completion and incentive moment of Job chain C is at time r(cn+1​).
 
 
-定义 （最大反应时间）：任务链的最大反应时间RT(c)是任务链c所有可能路径的反应时间最大值
-RT(c) = max{R(c)}
-Definition  (Maximum reaction time): the maximum reaction time RT(c) of a task chain is the maximum value of reaction time across all possible paths of the task chain c
+**定义 （最大反应时间）：作业链的最大反应时间RT(c)是作业链c所有可能的反应时间最大值**
+**RT(c) = max{R(c)}**
+Definition  (Maximum reaction time): the maximum reaction time RT(c) of a Job chain is the maximum  of  all possible reaction time of the Job chain c
+  
 
-定义 （最大数据年龄）：任务链的最大数据年龄DA(c)是任务链c所有可能路径的数据年龄最大值
-DA(c) = max{D(c)}
-Definition  (Maximum data age): the maximum data age DA(c) of a task chain is the maximum value of data age across all possible paths of the task chain c
+**定义 （最大数据年龄）：任务链的最大数据年龄DA(c)是任务链c所有可能的数据年龄最大值**
+**DA(c) = max{D(c)}**
+Definition  (Maximum data age): the maximum data age DA(c) of a Job chain is the maximum of  all possible data age  of the task chain c
 
 
 ## An Illustrative Example
