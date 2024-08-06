@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-08-06T15:11
+updated: 2024-08-06T15:43
 tags:
   - 笔记
   - 笔记/paper
@@ -141,26 +141,21 @@ On each ECU, there is a chain composed of scheduling tasks, and different ECUs a
 We use events to collectively represent scheduling tasks and network tasks, and consider a task chain C composed of a series of events C={z, c1, c2, c3, ..., cn}, which demonstrates the order of processing an external event. In reality, this task chain can be C={z, τ0, τ1, m1, ..., τn}. All events c are processed in sequence at time t to generate the initial data from the external event z, and at time t', the final result about the data is produced by the last event cn. When processing data, the task chain generates instances of a job chain, including the external event and the jobs released by the scheduling tasks and network tasks that process it.
 
 
-定义1（作业链）：作业链C={z, c1，c2，c3，...，cn}满足：
-- 作业链C中的事件c0和cn只能是调度任务 $\tau_0$ and $\tau_n$的作业，即c0和cn只能存在于ECU上。
-- c0是一个ECU上的周期性调度任务$\tau_0$的作业，且周期为T，用来定期捕捉外部事件z
-- 对于外部事件z，为了便于描述，可将其看做任务链的第0个事件，即外部事件z是c0
-- 对于任意事件ci （1<i<n-1），可以是调度任务也可以是网络任务的作业。
-- 不存在两个连续的事件ci和ci-1（1<i<n-1）为分别属于在不同ECU上执行的调度任务情况。并且不同ECU上执行的两个调度任务中间至少有一个网络任务作为连接。例如，ci-1和 ci+1为不同ECU上的调度任务的作业，则ci为一个网络任务的作业。
-Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisfied:
-- The events c0 and cn in the task chain C can only be scheduling tasks $\tau_0$ and $\tau_n$, i.e., c0 and cn can only exist on the ECU.
--  c0 is a periodic scheduling task $\tau_0$ on an ECU with period T that is used to periodically capture external events z.
-- For the external event z, it can be considered as the 0th event of the task chain, that is, the external event z is c0.
-- For any event ci (1<i<n-1), it can be either a scheduling task or a network task.
-- There is no case where two consecutive events ci and ci-1 (1<i<n-1) are scheduling tasks executed on separate ECUs. In the task chain, there is at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci-1 and ci+1 are scheduling tasks on different ECUs, then ci is a network task.
+**定义1（作业链）：作业链C={z, c1，c2，c3，...，cn}满足：**
+- **作业链C中的事件c0和cn只能是调度任务 $\tau_0$ and $\tau_n$的作业，即c0和cn只能存在于ECU上。**
+- **c0是一个ECU上的周期性调度任务$\tau_0$的作业，且周期为T，用来定期捕捉外部事件z**
+- **对于外部事件z，为了便于描述，可将其看做任务链的第0个事件，即外部事件z是c0**
+- **对于任意事件ci （1<i<n-1），可以是调度任务也可以是网络任务的作业。**
+- **不存在两个连续的事件ci和ci-1（1<i<n-1）为分别属于在不同ECU上执行的调度任务情况。并且不同ECU上执行的两个调度任务中间至少有一个网络任务作为连接。例如，ci-1和 ci+1为不同ECU上的调度任务的作业，则ci为一个网络任务的作业。**
+
 
 **Definition 1 (Job Chain):** A job chain C={z, c1, c2, c3, ..., cn} satisfies the following conditions:
 
-- The events c0 and cn in the job chain C can only be the jobs of scheduling tasks τ0τ0​ and τnτn​, respectively, meaning that c0 and cn can only exist on an ECU.
-- c0 is a job of a periodic scheduling task τ0τ0​ on an ECU, with a period of T, used to periodically capture the external event z.
+- The events c0 and cn in the job chain C can only be the jobs of scheduling tasks τ0​ and τn​, respectively, meaning that c0 and cn can only exist on an ECU.
+- c0 is a job of a periodic scheduling task τ0​ on an ECU, with a period of T, used to periodically capture the external event z.
 - For the external event z, for the sake of description, it can be considered as the 0th event of the task chain, i.e., the external event z is c0.
-- For any event cici​ (1 < i < n-1), it can be a job of either a scheduling task or a network task.
-- There cannot be two consecutive events cici​ and ci−1ci−1​ (1 < i < n-1) that are jobs of scheduling tasks executed on different ECUs. Moreover, there must be at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci−1ci−1​ and ci+1ci+1​ are jobs of scheduling tasks on different ECUs, then cici​ is a job of a network task.
+- For any event ci​ (1 < i < n-1), it can be a job of either a scheduling task or a network task.
+- There cannot be two consecutive events ci​ and ci−1​ (1 < i < n-1) that are jobs of scheduling tasks executed on different ECUs. Moreover, there must be at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci−1​ and ci+1​ are jobs of scheduling tasks on different ECUs, then ci​ is a job of a network task.
 
 
 
@@ -168,12 +163,12 @@ Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisf
 Based on the characteristics of reaction time and data age, we arrive at the following definitions.
 
 
-定义（反应时间）：对于任务链C的反应时间表示为R(c)
-- 任务链C的头部事件（外部事件z）发生的时刻t(z)
-- 任务链C的最后一个事件(cn)完成数据处理的时刻f(cn) 
+定义（反应时间）：对于作业链C的反应时间表示为R(c)
+- 作业链C的头部事件（外部事件z）发生的时刻t(z)
+- 作业链C的最后一个事件(cn)完成数据处理的时刻f(cn) 
 R（c）= t'-t =  f(cn) - t(z)
-Definition  (reaction time): the reaction time of a task chain C is expressed as R(c), which includes:
-- The moment when the head event of task chain C (external event z) occurs, denoted as t(z).
+Definition  (reaction time): the reaction time of a Job chain C is expressed as R(c), which includes:
+- The moment when the head event of Job chain C (external event z) occurs, denoted as t(z).
 - The moment when the last event of task chain C (cn) completes data processing, denoted as f(cn).
 
 定义（数据年龄）：对于任务链C的数据年龄表示为D(c)
