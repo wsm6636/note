@@ -72,6 +72,19 @@
             }
           },
           {
+            "id": "378686e298b82645",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/01-RTCSA/QCH-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7d0beb6bd7b41277",
             "type": "leaf",
             "state": {
@@ -85,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "02f09e66e9118197",
@@ -156,11 +169,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/审稿意见.md"
+                "file": "02-paper/01-RTCSA/QCH-workspace.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -201,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/审稿意见.md"
+                "file": "02-paper/01-RTCSA/QCH-workspace.md"
               }
             }
           },
@@ -244,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/审稿意见.md",
+                "file": "02-paper/01-RTCSA/QCH-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/审稿意见.md",
+                "file": "02-paper/01-RTCSA/QCH-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,13 +306,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3fb2fbb24ad5ecba",
+  "active": "378686e298b82645",
   "lastOpenFiles": [
-    "02-paper/年会/年会-workspace.md",
-    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
-    "00-inbox/审稿意见.md",
     "02-paper/04-ESWEEK/审稿意见.md",
+    "02-paper/年会/年会-workspace.md",
+    "00-inbox/审稿意见.md",
+    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+    "02-paper/01-RTCSA/QCH-workspace.md",
     "02-paper/05-SIES/SIES-workspace.md",
     "HOMEPAGE.canvas",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
