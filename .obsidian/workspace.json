@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "00-inbox/审稿意见.md"
               }
             }
           }
@@ -215,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "00-inbox/审稿意见.md"
               }
             }
           },
@@ -258,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "00-inbox/审稿意见.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "00-inbox/审稿意见.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,10 +306,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "00092261faf09be2",
+  "active": "3fb2fbb24ad5ecba",
   "lastOpenFiles": [
-    "00-inbox/审稿意见.md",
     "00-inbox/年会-workspace.md",
+    "00-inbox/审稿意见.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "02-paper/04-ESWEEK/审稿意见.md",
