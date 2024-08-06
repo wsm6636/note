@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-08-06T16:04
+updated: 2024-08-06T16:28
 tags:
   - 笔记
   - 笔记/paper
@@ -191,9 +191,9 @@ Definition  (Maximum data age): the maximum data age DA(c) of a Job chain is the
 
 
 ## An Illustrative Example
-在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，其中$\tau_0, \tau_1$和被分配给了ECU1而$\tau_2$分配给了ECU2，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=3$。任务$\tau_0$的周期$T=6$。根据任务释放作业的情况我们可以进一步将任务链C表示为$C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。
+在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，其中$\tau_0, \tau_1$和被分配给了ECU1而$\tau_2$分配给了ECU2，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=3$。任务$\tau_0$的周期$T=6$。**根据任务释放作业的情况我们可以进一步将作业链C表示为$C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。**
 In the figure, the task chain consists of external event z, three scheduling tasks, and two network tasks, denoted as $C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$. The scheduling tasks $\tau_0, \tau_1$, and $\tau_2$ are statically allocated to two different ECUs,   where 
-$\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the task chain C can be further represented as $C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
+$\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the job chain C can be further represented as $C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
 
 
 在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到任务$J_0^2$的输入缓冲区$B_0$。在t=6时刻采样任务释放的作业$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上的调度任务$J_0^2$处理数据结束并将更新后的数据写入任务$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，根据定义处理外部事件z的任务链的反应时间为$R(C)=36-4=32$。任务链的数据年龄为$D(C)=36-6=30$
@@ -206,7 +206,7 @@ At the system time $t=4$, an external event occurs and the relevant initial data
 In this section, we conducted an end-to-end timing analysis for a multi-ECU scenario based on the TSN network as a replacement for traditional CAN bus analysis, providing results for both maximum reaction time and maximum data age.
 ## Maximum Reaction Time Analysis
 
-**在本节中我们将讨论最大反应时间的上界，参考【】我们假设调度任务的缓冲区是固定大小的，而且存在缓冲区满数据帧溢出的情况。我们将基于ATS算法网络任务部分分析与现有ECU调度任务链分析整合，扩展到通过TSN网络互联的多个ECU之间的任务链最大反应时间上界分析。**
+在本节中我们将讨论最大反应时间的上界，参考【】我们假设调度任务的缓冲区是固定大小的，而且存在缓冲区满数据帧溢出的情况。我们将基于ATS算法网络任务部分分析与现有ECU调度任务链分析整合，扩展到通过TSN网络互联的多个ECU之间的任务链最大反应时间上界分析。
 In this section, we will discuss the upper bound of the maximum reaction time. Referring to [], we assume that the buffer for scheduling tasks is of a fixed size, and there is a possibility of buffer overflow. We will integrate the partial analysis of network tasks based on the ATS algorithm with the existing analysis of ECU scheduling task chains, and extend it to analyze the upper bound of the maximum reaction time for task chains between multiple ECUs interconnected through the TSN network.
 
 定义 （结束时间）：对于任务链$C = \{z, c_1, c_2, c_3, ... , c_n\}$中的每一个事件，$t(\cdot )$为事件的结束时间：
