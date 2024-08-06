@@ -1,10 +1,11 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-08-06T13:51
+updated: 2024-08-06T15:11
 tags:
   - 笔记
   - 笔记/paper
   - 笔记/永久笔记
+  - 待归档
 ---
 # title
 基于TSN的分布式实时系统任务链的端到端时间分析
@@ -27,7 +28,7 @@ End-to-End Timing Analysis, Distributed Real-time Systems, TSN, ATS
 Distributed real-time systems are particularly adept at handling applications with complexity and physical dispersion, making them extensively utilized across various domains, notably in the realm of autonomous driving. These systems are commonly deployed across a multitude of electronic control units (ECUs), executing a sequence of tasks to perform specific functions or react to external events. The tasks involved in executing these functions or processing events often need to be executed in an ordered manner, typically exhibiting causal relationships where the input of one task is derived from the output of another. In such distributed real-time systems, it is crucial not only to adhere to deadline constraints but also to consider end-to-end timing constraints to ensure the functionality's correctness and the system's safety. 
 
 
-**端到端时序约束根据端到端时序语义，包括反应时间约束和数据年龄约束，并且由AUTOSAR[AUTOSAR]定义。其中反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，还有另一种表达按键到动作的延迟；数据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度，也称作最坏情况下的数据新鲜度。** 在每两个相邻的任务之间多是通过缓冲区读写数据来进行通信的。
+端到端时序约束根据端到端时序语义，包括反应时间约束和数据年龄约束，并且由AUTOSAR[AUTOSAR]定义。其中反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，还有另一种表达按键到动作的延迟；数据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度，也称作最坏情况下的数据新鲜度。 **在每两个相邻的任务之间多是通过缓冲区读写数据来进行通信的。**
 End-to-end timing constraints, as defined by AUTOSAR \cite{AUTOSAR}, are based on end-to-end timing semantics and include reaction time constraints and data age constraints.  reaction time refers to the earliest time interval from an external event to the point when each relevant task within the system begins processing this update, also known as delay from button press to action. Data age, on the other hand, indicates the time interval from the start of processing an external event until the generation of an incentivized output based on sampled data, also referred to as the worst-case data freshness. Data communication between each pair of adjacent tasks is typically carried out through the reading and writing of buffers.
 
 > Hybrid Scheduling of Tasks and Messages for TSN-Based Avionics Systems
@@ -53,7 +54,7 @@ Currently, there have been studies combining TSN with task chains. \cite{zhouIns
 Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
 
 
-**在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，在TSN交换机中数据流将通过令牌桶的方式整形队列分配给数据帧资格时间，到达队列头的数据帧通过判断资格时间以及经过优先级选择，最终和其他未整形数据流一起输出。**
+在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，在TSN交换机中数据流将通过令牌桶的方式整形队列分配给数据帧资格时间，到达队列头的数据帧通过判断资格时间以及经过优先级选择，最终和其他未整形数据流一起输出。
 The Token Bucket-based ATS algorithm was used in the IEEE 802.1 Qcr protocol as shown in the figure \ref{ATS}. In TSN switches, data flows are shaped and queues are allocated to data frames based on token bucket. Data frames reaching the head of the queue are output together with other non-shaped data flows after evaluating their eligibility time and priority selection.
 
 针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性例如使用CAN总线作为网络传输。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络传输标准，ATS算法作为队列整形算法。
@@ -78,10 +79,10 @@ For general embedded real-time system scenarios, asynchronous systems are still 
 # related work
 
 
-对于因果链的端到端分析有很多工作考虑时间触发的方式，如图，即任务链上的每个任务都有自己的周期并按照固定的间隔触发执行。针对这种时间触发的任务链已有多种方法处理，例如D{\"u}rr等人在【durr2019end】中设定即时向前和向后作业链，通过计算作业链的长度求得偶发性任务链的最大反应时间与最大数据年龄的上界。Günzel等人在[gunzel2021timing]中针对即时向前（向后）作业链设定长度从原来的数据处理任务（包括采样任务）向前扩展到外部活动触发以及向后扩展到驱动事件。随后他们在【gunzel_et_al】中引入划分的作业链并证明最大反应时间和最大数据年龄的等价性。
+**对于因果链的端到端分析有很多工作考虑时间触发的方式，如图，即任务链上的每个任务都有自己的周期并按照固定的间隔触发执行。针对这种时间触发的任务链已有多种方法处理，例如D{\"u}rr等人在【durr2019end】中设定即时向前和向后作业链，通过计算作业链的长度求得偶发性任务链的最大反应时间与最大数据年龄的上界。Günzel等人在[gunzel2021timing]中针对即时向前（向后）作业链设定长度从原来的数据处理任务（包括采样任务）向前扩展到外部活动触发以及向后扩展到驱动事件。随后他们在【gunzel_et_al】中引入划分的作业链并证明最大反应时间和最大数据年龄的等价性。**
 For end-to-end timing analysis of cause-effect chains, much work has considered time-triggered approaches, as shown in the figure where each task in the chain is periodically triggered to execute at fixed intervals. There are various methods to handle such time-triggered task chains. For instance, Dürr et al. in 【durr2019end】defined immediate forward and backward job chains, and by calculating the length of the job chain, they derived the upper bounds for the maximum reaction time and maximum data age of sporadic job chains. Günzel et al. in [gunzel2021timing] study extended the definition of immediate forward (backward) job chains in length, from the original data processing tasks (including sampling tasks) forward to external activity triggers and backward to driving events. Subsequently, they introduced partitioned job chains in their follow-up work 【gunzel_et_al】and proved the equivalence of maximum reaction time and maximum data age.
 
-另一种则是事件触 发的方式，如图，即任务链上的每个任务需要其前一个任务执行结束生成数据，随后触发该任务读取数据进行下一步处理。【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析。【7461359】提出了静态优先抢占任务链的忙窗口分析。【recursiveapproach】提出用于推导应用程序的端到端延迟的方法并支持任意事件模式的时间触发和事件触发任务激活方案。本文的研究以事件触发的方式为基础。
+**另一种则是事件触 发的方式，如图，即任务链上的每个任务需要其前一个任务执行结束生成数据，随后触发该任务读取数据进行下一步处理。【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析。【7461359】提出了静态优先抢占任务链的忙窗口分析。【recursiveapproach】提出用于推导应用程序的端到端延迟的方法并支持任意事件模式的时间触发和事件触发任务激活方案。本文的研究以事件触发的方式为基础。**
 The event-triggered mechanism for task chains, as shown in the figure where each task requires the completion of its preceding task to generate data, which then triggers the task to read the data for further processing. In the paper [tangReactionTimeAnalysis2023], a resource service curve model is utilized to analyze the maximum reaction time under event-triggered and data refresh modes. The paper [7461359] proposes a busy window analysis for static priority preemptive task chains. The [recursiveapproach] presents a method for deriving the end-to-end delay of an application, supporting both time-triggered and event-triggered task activation schemes for arbitrary event patterns. This research is based on the time-triggered mechanism.
 # system model
 
@@ -100,11 +101,11 @@ $B_i$ represents the fixed size (is $|B_i|$) input buffer of scheduling task $\t
 为了区别ECU上执行的任务，我们将TSN网络中的任务称为网络任务并用m={l，d}表示，而ECU上的任务我们仍然成为任务。我们使用数据帧作为端到端分析的一个基本单元。所以网络任务$m^{i}_j$代表携带任务链信息的数据帧，i代表了数据帧所在的流，并且它是数据流i中的第j个数据帧，在本文后续的内容中。$l(m^{i}_j)$代表了数据帧的长度。$d(m^{i}_j$)代表整个数据帧结束的时间，即数据帧通过ATS算法获得资格时间$et(m^{i}_j)$之后，通过传输算法根据优先级等选择，最后离开的时刻。在数据帧连续的传输过程中，能够确保从一个交换机流出之后才会经过网络传输并流入到下一个交换机中，这类似于ECU上任务对于读写顺序的约束。
 In order to distinguish the scheduling tasks performed on the ECU, we refer to the tasks in the TSN network as network tasks and represent them as m={l, d}, and the tasks on the ECU, we still refer to them as scheduling tasks. We use data frames as the basic unit for end-to-end analysis. Therefore, the network task $m^{i}_j$ represents a data frame carrying task chain information, where i indicates the stream the data frame belongs to, and it is the jth data frame in data stream i in the following content. $l(m^{i}_j)$ represents the length of the data frame. $d(m^{i}_j)$ represents the end time of the entire data frame, which is the moment the data frame leaves after obtaining eligibility time $et(m^{i}_j)$ through the ATS algorithm and selecting the transmission algorithm based on priority, among other things. During the continuous transmission process of data frames, it ensures that they will only be transmitted through the network and enter the next switch after flowing out from one switch. This is similar to the constraint on the read-write order of tasks on an ECU.
 
-**ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）以及承诺的突发大小（committed burst size）确定数据帧的资格时间。
+ATS算法根据队列分配规则决定数据帧的流向，并通过承诺信息速率（committed information rate）以及承诺的突发大小（committed burst size）确定数据帧的资格时间。
 其中，整形队列需要遵循队列分配的规则，以下情况的数据帧不能被分配到同一个整形队列：
 P1，来自不同发射机
 P2，来自相同发射机但是优先级不同
-P3，在同一个发射机中具有相同优先级，但是接收器优先级不一样。**
+P3，在同一个发射机中具有相同优先级，但是接收器优先级不一样。
 
 The ATS algorithm determines the flow direction of data frames based on queue allocation rules, and determines the eligibility time of data frames through committed information rate and committed burst size. 
 The shaping queues need to adhere to the rules of queue allocation. The frames in the following situations should not be allocated to the same shaping queue:
@@ -112,12 +113,14 @@ P1: Frames from different transmitters.
 P2: Frames from the same transmitter but with different priorities. 
 P3: Frames within the same transmitter with the same priority, but different receiver priorities.
 
-在本文的系统中，我们考虑有N个ECU，最多产生N个流这些数据流通过N个令牌桶整形队列。每个队列Q都具有固定优先级并以先进先出的模式传输数据。$r_n$代表第n个令牌桶的速率，以及$b_n$代表第n个令牌桶的大小（即最大令牌数量）。
-对于网络任务，当期被分配至一个令牌桶后，它也会获得的性质，即$r_i$代表了网络任务$m_i$所在队列的速率，同理$b_i$代表了网络任务$m_i$所在队列的令牌桶大小，并有$l_i\le b_i$。
+在本文的系统中，我们考虑有N个ECU，最多产生N个流这些数据流通过N个令牌桶整形队列。每个队列Q都具有固定优先级并以先进先出的模式传输数据。**$rn_k$代表第k个令牌桶的速率，以及$b_k$代表第k个令牌桶的大小（即最大令牌数量）。**
+对于网络任务，当期被分配至一个令牌桶后，它也会获得的性质，即$rn_i$代表了网络任务$m_i$所在队列的速率，同理$b_i$代表了网络任务$m_i$所在队列的令牌桶大小，并有$l_i\le b_i$。
 当一个数据帧通过整形队列并获得资格时间后，传输选择算法将轮询队列头选择数据帧传输，在本文的研究中我们认为此时只根据队列的优先级选择最高优先级的数据帧进行下一步传输，而不考虑其他可能存在的干扰情况。
-In the system described in this article, we considered there are a total of $N$ ECU. At most, $N$ flows are generated, and these data flows pass through $N$ token bucket shaping queues. Each queue $Q$ has a fixed priority and transfers data in a first-in, first-out mode. Committed information rate $r_n$ represents the rate of the nth token bucket, and committed burst size $b_n$ represents the size of the nth token bucket (i.e., the maximum number of tokens) with $l_i\le b_i$. 
-For network tasks, when assigned to a token bucket, they also acquire properties denoted by $r_i$, representing the rate of the network task $m_i$ in the queue, and similarly, $b_i$ represents the token bucket size of the network task $m_i$ in the queue.
+In the system described in this article, we considered there are a total of $N$ ECU. At most, $N$ flows are generated, and these data flows pass through $N$ token bucket shaping queues. Each queue $Q$ has a fixed priority and transfers data in a first-in, first-out mode. **Committed information rate $rn_k$ represents the rate of the kth token bucket, and committed burst size $b_k$ represents the size of the kth token bucket (i.e., the maximum number of tokens) with $l_i\le b_i$.** 
+**For network tasks, when assigned to a token bucket, they also acquire properties denoted by $rn_i$, representing the rate of the network task $m_i$ in the queue, a**nd similarly, $b_i$ represents the token bucket size of the network task $m_i$ in the queue.
 When a data frame passes through the shaping queue and qualifies for transmission time, the transmission selection algorithm will poll the head of the queue to select the data frame for transmission. In our research, we consider that at this point, only the data frame with the highest priority in the queue is selected for the next transmission step, without considering other possible interference situations.
+> 速率r变成rn
+
 
 同样类比于单个ECU上的任务，我们认为网络任务也具有类似的输入缓冲区，当数据需要从一个ECU传向另一个ECU时：
 （1）前一个ECU中最后一个处理数据的任务，将其处理之后的数据写入到第一个网络任务的输入缓冲区，并触发数据帧的传输以及开始通过ATS算法计算资格时间等。
@@ -128,23 +131,37 @@ Similar to tasks on a single ECU, we believe that network tasks also have simila
 (2) Due to different situations, such as priority, in ATS shaping on different links, data frames may be allocated to different token buckets. Token buckets also have different capacities and rates. Therefore, in this paper, we consider each hop as a new network task. It is not just the transmission of a data frame, but rather analogous to multiple interconnected tasks in a task chain, except that they do not have the function of computing and updating data and instead produce unchanged results through computation. 
 (3) After going through multiple network tasks, the data frame in the last hop will be written into the input buffer of the next ECU after transmission, completing the data transfer between the two ECUs.
 
-## Task Chains
-我们考虑由一系列事件c组成的任务链C={z, c1，c2，c3，...，cn}。所有事件c按序处理在t时刻外部事件z产生的初始数据，并在时刻t'由最后一个事件cn产生关于该数据的最终结果。
+##  Task Chain
+> 任务链改成作业链
 
-We consider a task chain C consisting of a series of events $C=\{z, c_1, c_2, c_3, ..., c_n\}$. All events in c process the initial data generated by external event $z$ at time $t$ sequentially and produce the final result regarding that data at time $t'$ by the last event $c_n$.
+**在每个ECU上都有由调度任务组成的链，不同的ECU之间通过网络任务组成的链连接，这样就形成了基于TSN网络的任务链，就像调度任务链--网络任务链--调度任务链.....**
+On each ECU, there is a chain composed of scheduling tasks, and different ECUs are connected by chains composed of network tasks, thus forming a task chain based on the TSN network, just like scheduling task chain - network task chain - scheduling task chain..
 
-定义1（任务链）：任务链C={z, c1，c2，c3，...，cn}满足：
-- 任务链C中的事件c0和cn只能是调度任务 $\tau_0$ and $\tau_n$,，即c0和cn只能存在于ECU上。
-- c0是一个ECU上的周期性调度任务$\tau_0$，且周期为T，用来定期捕捉外部事件z
-- 对于外部事件z，可将其看做任务链的第0个事件，即外部事件z是c0
-- 对于任意事件ci （1<i<n-1），可以是调度任务也可以是网络任务。
-- 不存在两个连续的事件ci和ci-1（1<i<n-1）为分别在不同ECU上执行的调度任务情况。在任务链上，不同ECU上执行的两个调度任务中间至少有一个网络任务作为连接。例如，ci-1和 ci+1为不同ECU上的调度任务，则ci为一个网络任务。
+**我们用事件共同代表调度任务与网络任务，并考虑由一系列事件c组成的任务链C={z, c1，c2，c3，...，cn}，展示了处理一个外部事件的顺序。实际上这个任务链可以是C={z, τ0，τ1，m1，...，τn}。所有事件c按序处理在t时刻外部事件z产生的初始数据，并在时刻t'由最后一个事件cn产生关于该数据的最终结果。当处理数据时，任务链产生作业链实例，包括外部事件以及处理它的调度任务和网络任务释放的作业。**
+We use events to collectively represent scheduling tasks and network tasks, and consider a task chain C composed of a series of events C={z, c1, c2, c3, ..., cn}, which demonstrates the order of processing an external event. In reality, this task chain can be C={z, τ0, τ1, m1, ..., τn}. All events c are processed in sequence at time t to generate the initial data from the external event z, and at time t', the final result about the data is produced by the last event cn. When processing data, the task chain generates instances of a job chain, including the external event and the jobs released by the scheduling tasks and network tasks that process it.
+
+
+定义1（作业链）：作业链C={z, c1，c2，c3，...，cn}满足：
+- 作业链C中的事件c0和cn只能是调度任务 $\tau_0$ and $\tau_n$的作业，即c0和cn只能存在于ECU上。
+- c0是一个ECU上的周期性调度任务$\tau_0$的作业，且周期为T，用来定期捕捉外部事件z
+- 对于外部事件z，为了便于描述，可将其看做任务链的第0个事件，即外部事件z是c0
+- 对于任意事件ci （1<i<n-1），可以是调度任务也可以是网络任务的作业。
+- 不存在两个连续的事件ci和ci-1（1<i<n-1）为分别属于在不同ECU上执行的调度任务情况。并且不同ECU上执行的两个调度任务中间至少有一个网络任务作为连接。例如，ci-1和 ci+1为不同ECU上的调度任务的作业，则ci为一个网络任务的作业。
 Definition 1 (Task Chain): a task chain C = {z, c1, c2, c3, ... , cn} are satisfied:
 - The events c0 and cn in the task chain C can only be scheduling tasks $\tau_0$ and $\tau_n$, i.e., c0 and cn can only exist on the ECU.
 -  c0 is a periodic scheduling task $\tau_0$ on an ECU with period T that is used to periodically capture external events z.
 - For the external event z, it can be considered as the 0th event of the task chain, that is, the external event z is c0.
 - For any event ci (1<i<n-1), it can be either a scheduling task or a network task.
 - There is no case where two consecutive events ci and ci-1 (1<i<n-1) are scheduling tasks executed on separate ECUs. In the task chain, there is at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci-1 and ci+1 are scheduling tasks on different ECUs, then ci is a network task.
+
+**Definition 1 (Job Chain):** A job chain C={z, c1, c2, c3, ..., cn} satisfies the following conditions:
+
+- The events c0 and cn in the job chain C can only be the jobs of scheduling tasks τ0τ0​ and τnτn​, respectively, meaning that c0 and cn can only exist on an ECU.
+- c0 is a job of a periodic scheduling task τ0τ0​ on an ECU, with a period of T, used to periodically capture the external event z.
+- For the external event z, for the sake of description, it can be considered as the 0th event of the task chain, i.e., the external event z is c0.
+- For any event cici​ (1 < i < n-1), it can be a job of either a scheduling task or a network task.
+- There cannot be two consecutive events cici​ and ci−1ci−1​ (1 < i < n-1) that are jobs of scheduling tasks executed on different ECUs. Moreover, there must be at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci−1ci−1​ and ci+1ci+1​ are jobs of scheduling tasks on different ECUs, then cici​ is a job of a network task.
+
 
 
 **我们根据反应时间和数据年龄的特性得到如下定义。**
