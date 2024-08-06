@@ -85,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "02f09e66e9118197",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md"
+                "file": "00-inbox/审稿意见.md"
               }
             }
           }
@@ -201,7 +201,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md"
+                "file": "00-inbox/审稿意见.md"
               }
             }
           },
@@ -244,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+                "file": "00-inbox/审稿意见.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+                "file": "00-inbox/审稿意见.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,13 +292,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a46a17bcd0990437",
+  "active": "3fb2fbb24ad5ecba",
   "lastOpenFiles": [
-    "00-inbox/审稿意见.md",
+    "02-paper/年会/年会-workspace.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+    "00-inbox/审稿意见.md",
     "02-paper/04-ESWEEK/审稿意见.md",
-    "02-paper/年会/年会-workspace.md",
     "02-paper/05-SIES/SIES-workspace.md",
     "HOMEPAGE.canvas",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",

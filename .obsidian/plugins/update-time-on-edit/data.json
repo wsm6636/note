@@ -35,7 +35,7 @@
     "03-research/02-因果链/ITANS- Incremental Task and Network Scheduling for Time-Sensitive Networks.md": "614e92425c0e320aa807af21bb84b8c6af7e621436921ecd746d005aa78b7166",
     "03-research/02-因果链/note-chain.md": "ef56ae618ef57cbefbe212b12a948c639142a9dabb9324b0b7566e7a07ce8bf7",
     "03-research/02-因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md": "a955daa748490c8999c9f7ea1c2efb083c57a5934fdeac20cc23db341cc1dbf2",
-    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md": "69f5d8a52c7b3869a2f77bf4d8b21e785b85799141c5bdd4136a6fa55fc27dab",
+    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md": "b44bdaf03ccaf3108d483006cd798cc62c2a6484d14e4233b8f87dfdb7a44a7e",
     "03-research/02-因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md": "56550d66576415f21425d9f276bff58e667b63fc6749e2cfc1ec2d90a4eb6338",
     "03-research/02-因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md": "52420e1a75a206811093b4cf0f3cd8c5a72397f26cfaab987d472bccd7bd5d28",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md": "ed78ec0203696d4a1b3a9b1cfb5cbb4f84467b091f7b62d86f47ff96e15d434e",
@@ -360,7 +360,7 @@
     "wsm/01-日记/2024-07/2024-07-29.md": "f408de65e549bea4a574b43f50045e29ee50a8594c5a4fb367d9a786243a38c9",
     "00-inbox/2024-W32-08-05.md": "b8f4405e5c07672290b9a1a938b002d2e5491b7357298163ee8981e0b81569ed",
     "00-inbox/2024-08.md": "2700e155d0ab72da6710a066ca0df80955305856bcaa390068bf0bdb45d47752",
-    "00-inbox/审稿意见.md": "1ad806e51c649606688719b812808b3b30c92285f8dad8be11a3eb3188db0868",
-    "02-paper/年会/年会-workspace.md": "55886b61f4d17fba16caec747b2f5774cf99175c5ea21600618c4a5f63c69403"
+    "00-inbox/审稿意见.md": "5c41b9bae38fce9b5aab69d54f95eba0b7ca0411711e32b904c0367deda23d81",
+    "02-paper/年会/年会-workspace.md": "4824bc013d09772d1b18cc52b71e605545d5de4d671efc72edab99e643d62cac"
   }
 }

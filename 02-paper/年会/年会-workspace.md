@@ -1,6 +1,6 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-08-06T12:57
+updated: 2024-08-06T13:16
 tags:
   - 笔记
   - 笔记/paper
@@ -74,7 +74,14 @@ For general embedded real-time system scenarios, asynchronous systems are still 
     \item In Section 3, we analyze the maximum reaction time and maximum data age in a multi-ECU scenario, providing upper bounds on the maximum reaction time for network transmission task chains adopting the IEEE 802.1Qcr standard.
     \item In Section 4,  we evaluate and demonstrate that the proposed method improves the performance.
 \end{itemize}
+# related work
 
+
+对于因果链的端到端分析有很多工作考虑时间触发的方式，如图，即任务链上的每个任务都有自己的周期并按照固定的间隔触发执行。针对这种时间触发的任务链已有多种方法处理，例如D{\"u}rr等人在【durr2019end】中设定即时向前和向后作业链，通过计算作业链的长度求得偶发性任务链的最大反应时间与最大数据年龄的上界。Günzel等人在[gunzel2021timing]中针对即时向前（向后）作业链设定长度从原来的数据处理任务（包括采样任务）向前扩展到外部活动触发以及向后扩展到驱动事件。随后他们在【gunzel_et_al】中引入划分的作业链并证明最大反应时间和最大数据年龄的等价性。
+For end-to-end timing analysis of cause-effect chains, much work has considered time-triggered approaches, as shown in the figure where each task in the chain is periodically triggered to execute at fixed intervals. There are various methods to handle such time-triggered task chains. For instance, Dürr et al. in 【durr2019end】defined immediate forward and backward job chains, and by calculating the length of the job chain, they derived the upper bounds for the maximum reaction time and maximum data age of sporadic job chains. Günzel et al. in [gunzel2021timing] study extended the definition of immediate forward (backward) job chains in length, from the original data processing tasks (including sampling tasks) forward to external activity triggers and backward to driving events. Subsequently, they introduced partitioned job chains in their follow-up work 【gunzel_et_al】and proved the equivalence of maximum reaction time and maximum data age.
+
+另一种则是事件触 发的方式，如图，即任务链上的每个任务需要其前一个任务执行结束生成数据，随后触发该任务读取数据进行下一步处理。【tangReactionTimeAnalysis2023】中采用资源服务曲线模型取得事件触发和数据刷新模式下的最大反应时间分析。【7461359】提出了静态优先抢占任务链的忙窗口分析。【recursiveapproach】提出用于推导应用程序的端到端延迟的方法并支持任意事件模式的时间触发和事件触发任务激活方案。本文的研究以事件触发的方式为基础。
+The event-triggered mechanism for task chains, as shown in the figure where each task requires the completion of its preceding task to generate data, which then triggers the task to read the data for further processing. In the paper [tangReactionTimeAnalysis2023], a resource service curve model is utilized to analyze the maximum reaction time under event-triggered and data refresh modes. The paper [7461359] proposes a busy window analysis for static priority preemptive task chains. The [recursiveapproach] presents a method for deriving the end-to-end delay of an application, supporting both time-triggered and event-triggered task activation schemes for arbitrary event patterns. This research is based on the time-triggered mechanism.
 # system model
 
 **我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行，且在同一个ECU上不存在另一个并行执行的任务。每两个ECU之间通过网络连接，这样组成了一条简单的基于TSN网络的车载分布式系统任务链。**
