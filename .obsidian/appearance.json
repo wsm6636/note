@@ -4,8 +4,8 @@
   "theme": "obsidian",
   "nativeMenus": false,
   "translucency": false,
-  "interfaceFontFamily": "",
-  "textFontFamily": "思源宋体,Adobe 宋体 Std,MesloLGS Nerd Font",
+  "interfaceFontFamily": "Microsoft YaHei",
+  "textFontFamily": "Microsoft Himalaya,思源宋体",
   "baseFontSize": 22,
   "monospaceFontFamily": "MesloLGS NF",
   "enabledCssSnippets": [

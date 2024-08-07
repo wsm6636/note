@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -605.5,
+                  "y": -605.5000000000001,
                   "zoom": -0.4079848532186214
                 }
               },
@@ -271,7 +271,8 @@
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "127b90710b70bb7e",
