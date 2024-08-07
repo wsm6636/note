@@ -51,19 +51,6 @@
             }
           },
           {
-            "id": "2ce3af24c8017df8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W32-08-05.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5085f9a9abf77cd7",
             "type": "leaf",
             "state": {
@@ -271,14 +258,14 @@
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "127b90710b70bb7e",
   "lastOpenFiles": [
-    "01-永久笔记/01-教程/zotero/1723025058449-export.json",
+    "00-inbox/A compositional framework for end-to-end path delay calculation of automotive systems under different path semantics.nssyncsc",
     "00-inbox/2024-W32-08-05.md",
-    "00-inbox/A compositional framework for end-to-end path delay calculation of automotive systems under different path semantics.md",
     "00-inbox/2024-W32-08-05-NSConflict-02200059-mac14.5.md",
     "00-inbox/年会-workspace.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
@@ -306,6 +293,7 @@
     "wsm/02-周记/2024-W13-03-25.md",
     "wsm/01-日记/2024-04/2024-04-10.md",
     "wsm/01-日记/2024-04/2024-04-09.md",
+    "wsm/01-日记/2024-04/2024-04-08.md",
     "00-inbox/2024-W30-07-22.nssyncsc",
     "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-25.nssyncsc",
