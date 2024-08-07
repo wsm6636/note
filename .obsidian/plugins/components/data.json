@@ -2,6 +2,26 @@
   "widgets": [],
   "components": [
     {
+      "id": "12288aa2-f2d9-433a-967e-6efbf5373fa4",
+      "type": "checkIn",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-08-07T19:10:30.262Z",
+      "updateAt": "2024-08-07T19:10:52.240Z",
+      "cellShape": "round",
+      "backgroundStyle": "card",
+      "tasks": [
+        {
+          "id": "f1f16abe-90a2-40d8-b539-579bd6646e5d",
+          "checkInRecordType": "pageProperty",
+          "tag": "#checkIn",
+          "name": "daka"
+        }
+      ],
+      "title": "daka"
+    },
+    {
       "id": "98bc8dfd-729b-4b44-8202-57178e032f99",
       "type": "dynamicDataView",
       "titleAlign": "center",
@@ -1629,6 +1649,23 @@
       "components": [
         {
           "componentId": "98bc8dfd-729b-4b44-8202-57178e032f99"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "1275cd83-f6c2-463d-9715-7f8792ca863e",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-08-07T19:10:24.070Z",
+      "updateAt": "2024-08-07T19:10:30.263Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "12288aa2-f2d9-433a-967e-6efbf5373fa4"
         }
       ],
       "layoutType": "column"

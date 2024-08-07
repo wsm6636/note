@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -605.5000000000001,
+                  "y": -605.5,
                   "zoom": -0.4079848532186214
                 }
               },
@@ -25,64 +25,12 @@
             }
           },
           {
-            "id": "3fb2fbb24ad5ecba",
+            "id": "646e49a5a834abf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/审稿意见.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eab808cbd158163b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/年会-workspace.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ce3af24c8017df8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W32-08-05.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5085f9a9abf77cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-paper/04-ESWEEK/审稿意见.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d0beb6bd7b41277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
+                "file": "00-模板/挂件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -141,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-模板/挂件.md"
               }
             }
           }
@@ -158,12 +106,13 @@
       {
         "id": "741130da544f6c02",
         "type": "tabs",
+        "dimension": 44.095238095238095,
         "children": [
           {
-            "id": "3ed4811e61b1cfd9",
+            "id": "1a013bdcec46cc76",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "calendar-view",
               "state": {}
             }
           },
@@ -185,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-模板/挂件.md"
               }
             }
           },
@@ -202,6 +151,7 @@
       {
         "id": "23e1a56069e3ed8e",
         "type": "tabs",
+        "dimension": 55.9047619047619,
         "children": [
           {
             "id": "1d81f3eabc5e22ee",
@@ -228,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-模板/挂件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-模板/挂件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,17 +225,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "127b90710b70bb7e",
+  "active": "1a013bdcec46cc76",
   "lastOpenFiles": [
-    "01-永久笔记/01-教程/zotero/1723025058449-export.json",
+    "00-inbox/2024-08-07.md",
+    "wsm/01-日记/2024-08-07.md",
+    "00-模板/挂件.md",
+    "HOMEPAGEiPhone.canvas",
+    "HOMEPAGE.canvas",
+    "wsm/02-周记/2024-W33-08-12.md",
     "00-inbox/2024-W32-08-05.md",
-    "00-inbox/A compositional framework for end-to-end path delay calculation of automotive systems under different path semantics.md",
     "00-inbox/2024-W32-08-05-NSConflict-02200059-mac14.5.md",
+    "01-永久笔记/01-教程/zotero/1723025058449-export.json",
+    "00-inbox/A compositional framework for end-to-end path delay calculation of automotive systems under different path semantics.md",
     "00-inbox/年会-workspace.md",
     "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "02-paper/04-ESWEEK/审稿意见.md",
-    "HOMEPAGE.canvas",
     "00-inbox/审稿意见.md",
     "wsm/01-日记/2024-08-06.md",
     "wsm/01-日记/2024-08",
@@ -304,16 +259,11 @@
     "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-inbox/ROS-idea.md",
     "wsm/01-日记/2024-07/2024-07-29.md",
-    "wsm/02-周记/2024-W13-03-25.md",
-    "wsm/01-日记/2024-04/2024-04-10.md",
-    "wsm/01-日记/2024-04/2024-04-09.md",
     "00-inbox/2024-W30-07-22.nssyncsc",
-    "HOMEPAGEiPhone.canvas",
     "00-inbox/2024-07-25.nssyncsc",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-16.644Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-12.377Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-04.274Z.yaml",
-    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-58.545Z.yaml",
-    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-15.658Z.yaml"
+    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-58.545Z.yaml"
   ]
 }
