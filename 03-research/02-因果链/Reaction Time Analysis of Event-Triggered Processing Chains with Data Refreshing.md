@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T13:10
-updated: 2024-08-06T13:08
+updated: 2024-08-06T21:48
 tags:
   - 笔记
   - 笔记/文献笔记
@@ -82,7 +82,8 @@ tags:
 **定义3(最大反应时间)**：加工链C的最大反应时间RT(C)是由C产生的任何可能的传播链c的最大L(C)，即，
 
 ![image-20230927163815252](https://gcore.jsdelivr.net/gh/wsm6636/pic/202309271638322.png)
-
+> 反应时间是传播链（实例）
+> 最大反应时间是处理链
 ### 2.4 说明性的例子
 
 ![image.png|762](https://gcore.jsdelivr.net/gh/wsm6636/pic/202310101703940.png)

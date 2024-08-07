@@ -1,6 +1,6 @@
 ---
-created: 2024-03-15T10:38
-updated: 2024-08-06T19:49
+created: 2024-08-06T10:38:00
+updated: 2024-08-06T22:37
 tags:
   - 笔记
   - 笔记/paper
@@ -137,23 +137,23 @@ Similar to tasks on a single ECU, we believe that network tasks also have simila
 **在每个ECU上都有由调度任务组成的链，不同的ECU之间通过网络任务组成的链连接，这样就形成了基于TSN网络的任务链，就像调度任务链--网络任务链--调度任务链.....**
 On each ECU, there is a chain composed of scheduling tasks, and different ECUs are connected by chains composed of network tasks, thus forming a task chain based on the TSN network, just like scheduling task chain - network task chain - scheduling task chain..
 
-**我们用事件共同代表调度任务与网络任务，并考虑由一系列事件c组成的任务链C={z, c1，c2，c3，...，cn}，展示了处理一个外部事件的顺序。实际上这个任务链可以是C={z, τ0，τ1，m1，...，τn}。所有事件c按序处理在t时刻外部事件z产生的初始数据，并在时刻t'由最后一个事件cn产生关于该数据的最终结果。当处理数据时，任务链产生作业链实例，包括外部事件以及处理它的调度任务和网络任务释放的作业。**
-We use events to collectively represent scheduling tasks and network tasks, and consider a task chain C composed of a series of events C={z, c1, c2, c3, ..., cn}, which demonstrates the order of processing an external event. In reality, this task chain can be C={z, τ0, τ1, m1, ..., τn}. All events c are processed in sequence at time t to generate the initial data from the external event z, and at time t', the final result about the data is produced by the last event cn. When processing data, the task chain generates instances of a job chain, including the external event and the jobs released by the scheduling tasks and network tasks that process it.
+**我们用事件共同代表调度任务与网络任务，并考虑由一系列事件c组成的任务链$C=\{z, C_1, C_2, C_3, ..., C_n\}$，展示了处理一个外部事件的顺序。实际上这个任务链可以是C={z, τ0，τ1，m1，...，τn}。所有事件c按序处理在t时刻外部事件z产生的初始数据，并在时刻t'由最后一个事件cn产生关于该数据的最终结果。当处理数据时，任务链产生作业链实例$JC = \{z, c_1, c_2, c_3, ... , c_n\}$，包括外部事件以及处理它的调度任务和网络任务释放的作业。**
+We use events to collectively represent scheduling tasks and network tasks, and consider a task chain C composed of a series of events $C=\{z, C_1, C_2, C_3, ..., C_n\}$, which demonstrates the order of processing an external event. In reality, this task chain can be C={z, τ0, τ1, m1, ..., τn}. All events c are processed in sequence at time t to generate the initial data from the external event z, and at time t', the final result about the data is produced by the last event cn. When processing data, the task chain generates instances of a job chain$JC = \{z, c_1, c_2, c_3, ... , c_n\}$, including the external event and the jobs released by the scheduling tasks and network tasks that process it.
 
 
-**定义1（作业链）：作业链C={z, c1，c2，c3，...，cn}满足：**
-- **作业链C中的事件c0和cn只能是调度任务 $\tau_0$ and $\tau_n$的作业，即c0和cn只能存在于ECU上。**
+**定义1（作业链）：作业链JC={z, c1，c2，c3，...，cn}满足：**
+- **作业链JC中的事件c0和cn只能是调度任务 $\tau_0$ and $\tau_n$的作业，即c0和cn只能存在于ECU上。**
 - **c0是一个ECU上的周期性调度任务$\tau_0$的作业，且周期为T，用来定期捕捉外部事件z**
-- **对于外部事件z，为了便于描述，可将其看做任务链的第0个事件，即外部事件z是c0**
+- **对于外部事件z，为了便于描述，可将其看做作业链的第0个事件，即外部事件z是c0**
 - **对于任意事件ci （1<i<n-1），可以是调度任务也可以是网络任务的作业。**
 - **不存在两个连续的事件ci和ci-1（1<i<n-1）为分别属于在不同ECU上执行的调度任务情况。并且不同ECU上执行的两个调度任务中间至少有一个网络任务作为连接。例如，ci-1和 ci+1为不同ECU上的调度任务的作业，则ci为一个网络任务的作业。**
 
 
-**Definition 1 (Job Chain):** A job chain C={z, c1, c2, c3, ..., cn} satisfies the following conditions:
+**Definition 1 (Job Chain):** A job chain JC={z, c1, c2, c3, ..., cn} satisfies the following conditions:
 
-- The events c0 and cn in the job chain C can only be the jobs of scheduling tasks τ0​ and τn​, respectively, meaning that c0 and cn can only exist on an ECU.
+- The events c0 and cn in the job chain JC can only be the jobs of scheduling tasks τ0​ and τn​, respectively, meaning that c0 and cn can only exist on an ECU.
 - c0 is a job of a periodic scheduling task τ0​ on an ECU, with a period of T, used to periodically capture the external event z.
-- For the external event z, for the sake of description, it can be considered as the 0th event of the task chain, i.e., the external event z is c0.
+- For the external event z, for the sake of description, it can be considered as the 0th event of the job chain, i.e., the external event z is c0.
 - For any event ci​ (1 < i < n-1), it can be a job of either a scheduling task or a network task.
 - There cannot be two consecutive events ci​ and ci−1​ (1 < i < n-1) that are jobs of scheduling tasks executed on different ECUs. Moreover, there must be at least one network task as a connection between two scheduling tasks executed on different ECUs. For example, if ci−1​ and ci+1​ are jobs of scheduling tasks on different ECUs, then ci​ is a job of a network task.
 
@@ -163,41 +163,41 @@ We use events to collectively represent scheduling tasks and network tasks, and 
 Based on the characteristics of reaction time and data age, we arrive at the following definitions.
 
 
-**定义（反应时间）：对于作业链C的反应时间表示为R(c)**
-- **作业链C的头部事件（外部事件z）发生的时刻t(z)**
-- **作业链C的最后一个事件(cn)完成数据处理的时刻f(cn)** 
-**R（c）= t'-t =  f(cn) - t(z)**
-Definition  (reaction time): the reaction time of a Job chain C is expressed as R(c), which includes:
-- The moment when the head event of Job chain C (external event z) occurs, denoted as t(z).
-- The moment when the last event of Job chain C (cn) completes data processing, denoted as f(cn).
+**定义（反应时间）：对于作业链JC的反应时间表示为R(JC)**
+- **作业链JC的头部事件（外部事件z）发生的时刻t(z)**
+- **作业链JC的最后一个事件(cn)完成数据处理的时刻f(cn)** 
+**R（JC）= t'-t =  f(cn) - t(z)**
+Definition  (reaction time): the reaction time of a Job chain JC is expressed as R(JC), which includes:
+- The moment when the head event of Job chain JC (external event z) occurs, denoted as t(z).
+- The moment when the last event of Job chain JC (cn) completes data processing, denoted as f(cn).
 
-**定义（数据年龄）：对于作业链C的数据年龄表示为D(c)**
-- **作业链C的头部事件（采样任务τ0的作业）发生（即任务释放时刻）的时刻r(c1)**
-- **作业链C的最终数据处理完的激励时刻r(cn+1)** 
-**D（c）= t'-t =  r(cn+1) - r(c1)**
-Definition  (data age): the data age of a Job chain C is expressed as D(c)
-- The head event of Job chain C (sampling task τ0​) occurs (the moment of task release) at time r(c1​).
-- The final data processing completion and incentive moment of Job chain C is at time r(cn+1​).
+**定义（数据年龄）：对于作业链JC的数据年龄表示为D(JC)**
+- **作业链JC的头部事件（采样任务τ0的作业）发生（即任务释放时刻）的时刻r(c1)**
+- **作业链JC的最终数据处理完的激励时刻r(cn+1)** 
+**D（JC）= t'-t =  r(cn+1) - r(c1)**
+Definition  (data age): the data age of a Job chain JC is expressed as D(JC)
+- The head event of Job chain JC (sampling task τ0​) occurs (the moment of task release) at time r(c1​).
+- The final data processing completion and incentive moment of Job chain JC is at time r(cn+1​).
 
 
-**定义 （最大反应时间）：作业链的最大反应时间RT(c)是作业链c所有可能的反应时间最大值**
-**RT(c) = max{R(c)}**
-Definition  (Maximum reaction time): the maximum reaction time RT(c) of a Job chain is the maximum  of  all possible reaction time of the Job chain c
+**定义 （最大反应时间）：任务链的最大反应时间RT(c)是作业链JC所有可能的反应时间最大值**
+**RT(c) = max{R(JC)}**
+Definition  (Maximum reaction time): the maximum reaction time RT(c) of a Task chain is the maximum  of  all possible reaction time of the Job chain JC
   
 
-**定义 （最大数据年龄）：任务链的最大数据年龄DA(c)是任务链c所有可能的数据年龄最大值**
-**DA(c) = max{D(c)}**
-Definition  (Maximum data age): the maximum data age DA(c) of a Job chain is the maximum of  all possible data age  of the task chain c
+**定义 （最大数据年龄）：任务链的最大数据年龄DA(c)是作业链JC所有可能的数据年龄最大值**
+**DA(c) = max{D(JC)}**
+Definition  (Maximum data age): the maximum data age DA(c) of a Task chain is the maximum of  all possible data age  of the job chain JC
 
 
 ## An Illustrative Example
-在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，其中$\tau_0, \tau_1$和被分配给了ECU1而$\tau_2$分配给了ECU2，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=3$。任务$\tau_0$的周期$T=6$。**根据任务释放作业的情况我们可以进一步将作业链C表示为$C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。**
+在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，其中$\tau_0, \tau_1$和被分配给了ECU1而$\tau_2$分配给了ECU2，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=3$。任务$\tau_0$的周期$T=6$。**根据任务释放作业的情况我们可以进一步将作业链JC表示为$JC= \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。**
 In the figure, the task chain consists of external event z, three scheduling tasks, and two network tasks, denoted as $C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$. The scheduling tasks $\tau_0, \tau_1$, and $\tau_2$ are statically allocated to two different ECUs,   where 
-$\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the job chain C can be further represented as $C = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
+$\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the job chain JC can be further represented as $JC = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
 
 
-在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到**作业**$J_0^2$的输入缓冲区$B_0$。在t=6时刻采样任务释放的**作业**$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上**的作业**$J_0^2$处理数据结束并将更新后的数据写入**作业**$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，根据定义处理外部事件z的链c的反应时间为$R(C)=36-4=32$。任务链的数据年龄为$D(C)=36-6=30$
-At the system time $t=4$, an external event occurs and the relevant initial data is written into the input buffer $B_0$ of **job** $J_0^2$. At time $t=6$, the **job** $J_0^2$ that was released captures the external event data updated in its input buffer $B_0$. At $t=10$, the  **job** $J_0^2$ on ECU1 finishes processing the data and writes the updated data into the input buffer $B_1$ of **job** $J_1^1$. When **job** $J_1^1$ ends, the resulting output begins to be transmitted over the network to ECU2. The data frame is enqueued at time $t=17$, shaped by the ATS algorithm, and by time $t=21$, the entire data frame has finished processing at switch 1. As required by network topology or routing selection algorithms, the data frame is directed to switch 2, where it continues to undergo ATS-related processing. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding the external event z is produced. As shown in the figure, according to the definition, the reaction time of the task chain processing external event z is $R(C) = 36 - 4 = 32$. The data age of the task chain is $D(C) = 36 - 6 = 30$.
+在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到**作业**$J_0^2$的输入缓冲区$B_0$。在t=6时刻采样任务释放的**作业**$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上**的作业**$J_0^2$处理数据结束并将更新后的数据写入**作业**$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，**根据定义处理外部事件z的链c的反应时间为$R(JC)=36-4=32$。作业链的数据年龄为$D(JC)=36-6=30$**
+At the system time $t=4$, an external event occurs and the relevant initial data is written into the input buffer $B_0$ of **job** $J_0^2$. At time $t=6$, the **job** $J_0^2$ that was released captures the external event data updated in its input buffer $B_0$. At $t=10$, the  **job** $J_0^2$ on ECU1 finishes processing the data and writes the updated data into the input buffer $B_1$ of **job** $J_1^1$. When **job** $J_1^1$ ends, the resulting output begins to be transmitted over the network to ECU2. The data frame is enqueued at time $t=17$, shaped by the ATS algorithm, and by time $t=21$, the entire data frame has finished processing at switch 1. As required by network topology or routing selection algorithms, the data frame is directed to switch 2, where it continues to undergo ATS-related processing. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding the external event z is produced. As shown in the figure, according to the definition, the reaction time of the task chain processing external event z is $R(JC) = 36 - 4 = 32$. The data age of the job chain is $D(JC) = 36 - 6 = 30$.
 
 # End-to-eng Timing Analysis
 
@@ -209,14 +209,15 @@ In this section, we conducted an end-to-end timing analysis for a multi-ECU scen
 在本节中我们将讨论最大反应时间的上界，参考【】我们假设调度任务的缓冲区是固定大小的，而且存在缓冲区满数据帧溢出的情况。我们将基于ATS算法网络任务部分分析与现有ECU调度任务链分析整合，扩展到通过TSN网络互联的多个ECU之间的任务链最大反应时间上界分析。
 In this section, we will discuss the upper bound of the maximum reaction time. Referring to [], we assume that the buffer for scheduling tasks is of a fixed size, and there is a possibility of buffer overflow. We will integrate the partial analysis of network tasks based on the ATS algorithm with the existing analysis of ECU scheduling task chains, and extend it to analyze the upper bound of the maximum reaction time for task chains between multiple ECUs interconnected through the TSN network.
 
-定义 （结束时间）：对于任务链$C = \{z, c_1, c_2, c_3, ... , c_n\}$中的每一个事件，$t(\cdot )$为事件的结束时间：
-- 对于外部事件z，$t(z)$为外部事件发生的时间，t(c0)为外部事件结束时间。根据定义1可知，外部事件z也是任务链的事件c0。外部事件的结束时间就是当外部事件触发后，下一个将要捕捉此外部事件z的周期性调度任务τ0对应的作业的释放时间。
-- 对于ECU上的调度任务$\tau_i$来说$t(c_i)$为调度任务$\tau_i$的结束时间$f(c_i)$。
-- 对于网络任务$m_i$来说$t(c_i)$为结束时间$d(c_i)$。
-Definition (End Time): For each event in a task chain $C = \{z, c_1, c_2, c_3, ..., c_n\}$, $t(\cdot)$ represents the end time of the event: 
--   For the external event z, $t(z)$ denotes the time at which the external event occurs, and $t(c_0​)$ is the end time of the external event. According to Definition 1, the external event z is also the event c0 of the task chain. The end time of the external event is the release time of the periodic scheduling task τ0 that is next poised to capture this external event z after it has been triggered.
-- For a scheduling task $\tau_i$ on the ECU, $t(c_i)$ is the end time $f(c_i)$ of the scheduling task $\tau_i$. 
-- For a network task $m_i$, $t(c_i)$ is the end time $d(c_i)$.
+定义 （结束时间）：对于**作业**链$C = \{z, c_1, c_2, c_3, ... , c_n\}$中的每一个事件，$t(\cdot )$为事件的结束时间：
+- 对于外部事件z，$t(z)$为外部事件发生的时间，t(c0)为外部事件结束时间。根据定义1可知，外部事件z也是**作业链**的事件c0。外部事件的结束时间就是当外部事件触发后，下一个将要捕捉此外部事件z的周期性调度任务τ0对应的作业的释放时间。
+- **当事件ci为调度任务的作业实例时，$t(c_i)$为它的结束时间$f(c_i)$**
+- **当事件ci为网络任务的作业实例时，$t(c_i)$为结束时间$d(c_i)$**
+- 
+Definition (End Time): For each event in a **job** chain $C = \{z, c_1, c_2, c_3, ..., c_n\}$, $t(\cdot)$ represents the end time of the event: 
+-   For the external event z, $t(z)$ denotes the time at which the external event occurs, and $t(c_0​)$ is the end time of the external event. According to Definition 1, the external event z is also the event c0 of the **job** chain. The end time of the external event is the release time of the periodic scheduling task τ0 that is next poised to capture this external event z after it has been triggered.
+-  When the event cici​ is an instance of a scheduling task job, t(ci) is its finishing time f(ci).
+- When the event cici​ is an instance of a network task job, t(ci) is the end time d(ci).
 
 
 $$t(\cdot)=
@@ -230,7 +231,7 @@ d(c_i) & \text{if a network task}\quad m_i\\
 Based on formula (), For reaction time, we can express it as:
 $$\begin{equation}
 \begin{aligned}
-R(C) & = t'-t\\
+R(JC) & = t'-t\\
      & = t(c_n) - t(z)\\
      & = t(c_1) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
      & = t(c_1) - r(c_1) + r(c_1) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
@@ -242,8 +243,8 @@ R(C) & = t'-t\\
 则最大反应时间根据公式（）为$\max\{t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\}$
 The maximum reaction time is determined according to formula () is $\max\{t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\}$
 
-我们将任务链C的最大反应时间分为两部分
-We divide the maximum reaction time of task chain C into two parts.
+**我们将最大反应时间分为两部分**
+**We divide the maximum reaction time  into two parts.**
 
 Part one. $t(c_0)-t(z)$的上界
 Part \uppercase\expandafter{\romannumeral1}. The upper bound of $t(c_0)-t(z)$.
@@ -251,20 +252,20 @@ Part \uppercase\expandafter{\romannumeral1}. The upper bound of $t(c_0)-t(z)$.
 引理1，The upper bound of $t(c_0)-t(z)$ is $t(c_0)-t(z) \le T$
 Lemma 1, $t(c_0)-t(z) \le T$.
 
-证明，根据定义（1），我们可以获得事件$c_1$的定义，即事件$c_1$必然是一个调度任务为$\tau_0$，所以根据定义（4）外部事件z的结束时间为$t(c_0)=r(c_1)=r(\tau_0)$。继续使用定义（1），事件$c_1$（调度任务$\tau_0$）以T为周期捕捉外部事件z，所以当外部事件在t(z)开始触发之后最晚在一个周期T之内，它将被调度任务$\tau_0$释放的作业捕捉。所以我们可以得到$t(c_0)-t(z)$的上界为T。
+证明，根据定义（1），我们可以获得事件$c_1$的定义，即事件$c_1$必然是一个调度任务为$\tau_0$的**作业**，所以根据定义（4）外部事件z的结束时间为$t(c_0)=r(c_1)=r(\tau_0)$。继续使用定义（1），**事件$c_1$以T为周期捕捉外部事件z**，所以当外部事件在t(z)开始触发之后最晚在一个周期T之内，它将被调度任务$\tau_0$释放的作业捕捉。所以我们可以得到$t(c_0)-t(z)$的上界为T。
 
-Proof: According to Definition (1), we can obtain the definition of event $c_1$​, which must be a scheduling task for $τ_0$​. Therefore, based on Definition (4), the end time of the external event $z$ is $t(c_0​)=r(c_1​)=r(\tau_0​)$. Continuing to use Definition (1), event $c_1$​ (scheduling task $\tau_0$​) captures the external event $z$ with a period $T$. Thus, after the external event starts at $t(z)$, it will be captured by the job released by scheduling task $\tau_0$​ within at most one period $T$. Hence, we can derive that the upper bound of $t(c_0​)−t(z)$ is $T$.
+Proof: According to Definition (1), we can obtain the definition of event $c_1$​, which must be a **job of** scheduling task for $τ_0$​. Therefore, based on Definition (4), the end time of the external event $z$ is $t(c_0​)=r(c_1​)=r(\tau_0​)$. Continuing to use Definition (1), event $c_1$​  captures the external event $z$ with a period $T$. Thus, after the external event starts at $t(z)$, it will be captured by the job released by scheduling task $\tau_0$​ within at most one period $T$. Hence, we can derive that the upper bound of $t(c_0​)−t(z)$ is $T$.
 
 Part two. $t(c_i)-t(c_{i-1})$的上界
 Part two. The upper bound of $t(c_i)-t(c_{i-1})$.
 
-定义5，事件状态。为了简化表达便于分析，我们使用$s(\cdot)$表示任务链$C = \{z, c_1, c_2, c_3, ... , c_n\}$中每个事件的状态，即对于任意一个事件$c_i$它代表的任务类型。
-- 如果是调度任务，则$s(c_i)=\tau$,
-- 如果是网络任务，则$s(c_i)=m$,
+定义5，事件状态。为了简化表达便于分析，我们使用$s(\cdot)$表示**作业**链$C = \{z, c_1, c_2, c_3, ... , c_n\}$中每个事件的状态，即对于任意一个事件$c_i$它代表的任务类型。
+- **如果是被调度任务释放**，则$s(c_i)=\tau$,
+- **如果是被网络任务释放**，则$s(c_i)=m$,
 - 外部事件不需要状态符号，“z”只为了表达外部事件
- Definition 5, Event Status. In order to simplify the expression for ease of analysis, we use $s(\cdot)$ to represent the status of each event in the task chain $C = \{z, c_1, c_2, c_3, ..., c_n\}$, i.e., for any event $c_i$, it represents the type of task it stands for.
-- If it is a scheduling task, then $s(c_i) = \tau$,
-- If it is a network task, then $s(c_i) = m$.
+ Definition 5, Event Status. In order to simplify the expression for ease of analysis, we use $s(\cdot)$ to represent the status of each event in the **job** chain $C = \{z, c_1, c_2, c_3, ..., c_n\}$, i.e., for any event $c_i$, it represents the type of task it stands for.
+- If it is **released by** a scheduling task, then $s(c_i) = \tau$,
+- If it is **released by** a network task, then $s(c_i) = m$.
 - External events do not require state symbols; "z" is used merely to denote an external event.
 - $$s(c_i)=
 \begin{array}{l} 
@@ -273,13 +274,15 @@ Part two. The upper bound of $t(c_i)-t(c_{i-1})$.
 m  & \text{if a network task}\\
 \end{matrix}\right.    
 \end{array} $$
+> 把D换成L
+> D会和别的混淆
 
-引理2，$t(c_i)-t(c_{i-1}) \le D$ 
+**引理2，$t(c_i)-t(c_{i-1}) \le L$** 
 其中，
-Lemma 2, $t(c_i)-t(c_{i-1}) \le D$,
+Lemma 2, $t(c_i)-t(c_{i-1}) \le L$,
 where
 
-$$D=\begin{array}{l} 
+$$L=\begin{array}{l} 
 \left\{\begin{matrix} 
 \alpha  & s(c_i)=\tau, s(c_{i-1})=\tau\\
 \theta +t   & s(c_i)=m\\
@@ -291,9 +294,9 @@ $$D=\begin{array}{l}
 对于P2部分我们分为三种情况讨论他们的上界。
 For the P2 part, we divide it into three cases to discuss their upper bounds.
 
-case1：$s(c_i)=\tau, s(c_{i-1})=\tau$。即前后相邻的两个事件中，前一个事件$c_{i-1}$为调度任务$\tau_{i-1}$ ，后一个任务$c_i$也是调度任务$\tau_i$ 。
+case1：$s(c_i)=\tau, s(c_{i-1})=\tau$。即前后相邻的两个事件中，**前一个事件$c_{i-1}$为调度任务$\tau_{i-1}$ 的作业，后一个任务$c_i$也是调度任务$\tau_i$ 的作业。**
 Case 1: $s(c_i) = \tau, s(c_{i-1}) = \tau$. 
-In other words, in the adjacent events, the previous event $c_{i-1}$ is a scheduling task $\tau_{i-1}$, and the subsequent task $c_i$ is also a scheduling task $\tau_i$.
+In other words, in the adjacent events, the previous event $c_{i-1}$ is a job of scheduling task $\tau_{i-1}$, and the subsequent one $c_i$ is also a job of scheduling task $\tau_i$.
 
 
 
@@ -306,63 +309,63 @@ In this equation, $\overline{\beta(\cdot)}$ represents the pseudo-inverse func
 且【tangReactionTimeAnalysis2023】证明在$[t(c_i)，t(c_{i-1}))$期间内，系统能提供的最大处理时间（工作负载）为$\beta^l_i([t(c_i)，t(c_{i-1})))=(|Bi|+1)\cdot E_i$，
 And [tangReactionTimeAnalysis2023] proves that during the period $[t(c_i), t(c_{i-1}))$, the maximum processing time (workload) that the system can provide is $\beta^l_i([t(c_i), t(c_{i-1})))=(|Bi|+1)\cdot E_i$,
 
-**而$DLY_i(|B_i|)$是作业的最大延迟。**
+而$DLY_i(|B_i|)$是作业的最大延迟。
  $DLY_i(|B_i|)$ represents the maximum delay of the job
 
 
-所以我们可以得到当$s(c_i)=\tau, s(c_{i-1})=\tau$时，$D=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$
-Therefore, we can obtain that when $s(c_i)=\tau$ and $s(c_{i-1})=\tau$, $D=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$.
+**所以我们可以得到当$s(c_i)=\tau, s(c_{i-1})=\tau$时，$L=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$**
+Therefore, we can obtain that when $s(c_i)=\tau$ and $s(c_{i-1})=\tau$, $L=\alpha= \max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}$.
 
-case2：$s(c_i)=m$。即前后相邻的两个事件中，后一个任务$c_i$是调度任务$m_i$ ，而前一个事件不受限制 $c_{i-1}=\tau_{i-1}$ or $m_{i-1}$
-Case 2: $s(c_i)=m$. In other words, in the two consecutive events, the subsequent task $c_i$ is scheduled as a task $m_i$, while the preceding event is not restricted, $c_{i-1}=\tau_{i-1}$ or $m_{i-1}$.
+**case2：$s(c_i)=m$。即前后相邻的两个事件中，后一个任务$c_i$是$m_i$的作业 ，而前一个事件不受限制 $c_{i-1}=\tau_{i-1}$ or $m_{i-1}$**
+Case 2: $s(c_i)=m$. In other words, in the two consecutive events, the subsequent one $c_i$ is job of  $m_i$, while the preceding event is not restricted, $c_{i-1}=\tau_{i-1}$ or $m_{i-1}$.
 
-如图1所示，我们考虑数据（1）在一个ECU上传入网络；(2)网络中不同交换机之间传输；(3)网络中最后一跳传输到另一个ECU。这三种情况下，根据网络带宽以及数据大小，在一条任务链的分析中，数据传输具有相同的延迟为t（数据大小/带宽）。
-As shown in Figure 1, we consider the following scenarios in the analysis of a task chain: (1) Data input from an ECU into the network, (2) Transmission between different switches in the network, and (3) Final hop transmission to another ECU in the network. In these three scenarios, based on the network bandwidth and data size, data transmission has the same delay of t (data size/bandwidth) in the analysis of a task chain.
+如图1所示，我们考虑数据（1）在一个ECU上传入网络；(2)网络中不同交换机之间传输；(3)网络中最后一跳传输到另一个ECU。这三种情况下，根据网络带宽以及数据大小，**在一条作业链的分析中**，数据传输具有相同的延迟为t（数据大小/带宽）。
+As shown in Figure 1, we consider the following scenarios in the analysis of a task chain: (1) Data input from an ECU into the network, (2) Transmission between different switches in the network, and (3) Final hop transmission to another ECU in the network. In these three scenarios, based on the network bandwidth and data size, data transmission has the same delay of t (data size/bandwidth) in the analysis of a **job** chain.
 
 
-对于网络任务，根据令牌桶算法我们知道数据帧的延迟会受到(1)高优先级队列的流；(2)低优先级队列的流；(3)同等优先级竞争的流；(4)数据流本身的性质；(5)当前令牌桶性质的影响。所以根据Specht等人在【】所求的上界，以及【GrigorjewMetzgerHossfeldetal】可得到
+**对于网络任务作业**，根据令牌桶算法我们知道数据帧的延迟会受到(1)高优先级队列的流；(2)低优先级队列的流；(3)同等优先级竞争的流；(4)数据流本身的性质；(5)当前令牌桶性质的影响。所以根据Specht等人在【】所求的上界，以及【GrigorjewMetzgerHossfeldetal】可得到
 $(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})$，其中$H$，$L$，$j$分别表示了高优先级、低优先级与竞争流的索引。并且取得高优先级流 committed burst size的集合$b_H$，竞争的合集$b_j$，以及低优先级中最大帧长度$l_L$， 其中 $r>\sum_{k\in H\cup j\cup i }r_k$
 > $(\frac{b_H+b_j+b_i-l_i+l_L}{r-r_H} + \frac{l_i}{r})$
 
 
-For network tasks, according to the token bucket algorithm, we know that the delay of data frames is influenced by (1) flows in the high priority queue, (2) flows in the low priority queue, (3) flows competing with equal priority, (4) the nature of the data flow itself, and (5) the current nature of the token bucket.
+For jobs of network tasks, according to the token bucket algorithm, we know that the delay of data frames is influenced by (1) flows in the high priority queue, (2) flows in the low priority queue, (3) flows competing with equal priority, (4) the nature of the data flow itself, and (5) the current nature of the token bucket.
 Therefore, based on the upper bound obtained by Specht et al. in 【】and 【TimeSensitiveNetworking2021】, we can obtain $(\frac{b_H+b_j-l_i+l_L}{r-r_H}+ \frac{l_i}{r})$, where $H$, $L$, and $j$ respectively represent the indices of the high-priority, low-priority, and competing flows.  And obtain a collection of high priority flows with committed burst size $b_H$, a set of competing burst sizes $b_j$, and the maximum frame length $l_L$ in low priority.
 Where $r>\sum_{k\in H\cup j\cup i }r_k$
 
-所以我们可以得到当$s(c_i)=m$时，$D=\theta+t=(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})+t$**
-So we can obtain that when $s(c_i)=m$,$D=\theta+t=(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})+t$.
+**所以我们可以得到当$s(c_i)=m$时，$L=\theta+t=(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})+t$****
+So we can obtain that when $s(c_i)=m$,$L=\theta+t=(\frac{b_H+b_j-l_i+l_L}{r-r_H} + \frac{l_i}{r})+t$.
 
-case3：$s(c_i)=\tau, s(c_{i-1})=m$。即前后相邻的两个事件中，前一个事件$c_{i-1}$为网络任务$m_{i-1}$ ，后一个任务$c_i$是调度任务$\tau_i$ 。
-Case 3: $s(c_i)=\tau, s(c_{i-1})=m$. That is, in the sequence of two consecutive events, the first event $c_{i-1}$ is a network task $m_{i-1}$, and the second task $c_i$ is a scheduling task $\tau_i$.
+**case3：$s(c_i)=\tau, s(c_{i-1})=m$。即前后相邻的两个事件中，前一个事件$c_{i-1}$为网络任务$m_{i-1}$的作业 ，后一个任务$c_i$是调度任务$\tau_i$ 的作业。**
+Case 3: $s(c_i)=\tau, s(c_{i-1})=m$. That is, in the sequence of two consecutive events, the first event $c_{i-1}$ is a job of network task $m_{i-1}$, and the second task $c_i$ is a jobs of scheduling task $\tau_i$.
 
 在这种情况下我们需要将网络传输到另一个ECU的情况考虑进去，就像case2一样。所以可以获得同样的传输时间t。并且在t时间段结束后数据被写入调度任务$\tau_i$的输入缓冲区，在$r_i$时刻我们可以类比为case1中前一个调度任务的结束时刻$f_{i-1}$，所以我们可以获得同样的时间结果为$\alpha$。
 In this case, we need to consider the situation where the network transmission needs to be done to another ECU, similar to case 2. So, we can obtain the same transmission time, t. And after the t time period, the data is written into the input buffer of the scheduling task $\tau_i$. At time $r_i$, we can analogize it to the end time of the previous scheduling task, $f_{i-1}$, in case 1. Therefore, we can obtain the same time result is $\alpha$.
 
-所以我们可以得到当$s(c_i)=\tau, s(c_{i-1})=m$时，
-$D=\alpha + t=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}+t$
-So we can obtain that when $s(c_i)=\tau, s(c_{i-1})=m$, $D=\alpha + t=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}+t$.
+**所以我们可以得到当$s(c_i)=\tau, s(c_{i-1})=m$时，**
+**$L=\alpha + t=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}+t$**
+So we can obtain that when $s(c_i)=\tau, s(c_{i-1})=m$, $L=\alpha + t=\max\{\overline{\beta_i^l}((|B_i| + 1)\cdot E_i), DLY_i(|B_i|)\}+t$.
 
 综合part 1和part 2我们可以得到以下定理。
 By combining part 1 and part 2, we can derive the following theorem.
-定理1，任务链$C = \{z, c_1, c_2, c_3, ... , c_n\}$的最大反应时间上界为：
-其中，$D$由引理2给出。
-Theorem 1, the maximum reaction time upper bound of task chain $C = \{z, c_1, c_2, c_3, ... , c_n\}$ is:
+定理1，**任务链**$C = \{z, C_1, C_2, C_3, ... , C_n\}$的最大反应时间上界为：
+其中，$L$由引理2给出。
+Theorem 1, the maximum reaction time upper bound of task chain $C = \{z, C_1, C_2, C_3, ... , C_n\}$ is:
 $$\begin{equation}
 \begin{aligned}
 RT(C)
-& =\max{R(C)}\\
+& =\max{R(JC)}\\
 & = t(c_0) - t(z) + \sum_{i=1}^{n}(t(c_i) - t(c_{i-1}))\\
-& = T + D
+& = T + L
 \end{aligned}
 \end{equation}$$
-Where $D$ is given by Lemma 2.
+Where $L$ is given by Lemma 2.
 
 ## Maximum Data Age Analysis
 
-在本节中我们将讨论最大数据年龄的上界。由于定义不同，数据年龄不会关注外部事件的产生以及传输。数据年龄的开始在本文的任务链模型中是能够第一个成功捕捉到外部事件产生的数据的采样任务的释放时间。而相对的，反应时间的分析中我们同样不需要考虑数据年龄分析里的激励动作。
-所以我们将任务链最大数据年龄分析的问题分解为每两个相邻任务之间“结束时间”间隔界限的问题。对于缓冲区以及TSN网络任务的要求与上节一样。
-In this section, we will discuss the upper bound of the maximum data age. Due to different definitions, data age does not focus on the generation and transmission of external events. The start of data age in the task chain model of this article is the release time of the first sampling task that can successfully capture the data generated by the external event. In contrast, in the analysis of reaction time, we also do not need to consider the incentive action in the data age analysis.
-Therefore, we decompose the problem of the maximum data age analysis of the task chain into the problem of the interval limit of the "end time" between each two adjacent tasks. The requirements for the buffer and TSN network tasks are the same as in the previous section.
+在本节中我们将讨论最大数据年龄的上界。由于定义不同，数据年龄不会关注外部事件的产生以及传输。数据年龄的开始在**本文的模型**中是能够第一个成功捕捉到外部事件产生的数据的采样**任务**的释放时间。而相对的，反应时间的分析中我们同样不需要考虑数据年龄分析里的激励动作。
+所以我们**将最大数据年龄分**析的问题分解为每两个相邻任务之间“结束时间”间隔界限的问题。对于缓冲区以及TSN网络任务的要求与上节一样。
+In this section, we will discuss the upper bound of the maximum data age. Due to different definitions, data age does not focus on the generation and transmission of external events. The start of data age in **the model** of this article is the release time of the first **job of** sampling task that can successfully capture the data generated by the external event. In contrast, in the analysis of reaction time, we also do not need to consider the incentive action in the data age analysis.
+Therefore, we decompose the problem of the maximum data age **analysis into the** problem of the interval limit of the "end time" between each two adjacent tasks. The requirements for the buffer and TSN network tasks are the same as in the previous section.
 
 根据结束时间的定义，对于数据年龄和我们可以表达为
 According to the definition of the end time, for the data age and we can express it as
@@ -371,7 +374,7 @@ According to the definition of the end time, for the data age and we can express
 
 $$\begin{equation}
 \begin{aligned}
-D(C) & = t'-t\\
+D(JC) & = t'-t\\
 	 & = r(c_{n+1}) - r(c_1)\\
 	 & = f(c_n) - r(c_1)\\
      & = t(c_n) - r(c_1)\\
@@ -384,8 +387,8 @@ D(C) & = t'-t\\
 The maximum data age is determined according to formula () is $\max\{\sum_{i=0}^{n}(t(c_i) - t(c_{i-1}))\}$
 
 
-在其他的数据年龄分析工作中【bi2022efficient】或【 10.1145/3534879.3534893】等，对于数据年龄分析通常考虑“last-to-last”路径，确定数据最后激励所在的位置。而在本文的任务链模型中，由于采用了事件触发方式并考虑固定大小的缓冲区以及数据帧溢出情况，所以激励动作的时间是任务链最终数据传输的下一个任务的释放时刻，也就是任务链最后一个任务的结束时刻，如图所示，同理数据年龄公式中用$t(c_n)$表达激励动作时刻。
-In other works on data age analysis such as [bi2022efficient] or [10.1145/3534879.3534893], the "last-to-last" path is typically considered for data age analysis to determine the location of the data's final incentivization. However, in the task chain model of this paper, since an event-triggered approach is used with consideration for fixed-size buffers and the possibility of data frame overflow, the time of the incentivized action is the release time of the next task in the data transmission of the task chain, which is also the end time of the last task in the task chain. Similarly, the moment of the incentivized action is expressed with $t(c_n​)$ in the data age formula.
+在其他的数据年龄分析工作中【bi2022efficient】或【 10.1145/3534879.3534893】等，对于数据年龄分析通常考虑“last-to-last”路径，确定数据最后激励所在的位置。**而在本文的模型中**，由于采用了事件触发方式并考虑固定大小的缓冲区以及数据帧溢出情况，所以激励动作的时间是**作业链**最终数据传输的下一个**作业**的释放时刻，也就是**作业链**最后一个任务的结束时刻，如图所示，同理数据年龄公式中用$t(c_n)$表达激励动作时刻。
+In other works on data age analysis such as [bi2022efficient] or [10.1145/3534879.3534893], the "last-to-last" path is typically considered for data age analysis to determine the location of the data's final incentivization. However, in **the model** of this paper, since an event-triggered approach is used with consideration for fixed-size buffers and the possibility of data frame overflow, the time of the incentivized action is the release time of the next **job** in the data transmission of the **job chain,** which is also the end time of **the last**  in the **job chain**. Similarly, the moment of the incentivized action is expressed with $t(c_n​)$ in the data age formula.
 
 对于$t(c_i)-t(c_{i-1})$的上界，我们同样需要考虑三种情况，根据定义5表达如下：
 - $s(c_i)=\tau, s(c_{i-1})=\tau$。
@@ -400,11 +403,11 @@ For the upper bound of $t(c_i​)−t(c_{i−1}​)$, we also need to consider t
 
 同理，根据引理2，我们可以轻松的获得每两个相邻任务之间“结束时间”间隔界限。
   
-Likewise, according to Lemma 2, we can easily obtain the "end time" interval boundaries between each pair of adjacent tasks：
- $t(c_i)-t(c_{i-1}) \le D$,
+Likewise, according to Lemma 2, we can easily obtain the "end time" interval **boundaries between each pair of adjacent tasks：**
+ **$t(c_i)-t(c_{i-1}) \le L$,**
 where
 
-$$D=\begin{array}{l} 
+$$L=\begin{array}{l} 
 \left\{\begin{matrix} 
 \alpha  & s(c_i)=\tau, s(c_{i-1})=\tau\\
 \theta +t   & s(c_i)=m\\
@@ -414,18 +417,18 @@ $$D=\begin{array}{l}
 
 综合上述内容，我们可以得到以下定理
 Combining the above information, we can derive the following theorem:
-定理2，任务链$C = \{z, c_1, c_2, c_3, ... , c_n\}$的最大数据年龄上界为：
-其中，$D$由引理2给出。
-Theorem 2, the maximum data age upper bound of task chain $C = \{z, c_1, c_2, c_3, ... , c_n\}$ is:
+**定理2，任务链$C = \{z, C_1, C_2, C_3, ... , C_n\}$的最大数据年龄上界为：**
+**其中，$L$由引理2给出。**
+Theorem 2, the maximum data age upper bound of job chain $C = \{z, C_1, C_2, C_3, ... , C_n\}$is:
 $$\begin{equation}
         \begin{aligned}
             DA(C)
-        & =\max{D(C)}\\
+        & =\max{D(JC)}\\
         & = \sum_{i=0}^{n}(t(c_i) - t(c_{i-1}))\\
-        & = \sum_{i=0}^{n}D
+        & = \sum_{i=0}^{n}L
         \end{aligned}
     \end{equation}$$
-Where $D$ is given by Lemma 2.
+Where $L$ is given by Lemma 2.
 
 # Evaluation
 在本章中，我们评估了基于TSN网络传输的任务链模型最大反应时间和最大数据年龄的上界。
@@ -455,16 +458,16 @@ Using the same experimental setup and parameter selection, we then obtained the 
 根据Davare在【davare2007period】中提出的关于基于异步CAN网络的任务链时延分析，的最大反应时间和最大数据年龄都是任务链中所有对象的周期与最坏响应时间之和。即$RT'(C')=DA'(C')=\sum_{k\in C}{T_k'+R_k'}$。
 According to the maximum reaction time analysis for task chains based on asynchronous CAN networks proposed by Davare in \cite{davare2007period}, the maximum reaction time **and maximum data age both are** the sum of the period and worst-case response time of all objects in the task chain. In other words, $RT'(C')=DA'(C')=\sum_{k\in C}{T_k'+R_k'}$.
 
-为了便于比较我们设定$|B|=1$，且任务链$C$的任务被认为是偶发任务，
-对于调度任务，$T'=D'=\alpha '=\bar{\beta^l_i}*(E_i)$
-对于网络任务，$l_i=b_i$，$T'=D'=\theta ' +t=(\frac{b_H+b_j+l_L}{r-r_H} + \frac{b_i}{r})+t$
+**为了便于比较我们设定$|B|=1$，且任务链$C$的任务被认为是偶发任务，**
+**对于调度任务，$T'=L'=\alpha '=\bar{\beta^l_i}*(E_i)$**
+**对于网络任务，$l_i=b_i$，$T'=L'=\theta ' +t=(\frac{b_H+b_j+l_L}{r-r_H} + \frac{b_i}{r})+t$**
 
 To facilitate comparison, we set $|B|=1$, and the tasks in task chain $C$ are considered sporadic tasks.
-For scheduling tasks, $T'=D'=\alpha '=\bar{\beta^l_i}*(E_i)$.
-For network tasks, $l_i=b_i$, $T'=D'=\theta ' +t=(\frac{b_H+b_j+l_L}{r-r_H} + \frac{b_i}{r})+t$.
-So for a task chain $C = \{z, c_1, c_2, c_3, ... , c_n\}$, $RT'(C)=T+D'$  and $DA'(C)=D'$ where
+**For scheduling tasks, $T'=L'=\alpha '=\bar{\beta^l_i}*(E_i)$.**
+**For network tasks, $l_i=b_i$, $T'=L'=\theta ' +t=(\frac{b_H+b_j+l_L}{r-r_H} + \frac{b_i}{r})+t$.**
+**So for a task chain $C=\{z, C_1, C_2, C_3, ..., C_n\}$, $RT'(C)=T+L'$  and $DA'(C)=L'$ where**
 
-$$D'=\begin{array}{l} 
+$$L'=\begin{array}{l} 
 \left\{\begin{matrix} 
 \alpha '  & s(c_i)=\tau, s(c_{i-1})=\tau\\
 \theta ' +t   & s(c_i)=m\\

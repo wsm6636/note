@@ -35,7 +35,7 @@
     "03-research/02-因果链/ITANS- Incremental Task and Network Scheduling for Time-Sensitive Networks.md": "614e92425c0e320aa807af21bb84b8c6af7e621436921ecd746d005aa78b7166",
     "03-research/02-因果链/note-chain.md": "ef56ae618ef57cbefbe212b12a948c639142a9dabb9324b0b7566e7a07ce8bf7",
     "03-research/02-因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md": "a955daa748490c8999c9f7ea1c2efb083c57a5934fdeac20cc23db341cc1dbf2",
-    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md": "b44bdaf03ccaf3108d483006cd798cc62c2a6484d14e4233b8f87dfdb7a44a7e",
+    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md": "bb583342d31027632063a69033b3bc274d27b134d0700b2624ae41ad44e96e67",
     "03-research/02-因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md": "56550d66576415f21425d9f276bff58e667b63fc6749e2cfc1ec2d90a4eb6338",
     "03-research/02-因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md": "52420e1a75a206811093b4cf0f3cd8c5a72397f26cfaab987d472bccd7bd5d28",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md": "ed78ec0203696d4a1b3a9b1cfb5cbb4f84467b091f7b62d86f47ff96e15d434e",
@@ -358,10 +358,10 @@
     "wsm/02-周记/2024-W31-07-29.md": "134ea1b608e32337416634ee7dfe7f27573655e700006c4464045412b6a771e2",
     "wsm/03-月复盘/2024-07.md": "a7e146c0f48b4aada520c6ac9ce88c1a89ae95c6d7f8dfa11710b3547e25d84d",
     "wsm/01-日记/2024-07/2024-07-29.md": "f408de65e549bea4a574b43f50045e29ee50a8594c5a4fb367d9a786243a38c9",
-    "00-inbox/2024-W32-08-05.md": "b8f4405e5c07672290b9a1a938b002d2e5491b7357298163ee8981e0b81569ed",
+    "00-inbox/2024-W32-08-05.md": "7fbe8f3161bced2713cabd1893df17793df6041e262feeb007a86a76e25112c6",
     "00-inbox/2024-08.md": "2700e155d0ab72da6710a066ca0df80955305856bcaa390068bf0bdb45d47752",
-    "00-inbox/审稿意见.md": "61255ca9e0f9b2a27009c935848131cd2544c614c47f78a2ddec17f4e591b1f5",
-    "00-inbox/年会-workspace.md": "4dbcef67d822848f7f59ee4d83f2d830f20cbf9360b0b0016b5c81164de00ea7",
-    "00-inbox/2024-08-06.md": "c60caa36821d4454d7394830cfcdd6a6218882f230323b4ecee5f699e13227d0"
+    "00-inbox/审稿意见.md": "3cd33f8a2d95962f354df6dd41fb36d0f5a042790c105bc58b4ea5b4144c5e4c",
+    "00-inbox/年会-workspace.md": "affd281addcdbb2411e06d9cb8a12d9a2f38a377a353caf91c87a773823b6ada",
+    "wsm/01-日记/2024-08-06.md": "405d89867f7cab74a2d92d6051bd339a20f4f7b8022ad14e7b4d72eb9e9a4544"
   }
 }

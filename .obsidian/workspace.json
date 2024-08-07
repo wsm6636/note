@@ -16,9 +16,9 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1612.277577505407,
+                  "x": -1947.5,
                   "y": -605.5,
-                  "zoom": -0.2648535297866456
+                  "zoom": -0.4079848532186214
                 }
               },
               "pinned": true
@@ -51,12 +51,12 @@
             }
           },
           {
-            "id": "a46a17bcd0990437",
+            "id": "2ce3af24c8017df8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+                "file": "00-inbox/2024-W32-08-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,26 +83,6 @@
               "type": "markdown",
               "state": {
                 "file": "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "02f09e66e9118197",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "00092261faf09be2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/年会-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -161,17 +141,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "f9eb34c335bcb918",
@@ -207,7 +185,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -250,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,36 +255,37 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341,
-    "collapsed": true
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-projects:打开项目": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "obsidian-kanban:创建新看板": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "obsidian42-brat:BRAT": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-projects:打开项目": false,
-      "obsidian-memos:Thino": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "eab808cbd158163b",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
-    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
-    "HOMEPAGE.canvas",
-    "00-inbox/2024-08-06.md",
+    "00-inbox/2024-W32-08-05.md",
     "00-inbox/年会-workspace.md",
-    "00-inbox/审稿意见.md",
+    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "02-paper/04-ESWEEK/审稿意见.md",
+    "HOMEPAGE.canvas",
+    "00-inbox/审稿意见.md",
+    "wsm/01-日记/2024-08-06.md",
+    "wsm/01-日记/2024-08",
+    "01-永久笔记/工作流.md",
     "02-paper/01-RTCSA/QCH-workspace.md",
     "02-paper/05-SIES/SIES-workspace.md",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
@@ -314,9 +293,7 @@
     "00-inbox/2024-08.md",
     "00-模板/周记模板.md",
     "00-模板/日记模板.md",
-    "00-inbox/2024-W32-08-05.md",
     "wsm/03-月复盘/2024-07.md",
-    "01-永久笔记/工作流.md",
     "wsm/02-周记/2024-W31-07-29.md",
     "00-inbox/2024-W31-07-29.md.nssyncsc",
     "00-inbox/ROS2 任务.md",
@@ -335,7 +312,6 @@
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-12.377Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-23-04.274Z.yaml",
     "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-58.545Z.yaml",
-    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-15.658Z.yaml",
-    "00-inbox/Automatic Latency Management for ROS 2 Benefits, Challenges, and Open Problems.nssyncsc"
+    "01-永久笔记/01-教程/zotero/bn-template-backup-2024-07-24T13-22-15.658Z.yaml"
   ]
 }
