@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -135,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +235,7 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "a31edbe4153579f4",
+  "active": "c35c6ef81cda64df",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "00-模板/HOMEPAGE 模板.canvas",
