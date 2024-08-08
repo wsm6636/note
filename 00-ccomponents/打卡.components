@@ -33,7 +33,7 @@
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": true,
-      "showShadow": true,
+      "showShadow": false,
       "createAt": "2024-08-08T10:26:39.557Z",
       "updateAt": "2024-08-08T10:26:39.557Z",
       "tasks": [
@@ -46,9 +46,7 @@
       "dataRecordType": "journalProperty",
       "folder": "components/daily-check",
       "title": "",
-      "backgroundColor": "#ffffff00",
-      "borderColor": "#faaa53ff",
-      "fontColor": "#ffffffff"
+      "backgroundColor": "#d99694ff"
     },
     {
       "id": "7719efee-e805-41ea-b89b-695b34aa22ef",
@@ -56,7 +54,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2024-08-08T10:36:39.089Z",
       "updateAt": "2024-08-08T10:36:39.089Z",
@@ -69,8 +67,7 @@
       ],
       "dataRecordType": "journalProperty",
       "folder": "components/daily-check",
-      "backgroundColor": "#ffffff00",
-      "borderColor": "#fdb8bfff"
+      "backgroundColor": "#fac08fff"
     },
     {
       "id": "13bdb863-7466-495b-a884-d8123c583de3",
@@ -78,7 +75,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2024-08-08T10:37:16.121Z",
       "updateAt": "2024-08-08T10:37:16.121Z",
@@ -91,8 +88,7 @@
       ],
       "dataRecordType": "journalProperty",
       "folder": "components/daily-check",
-      "borderColor": "#c78089ff",
-      "backgroundColor": "#ffffff00"
+      "backgroundColor": "#92cddcff"
     },
     {
       "id": "9c6bd354-c649-4f4c-8059-60661c3145df",
@@ -100,7 +96,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2024-08-08T10:37:31.385Z",
       "updateAt": "2024-08-08T10:37:31.385Z",
@@ -113,9 +109,7 @@
       ],
       "dataRecordType": "journalProperty",
       "folder": "components/daily-check",
-      "backgroundColor": "#ffffff00",
-      "borderColor": "#b988e6ff",
-      "fontColor": "#ffffffff"
+      "backgroundColor": "#b2a2c7ff"
     }
   ],
   "rootComponentId": "67c92e2f-06e5-4888-9151-6a3ecd2518ff"

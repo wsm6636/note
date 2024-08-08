@@ -70,7 +70,6 @@
         }
       },
       "title": "个人",
-      "borderColor": "#d28defff",
       "fontColor": "#b99bf3ff"
     },
     {
@@ -117,7 +116,6 @@
         }
       },
       "title": "文献",
-      "borderColor": "#57b1f1ff",
       "fontColor": "#9ebbedff"
     },
     {
@@ -164,7 +162,6 @@
         }
       },
       "title": "paper",
-      "borderColor": "#57b1f1ff",
       "fontColor": "#9ebbedff"
     },
     {
@@ -219,7 +216,6 @@
         }
       },
       "title": "闪念",
-      "borderColor": "#57b1f1ff",
       "fontColor": "#9ebbedff"
     }
   ],

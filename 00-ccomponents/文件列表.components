@@ -27,7 +27,7 @@
       "showShadow": false,
       "createAt": "2024-08-08T11:25:40.717Z",
       "updateAt": "2024-08-08T11:25:40.718Z",
-      "viewType": "list",
+      "viewType": "table",
       "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
       "properties": [
         {
@@ -70,33 +70,43 @@
       "templates": [],
       "groups": [
         {
+          "id": "772ee291-69f7-4e44-975e-bae238309f31",
+          "name": "ing",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "504629a6-99c1-4597-809e-0e3328a87f0a",
+          "name": "todo",
+          "items": [],
+          "collapsed": false
+        },
+        {
           "id": "1a4317ec-ecac-4b8a-a4ff-0ad5deeac8f6",
           "name": "done",
           "items": [],
           "collapsed": false
         },
         {
-          "id": "363ff077-cd9c-4e77-99c7-0c3381edba4a",
-          "name": "ing",
-          "items": [],
-          "collapsed": false
-        },
-        {
-          "id": "60c14349-a6c4-4ab9-bb01-9d4f5fef7af8",
-          "name": "todo",
-          "items": [],
-          "collapsed": false
-        },
-        {
-          "id": "810668fe-daa6-4177-a037-20fa1c831205",
+          "id": "485a3efa-a976-4495-8cf3-a04c4e5f2f3f",
           "name": "__$uncategorizedGroup",
           "items": [],
           "collapsed": false
         }
       ],
-      "colorfulGroups": true,
+      "colorfulGroups": false,
       "viewOptions": {
         "openPageIn": "tab",
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape"
+        },
         "showGrid": false
       },
       "filter": {
