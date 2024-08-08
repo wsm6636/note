@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "id": "b1f94a90-a3ea-47eb-a1a3-de623798ed9d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:44:07.304Z",
+      "updateAt": "2024-08-08T10:44:07.304Z",
+      "components": [
+        {
+          "componentId": "abe91799-d025-40c8-9207-5779720a560e"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "abe91799-d025-40c8-9207-5779720a560e",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:44:23.234Z",
+      "updateAt": "2024-08-08T10:44:23.234Z",
+      "viewType": "calendar",
+      "newPageNameFormat": "{{date:YYYY-MM-DD}}",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "45ad9f30-98e3-4950-8f6b-932ecbe25ad5",
+          "name": "论文",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "8e09fdcb-266b-469f-8259-3fa6d33ad62c",
+          "name": "英语",
+          "isShow": false,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "1e8992c7-ced8-4269-af6a-eecc5b1cbc9e",
+          "name": "意语",
+          "isShow": false,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "b8815bbe-7794-45f6-98be-9cdd2929e4d8",
+          "name": "运动",
+          "isShow": false,
+          "type": "checkbox",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape"
+        },
+        "showGrid": false,
+        "dateProperty": "日记",
+        "cardColorFrom": "default",
+        "cardColorProperty": "#日记完成度"
+      },
+      "filter": {
+        "id": "6f11c78f-bf71-472e-ae8f-ac8b9bbd2036",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "31c6af68-70e2-4a75-9517-8c286d65b0d6",
+            "type": "filter",
+            "operator": "contains_any",
+            "property": "tags",
+            "value": [
+              "个人/日记"
+            ],
+            "conditions": []
+          },
+          {
+            "id": "21af17fe-c79f-4777-9f0d-36a17fe4149e",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "tags",
+            "value": "模板",
+            "conditions": []
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "wsm/01-日记"
+      }
+    }
+  ],
+  "rootComponentId": "b1f94a90-a3ea-47eb-a1a3-de623798ed9d"
+}

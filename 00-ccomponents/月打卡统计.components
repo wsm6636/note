@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "id": "b1f94a90-a3ea-47eb-a1a3-de623798ed9d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:44:07.304Z",
+      "updateAt": "2024-08-08T10:44:07.304Z",
+      "components": [
+        {
+          "componentId": "cf5bb276-5f4a-47a8-9cb2-ebab3583703a"
+        },
+        {
+          "componentId": "1e7d10bc-c5ae-4b8b-a814-ceaddf6a36a2"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "cf5bb276-5f4a-47a8-9cb2-ebab3583703a",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T12:27:19.310Z",
+      "updateAt": "2024-08-08T12:27:19.310Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "3a6c49bb-3e40-4901-b730-93062f4a1294",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "177cf020-4582-4a98-8542-fbc8b0b6c660",
+              "type": "filter",
+              "operator": "has_value",
+              "property": "论文",
+              "value": null,
+              "conditions": []
+            },
+            {
+              "id": "17a1b09e-c820-42b5-8ecf-af87f5e26a0a",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "日记",
+              "value": {
+                "type": "$startOfYear",
+                "unit": "day",
+                "direction": "before",
+                "value": null
+              },
+              "conditions": []
+            },
+            {
+              "id": "0e5c4e31-b44f-4173-b782-b8c7793b7b6e",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "日记",
+              "value": {
+                "type": "$endOfYear",
+                "unit": "day",
+                "direction": "before",
+                "value": null
+              },
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "2bd999fc-eb04-4f7c-9107-2a34a5419a65",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      }
+    },
+    {
+      "id": "1e7d10bc-c5ae-4b8b-a814-ceaddf6a36a2",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T12:29:31.704Z",
+      "updateAt": "2024-08-08T12:29:31.704Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "3a6c49bb-3e40-4901-b730-93062f4a1294",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8c9ceef2-8020-4b4f-b851-e330deea348f",
+              "type": "filter",
+              "operator": "has_value",
+              "property": "英语",
+              "value": null,
+              "conditions": []
+            },
+            {
+              "id": "a0823683-21ec-4ba9-978d-bc6a7e902ae4",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "日记",
+              "value": {
+                "type": "$startOfYear",
+                "unit": "day",
+                "direction": "before",
+                "value": null
+              },
+              "conditions": []
+            },
+            {
+              "id": "1f50550b-58cc-459c-8fb5-c3a554a7bd8e",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "日记",
+              "value": {
+                "type": "$endOfYear",
+                "unit": "day",
+                "direction": "before",
+                "value": null
+              },
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "2bd999fc-eb04-4f7c-9107-2a34a5419a65",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      }
+    }
+  ],
+  "rootComponentId": "b1f94a90-a3ea-47eb-a1a3-de623798ed9d"
+}

@@ -25,7 +25,33 @@
             }
           },
           {
-            "id": "aca80e9a28521078",
+            "id": "7bf29df26e029fda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-paper/05-SIES/SIES-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a1d18ec0ebd9e6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/年复盘模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2410953bdb5b9628",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,12 +64,48 @@
             }
           },
           {
-            "id": "7bf29df26e029fda",
+            "id": "3cb9d007af139494",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-paper/05-SIES/SIES-workspace.md",
+                "file": "00-模板/周记模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aef89b333a5b517",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-模板/月复盘模板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b771ae486b8bc93",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "00-ccomponents/时间统计.components"
+              }
+            }
+          },
+          {
+            "id": "86db5f2e60790f87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wsm/02-周记/2024-W08-02-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -250,44 +312,44 @@
   },
   "active": "c35c6ef81cda64df",
   "lastOpenFiles": [
+    "00-模板/年复盘模板.md",
+    "00-模板/月复盘模板.md",
+    "00-模板/周记模板.md",
+    "00-ccomponents/月打卡统计.components",
+    "00-ccomponents/时间统计.components",
+    "wsm/02-周记/2024-W08-02-19.md",
+    "00-模板/挂件.md",
+    "wsm/01-日记/2024-08-08.md",
+    "HOMEPAGE.canvas",
     "00-ccomponents/打卡.components",
+    "00-ccomponents/周打卡统计.components",
+    "02-paper/05-SIES/SIES-workspace.md",
+    "00-模板/日记模板.md",
     "01-永久笔记/工作流.md",
     "00-ccomponents/文件列表.components",
-    "00-模板/挂件.md",
-    "HOMEPAGE.canvas",
     "00-ccomponents/日期进度.components",
     "00-ccomponents/统计.components",
     "00-ccomponents/日期进度圆.components",
     "00-ccomponents/计时.components",
-    "02-paper/05-SIES/SIES-workspace.md",
     "00-inbox/2024.md",
     "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
     "00-模板/HOMEPAGEiPhone 模板.canvas",
-    "00-模板/周记模板.md",
     "00-模板/HOMEPAGE 模板.canvas",
     "00-ccomponents/一言.components",
     "wsm/01-日记/2024-04/2024-04-03.md",
     "wsm/01-日记/2024-04/2024-04-04.md",
     "wsm/01-日记/2024-04/2024-04-05.md",
-    "00-模板/月复盘模板.md",
     "00-inbox/2024-08.md",
     "wsm/01-日记/2024-08-07.md",
     "wsm/01-日记/2024-08-06.md",
     "wsm/01-日记/2024-04/2024-04-30.md",
     "wsm/01-日记/2024-02/2024-02-28.md",
     "wsm/01-日记/2024-03/2024-03-15.md",
-    "00-ccomponents/打卡统计.components",
     "00-inbox/2024-08-01.md",
-    "00-inbox/2024-08-08.md",
-    "wsm/01-日记/2024-08-08.md",
-    "00-ccomponents/components-20240808123644.components",
-    "00-ccomponents",
     "00-inbox/未命名.md",
     "00-inbox/年会-workspace.md",
     "00-inbox/年会-workspace-NSConflict6802-02200059-mac14.5.md",
     "00-inbox/年会-workspace-NSConflict-02200059-mac14.5.md",
-    "00-模板/年复盘模板.md",
-    "00-inbox/2024-W32-08-05.md",
     "HOMEPAGEiPhone.canvas"
   ]
 }
