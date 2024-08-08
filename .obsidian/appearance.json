@@ -5,7 +5,7 @@
   "nativeMenus": false,
   "translucency": false,
   "interfaceFontFamily": "Microsoft YaHei",
-  "textFontFamily": "思源宋体,Microsoft Himalaya",
+  "textFontFamily": "Source Han Serif CN,思源宋体,Microsoft Himalaya",
   "baseFontSize": 22,
   "monospaceFontFamily": "MesloLGS NF",
   "enabledCssSnippets": [
