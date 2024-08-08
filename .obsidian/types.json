@@ -13,15 +13,16 @@
     "created": "datetime",
     "日记": "date",
     "月复盘": "date",
-    "英语": "date",
-    "论文": "date",
+    "英语": "checkbox",
+    "论文": "checkbox",
     "#日记完成度": "number",
-    "意语": "date",
+    "意语": "checkbox",
     "title": "text",
     "Pub.date": "date",
     "Journal or Conference": "text",
     "allAuthors": "multitext",
     "文献tags": "multitext",
-    "Pubdate": "date"
+    "Pubdate": "date",
+    "运动": "checkbox"
   }
 }

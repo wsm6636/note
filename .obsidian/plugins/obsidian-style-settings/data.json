@@ -13,5 +13,6 @@
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
   "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-text)",
   "catppuccin-heading-settings@@ctp-h1": "var(--ctp-accent)",
-  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette"
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette",
+  "Components-Unofficial-StyleSetting@@Components--component-card-description-align": "Components--component-card-description-align-default"
 }

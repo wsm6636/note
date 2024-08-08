@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "id": "67c92e2f-06e5-4888-9151-6a3ecd2518ff",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:25:57.900Z",
+      "updateAt": "2024-08-08T10:25:57.900Z",
+      "components": [
+        {
+          "componentId": "5b0c706e-315f-435f-be63-3ae67ef54b0b"
+        },
+        {
+          "componentId": "7719efee-e805-41ea-b89b-695b34aa22ef"
+        },
+        {
+          "componentId": "13bdb863-7466-495b-a884-d8123c583de3"
+        },
+        {
+          "componentId": "9c6bd354-c649-4f4c-8059-60661c3145df"
+        }
+      ],
+      "layoutType": "list"
+    },
+    {
+      "id": "5b0c706e-315f-435f-be63-3ae67ef54b0b",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": true,
+      "createAt": "2024-08-08T10:26:39.557Z",
+      "updateAt": "2024-08-08T10:26:39.557Z",
+      "tasks": [
+        {
+          "id": "d55bee84-057e-4135-942e-680840c60faa",
+          "name": "论文",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "journalProperty",
+      "folder": "components/daily-check",
+      "title": "",
+      "backgroundColor": "#ffffff00",
+      "borderColor": "#faaa53ff",
+      "fontColor": "#ffffffff"
+    },
+    {
+      "id": "7719efee-e805-41ea-b89b-695b34aa22ef",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:36:39.089Z",
+      "updateAt": "2024-08-08T10:36:39.089Z",
+      "tasks": [
+        {
+          "id": "2d70187f-39f7-47eb-b296-3e7db04c50e5",
+          "name": "英语",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "journalProperty",
+      "folder": "components/daily-check",
+      "backgroundColor": "#ffffff00",
+      "borderColor": "#fdb8bfff"
+    },
+    {
+      "id": "13bdb863-7466-495b-a884-d8123c583de3",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:37:16.121Z",
+      "updateAt": "2024-08-08T10:37:16.121Z",
+      "tasks": [
+        {
+          "id": "c212197b-c17b-4d9d-be1d-88f5e9804b66",
+          "name": "意语",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "journalProperty",
+      "folder": "components/daily-check",
+      "borderColor": "#c78089ff",
+      "backgroundColor": "#ffffff00"
+    },
+    {
+      "id": "9c6bd354-c649-4f4c-8059-60661c3145df",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:37:31.385Z",
+      "updateAt": "2024-08-08T10:37:31.385Z",
+      "tasks": [
+        {
+          "id": "ecaf6f88-6b6b-4906-9e25-1c1a47cb7e22",
+          "name": "运动",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "journalProperty",
+      "folder": "components/daily-check",
+      "backgroundColor": "#ffffff00",
+      "borderColor": "#b988e6ff",
+      "fontColor": "#ffffffff"
+    }
+  ],
+  "rootComponentId": "67c92e2f-06e5-4888-9151-6a3ecd2518ff"
+}

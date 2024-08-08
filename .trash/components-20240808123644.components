@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "id": "43748031-8b61-4c9a-baeb-1fd6c10f8ebb",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:36:44.296Z",
+      "updateAt": "2024-08-08T10:36:44.296Z",
+      "components": [
+        {
+          "componentId": "607d8df8-e4ea-4d1e-b05e-99c90bc72f27"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "607d8df8-e4ea-4d1e-b05e-99c90bc72f27",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T10:36:48.284Z",
+      "updateAt": "2024-08-08T10:36:48.284Z",
+      "attachmentSource": "All",
+      "attachmentType": "Image",
+      "fileExensions": [],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    }
+  ],
+  "rootComponentId": "43748031-8b61-4c9a-baeb-1fd6c10f8ebb"
+}
