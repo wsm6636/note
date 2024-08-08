@@ -1077,6 +1077,18 @@
               },
               "zoterolink": {
                 "hide": true
+              },
+              "#论文": {
+                "hide": true
+              },
+              "#英语": {
+                "hide": true
+              },
+              "#意语": {
+                "hide": true
+              },
+              "#运动": {
+                "hide": true
               }
             },
             "orderFields": [

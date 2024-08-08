@@ -1,6 +1,6 @@
 ---
 created: 2024-08-06T10:38:00
-updated: 2024-08-08T12:14
+updated: 2024-08-08T16:03
 tags:
   - 笔记
   - 笔记/paper
@@ -12,32 +12,47 @@ tags:
 End-to-End Timing Analysis of Task Chains for TSN-based Distributed Real-time Systems
 
 - [ ] TSNQCR 的表达
-- [ ] 章节的引用
+- [x] 章节的引用
 - [ ] 语法
 - [ ] 贡献：用 task chain分析，区别在于别的人网络分析没考虑怎么,网络在分析更重要，为了更确切的分析
-- [ ] 图片引用，前后统一
-- [ ] 公式单词大写
+- [x] 图片引用，前后统一
+- [x] 公式单词大写
 - [ ] 做了什么，基于什么什么方法怎么去分析的
 - [ ] 图2 描述
 - [ ] 事件触发，看着像周期一样
+- [x] 数据增加，TSN保障实时性
 - [ ] 实验加对比
-- [ ] 随机WCET
-- [ ] 不并行
+- [x] 随机WCET
+- [x] 不并行
+- [ ] 图表现出不并行
+- [ ] 图1删掉时钟
 - [ ] 大背景，存在问题，用TSN，为什么用ATS，因为QOS所以需要end to end 分析，有人做了，但是不行在CAN上，自己的做法，得到一个更好的结果，关键词从大到小（end在最后）
-- [ ] 图1 an TSN
-- [ ] ATS背景
-- [ ] 简单描述
+- [x] 图1 an TSN
+- [ ] ATS背景简单描述
+- [ ] 一般现在时，实验
+- [x] 系统复杂 提一下chain
 # 摘要
 
-分布式实时系统应用复杂在物理上分散，通常由多个电子控制单元构成。这种系统不仅需要满足实时性约束，对端到端时序也需要限制以免对结果产生影响。我们考虑了两种主要的端到端时序语义，即最大反应时间和最大数据年龄。由于系统的复杂性，控制任务之间通长具有因果关系，即一个任务的输出导致了另一个任务的输入。这样的任务链也增加了端到端时序分析的复杂性。
-现有的分布式实时系统任务链端到端时间分析通常采用CAN总线作为ECU之间的链接，但随着数据量增加时间敏感网络已成为一种新的解决方案。本文研究了基于IEEE 802.1 QCR标准分布式系统任务链端到端时序分析、建立了基于TSN网络传输任务链的模型、并对最大反应时间和最大数据年龄分析。结合试验表明，我们提出的方法提高了性能。
+分布式实时系统应用复杂在物理上分散，通常由多个电子控制单元构成。这种系统不仅需要满足实时性约束，对端到端时序也需要限制以免产生灾难性后果。
+系统的性质因控制任务之间经常存在的因果关系而变得更加复杂。控制任务形成任务链，其中一个任务的输出是另一个任务的输入。这样的任务链也增加了端到端时序分析的复杂性。
 
-Distributed real-time systems are complex in nature due to their physical dispersion, typically composed of multiple electronic control units (ECUs). Such systems not only need to meet real-time constraints but also require restrictions on end-to-end timing to prevent adverse effects on the outcomes. We consider two main end-to-end timing semantics, i.e., maximum reaction time and maximum data age. The complexity of the system is compounded by the causal relationships often present between control tasks, where the output of one task leads to the input of another. The chains of such tasks also add to the complexity of end-to-end timing analysis.
-The existing end-to-end timing analysis of task chains in distributed real-time systems typically employs the Controller Area Network (CAN) bus as the interconnect between ECUs. However, with the increasing volume of data, Time-Sensitive Networking (TSN) has emerged as a novel solution. In this paper, we investigate the end-to-end timing analysis of task chains in distributed systems based on the IEEE 802.1 QCR standard, constructs a model for task chain transmission over TSN networks, and analyzes the maximum reaction time and maximum data age. Combined with experiments, we show that our proposed method improves the performance.
+网络传输是分布式实时系统的重要部分。随着数据量增加时间敏感网络已成为一种可以保障实时性的新的解决方案。其中的IEEE 802.1 QCR标准可以降低同步复杂性同时保证实时性。而网络同样会影响任务链端到端时序分析
+，但现有的分析通常采用CAN总线并简化ECU们之间的链接。
+
+本文通过使用任务链模型，进行了基于IEEE 802.1 QCR标准分布式系统任务链端到端时序分析，并对两种主要的端到端时序语义最大反应时间和最大数据年龄分析。结合试验表明，我们提出的方法提高了性能。
+
+Distributed real-time systems are complex in nature due to their physical dispersion, typically composed of multiple electronic control units (ECUs). Such systems need to meet real-time constraints to prevent disastrous consequences. 
+
+The nature of the system is compounded by the causal relationships often present between control tasks. Control tasks form task chains, where the output of one task is the inputs of another. Such task chains also increase the complexity of end-to-end timing analysis.
+
+Network transmission is an important part of distributed real-time systems. With the increasing volume of data,  Time-Sensitive Networking (TSN)  has emerged as a novel solution that can ensure real-time performance. The IEEE 802.1 Qcr standard can reduce synchronization complexity while ensuring real-time performance. The network also affects the end-to-end timing analysis of the task chains, but existing analysis usually uses the Controller Area Network (CAN) bus and simplifies the links between ECUs.
+
+In this paper, we use the task chain model to perform end-to-end timing analysis of distributed system task chains based on the IEEE 802.1 QCR standard, and analyze the maximum reaction time and maximum data age of two main end-to-end timing semantics. Combined with experiments, it shows that our proposed method improves performance.
+
 
 ## 关键词
 
-End-to-End Timing Analysis, Distributed Real-time Systems, TSN, ATS
+Distributed Real-time Systems, TSN, ATS，End-to-End Timing Analysis, 
 
 # introduction
 分布式实时系统对于具有复杂性应用和分散性物理部署的领域友好，所以分布式实时系统应用广泛，尤其是自动驾驶领域。通常会将分布式实时系统部署在多个电子控制单元上，通过一些列任务完成一些功能或者对外部事件做出反应。这些完成功能或处理外部事件的任务经常需要按序执行，所以他们通常存在因果关系，即一个任务的输入由另一个任务的输出决定。所以在这样的分布式实时系统中不仅需要满足截止时间的约束，还需要考虑端到端时序的约束以满足功能的正确性和系统的安全性。

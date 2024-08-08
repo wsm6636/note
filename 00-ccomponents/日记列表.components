@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "id": "da17efc9-5cae-421b-99ce-0a2032e196af",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T12:56:33.986Z",
+      "updateAt": "2024-08-08T12:56:33.986Z",
+      "components": [
+        {
+          "componentId": "7d802806-6b16-4289-888e-f5ec57ea823d"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "7d802806-6b16-4289-888e-f5ec57ea823d",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-08T12:56:37.800Z",
+      "updateAt": "2024-08-08T12:56:37.800Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "e737ee0e-d8b8-4e82-a345-c5c042d62ac0",
+          "name": "每日一句总结",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "951798d7-7bbd-4f22-bde7-759a94467a3c",
+          "name": "论文",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "c03d29d9-d41b-44f0-82f1-d8ad38e0cb3b",
+          "name": "英语",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "f498a666-1433-421c-913c-01cde4817dd2",
+          "name": "运动",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "b8e66121-b88c-4883-b368-402f24612ae2",
+          "name": "意语",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "showGrid": false
+      },
+      "filter": {
+        "id": "8452f850-52b6-494b-931c-f08ebb5c6a04",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "fc4bd794-c333-47fa-81e0-cfb23f2278bf",
+            "type": "filter",
+            "operator": "has_value",
+            "property": "日记",
+            "value": null,
+            "conditions": []
+          },
+          {
+            "id": "9107db60-423f-4a34-bd94-b827bcc29b17",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "00-模板",
+            "conditions": []
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "da17efc9-5cae-421b-99ce-0a2032e196af"
+}
