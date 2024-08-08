@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "id": "40df429c-5fd0-4b3d-bdc8-1d19ebc4954d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:24:10.403Z",
+      "updateAt": "2024-08-08T11:24:10.403Z",
+      "components": [
+        {
+          "componentId": "390bbe8e-4ba6-4b01-9bab-8817748da45a"
+        },
+        {
+          "componentId": "eebc4208-805e-46fe-a887-9a7750860216"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "390bbe8e-4ba6-4b01-9bab-8817748da45a",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:24:24.140Z",
+      "updateAt": "2024-08-08T11:24:24.140Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$specifiedDateTime",
+      "endDateTimeType": "$specifiedDateTime",
+      "uiType": "bar",
+      "title": "PhD",
+      "startDateTime": "2022-09-01 00:00:00",
+      "endDateTime": "2026-09-01 00:00:00",
+      "fontColor": "#e28585ff"
+    },
+    {
+      "id": "eebc4208-805e-46fe-a887-9a7750860216",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:38:52.593Z",
+      "updateAt": "2024-08-08T11:38:52.593Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$specifiedDateTime",
+      "endDateTimeType": "$specifiedDateTime",
+      "uiType": "bar",
+      "title": "意大利",
+      "startDateTime": "2024-04-01 00:00:00",
+      "endDateTime": "2026-04-01 00:00:00",
+      "fontColor": "#e0d4acff"
+    }
+  ],
+  "rootComponentId": "40df429c-5fd0-4b3d-bdc8-1d19ebc4954d"
+}

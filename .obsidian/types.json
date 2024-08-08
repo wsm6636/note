@@ -23,6 +23,7 @@
     "allAuthors": "multitext",
     "文献tags": "multitext",
     "Pubdate": "date",
-    "运动": "checkbox"
+    "运动": "checkbox",
+    "#论文": "number"
   }
 }

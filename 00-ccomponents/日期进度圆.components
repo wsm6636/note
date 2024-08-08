@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "id": "f137ae45-34ac-4d1b-b6d0-a37ea03b747d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:24:41.163Z",
+      "updateAt": "2024-08-08T11:24:41.163Z",
+      "components": [
+        {
+          "componentId": "f87c26f5-cf62-4c6f-9368-7d4f118c02a3"
+        },
+        {
+          "componentId": "3f47d121-8381-46f9-899f-0224af55a1b1"
+        },
+        {
+          "componentId": "b6dcff6e-5262-44eb-a4fb-50241c8347b6"
+        },
+        {
+          "componentId": "aaa95004-8de4-46c0-98c3-1cb190ee6163"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "f87c26f5-cf62-4c6f-9368-7d4f118c02a3",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:24:46.468Z",
+      "updateAt": "2024-08-08T11:24:46.468Z",
+      "showDateIndicator": false,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfToday",
+      "endDateTimeType": "$endOfToday",
+      "uiType": "ring",
+      "title": "日进度"
+    },
+    {
+      "id": "3f47d121-8381-46f9-899f-0224af55a1b1",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:41:53.570Z",
+      "updateAt": "2024-08-08T11:41:53.570Z",
+      "showDateIndicator": false,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfWeek",
+      "endDateTimeType": "$endOfWeek",
+      "uiType": "ring",
+      "title": "周进度"
+    },
+    {
+      "id": "b6dcff6e-5262-44eb-a4fb-50241c8347b6",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:42:12.244Z",
+      "updateAt": "2024-08-08T11:42:12.244Z",
+      "showDateIndicator": false,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfMonth",
+      "endDateTimeType": "$endOfMonth",
+      "uiType": "ring",
+      "title": "月进度"
+    },
+    {
+      "id": "aaa95004-8de4-46c0-98c3-1cb190ee6163",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:42:28.468Z",
+      "updateAt": "2024-08-08T11:42:28.468Z",
+      "showDateIndicator": false,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfYear",
+      "endDateTimeType": "$endOfYear",
+      "uiType": "ring",
+      "title": "年进度"
+    }
+  ],
+  "rootComponentId": "f137ae45-34ac-4d1b-b6d0-a37ea03b747d"
+}

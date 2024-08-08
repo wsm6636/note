@@ -28,7 +28,7 @@
       "createAt": "2024-08-08T10:44:23.234Z",
       "updateAt": "2024-08-08T10:44:23.234Z",
       "viewType": "calendar",
-      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "newPageNameFormat": "{{date:YYYY-MM-DD}}",
       "properties": [
         {
           "id": "__componentsTitleProperty_0x7c00",
@@ -83,7 +83,9 @@
           "layout": "components--page-card-cover-landscape"
         },
         "showGrid": false,
-        "dateProperty": "论文"
+        "dateProperty": "日记",
+        "cardColorFrom": "default",
+        "cardColorProperty": "#日记完成度"
       },
       "filter": {
         "id": "6f11c78f-bf71-472e-ae8f-ac8b9bbd2036",
@@ -99,8 +101,19 @@
               "个人/日记"
             ],
             "conditions": []
+          },
+          {
+            "id": "21af17fe-c79f-4777-9f0d-36a17fe4149e",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "tags",
+            "value": "模板",
+            "conditions": []
           }
         ]
+      },
+      "newPageLocation": {
+        "location": "wsm/01-日记"
       }
     }
   ],

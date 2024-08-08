@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "127b90710b70bb7e",
+            "id": "c35c6ef81cda64df",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,10 +18,50 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -605.5,
-                  "zoom": -0.4079848532186214
+                  "zoom": -0.4665914102101636
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "c79afba8077ea430",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "00-ccomponents/统计.components"
+              }
+            }
+          },
+          {
+            "id": "661593a1b62eb77b",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "00-ccomponents/计时.components"
+              }
+            }
+          },
+          {
+            "id": "6328f9fc1580a4e3",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "00-ccomponents/日期进度.components"
+              }
+            }
+          },
+          {
+            "id": "85325e02f62dc7f2",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "00-ccomponents/日期进度圆.components"
+              }
             }
           },
           {
@@ -36,48 +76,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5e5d6ab75f8898ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-永久笔记/工作流.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec3fefe0b99db22f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-模板/月复盘模板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b726f8b80442c8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wsm/01-日记/2024-08-06.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"英语\"]",
+                "query": "[\"意语\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-模板/月复盘模板.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -175,6 +175,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "edd48b7a04fc2b37",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -209,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-模板/月复盘模板.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-模板/月复盘模板.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,44 +276,46 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "ec3fefe0b99db22f",
+  "active": "c35c6ef81cda64df",
   "lastOpenFiles": [
-    "wsm/01-日记/2024-08-06.md",
-    "00-模板/月复盘模板.md",
-    "00-ccomponents/打卡.components",
+    "00-ccomponents/日期进度.components",
     "01-永久笔记/工作流.md",
+    "00-ccomponents/计时.components",
+    "HOMEPAGE.canvas",
+    "00-ccomponents/统计.components",
+    "00-ccomponents/日期进度圆.components",
+    "02-paper/05-SIES/SIES-workspace.md",
+    "00-ccomponents/文件列表.components",
+    "00-inbox/2024.md",
+    "00-inbox/ros2_tracing- Multipurpose Low-Overhead Framework for Real-Time Tracing of ROS 2.md",
+    "00-模板/HOMEPAGEiPhone 模板.canvas",
+    "00-模板/周记模板.md",
+    "00-模板/HOMEPAGE 模板.canvas",
+    "00-ccomponents/一言.components",
+    "wsm/01-日记/2024-04/2024-04-03.md",
+    "wsm/01-日记/2024-04/2024-04-04.md",
+    "wsm/01-日记/2024-04/2024-04-05.md",
+    "00-模板/月复盘模板.md",
+    "00-inbox/2024-08.md",
+    "00-ccomponents/打卡.components",
+    "wsm/01-日记/2024-08-07.md",
+    "wsm/01-日记/2024-08-06.md",
+    "wsm/01-日记/2024-04/2024-04-30.md",
     "wsm/01-日记/2024-02/2024-02-28.md",
     "wsm/01-日记/2024-03/2024-03-15.md",
-    "00-ccomponents/components-20240808124407.components",
+    "00-ccomponents/打卡统计.components",
     "00-inbox/2024-08-01.md",
     "00-inbox/2024-08-08.md",
     "wsm/01-日记/2024-08-08.md",
-    "02-paper/05-SIES/SIES-workspace.md",
     "00-ccomponents/components-20240808123644.components",
-    "HOMEPAGE.canvas",
     "00-ccomponents",
     "00-inbox/未命名.md",
     "00-inbox/年会-workspace.md",
     "00-inbox/年会-workspace-NSConflict6802-02200059-mac14.5.md",
     "00-inbox/年会-workspace-NSConflict-02200059-mac14.5.md",
     "00-模板/年复盘模板.md",
-    "00-模板/周记模板.md",
-    "00-inbox/2024-08-07.md",
     "00-inbox/2024-W32-08-05.md",
-    "00-inbox/2024-08.md",
     "00-模板/zoteronote模板.md",
-    "00-模板/一言.md",
-    "00-模板/一言模板.md",
-    "00-模板/挂件.md",
-    "00-模板/菜谱.md",
-    "HOMEPAGEiPhone.canvas",
-    "wsm/02-周记/2024-W33-08-12.md",
-    "00-inbox/2024-W32-08-05-NSConflict-02200059-mac14.5.md",
-    "01-永久笔记/01-教程/zotero/1723025058449-export.json",
-    "wsm/01-日记/2024-08",
-    "02-paper/年会",
-    "00-inbox/2024-W31-07-29.md.nssyncsc",
-    "00-inbox/2024-W30-07-22.nssyncsc",
-    "00-inbox/2024-07-25.nssyncsc"
+    "HOMEPAGEiPhone.canvas"
   ]
 }

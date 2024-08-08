@@ -14,5 +14,7 @@
   "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-text)",
   "catppuccin-heading-settings@@ctp-h1": "var(--ctp-accent)",
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette",
-  "Components-Unofficial-StyleSetting@@Components--component-card-description-align": "Components--component-card-description-align-default"
+  "Components-Unofficial-StyleSetting@@Components--component-card-description-align": "Components--component-card-description-align-default",
+  "Components-Unofficial-StyleSetting@@Components--component-dynamicDataView-fullwidth": true,
+  "Components-Unofficial-StyleSetting@@Components-dailyCheck-border-hide": true
 }

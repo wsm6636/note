@@ -1,0 +1,68 @@
+{
+  "components": [
+    {
+      "id": "7877d8b5-34de-4342-8044-c60d31c90c16",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:23:18.546Z",
+      "updateAt": "2024-08-08T11:23:18.546Z",
+      "components": [
+        {
+          "componentId": "9826fb64-bb8b-4d2b-bb37-aa889fa13bf7"
+        },
+        {
+          "componentId": "b5617e0d-c291-4ed6-be9f-32e4ec5e69ca"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "9826fb64-bb8b-4d2b-bb37-aa889fa13bf7",
+      "type": "countdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:23:27.587Z",
+      "updateAt": "2024-08-08T11:23:27.587Z",
+      "repeatType": "none",
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "showEndDateTime": true,
+      "endDayOfWeek": 0,
+      "endHour": 12,
+      "endMinute": 0,
+      "endSecond": 0,
+      "title": "改论文",
+      "endYear": 2024,
+      "endMonth": 7,
+      "endDayOfMonth": 9,
+      "fontColor": "#e48b8bff"
+    },
+    {
+      "id": "b5617e0d-c291-4ed6-be9f-32e4ec5e69ca",
+      "type": "timing",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:23:32.492Z",
+      "updateAt": "2024-08-08T11:23:32.492Z",
+      "showStartDateTime": true,
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "timeTextPattern": "yMdHms",
+      "title": "❤",
+      "startDateTime": "2022-12-16 00:00:00",
+      "backgroundColor": "#ffffff00",
+      "fontColor": "#ef91daff"
+    }
+  ],
+  "rootComponentId": "7877d8b5-34de-4342-8044-c60d31c90c16"
+}

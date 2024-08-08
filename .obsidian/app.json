@@ -8,5 +8,6 @@
   "newLinkFormat": "relative",
   "propertiesInDocument": "visible",
   "promptDelete": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "showUnsupportedFiles": true
 }
