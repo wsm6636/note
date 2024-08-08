@@ -87,7 +87,7 @@ The event-triggered mechanism for task chains, as shown in the figure where each
 # system model
 
 **我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行且在同一个ECU上不存在另一个并行执行的任务。。每两个ECU之间通过网络连接，这样组成了一条简单的基于TSN网络的车载分布式系统任务链。**
-We assume a group of ECUs connected through TSN network using the IEEE 802.1 QCR standard. Each task is statically assigned to one ECU, and all the jobs released by this task are executed on the same ECU in a fixed priority non-preemptive mode. Each pair of ECUs is connected through the network, forming a simple vehicle distributed system task chain based on TSN network.
+We assume a group of ECUs connected through TSN network using the IEEE 802.1 QCR standard. Each task is statically assigned to one ECU, and all the jobs released by this task are executed on the same ECU in a fixed priority non-preemptive mode.  There are no other parallel executing tasks on the same ECU. Each pair of ECUs is connected through the network, forming a simple vehicle distributed system task chain based on TSN network.
 ## Task Module
 
 我们考虑单个ECU上的调度任务τ，Ei描述了调度任务τi的最差执行时间（WCET）。Ri描述了调度任务τi的最差响应时间，即所有调度任务实例从到达到完成的最大时间间隔。$J^{j}_i$是τi释放的第j个作业。对于所有τi释放的作业都与任务τi具有相同的属性。$r_i^j$表示释放时间以及$f^{j}_i$表示结束时间。

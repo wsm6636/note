@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e212223f0e3b5dd4",
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -154,7 +153,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -198,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,10 +243,10 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "4c6c42e686610b42",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
-    "02-paper/05-SIES/SIES-workspace.md",
     "00-inbox/年会-workspace.md",
+    "02-paper/05-SIES/SIES-workspace.md",
     "HOMEPAGE.canvas",
     "01-永久笔记/工作流.md",
     "00-模板/月复盘模板.md",
