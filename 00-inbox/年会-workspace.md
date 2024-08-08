@@ -1,6 +1,6 @@
 ---
 created: 2024-08-06T10:38:00
-updated: 2024-08-08T16:03
+updated: 2024-08-08T16:16
 tags:
   - 笔记
   - 笔记/paper
@@ -11,7 +11,7 @@ tags:
 基于TSN的分布式实时系统任务链的端到端时间分析
 End-to-End Timing Analysis of Task Chains for TSN-based Distributed Real-time Systems
 
-- [ ] TSNQCR 的表达
+- [x] TSNQCR 的表达
 - [x] 章节的引用
 - [ ] 语法
 - [ ] 贡献：用 task chain分析，区别在于别的人网络分析没考虑怎么,网络在分析更重要，为了更确切的分析
@@ -29,7 +29,7 @@ End-to-End Timing Analysis of Task Chains for TSN-based Distributed Real-time Sy
 - [ ] 大背景，存在问题，用TSN，为什么用ATS，因为QOS所以需要end to end 分析，有人做了，但是不行在CAN上，自己的做法，得到一个更好的结果，关键词从大到小（end在最后）
 - [x] 图1 an TSN
 - [ ] ATS背景简单描述
-- [ ] 一般现在时，实验
+- [x] 一般现在时，实验
 - [x] 系统复杂 提一下chain
 # 摘要
 
