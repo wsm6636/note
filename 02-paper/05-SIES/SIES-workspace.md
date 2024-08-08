@@ -1,10 +1,12 @@
 ---
 created: 2024-03-15T10:38
-updated: 2024-07-01T11:07
+updated: 2024-08-08T14:52
 tags:
   - 笔记
   - 笔记/paper
   - 笔记/永久笔记
+status:
+  - done
 ---
 # title
 基于TSN的分布式实时系统任务链的端到端时间分析

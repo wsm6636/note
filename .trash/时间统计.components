@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "id": "ac06bcaf-22a8-44de-8391-85efe5cbcdb6",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:23:00.642Z",
+      "updateAt": "2024-08-08T11:23:00.642Z",
+      "components": [
+        {
+          "componentId": "f8af3619-2af4-4fcb-a101-e33bd46d6b89"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "f8af3619-2af4-4fcb-a101-e33bd46d6b89",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-08T12:50:43.139Z",
+      "updateAt": "2024-08-08T12:50:43.139Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "0ea60b3d-88ba-4c5b-8363-88e40a42b672",
+          "name": "时间",
+          "isShow": true,
+          "type": "date",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "showGrid": false
+      }
+    }
+  ],
+  "rootComponentId": "ac06bcaf-22a8-44de-8391-85efe5cbcdb6"
+}

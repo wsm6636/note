@@ -1,32 +1,32 @@
 {
   "components": [
     {
-      "id": "ac06bcaf-22a8-44de-8391-85efe5cbcdb6",
+      "id": "f26cdcc8-4c1d-4698-b21d-d3a904c47435",
       "type": "multi",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": true,
       "showShadow": false,
-      "createAt": "2024-08-08T11:23:00.642Z",
-      "updateAt": "2024-08-08T11:23:00.642Z",
+      "createAt": "2024-08-08T12:43:01.146Z",
+      "updateAt": "2024-08-08T12:43:01.146Z",
       "components": [
         {
-          "componentId": "e8b0dcfe-7f5c-483b-9a1a-6c27b77c493b"
+          "componentId": "3a0703e8-6d44-40f0-afb6-dcd502c33649"
         }
       ],
       "layoutType": "column"
     },
     {
-      "id": "e8b0dcfe-7f5c-483b-9a1a-6c27b77c493b",
+      "id": "3a0703e8-6d44-40f0-afb6-dcd502c33649",
       "type": "dynamicDataView",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
-      "createAt": "2024-08-08T12:20:52.297Z",
-      "updateAt": "2024-08-08T12:20:52.297Z",
+      "createAt": "2024-08-08T12:43:07.100Z",
+      "updateAt": "2024-08-08T12:43:07.100Z",
       "viewType": "gallary",
       "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
       "properties": [
@@ -52,36 +52,44 @@
         "operator": "and",
         "conditions": [
           {
-            "id": "117c224a-53d1-4532-b6bb-6ad83b5f77dc",
+            "id": "bc4ad736-0a72-467b-9aad-e5dd3c4088af",
             "type": "filter",
-            "operator": "contains",
-            "property": "tags",
-            "value": "个人/周记",
+            "operator": "has_value",
+            "property": "月复盘",
+            "value": null,
             "conditions": []
           },
           {
-            "id": "b38b1f8a-fbb1-4989-b767-7581c040a718",
+            "id": "a82a3235-df75-447b-b7de-ffff6003ec5c",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "00-模板",
+            "conditions": []
+          },
+          {
+            "id": "9aec030f-6d39-4d43-a33c-57edfe044e82",
             "type": "filter",
             "operator": "time_after_or_equal",
-            "property": "周记",
+            "property": "月复盘",
             "value": {
-              "type": "$specifiedDateTime",
+              "type": "$startOfYear",
               "unit": "day",
               "direction": "before",
-              "value": "2024-07-01T14:21"
+              "value": null
             },
             "conditions": []
           },
           {
-            "id": "7a0d439a-acdc-48b1-9392-b17c7e60bd97",
+            "id": "e51f0cf5-df3b-44f9-aff6-e4a5996007b2",
             "type": "filter",
             "operator": "time_before_or_equal",
-            "property": "周记",
+            "property": "月复盘",
             "value": {
-              "type": "$specifiedDateTime",
+              "type": "$endOfYear",
               "unit": "day",
               "direction": "before",
-              "value": "2024-07-31T14:22"
+              "value": null
             },
             "conditions": []
           }
@@ -90,7 +98,7 @@
       "sort": {
         "orders": [
           {
-            "id": "bf4071a0-5922-4c36-8066-5254a4dfece4",
+            "id": "17a8423c-deb9-4ffd-9561-46b864294dc2",
             "property": "${file.basename}",
             "direction": "asc"
           }
@@ -98,5 +106,5 @@
       }
     }
   ],
-  "rootComponentId": "ac06bcaf-22a8-44de-8391-85efe5cbcdb6"
+  "rootComponentId": "f26cdcc8-4c1d-4698-b21d-d3a904c47435"
 }

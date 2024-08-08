@@ -79,8 +79,7 @@
     "04-project/04-rtbubbles/jitter计算.md": "b6ceb0ffc5dbfac98801f3ebbb4b383dbd514bfccb9846a40084a513e7e85824",
     "04-project/04-rtbubbles/多任务实现思路.md": "840081ded3a9577ea8d77a53b621130607d6b937897cc34a906325de0430c2ea",
     "00-模板/月复盘模板.md": "ec2a88557b551a6adfecae26fcea91b93eb1f6b93ade10c787bfd652b1521cde",
-    "00-模板/年复盘模板.md": "b6f9e65f2200049b3ce5972ed6d98bef0575c0567c07f11501472f485cdc0e23",
-    "00-inbox/2024.md": "894b9d25f115db1550f5a919325e30966cb71db1f60aea5c6d8a188b83e8b2e6",
+    "00-模板/年复盘模板.md": "cb7afd07e4f8b4edbd1489d94fccb614ae67e9405e7103f6d5af5f81bbddd4fb",
     "00-模板/annotation-color-note.md": "43f2acab3c421b3e54ffa39b6254c0319add11436efec73a2bbb9f58f61f6f1d",
     "00-模板/zoteronote模板.md": "41112df654226cf6a3a6aa4e944920d007f9623f64aad504a18405f556e73fbb",
     "00-模板/一言模板.md": "8ef26859a703b24a9c62c328ed3b6682caef991a80d73bf5bdf250bec4ca5e20",
@@ -276,7 +275,6 @@
     "wsm/01-日记/2024-06/2024-06-26.md": "82ac98900df1d0f5604d7b93f6d258f1a4fb0d86bafb53dd46a4db5c78d30476",
     "wsm/01-日记/2024-06/2024-06-28.md": "960d335e027f98a358b6471d0667d10ce1ca98059bca2deb16aad9aebba86d48",
     "wsm/01-日记/2024-06/2024-06-30.md": "9e6405347a187687377d41d7cc86956293727356ccfd155737ed17caa6d4686f",
-    "02-paper/05-SIES/SIES-workspace.md": "5b73ea6b57e247a715b46295e4cac4f4f4abbcc5b11857cd986f2e469a5cafcb",
     "wsm/03-月复盘/2024-06.md": "974fffb6ae705f0a41af7e033dc6eac9aff04a2acbc8d27f671e435267153c90",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md": "1a4c65c5a6d34fb5360353f07b6ebb352b6357008d88b970aac1657fd13c53a9",
     "02-paper/04-ESWEEK/审稿意见.md": "cd2a549c0c65689fb1799e57bc30e6c598aacfded578550bd04c403eb5ae386e",
@@ -363,6 +361,8 @@
     "wsm/01-日记/2024-08-06.md": "88542b89798d606f71a1db15b803e36af2ff41a9f56cf61ae3a7f5eb4a7aaa76",
     "00-inbox/年会-workspace.md": "f368460b5580fd2d2e0ebf667f9ff64b11d4e97a3d89312cbd68029e2f2374b4",
     "wsm/01-日记/2024-08-07.md": "3d86bc12f39877f4cce2d977b4a7770ab04f48e302f773cb52689a7a5ad4ed28",
-    "00-模板/挂件.md": "8d91a2283fb9b220cbe3451e960dfcd337e22f41bee9f7ef6255b74c369504a2"
+    "00-模板/挂件.md": "8d91a2283fb9b220cbe3451e960dfcd337e22f41bee9f7ef6255b74c369504a2",
+    "00-inbox/2024.md": "11c9177d6db50fb6d14a3a22f7a1b19c4a0abe8e010a32b680fe80fb5bbbc868",
+    "02-paper/05-SIES/SIES-workspace.md": "f836979ee38125828a0afcf2767f4c27aff83ac64a5103b922d708997a66753d"
   }
 }
