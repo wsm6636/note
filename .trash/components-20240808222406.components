@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "id": "015f9316-06e9-4b0a-afa1-b8dcdb4a31bc",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T20:24:06.733Z",
+      "updateAt": "2024-08-08T20:24:06.733Z",
+      "components": [
+        {
+          "componentId": "cb1b8d38-5827-41c8-aabe-56546497f35a"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "cb1b8d38-5827-41c8-aabe-56546497f35a",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-08T20:24:12.990Z",
+      "updateAt": "2024-08-08T20:24:12.990Z",
+      "viewType": "calendar",
+      "newPageNameFormat": "{{date:YYYY-MM-DD}}",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {
+            "width": "113"
+          }
+        },
+        {
+          "id": "8fe83eef-9e9e-43ae-9cf7-1f14f1eab091",
+          "name": "每日一句总结",
+          "isShow": true,
+          "type": "text",
+          "options": {
+            "width": "535"
+          }
+        },
+        {
+          "id": "1f461ccd-659b-4084-8a52-5cba9b650e2c",
+          "name": "论文",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {
+            "width": "87"
+          }
+        },
+        {
+          "id": "85737f84-f2d8-4661-aa9d-2dbdaa517085",
+          "name": "英语",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {
+            "width": "84"
+          }
+        },
+        {
+          "id": "5bb1ec3a-b241-47fe-9e61-fef01f980ae5",
+          "name": "运动",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {
+            "width": "84"
+          }
+        },
+        {
+          "id": "66df0868-a648-4b15-8622-c9c76ce3fab2",
+          "name": "意语",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {
+            "width": "79"
+          }
+        },
+        {
+          "id": "bf900627-db4e-4f37-a9ad-527e8a519c18",
+          "name": "#日记完成度",
+          "isShow": true,
+          "type": "number",
+          "options": {
+            "prefix": "",
+            "suffix": "",
+            "totalValueType": "constant",
+            "color": "components--color-none",
+            "uiType": "progressRing",
+            "total": 100,
+            "pinned": null
+          },
+          "alias": ""
+        }
+      ],
+      "templates": [
+        {
+          "id": "526b2909-b435-4ed5-92d4-b255f5febc5e",
+          "path": "00-模板/日记模板.md",
+          "name": "日记模板.md",
+          "type": "normal"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
+        "cover": {
+          "type": "none",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape"
+        },
+        "showGrid": false,
+        "dateProperty": "日记"
+      },
+      "filter": {
+        "id": "53a5aa47-226a-4d2f-a541-c1540cdf868f",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "5442f556-21d1-46b9-82b2-a3f6d28d2c4a",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "个人/日记",
+            "conditions": []
+          },
+          {
+            "id": "8b991412-a7ef-42b7-bda6-db818556ed5f",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "00-模板",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "cfeabb11-314c-4cf1-8c21-5f58dd2b752a",
+            "property": "${file.basename}",
+            "direction": "desc"
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "wsm/01-日记"
+      },
+      "defaultTemplate": "526b2909-b435-4ed5-92d4-b255f5febc5e"
+    }
+  ],
+  "rootComponentId": "015f9316-06e9-4b0a-afa1-b8dcdb4a31bc"
+}

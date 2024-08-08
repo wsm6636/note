@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "id": "fc39c831-468a-46a0-b757-17331077570b",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T18:29:17.068Z",
+      "updateAt": "2024-08-08T18:29:17.068Z",
+      "components": [
+        {
+          "componentId": "5590466d-579a-4657-9e26-5087ec0b0db0"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "5590466d-579a-4657-9e26-5087ec0b0db0",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T18:29:51.922Z",
+      "updateAt": "2024-08-08T18:29:51.922Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "7b462c7a-0ad5-4928-a4fa-dc9fb09a56bd",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "72b4ef21-f143-4e30-a3b0-3bedc54961e8",
+              "type": "filter",
+              "operator": "time_after_or_equal",
+              "property": "日记",
+              "value": {
+                "type": "$startOfYear",
+                "unit": "day",
+                "direction": "before",
+                "value": null
+              },
+              "conditions": []
+            },
+            {
+              "id": "7fa290ac-cde2-4fa2-8284-1147eb7f53e4",
+              "type": "filter",
+              "operator": "time_before_or_equal",
+              "property": "日记",
+              "value": {
+                "type": "$endOfYear",
+                "unit": "day",
+                "direction": "before",
+                "value": null
+              },
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "f772dd55-eaed-4926-956b-62d9932672bc",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "",
+      "fontColor": "#7be290ff"
+    }
+  ],
+  "rootComponentId": "fc39c831-468a-46a0-b757-17331077570b"
+}

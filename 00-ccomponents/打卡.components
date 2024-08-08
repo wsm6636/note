@@ -32,7 +32,7 @@
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "showBorder": true,
+      "showBorder": false,
       "showShadow": false,
       "createAt": "2024-08-08T10:26:39.557Z",
       "updateAt": "2024-08-08T10:26:39.557Z",

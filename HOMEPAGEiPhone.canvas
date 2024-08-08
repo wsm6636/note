@@ -3,15 +3,15 @@
 		{"id":"02085c6c7c617200","type":"text","text":"","x":-2088,"y":355,"width":250,"height":60},
 		{"id":"9321576de22663af","type":"text","text":"","x":-2681,"y":-839,"width":782,"height":63},
 		{"id":"e2f2d08946a9b288","type":"text","text":"","x":-2379,"y":772,"width":250,"height":60},
-		{"id":"0ad22c6d6674685b","type":"text","text":"```components\ncomponentId: '4bc8ad91-691f-4473-b9bb-6ae22dcb130d'\n```\n","x":-2286,"y":-1012,"width":484,"height":167},
-		{"id":"f49c6ad506c92722","type":"text","text":"```components\ncomponentId: '8e37fe0d-62b2-4a77-bfeb-666fcca32a6c'\n```","x":-2681,"y":-1038,"width":463,"height":220},
-		{"id":"ba76d5d31816a310","type":"text","text":"```contributionWidget\nid: d9f894c2-f45b-4ba0-b879-6378b9493d75\ntype: 'ref'\nrefId: 'b798fa95-c92d-44a5-92ce-b2a5ace0fca3'\n```\n","x":-2681,"y":-1246,"width":879,"height":208},
+		{"id":"0ad22c6d6674685b","type":"text","text":"![日期进度圆](00-ccomponents/日期进度圆.components)","x":-2286,"y":-1038,"width":484,"height":193},
+		{"id":"f49c6ad506c92722","type":"text","text":"![日期进度](00-ccomponents/日期进度.components)","x":-2681,"y":-1038,"width":463,"height":220},
+		{"id":"ba76d5d31816a310","type":"text","text":"![计时](00-ccomponents/计时.components)","x":-2681,"y":-1246,"width":879,"height":208},
 		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2647,"y":-1580,"width":198,"height":223,"color":"#1e1e2e"},
 		{"id":"c35d2d8a64e85946","type":"text","text":"> ![one.svg](https://v2.jinrishici.com/one.svg?font-size=24&spacing=2&color=thistle)","x":-2443,"y":-1448,"width":450,"height":67},
 		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2516,"y":-1550,"width":523,"height":102},
-		{"id":"30cd38c9705c0a8d","type":"text","text":"```contributionWidget\n    id: e0f54b8b-e3a7-473b-90cc-e80910b1298a\n    type: 'ref'\n    refId: 'f15eae02-7e19-4d82-b903-4256f8b318c5'\n```\n    ","x":-2681,"y":-1357,"width":879,"height":152},
-		{"id":"da236e0cb22143df","type":"text","text":"```contributionGraph\ntitle:\ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"1\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: FILE_MTIME\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 10px\n  minHeight: 10px\n  borderRadius: \"\"\n\n```","x":-2681,"y":-845,"width":902,"height":751},
-		{"id":"12706d4a9a6cf3f7","type":"text","text":"```components\ncomponentId: '9ba0fb0b-74c3-43ef-93f2-95767c4b0ac1'\n```\n    \n    \n    \n    \n    \n    \n    \n    \n\n","x":-2666,"y":-225,"width":828,"height":580}
+		{"id":"30cd38c9705c0a8d","type":"text","text":"![统计](00-ccomponents/统计.components)","x":-2681,"y":-1357,"width":879,"height":152},
+		{"id":"da236e0cb22143df","type":"text","text":"```contributionGraph\ntitle:\ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"1\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: FILE_MTIME\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 10px\n  minHeight: 10px\n  borderRadius: \"\"\n\n```","x":-2681,"y":-866,"width":879,"height":641},
+		{"id":"12706d4a9a6cf3f7","type":"text","text":"![文件列表](00-ccomponents/文件列表.components)","x":-2666,"y":-225,"width":828,"height":580}
 	],
 	"edges":[]
 }

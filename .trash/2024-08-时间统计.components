@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "id": "ce5ddf51-cc28-43a0-a45f-7d37544ec4d4",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T18:55:48.141Z",
+      "updateAt": "2024-08-08T18:55:48.141Z",
+      "components": [
+        {
+          "componentId": "a71bd70e-e910-4572-827f-5902a56e8f0f"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "a71bd70e-e910-4572-827f-5902a56e8f0f",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-08T18:55:52.837Z",
+      "updateAt": "2024-08-08T18:55:52.837Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "showGrid": false
+      },
+      "filter": {
+        "id": "53a5aa47-226a-4d2f-a541-c1540cdf868f",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "8471a127-4945-4a08-8e68-76198560b277",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "个人/周记",
+            "conditions": []
+          },
+          {
+            "id": "eed9c6d8-dedb-42bd-8fa1-d4c6442c0a51",
+            "type": "filter",
+            "operator": "time_after_or_equal",
+            "property": "周记",
+            "value": {
+              "type": "$specifiedDateTime",
+              "unit": "day",
+              "direction": "before",
+              "value": "2024-08-01T21:26"
+            },
+            "conditions": []
+          },
+          {
+            "id": "b0dd6dcb-2e2d-4850-8d5c-a52e31ed87a6",
+            "type": "filter",
+            "operator": "time_before_or_equal",
+            "property": "周记",
+            "value": {
+              "type": "$specifiedDateTime",
+              "unit": "day",
+              "direction": "before",
+              "value": "2024-08-31T21:26"
+            },
+            "conditions": []
+          },
+          {
+            "id": "f9efabe5-f035-46a5-b9b6-4999fcadd8ef",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "00-模板",
+            "conditions": []
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "ce5ddf51-cc28-43a0-a45f-7d37544ec4d4"
+}

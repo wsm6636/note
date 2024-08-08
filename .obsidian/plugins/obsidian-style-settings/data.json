@@ -16,5 +16,6 @@
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette",
   "Components-Unofficial-StyleSetting@@Components--component-card-description-align": "Components--component-card-description-align-default",
   "Components-Unofficial-StyleSetting@@Components--component-dynamicDataView-fullwidth": true,
-  "Components-Unofficial-StyleSetting@@Components-dailyCheck-border-hide": true
+  "Components-Unofficial-StyleSetting@@Components-dailyCheck-border-hide": true,
+  "Components-Unofficial-StyleSetting@@Components-table-bottom-float-hide": false
 }
