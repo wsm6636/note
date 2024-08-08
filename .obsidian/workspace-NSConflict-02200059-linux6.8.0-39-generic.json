@@ -207,8 +207,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -231,10 +230,9 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "a31edbe4153579f4",
+  "active": "127b90710b70bb7e",
   "lastOpenFiles": [
     "00-inbox/年会-workspace.md",
-    "00-inbox/年会-workspace-NSConflict6802-02200059-mac14.5.md",
     "00-inbox/年会-workspace-NSConflict-02200059-mac14.5.md",
     "02-paper/05-SIES/SIES-workspace.md",
     "HOMEPAGE.canvas",
@@ -264,6 +262,7 @@
     "02-paper/01-RTCSA/QCH-workspace.md",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "02-paper/年会",
+    "00-模板/日记模板.md",
     "00-inbox/2024-W31-07-29.md.nssyncsc",
     "00-inbox/2024-W30-07-22.nssyncsc",
     "00-inbox/2024-07-25.nssyncsc",

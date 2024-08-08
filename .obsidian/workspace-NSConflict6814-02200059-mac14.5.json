@@ -23,8 +23,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "660a1786768a74d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-inbox/年会-workspace.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e212223f0e3b5dd4",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/年会-workspace.md"
               }
             }
           }
@@ -140,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/年会-workspace.md"
               }
             }
           },
@@ -184,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/年会-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/年会-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,11 +247,10 @@
   },
   "active": "a31edbe4153579f4",
   "lastOpenFiles": [
-    "00-inbox/年会-workspace.md",
-    "00-inbox/年会-workspace-NSConflict6802-02200059-mac14.5.md",
     "00-inbox/年会-workspace-NSConflict-02200059-mac14.5.md",
-    "02-paper/05-SIES/SIES-workspace.md",
+    "00-inbox/年会-workspace.md",
     "HOMEPAGE.canvas",
+    "02-paper/05-SIES/SIES-workspace.md",
     "01-永久笔记/工作流.md",
     "00-模板/月复盘模板.md",
     "00-模板/年复盘模板.md",
