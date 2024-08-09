@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -135,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/年会-workspace.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/年会-workspace.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,8 +235,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "603df7372935221c",
+  "active": "e18094cf0760c501",
   "lastOpenFiles": [
+    "00-inbox/年会-workspace.md",
     "HOMEPAGE.canvas",
     "00-ccomponents/打卡.components",
     "00-inbox/2024-W32-08-05.md",
@@ -268,7 +268,6 @@
     "00-模板/意语热力图.md",
     "00-模板/英语热力图.md",
     "00-模板/论文热力图.md",
-    "00-inbox/年会-workspace.md",
     "00-inbox/审稿意见.md",
     "06-图/06-nianhui/nianhui-ATS.png",
     "06-图/06-nianhui/nianhui-TT.png",
