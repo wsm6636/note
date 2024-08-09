@@ -25,25 +25,22 @@
             }
           },
           {
-            "id": "0c8cf5b9834489bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-inbox/2024-W32-08-05.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "23b381682eedc9ac",
             "type": "leaf",
             "state": {
               "type": "components-file-view",
               "state": {
                 "file": "00-ccomponents/日记数据.components"
+              }
+            }
+          },
+          {
+            "id": "015a9fbb526f71d4",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "00-ccomponents/文件数据.components"
               }
             }
           },
@@ -59,9 +56,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b36ccabae5999f7d",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "00-ccomponents/打卡数据.components"
+              }
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           }
@@ -158,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md"
+                "file": "HOMEPAGE.canvas"
               }
             }
           },
@@ -170,7 +176,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "23e1a56069e3ed8e",
@@ -202,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,26 +261,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian42-brat:BRAT": true,
       "templater-obsidian:Templater": true,
-      "obsidian-projects:打开项目": false,
       "obsidian-memos:Thino": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "7c6620abd473f20d",
+  "active": "9b0d9ee8405fda68",
   "lastOpenFiles": [
+    "00-ccomponents/打卡数据.components",
+    "00-inbox/审稿意见.md",
+    "00-ccomponents/文件数据.components",
+    "00-ccomponents/日记数据.components",
+    "00-ccomponents/统计.components",
+    "00-ccomponents/打卡.components",
+    "00-inbox/2024-W32-08-05.md",
+    "00-ccomponents/年日记统计.components",
+    "00-ccomponents/年打卡统计.components",
+    "00-ccomponents/年复盘时间.components",
+    "00-ccomponents/周打卡统计.components",
+    "00-inbox/2024.md",
+    "00-模板/年复盘模板.md",
+    "00-模板/日记模板.md",
+    "00-模板/月复盘模板.md",
+    "00-inbox/2024-08.md",
+    "00-ccomponents/未命名.md",
+    "00-ccomponents/components-20240809100847.components",
+    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
     "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
-    "00-inbox/审稿意见.md",
-    "00-ccomponents/日记数据.components",
-    "00-inbox/2024-W32-08-05.md",
-    "00-ccomponents/components-20240808222406.components",
-    "00-ccomponents/components-20240809094456.components",
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-08-07.md",
     "wsm/01-日记/2024-08-08.md",
     "wsm/01-日记/2024-02-29.md",
     "wsm/01-日记/2024-02-28.md",
-    "00-ccomponents/打卡.components",
     "wsm/01-日记/2024-07-29.md",
     "wsm/01-日记/2024-07-25.md",
     "wsm/01-日记/2024-07-24.md",
@@ -284,20 +303,6 @@
     "wsm/01-日记/2024-07-16.md",
     "wsm/01-日记/2024-07-15.md",
     "wsm/01-日记/2024-07-04.md",
-    "wsm/01-日记/2024-07-03.md",
-    "wsm/01-日记/2024-07-01.md",
-    "wsm/01-日记/2024-06-30.md",
-    "wsm/01-日记/2024-06-28.md",
-    "wsm/01-日记/2024-06-27.md",
-    "wsm/01-日记/2024-06-26.md",
-    "wsm/01-日记/2024-06-24.md",
-    "wsm/01-日记/2024-06-23.md",
-    "wsm/01-日记/2024-08-08 .md.nssyncsc",
-    "00-ccomponents/日记列表.components",
-    "00-ccomponents/周打卡统计.components",
-    "00-ccomponents/年打卡统计.components",
-    "00-ccomponents/年复盘时间.components",
-    "00-ccomponents/年日记统计.components",
     "HOMEPAGEiPhone.canvas",
     "00-模板/HOMEPAGE 模板.canvas",
     "00-模板/HOMEPAGEiPhone 模板.canvas"

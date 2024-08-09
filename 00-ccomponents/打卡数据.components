@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "id": "11627604-1e10-412c-b8e6-14b68c1d809f",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T08:08:57.820Z",
+      "updateAt": "2024-08-09T08:08:57.820Z",
+      "components": [
+        {
+          "componentId": "aa6e884e-3c8b-447f-8101-6d50684d38c7"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "aa6e884e-3c8b-447f-8101-6d50684d38c7",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-09T08:09:03.101Z",
+      "updateAt": "2024-08-09T08:09:03.101Z",
+      "viewType": "calendar",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "961fa40b-006f-4a23-8b55-ccbf9f749846",
+          "name": "论文",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "showGrid": false,
+        "dateProperty": "论文"
+      },
+      "filter": {
+        "id": "a0f6dec3-e8a5-4410-ae5c-503a95581c04",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "604ba5ad-5cc7-4d96-b734-d293dd81b3e4",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "个人/日记",
+            "conditions": []
+          },
+          {
+            "id": "8fe16de4-7a3d-441e-bec3-e96c94606777",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "00-模板",
+            "conditions": []
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "11627604-1e10-412c-b8e6-14b68c1d809f"
+}

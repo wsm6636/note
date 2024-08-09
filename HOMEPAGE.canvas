@@ -43,7 +43,7 @@
 			"width":847,
 			"height":242
 		},
-		{"id":"12706d4a9a6cf3f7","type":"text","text":"![文件列表](00-ccomponents/文件列表.components)\n    \n    \n    \n    \n    \n    \n    \n\n","x":-1963,"y":-755,"width":769,"height":631},
+		{"id":"12706d4a9a6cf3f7","type":"text","text":"![文件列表](00-ccomponents/文件数据.components)\n    \n    \n    \n    \n    \n    \n    \n\n","x":-1963,"y":-755,"width":769,"height":631},
 		{"id":"30cd38c9705c0a8d","type":"text","text":"![统计](00-ccomponents/统计.components)\n","x":-2505,"y":-1079,"width":507,"height":170}
 	],
 	"edges":[]

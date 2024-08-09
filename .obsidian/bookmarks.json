@@ -1,3 +1,29 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1723191258232,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1723191245449,
+          "path": "00-ccomponents/打卡数据.components",
+          "title": "打卡数据"
+        },
+        {
+          "type": "file",
+          "ctime": 1723191282415,
+          "path": "00-ccomponents/文件数据.components",
+          "title": "文件数据"
+        },
+        {
+          "type": "file",
+          "ctime": 1723191297151,
+          "path": "00-ccomponents/日记数据.components",
+          "title": "日记数据"
+        }
+      ],
+      "title": "数据统计组件"
+    }
+  ]
 }

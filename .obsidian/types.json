@@ -25,6 +25,8 @@
     "Pubdate": "date",
     "运动": "checkbox",
     "#论文": "number",
-    "status": "multitext"
+    "status": "multitext",
+    "#月复盘完成度": "number",
+    "#周复盘完成度": "number"
   }
 }

@@ -975,7 +975,8 @@
         {
           "config": {
             "interval": "month",
-            "dateField": "日记"
+            "dateField": "日记",
+            "checkField": "论文"
           },
           "filter": {
             "conjunction": "or",
