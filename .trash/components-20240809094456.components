@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "id": "8a6d8fa8-7185-45fc-9367-079a8b741b24",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T07:44:56.890Z",
+      "updateAt": "2024-08-09T07:44:56.890Z",
+      "components": [
+        {
+          "componentId": "d94bafc4-e98c-4634-85fd-10746bb59961"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "d94bafc4-e98c-4634-85fd-10746bb59961",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T07:45:06.539Z",
+      "updateAt": "2024-08-09T07:45:06.539Z",
+      "chartType": "pie",
+      "filter": {
+        "id": "efbd2454-7e6a-4ccd-a2b4-548fead3b063",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "4f8f991d-4ec6-436e-ab5d-2d56372f9cf7",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "00-模板",
+            "conditions": []
+          },
+          {
+            "id": "636148ab-9bd6-4b21-b854-9e8b172cebd7",
+            "type": "filter",
+            "operator": "time_after_or_equal",
+            "property": "日记",
+            "value": {
+              "type": "$startOfWeek",
+              "unit": "day",
+              "direction": "before",
+              "value": null
+            },
+            "conditions": []
+          },
+          {
+            "id": "e748eeec-7c5c-460f-80ad-a9d4ca0791be",
+            "type": "filter",
+            "operator": "time_before_or_equal",
+            "property": "日记",
+            "value": {
+              "type": "$endOfWeek",
+              "unit": "day",
+              "direction": "before",
+              "value": null
+            },
+            "conditions": []
+          }
+        ]
+      },
+      "labelProperty": "论文",
+      "labelFormat": "$toDate",
+      "valueProperty": "$file_count",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "valueFormat": "$sum"
+    }
+  ],
+  "rootComponentId": "8a6d8fa8-7185-45fc-9367-079a8b741b24"
+}
