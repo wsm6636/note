@@ -16,8 +16,8 @@
   "fileHashMap": {
     "05-娱乐/塞尔达/旷野之息神庙挑战.md": "0e642ff329612493a9d21655596ffb56194c6c776159084d4a2c1087e853ebe2",
     "05-娱乐/塞尔达/旷野之息迷你挑战.md": "921bf6edb6c8b03d04010178b537e0c3a7cb49fe14241e33dbd34d80229263c1",
-    "00-模板/周记模板.md": "e018e5ef8df13aee4cf12c7bf4bb7637d5fb60c9e71a4ef8b061509984d2a77f",
-    "00-模板/日记模板.md": "a319f38d46cf8d4117e58743293eb1c1f966ecafd324ff5ab3d55cb0cd13d08f",
+    "00-模板/周记模板.md": "1cf6d743a9808c4c934ebbe8742c80b97d7397b90ae278764f8272ff42f578cc",
+    "00-模板/日记模板.md": "ee0796b40b7f9d70ab49271fe8192c9419f229ad18cd1a8a335a14b2a851aa51",
     "wsm/其他/十问.md": "1aca6ff2033c822269c01ea162824f66dff1ddb3e3290a141c280849e1fd4428",
     "wsm/其他/科技论文写作.md": "ebb8f30125a6fbe31aa30b6232e4d5c5cc653ae19e9b8c1d5a24e50c0c749b57",
     "02-paper/01-RTCSA/LAG-based Analysis for Preemptive Global Scheduling with Dynamic Cache Allocation.md": "79782f230d2ecd730f7c1ae275764270175c5661bc7480b2ca4a60c7d3d90a1d",
@@ -77,8 +77,8 @@
     "04-project/04-rtbubbles/cyclictes.md": "632ff03bfdc72b0cde5bbaf20d8d05ed33d775bee28c44d5c8fab426722559e3",
     "04-project/04-rtbubbles/jitter计算.md": "b6ceb0ffc5dbfac98801f3ebbb4b383dbd514bfccb9846a40084a513e7e85824",
     "04-project/04-rtbubbles/多任务实现思路.md": "840081ded3a9577ea8d77a53b621130607d6b937897cc34a906325de0430c2ea",
-    "00-模板/月复盘模板.md": "372722cd6afaa7b0804a5e3a4b7f9aaaf4f202fa6ff05786f00cdc7050d81c48",
-    "00-模板/年复盘模板.md": "925be972b82a231768e47ae0bc8b2446ba37b7d54a44a6d86f334b44288ddb55",
+    "00-模板/月复盘模板.md": "3d96ec2607fd21579684ebd73463975ffbdf44d4b05f154db0d8bf2816c23a44",
+    "00-模板/年复盘模板.md": "a9a3511d7141b5db23d1cdbbfe11c1b38fe8ae735d4951932278c1bfa147b473",
     "00-模板/annotation-color-note.md": "43f2acab3c421b3e54ffa39b6254c0319add11436efec73a2bbb9f58f61f6f1d",
     "00-模板/zoteronote模板.md": "41112df654226cf6a3a6aa4e944920d007f9623f64aad504a18405f556e73fbb",
     "00-模板/一言模板.md": "8ef26859a703b24a9c62c328ed3b6682caef991a80d73bf5bdf250bec4ca5e20",
@@ -239,7 +239,7 @@
     "wsm/03-月复盘/2024-07.md": "d340287d373cdb55e2adf03fe1e38a0a747a0032f12b5d61ee675d4e44588040",
     "00-inbox/审稿意见.md": "3cd33f8a2d95962f354df6dd41fb36d0f5a042790c105bc58b4ea5b4144c5e4c",
     "wsm/01-日记/2024-08-06.md": "88542b89798d606f71a1db15b803e36af2ff41a9f56cf61ae3a7f5eb4a7aaa76",
-    "00-inbox/年会-workspace.md": "a671206073a9a51e1958217fad0638503eaba910b9114ddc8baf781e3fcfd0e6",
+    "00-inbox/年会-workspace.md": "67dc7df62fadcbdd5130e6d3ff5d9128fba940f9084c913eb2b74722021f73bf",
     "wsm/01-日记/2024-08-07.md": "3d86bc12f39877f4cce2d977b4a7770ab04f48e302f773cb52689a7a5ad4ed28",
     "00-模板/挂件.md": "8d91a2283fb9b220cbe3451e960dfcd337e22f41bee9f7ef6255b74c369504a2",
     "02-paper/05-SIES/SIES-workspace.md": "f836979ee38125828a0afcf2767f4c27aff83ac64a5103b922d708997a66753d",
@@ -368,9 +368,9 @@
     "00-模板/英语热力图.md": "1b187839c07f1c66df377a596364b3d001b7d0089ff073d89586ca6436008d4e",
     "00-模板/意语热力图.md": "1725e9f5aeaa06d41df68efd8701b74adb0578e55c6c1dc33ec9cf272ba89575",
     "00-模板/运动热力图.md": "168a4e347ad35adf6e8d66dec891082aa572a5163a81c21db74936e0f0e59223",
-    "00-inbox/2024-08-09.md": "c438829815223d720dc58d57ec88571e72cf35044446d4c598b9123b2445e6bc",
-    "00-inbox/2024-W32-08-05.md": "6272675d904f6cfa0fd6e53296a49f5b3ac8af7ddc33083f1cc6a4c28fe54212",
-    "00-inbox/2024-08.md": "f767ee5f672fb149133d000bd79a4a0886a6391123c3c0d3fe851c03c877d5db",
-    "00-inbox/2024.md": "8b1c2c7b6344a0d87602478a600a83ae9af088cd72b78ef54c6b7fa20f445edd"
+    "wsm/01-日记/2024-08-09.md": "61a4bd811c5aa8f984b65948bf7e3657ff97d4a7940ca162429f81bb820e9557",
+    "wsm/03-月复盘/2024-08.md": "9055d80053e1ecc81a203f9cd8db616b5249229aaabc2eda7916329294e3e087",
+    "wsm/02-周记/2024-W32-08-05.md": "8ea9c21935cb04f4a47d7035ba5e4b24ff34216c19202c83486cd02e26063f7a",
+    "wsm/04-年复盘/2024.md": "1aa797f7a9bf3d4d70f7d4435627290c47474e7f7e06559dd056189ac4a224a5"
   }
 }

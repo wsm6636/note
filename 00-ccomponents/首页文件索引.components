@@ -43,7 +43,9 @@
           "name": "tags",
           "isShow": true,
           "type": "multiSelect",
-          "options": {}
+          "options": {
+            "width": "259"
+          }
         },
         {
           "id": "a9d3aeeb-bc7b-42d6-8919-9282b59ea3d7",
@@ -82,12 +84,6 @@
           "collapsed": false
         },
         {
-          "id": "1a4317ec-ecac-4b8a-a4ff-0ad5deeac8f6",
-          "name": "done",
-          "items": [],
-          "collapsed": false
-        },
-        {
           "id": "485a3efa-a976-4495-8cf3-a04c4e5f2f3f",
           "name": "__$uncategorizedGroup",
           "items": [],
@@ -112,7 +108,7 @@
       "filter": {
         "id": "6f11c78f-bf71-472e-ae8f-ac8b9bbd2036",
         "type": "group",
-        "operator": "and",
+        "operator": "or",
         "conditions": [
           {
             "id": "c63ef044-72b6-4b4b-849f-8af073afd3e3",
@@ -121,6 +117,170 @@
             "property": "${file.path}",
             "value": "00-inbox",
             "conditions": []
+          },
+          {
+            "id": "97e50870-6a9c-42d5-9cde-69766a3c7683",
+            "type": "group",
+            "operator": "and",
+            "conditions": [
+              {
+                "id": "66a3c841-b395-4fb1-8ee5-d982d78fa4fc",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.path}",
+                "value": "wsm/01-日记",
+                "conditions": []
+              },
+              {
+                "id": "7417c3ab-602b-40c8-b722-e361c437397f",
+                "type": "filter",
+                "operator": "time_after_or_equal",
+                "property": "日记",
+                "value": {
+                  "type": "$startOfToday",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              },
+              {
+                "id": "58e73854-5e6a-4c44-ab9a-dc7abcc3b74c",
+                "type": "filter",
+                "operator": "time_before_or_equal",
+                "property": "日记",
+                "value": {
+                  "type": "$endOfToday",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              }
+            ]
+          },
+          {
+            "id": "3fab33b6-098a-45fa-a196-92b099766328",
+            "type": "group",
+            "operator": "and",
+            "conditions": [
+              {
+                "id": "4a9b47fd-a5f1-4064-ae6d-60f6c3b2873a",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.path}",
+                "value": "wsm/02-周记",
+                "conditions": []
+              },
+              {
+                "id": "8021c4b5-bcd7-438b-b8aa-a459e43a0cfb",
+                "type": "filter",
+                "operator": "time_after_or_equal",
+                "property": "周记",
+                "value": {
+                  "type": "$startOfWeek",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              },
+              {
+                "id": "a580ac8c-bdef-453a-a26a-68bc6c2a70c0",
+                "type": "filter",
+                "operator": "time_before_or_equal",
+                "property": "周记",
+                "value": {
+                  "type": "$endOfWeek",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              }
+            ]
+          },
+          {
+            "id": "e71204a1-bf95-425b-9ada-a775b72024f1",
+            "type": "group",
+            "operator": "and",
+            "conditions": [
+              {
+                "id": "3400cb15-5752-4481-80ad-cf192261f1a2",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.path}",
+                "value": "wsm/03-月复盘",
+                "conditions": []
+              },
+              {
+                "id": "1bc25dad-7a74-4f79-b23d-5825b4e55976",
+                "type": "filter",
+                "operator": "time_after_or_equal",
+                "property": "月复盘",
+                "value": {
+                  "type": "$startOfMonth",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              },
+              {
+                "id": "4e8a0ee4-d583-450e-b41e-0f405d7ec462",
+                "type": "filter",
+                "operator": "time_before_or_equal",
+                "property": "月复盘",
+                "value": {
+                  "type": "$endOfMonth",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              }
+            ]
+          },
+          {
+            "id": "d14de4da-ce87-4801-90be-29e68e4dca50",
+            "type": "group",
+            "operator": "and",
+            "conditions": [
+              {
+                "id": "7a9f64ea-da5d-457c-9a89-0ba80c3d3a1a",
+                "type": "filter",
+                "operator": "contains",
+                "property": "${file.path}",
+                "value": "wsm/04-年复盘",
+                "conditions": []
+              },
+              {
+                "id": "ba902c47-d1c6-49af-a0d1-1d83bca530f4",
+                "type": "filter",
+                "operator": "time_after_or_equal",
+                "property": "年复盘",
+                "value": {
+                  "type": "$startOfYear",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              },
+              {
+                "id": "f3966e33-fa9a-45ce-b9c2-520ebaf52582",
+                "type": "filter",
+                "operator": "time_before_or_equal",
+                "property": "年复盘",
+                "value": {
+                  "type": "$endOfYear",
+                  "unit": "day",
+                  "direction": "before",
+                  "value": null
+                },
+                "conditions": []
+              }
+            ]
           }
         ]
       },

@@ -16,9 +16,9 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1950.5,
+                  "x": -1968,
                   "y": -570.5,
-                  "zoom": -0.4794892709785508
+                  "zoom": -0.4459032337926504
                 }
               },
               "pinned": true
@@ -231,13 +231,25 @@
       "obsidian42-brat:BRAT": true,
       "templater-obsidian:Templater": true,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "e18094cf0760c501",
   "lastOpenFiles": [
-    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "00-inbox/年会-workspace.md",
+    "HOMEPAGE.canvas",
+    "wsm/01-日记/2024-08-09.md",
+    "00-模板/日记模板.md",
+    "00-ccomponents/首页文件索引.components",
+    "wsm/04-年复盘/2024.md",
+    "00-模板/年复盘模板.md",
+    "wsm/02-周记/2024-W32-08-05.md",
+    "wsm/03-月复盘/2024-08.md",
+    "00-模板/周记模板.md",
+    "00-模板/月复盘模板.md",
+    "00-ccomponents/打卡.components",
+    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "02-paper/05-SIES/SIES-workspace.md",
     "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
     "03-research/02-因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
@@ -247,12 +259,6 @@
     "03-research/02-因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md",
     "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
     "03-research/01-端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
-    "HOMEPAGE.canvas",
-    "00-ccomponents/打卡.components",
-    "00-inbox/2024-W32-08-05.md",
-    "00-inbox/2024-08.md",
-    "00-inbox/2024.md",
-    "00-inbox/2024-08-09.md",
     "00-ccomponents/打卡数据.components",
     "00-ccomponents/导航.components",
     "00-ccomponents/日期进度圆.components",
@@ -262,17 +268,10 @@
     "00-ccomponents/2024笔记数据.components",
     "00-ccomponents/2024年日记统计.components",
     "00-ccomponents/DVJS-多条件复合检索V2.components",
-    "00-ccomponents/2024年打卡统计.components",
     "00-模板/笔记热力图.md",
-    "00-模板/周记模板.md",
-    "00-模板/月复盘模板.md",
     "01-永久笔记/工作流.md",
-    "00-模板/年复盘模板.md",
-    "00-inbox/2024-08-09.md",
     "wsm/其他/科技论文写作.md",
     "wsm/02-周记/2024-W08-02-19.md",
-    "wsm/03-月复盘/2024-02.md",
-    "00-模板/日记热力图.md",
     "06-图/06-nianhui/nianhui-ATS.png",
     "06-图/06-nianhui/nianhui-TT.png",
     "06-图/06-nianhui/nianhui-ET.png",
