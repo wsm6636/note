@@ -18,7 +18,7 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -605.5,
-                  "zoom": -0.4079848532186214
+                  "zoom": -0.414893222560799
                 }
               },
               "pinned": true
@@ -33,17 +33,8 @@
                 "file": "00-ccomponents/数据视图.components"
               }
             }
-          },
-          {
-            "id": "ea908b7958d9427f",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           }
         ]
@@ -137,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "HOMEPAGE.canvas"
+              }
             }
           },
           {
@@ -180,6 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,6 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOMEPAGE.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +232,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ea908b7958d9427f",
+  "active": "c35c6ef81cda64df",
   "lastOpenFiles": [
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-08-07.md",
