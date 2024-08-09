@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c35c6ef81cda64df",
+            "id": "9b0d9ee8405fda68",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,20 +18,10 @@
                 "viewState": {
                   "x": -1947.5,
                   "y": -605.5,
-                  "zoom": -0.414893222560799
+                  "zoom": -0.47378691161436753
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "d138c2460a7b65a0",
-            "type": "leaf",
-            "state": {
-              "type": "components-file-view",
-              "state": {
-                "file": "00-ccomponents/数据视图.components"
-              }
             }
           }
         ]
@@ -232,11 +222,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c35c6ef81cda64df",
+  "active": "9b0d9ee8405fda68",
   "lastOpenFiles": [
+    "00-ccomponents/数据视图.components",
     "HOMEPAGE.canvas",
     "wsm/01-日记/2024-08-07.md",
-    "00-ccomponents/数据视图.components",
     "wsm/01-日记/2024-08-08.md",
     "wsm/01-日记/2024-02-29.md",
     "wsm/01-日记/2024-02-28.md",
