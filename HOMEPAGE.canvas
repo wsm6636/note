@@ -1,29 +1,9 @@
 {
 	"nodes":[
-		{
-			"id":"efc6103b5c612f67",
-			"type":"text",
-			"text":"![日期进度](00-ccomponents/日期进度.components)",
-			"createdAt":"2024-04-07 17:20:05",
-			"updatedAt":"2024-04-07 17:20:05",
-			"deletedAt":"",
-			"pinned":false,
-			"visibility":"PUBLIC",
-			"rowStatus":"NORMAL",
-			"thinoType":"JOURNAL",
-			"hasId":"",
-			"linkId":"",
-			"resourceList":[],
-			"x":-2705,
-			"y":-893,
-			"width":767,
-			"height":232
-		},
-		{"id":"c35d2d8a64e85946","type":"text","text":"![one.svg](https://v2.jinrishici.com/one.svg?font-size=24&spacing=2&color=thistle)","x":-2705,"y":-925,"width":707,"height":65},
+		{"id":"c35d2d8a64e85946","type":"text","text":"![one.svg](https://v2.jinrishici.com/one.svg?font-size=22&spacing=2&color=thistle)","x":-2705,"y":-925,"width":707,"height":65},
 		{"id":"6337b67602c01e79","type":"text","text":"![1|160](06-图/1.png)\n\n","x":-2703,"y":-1140,"width":198,"height":215,"color":"#1e1e2e"},
 		{"id":"589b22eae2278cc8","type":"text","text":"\n# 每天都很哇塞    ","x":-2604,"y":-1130,"width":523,"height":102},
 		{"id":"ba76d5d31816a310","type":"text","text":"![日期进度圆](00-ccomponents/日期进度圆.components)","x":-1967,"y":-974,"width":777,"height":294},
-		{"id":"da236e0cb22143df","type":"text","text":"```contributionGraph\ntitle: \ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"1\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: PAGE_PROPERTY\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 10px\n  minHeight: 10px\n  borderRadius: \"\"\n\n```","x":-2703,"y":-730,"width":765,"height":672},
 		{
 			"id":"d5128eeb3a24cf14",
 			"type":"text",
@@ -43,8 +23,29 @@
 			"width":847,
 			"height":242
 		},
-		{"id":"12706d4a9a6cf3f7","type":"text","text":"![文件列表](00-ccomponents/文件数据.components)\n    \n    \n    \n    \n    \n    \n    \n\n","x":-1963,"y":-755,"width":769,"height":631},
-		{"id":"30cd38c9705c0a8d","type":"text","text":"![统计](00-ccomponents/统计.components)\n","x":-2505,"y":-1079,"width":507,"height":170}
+		{"id":"12706d4a9a6cf3f7","type":"text","text":"![文件列表](00-ccomponents/首页文件索引.components)\n    \n    \n    \n    \n    \n    \n    \n\n","x":-1963,"y":-755,"width":769,"height":654},
+		{"id":"30cd38c9705c0a8d","type":"text","text":"![统计](00-ccomponents/统计.components)\n","x":-2505,"y":-1079,"width":507,"height":170},
+		{"id":"da236e0cb22143df","type":"text","text":"\n```contributionGraph\ntitle: \"\"\ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"0\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: PAGE_PROPERTY\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 4px\n  minHeight: 4px\n  borderRadius: \"\"\n\n```\n\n","x":-2703,"y":-680,"width":765,"height":672},
+		{
+			"id":"efc6103b5c612f67",
+			"type":"text",
+			"text":"![日期进度](00-ccomponents/日期进度.components)",
+			"createdAt":"2024-04-07 17:20:05",
+			"updatedAt":"2024-04-07 17:20:05",
+			"deletedAt":"",
+			"pinned":false,
+			"visibility":"PUBLIC",
+			"rowStatus":"NORMAL",
+			"thinoType":"JOURNAL",
+			"hasId":"",
+			"linkId":"",
+			"resourceList":[],
+			"x":-2703,
+			"y":-804,
+			"width":730,
+			"height":180
+		},
+		{"id":"7f6d4e0244d62eef","type":"text","text":"![components-20240809131921](00-ccomponents/导航.components)","x":-2711,"y":-877,"width":738,"height":146}
 	],
 	"edges":[]
 }

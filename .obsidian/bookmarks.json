@@ -19,8 +19,26 @@
         {
           "type": "file",
           "ctime": 1723191297151,
-          "path": "00-ccomponents/日记数据.components",
-          "title": "日记数据"
+          "path": "00-ccomponents/日记列表.components",
+          "title": "日记列表"
+        },
+        {
+          "type": "file",
+          "ctime": 1723201870146,
+          "path": "00-ccomponents/2024复盘时间统计.components",
+          "title": "复盘时间统计"
+        },
+        {
+          "type": "file",
+          "ctime": 1723201889594,
+          "path": "00-ccomponents/2024年日记统计.components",
+          "title": "日记统计"
+        },
+        {
+          "type": "file",
+          "ctime": 1723201901283,
+          "path": "00-ccomponents/DVJS-多条件复合检索V2.components",
+          "title": "文件检索"
         }
       ],
       "title": "数据统计组件"

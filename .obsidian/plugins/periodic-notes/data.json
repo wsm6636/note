@@ -12,13 +12,13 @@
     "format": "YYYY-[W]ww-MM-DD",
     "folder": "wsm/02-周记",
     "template": "00-模板/周记模板.md",
-    "enabled": true
+    "enabled": false
   },
   "monthly": {
     "format": "YYYY-MM",
     "template": "00-模板/月复盘模板.md",
     "folder": "wsm/03-月复盘",
-    "enabled": true
+    "enabled": false
   },
   "quarterly": {
     "format": "",
@@ -30,6 +30,6 @@
     "format": "YYYY",
     "template": "00-模板/年复盘模板.md",
     "folder": "wsm/04-年复盘",
-    "enabled": true
+    "enabled": false
   }
 }

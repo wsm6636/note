@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "id": "11627604-1e10-412c-b8e6-14b68c1d809f",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T08:08:57.820Z",
+      "updateAt": "2024-08-09T08:08:57.820Z",
+      "components": [
+        {
+          "componentId": "ce241ffe-eada-48a3-ad4a-8ecbdab13309"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "ce241ffe-eada-48a3-ad4a-8ecbdab13309",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-09T08:29:09.018Z",
+      "updateAt": "2024-08-09T08:29:09.018Z",
+      "viewType": "calendar",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "f8872d60-1d30-4e88-a035-6a3a0b9c083a",
+          "name": "意语",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "676d0b4d-3f9c-4454-93aa-0bd8ffb511ac",
+          "name": "论文",
+          "isShow": true,
+          "type": "checkbox",
+          "options": {}
+        },
+        {
+          "id": "52d4b1c6-b395-45b9-a13f-adcceadc0d78",
+          "name": "日记",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "showGrid": false
+      },
+      "filter": {
+        "id": "13847d1e-cb10-4284-b3de-9a4dcfef5103",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "c57adc1f-0a3d-4c72-a874-aa06cef1fae0",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "个人/日记",
+            "conditions": []
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "11627604-1e10-412c-b8e6-14b68c1d809f"
+}

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "id": "a65b4f78-efb6-45f9-b5d6-8c2b5589b020",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-25T11:34:37.290Z",
+      "updateAt": "2024-04-25T11:34:37.290Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "23f44d6b-1395-4a5e-b1d1-13cff624ca54"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "23f44d6b-1395-4a5e-b1d1-13cff624ca54",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "query": "const headers = [\"tags\"];\nlet pageNum = 1;\nconst pageSize = {{PageSize}}\nconst pageTitleLike = \"{{FileName}}\"\nconst authorLike = \"{{Author}}\"\nconst tagLikeA = \"{{TagA}}\"\nconst tagLikeB = \"{{TagB}}\"\n\nconst titleMatch = (page, title) => title ? page.file.name.toLowerCase().includes(title.toLowerCase()) : true;\nconst authorMatch = (page, author) => author ? new RegExp(`.*${author}.*`, 'i').test(String(page[\"author\"])) : true;\nconst tagMatch = (page, tag) => tag ? page.file.tags && page.file.tags.some(t => t.includes(tag)) : true;\n\nconst filters = [\n    { matcher: titleMatch, value: pageTitleLike },\n    { matcher: authorMatch, value: authorLike },\n    { matcher: tagMatch, value: tagLikeA },\n    { matcher: tagMatch, value: tagLikeB }\n    // 可以添加更多过滤逻辑\n];\n\nconst filteredData = dv.pages(``)\n    .where(p => filters.every(filter => filter.matcher(p, filter.value)))\n    .sort(p => {{SortFiled}},\"{{Sort}}\")\n    .map(p => {\n        return [p.file, ...headers.map(property => p[property]), formatDate(p[\"updated\"])];\n    });\n\nfunction formatDate(date) {\n    const mdate = new Date((!isNaN(date) && /^\\d+$/.test(date)) ? date * 1000 : date);\n    return `${mdate.getFullYear()}-${String(mdate.getMonth() + 1).padStart(2, '0')}-${String(mdate.getDate()).padStart(2, '0')}`;\n}\nconst totalData = filteredData.length;\nconst maxnum = Math.ceil(totalData / pageSize);\n\nlet flexContainer = createFlexContainer(\"space-between\");\n\nlet paragraph = document.createElement(\"span\");\nparagraph.textContent = \"检索出 \" + totalData + \" 条数据\";\nparagraph.style.flex = \"1\";\nflexContainer.appendChild(paragraph);\n\nlet parentContainer = createFlexContainer(\"flex-end\");\nlet [button1, button2, pageSpan1, pageSpan2, pageSpan3] = createPaginationElements();\nparentContainer.append(button1, pageSpan1, pageSpan2, pageSpan3, button2);\nflexContainer.appendChild(parentContainer);\n\n// Append the flex container to the dataview container\ndv.container.appendChild(flexContainer);\n\nfunction createPaginationElements() {\n    let button1 = document.createElement(\"button\");\n    button1.textContent = \"上一页\";\n    button1.onclick = () => {\n        pageNum = pageNum > 1 ? pageNum - 1 : maxnum;\n        fy();\n    };\n    let pageSpan1 = document.createElement(\"span\");\n    pageSpan1.textContent = pageNum;\n    let pageSpan2 = document.createElement(\"span\");\n    pageSpan2.textContent = \" / \";\n    let pageSpan3 = document.createElement(\"span\");\n    pageSpan3.textContent = maxnum;\n    let button2 = document.createElement(\"button\");\n    button2.textContent = \"下一页\";\n    button2.onclick = () => {\n        pageNum = pageNum < maxnum ? pageNum + 1 : 1;\n        fy();\n    };\n    return [button1, button2, pageSpan1, pageSpan2, pageSpan3];\n}\n\nfunction createFlexContainer(justifyContent) {\n    let container = document.createElement(\"div\");\n    container.style.display = \"flex\";\n    container.style.alignItems = \"center\";\n    container.style.justifyContent = justifyContent;\n    return container;\n}\n\nconst tableContainerId = \"custom-dataview-table-container\";\nfunction fy() {\n    let oldTableContainer = document.getElementById(tableContainerId);\n    if (oldTableContainer) {\n        oldTableContainer.remove();\n    }\n    \n    let tableContainer = document.createElement(\"div\");\n    tableContainer.id = tableContainerId;\n    dv.container.appendChild(tableContainer);  // Ensure the table container is appended to the main container\n    \n    let pageData = filteredData.slice((pageNum - 1) * pageSize, pageNum * pageSize);\n    \n    let table = createTable([\"FileName\", ...headers, \"updated\"], pageData);\n    tableContainer.appendChild(table);\n    \n    pageSpan1.innerText = pageNum;\n}\n\nfunction createTable(headers, data) {\n    let table = document.createElement(\"table\");\n    table.className = \"dataview table-view-table\";\n    \n    // Create header row\n    let thead = document.createElement(\"thead\");\n    let headerRow = document.createElement(\"tr\");\n    headers.forEach(header => {\n        let th = document.createElement(\"th\");\n        th.textContent = header;\n        headerRow.appendChild(th);\n    });\n    thead.appendChild(headerRow);\n    table.appendChild(thead);\n    \n    // Create data rows\n    let tbody = document.createElement(\"tbody\");\n      data.forEach(rowData => {\n          let row = document.createElement(\"tr\");\n          rowData.forEach((cellData, index) => {\n              let td = document.createElement(\"td\");\n              if (index === 0 && cellData && cellData.path) {\n                  let a = document.createElement(\"a\");\n                  a.className = \"internal-link\";\n                  a.href = cellData.path;\n                  a.textContent = cellData.name;\n                  td.appendChild(a);\n              } else {\n                  td.textContent = cellData;\n              }\n              row.appendChild(td);\n          });\n          tbody.appendChild(row);\n      });\n      table.appendChild(tbody);\n    \n    return table;\n}\n\nfy();",
+      "queryType": "dataviewjs",
+      "backgroundStyle": "card",
+      "maxHeight": -1,
+      "dynamicParamComponents": [
+        {
+          "id": "c4e2e7be-c19e-4c89-8b22-86dfeba97dc0",
+          "type": "text",
+          "name": "FileName",
+          "defaultValue": "",
+          "placeholder": "input filename",
+          "fromProperty": "",
+          "label": "文件名称"
+        },
+        {
+          "id": "f1aa6959-dbee-4e10-8e82-c7b4407002a6",
+          "type": "propertyValueSuggestions",
+          "name": "Author",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "author",
+          "label": "作者"
+        },
+        {
+          "id": "d82e226f-6331-4ee8-bfba-78925d319d90",
+          "type": "tagSuggestions",
+          "name": "TagA",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "${file.tags}",
+          "label": "🏷️标签A"
+        },
+        {
+          "id": "65e153e6-c91c-4557-9e91-beb6f32d263e",
+          "type": "tagSuggestions",
+          "name": "TagB",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "🏷️标签B"
+        },
+        {
+          "id": "4415d10b-03e9-4aaf-b511-26fcd0895833",
+          "type": "number",
+          "name": "PageSize",
+          "defaultValue": "5",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "单页数量"
+        },
+        {
+          "id": "d0a4c6fd-16f3-4013-8ca9-b7904ba8b6ab",
+          "type": "select",
+          "name": "SortFiled",
+          "defaultValue": "p.file.name",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "排序",
+          "options": [
+            {
+              "id": "cdb62e6e-2099-4dcb-a6bd-f7cdcc72569f",
+              "label": "文件名",
+              "value": "p.file.name"
+            },
+            {
+              "id": "7fbe9fdf-3205-43bf-88f1-0e51598caa93",
+              "label": "创建时间",
+              "value": "formatDate(p[\"created_date\"])"
+            }
+          ]
+        },
+        {
+          "id": "652919e7-21f7-409b-81bf-9a24fa7df185",
+          "type": "select",
+          "name": "Sort",
+          "defaultValue": "asc",
+          "placeholder": "",
+          "fromProperty": "",
+          "options": [
+            {
+              "id": "366f5d7f-8126-4378-ad65-cc4d1a008e11",
+              "label": "升序",
+              "value": "asc"
+            },
+            {
+              "id": "98a5a785-fcd1-4f97-805c-6463c203d1ee",
+              "label": "降序",
+              "value": "desc"
+            }
+          ]
+        }
+      ],
+      "title": "🔍文件检索",
+      "updateAt": "2024-04-23T09:10:29.077Z",
+      "showBorder": true
+    }
+  ],
+  "rootComponentId": "a65b4f78-efb6-45f9-b5d6-8c2b5589b020"
+}

@@ -1,35 +1,50 @@
 {
   "components": [
     {
-      "id": "fc39c831-468a-46a0-b757-17331077570b",
+      "id": "feb8c2b6-c5e6-4c6c-b6a0-62f7d1940278",
       "type": "multi",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": true,
       "showShadow": false,
-      "createAt": "2024-08-08T18:29:17.068Z",
-      "updateAt": "2024-08-08T18:29:17.068Z",
+      "createAt": "2024-08-09T10:34:43.987Z",
+      "updateAt": "2024-08-09T10:34:43.987Z",
       "components": [
         {
-          "componentId": "5590466d-579a-4657-9e26-5087ec0b0db0"
+          "componentId": "d8c81c31-4fb6-45a9-a29a-22c068b11e9a"
         },
         {
-          "componentId": "0f7e3553-4d0a-45a5-a2b0-9a3dbe5f5925"
+          "componentId": "8178e249-64da-4719-a742-71356659734d"
         }
       ],
       "layoutType": "list"
     },
     {
-      "id": "5590466d-579a-4657-9e26-5087ec0b0db0",
+      "id": "8178e249-64da-4719-a742-71356659734d",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T10:34:51.156Z",
+      "updateAt": "2024-08-09T10:34:51.156Z",
+      "maxHeight": 1200,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "00-模板/笔记热力图.md"
+    },
+    {
+      "id": "d8c81c31-4fb6-45a9-a29a-22c068b11e9a",
       "type": "count",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": true,
       "showShadow": false,
-      "createAt": "2024-08-08T18:29:51.922Z",
-      "updateAt": "2024-08-08T18:29:51.922Z",
+      "createAt": "2024-08-09T10:36:07.869Z",
+      "updateAt": "2024-08-09T10:36:07.869Z",
       "contentPrefix": "",
       "contentSuffix": "",
       "countType": "number",
@@ -38,15 +53,15 @@
         "valueType": "totalRecords",
         "value": 100,
         "filter": {
-          "id": "7b462c7a-0ad5-4928-a4fa-dc9fb09a56bd",
+          "id": "9c50e346-013d-4d99-8350-135f49c9e685",
           "type": "group",
           "operator": "and",
           "conditions": [
             {
-              "id": "72b4ef21-f143-4e30-a3b0-3bedc54961e8",
+              "id": "c4c28897-22d2-4dd1-8a90-27da3fdaac1c",
               "type": "filter",
               "operator": "time_after_or_equal",
-              "property": "日记",
+              "property": "updated",
               "value": {
                 "type": "$startOfYear",
                 "unit": "day",
@@ -56,10 +71,10 @@
               "conditions": []
             },
             {
-              "id": "7fa290ac-cde2-4fa2-8284-1147eb7f53e4",
+              "id": "8e529aa3-20f5-479c-812e-79dba81b3ccf",
               "type": "filter",
               "operator": "time_before_or_equal",
-              "property": "日记",
+              "property": "updated",
               "value": {
                 "type": "$endOfYear",
                 "unit": "day",
@@ -75,30 +90,13 @@
         "valueType": "constant",
         "value": 100,
         "filter": {
-          "id": "f772dd55-eaed-4926-956b-62d9932672bc",
+          "id": "630b62f4-0eb7-4782-86d7-d2a262297793",
           "type": "group",
           "operator": "and",
           "conditions": []
         }
-      },
-      "title": "",
-      "fontColor": "#7be290ff"
-    },
-    {
-      "id": "0f7e3553-4d0a-45a5-a2b0-9a3dbe5f5925",
-      "type": "markdown",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-08-09T09:14:06.470Z",
-      "updateAt": "2024-08-09T09:14:06.470Z",
-      "maxHeight": 1200,
-      "contentAlign": "left",
-      "markdownsSource": "file",
-      "markdownValue": "00-模板/日记热力图.md"
+      }
     }
   ],
-  "rootComponentId": "fc39c831-468a-46a0-b757-17331077570b"
+  "rootComponentId": "feb8c2b6-c5e6-4c6c-b6a0-62f7d1940278"
 }

@@ -297,7 +297,7 @@
       "color": "m3H0gtRjQ6C4Kn0jLCrW9"
     },
     {
-      "path": "00-模板/热力图.md",
+      "path": "00-模板/笔记热力图.md",
       "color": "xQMmAZ6IvurmjeLGcm4ih"
     },
     {
@@ -1177,18 +1177,6 @@
       "color": "2idXfXWSgk2lkGKUH3deA"
     },
     {
-      "path": "00-inbox/2024-08.md",
-      "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
-      "path": "00-inbox/2024-W32-08-05.md",
-      "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
-      "path": "00-inbox/2024.md",
-      "color": "NqnayMzBk9z1GrZQadEA7"
-    },
-    {
       "path": "wsm/01-日记/2024-02-27.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     },
@@ -1666,6 +1654,22 @@
     },
     {
       "path": "wsm/01-日记/2024-08-08.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/2024-08-09.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/2024.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/2024-08.md",
+      "color": "NqnayMzBk9z1GrZQadEA7"
+    },
+    {
+      "path": "00-inbox/2024-W32-08-05.md",
       "color": "NqnayMzBk9z1GrZQadEA7"
     }
   ]

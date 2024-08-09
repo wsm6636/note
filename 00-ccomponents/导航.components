@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "id": "a9cd5d41-3602-4690-80a1-8b8183b88a21",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T11:19:21.386Z",
+      "updateAt": "2024-08-09T11:19:21.386Z",
+      "components": [
+        {
+          "componentId": "2ee3fe8c-a5d3-4f9b-bdd5-4dcb18ee2a21"
+        },
+        {
+          "componentId": "23f5a6de-892c-4b91-9e5e-e00db9c4a136"
+        },
+        {
+          "componentId": "30e8ef1c-d954-4c8a-a56b-12a568c863f4"
+        },
+        {
+          "componentId": "f70b4d80-f705-46c6-bf2f-c251250e29a3"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "2ee3fe8c-a5d3-4f9b-bdd5-4dcb18ee2a21",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T11:29:09.594Z",
+      "updateAt": "2024-08-09T11:29:09.594Z",
+      "title": "文件检索",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "237e51d9-027e-452e-ad5c-af62479ae4ef",
+        "options": {
+          "filePath": "00-ccomponents/DVJS-多条件复合检索V2.components",
+          "fileName": "DVJS-多条件复合检索V2.components",
+          "openPageIn": "tab"
+        }
+      },
+      "icon": "FileSearch",
+      "borderColor": "#d99694ff",
+      "fontColor": "#d99694ff"
+    },
+    {
+      "id": "23f5a6de-892c-4b91-9e5e-e00db9c4a136",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T11:31:26.718Z",
+      "updateAt": "2024-08-09T11:31:26.718Z",
+      "title": "日记列表",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "0708fbc2-6f27-41cf-9cb8-bb5e0e9a41bf",
+        "options": {
+          "filePath": "00-ccomponents/日记列表.components",
+          "fileName": "日记列表.components",
+          "openPageIn": "tab"
+        }
+      },
+      "icon": "NotebookPen",
+      "borderColor": "#fac08fff",
+      "fontColor": "#fac08fff"
+    },
+    {
+      "id": "30e8ef1c-d954-4c8a-a56b-12a568c863f4",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T11:31:55.750Z",
+      "updateAt": "2024-08-09T11:31:55.750Z",
+      "title": "打卡数据",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "2b4dda72-1b3b-49c1-9881-9faf03f5d48b",
+        "options": {
+          "filePath": "00-ccomponents/打卡数据.components",
+          "fileName": "打卡数据.components",
+          "openPageIn": "tab"
+        }
+      },
+      "icon": "CircleCheckBig",
+      "borderColor": "#b2a2c7ff",
+      "fontColor": "#b2a2c7ff"
+    },
+    {
+      "id": "f70b4d80-f705-46c6-bf2f-c251250e29a3",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T11:32:17.694Z",
+      "updateAt": "2024-08-09T11:32:17.694Z",
+      "title": "时间统计",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "07b69596-3da0-4965-8189-02c43057cdae",
+        "options": {
+          "filePath": "00-ccomponents/2024复盘时间统计.components",
+          "fileName": "2024复盘时间统计.components",
+          "openPageIn": "tab"
+        }
+      },
+      "icon": "TimerReset",
+      "borderColor": "#92cddcff",
+      "fontColor": "#92cddcff"
+    }
+  ],
+  "rootComponentId": "a9cd5d41-3602-4690-80a1-8b8183b88a21"
+}

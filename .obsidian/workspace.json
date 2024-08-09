@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b0d9ee8405fda68",
+            "id": "e18094cf0760c501",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -17,7 +17,7 @@
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
                   "x": -1947.5,
-                  "y": -605.5,
+                  "y": -580.5,
                   "zoom": -0.47378691161436753
                 }
               },
@@ -25,49 +25,20 @@
             }
           },
           {
-            "id": "23b381682eedc9ac",
-            "type": "leaf",
-            "state": {
-              "type": "components-file-view",
-              "state": {
-                "file": "00-ccomponents/日记数据.components"
-              }
-            }
-          },
-          {
-            "id": "015a9fbb526f71d4",
-            "type": "leaf",
-            "state": {
-              "type": "components-file-view",
-              "state": {
-                "file": "00-ccomponents/文件数据.components"
-              }
-            }
-          },
-          {
-            "id": "c6a8a7f6443a6329",
+            "id": "603df7372935221c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/审稿意见.md",
+                "file": "00-inbox/年会-workspace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "b36ccabae5999f7d",
-            "type": "leaf",
-            "state": {
-              "type": "components-file-view",
-              "state": {
-                "file": "00-ccomponents/打卡数据.components"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +48,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0298f76ce71a3884",
+        "id": "8128ee278dc65c3c",
         "type": "tabs",
         "children": [
           {
@@ -96,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"论文\"]",
+                "query": "[\"周记\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,21 +77,21 @@
             }
           },
           {
-            "id": "5b93bea0a6df77fd",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
             "id": "103c4a89efe1b288",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/年会-workspace.md"
               }
+            }
+          },
+          {
+            "id": "5636bb9d81986f7e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -164,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.canvas"
+                "file": "00-inbox/年会-workspace.md"
               }
             }
           },
@@ -176,8 +147,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "23e1a56069e3ed8e",
@@ -209,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/年会-workspace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOMEPAGE.canvas",
+                "file": "00-inbox/年会-workspace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,47 +232,50 @@
       "obsidian42-brat:BRAT": true,
       "templater-obsidian:Templater": true,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "9b0d9ee8405fda68",
+  "active": "603df7372935221c",
   "lastOpenFiles": [
-    "00-ccomponents/打卡数据.components",
-    "00-inbox/审稿意见.md",
-    "00-ccomponents/文件数据.components",
-    "00-ccomponents/日记数据.components",
-    "00-ccomponents/统计.components",
+    "HOMEPAGE.canvas",
     "00-ccomponents/打卡.components",
     "00-inbox/2024-W32-08-05.md",
-    "00-ccomponents/年日记统计.components",
-    "00-ccomponents/年打卡统计.components",
-    "00-ccomponents/年复盘时间.components",
-    "00-ccomponents/周打卡统计.components",
-    "00-inbox/2024.md",
-    "00-模板/年复盘模板.md",
-    "00-模板/日记模板.md",
-    "00-模板/月复盘模板.md",
     "00-inbox/2024-08.md",
+    "00-inbox/2024.md",
+    "00-inbox/2024-08-09.md",
+    "00-ccomponents/打卡数据.components",
+    "00-ccomponents/导航.components",
+    "00-ccomponents/日期进度圆.components",
+    "00-ccomponents/统计 1.components",
+    "00-模板/导航.md",
+    "00-ccomponents/2024复盘时间统计.components",
+    "00-ccomponents/2024笔记数据.components",
+    "00-ccomponents/2024年日记统计.components",
+    "00-ccomponents/DVJS-多条件复合检索V2.components",
+    "00-ccomponents/2024年打卡统计.components",
+    "00-模板/笔记热力图.md",
+    "00-模板/周记模板.md",
+    "00-模板/月复盘模板.md",
+    "01-永久笔记/工作流.md",
+    "00-模板/年复盘模板.md",
+    "00-inbox/2024-08-09.md",
+    "wsm/其他/科技论文写作.md",
+    "wsm/02-周记/2024-W08-02-19.md",
+    "wsm/03-月复盘/2024-02.md",
+    "00-模板/日记热力图.md",
+    "00-模板/运动热力图.md",
+    "00-模板/意语热力图.md",
+    "00-模板/英语热力图.md",
+    "00-模板/论文热力图.md",
+    "00-inbox/年会-workspace.md",
+    "00-inbox/审稿意见.md",
+    "06-图/06-nianhui/nianhui-ATS.png",
+    "06-图/06-nianhui/nianhui-TT.png",
+    "06-图/06-nianhui/nianhui-ET.png",
+    "00-模板/日记模板.md",
     "00-ccomponents/未命名.md",
-    "00-ccomponents/components-20240809100847.components",
     "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
-    "00-inbox/Optimizing End-to-End Latency of Sporadic Cause-Effect Chains Using Priority Inheritance.md",
-    "00-inbox/Automatic Latency Management for ROS 2- Benefits, Challenges, and Open Problems.md",
-    "HOMEPAGE.canvas",
-    "wsm/01-日记/2024-08-07.md",
-    "wsm/01-日记/2024-08-08.md",
-    "wsm/01-日记/2024-02-29.md",
-    "wsm/01-日记/2024-02-28.md",
-    "wsm/01-日记/2024-07-29.md",
-    "wsm/01-日记/2024-07-25.md",
-    "wsm/01-日记/2024-07-24.md",
-    "wsm/01-日记/2024-07-23.md",
-    "wsm/01-日记/2024-07-22.md",
-    "wsm/01-日记/2024-07-19.md",
-    "wsm/01-日记/2024-07-17.md",
-    "wsm/01-日记/2024-07-16.md",
-    "wsm/01-日记/2024-07-15.md",
-    "wsm/01-日记/2024-07-04.md",
     "HOMEPAGEiPhone.canvas",
     "00-模板/HOMEPAGE 模板.canvas",
     "00-模板/HOMEPAGEiPhone 模板.canvas"

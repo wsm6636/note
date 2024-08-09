@@ -78,7 +78,7 @@
       "endDateTimeType": "$endOfMonth",
       "uiType": "ring",
       "title": "月进度",
-      "fontColor": "#92cddcff"
+      "fontColor": "#b2a2c7ff"
     },
     {
       "id": "aaa95004-8de4-46c0-98c3-1cb190ee6163",
@@ -96,7 +96,7 @@
       "endDateTimeType": "$endOfYear",
       "uiType": "ring",
       "title": "年进度",
-      "fontColor": "#b2a2c7ff"
+      "fontColor": "#92cddcff"
     }
   ],
   "rootComponentId": "f137ae45-34ac-4d1b-b6d0-a37ea03b747d"

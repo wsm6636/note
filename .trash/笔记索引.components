@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "id": "feb8c2b6-c5e6-4c6c-b6a0-62f7d1940278",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T10:34:43.987Z",
+      "updateAt": "2024-08-09T10:34:43.987Z",
+      "components": [
+        {
+          "componentId": "8178e249-64da-4719-a742-71356659734d"
+        }
+      ],
+      "layoutType": "list"
+    },
+    {
+      "id": "8178e249-64da-4719-a742-71356659734d",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-09T10:34:51.156Z",
+      "updateAt": "2024-08-09T10:34:51.156Z",
+      "maxHeight": 1200,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "00-模板/笔记热力图.md"
+    }
+  ],
+  "rootComponentId": "feb8c2b6-c5e6-4c6c-b6a0-62f7d1940278"
+}

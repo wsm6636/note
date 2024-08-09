@@ -37,6 +37,20 @@
           "isShow": true,
           "wrap": false,
           "options": {}
+        },
+        {
+          "id": "c48d295a-9d80-44cc-92b3-9e12112e9e3a",
+          "name": "#月复盘完成度",
+          "isShow": true,
+          "type": "number",
+          "options": {
+            "prefix": "",
+            "suffix": "",
+            "totalValueType": "constant",
+            "color": "components--color-none",
+            "uiType": "progressBar",
+            "total": 100
+          }
         }
       ],
       "templates": [],

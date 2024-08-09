@@ -1,6 +1,6 @@
 ---
 created: 2024-08-06T10:38:00
-updated: 2024-08-08T16:16
+updated: 2024-08-09T11:59
 tags:
   - 笔记
   - 笔记/paper
@@ -19,13 +19,13 @@ End-to-End Timing Analysis of Task Chains for TSN-based Distributed Real-time Sy
 - [x] 公式单词大写
 - [ ] 做了什么，基于什么什么方法怎么去分析的
 - [ ] 图2 描述
-- [ ] 事件触发，看着像周期一样
+- [x] 事件触发，看着像周期一样
 - [x] 数据增加，TSN保障实时性
 - [ ] 实验加对比
 - [x] 随机WCET
 - [x] 不并行
-- [ ] 图表现出不并行
-- [ ] 图1删掉时钟
+- [x] 图表现出不并行
+- [x] 图1删掉时钟
 - [ ] 大背景，存在问题，用TSN，为什么用ATS，因为QOS所以需要end to end 分析，有人做了，但是不行在CAN上，自己的做法，得到一个更好的结果，关键词从大到小（end在最后）
 - [x] 图1 an TSN
 - [ ] ATS背景简单描述
@@ -117,12 +117,17 @@ For end-to-end timing analysis of cause-effect chains, much work has considered 
 The event-triggered mechanism for task chains, as shown in the figure where each task requires the completion of its preceding task to generate data, which then triggers the task to read the data for further processing. In the paper [tangReactionTimeAnalysis2023], a resource service curve model is utilized to analyze the maximum reaction time under event-triggered and data refresh modes. The paper [7461359] proposes a busy window analysis for static priority preemptive task chains. The [recursiveapproach] presents a method for deriving the end-to-end delay of an application, supporting both time-triggered and event-triggered task activation schemes for arbitrary event patterns. This research is based on the time-triggered mechanism.
 # system model
 
-**我们假设一组电子控制单元通过采用IEEE 802.1 QCR标准的TSN网络连接。每个任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行且在同一个ECU上不存在另一个并行执行的任务。。每两个ECU之间通过网络连接，这样组成了一条简单的基于TSN网络的车载分布式系统任务链。**
-We assume a group of ECUs connected through TSN network using the IEEE 802.1 QCR standard. Each task is statically assigned to one ECU, and all the jobs released by this task are executed on the same ECU in a fixed priority non-preemptive mode.  There are no other parallel executing tasks on the same ECU. Each pair of ECUs is connected through the network, forming a simple vehicle distributed system task chain based on TSN network.
+**我们假设一组电子控制单元，且每两个ECU之间通过TSN网络连接并采用IEEE 802.1 QCR标准。**
+We assume a set of electronic control units (ECUs), with each pair of ECUs connected by TSN  network which adopting the IEEE 802.1 Qcr standard.
+
 ## Task Module
 
-我们考虑单个ECU上的调度任务τ，Ei描述了调度任务τi的最差执行时间（WCET）。Ri描述了调度任务τi的最差响应时间，即所有调度任务实例从到达到完成的最大时间间隔。$J^{j}_i$是τi释放的第j个作业。对于所有τi释放的作业都与任务τi具有相同的属性。$r_i^j$表示释放时间以及$f^{j}_i$表示结束时间。
-We consider the scheduling task τ on a single ECU. Ei describes the worst-case execution time (WCET) of the scheduling task τi. Ri describes the worst-case reaction time of the scheduling task τi, i.e., the maximum time interval from arrival to completion of all scheduling task instances. $J^{j}_i$ is the jth job released by τi. All jobs released by τi have the same attributes as the task τi.  $r(J^{j}_i)$  represents the release time and $f(J^{j}_i)$  represents the finish time.
+我们考虑单个ECU上的调度任务τ，
+每个调度任务被静态的分配给一个ECU，该任务释放的所有作业都在同一个ECU上以固定优先级非抢占模式执行且在同一个ECU上不存在另一个并行执行的调度任务。
+Ei描述了调度任务τi的最差执行时间（WCET）。Ri描述了调度任务τi的最差响应时间，即所有调度任务实例从到达到完成的最大时间间隔。$J^{j}_i$是τi释放的第j个作业。对于所有τi释放的作业都与任务τi具有相同的属性。$r_i^j$表示释放时间以及$f^{j}_i$表示结束时间。
+We consider the scheduling task τ on a single ECU. 
+Each scheduling task is statically assigned to one ECU, and all the jobs released by this task are executed on the same ECU in a fixed priority non-preemptive mode. There are no other parallel executing scheduling tasks on the same ECU. 
+Ei describes the worst-case execution time (WCET) of the scheduling task τi. Ri describes the worst-case reaction time of the scheduling task τi, i.e., the maximum time interval from arrival to completion of all scheduling task instances. $J^{j}_i$ is the jth job released by τi. All jobs released by τi have the same attributes as the task τi.  $r(J^{j}_i)$  represents the release time and $f(J^{j}_i)$  represents the finish time.
 
 Bi表示调度任务τi的固定大小（为|Bi|）的输入缓冲区。每个调度任务τi从它的输入缓冲区Bi中读取由前驱作业τi-1产生的数据，并将自己产生的数据写入其后继任务τi+1的输入缓冲区Bi+1。
 单个ECU上的调度任务采用事件触发（ET）的方式，即当前一个作业$J^{j-1}_i$执行完成（$f(J^{j-1}_i)$时刻）写入缓冲区后，后一个任务$J^{j}_i$在$r(J^{j}_i)$ 时刻触发。后一个作业的读取操作时刻不会早于前一个作业的写入操作时刻。即$r(J^{j}_i) ≥ f(J^{j-1}_i)$
@@ -222,13 +227,13 @@ Definition  (Maximum data age): the maximum data age DA(c) of a Task chain is th
 
 
 ## An Illustrative Example
-在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，其中$\tau_0, \tau_1$和被分配给了ECU1而$\tau_2$分配给了ECU2，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=3$。任务$\tau_0$的周期$T=6$。**根据任务释放作业的情况我们可以进一步将作业链JC表示为$JC= \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。**
+在图中，任务链由外部事件z、三个调度任务和两个网络任务组成$C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$。调度任务$\tau_0, \tau_1$和$\tau_2$被静态的分配给了不同的两个ECU，其中$\tau_0, \tau_1$和被分配给了ECU1而$\tau_2$分配给了ECU2，他们通过两个交换机搭建通信网络。其中任务$\tau_0$, $\tau_1$和$\tau_2$的最差执行时间分别为$E_0=3$、$E_1=3$、$E_2=2$。任务$\tau_0$的周期$T=7$。**根据任务释放作业的情况我们可以进一步将作业链JC表示为$JC= \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$。**
 In the figure, the task chain consists of external event z, three scheduling tasks, and two network tasks, denoted as $C = \{z, \tau_0, \tau_1, m_1, m_2, \tau_2\}$. The scheduling tasks $\tau_0, \tau_1$, and $\tau_2$ are statically allocated to two different ECUs,   where 
-$\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=3$ respectively. The period of task $\tau_0$ is $T=6$. Based on the task release order, the job chain JC can be further represented as $JC = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
+$\tau_0, \tau_1$ are assigned to ECU1, and $\tau_2$ is assigned to ECU2, and they are connected through two switches to establish a communication network. The worst-case execution times for tasks $\tau_0, \tau_1$, and $\tau_2$ are $E_0=3$, $E_1=3$, and $E_2=2$ respectively. The period of task $\tau_0$ is $T=7$. Based on the task release order, the job chain JC can be further represented as $JC = \{z, J_0^2, J_1^1, m_1^2, m_2^2, J_2^3\}$.
 
 
-在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到**作业**$J_0^2$的输入缓冲区$B_0$。在t=6时刻采样任务释放的**作业**$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上**的作业**$J_0^2$处理数据结束并将更新后的数据写入**作业**$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=32$时刻，数据帧由交换机2传输到ECU2。最后在$t=36$时刻产生关于外部事件z的最终数据结果。如图所示，**根据定义处理外部事件z的链c的反应时间为$R(JC)=36-4=32$。作业链的数据年龄为$D(JC)=36-6=30$**
-At the system time $t=4$, an external event occurs and the relevant initial data is written into the input buffer $B_0$ of **job** $J_0^2$. At time $t=6$, the **job** $J_0^2$ that was released captures the external event data updated in its input buffer $B_0$. At $t=10$, the  **job** $J_0^2$ on ECU1 finishes processing the data and writes the updated data into the input buffer $B_1$ of **job** $J_1^1$. When **job** $J_1^1$ ends, the resulting output begins to be transmitted over the network to ECU2. The data frame is enqueued at time $t=17$, shaped by the ATS algorithm, and by time $t=21$, the entire data frame has finished processing at switch 1. As required by network topology or routing selection algorithms, the data frame is directed to switch 2, where it continues to undergo ATS-related processing. Similarly, at time $t=32$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=36$, the final data result regarding the external event z is produced. As shown in the figure, according to the definition, the reaction time of the task chain processing external event z is $R(JC) = 36 - 4 = 32$. The data age of the job chain is $D(JC) = 36 - 6 = 30$.
+在$t=4$的时刻系统产生了外部事件并写入相关的初始数据到**作业**$J_0^2$的输入缓冲区$B_0$。在t=7时刻采样任务释放的**作业**$J_0^2$捕捉到了它的输入缓冲区$B_0$更新的外部事件数据。在$t=10$时刻ECU1上**的作业**$J_0^2$处理数据结束并将更新后的数据写入**作业**$J_1^1$的输入缓冲区$B_1$。当任务$J_1^1$结束后，产生的输出将开始通过网络传输到ECU2。该数据帧在$t=17$时刻入队，通过ATS整形算法，并在$t=21$时刻整个数据帧在交换机1结束处理。根据网络拓扑或路由选择算法等要求数据帧被要求传输至交换机2，与上一次网络传输一样，数据帧将继续通过ATS相关处理。类似的在$t=29$时刻，数据帧由交换机2传输到ECU2。最后在$t=34$时刻产生关于外部事件z的最终数据结果。如图所示，**根据定义处理外部事件z的链c的反应时间为$R(JC)=34-4=30$。作业链的数据年龄为$D(JC)=34-7=27$**
+At the system time $t=4$, an external event occurs and the relevant initial data is written into the input buffer $B_0$ of **job** $J_0^2$. At time $t=7$, the **job** $J_0^2$ that was released captures the external event data updated in its input buffer $B_0$. At $t=10$, the  **job** $J_0^2$ on ECU1 finishes processing the data and writes the updated data into the input buffer $B_1$ of **job** $J_1^1$. When **job** $J_1^1$ ends, the resulting output begins to be transmitted over the network to ECU2. The data frame is enqueued at time $t=17$, shaped by the ATS algorithm, and by time $t=21$, the entire data frame has finished processing at switch 1. As required by network topology or routing selection algorithms, the data frame is directed to switch 2, where it continues to undergo ATS-related processing. Similarly, at time $t=29$, the data frame is transmitted from switch 2 to ECU2. Finally, at time $t=34$, the final data result regarding the external event z is produced. As shown in the figure, according to the definition, the reaction time of the task chain processing external event z is $R(JC) = 34 - 4 = 30$. The data age of the job chain is $D(JC) = 34 - 7 = 27$.
 
 # End-to-eng Timing Analysis
 
@@ -521,5 +526,7 @@ We present a comparison of our maximum reaction time and maximum data age with t
 # Conclusion
 
 在本文中，我们研究了一种基于TSN网络传输的任务链模型，将IEEE 802.1 Qcr标准作为连接多个ECU的网络传输任务的标准，并将单个ECU上的事件触发任务链与之结合。我们对提出的任务链进行了端到端时间分析，并给出了最大反应时间和最大数据年龄的上界。通过实验表明，我们提出的方法提高了性能。我们计划进一步探索TSN网络中Qcr标准以及其他类型流量对于任务链最大反应时间和最大数据年龄的影响，并将考虑TSN网络中路由选择、网络拓扑结构对于任务链端到端时间分析的影响。
+
+
   
 In this paper, we have investigated a task chain model based on TSN network transmission, adopting the IEEE 802.1 Qcr standard as the network transmission task standard for connecting multiple ECUs, and integrating event-triggered task chains on a single ECU with it. We conducted an end-to-end timing analysis of the proposed task chain and provided upper bounds for the maximum reaction time and maximum data age. Through experiments, we have demonstrated that the method we proposed improves performance. We plan to further explore the impact of the Qcr standard and other types of traffic in the TSN network on the maximum reaction time and maximum data age of the task chain, and will consider the effects of routing selection and network topology in the TSN network on the end-to-end timing analysis of the task chain.

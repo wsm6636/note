@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "id": "f28500c0-e7af-48af-9651-7fcf8abe6218",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:25:22.236Z",
+      "updateAt": "2024-08-08T11:25:22.236Z",
+      "components": [
+        {
+          "componentId": "52bc247b-b523-42e0-bdee-3ddf3b87a64e"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "52bc247b-b523-42e0-bdee-3ddf3b87a64e",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-08T11:25:40.717Z",
+      "updateAt": "2024-08-08T11:25:40.718Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "4a5fad3c-cf83-4be5-a553-136c3fff896d",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "a9d3aeeb-bc7b-42d6-8919-9282b59ea3d7",
+          "name": "status",
+          "isShow": false,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "1279fd3e-293f-46f8-8ce9-7dddc61689a8",
+          "name": "updated",
+          "isShow": false,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "8ea1696b-acca-4046-b040-6471d9cb8b4f",
+          "name": "${file.mtime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "772ee291-69f7-4e44-975e-bae238309f31",
+          "name": "ing",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "504629a6-99c1-4597-809e-0e3328a87f0a",
+          "name": "todo",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "1a4317ec-ecac-4b8a-a4ff-0ad5deeac8f6",
+          "name": "done",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "485a3efa-a976-4495-8cf3-a04c4e5f2f3f",
+          "name": "__$uncategorizedGroup",
+          "items": [],
+          "collapsed": false
+        }
+      ],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape"
+        },
+        "showGrid": false
+      },
+      "filter": {
+        "id": "6f11c78f-bf71-472e-ae8f-ac8b9bbd2036",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "c63ef044-72b6-4b4b-849f-8af073afd3e3",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "00-inbox",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "status",
+      "newPageLocation": {
+        "location": "00-inbox"
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "640e7654-5c5a-4d46-99bf-dd6cd240537d",
+            "property": "${file.mtime}",
+            "direction": "desc"
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "f28500c0-e7af-48af-9651-7fcf8abe6218"
+}
