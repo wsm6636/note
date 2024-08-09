@@ -16,9 +16,9 @@
               "state": {
                 "file": "HOMEPAGE.canvas",
                 "viewState": {
-                  "x": -1947.5,
-                  "y": -580.5,
-                  "zoom": -0.47378691161436753
+                  "x": -1950.5,
+                  "y": -570.5,
+                  "zoom": -0.4794892709785508
                 }
               },
               "pinned": true
@@ -231,13 +231,22 @@
       "obsidian42-brat:BRAT": true,
       "templater-obsidian:Templater": true,
       "obsidian-memos:Thino": false,
-      "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "homepage:Open homepage": false
     }
   },
   "active": "e18094cf0760c501",
   "lastOpenFiles": [
+    "02-paper/04-ESWEEK/ESWEEK-workspace 1.md",
     "00-inbox/年会-workspace.md",
+    "02-paper/05-SIES/SIES-workspace.md",
+    "03-research/02-因果链/Timing Analysis of Cause-Effect Chains with Heterogeneous Communication Mechanisms.md",
+    "03-research/02-因果链/Supporting end-to-end data propagation delay analysis for TSN-based distributed vehicular embedded systems.md",
+    "03-research/02-因果链/End-to-End Timing Analysis of Sporadic Cause-Effect Chains in Distributed Systems.md",
+    "03-research/02-因果链/End-To-End Timing Analysis in ROS2.md",
+    "03-research/02-因果链/Period Optimization for Hard Real-time Distributed Automotive Systems.md",
+    "03-research/02-因果链/Timing Analysis of Asynchronized Distributed Cause-Effect Chains.md",
+    "03-research/02-因果链/Reaction Time Analysis of Event-Triggered Processing Chains with Data Refreshing.md",
+    "03-research/01-端到端/End-to-end Timing Model Extraction from TSN-Aware Distributed Vehicle Software.md",
     "HOMEPAGE.canvas",
     "00-ccomponents/打卡.components",
     "00-inbox/2024-W32-08-05.md",
@@ -264,17 +273,9 @@
     "wsm/02-周记/2024-W08-02-19.md",
     "wsm/03-月复盘/2024-02.md",
     "00-模板/日记热力图.md",
-    "00-模板/运动热力图.md",
-    "00-模板/意语热力图.md",
-    "00-模板/英语热力图.md",
-    "00-模板/论文热力图.md",
-    "00-inbox/审稿意见.md",
     "06-图/06-nianhui/nianhui-ATS.png",
     "06-图/06-nianhui/nianhui-TT.png",
     "06-图/06-nianhui/nianhui-ET.png",
-    "00-模板/日记模板.md",
-    "00-ccomponents/未命名.md",
-    "00-inbox/Link Between Real-Time Scheduling and Time-Triggered Networks.md",
     "HOMEPAGEiPhone.canvas",
     "00-模板/HOMEPAGE 模板.canvas",
     "00-模板/HOMEPAGEiPhone 模板.canvas"

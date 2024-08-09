@@ -1,6 +1,6 @@
 ---
 created: 2024-08-06T10:38:00
-updated: 2024-08-09T11:59
+updated: 2024-08-09T15:29
 tags:
   - 笔记
   - 笔记/paper
@@ -14,10 +14,10 @@ End-to-End Timing Analysis of Task Chains for TSN-based Distributed Real-time Sy
 - [x] TSNQCR 的表达
 - [x] 章节的引用
 - [ ] 语法
-- [ ] 贡献：用 task chain分析，区别在于别的人网络分析没考虑怎么,网络在分析更重要，为了更确切的分析
+- [x] 贡献：用 task chain分析，区别在于别的人网络分析没考虑怎么,网络在分析更重要，为了更确切的分析
 - [x] 图片引用，前后统一
 - [x] 公式单词大写
-- [ ] 做了什么，基于什么什么方法怎么去分析的
+- [x] 做了什么，基于什么什么方法怎么去分析的
 - [ ] 图2 描述
 - [x] 事件触发，看着像周期一样
 - [x] 数据增加，TSN保障实时性
@@ -26,7 +26,7 @@ End-to-End Timing Analysis of Task Chains for TSN-based Distributed Real-time Sy
 - [x] 不并行
 - [x] 图表现出不并行
 - [x] 图1删掉时钟
-- [ ] 大背景，存在问题，用TSN，为什么用ATS，因为QOS所以需要end to end 分析，有人做了，但是不行在CAN上，自己的做法，得到一个更好的结果，关键词从大到小（end在最后）
+- [x] 大背景，存在问题，用TSN，为什么用ATS，因为QOS所以需要end to end 分析，有人做了，但是不行在CAN上，自己的做法，得到一个更好的结果，关键词从大到小（end在最后）
 - [x] 图1 an TSN
 - [ ] ATS背景简单描述
 - [x] 一般现在时，实验
@@ -35,6 +35,7 @@ End-to-End Timing Analysis of Task Chains for TSN-based Distributed Real-time Sy
 
 分布式实时系统应用复杂在物理上分散，通常由多个电子控制单元构成。这种系统不仅需要满足实时性约束，对端到端时序也需要限制以免产生灾难性后果。
 系统的性质因控制任务之间经常存在的因果关系而变得更加复杂。控制任务形成任务链，其中一个任务的输出是另一个任务的输入。这样的任务链也增加了端到端时序分析的复杂性。
+
 
 网络传输是分布式实时系统的重要部分。随着数据量增加时间敏感网络已成为一种可以保障实时性的新的解决方案。其中的IEEE 802.1 QCR标准可以降低同步复杂性同时保证实时性。而网络同样会影响任务链端到端时序分析
 ，但现有的分析通常采用CAN总线并简化ECU们之间的链接。
@@ -55,8 +56,12 @@ In this paper, we use the task chain model to perform end-to-end timing analysis
 Distributed Real-time Systems, TSN, ATS，End-to-End Timing Analysis, 
 
 # introduction
-分布式实时系统对于具有复杂性应用和分散性物理部署的领域友好，所以分布式实时系统应用广泛，尤其是自动驾驶领域。通常会将分布式实时系统部署在多个电子控制单元上，通过一些列任务完成一些功能或者对外部事件做出反应。这些完成功能或处理外部事件的任务经常需要按序执行，所以他们通常存在因果关系，即一个任务的输入由另一个任务的输出决定。所以在这样的分布式实时系统中不仅需要满足截止时间的约束，还需要考虑端到端时序的约束以满足功能的正确性和系统的安全性。
-Distributed real-time systems are particularly adept at handling applications with complexity and physical dispersion, making them extensively utilized across various domains, notably in the realm of autonomous driving. These systems are commonly deployed across a multitude of electronic control units (ECUs), executing a sequence of tasks to perform specific functions or react to external events. The tasks involved in executing these functions or processing events often need to be executed in an ordered manner, typically exhibiting causal relationships where the input of one task is derived from the output of another. In such distributed real-time systems, it is crucial not only to adhere to deadline constraints but also to consider end-to-end timing constraints to ensure the functionality's correctness and the system's safety. 
+分布式实时系统对于具有复杂性应用和分散性物理部署的领域友好，所以分布式实时系统应用广泛，尤其是自动驾驶领域。通常会将分布式实时系统部署在多个电子控制单元上，通过一些列任务完成一些功能或者对外部事件做出反应。在这样的分布式实时系统中不仅需要满足截止时间的约束，还需要考虑端到端时序的约束以满足功能的正确性和系统的安全性。这些完成功能或处理外部事件的任务经常需要按序执行，所以他们通常存在因果关系并且形成任务链，即一个任务的输入由另一个任务的输出决定。
+
+Distributed real-time systems are particularly adept at handling applications with complexity and physical dispersion, making them extensively utilized across various domains, notably in the realm of autonomous driving. These systems are commonly deployed across a multitude of electronic control units (ECUs), executing a sequence of tasks to perform specific functions or react to external events. In such distributed real-time systems, it is crucial not only to adhere to deadline constraints but also to consider end-to-end timing constraints to ensure the functionality's correctness and the system's safety. 
+The tasks involved in executing these functions or processing events often need to be executed in an ordered manner, typically exhibiting causal relationships and form task chains, where the input of one task is derived from the output of another. 
+
+
 
 
 端到端时序约束根据端到端时序语义，包括反应时间约束和数据年龄约束，并且由AUTOSAR[AUTOSAR]定义。其中反应时间表示外部事件直到系统每个相关任务处理这个更新的最早时间间隔的长度，还有另一种表达按键到动作的延迟；数据年龄则表示对于外部事件开始处理后直到基于采样数据所产生激励之间的时间间隔长度，也称作最坏情况下的数据新鲜度。 **在每两个相邻的任务之间多是通过缓冲区读写数据来进行通信的。**
@@ -67,46 +72,56 @@ End-to-end timing constraints, as defined by AUTOSAR \cite{AUTOSAR}, are based o
 > 111End-to-end Timing Modeling and Analysis of TSN in Component-Based Vehicular Software
 > Efficient maximum data age analysis for cause-effect chains in automotive systems
 
-对于端到端时序的分析，在单个ECU上多年来已有多种方法，并且运用于多个领域，例如第二代机器人操作系统ros2[teper2022end]【ROS2】、航电系统【Hybrid】、车载系统【111】【Efficient】等。复杂的数据依赖关系使得端到端延迟分析变得难以处理，而且不仅仅针对单个ECU内部之间因果链的时延，多个ECU之间由于网络通信的存在也使得分布式因果链的端到端分析变得更加复杂[arestova2022itans]。
 
-Analysis of end-to-end timing has been carried out for many years on individual ECUs, and it has been applied across various domains, such as the second-generation Robot Operating System (ROS 2) \cite{teper2022end}, avionics systems \cite{Hybrid}, and vehicular systems \cite{10196870}\cite{bi2022efficient}. The complex data dependencies make the analysis of end-to-end latency challenging, not only for the latency within the cause-effect chains of a single ECU but also for multiple ECUs due to the presence of network communication, which complicates the end-to-end analysis of distributed causal chains \cite{arestova2022itans}.
+但任务链得存在通常使得端到端时序分析变得更加复杂
+However, the existence of task chains usually makes end-to-end timing analysis more complicated.
 
-> [13] Davis R I, Burns A, Bril R J, et al. Controller Area Network (CAN) schedulability analysis: Refuted, revisited and revised[J]. Real-Time Systems, 2007, 35: 239-272.
-> [14] 
-> Mubeen S, Mäki-Turja J, Sjödin M. MPS-CAN analyzer: Integrated implementation of response-time analyses for Controller Area Network[J]. Journal of Systems architecture, 2014, 60(10): 828-841.
 
-以前关于多ECU联合的端到端时序分析通常考虑CAN总线为通信方式，例如【13-14】但目前嵌入式实时系统被接入更多的传感器已采集大量信息，同时也造成数据传输量激增，CAN总线不能更好的满足嵌入式实时系统某些高带宽低时延的要求。时间敏感网络被考虑为嵌入式实时系统以及控制领域的通信方式之一。
-Previously, end-to-end timing analysis for multiple ECUs typically considered the Controller Area Network (CAN) bus as the communication method, as seen in references \cite{Controllerarea}\cite{MPS}. However, with the increasing integration of numerous sensors in embedded real-time systems to collect vast amounts of information, there has been a surge in data transmission volume. The CAN bus is no longer adequately meeting the high bandwidth and low latency requirements of certain embedded real-time systems. Time-Sensitive Networking (TSN) is being considered as one of the communication methods for embedded real-time systems and the control domain.
-
-目前已有研究将TSN与任务链相结合，【houtanSupportingEndtoendData2023】通过实际汽车案例建模任务链并通过IEEE 802.1 Qbv协议作为网络传输的桥梁。
-Currently, there have been studies combining TSN with task chains. \cite{zhouInsightIEEE8022019a} Modeling task chains using real-world automotive cases and using the IEEE 802.1Qbv protocol as a bridge for network transmission.
+目前嵌入式实时系统被接入更多的传感器已采集大量信息，同时也造成数据传输量激增，CAN总线不能更好的满足嵌入式实时系统某些高带宽低时延的要求。为了更好的满足数据传输以及实时性的要求时间敏感网络被考虑为嵌入式实时系统以及控制领域的通信方式之一。
+At present, embedded real-time systems are connected to more sensors to collect a lot of information, which also causes a surge in data transmission. The CAN bus cannot better meet the requirements of some high-bandwidth and low-latency embedded real-time systems. In order to better meet the requirements of data transmission and real-time performance, time-sensitive networks are considered as one of the communication methods in embedded real-time systems and control fields.
 
 虽然TSN在确定性传输上非常有效，但例如Qbv标准由于TAS存在所以对定时同步要求严格，若同步出错则增加了TSN网络的确定性以及分析的复杂性。而异步流量整形（ATS）（IEEE 802.1Qcr），旨在允许取消同步并允许每个节点按照本地始终定时发送流，以此降低同步的复杂性，这样的异步操作依旧可以满足低延迟高带宽和确定性需求，也同样适合应用在分布式系统中。
 Although TSN is highly effective for deterministic transmission, standards such as Qbv, which incorporate TAS, have strict requirements for timing synchronization. If synchronization is off, it increases the complexity and determinism of the TSN network analysis. Asynchronous Traffic Shaping (ATS) (IEEE 802.1Qcr), on the other hand, is designed to allow the elimination of synchronization, permitting each node to send flow traffic according to its local clock timing. This reduction in synchronization complexity still meets the needs for low latency, high bandwidth, and determinism, and is also suitable for application in distributed systems.
 
+在网络传输方式更新的情况下，为了更好的满足系统功能的正确性和系统的安全性，我们需要更适合的端到端时序分析方式。
+As network transmission methods are updated, in order to better meet the correctness of system functions and system security, we need a more suitable end-to-end timing analysis method.
+
+对于端到端时序的分析，在单个ECU上多年来已有多种方法，并且运用于多个领域，例如第二代机器人操作系统ros2[teper2022end]【ROS2】、航电系统【Hybrid】、车载系统【111】【Efficient】等。
+Analysis of end-to-end timing has been carried out for many years on individual ECUs, and it has been applied across various domains, such as the second-generation Robot Operating System (ROS 2) \cite{teper2022end}, avionics systems \cite{Hybrid}, and vehicular systems \cite{10196870}\cite{bi2022efficient}. 
+对于多ECU上的分析有例如【gunzel2021timing】提出切割定理将联合任务链拆解为ECU上的任务链与通信任务链以求取端到端时延界限。
+For the analysis across multiple ECUs, for example, the work 【gunzel2021timing】 proposes the slicing theorem, which decomposes the joint task chain into ECU task chains and communication task chains to derive the end-to-end latency bounds. 
+但目前关于多ECU联合的端到端时序分析通常考虑CAN总线为通信方式，例如【13-14】。
+But end-to-end timing analysis for multiple ECUs typically considered the Controller Area Network (CAN) bus as the communication method, as seen in references \cite{Controllerarea}\cite{MPS}.
+但正如前文所说，CAN总线不能更好的满足数据量增加下的实时性要求。并且而对于通信部分多数研究参考【davare2007period】所提出的分析，认为通信任务与ECU任务一样用任务的最差响应时间与周期求和得到上界。这种简化了网络通信也影响了端到端时序分析的结果。
+As mentioned earlier, the CAN bus cannot better meet the real-time requirements as the amount of data increases. And for communication part, many studies refer to the analysis proposed by 【davare2007period】which considers communication tasks in the same way as ECU tasks, using the worst-case response time and period of the tasks to sum up and obtain an upper bound. This simplification of network communication also affects the results of end-to-end timing analysis.
+
+虽然目前已有研究将TSN与任务链相结合，【houtanSupportingEndtoendData2023】通过实际汽车案例建模任务链并通过IEEE 802.1 Qbv协议作为网络传输的桥梁。
+Currently, there have been studies combining TSN with task chains. \cite{zhouInsightIEEE8022019a} Modeling task chains using real-world automotive cases and using the IEEE 802.1Qbv protocol as a bridge for network transmission.
+
+针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络传输标准，ATS算法作为队列整形算法。
+For general embedded real-time system scenarios, asynchronous systems are still widely used to reduce complexity, for example, using the CAN bus as network transmission. Therefore, in this paper, we choose the asynchronous IEEE 802.1Qcr as the network task standard and the ATS algorithm as the queue shaping algorithm.
 
 在IEEE 802.1 Qcr协议中使用基于令牌桶的ATS算法，如图所示，在TSN交换机中数据流将通过令牌桶的方式整形队列分配给数据帧资格时间，到达队列头的数据帧通过判断资格时间以及经过优先级选择，最终和其他未整形数据流一起输出。
 The Token Bucket-based ATS algorithm was used in the IEEE 802.1 Qcr protocol as shown in the figure \ref{ATS}. In TSN switches, data flows are shaped and queues are allocated to data frames based on token bucket. Data frames reaching the head of the queue are output together with other non-shaped data flows after evaluating their eligibility time and priority selection.
 
-针对一般的嵌入式实时系统场景，异步系统仍然被广泛应用以减少复杂性例如使用CAN总线作为网络传输。所以在本文中我们选择异步的IEEE 802.1Qcr作为网络传输标准，ATS算法作为队列整形算法。
-For general embedded real-time system scenarios, asynchronous systems are still widely used to reduce complexity, for example, using the CAN bus as network transmission. Therefore, in this paper, we choose the asynchronous IEEE 802.1Qcr as the network task standard and the ATS algorithm as the queue shaping algorithm.
-
 
 贡献： 
 我们研究了分布式实时系统上基于TSN网络的任务链端到端时间分析，我们的贡献是：
-- 在第二节中，我们作为第一个给出了基于TSN网络IEEE 802.1Qcr标准的分布式实时系统任务链模型，包括单个ECU上的任务模型和多个ECU链接的网络任务模型。其中多ECU通过TSN相互连接，我们是使用的TSN标准为IEEE 802.1Qcr。
+- 在第二节中，我们通过使用任务链模型，结合IEEE 802.1Qcr标准，完善了端到端时序分析中被简化的网络传输部分，并进行分析。
 - 在第三节中，我们对多ECU场景下最大反应时间和最大数据年龄进行分析，为采用IEEE 802.1Qcr标准的网络传输任务链分别提供了上界。
 - 在第四节中，我们进行了评估并证明提出的方法提高了性能.
 
 
 \textbf{Contribution}: We have studied the end-to-end timing analysis of task chains based on TSN networks in distributed real-time systems. Our contributions are:
 \begin{itemize}
-    \item In Section 2, We are the first to provide a task chain model for distributed real-time systems based on the TSN network IEEE 802.1Qcr standard.
+    \item In Section 2, We use the task chain model and combine it with the IEEE 802.1Qcr standard to improve the simplified network transmission part in the end-to-end timing analysis and perform analysis.
     % we present the task chain models for distributed real-time systems based on TSN networks, 
     including the task model for a single ECU and the network task model for multiple ECUs connected through TSN. The TSN standard we use is IEEE 802.1Qcr.
     \item In Section 3, we analyze the maximum reaction time and maximum data age in a multi-ECU scenario, providing upper bounds on the maximum reaction time for network transmission task chains adopting the IEEE 802.1Qcr standard.
     \item In Section 4,  we evaluate and demonstrate that the proposed method improves the performance.
 \end{itemize}
+
+
 # related work
 
 
@@ -525,8 +540,6 @@ We present a comparison of our maximum reaction time and maximum data age with t
 
 # Conclusion
 
-在本文中，我们研究了一种基于TSN网络传输的任务链模型，将IEEE 802.1 Qcr标准作为连接多个ECU的网络传输任务的标准，并将单个ECU上的事件触发任务链与之结合。我们对提出的任务链进行了端到端时间分析，并给出了最大反应时间和最大数据年龄的上界。通过实验表明，我们提出的方法提高了性能。我们计划进一步探索TSN网络中Qcr标准以及其他类型流量对于任务链最大反应时间和最大数据年龄的影响，并将考虑TSN网络中路由选择、网络拓扑结构对于任务链端到端时间分析的影响。
-
-
+在本文中，我们通过使用任务链模型，将IEEE 802.1 Qcr标准作为连接多个ECU的网络传输任务的标准，并将单个ECU上的事件触发任务链与之结合。我们对基于TSN网络的任务链进行了端到端时间分析，并给出了最大反应时间和最大数据年龄的上界。通过实验表明，我们提出的方法提高了性能。我们计划进一步探索IEEE 802.1Qcr标准以及其他类型流量对于任务链最大反应时间和最大数据年龄的影响，并将考虑TSN网络中路由选择、网络拓扑结构对于任务链端到端时间分析的影响。
+In this paper, we use the task chain model to combine the IEEE 802.1 Qcr standard as a standard for network transmission tasks connecting multiple ECUs and event-triggered task chains on a single ECU. We perform an end-to-end time analysis on the task chain based on the TSN network and give upper bounds on the maximum reaction time and maximum data age. Experiments show that our proposed method improves performance. We plan to further explore the impact of the IEEE 802.1 Qcr standard and other types of traffic on the maximum reaction time and maximum data age of the task chain, and will consider the impact of routing selection and network topology in the TSN network on the end-to-end time analysis of the task chain.
   
-In this paper, we have investigated a task chain model based on TSN network transmission, adopting the IEEE 802.1 Qcr standard as the network transmission task standard for connecting multiple ECUs, and integrating event-triggered task chains on a single ECU with it. We conducted an end-to-end timing analysis of the proposed task chain and provided upper bounds for the maximum reaction time and maximum data age. Through experiments, we have demonstrated that the method we proposed improves performance. We plan to further explore the impact of the Qcr standard and other types of traffic in the TSN network on the maximum reaction time and maximum data age of the task chain, and will consider the effects of routing selection and network topology in the TSN network on the end-to-end timing analysis of the task chain.

@@ -25,7 +25,7 @@
 		},
 		{"id":"12706d4a9a6cf3f7","type":"text","text":"![文件列表](00-ccomponents/首页文件索引.components)\n    \n    \n    \n    \n    \n    \n    \n\n","x":-1963,"y":-755,"width":769,"height":654},
 		{"id":"30cd38c9705c0a8d","type":"text","text":"![统计](00-ccomponents/统计.components)\n","x":-2505,"y":-1079,"width":507,"height":170},
-		{"id":"da236e0cb22143df","type":"text","text":"\n```contributionGraph\ntitle: \"\"\ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"0\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: PAGE_PROPERTY\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 4px\n  minHeight: 4px\n  borderRadius: \"\"\n\n```\n\n","x":-2703,"y":-680,"width":765,"height":672},
+		{"id":"da236e0cb22143df","type":"text","text":"\n```contributionGraph\ntitle: \"\"\ngraphType: calendar\ndateRangeValue: 1\ndateRangeType: LATEST_YEAR\nstartOfWeek: \"0\"\nshowCellRuleIndicators: true\ntitleStyle:\n  textAlign: left\n  fontSize: 15px\n  fontWeight: normal\ndataSource:\n  type: PAGE\n  value: \"\"\n  dateField:\n    type: PAGE_PROPERTY\n    value: updated\nfillTheScreen: true\nenableMainContainerShadow: false\nmainContainerStyle:\n  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px\n  backgroundColor: \"#00000000\"\ncellStyleRules:\n  - id: Lovely_a\n    color: \"#fedcdc\"\n    min: 1\n    max: 2\n    text: \"\"\n  - id: Lovely_b\n    color: \"#fdb8bf\"\n    min: 2\n    max: 3\n  - id: Lovely_c\n    color: \"#f892a9\"\n    min: 3\n    max: 5\n  - id: Lovely_d\n    color: \"#ec6a97\"\n    min: 5\n    max: 9999\ncellStyle:\n  minWidth: 4px\n  minHeight: 4px\n  borderRadius: \"\"\n\n```\n\n","x":-2703,"y":-660,"width":765,"height":672},
 		{
 			"id":"efc6103b5c612f67",
 			"type":"text",
@@ -43,7 +43,7 @@
 			"x":-2703,
 			"y":-804,
 			"width":730,
-			"height":180
+			"height":208
 		},
 		{"id":"7f6d4e0244d62eef","type":"text","text":"![components-20240809131921](00-ccomponents/导航.components)","x":-2711,"y":-877,"width":738,"height":146}
 	],
